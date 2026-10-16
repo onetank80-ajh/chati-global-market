@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T13:55:32.213200+00:00",
-  "generated_at_kst": "2026-10-16T22:55:32.213200+09:00",
+  "generated_at_utc": "2026-10-16T14:01:11.857619+00:00",
+  "generated_at_kst": "2026-10-16T23:01:11.857619+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -12,17 +12,17 @@
   "market_signals": [
     {
       "indicator": "미국 대형주",
-      "change_percent": 0.023,
-      "reference_direction": "우호적"
+      "change_percent": -0.058,
+      "reference_direction": "주의"
     },
     {
       "indicator": "반도체",
-      "change_percent": -1.975,
+      "change_percent": -2.065,
       "reference_direction": "주의"
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.526,
+      "change_percent": -0.51,
       "reference_direction": "우호적"
     }
   ],
@@ -33,22 +33,9 @@
       "source": "Investment Week",
       "published_at_utc": "2026-10-16T10:27:05+00:00",
       "category": "us_market",
-      "age_hours": 3.5,
+      "age_hours": 3.6,
       "freshness_score": 93,
       "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdEhSeG1xaXhfMERuZzJFUEthTFFJenZ5cWZYQm56NDd3d3JrMmQ4THc3WWozanFDSTNFNHM4c1RHV2RxeFhhU3VaNmUtREZJd24yOGhDUGE4LV9hRWNTdzVzeGpoeTRlRzRTUWdvU3RRTTdlWjhiRTBaMTY0ZlN4UmlVSkJUaGhjanpoaXdrc1hmc2duVzh0dUdwR2c5OUtnNVVETmlqVkN3UmtOSWY2OWJuRkZEcThEYUFTaTBna3l6M2U4dVQ0SUtvNEhCRFJCTUo4RWlIM0oxUGZUT2xmWnVCTGtLNmdNcjROTXp5NWtPSmZyZDltanZ5Q0tVRUE?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-16T09:13:10+00:00",
-      "category": "semiconductor",
-      "age_hours": 4.7,
-      "freshness_score": 91,
-      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
@@ -59,7 +46,7 @@
       "source": "TradingView",
       "published_at_utc": "2026-10-16T09:25:22+00:00",
       "category": "us_market",
-      "age_hours": 4.5,
+      "age_hours": 4.6,
       "freshness_score": 91,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -70,8 +57,21 @@
       "source": "Benzinga",
       "published_at_utc": "2026-10-16T09:35:15+00:00",
       "category": "semiconductor",
-      "age_hours": 4.3,
+      "age_hours": 4.4,
       "freshness_score": 91,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdEhSeG1xaXhfMERuZzJFUEthTFFJenZ5cWZYQm56NDd3d3JrMmQ4THc3WWozanFDSTNFNHM4c1RHV2RxeFhhU3VaNmUtREZJd24yOGhDUGE4LV9hRWNTdzVzeGpoeTRlRzRTUWdvU3RRTTdlWjhiRTBaMTY0ZlN4UmlVSkJUaGhjanpoaXdrc1hmc2duVzh0dUdwR2c5OUtnNVVETmlqVkN3UmtOSWY2OWJuRkZEcThEYUFTaTBna3l6M2U4dVQ0SUtvNEhCRFJCTUo4RWlIM0oxUGZUT2xmWnVCTGtLNmdNcjROTXp5NWtPSmZyZDltanZ5Q0tVRUE?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-10-16T09:13:10+00:00",
+      "category": "semiconductor",
+      "age_hours": 4.8,
+      "freshness_score": 90,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -83,7 +83,7 @@
       "source": "New Haven Register",
       "published_at_utc": "2026-10-16T06:24:44+00:00",
       "category": "korea",
-      "age_hours": 7.5,
+      "age_hours": 7.6,
       "freshness_score": 85,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -94,7 +94,7 @@
       "source": "Bozeman Daily Chronicle",
       "published_at_utc": "2026-10-16T06:08:18+00:00",
       "category": "korea",
-      "age_hours": 7.8,
+      "age_hours": 7.9,
       "freshness_score": 84,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -105,7 +105,7 @@
       "source": "Stocktwits",
       "published_at_utc": "2026-10-16T03:31:08+00:00",
       "category": "us_market",
-      "age_hours": 10.4,
+      "age_hours": 10.5,
       "freshness_score": 79,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -118,7 +118,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-16T01:40:00+00:00",
       "category": "us_market",
-      "age_hours": 12.3,
+      "age_hours": 12.4,
       "freshness_score": 75,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -144,7 +144,7 @@
       "source": "WJTV",
       "published_at_utc": "2026-10-15T09:50:20+00:00",
       "category": "korea",
-      "age_hours": 28.1,
+      "age_hours": 28.2,
       "freshness_score": 44,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -157,7 +157,7 @@
       "source": "Business Insider",
       "published_at_utc": "2026-10-15T08:05:00+00:00",
       "category": "korea",
-      "age_hours": 29.8,
+      "age_hours": 29.9,
       "freshness_score": 40,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -170,7 +170,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-15T04:54:00+00:00",
       "category": "korea",
-      "age_hours": 33.0,
+      "age_hours": 33.1,
       "freshness_score": 34,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -183,8 +183,8 @@
       "source": "CNBC",
       "published_at_utc": "2026-10-15T00:42:00+00:00",
       "category": "semiconductor",
-      "age_hours": 37.2,
-      "freshness_score": 26,
+      "age_hours": 37.3,
+      "freshness_score": 25,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -196,7 +196,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-14T23:33:39+00:00",
       "category": "us_market",
-      "age_hours": 38.4,
+      "age_hours": 38.5,
       "freshness_score": 23,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -207,7 +207,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-14T20:23:29+00:00",
       "category": "semiconductor",
-      "age_hours": 41.5,
+      "age_hours": 41.6,
       "freshness_score": 17,
       "headline_tone": "부정 표현",
       "sectors": [
