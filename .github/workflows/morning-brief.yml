@@ -1,0 +1,29 @@
+name: Chati Morning Brief 0730 KST
+on:
+  schedule:
+    - cron: '30 22 * * 0-4' # UTC Sunday-Thursday = KST Monday-Friday 07:30
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: chati-morning-brief
+  cancel-in-progress: false
+jobs:
+  morning:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate morning brief from existing JSON snapshots
+        run: python scripts/morning_brief.py
+      - name: Commit updated JSON
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/morning.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update morning briefing data'
+            git push
+          fi
