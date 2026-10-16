@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-16T10:55:11.779895+00:00",
+  "generated_at_kst": "2026-10-16T19:55:11.779895+09:00",
+  "data_kind": "daily_close_snapshot_not_live",
+  "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
+  "markets": {
+    "nasdaq": {
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "unit": "points",
+      "close": 26713.0293,
+      "previous_close": 26692.8691,
+      "change": 20.1602,
+      "change_percent": 0.076,
+      "market_date": "2026-10-15",
+      "status": "ok"
+    },
+    "sp500": {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "unit": "points",
+      "close": 7744.0601,
+      "previous_close": 7718.9399,
+      "change": 25.1201,
+      "change_percent": 0.325,
+      "market_date": "2026-10-15",
+      "status": "ok"
+    },
+    "dow": {
+      "symbol": "^DJI",
+      "name": "Dow Jones",
+      "unit": "points",
+      "close": 52177.6914,
+      "previous_close": 51621.4805,
+      "change": 556.2109,
+      "change_percent": 1.077,
+      "market_date": "2026-10-15",
+      "status": "ok"
+    },
+    "sox": {
+      "symbol": "^SOX",
+      "name": "PHLX Semiconductor",
+      "unit": "points",
+      "close": 11581.21,
+      "previous_close": 11684.3799,
+      "change": -103.1699,
+      "change_percent": -0.883,
+      "market_date": "2026-10-15",
+      "status": "ok"
+    },
+    "usdkrw": {
+      "symbol": "KRW=X",
+      "name": "USD/KRW",
+      "unit": "KRW per USD",
+      "close": 1331.14,
+      "previous_close": 1339.35,
+      "change": -8.21,
+      "change_percent": -0.613,
+      "market_date": "2026-10-16",
+      "status": "ok"
+    }
+  }
+}
