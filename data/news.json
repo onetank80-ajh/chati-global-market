@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T13:28:23.890123+00:00",
-  "generated_at_kst": "2026-10-16T22:28:23.890123+09:00",
+  "generated_at_utc": "2026-10-16T13:55:30.930844+00:00",
+  "generated_at_kst": "2026-10-16T22:55:30.930844+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -50,9 +50,9 @@
     {
       "category": "semiconductor",
       "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOLU5nNFRzeWREWHVkNXhDYmdwLVp4TGFCbk1NTzB0NmpyWUVkc2E5cnNxX1paaFM4cDNXaGFaeUxtXzdxLTkxT1p0NDdxckJ2YlNDU3VEeGZkQ084ZXdBdG1yeS04QW5ZXzRSc29hcnVCOUlxUmtpSW9EMWdrNkVyMWNTRGo4ZWdDUF9NWkRZbm9xUUVvWFlhcHplLXNUcmhrLWxEOUdGRWcyZG1GcDYybjNuaUs3UTFfbWxodEFXU3paNGpWMUl2SnBINjB1U25EaDVoQ0lkTWtlSUlDeHhibUtjT3M3VzJ3SzNEV1lOekZ6MEQ3bWpIUUQwVmM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdEhSeG1xaXhfMERuZzJFUEthTFFJenZ5cWZYQm56NDd3d3JrMmQ4THc3WWozanFDSTNFNHM4c1RHV2RxeFhhU3VaNmUtREZJd24yOGhDUGE4LV9hRWNTdzVzeGpoeTRlRzRTUWdvU3RRTTdlWjhiRTBaMTY0ZlN4UmlVSkJUaGhjanpoaXdrc1hmc2duVzh0dUdwR2c5OUtnNVVETmlqVkN3UmtOSWY2OWJuRkZEcThEYUFTaTBna3l6M2U4dVQ0SUtvNEhCRFJCTUo4RWlIM0oxUGZUT2xmWnVCTGtLNmdNcjROTXp5NWtPSmZyZDltanZ5Q0tVRUE?oc=5",
       "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-16T09:04:17+00:00"
+      "published_at_utc": "2026-10-16T09:13:10+00:00"
     },
     {
       "category": "semiconductor",
