@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T11:37:30.495958+00:00",
-  "generated_at_kst": "2026-10-16T20:37:30.495958+09:00",
+  "generated_at_utc": "2026-10-16T12:45:48.337534+00:00",
+  "generated_at_kst": "2026-10-16T21:45:48.337534+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
-    {
-      "category": "us_market",
-      "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-16T03:31:08+00:00"
-    },
     {
       "category": "us_market",
       "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-10-14T23:33:39+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
+      "source": "Stocktwits",
+      "published_at_utc": "2026-10-16T03:31:08+00:00"
     },
     {
       "category": "us_market",
@@ -87,7 +87,14 @@
       "title": "South Korea's KOSPI closes at 6-month low as chipmakers slump on AI worries - Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdWpRSjBjZzFURGRKR0VQWHlfRGlueEl6akRuam5yVExaVDJQWVYyckVBTDJ0WTlKc1F0THBUNWJBajN3bzRGa2U3TjBUSGxKS05NclZpWU14N2FVUzFoX05pQ1NwV2QtaXljRnJiUTZOc0RIaXZnMHlhX05aNmMwRmJhMmtINmRranYyVEFITFZJWnNGWFY1N2pNcEx0V3lEdTJZZWwzZnc1Y0U2ZFVpU0NnaUxydw?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-10-15T07:27:18+00:00"
+      "published_at_utc": "2026-10-15T04:54:00+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning - Bozeman Daily Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOR056UzllOGNFNG5PTUZCcm9rNjViMkdCWFFjM2RpSVgxYjhMR0FfOF9lZHhVSnRMMzZpdzNGdTRLeFpSMG15emlVLXo4R3dXR3M3T19mTlZwV05JbndwVzZULTQzX0FwSDV4NHBNeWhFb1FaS0diTUJ5X1hUUzBSR1Fhc0Fod1BTT0M1dTcySF8wbGZjbG9EWHI2NFhlVjJoenJpZzhaaldpazBNZURCTUxqN3hycXI1aEd3RnpBQmpNZi02T09EcXFqUTBDdWU1ejJCUl8wU21VT1k0OUZnSzhhVnM4QlNTd1B6SEthTzJXZkFDMFZONFl6bnFBUUlrUF9Sd1ptZEtBUy1YbEJrVnNWTzRxLUVjOVE?oc=5",
+      "source": "Bozeman Daily Chronicle",
+      "published_at_utc": "2026-10-16T06:08:18+00:00"
     },
     {
       "category": "korea",
@@ -98,16 +105,9 @@
     },
     {
       "category": "korea",
-      "title": "A tech sell-off drags stocks lower as markets in South Korea and Japan sink - Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLTJRdVNaY3VScVlDT29xRk1ibHJ1bEk3dlVBSmFEUm96dTNqU2owR1NhUkJ4UGZXWDBENVh5TmIxYy13YTJkNVBaczExdmNWbXRCeTNhaTJubDdnNmM3QlJmS2VuQ1BybE91QVNONzFsb3JBRk1tbWpnanN6eWd2SjBzcURNeTZHQXVaR2NXN1l2UUFKekNHWURGMUFsc3prRjFrZExvU25hdEsyVElqeTFOblBlZTlJcVRPNlh4YUVXOUpBeThaS3dRemM3aVd4S2c2X1JEWQ?oc=5",
-      "source": "Spectrum News",
-      "published_at_utc": "2026-10-15T09:50:00+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "South Korea's KOSPI triggers circuit breaker in tech-led selloff - Wichita Eagle",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1DMG92ZndGVE9aa3VOUzhzZUVuOGJPc0ZoeDd1Q2dvN2xJVTg5NlRqeHVUMDlrWU5BRDJkMzhhTkgtMGE0QS16WWFObXN3STJFOExCNWdpSUZPSjZUWlAxOWVjQlE1ZFBQSm1pb3R1eEVnVm5iRkJWUlV6bw?oc=5",
-      "source": "Wichita Eagle",
+      "title": "South Korea's KOSPI triggers circuit breaker in tech-led selloff - Rock Hill Herald",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkhVZVFKY0IwOFZwREVKWTNqVHZ3Z19mZmRPOVM1R1ZkNzB4TndzSzY4WkJjVkg0QVo4LXhfSEVWc21ValR4b0c0U1NYRlA2c0JqaW5XVjlOQVBOS3RKcUFBUnJfN2RJN1dnVzNiVGQ0M1llbjc5OGFKTk5Gb01aNFhmQQ?oc=5",
+      "source": "Rock Hill Herald",
       "published_at_utc": "2026-10-15T05:07:07+00:00"
     }
   ],
