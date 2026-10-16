@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T12:45:49.786769+00:00",
-  "generated_at_kst": "2026-10-16T21:45:49.786769+09:00",
+  "generated_at_utc": "2026-10-16T12:56:54.966315+00:00",
+  "generated_at_kst": "2026-10-16T21:56:54.966315+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,20 +22,20 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.569,
+      "change_percent": -0.592,
       "reference_direction": "우호적"
     }
   ],
   "headlines": [
     {
-      "title": "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQkJwR1ozRmlGcXpxTVBrWGlFdzJ2bmlKQ0FnUWRtbTZVaHdLM3JCVVlJem1tRG1zX3hSZ2dHQTV0NGxuRktnRjBFX2pPd1NrMkRPQUU3SEJ0Tk1rcWpkNEtRUmpRc3BkVnRiMmotN09ZNTFmWVU3NWx4ajRDaGJSNDZsODNvQ1p1TTlsX183SDBXdHU0cW5xZWhRTXIwZnZxMDFLQUtnc0tPQnZoV2RrRFExRGNkeDhvNXlIY0dNMHVaSXJzV1V4aXA1bVBkaTIwbmVwZ1EwVXNOZHpIN2V2R2ZjNA?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-10-16T09:35:15+00:00",
-      "category": "semiconductor",
-      "age_hours": 3.2,
-      "freshness_score": 94,
-      "headline_tone": "혼재/불명",
+      "title": "Market Movers blog: Chip stocks and global indices continue to slide following US inflation jump - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "source": "Investment Week",
+      "published_at_utc": "2026-10-16T10:27:05+00:00",
+      "category": "us_market",
+      "age_hours": 2.5,
+      "freshness_score": 95,
+      "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -46,7 +46,7 @@
       "source": "The Globe and Mail",
       "published_at_utc": "2026-10-16T09:13:10+00:00",
       "category": "semiconductor",
-      "age_hours": 3.5,
+      "age_hours": 3.7,
       "freshness_score": 93,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -54,15 +54,28 @@
       ]
     },
     {
-      "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning - Bozeman Daily Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOR056UzllOGNFNG5PTUZCcm9rNjViMkdCWFFjM2RpSVgxYjhMR0FfOF9lZHhVSnRMMzZpdzNGdTRLeFpSMG15emlVLXo4R3dXR3M3T19mTlZwV05JbndwVzZULTQzX0FwSDV4NHBNeWhFb1FaS0diTUJ5X1hUUzBSR1Fhc0Fod1BTT0M1dTcySF8wbGZjbG9EWHI2NFhlVjJoenJpZzhaaldpazBNZURCTUxqN3hycXI1aEd3RnpBQmpNZi02T09EcXFqUTBDdWU1ejJCUl8wU21VT1k0OUZnSzhhVnM4QlNTd1B6SEthTzJXZkFDMFZONFl6bnFBUUlrUF9Sd1ptZEtBUy1YbEJrVnNWTzRxLUVjOVE?oc=5",
-      "source": "Bozeman Daily Chronicle",
-      "published_at_utc": "2026-10-16T06:08:18+00:00",
-      "category": "korea",
-      "age_hours": 6.6,
-      "freshness_score": 87,
-      "headline_tone": "부정 표현",
+      "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Bessent Intensifies Economic Pressure on Iran, Treasury Yields Cool Off — TSLA, AA, IBKR in Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPd1FlM1FkcFU4ZEVOQzhVajd2N0wwcHloZ0VQRUlUc1pnU2FxRS1kckFfRkctVm5uV1ctRllSYVAtZ1JNb21pT25kU2djeC1wc01aaGxjQkI5V01wMGFReDh2SlVoQnMzZEpqWkoyZHdmLVE3U21KcVhTYkktckMwUE9USmZRbzdtSG1tRVBIbzl5dEpfVFJOa0tYTWh0MjFmbnB6YjJ5RW5VMkVueGZoaTJOYmd4OVB4R2duUk1NOUZGT2VlYWFjOENXOHZjclhMbl9vOXVXTjlFcDNvSkh2U2c0Y1VFNHE3X0JQaWhEd0hOZUxyZkJwRFNjM2tvNkExRXdGRmt5YkxYU3JxUEZfRVFtY1dTd1IxckpVdkFhNXU4V2p4?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-16T09:25:22+00:00",
+      "category": "us_market",
+      "age_hours": 3.5,
+      "freshness_score": 93,
+      "headline_tone": "긍정 표현",
       "sectors": []
+    },
+    {
+      "title": "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQkJwR1ozRmlGcXpxTVBrWGlFdzJ2bmlKQ0FnUWRtbTZVaHdLM3JCVVlJem1tRG1zX3hSZ2dHQTV0NGxuRktnRjBFX2pPd1NrMkRPQUU3SEJ0Tk1rcWpkNEtRUmpRc3BkVnRiMmotN09ZNTFmWVU3NWx4ajRDaGJSNDZsODNvQ1p1TTlsX183SDBXdHU0cW5xZWhRTXIwZnZxMDFLQUtnc0tPQnZoV2RrRFExRGNkeDhvNXlIY0dNMHVaSXJzV1V4aXA1bVBkaTIwbmVwZ1EwVXNOZHpIN2V2R2ZjNA?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-10-16T09:35:15+00:00",
+      "category": "semiconductor",
+      "age_hours": 3.4,
+      "freshness_score": 93,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
     },
     {
       "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning - New Haven Register",
@@ -70,20 +83,20 @@
       "source": "New Haven Register",
       "published_at_utc": "2026-10-16T06:24:44+00:00",
       "category": "korea",
-      "age_hours": 6.4,
+      "age_hours": 6.5,
       "freshness_score": 87,
       "headline_tone": "부정 표현",
       "sectors": []
     },
     {
-      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of Fed Rate Hike Expectations: CRCL, WING, CAVA, FPS Stocks In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPa24yX09GVG1IakJMbVU5ekJHOVFXOXFrVkg5TEZWeFk3bHZLWjFwX09aRXNTXzFIQlBXLTRNX3V3Y3VJZWt1VTJtVGRTbE9GVVJ1WXNmbmZiN3lKWUhkNzdMRnFUUEVVanlkUHFNLUYyRkt3eHRkakZGVUt6TVgtX3RIa3o4b3pOVWdLVGgtcXBkdTBmbXFTYlZ0aENBWnFJQlJNN3k5R3dJOUhjWEk1aURBVkZ2X2ZsZktyN0FZUlI5UTNBWmNsLW9iazlqX2cwS0FrSy1nN3Q4RVkyTVRCQnBzWWdoWE9oX0gyQW5pT3V1TDEzbENzVDNoZWtfMThmUUhtN3hiY0k?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-16T04:00:43+00:00",
-      "category": "us_market",
-      "age_hours": 8.8,
-      "freshness_score": 82,
-      "headline_tone": "혼재/불명",
+      "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning - Bozeman Daily Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOR056UzllOGNFNG5PTUZCcm9rNjViMkdCWFFjM2RpSVgxYjhMR0FfOF9lZHhVSnRMMzZpdzNGdTRLeFpSMG15emlVLXo4R3dXR3M3T19mTlZwV05JbndwVzZULTQzX0FwSDV4NHBNeWhFb1FaS0diTUJ5X1hUUzBSR1Fhc0Fod1BTT0M1dTcySF8wbGZjbG9EWHI2NFhlVjJoenJpZzhaaldpazBNZURCTUxqN3hycXI1aEd3RnpBQmpNZi02T09EcXFqUTBDdWU1ejJCUl8wU21VT1k0OUZnSzhhVnM4QlNTd1B6SEthTzJXZkFDMFZONFl6bnFBUUlrUF9Sd1ptZEtBUy1YbEJrVnNWTzRxLUVjOVE?oc=5",
+      "source": "Bozeman Daily Chronicle",
+      "published_at_utc": "2026-10-16T06:08:18+00:00",
+      "category": "korea",
+      "age_hours": 6.8,
+      "freshness_score": 86,
+      "headline_tone": "부정 표현",
       "sectors": []
     },
     {
@@ -92,36 +105,25 @@
       "source": "Stocktwits",
       "published_at_utc": "2026-10-16T03:31:08+00:00",
       "category": "us_market",
-      "age_hours": 9.2,
-      "freshness_score": 82,
+      "age_hours": 9.4,
+      "freshness_score": 81,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "Nasdaq, S&P 500 Futures Edge Higher Ahead Of Fed Minutes: Why NVDA, TSLA, AAPL, APLD, PANW Are On Traders' Radar Today - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOUx1U2xJdXNyeWgxY0ZmNERFNDEzYW1lSzBoX3cwV2lNRVkzOGdRcDRjUVUtLXJNem9UUjJBdE9yekd2QjRpcjBJNTZKV2NMTlNaa21YTlUxSHhrc2xMdkFfaHRJRU9ZREF4M0huemFiMkZRcTZQU3hmSHVuUm0zUFZ4NWNDWUc2bElRVUFKM3lBRjRNQlY1SG01eE1oWm5PcUpkUjM4a3d1YkZPVHdTWlMxa3BvZnBvYlhwTGZSRG9yemQtVHFvMVBuRG0?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-16T03:27:39+00:00",
+      "title": "Nasdaq futures edge lower as AI spending, Fed rate concerns weigh - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJYUmdaN19naFptR3ZmeDdtMU9aX1BLeFNlSTR6Y0NsV3FabEZYamcwemZfRUExLTQ2enR6VVVpX1lSSWxVUGt1U3BFZHVmZ1Y2TDlYS29MaFZJNjAwTGVWNEJGZXNIblc0MjA2Z1dGbVFib2lIUjVhVVFwMUtXZ2ZOX3hZbDVoYU9vV1RxcW9KLThMZDVjeQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-16T01:40:00+00:00",
       "category": "us_market",
-      "age_hours": 9.3,
-      "freshness_score": 81,
-      "headline_tone": "긍정 표현",
+      "age_hours": 11.3,
+      "freshness_score": 77,
+      "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
-    },
-    {
-      "title": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTUZ6N3NFWUdsdWpkRU1YTkdBWFVKNmlqZGhMZG9jUlNpdnVxUmgzajRxLXlvNEczSlNUZFk2X3BHN3lXXzVkSjdweWJ0aHFGX3hfdjdWb3JYMkNYNmdkNGVHTzhqcWl4ODNXVUhZRV9Ka3VSRzgwaTdKM2RhOU5naTJpbVRITV9nLVBueXJHdVBKZUZ5Rmk3eUJhSVpmZGtK?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-16T01:18:56+00:00",
-      "category": "us_market",
-      "age_hours": 11.4,
-      "freshness_score": 77,
-      "headline_tone": "부정 표현",
-      "sectors": []
     },
     {
       "title": "US chip stocks face $2 trillion loss - The American Bazaar",
@@ -129,8 +131,21 @@
       "source": "The American Bazaar",
       "published_at_utc": "2026-10-15T15:52:13+00:00",
       "category": "semiconductor",
-      "age_hours": 20.9,
+      "age_hours": 21.1,
       "freshness_score": 58,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open - WJTV",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGZNbUJYWU1mRVoxaWVPdzl3ZzJPTDRxMXdIZTAwVEdRWVg5YlRCSzJoNXE5LWtwYTlpcGxvZ2ZibVZIRFBkSTUyMTgyM1htaE1ybnppNjlYR0JJZ1dyS0pFUTgxZGZOcGk0ZmtkaDVJb1ozY2oxSHZYdUMtTlQxdWJWelRwUVQxdUxpQnA4eDBJd0IyQkMyMEZKZG8wQ1lfZ0hCNTR5SkM2YVJXcXNPMkx3cGllUEnSAbwBQVVfeXFMT3o2Y0drRmR5NW5lUnV5a1ZmeVVPSGxILWhyQ1RXa3NsN2hxcUtiRWduSnQxTlMyZXVOaXo4Y2VLN05SeEwxTWItQ25JalFaYWhkTDRIdGhLS0RtckQxQUdXUkk5VDZDaXk5N1RVM2JFanZoSXY0Wmdrc01tVDlHc0RWaEpVVjRHTGhMa0JwdDA0WkhaWWpRNGx6S3BVb3JfcTZ6d2xNLV9HWVpsQ2JRTGFFbmFVTWp3RGhnMWU?oc=5",
+      "source": "WJTV",
+      "published_at_utc": "2026-10-15T09:50:20+00:00",
+      "category": "korea",
+      "age_hours": 27.1,
+      "freshness_score": 46,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -142,23 +157,12 @@
       "source": "Business Insider",
       "published_at_utc": "2026-10-15T08:05:00+00:00",
       "category": "korea",
-      "age_hours": 28.7,
-      "freshness_score": 43,
+      "age_hours": 28.9,
+      "freshness_score": 42,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
-    },
-    {
-      "title": "South Korea's KOSPI triggers circuit breaker in tech-led selloff - Rock Hill Herald",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkhVZVFKY0IwOFZwREVKWTNqVHZ3Z19mZmRPOVM1R1ZkNzB4TndzSzY4WkJjVkg0QVo4LXhfSEVWc21ValR4b0c0U1NYRlA2c0JqaW5XVjlOQVBOS3RKcUFBUnJfN2RJN1dnVzNiVGQ0M1llbjc5OGFKTk5Gb01aNFhmQQ?oc=5",
-      "source": "Rock Hill Herald",
-      "published_at_utc": "2026-10-15T05:07:07+00:00",
-      "category": "korea",
-      "age_hours": 31.6,
-      "freshness_score": 37,
-      "headline_tone": "부정 표현",
-      "sectors": []
     },
     {
       "title": "South Korea's KOSPI closes at 6-month low as chipmakers slump on AI worries - Reuters",
@@ -166,7 +170,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-15T04:54:00+00:00",
       "category": "korea",
-      "age_hours": 31.9,
+      "age_hours": 32.0,
       "freshness_score": 36,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -179,7 +183,7 @@
       "source": "CNBC",
       "published_at_utc": "2026-10-15T00:42:00+00:00",
       "category": "semiconductor",
-      "age_hours": 36.1,
+      "age_hours": 36.2,
       "freshness_score": 28,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -192,8 +196,8 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-14T23:33:39+00:00",
       "category": "us_market",
-      "age_hours": 37.2,
-      "freshness_score": 26,
+      "age_hours": 37.4,
+      "freshness_score": 25,
       "headline_tone": "부정 표현",
       "sectors": []
     },
@@ -203,7 +207,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-14T20:23:29+00:00",
       "category": "semiconductor",
-      "age_hours": 40.4,
+      "age_hours": 40.6,
       "freshness_score": 19,
       "headline_tone": "부정 표현",
       "sectors": [
