@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T14:01:11.857619+00:00",
-  "generated_at_kst": "2026-10-16T23:01:11.857619+09:00",
+  "generated_at_utc": "2026-10-16T14:08:35.322901+00:00",
+  "generated_at_kst": "2026-10-16T23:08:35.322901+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -12,28 +12,41 @@
   "market_signals": [
     {
       "indicator": "미국 대형주",
-      "change_percent": -0.058,
+      "change_percent": -0.113,
       "reference_direction": "주의"
     },
     {
       "indicator": "반도체",
-      "change_percent": -2.065,
+      "change_percent": -1.948,
       "reference_direction": "주의"
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.51,
+      "change_percent": -0.47,
       "reference_direction": "우호적"
     }
   ],
   "headlines": [
+    {
+      "title": "US futures mostly higher with the Fed's Warsh touting AI - 巴士的報",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbi1hMkxmU21xRVZwaUx0aTdwVGt4VUhkZGVnY0J2VTdaS25QS3RSUUp0amJBQXdRSF9TbW9MT3FpYzRfdWJIWHV0anBqakRzNFVmZ3N1QmFvOC1NYnNPUHVfM2RRQjdNWTV1c2I5a2hGdG1XWW9nV2FrNkZEUDNQX0F2bWxKMjN1R0Nyai13Wk5IRzhTME90dzJzM2VUeDBtNm50NnZ4NC1nQ0E?oc=5",
+      "source": "巴士的報",
+      "published_at_utc": "2026-10-16T12:20:44+00:00",
+      "category": "korea",
+      "age_hours": 1.8,
+      "freshness_score": 96,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
     {
       "title": "Market Movers blog: Chip stocks and global indices continue to slide following US inflation jump - Investment Week",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
       "source": "Investment Week",
       "published_at_utc": "2026-10-16T10:27:05+00:00",
       "category": "us_market",
-      "age_hours": 3.6,
+      "age_hours": 3.7,
       "freshness_score": 93,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -46,7 +59,7 @@
       "source": "TradingView",
       "published_at_utc": "2026-10-16T09:25:22+00:00",
       "category": "us_market",
-      "age_hours": 4.6,
+      "age_hours": 4.7,
       "freshness_score": 91,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -57,7 +70,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-10-16T09:35:15+00:00",
       "category": "semiconductor",
-      "age_hours": 4.4,
+      "age_hours": 4.6,
       "freshness_score": 91,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -66,11 +79,11 @@
     },
     {
       "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdEhSeG1xaXhfMERuZzJFUEthTFFJenZ5cWZYQm56NDd3d3JrMmQ4THc3WWozanFDSTNFNHM4c1RHV2RxeFhhU3VaNmUtREZJd24yOGhDUGE4LV9hRWNTdzVzeGpoeTRlRzRTUWdvU3RRTTdlWjhiRTBaMTY0ZlN4UmlVSkJUaGhjanpoaXdrc1hmc2duVzh0dUdwR2c5OUtnNVVETmlqVkN3UmtOSWY2OWJuRkZEcThEYUFTaTBna3l6M2U4dVQ0SUtvNEhCRFJCTUo4RWlIM0oxUGZUT2xmWnVCTGtLNmdNcjROTXp5NWtPSmZyZDltanZ5Q0tVRUE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOLU5nNFRzeWREWHVkNXhDYmdwLVp4TGFCbk1NTzB0NmpyWUVkc2E5cnNxX1paaFM4cDNXaGFaeUxtXzdxLTkxT1p0NDdxckJ2YlNDU3VEeGZkQ084ZXdBdG1yeS04QW5ZXzRSc29hcnVCOUlxUmtpSW9EMWdrNkVyMWNTRGo4ZWdDUF9NWkRZbm9xUUVvWFlhcHplLXNUcmhrLWxEOUdGRWcyZG1GcDYybjNuaUs3UTFfbWxodEFXU3paNGpWMUl2SnBINjB1U25EaDVoQ0lkTWtlSUlDeHhibUtjT3M3VzJ3SzNEV1lOekZ6MEQ3bWpIUUQwVmM?oc=5",
       "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-16T09:13:10+00:00",
+      "published_at_utc": "2026-10-16T09:04:17+00:00",
       "category": "semiconductor",
-      "age_hours": 4.8,
+      "age_hours": 5.1,
       "freshness_score": 90,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -83,7 +96,7 @@
       "source": "New Haven Register",
       "published_at_utc": "2026-10-16T06:24:44+00:00",
       "category": "korea",
-      "age_hours": 7.6,
+      "age_hours": 7.7,
       "freshness_score": 85,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -94,23 +107,21 @@
       "source": "Bozeman Daily Chronicle",
       "published_at_utc": "2026-10-16T06:08:18+00:00",
       "category": "korea",
-      "age_hours": 7.9,
+      "age_hours": 8.0,
       "freshness_score": 84,
       "headline_tone": "부정 표현",
       "sectors": []
     },
     {
-      "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of Fed Rate Hike Expectations: CRCL, WING, CAVA, FPS Stocks In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPa24yX09GVG1IakJMbVU5ekJHOVFXOXFrVkg5TEZWeFk3bHZLWjFwX09aRXNTXzFIQlBXLTRNX3V3Y3VJZWt1VTJtVGRTbE9GVVJ1WXNmbmZiN3lKWUhkNzdMRnFUUEVVanlkUHFNLUYyRkt3eHRkakZGVUt6TVgtX3RIa3o4b3pOVWdLVGgtcXBkdTBmbXFTYlZ0aENBWnFJQlJNN3k5R3dJOUhjWEk1aURBVkZ2X2ZsZktyN0FZUlI5UTNBWmNsLW9iazlqX2cwS0FrSy1nN3Q4RVkyTVRCQnBzWWdoWE9oX0gyQW5pT3V1TDEzbENzVDNoZWtfMThmUUhtN3hiY0k?oc=5",
       "source": "Stocktwits",
-      "published_at_utc": "2026-10-16T03:31:08+00:00",
+      "published_at_utc": "2026-10-16T04:00:43+00:00",
       "category": "us_market",
-      "age_hours": 10.5,
-      "freshness_score": 79,
+      "age_hours": 10.1,
+      "freshness_score": 80,
       "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
+      "sectors": []
     },
     {
       "title": "Nasdaq futures edge lower as AI spending, Fed rate concerns weigh - Yahoo Finance",
@@ -118,7 +129,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-16T01:40:00+00:00",
       "category": "us_market",
-      "age_hours": 12.4,
+      "age_hours": 12.5,
       "freshness_score": 75,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -131,21 +142,8 @@
       "source": "The American Bazaar",
       "published_at_utc": "2026-10-15T15:52:13+00:00",
       "category": "semiconductor",
-      "age_hours": 22.1,
-      "freshness_score": 56,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open - WJTV",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGZNbUJYWU1mRVoxaWVPdzl3ZzJPTDRxMXdIZTAwVEdRWVg5YlRCSzJoNXE5LWtwYTlpcGxvZ2ZibVZIRFBkSTUyMTgyM1htaE1ybnppNjlYR0JJZ1dyS0pFUTgxZGZOcGk0ZmtkaDVJb1ozY2oxSHZYdUMtTlQxdWJWelRwUVQxdUxpQnA4eDBJd0IyQkMyMEZKZG8wQ1lfZ0hCNTR5SkM2YVJXcXNPMkx3cGllUEnSAbwBQVVfeXFMT3o2Y0drRmR5NW5lUnV5a1ZmeVVPSGxILWhyQ1RXa3NsN2hxcUtiRWduSnQxTlMyZXVOaXo4Y2VLN05SeEwxTWItQ25JalFaYWhkTDRIdGhLS0RtckQxQUdXUkk5VDZDaXk5N1RVM2JFanZoSXY0Wmdrc01tVDlHc0RWaEpVVjRHTGhMa0JwdDA0WkhaWWpRNGx6S3BVb3JfcTZ6d2xNLV9HWVpsQ2JRTGFFbmFVTWp3RGhnMWU?oc=5",
-      "source": "WJTV",
-      "published_at_utc": "2026-10-15T09:50:20+00:00",
-      "category": "korea",
-      "age_hours": 28.2,
-      "freshness_score": 44,
+      "age_hours": 22.3,
+      "freshness_score": 55,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -157,7 +155,7 @@
       "source": "Business Insider",
       "published_at_utc": "2026-10-15T08:05:00+00:00",
       "category": "korea",
-      "age_hours": 29.9,
+      "age_hours": 30.1,
       "freshness_score": 40,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -170,7 +168,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-15T04:54:00+00:00",
       "category": "korea",
-      "age_hours": 33.1,
+      "age_hours": 33.2,
       "freshness_score": 34,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -183,7 +181,7 @@
       "source": "CNBC",
       "published_at_utc": "2026-10-15T00:42:00+00:00",
       "category": "semiconductor",
-      "age_hours": 37.3,
+      "age_hours": 37.4,
       "freshness_score": 25,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -196,7 +194,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-14T23:33:39+00:00",
       "category": "us_market",
-      "age_hours": 38.5,
+      "age_hours": 38.6,
       "freshness_score": 23,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -207,8 +205,8 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-14T20:23:29+00:00",
       "category": "semiconductor",
-      "age_hours": 41.6,
-      "freshness_score": 17,
+      "age_hours": 41.8,
+      "freshness_score": 16,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
