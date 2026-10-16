@@ -1,1 +1,24 @@
 
+name: Chati Global Market
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '30 22 * * 0-4'
+
+permissions:
+  contents: read
+
+jobs:
+  market:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Test market workflow
+        run: echo "Chati Global Market OK"
+
