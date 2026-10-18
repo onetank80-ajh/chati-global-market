@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-10-17T01:42:24.112960+09:00",
+  "generated_at_kst": "2026-10-19T07:47:53.413357+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-10-16T23:08:33.273168+09:00",
-  "news_snapshot_at": "2026-10-16T23:08:34.134840+09:00",
+  "market_snapshot_at": "2026-10-19T07:46:35.971728+09:00",
+  "news_snapshot_at": "2026-10-19T07:46:39.562008+09:00",
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -0.113,
+      "change_percent": -1.093,
       "market_date": "2026-10-16",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": -1.948,
+      "change_percent": -3.833,
       "market_date": "2026-10-16",
       "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.47,
-      "market_date": "2026-10-16",
+      "change_percent": -0.469,
+      "market_date": "2026-10-18",
       "meaning": "원화 강세 방향"
     }
   ],
@@ -49,52 +49,52 @@
   ],
   "headlines": [
     {
-      "title": "Nasdaq futures edge lower as AI spending, Fed rate concerns weigh - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJYUmdaN19naFptR3ZmeDdtMU9aX1BLeFNlSTR6Y0NsV3FabEZYamcwemZfRUExLTQ2enR6VVVpX1lSSWxVUGt1U3BFZHVmZ1Y2TDlYS29MaFZJNjAwTGVWNEJGZXNIblc0MjA2Z1dGbVFib2lIUjVhVVFwMUtXZ2ZOX3hZbDVoYU9vV1RxcW9KLThMZDVjeQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-16T01:40:00+00:00"
+      "title": "Yardeni Lowers S&P 500 Target to 7,900 Despite Maintaining 2027 Earnings Forecast - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNEx1cXFDWlloY0xiTGcyc29EZmNrZDFUYUp4eUxZRE5nT3lHdGtGMmpDX29yeEl2aE9RQm1TTUlpSWhGMTVXMTVuWmJiTndBaHl6ZmVIZllza0lzckJyZWx3M1B1NUNEVGlyUXowbGNMako3MzVlazlmZHRtTVF1ekd3?oc=5",
+      "source": "Yahoo Finance UK",
+      "published_at_utc": "2026-10-18T13:55:51+00:00"
     },
     {
-      "title": "Market Movers blog: Chip stocks and global indices continue to slide following US inflation jump - Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "source": "Investment Week",
-      "published_at_utc": "2026-10-16T10:27:05+00:00"
-    },
-    {
-      "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-14T23:33:39+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Bessent Intensifies Economic Pressure on Iran, Treasury Yields Cool Off — TSLA, AA, IBKR in Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPd1FlM1FkcFU4ZEVOQzhVajd2N0wwcHloZ0VQRUlUc1pnU2FxRS1kckFfRkctVm5uV1ctRllSYVAtZ1JNb21pT25kU2djeC1wc01aaGxjQkI5V01wMGFReDh2SlVoQnMzZEpqWkoyZHdmLVE3U21KcVhTYkktckMwUE9USmZRbzdtSG1tRVBIbzl5dEpfVFJOa0tYTWh0MjFmbnB6YjJ5RW5VMkVueGZoaTJOYmd4OVB4R2duUk1NOUZGT2VlYWFjOENXOHZjclhMbl9vOXVXTjlFcDNvSkh2U2c0Y1VFNHE3X0JQaWhEd0hOZUxyZkJwRFNjM2tvNkExRXdGRmt5YkxYU3JxUEZfRVFtY1dTd1IxckpVdkFhNXU4V2p4?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-10-16T09:25:22+00:00"
-    },
-    {
-      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of Fed Rate Hike Expectations: CRCL, WING, CAVA, FPS Stocks In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPa24yX09GVG1IakJMbVU5ekJHOVFXOXFrVkg5TEZWeFk3bHZLWjFwX09aRXNTXzFIQlBXLTRNX3V3Y3VJZWt1VTJtVGRTbE9GVVJ1WXNmbmZiN3lKWUhkNzdMRnFUUEVVanlkUHFNLUYyRkt3eHRkakZGVUt6TVgtX3RIa3o4b3pOVWdLVGgtcXBkdTBmbXFTYlZ0aENBWnFJQlJNN3k5R3dJOUhjWEk1aURBVkZ2X2ZsZktyN0FZUlI5UTNBWmNsLW9iazlqX2cwS0FrSy1nN3Q4RVkyTVRCQnBzWWdoWE9oX0gyQW5pT3V1TDEzbENzVDNoZWtfMThmUUhtN3hiY0k?oc=5",
+      "title": "Nasdaq, S&P 500 Futures Surge As Wall Street Cheers US-Iran Deal, Brushes Off Hawkish Fed For Now: INTC, AAPL, MU, SPCX, RUM In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNE5zR3h3Yl9rSE9rRmNjY0I1alNkSnVBeTZNZmdDY0ZCSXFlcFRTakFFN0lxR1hvdkhwRjg3NDRHX1p6clJFSENRS2Y3c3NkTVhHNnpIbkpJeUtyZ09uMVNFS3pEVDdPZFVXT29MeU83ZlRXTEV6dmVDaVJFOVlBMVkyNS1faTYtSmxueHJVUE1YNWxUTWN4SmdfNFZlcXgtVzNIRTMxXzh5ZDU0LXFrem1mTDFCUlBNNVhnLTV2ck5YVnM3bFBBWE1lMlZJOC1pd0wzSHIxeVlySWlyQ1E?oc=5",
       "source": "Stocktwits",
-      "published_at_utc": "2026-10-16T04:00:43+00:00"
+      "published_at_utc": "2026-10-18T12:30:43+00:00"
     },
     {
-      "title": "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQkJwR1ozRmlGcXpxTVBrWGlFdzJ2bmlKQ0FnUWRtbTZVaHdLM3JCVVlJem1tRG1zX3hSZ2dHQTV0NGxuRktnRjBFX2pPd1NrMkRPQUU3SEJ0Tk1rcWpkNEtRUmpRc3BkVnRiMmotN09ZNTFmWVU3NWx4ajRDaGJSNDZsODNvQ1p1TTlsX183SDBXdHU0cW5xZWhRTXIwZnZxMDFLQUtnc0tPQnZoV2RrRFExRGNkeDhvNXlIY0dNMHVaSXJzV1V4aXA1bVBkaTIwbmVwZ1EwVXNOZHpIN2V2R2ZjNA?oc=5",
+      "title": "SPECIAL EDITION: TKer’s 5th year taught us you could be right about valuations but wrong about prices 🔀 - TKer by Sam Ro",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UYkZvcFFYWGE1NVU0N3VXOFB4ai1XaHJJTGtDS0hBVms5bUFuV3NHSkt1d0JHa2RFSjVzem84cVlZSl9LLVNiSENWR0FWdFdELWNFbkFuUy10REN2azNENWFBRklFUXlONWo0?oc=5",
+      "source": "TKer by Sam Ro",
+      "published_at_utc": "2026-10-18T12:14:36+00:00"
+    },
+    {
+      "title": "Dow Jones, Nasdaq 100, S&P 500 Outlook: Top Catalysts to Move US Stocks This Week - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM2FSOGlyTjN2c1NmUEFJc1RiRmVXcFA3SEFPdG0wdFk5Y29jUTA5YXRBSmhGQzhyTnpvd0w0S3hUMklFWUJVaXlQUjA4TkFsdERGejYwUmtJWjFqV0RXczJCOU1IY3d5eXJFX3BVSVJTWlMxT3hqazdIZy1pbmVNR0NSUXdYZ2Q5aEFVM1VfZE50R2JHbnY5SjJSVGNRcllQUmlFWVFNQjhvaVJvRldwOEdYZ0h1VTNiZVVLZVVWTmNDWkVrbEE3YVBCNzJnY3BVWmltVQ?oc=5",
       "source": "Benzinga",
-      "published_at_utc": "2026-10-16T09:35:15+00:00"
+      "published_at_utc": "2026-10-18T17:45:23+00:00"
     },
     {
-      "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOLU5nNFRzeWREWHVkNXhDYmdwLVp4TGFCbk1NTzB0NmpyWUVkc2E5cnNxX1paaFM4cDNXaGFaeUxtXzdxLTkxT1p0NDdxckJ2YlNDU3VEeGZkQ084ZXdBdG1yeS04QW5ZXzRSc29hcnVCOUlxUmtpSW9EMWdrNkVyMWNTRGo4ZWdDUF9NWkRZbm9xUUVvWFlhcHplLXNUcmhrLWxEOUdGRWcyZG1GcDYybjNuaUs3UTFfbWxodEFXU3paNGpWMUl2SnBINjB1U25EaDVoQ0lkTWtlSUlDeHhibUtjT3M3VzJ3SzNEV1lOekZ6MEQ3bWpIUUQwVmM?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-16T09:04:17+00:00"
+      "title": "US markets are weighed down by an extended sell-off in the tech sector - WCCB Charlotte",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUWVGRVdSbUw3Y0V1RU1VWENpdWRTNXVjT2h2T1Fxc0xiRXFuSlJaXzhMU2lZWk5mdFNpMkx1R3ZhWXpvVkVUUkxtTlI4dzd6LWtrQnFRZERnaWtZUEM4VzdURVNnVGNaXzZ1VXdJTHh4T3RBMFdyUFRsN2NCajdzVWpwbmNKTWV6UjNhQXlodms3QjdFQjZqNEJBelB3Ui1Edk9fUUNkWWlSM2pfLU4wdm1R?oc=5",
+      "source": "WCCB Charlotte",
+      "published_at_utc": "2026-10-17T16:17:40+00:00"
     },
     {
-      "title": "Nvidia stock sinks as chip sell-off deepens on hot inflation data - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1ZGcUkyMFZEdXYtUDhENXZ6Rkl6b29Ic3BlOUE2a2U5d3I3UWlPM2ZYRjRnZVYyRVdPRUFjTklPeG9OY2hrdUNZaXc4YU9JWGlsNXY2WFlkQ0lzNHl1VFZoaWNLamlGT3lKQVpyN2VTMm1HVEpRd2FzdUZUN3dTbFBkOEVVUnh6SE05QTZpRmlDTk4xVUoyckJQRjlIRVJaZTBkV2hWalNwd1pKOW9QSFh5ODY4VEVZcE51Wm5RMHZ1RlVnWDVvZw?oc=5",
+      "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWdNdGZSeFJpNll0RnpoS0VKUzFBaHRUYWFmcE1JUE5EVGEwWVlaa2ZoNkNsN1BiRExXMHQxR01pY3ZRV0NvcDdNNm9tN1BvdjBSZ2JuelRfT252ODVDY29sR0JMTXZhVy14NDFnVXJ4ZHhnUVBwbjZXTUkzUm5nWEpZeUlvWWY2dVVscS1Xb2Vwdw?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-14T20:23:29+00:00"
+      "published_at_utc": "2026-10-18T16:04:00+00:00"
+    },
+    {
+      "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2NIYzJUcUZjMlBjb2oxUnFCNW81QS1GSnpZQWw3N2ZwUHB2NVNmZVdQT1l1LTB4SHRVcEptT2kxNEJiOWpBM2tCekF5STdSd3d0OE1lWEJjcUV2emJOUUdXckdHNTQzT19RX21PUFlTVXRGU2gxc3ZEaHBqNVJ1ZzBWeXNWYTZnQUpUNV9YZWl3WTJpdWNiTw?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-10-18T16:44:00+00:00"
+    },
+    {
+      "title": "Chip Stocks Post Worst Losing Streak Since the 2008 Financial Crisis - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSFF4dVdlV01hRVJxMHNRRmhnRkZPbVhHMVVOSDhWeUxFTFdYOVEtd1hjdUZaV0lXbFluQ3pVX1JDNU5BTVM1eFF1bVdYbkxGdjFmX0JtQ09yekFFSFg0Q3ctTE1XOUs1d1ptRm9tZGw3cmNSVkI3RGlsVkFrZHd3aVM2SEJxYjlvNF9RYVhHZVRybjFjRlhRVk9zOUU?oc=5",
+      "source": "Startup Fortune",
+      "published_at_utc": "2026-10-18T14:11:46+00:00"
     }
   ],
   "warnings": [
