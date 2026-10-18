@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-18T18:19:27.114738+00:00",
-  "generated_at_kst": "2026-10-19T03:19:27.114738+09:00",
+  "generated_at_utc": "2026-10-18T22:46:40.780250+00:00",
+  "generated_at_kst": "2026-10-19T07:46:40.780250+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,19 +22,54 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.503,
+      "change_percent": -0.469,
       "reference_direction": "우호적"
     }
   ],
   "headlines": [
+    {
+      "title": "Defensive ETFs Draw Cash as Korean Stocks Swing Wildly - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbktYdU1ra2VERVVSOGE4N01wamUxbEtiR0M5LTFaVU1YQVRKUUpuN3kzX0t0M2g0eGpzdVJlQklmQkJ5Smg2Ykx6M2x2X3kxNXJFbHFiVG9Hb3FYaVJRRnVzVzRJbndpeGxUWi14MkFwNHFBdnh2M1FBUmlMOWZ6UXVPSnVTTF94aFNXLTZ2U1lPMDhuTDROTUktU1E?oc=5",
+      "source": "Seoul Economic Daily",
+      "published_at_utc": "2026-10-18T21:30:05+00:00",
+      "category": "korea",
+      "age_hours": 1.3,
+      "freshness_score": 97,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Market Rout Shakes Up Market Cap Rankings of South Korea’s Top 10 Conglomerates… Hyundai Motor Loses Third Place to LG - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ESHlCSFRUUXBuSmk3bWlkbU50UGt2VFFjSVNkbTV5ekhjWGotQ3QyMWMxSFliMlVCOFpFVVpoZ0x3eDB2ZVdQaTV4MlN1aVY4T3ZLc21tRk1vbVhIdlYyNnNLN29fRGpONEg1SkpzYXlwam9J0gF0QVVfeXFMT0RIeUJIVFRRcG5KaTdtaWRtTnRQa3ZUUWNJU2RtNXl6SGNYai1DdDIxYzFIWWIyVUI4WkVVWmhnTHd4MHZlV1BpNXgyU3VpVjhPdktzbW1GTW9tWEh2VjI2c0s3b19Eak40SDVKSnNheXBqb0k?oc=5",
+      "source": "IT조선",
+      "published_at_utc": "2026-10-18T21:02:28+00:00",
+      "category": "korea",
+      "age_hours": 1.7,
+      "freshness_score": 97,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "The domestic KOSPI index is falling sharply in a short period of time. Amid the continued high-inter.. - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZdENwb1Vma1F0dTRsZ3RWa3B1YzhvbFNZMlh5MWlrVVI4UThTVmh4YnFzREVGNXVDNEVJcUNnSEJTUUZWQktaT1NZSTA4Znc?oc=5",
+      "source": "매일경제",
+      "published_at_utc": "2026-10-18T20:55:28+00:00",
+      "category": "korea",
+      "age_hours": 1.9,
+      "freshness_score": 96,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
     {
       "title": "Dow Jones, Nasdaq 100, S&P 500 Outlook: Top Catalysts to Move US Stocks This Week - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM2FSOGlyTjN2c1NmUEFJc1RiRmVXcFA3SEFPdG0wdFk5Y29jUTA5YXRBSmhGQzhyTnpvd0w0S3hUMklFWUJVaXlQUjA4TkFsdERGejYwUmtJWjFqV0RXczJCOU1IY3d5eXJFX3BVSVJTWlMxT3hqazdIZy1pbmVNR0NSUXdYZ2Q5aEFVM1VfZE50R2JHbnY5SjJSVGNRcllQUmlFWVFNQjhvaVJvRldwOEdYZ0h1VTNiZVVLZVVWTmNDWkVrbEE3YVBCNzJnY3BVWmltVQ?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-10-18T17:45:23+00:00",
       "category": "us_market",
-      "age_hours": 0.6,
-      "freshness_score": 99,
+      "age_hours": 5.0,
+      "freshness_score": 90,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -42,38 +77,27 @@
       "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2NIYzJUcUZjMlBjb2oxUnFCNW81QS1GSnpZQWw3N2ZwUHB2NVNmZVdQT1l1LTB4SHRVcEptT2kxNEJiOWpBM2tCekF5STdSd3d0OE1lWEJjcUV2emJOUUdXckdHNTQzT19RX21PUFlTVXRGU2gxc3ZEaHBqNVJ1ZzBWeXNWYTZnQUpUNV9YZWl3WTJpdWNiTw?oc=5",
       "source": "The Motley Fool",
-      "published_at_utc": "2026-10-18T16:17:16+00:00",
+      "published_at_utc": "2026-10-18T16:44:00+00:00",
       "category": "semiconductor",
-      "age_hours": 2.0,
-      "freshness_score": 96,
+      "age_hours": 6.0,
+      "freshness_score": 88,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YU1AycUJuMml0MnNpcGdxbl9nbG5kRFFKOXNpbGFxaVRvS2l1MjVSSnFZdE5PV1pucThMckp1bGtnOHNLR1hkVHFxZmJFT3laWlp0eHE0OEdtMkhYQVNWMWZEUVA4VkxBQ3dOQi03LTdtN0VHQ1BCdGQ2UQ?oc=5",
-      "source": "AOL.com",
+      "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWdNdGZSeFJpNll0RnpoS0VKUzFBaHRUYWFmcE1JUE5EVGEwWVlaa2ZoNkNsN1BiRExXMHQxR01pY3ZRV0NvcDdNNm9tN1BvdjBSZ2JuelRfT252ODVDY29sR0JMTXZhVy14NDFnVXJ4ZHhnUVBwbjZXTUkzUm5nWEpZeUlvWWY2dVVscS1Xb2Vwdw?oc=5",
+      "source": "Yahoo Finance",
       "published_at_utc": "2026-10-18T16:04:00+00:00",
       "category": "semiconductor",
-      "age_hours": 2.3,
-      "freshness_score": 95,
+      "age_hours": 6.7,
+      "freshness_score": 87,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
-    },
-    {
-      "title": "KOSPI Plunge Triggers 300 Billion Won in Forced Liquidations - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdnNSbzhKczhTSE5Ec25Yekg5QmlpMXlrRWN0Y2tzeWcySTlxTGk5TDd3R1BLd21fWU1NTlF3MFFOWTVsYTZVVVo1SHdQYzRxY3VjSGJHeGhpUm02UERtX01rbi1rVFpZQTlyRzFJU21vWEZVdFlkQ0pOWFJOamhndWNlQXNGZnJSRUJOQ2p3?oc=5",
-      "source": "조선일보",
-      "published_at_utc": "2026-10-18T15:37:33+00:00",
-      "category": "korea",
-      "age_hours": 2.7,
-      "freshness_score": 95,
-      "headline_tone": "부정 표현",
-      "sectors": []
     },
     {
       "title": "Chip Stocks Post Worst Losing Streak Since the 2008 Financial Crisis - Startup Fortune",
@@ -81,22 +105,9 @@
       "source": "Startup Fortune",
       "published_at_utc": "2026-10-18T14:11:46+00:00",
       "category": "semiconductor",
-      "age_hours": 4.1,
-      "freshness_score": 92,
+      "age_hours": 8.6,
+      "freshness_score": 83,
       "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Why Did NVIDIA (NVDA) Rise Only 19% While Its Suppliers Did Far Better? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVXBTejZkWTlFVVQxUzJWMldfak96aEdzT0czU3dwaDVrMnJVNC13Tm1TWnlxRjZNX0tfNld1d09XNGtaX2hqRFBqcnFyNTdHMm0xSHZDRVpxamJseXZLeXFsXzJ0b1FhOW1rR3VZakQ2R1FHNkpDVXNzR0RUeWdQemlPRktsVzliSkRWUHFHYkRZZDQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-18T14:34:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 3.8,
-      "freshness_score": 92,
-      "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -107,21 +118,45 @@
       "source": "Yahoo Finance UK",
       "published_at_utc": "2026-10-18T13:55:51+00:00",
       "category": "us_market",
-      "age_hours": 4.4,
-      "freshness_score": 91,
+      "age_hours": 8.8,
+      "freshness_score": 82,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "Dow, S&P 500, Nasdaq Futures Rise After Soft Jobs Report As Markets Await Fed Minutes: IBRX, SMCI, VST, SOFI Stocks In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzVlR1JMN3VsbVl5aTR1NWFnYXZBX2V2OXF0N3ZleC1YOW1paTRnX1R5dnpDa0ZCdU5hazRNMUVFSjVsTzIxTWlCSWgzUmJnRnB4azB3X284SGx0V1hKMXhFbkRubFcyVTZCTkx5UFM1V1BBZEw5bFZSSHZNT05qb2M1ejVreEFMNTVLWEMwNFZnT3VDeTZoQkRGdDEyUW1lcWhXZExQX3RwdUZOSklZWWxBVGxTQ1g2UFpUR2dVd3F4cGszQ2xOaDVBbV8yalRyYm1kazdUQ3pmNVZfUUhwZFk2d2xMNmZQZU9FbmtzWmQtWlVDOVBKTzlyYmhSVWdERWN3MTJITm8xcjBlSGtoeXV2d1o?oc=5",
+      "title": "Nasdaq, S&P 500 Futures Surge As Wall Street Cheers US-Iran Deal, Brushes Off Hawkish Fed For Now: INTC, AAPL, MU, SPCX, RUM In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNE5zR3h3Yl9rSE9rRmNjY0I1alNkSnVBeTZNZmdDY0ZCSXFlcFRTakFFN0lxR1hvdkhwRjg3NDRHX1p6clJFSENRS2Y3c3NkTVhHNnpIbkpJeUtyZ09uMVNFS3pEVDdPZFVXT29MeU83ZlRXTEV6dmVDaVJFOVlBMVkyNS1faTYtSmxueHJVUE1YNWxUTWN4SmdfNFZlcXgtVzNIRTMxXzh5ZDU0LXFrem1mTDFCUlBNNVhnLTV2ck5YVnM3bFBBWE1lMlZJOC1pd0wzSHIxeVlySWlyQ1E?oc=5",
       "source": "Stocktwits",
-      "published_at_utc": "2026-10-18T09:56:55+00:00",
+      "published_at_utc": "2026-10-18T12:30:43+00:00",
       "category": "us_market",
-      "age_hours": 8.4,
-      "freshness_score": 83,
+      "age_hours": 10.3,
+      "freshness_score": 79,
       "headline_tone": "긍정 표현",
       "sectors": []
+    },
+    {
+      "title": "SPECIAL EDITION: TKer’s 5th year taught us you could be right about valuations but wrong about prices 🔀 - TKer by Sam Ro",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UYkZvcFFYWGE1NVU0N3VXOFB4ai1XaHJJTGtDS0hBVms5bUFuV3NHSkt1d0JHa2RFSjVzem84cVlZSl9LLVNiSENWR0FWdFdELWNFbkFuUy10REN2azNENWFBRklFUXlONWo0?oc=5",
+      "source": "TKer by Sam Ro",
+      "published_at_utc": "2026-10-18T12:14:36+00:00",
+      "category": "us_market",
+      "age_hours": 10.5,
+      "freshness_score": 79,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Michael Burry Flags New AI Chip Startup By Harvard Dropouts As ‘Serious Competition’ For Nvidia - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMmRTcXRzTm5LZ1oydlZobDJMZVllNEF4SXNnOGZ2d0lKdkdOajVoNXVKM1BzVzdLYkZLdDFzUThveHVBYUNGcFRUUWRCMmdtZ2lMc0hOR3JLSVFmbkpfNHNsZEF1NGZIMGc2cHpzODFjeDhEcS1ubE05T1BfaGdJRUhmNnppak16YmhVU0tNcWM4YVByczRQallsWDZkQ2tLNllFbGRkbTM2cmw3eWNOa2MzUUFOcEllM1RZb2lqUVpQdGQ2OFBrSUswX1VJNF83b3U4NEczQV8ySkh2WkFzbzA1WnRBQ2x5d2J0cWRB?oc=5",
+      "source": "Stocktwits",
+      "published_at_utc": "2026-10-18T11:07:54+00:00",
+      "category": "semiconductor",
+      "age_hours": 11.6,
+      "freshness_score": 77,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
     },
     {
       "title": "Samsung, SK hynix suffer worst weekly stock rout since 2008 - The Korea Herald",
@@ -129,8 +164,8 @@
       "source": "The Korea Herald",
       "published_at_utc": "2026-10-18T05:34:58+00:00",
       "category": "korea",
-      "age_hours": 12.7,
-      "freshness_score": 75,
+      "age_hours": 17.2,
+      "freshness_score": 66,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -142,19 +177,19 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-18T04:05:00+00:00",
       "category": "korea",
-      "age_hours": 14.2,
-      "freshness_score": 72,
+      "age_hours": 18.7,
+      "freshness_score": 63,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "Chip stocks decline amid AI debt concerns - Ticker News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iR0Q0M1V1VmhGYjYwd1lkYndTLTVnaFFwWDlLNU1WUUpLLUJDTUNYbmZUYXQ3eHk2WFhua0pRel9QanpmcFFLY0xEMUY4RmEyYWVqakx5eFRpbEVuN2VoeDM0bl92enhPU1JJVmlzRTMxQdIBd0FVX3lxTE9fdFBLQ2tpRkFPLUFCb1JqWC15UWN0Y29xMldXYnJIT1BNV3c1eDB5TFNTWXRpQ3hVcVM4Vk9JWjZ3eTF6NWM5QzdNMmFjbzlWM1RUMFg2RHZNT2lsUUtuMVZrLUFjdy1yY2hsSGNYNkp3NWhoTXBR?oc=5",
-      "source": "Ticker News",
-      "published_at_utc": "2026-10-18T04:01:26+00:00",
+      "title": "Chip Stocks Just Fell 8 Days in a Row, Their Longest Losing Streak Since 2008 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLXE3Ymd1MnpObFctRnNuYTJkRk9OYndiOTU3bzRqeUo2Mk05OGJHOGNNUnliZU8wVFlReDFsOUNfczU2ek1hQk9oNW9NMHhtRlRKOEpOaC1xaW00bV9JYUlaQ21WdG51VUJTdkhob21UdXJhTURQNlNubktaS3F6Z1V2SDR4S2JnT0ZadHhJTDA0MnZZVnJjLVFHazdxS21mRkIyOHM0WWRrckdWTnVET0NLclJKbnJSVV81cg?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-10-17T16:15:00+00:00",
       "category": "semiconductor",
-      "age_hours": 14.3,
-      "freshness_score": 71,
+      "age_hours": 30.5,
+      "freshness_score": 39,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -166,47 +201,10 @@
       "source": "WCCB Charlotte",
       "published_at_utc": "2026-10-17T16:17:40+00:00",
       "category": "us_market",
-      "age_hours": 26.0,
-      "freshness_score": 48,
+      "age_hours": 30.5,
+      "freshness_score": 39,
       "headline_tone": "부정 표현",
       "sectors": []
-    },
-    {
-      "title": "Wall Street’s AI bubble isn’t bursting. It’s being audited. - The American Bazaar",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRFVyNW9VbVk0T3Z3YUNJR0pJbm1TV3F3RE16a3BITnY3Qkl0dWNkaVR6NTFVQWJoU3hGMzNXa21HU0t5cDZaNzFxaTBwOUlFWmdnaTJZRE4xRC1qRHBfVS1XcHR6ZHh1b3pPWmZ1OXVvUUdoU2llX05fLUJEVUZ5YTRfTjJtNUtRcjFuQ3pyM3lRbFM0Ulpqay1tdllwelpIYVJuSlNMN0Y5dw?oc=5",
-      "source": "The American Bazaar",
-      "published_at_utc": "2026-10-17T15:58:31+00:00",
-      "category": "us_market",
-      "age_hours": 26.3,
-      "freshness_score": 47,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "US markets are weighed down by an extended sell-off in the tech sector - LancasterOnline",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQd3llcl9raFoyRnVBQnNVZjdVcHBacklidXpDSWR0RFBqZVIwQ0haWHM5YV9TVEFkYmVyYzAwTVNPMU13U3VqTmZvdjIyYWJFSHRwRnZtcEZ2V0t1QXhWY3RpSG5XZnJqN3AyZjAzYi1ZaTU4cnFpN2lBU1FLZ3EtQUR4d3NVZ2MzdERQODdOb1BFcG1DdHE1Q1MyTTNuWWdjWFAzQ1FmMF9mb2JzX0dNOEZWczNPVWIxbW9MamRyRU82aS0yaU1sMndIdGZvMzAyT0NENG9jdW16V2Mtd0ticTFwaWlaUk9YdkpCZFVTdXdtLWZndkRObVBDM3puRHc?oc=5",
-      "source": "LancasterOnline",
-      "published_at_utc": "2026-10-17T01:52:09+00:00",
-      "category": "korea",
-      "age_hours": 40.5,
-      "freshness_score": 19,
-      "headline_tone": "부정 표현",
-      "sectors": []
-    },
-    {
-      "title": "Wall Street muscles higher despite more swings for AI stocks - The Daily Reflector",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPbVMtQjZaZFVHWHYzSnZJWFZaU0F6T081eWRzOE1xeW8tZWQ5X3NWVFd0amRjc0M4ODNkLXphMV8wMVEyU25pU3RCa01pWmRMQnFQX3R1T1pYZnpGVk42LVlEejhRVC0xaW1DN3hjR043QWp4d0FWQnZER3A0VkpDaE1yWXRxNWtVUmNaczVOMlB4VXF5YzQxdENIbUtQZUQwLUVOMHZBblRsajJYdUItZmZ0UmFscWZOT0pBbGEyREgtcHJXYl9YcXktby1wMENQV0V0Sk1CWWR6cmRNU3VOTzd0VU5CdGdyOFNQQXJGT3JEZHU4XzFDeS1uVGVTZw?oc=5",
-      "source": "The Daily Reflector",
-      "published_at_utc": "2026-10-17T00:00:00+00:00",
-      "category": "korea",
-      "age_hours": 42.3,
-      "freshness_score": 15,
-      "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
     }
   ]
 }
