@@ -1,8 +1,10 @@
-name: Chati Morning Push v3.1
+name: Chati Morning Push v3.2
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 22 * * 0-4' # 07:25 KST weekdays
+    # KST 07:25 primary, 07:40 backup (previous UTC day)
+    - cron: '25 22 * * 0-4'
+    - cron: '40 22 * * 0-4'
 permissions:
   contents: write
 concurrency:
@@ -11,49 +13,107 @@ concurrency:
 jobs:
   morning:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install --disable-pip-version-check yfinance==0.2.66
-      - name: Refresh market
-        run: python scripts/market_update.py
+      - name: Sync latest repository
+        run: git pull --rebase origin main
+      - name: Decide if push already sent today
+        id: status
+        shell: python
+        run: |
+          import json, os
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          today = datetime.now(ZoneInfo('Asia/Seoul')).date().isoformat()
+          p = Path('data/push_status.json')
+          try:
+              last = json.loads(p.read_text(encoding='utf-8')).get('last_sent_date_kst')
+          except (OSError, ValueError):
+              last = None
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('send=' + ('false' if last == today else 'true') + '\n')
+          print('KST date:', today, 'last sent:', last)
+      - name: Install dependencies
+        if: steps.status.outputs.send == 'true'
+        run: python -m pip install --disable-pip-version-check yfinance==0.2.66
+      - name: Refresh market (retry)
+        if: steps.status.outputs.send == 'true'
+        run: |
+          for attempt in 1 2 3; do
+            python scripts/market_update.py && break
+            if [ "$attempt" = 3 ]; then exit 1; fi
+            sleep 20
+          done
       - name: Refresh news
+        if: steps.status.outputs.send == 'true'
         run: python scripts/news_update.py
         continue-on-error: true
       - name: Refresh briefing
+        if: steps.status.outputs.send == 'true'
         run: python scripts/briefing_update.py
         continue-on-error: true
       - name: Refresh intelligence
+        if: steps.status.outputs.send == 'true'
         run: python scripts/intelligence_update.py
-      - name: Record prediction
+      - name: Record premarket prediction
+        if: steps.status.outputs.send == 'true'
         run: python scripts/verify_market.py predict
-      - name: Publish fresh data
+      - name: Publish reports
+        if: steps.status.outputs.send == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/market.json data/intelligence.json data/verification.json
           if [ -f data/news.json ]; then git add data/news.json; fi
           if [ -f data/briefing.json ]; then git add data/briefing.json; fi
           if ! git diff --cached --quiet; then
-            git commit -m "Update Chati morning briefing"
+            git commit -m 'Update Chati morning briefing'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-      - name: Wait until 07:30 KST if early
+      - name: Wait until 07:30 KST
+        if: steps.status.outputs.send == 'true'
         shell: python
         run: |
           from datetime import datetime
           from zoneinfo import ZoneInfo
           import time
-          now = datetime.now(ZoneInfo("Asia/Seoul"))
+          now = datetime.now(ZoneInfo('Asia/Seoul'))
           target = now.replace(hour=7, minute=30, second=0, microsecond=0)
           if now < target:
               time.sleep((target-now).total_seconds())
-      - name: Send push
+      - name: Send push (retry)
+        if: steps.status.outputs.send == 'true'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
-        run: python scripts/push_briefing.py
+        run: |
+          for attempt in 1 2 3; do
+            python scripts/push_briefing.py && break
+            if [ "$attempt" = 3 ]; then exit 1; fi
+            sleep 15
+          done
+      - name: Record successful delivery attempt
+        if: steps.status.outputs.send == 'true'
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo('Asia/Seoul'))
+          p = Path('data/push_status.json')
+          p.write_text(json.dumps({'last_sent_date_kst': now.date().isoformat(), 'last_sent_at_kst': now.isoformat(), 'note': 'ntfy HTTP success; device receipt not independently verified'}, indent=2)+'\n', encoding='utf-8')
+          PY
+          git add data/push_status.json
+          git commit -m 'Record Chati morning push'
+          git pull --rebase origin main
+          git push origin HEAD:main
