@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-19T23:28:19.456115+00:00",
-  "generated_at_kst": "2026-10-20T08:28:19.456115+09:00",
+  "generated_at_utc": "2026-10-19T23:49:06.305294+00:00",
+  "generated_at_kst": "2026-10-20T08:49:06.305294+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [

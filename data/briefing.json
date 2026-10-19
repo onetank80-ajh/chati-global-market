@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-19T23:28:20.952287+00:00",
-  "generated_at_kst": "2026-10-20T08:28:20.952287+09:00",
+  "generated_at_utc": "2026-10-19T23:49:07.965367+00:00",
+  "generated_at_kst": "2026-10-20T08:49:07.965367+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.202,
+      "change_percent": -0.225,
       "reference_direction": "우호적"
     }
   ],
@@ -33,7 +33,7 @@
       "source": "thecanadianpressnews.ca",
       "published_at_utc": "2026-10-19T20:11:14+00:00",
       "category": "korea",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "freshness_score": 93,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -46,8 +46,8 @@
       "source": "LancasterOnline",
       "published_at_utc": "2026-10-19T19:23:34+00:00",
       "category": "korea",
-      "age_hours": 4.1,
-      "freshness_score": 92,
+      "age_hours": 4.4,
+      "freshness_score": 91,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -59,7 +59,7 @@
       "source": "Startup Fortune",
       "published_at_utc": "2026-10-19T17:34:09+00:00",
       "category": "semiconductor",
-      "age_hours": 5.9,
+      "age_hours": 6.2,
       "freshness_score": 88,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -72,8 +72,8 @@
       "source": "The Motley Fool",
       "published_at_utc": "2026-10-19T16:00:00+00:00",
       "category": "semiconductor",
-      "age_hours": 7.5,
-      "freshness_score": 85,
+      "age_hours": 7.8,
+      "freshness_score": 84,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -85,8 +85,8 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-19T15:20:00+00:00",
       "category": "semiconductor",
-      "age_hours": 8.1,
-      "freshness_score": 84,
+      "age_hours": 8.5,
+      "freshness_score": 83,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -98,7 +98,7 @@
       "source": "The Globe and Mail",
       "published_at_utc": "2026-10-19T14:38:46+00:00",
       "category": "semiconductor",
-      "age_hours": 8.8,
+      "age_hours": 9.2,
       "freshness_score": 82,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -111,7 +111,7 @@
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-10-19T13:36:00+00:00",
       "category": "semiconductor",
-      "age_hours": 9.9,
+      "age_hours": 10.2,
       "freshness_score": 80,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -124,7 +124,7 @@
       "source": "Devdiscourse",
       "published_at_utc": "2026-10-19T13:06:01+00:00",
       "category": "us_market",
-      "age_hours": 10.4,
+      "age_hours": 10.7,
       "freshness_score": 79,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -137,8 +137,8 @@
       "source": "NDTV Profit",
       "published_at_utc": "2026-10-19T11:03:21+00:00",
       "category": "us_market",
-      "age_hours": 12.4,
-      "freshness_score": 75,
+      "age_hours": 12.8,
+      "freshness_score": 74,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -148,7 +148,7 @@
       "source": "Stocktwits",
       "published_at_utc": "2026-10-19T10:12:27+00:00",
       "category": "us_market",
-      "age_hours": 13.3,
+      "age_hours": 13.6,
       "freshness_score": 73,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -159,8 +159,8 @@
       "source": "TradingView",
       "published_at_utc": "2026-10-19T09:24:45+00:00",
       "category": "us_market",
-      "age_hours": 14.1,
-      "freshness_score": 72,
+      "age_hours": 14.4,
+      "freshness_score": 71,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -170,7 +170,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-19T09:09:12+00:00",
       "category": "us_market",
-      "age_hours": 14.3,
+      "age_hours": 14.7,
       "freshness_score": 71,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -181,7 +181,7 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-10-19T09:04:58+00:00",
       "category": "korea",
-      "age_hours": 14.4,
+      "age_hours": 14.7,
       "freshness_score": 71,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -192,7 +192,7 @@
       "source": "Mankato Free Press",
       "published_at_utc": "2026-10-19T07:43:06+00:00",
       "category": "korea",
-      "age_hours": 15.8,
+      "age_hours": 16.1,
       "freshness_score": 68,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -205,8 +205,8 @@
       "source": "미주중앙일보",
       "published_at_utc": "2026-10-19T05:30:38+00:00",
       "category": "korea",
-      "age_hours": 18.0,
-      "freshness_score": 64,
+      "age_hours": 18.3,
+      "freshness_score": 63,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"

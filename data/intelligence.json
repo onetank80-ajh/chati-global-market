@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-19T23:28:20.986405+00:00",
+  "generated_at_utc": "2026-10-19T23:49:08.022794+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
   "headline_count_after": 13,
@@ -16,7 +16,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.202,
+      "change_percent": -0.225,
       "market_date": "2026-10-20",
       "status": "ok"
     },
@@ -55,7 +55,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE44YzZNYzlpRnRYQUlIeFJYVnBpejhESUJVR0tuWTVzVGtlamZvMFY2aTROeVI1TUk5ZnBwajBqZ0FEMlNyTDU4bkt1dHlTQTN6NFVxZnVlcV9iaVpNU1ZQcGdJUkVoNVNtYk05RTlCNENUZHBO?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-10-19T09:04:58+00:00",
-      "age_hours": 14.4,
+      "age_hours": 14.7,
       "relevance_score": 51,
       "tags": [
         "한국시장 직접언급"
@@ -68,8 +68,8 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Jc3ZDNm1aWXQwb2NudHZQN0ptR1Qtbmh1cmZSU0R6UXpsdm5DTmN1T3dTbVE0WTgyQ2NrMHRVY2dQNW1RbzdJLTEtQXNUWnlGRFZTU3FZYkE4THJ1Ml9abGNrWFllQkI2dWYzOXlTMldzN2VrY2pVUzZ2WQ?oc=5",
       "source": "미주중앙일보",
       "published_at_utc": "2026-10-19T05:30:38+00:00",
-      "age_hours": 18.0,
-      "relevance_score": 50,
+      "age_hours": 18.3,
+      "relevance_score": 49,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -81,7 +81,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPMGlsNTQ4b1d2Z3BFRzgzSDlXall5Wl9PckZrc0NjcVNjdnAtdjZPVGxSTE5ZNFZCaWxoVUZYWm9leXIyaWNiZjhqdnhUTnFycEowbHNIN2N1UVJQX29yUnpEcmJyZ3B2WXc0NS1xMXBlelVVZENNeW9DMDhpSEFIYUlwc2VCUGlfR0dORkd4MXdXSUZYdjNxbWxFMlVsQ3lwZi1FLURZQmFVVWdtRlRyZDd1OGJWUGQ3TFZ1WjJZanIwbmhxZDhuX3d1eUZVX1lVdmpLZHlIOFUzMGc1cjhXTWQ3Q3dfTnkxMS1xNEFObjVfR0xDUTIta1MzNGxLOTZqdnVDN2pXZEY3QXVhTVhkVUN6OHdLWXFmVHlF?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-10-19T09:24:45+00:00",
-      "age_hours": 14.1,
+      "age_hours": 14.4,
       "relevance_score": 46,
       "tags": [
         "거시경제"
@@ -94,8 +94,8 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTm5qZkNTMHFfZUtlMWUwUDVXYlI3dU1Ld3hWY0VQa0NZRXZuNE5wTnV5WFc1cnFaUzNNdGJaRkhxR2lVOGJ3dzV2TWpISWxBWVU3WEVDMU1MUVo5ejl3RDZzYkpGQUJEdVlhUDJaRGYyNHdobUl1Nktwa2p5V1c0ZzZrYkJLeFhxaDVkclBmVF9DV0l5Tm1v?oc=5",
       "source": "Startup Fortune",
       "published_at_utc": "2026-10-19T17:34:09+00:00",
-      "age_hours": 5.9,
-      "relevance_score": 44,
+      "age_hours": 6.2,
+      "relevance_score": 43,
       "tags": [
         "반도체/AI"
       ],
@@ -107,7 +107,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT3VNcHlWS1hjd0c0Q1NIT3pjQm12cnk5eEt4M0dLT3JlOXB3b2FiMmVnQVlRWEZ4OG9vXzJ6dXEyOGx1WVBVUklVVlR2OW1KUmtKVjhCc0JOc2pzLXRHUGdCREhLQWF2UHNzOGN2eU0xYWNGbzU4MmgxTU52YVZaOFBSX2pMZ08tS0lxa2NtcHRMSk1TaDBiNWh1dFY?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-19T15:20:00+00:00",
-      "age_hours": 8.1,
+      "age_hours": 8.5,
       "relevance_score": 43,
       "tags": [
         "반도체/AI"
@@ -120,8 +120,8 @@
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOdklXS1Z6V0NWcF8wc0gzeC1tWDV3d2ZTbkZUMWdpNVJQLVlwUzVqTlhoYXBZcU9QbHVuQ09BWXNlV1o0MWYxUkxhcUc2NVdZR3ZTbHJnQmZ0WDNwTG1RTFc5d3RDVlhoVGhKYUhQMDZEZkxnZVJobjNhVkpia192a0Z6cVRYLVA3MzJ4WnNXbUxHWS1FN1hVRXRRQndPNkJlWjNUcHEyS3BxaG51TWlEWUo3UmxJWHZQT1l5dG92b1Z3REJMd0t1SlphUUVkTmJpa0E0LTBLX1otMWdZTU1PbTNYVzB6Wkk1anRkSy1TcVctOU5wLWwtako2UlpkNTNkQlBKck02aUV4Q0tOVW9hU0N3?oc=5",
       "source": "The Globe and Mail",
       "published_at_utc": "2026-10-19T14:38:46+00:00",
-      "age_hours": 8.8,
-      "relevance_score": 43,
+      "age_hours": 9.2,
+      "relevance_score": 42,
       "tags": [
         "반도체/AI"
       ],
@@ -133,7 +133,7 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3gzbjBVYjhaNWZIbUVubDdTLXNaTFFzQXFrZFRURlZLQWhsN2FpQllWTFdKbEQzVVV4X3FvMjI5ZnViNFlIaUx4Y3h5Ukg3MENBQnFZdy0wdlQxQl9oTEdzMUhqd1RxYmpaRmpSSFZsVXRRdU1iQ3JBUXdsMUlWc1hZYm9hQWRHVzRwdm5QSjBoZW1yYUk0aFBOMnlob1lHQnp4SHZ5LWVFT2xrSkw1bC1Lb3JjbkJfRXVadTlXTEp3aTBZR1VQRTlWZWg?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-10-19T13:36:00+00:00",
-      "age_hours": 9.9,
+      "age_hours": 10.2,
       "relevance_score": 42,
       "tags": [
         "반도체/AI"
@@ -146,7 +146,7 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQm5hdVVndlF3ZzgxNnZKNXBNeDhPRWhCNmZkVVMtUjVCa2lqbTFSbFFna3gtOG1GeGhhV2czY2E5RkF6UWI3X2VIOEI4OVhxVklIMDVuQ3MwOVM1RXpMOG8zTUhrZHBkYmVBb1JTdzI0cC1WaTdHdEFQMkhJc1I5OUJLSGNKOEZZaHU3MklmX0lsdUhJZkRPTVpmU05pZDd1bVZ0dDR1TEZIeDZpOHVTWDFEOFNFclZPSHprQkU4LUlOQ2xyZmVWVElDZjNvOG9OR2h1OFozLWFhd3Q2VFowYU16Y9IB4wFBVV95cUxNQm5hdVVndlF3ZzgxNnZKNXBNeDhPRWhCNmZkVVMtUjVCa2lqbTFSbFFna3gtOG1GeGhhV2czY2E5RkF6UWI3X2VIOEI4OVhxVklIMDVuQ3MwOVM1RXpMOG8zTUhrZHBkYmVBb1JTdzI0cC1WaTdHdEFQMkhJc1I5OUJLSGNKOEZZaHU3MklmX0lsdUhJZkRPTVpmU05pZDd1bVZ0dDR1TEZIeDZpOHVTWDFEOFNFclZPSHprQkU4LUlOQ2xyZmVWVElDZjNvOG9OR2h1OFozLWFhd3Q2VFowYU16Yw?oc=5",
       "source": "Devdiscourse",
       "published_at_utc": "2026-10-19T13:06:01+00:00",
-      "age_hours": 10.4,
+      "age_hours": 10.7,
       "relevance_score": 27,
       "tags": [],
       "category": "us_market",
@@ -157,7 +157,7 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU0pJMGRkdE1RTWJ4a244VHBCR2xQZXdzUzZEcUxhRlpYY1Yyd0R1QzlFdmM5ZzZ6X0loWmhVVnI4WmNlYnBpbkxCTVhZODU1UWpBaFNrelJ3VGJYSU5tWmtRN2t3cktTcDJUSzE0LVB6X3NNNXZsZndYNERNMEw1NTQtM0g4eWtBLURRTEoySU1PajZLY1I4cGNfX1k5Z2hlbEg0c1pxU3dwb2VYS2FUUzZTcF9MU1JVaU9nZnVURS0zTlRUOXfSAc4BQVVfeXFMT0dNOE1jUzFwLVBCX04xeVc4c3pFaWhsYkJRVmVkQkF5S2FrMDVtM2NSa1BZNGdaVFhjTXRCYUZHNmU4LWRPX0VQY1NMeURzczR1SFR6X1FpS1Q5VjBCY28wNkpUN1ZPQVI4UTJDSThDMWVNWW4tdTNwZEpXNFhIdWxZSVpsRUIwYzJlUUxoRlpyR1U3Y19RcU14NTdZOVY1Z0Y5OGVaemJrRXBOWDNJS1BydzlmanVVYkVnQjNQb2gzcTBwM1hGb0dwNVdhbnc?oc=5",
       "source": "NDTV Profit",
       "published_at_utc": "2026-10-19T11:03:21+00:00",
-      "age_hours": 12.4,
+      "age_hours": 12.8,
       "relevance_score": 26,
       "tags": [],
       "category": "us_market",
@@ -168,7 +168,7 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRnFfWmo3cUVQR2Frd0hJLTBKRVo4RTlaV0VJT09QMmRzbGJfT0pFNjd2UjRXSUNhRWxiS0JRLWR4ZkVnMHUxZjNnMnpnRmU0THltRWVFTjNVOUtPSU1xVkFRQ0QzcVhQRGxidU1Zck9nYUFWOEdCZzBUeUdnb0Y5ZzVHZy1GNjRoeFJ0SXIwU0JqMlp4YjNMaGQ3UE1DUmlobjhUc0U2Q3pxZGdfNndac0hjM29ndzNkaWFiSUtkdU5kcFVfNlE?oc=5",
       "source": "Stocktwits",
       "published_at_utc": "2026-10-19T10:12:27+00:00",
-      "age_hours": 13.3,
+      "age_hours": 13.6,
       "relevance_score": 26,
       "tags": [],
       "category": "us_market",
@@ -179,7 +179,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2JYcWpFTmI1Yy1hNW5mcVlmbTVTVUJ3cUp2WXZaeUJ6S2FsUGNWSks3SDdzajUtbDktU0tjM3cxMjNuSW16enFwZ1hfeFdFeE1KTXpqeUJCMk5hSVAzWEJJeVNiY3phTU1EWF8xQTVQVV9hVDZUdVo3Wmhld0JHc1lRenNTM2dYYUlLVVRlYWliZUlmNzMw?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-19T09:09:12+00:00",
-      "age_hours": 14.3,
+      "age_hours": 14.7,
       "relevance_score": 26,
       "tags": [],
       "category": "us_market",
@@ -190,7 +190,7 @@
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeTl0YTMyS0FmLXNFTmZFZDNkbUdiMzljWHNYcFVuSFQxak8tSzVjTHhlaEUzZVhQbnJHLVEtOFJrN0JldmJoZDJ2bWVrSVJ6Q0plOUpfRWg3VzlFQmJkZ09Bc2lwd0tjRklFLTFNLTg4RFhMdzRrWnZrTmdrN0xRbDZVVGpsQnBvT0lZUWZ0czVCWGNKRUlrbmtqLWZOMUtrQm9sX0JoMlFXRXBIWl9oYXEtNm9qWS1wQTI3UEg5TVhtY050Mm9WMDZibmhreVNza0pVOVZaYllvMUFIS0VFcjhIZUs5V2p2TnU1U0l1SjltQnh6bjhZSzNXaXNHNTllT0lxRGJ5cV9BeTI5WThNdg?oc=5",
       "source": "LancasterOnline",
       "published_at_utc": "2026-10-19T19:23:34+00:00",
-      "age_hours": 4.1,
+      "age_hours": 4.4,
       "relevance_score": 19,
       "tags": [],
       "category": "korea",
