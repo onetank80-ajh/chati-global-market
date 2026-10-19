@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "records": [],
+  "generated_at_kst": "2026-10-20T02:19:18.180048+09:00",
+  "method": "S&P500 ±0.3%, SOX ±0.5%, USDKRW ±0.3%; sum >=2 up, <=-2 down, else flat. Flat actual ±0.1%."
+}
