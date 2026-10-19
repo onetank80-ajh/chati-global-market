@@ -1,0 +1,59 @@
+name: Chati Morning Push v3.1
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 22 * * 0-4' # 07:25 KST weekdays
+permissions:
+  contents: write
+concurrency:
+  group: chati-morning-pipeline
+  cancel-in-progress: false
+jobs:
+  morning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check yfinance==0.2.66
+      - name: Refresh market
+        run: python scripts/market_update.py
+      - name: Refresh news
+        run: python scripts/news_update.py
+        continue-on-error: true
+      - name: Refresh briefing
+        run: python scripts/briefing_update.py
+        continue-on-error: true
+      - name: Refresh intelligence
+        run: python scripts/intelligence_update.py
+      - name: Record prediction
+        run: python scripts/verify_market.py predict
+      - name: Publish fresh data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market.json data/intelligence.json data/verification.json
+          if [ -f data/news.json ]; then git add data/news.json; fi
+          if [ -f data/briefing.json ]; then git add data/briefing.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Chati morning briefing"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Wait until 07:30 KST if early
+        shell: python
+        run: |
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import time
+          now = datetime.now(ZoneInfo("Asia/Seoul"))
+          target = now.replace(hour=7, minute=30, second=0, microsecond=0)
+          if now < target:
+              time.sleep((target-now).total_seconds())
+      - name: Send push
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: python scripts/push_briefing.py
