@@ -1,0 +1,33 @@
+name: Chati Data Health Check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 23 * * 0-4'
+permissions:
+  contents: read
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check market freshness and forecast creation
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+          from zoneinfo import ZoneInfo
+          now = datetime.now(timezone.utc).astimezone(ZoneInfo("Asia/Seoul"))
+          market = json.loads(Path("data/market.json").read_text(encoding="utf-8"))
+          verify = json.loads(Path("data/verification.json").read_text(encoding="utf-8"))
+          stamp = datetime.fromisoformat(market["generated_at_utc"].replace("Z","+00:00"))
+          age = (now.astimezone(timezone.utc)-stamp).total_seconds()/3600
+          print(f"Market snapshot age: {age:.1f}h")
+          if age > 36 or age < 0: raise SystemExit("Market data stale")
+          records = verify.get("records", [])
+          today = now.date().isoformat()
+          forecasts = [r for r in records if r.get("date")==today and r.get("market") in ("kospi","kosdaq")]
+          print(f"Forecasts today: {len(forecasts)}/2")
+          if now.weekday()<5 and now.hour>=8 and len(forecasts)<2:
+            raise SystemExit("Missing premarket forecast records")
+          print("Health check passed")
