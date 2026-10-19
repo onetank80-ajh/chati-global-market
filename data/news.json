@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-19T17:29:54.217432+00:00",
-  "generated_at_kst": "2026-10-20T02:29:54.217432+09:00",
+  "generated_at_utc": "2026-10-19T23:28:19.456115+00:00",
+  "generated_at_kst": "2026-10-20T08:28:19.456115+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -35,17 +35,31 @@
     },
     {
       "category": "us_market",
-      "title": "US Stock Futures Rebound, Oil Retreats From $110 as 70-Plus Earnings Reports and Nvidia GTC Become the Battleground - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5U0w1Y3hVeGhoV0EzRXpPYmdEVVhuMndJZHVhSnB1NzYwTVNpY0pQb1JXWHR1RDF2bk9WNFU5cWgtVnhDUGx1OHo4Zlg0ZGk3bHh3LUwtdWJETkVNUW5VakZ2VzVSbUxJaFZ3NTBwN3FvM1FzSHc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-10-19T00:55:00+00:00"
+      "title": "Wall Street To Open In Green? US Futures Rebound From Tech Selloff — Top Three Reasons - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU0pJMGRkdE1RTWJ4a244VHBCR2xQZXdzUzZEcUxhRlpYY1Yyd0R1QzlFdmM5ZzZ6X0loWmhVVnI4WmNlYnBpbkxCTVhZODU1UWpBaFNrelJ3VGJYSU5tWmtRN2t3cktTcDJUSzE0LVB6X3NNNXZsZndYNERNMEw1NTQtM0g4eWtBLURRTEoySU1PajZLY1I4cGNfX1k5Z2hlbEg0c1pxU3dwb2VYS2FUUzZTcF9MU1JVaU9nZnVURS0zTlRUOXfSAc4BQVVfeXFMT0dNOE1jUzFwLVBCX04xeVc4c3pFaWhsYkJRVmVkQkF5S2FrMDVtM2NSa1BZNGdaVFhjTXRCYUZHNmU4LWRPX0VQY1NMeURzczR1SFR6X1FpS1Q5VjBCY28wNkpUN1ZPQVI4UTJDSThDMWVNWW4tdTNwZEpXNFhIdWxZSVpsRUIwYzJlUUxoRlpyR1U3Y19RcU14NTdZOVY1Z0Y5OGVaemJrRXBOWDNJS1BydzlmanVVYkVnQjNQb2gzcTBwM1hGb0dwNVdhbnc?oc=5",
+      "source": "NDTV Profit",
+      "published_at_utc": "2026-10-19T11:03:21+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Semiconductor Sell-Off: 5 Stocks to Buy on the Dip - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT3VNcHlWS1hjd0c0Q1NIT3pjQm12cnk5eEt4M0dLT3JlOXB3b2FiMmVnQVlRWEZ4OG9vXzJ6dXEyOGx1WVBVUklVVlR2OW1KUmtKVjhCc0JOc2pzLXRHUGdCREhLQWF2UHNzOGN2eU0xYWNGbzU4MmgxTU52YVZaOFBSX2pMZ08tS0lxa2NtcHRMSk1TaDBiNWh1dFY?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-19T15:20:00+00:00"
     },
     {
       "category": "semiconductor",
       "title": "Semiconductor Sell-Off: 5 Stocks to Buy on the Dip - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPazl5QWIyUmpvQmJZeE5HUURXeklXUHluNXN1di1XYUU0SXZiandTbll5ZVU0MG03cE00Zy1oeXBtSXlxQlpuN3RBRHpzdDZCZWtib3ZLOUJpRWRoYk9LN0Q5YXkyWWl2RERENzVrNnUwX1F2MGY1cC1zajM2TzFmcG1GTmNzX3QtbjdKcHpyako5Q2FfRkNj?oc=5",
       "source": "The Motley Fool",
-      "published_at_utc": "2026-10-19T15:27:00+00:00"
+      "published_at_utc": "2026-10-19T16:00:00+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Chip stocks rebound after their worst weekly selloff since March - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTm5qZkNTMHFfZUtlMWUwUDVXYlI3dU1Ld3hWY0VQa0NZRXZuNE5wTnV5WFc1cnFaUzNNdGJaRkhxR2lVOGJ3dzV2TWpISWxBWVU3WEVDMU1MUVo5ejl3RDZzYkpGQUJEdVlhUDJaRGYyNHdobUl1Nktwa2p5V1c0ZzZrYkJLeFhxaDVkclBmVF9DV0l5Tm1v?oc=5",
+      "source": "Startup Fortune",
+      "published_at_utc": "2026-10-19T17:34:09+00:00"
     },
     {
       "category": "semiconductor",
@@ -56,24 +70,24 @@
     },
     {
       "category": "semiconductor",
-      "title": "US Premarket Movers for October 19, 2026 - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3RLelhTMXoyTkdiZmdVRHdhQmhLNjhRVngtTUJXcTlodi1rOE9hV21wOVRSOC04ZmJwMjU5LThkckRJeUVPT3V0Ynk5NF80ZXFKeG9IYUNuazJXWVJ5SEZHdDFXSUpzWTlNLUZ2TFlKYVdacHF5R25Eb3ZvMndhQmotQXo1OVhSSklIREpRQm1IS2ZzaC15M09DdGhldWhMQlBiOFBlQi1MeG9XaUE?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-10-19T12:00:04+00:00"
-    },
-    {
-      "category": "semiconductor",
       "title": "Intel and AMD Rise 4% as JPMorgan Upgrades INTC After Steep Pullback; NVIDIA Edges Higher - 24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3gzbjBVYjhaNWZIbUVubDdTLXNaTFFzQXFrZFRURlZLQWhsN2FpQllWTFdKbEQzVVV4X3FvMjI5ZnViNFlIaUx4Y3h5Ukg3MENBQnFZdy0wdlQxQl9oTEdzMUhqd1RxYmpaRmpSSFZsVXRRdU1iQ3JBUXdsMUlWc1hZYm9hQWRHVzRwdm5QSjBoZW1yYUk0aFBOMnlob1lHQnp4SHZ5LWVFT2xrSkw1bC1Lb3JjbkJfRXVadTlXTEp3aTBZR1VQRTlWZWg?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-10-19T13:36:00+00:00"
     },
     {
-      "category": "semiconductor",
-      "title": "Semiconductor index bounces 3% as chip stocks recover as the AI hardware cycle looks intact - Proactive Investors",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaVVrSmZ4encwV0RJSmtRMFVjM05oRlBuTjYzaXVtMi1zNFhqVzZuVlNNRVdGMkN3MXJpSmlpeGhONW16VGtXRW5lU1piUy1YQUNmOFhMU3pnQ1ZwNVVaR3hqdkpTaGExQkZoMFdiNXJlNC13d2xZd0cxN2hUemtObFJSaWIzMUM4ajhxMk1ZZVRuZ1BSSjgyMFVRc0VHVWp2SWVGSnQyY0Jsd255RUpuVXdZQnBVMFVlMUs0?oc=5",
-      "source": "Proactive Investors",
-      "published_at_utc": "2026-10-19T14:39:29+00:00"
+      "category": "korea",
+      "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests - LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeTl0YTMyS0FmLXNFTmZFZDNkbUdiMzljWHNYcFVuSFQxak8tSzVjTHhlaEUzZVhQbnJHLVEtOFJrN0JldmJoZDJ2bWVrSVJ6Q0plOUpfRWg3VzlFQmJkZ09Bc2lwd0tjRklFLTFNLTg4RFhMdzRrWnZrTmdrN0xRbDZVVGpsQnBvT0lZUWZ0czVCWGNKRUlrbmtqLWZOMUtrQm9sX0JoMlFXRXBIWl9oYXEtNm9qWS1wQTI3UEg5TVhtY050Mm9WMDZibmhreVNza0pVOVZaYllvMUFIS0VFcjhIZUs5V2p2TnU1U0l1SjltQnh6bjhZSzNXaXNHNTllT0lxRGJ5cV9BeTI5WThNdg?oc=5",
+      "source": "LancasterOnline",
+      "published_at_utc": "2026-10-19T19:23:34+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests - thecanadianpressnews.ca",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMzBscmdMaU1WODgzVTRXTzc4bzNKbHBoZUNQbXpTa0lSV0QzR3lLc0g0RzVTRld5NUQwSlZDVE96LUdsYUJmZWlBbEpmdGhUMEdyekhMSVI4X0JOWDNkUGx4bVdWc01pZXJpbWRFU05RTmoyLW1mS1FIRk1SblN5UGMxNjN2SDdhUkpaWHZ1YTdXTDAzNjd3bTV3c2d2aXBHdWloY2tRaGE0TDIzRzZoRW1Oc1dqMWszR013ME1VT2Jwd2ZsZDJKbmZ5ZEppRFZvNTdmbUZmSWlGLWU1NzFNdUZNN0FFV0tIcmlkR21PeXpldnpTNDYtTmRRMWExcEdLU0FPTTNkUEpGUQ?oc=5",
+      "source": "thecanadianpressnews.ca",
+      "published_at_utc": "2026-10-19T20:11:14+00:00"
     },
     {
       "category": "korea",
@@ -95,20 +109,6 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Jc3ZDNm1aWXQwb2NudHZQN0ptR1Qtbmh1cmZSU0R6UXpsdm5DTmN1T3dTbVE0WTgyQ2NrMHRVY2dQNW1RbzdJLTEtQXNUWnlGRFZTU3FZYkE4THJ1Ml9abGNrWFllQkI2dWYzOXlTMldzN2VrY2pVUzZ2WQ?oc=5",
       "source": "미주중앙일보",
       "published_at_utc": "2026-10-19T05:30:38+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "KOSPI edges higher as battery, auto gains power market - The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVXk5M0dNbWxtUFFUVHhCZ0VlVW9mTTZrVkREc1pxYmxjaHNUU1pEc3BFT05LNl9zQUR0N3VhWGJhNkxhd0VIWHBTVW9tejZZQlJpeFpIby1ZMUNHODlQdTlCTHRON1dWOTU4eUJvOUNFNEZ3Tm1xSVc2SlMzZW5fWTFnNjRZY0cwRGV3blFOR3ZHWVQ4Z21HM3B4MTZYYkZP0gGmAUFVX3lxTE4xUkFOTGYzdm9zcWE2eExpNF9rUDJkcXhMSHdwWHB4enJTRTVKRW9oQXRIR2hXa3BtRW9wVC1mZXNLbG1ZbnlOVUJjOHU1QTNGTFJRX29jV2tMdnczN21KYmJoaUROVndHS3ljbkk2NUNrRkZZX1BJNzdZLXV5T3g2YXVrbE9vcUtvYms4U0g5bG50QmJteC1oOW1XVGN5NnhSamRrUEE?oc=5",
-      "source": "The Korea Times",
-      "published_at_utc": "2026-10-19T07:10:02+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Global Market: South Korean shares fall as AI investment worries weigh on chipmakers - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQd1hSYkhmRWRMU050S2JOX3B0SUFvaWFPRXRKWkd5ck9TUXp5clNqVXdyaTA5clBpZ0RIYkx0ZmhuWEljTjBXOHdwTFJ5SGhfbmc2SmZhMEI0c2oxWlpLbkxGekN3Y1dtSGFVV0hncEtid1RYQmJxSDZ5ZkYwZUZUd1RET19uUHZmYzIzdXc4S3hTOE00dmdrclItVDhYbWpXZFM1T1lzYTROSXp1akhjbDdDelBqa25wazdwYm03WjNfc1A3X3JYbXlWSkJkQUhobm1Ybm5CTDVrazI3NzEtWkZCalRYWVR5VldtTmJZQU45QdIB9wFBVV95cUxPRXpvX1BxUEEzN2dHREM5M3ZlckE2dV90Tk5LWkxvQkZZNFdJcHlMZ1NpX2xqV3kzcjF5V1hjUWdEOTA1NS1XSG1KR0lRdzlhN1JwRVh0dFc4UjJMTVVfaW95ZGV3YUhmZEhvTUNiWDJpNG5oeDZrcGFRaUNDdzNCSVJVZjZSNUpvR2o4VkZWdVl5RmI4YTdIaU00NmFMQmVGeEktcDhfTEtUMGFpcXlwRVBod1Q4MWhEYjRqQ191NV9PbXM3TXhfSnpsUXAyOTJrT1VNYUpZb2drRHBpdkFjVU14T19oQXptUllud3EwdGFjNXdjeC0w?oc=5",
-      "source": "The Economic Times",
-      "published_at_utc": "2026-10-19T04:31:57+00:00"
     }
   ],
   "warnings": []
