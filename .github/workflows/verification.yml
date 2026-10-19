@@ -9,9 +9,9 @@ on:
         type: choice
         options: [predict, settle]
   schedule:
-    # 07:50 KST weekdays; existing 07:30 market workflow should finish first.
-    - cron: '50 22 * * 0-4'
-    # 17:45 KST weekdays, after Korean market close (Yahoo data may be delayed).
+    # 07:20 KST weekdays
+    - cron: '20 22 * * 0-4'
+    # 17:45 KST weekdays
     - cron: '45 8 * * 1-5'
 permissions:
   contents: write
@@ -36,7 +36,7 @@ jobs:
         run: |
           if [ "$EVENT_NAME" = 'workflow_dispatch' ]; then
             mode="$MANUAL_MODE"
-          elif [ "$SCHEDULE" = '50 22 * * 0-4' ]; then
+          elif [ "$SCHEDULE" = '20 22 * * 0-4' ]; then
             mode=predict
           else
             mode=settle
@@ -51,4 +51,3 @@ jobs:
             git commit -m 'Update Korea forecast verification'
             git pull --rebase origin main
             git push origin HEAD:main
-          fi
