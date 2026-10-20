@@ -1,0 +1,48 @@
+name: Chati v3.3 Analysis and Verification
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 22 * * 0-4' # 07:50 KST (Mon-Fri)
+    - cron: '30 11 * * 1-5' # 20:30 KST (Mon-Fri)
+permissions:
+  contents: write
+concurrency:
+  group: chati-v33-analysis
+  cancel-in-progress: false
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Sync latest
+        run: git pull --rebase origin main
+      - name: Install market data library
+        run: python -m pip install yfinance==0.2.66
+      - name: Refresh market snapshot before premarket prediction
+        if: github.event.schedule != '30 11 * * 1-5'
+        run: |
+          for attempt in 1 2 3; do
+            python scripts/market_update.py && break
+            if [ "$attempt" = 3 ]; then exit 1; fi
+            sleep 15
+          done
+      - name: Produce explainable analysis
+        run: python scripts/analysis_v33.py
+      - name: Record premarket prediction (strict time gate)
+        run: python scripts/v33_verify.py predict
+      - name: Settle pending predictions
+        run: python scripts/v33_verify.py settle
+      - name: Commit generated files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/analysis_v33.json data/v33_history.json data/market.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update v3.3 analysis and verification'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
