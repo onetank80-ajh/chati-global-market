@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "version": "3.6-preview",
+  "generated_at_kst": "2026-10-20T13:35:13.331343+09:00",
+  "data_cutoff_utc": "2026-10-20T04:35:13.331343+00:00",
+  "kind": "sourced_headline_theme_watchlist_not_ai",
+  "market_snapshot_age_hours": 3.1,
+  "market_stale": false,
+  "market_indicators": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "status": "ok",
+      "change_percent": 0.409,
+      "market_date": "2026-10-19"
+    },
+    {
+      "key": "nasdaq",
+      "label": "나스닥",
+      "status": "ok",
+      "change_percent": 1.113,
+      "market_date": "2026-10-19"
+    },
+    {
+      "key": "sox",
+      "label": "필라델피아 반도체",
+      "status": "ok",
+      "change_percent": 1.608,
+      "market_date": "2026-10-19"
+    },
+    {
+      "key": "usdkrw",
+      "label": "달러/원",
+      "status": "ok",
+      "change_percent": -0.466,
+      "market_date": "2026-10-20"
+    }
+  ],
+  "v33_scenarios": [
+    {
+      "market": "kospi",
+      "bias": "상승 우세",
+      "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함",
+      "score": 6
+    },
+    {
+      "market": "kosdaq",
+      "bias": "상승 우세",
+      "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함",
+      "score": 6
+    }
+  ],
+  "v33_mode": "retrospective_or_unverified",
+  "themes": [
+    {
+      "theme": "반도체/AI",
+      "headline_count": 10,
+      "stocks_to_watch": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "verification": "SOX와 국내 외국인 수급 확인",
+      "headlines": [
+        {
+          "title": "South Korea's KOSPI Plunges 3% Intraday, Breaks Below 5,600; SK Hynix Down 4% - BigGo Finance",
+          "source": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzMExtV3VYNWF5VHJQektjVWxtZGJhVUlwdWh2WERPVTFRUTN4TVlhLVZsTHg4bjFfeGJTaDQ4Q0ZqTzlrV1dkRl9vRFNIN2RDU01fNDVQY1NfeHN5X1RsVjNIcEJpUW11RTZNcG90clhwLTkwNmc?oc=5",
+          "published_at_utc": "2026-10-20T03:55:00+00:00",
+          "themes": [
+            "반도체/AI",
+            "환율/한국"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests - LancasterOnline",
+          "source": "LancasterOnline",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeTl0YTMyS0FmLXNFTmZFZDNkbUdiMzljWHNYcFVuSFQxak8tSzVjTHhlaEUzZVhQbnJHLVEtOFJrN0JldmJoZDJ2bWVrSVJ6Q0plOUpfRWg3VzlFQmJkZ09Bc2lwd0tjRklFLTFNLTg4RFhMdzRrWnZrTmdrN0xRbDZVVGpsQnBvT0lZUWZ0czVCWGNKRUlrbmtqLWZOMUtrQm9sX0JoMlFXRXBIWl9oYXEtNm9qWS1wQTI3UEg5TVhtY050Mm9WMDZibmhreVNza0pVOVZaYllvMUFIS0VFcjhIZUs5V2p2TnU1U0l1SjltQnh6bjhZSzNXaXNHNTllT0lxRGJ5cV9BeTI5WThNdg?oc=5",
+          "published_at_utc": "2026-10-19T20:28:32+00:00",
+          "themes": [
+            "반도체/AI"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+          "source": "Britannica",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+          "published_at_utc": "2026-10-19T19:28:00+00:00",
+          "themes": [
+            "반도체/AI"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "Chip stocks rebound after their worst weekly selloff since March - Startup Fortune",
+          "source": "Startup Fortune",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTm5qZkNTMHFfZUtlMWUwUDVXYlI3dU1Ld3hWY0VQa0NZRXZuNE5wTnV5WFc1cnFaUzNNdGJaRkhxR2lVOGJ3dzV2TWpISWxBWVU3WEVDMU1MUVo5ejl3RDZzYkpGQUJEdVlhUDJaRGYyNHdobUl1Nktwa2p5V1c0ZzZrYkJLeFhxaDVkclBmVF9DV0l5Tm1v?oc=5",
+          "published_at_utc": "2026-10-19T17:34:09+00:00",
+          "themes": [
+            "반도체/AI"
+          ],
+          "kind": "headline_only_not_verified_article"
+        }
+      ],
+      "interpretation": "기사 제목에 주제어가 언급됨. 본문과 전문가 발언을 확인하지 않았으며 방향 예측이 아님"
+    },
+    {
+      "theme": "금리/연준",
+      "headline_count": 1,
+      "stocks_to_watch": [
+        "코스피 성장주",
+        "코스닥 성장주"
+      ],
+      "verification": "미국 10년물 국채금리와 원/달러 확인",
+      "headlines": [
+        {
+          "title": "Dow, S&P 500, Nasdaq Futures Rise On AI, Fed Watch After Holiday Break: Why ZIM, AAPL, TCNNF, DIS Kept Traders On Edge Today - Stocktwits",
+          "source": "Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVXNaLWtuMEdPNlcxWEFlV2V5dmFILUFTNjFyR09hWmtMT3NaTm5MT1lfaWxnSkN5bVlHSlFiVHlwenlEblMtXzdMZ3NYenBCNVladFBlSTgySnRxUjJNcDVpZnhXck55VGI5VC1kRzUyems2ekt0WFpZZGROWDNnaDBoa0pidW9kcEM5T3pXcDc4WVAxTk8zNUcwVXdOcFQ1RjhGX0RxSndPdnhYV2lEdnd5NVZuNW5fT0lza0tMTUJYSm8?oc=5",
+          "published_at_utc": "2026-10-19T10:36:12+00:00",
+          "themes": [
+            "반도체/AI",
+            "금리/연준",
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        }
+      ],
+      "interpretation": "기사 제목에 주제어가 언급됨. 본문과 전문가 발언을 확인하지 않았으며 방향 예측이 아님"
+    },
+    {
+      "theme": "기술주",
+      "headline_count": 3,
+      "stocks_to_watch": [
+        "국내 기술주"
+      ],
+      "verification": "나스닥·국내 장초반 거래대금 확인",
+      "headlines": [
+        {
+          "title": "US STOCKS-S&P 500, Nasdaq set to open higher as AI stocks rebound ahead of earnings rush - Devdiscourse",
+          "source": "Devdiscourse",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQm5hdVVndlF3ZzgxNnZKNXBNeDhPRWhCNmZkVVMtUjVCa2lqbTFSbFFna3gtOG1GeGhhV2czY2E5RkF6UWI3X2VIOEI4OVhxVklIMDVuQ3MwOVM1RXpMOG8zTUhrZHBkYmVBb1JTdzI0cC1WaTdHdEFQMkhJc1I5OUJLSGNKOEZZaHU3MklmX0lsdUhJZkRPTVpmU05pZDd1bVZ0dDR1TEZIeDZpOHVTWDFEOFNFclZPSHprQkU4LUlOQ2xyZmVWVElDZjNvOG9OR2h1OFozLWFhd3Q2VFowYU16Y9IB4wFBVV95cUxNQm5hdVVndlF3ZzgxNnZKNXBNeDhPRWhCNmZkVVMtUjVCa2lqbTFSbFFna3gtOG1GeGhhV2czY2E5RkF6UWI3X2VIOEI4OVhxVklIMDVuQ3MwOVM1RXpMOG8zTUhrZHBkYmVBb1JTdzI0cC1WaTdHdEFQMkhJc1I5OUJLSGNKOEZZaHU3MklmX0lsdUhJZkRPTVpmU05pZDd1bVZ0dDR1TEZIeDZpOHVTWDFEOFNFclZPSHprQkU4LUlOQ2xyZmVWVElDZjNvOG9OR2h1OFozLWFhd3Q2VFowYU16Yw?oc=5",
+          "published_at_utc": "2026-10-19T13:06:01+00:00",
+          "themes": [
+            "반도체/AI",
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "Dow, S&P 500, Nasdaq Futures Rise On AI, Fed Watch After Holiday Break: Why ZIM, AAPL, TCNNF, DIS Kept Traders On Edge Today - Stocktwits",
+          "source": "Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVXNaLWtuMEdPNlcxWEFlV2V5dmFILUFTNjFyR09hWmtMT3NaTm5MT1lfaWxnSkN5bVlHSlFiVHlwenlEblMtXzdMZ3NYenBCNVladFBlSTgySnRxUjJNcDVpZnhXck55VGI5VC1kRzUyems2ekt0WFpZZGROWDNnaDBoa0pidW9kcEM5T3pXcDc4WVAxTk8zNUcwVXdOcFQ1RjhGX0RxSndPdnhYV2lEdnd5NVZuNW5fT0lza0tMTUJYSm8?oc=5",
+          "published_at_utc": "2026-10-19T10:36:12+00:00",
+          "themes": [
+            "반도체/AI",
+            "금리/연준",
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "US Stock Futures Rise Ahead of Technology Earnings as Oil Prices Decline: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2JYcWpFTmI1Yy1hNW5mcVlmbTVTVUJ3cUp2WXZaeUJ6S2FsUGNWSks3SDdzajUtbDktU0tjM3cxMjNuSW16enFwZ1hfeFdFeE1KTXpqeUJCMk5hSVAzWEJJeVNiY3phTU1EWF8xQTVQVV9hVDZUdVo3Wmhld0JHc1lRenNTM2dYYUlLVVRlYWliZUlmNzMw?oc=5",
+          "published_at_utc": "2026-10-19T09:09:12+00:00",
+          "themes": [
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        }
+      ],
+      "interpretation": "기사 제목에 주제어가 언급됨. 본문과 전문가 발언을 확인하지 않았으며 방향 예측이 아님"
+    },
+    {
+      "theme": "환율/한국",
+      "headline_count": 3,
+      "stocks_to_watch": [
+        "국내 수출주"
+      ],
+      "verification": "원/달러 방향과 외국인 현물 수급 확인",
+      "headlines": [
+        {
+          "title": "South Korea's KOSPI Plunges 3% Intraday, Breaks Below 5,600; SK Hynix Down 4% - BigGo Finance",
+          "source": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzMExtV3VYNWF5VHJQektjVWxtZGJhVUlwdWh2WERPVTFRUTN4TVlhLVZsTHg4bjFfeGJTaDQ4Q0ZqTzlrV1dkRl9vRFNIN2RDU01fNDVQY1NfeHN5X1RsVjNIcEJpUW11RTZNcG90clhwLTkwNmc?oc=5",
+          "published_at_utc": "2026-10-20T03:55:00+00:00",
+          "themes": [
+            "반도체/AI",
+            "환율/한국"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "[Opening Market] KOSPI Falls More Than 2% Right After Open - Businesskorea",
+          "source": "Businesskorea",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8weGlCNjFNRXhoeklIMVE5UHdvdllqNm5xWUNqQUpwbWZzOVlncWx5cjdVUF84OWdNWm5xVkVaV3NfT0tlRlp6YWx1VHdZc0ZCVVRWZDFxR3pxXy1BNDFlRGhfQkFBNXp0aXdscDEwS2RZYzJU?oc=5",
+          "published_at_utc": "2026-10-20T02:30:18+00:00",
+          "themes": [
+            "환율/한국"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "KOSPI Falls 3.5% at Open as 2026 Gain Shrinks From 116% to 31% - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWF9qWFhBckY1SG9TdnVQblhtajNyQktPaXFvU0ROUlpaSTd3U1FVOFl4bUYyT0VYaEdFT19LZmhuWk56YktTMmt4alpHLXFEZERyWnoxT3h6MFZLTG9vRFlFSDQ3SkV2bUVES0FnNzdXcmFoS2RidFFSdGc5eFJFcHY4T0xSOHJvS0VhbFZZY1VQSWlTazRv?oc=5",
+          "published_at_utc": "2026-10-20T01:13:00+00:00",
+          "themes": [
+            "환율/한국"
+          ],
+          "kind": "headline_only_not_verified_article"
+        }
+      ],
+      "interpretation": "기사 제목에 주제어가 언급됨. 본문과 전문가 발언을 확인하지 않았으며 방향 예측이 아님"
+    }
+  ],
+  "headlines": [
+    {
+      "title": "South Korea's KOSPI Plunges 3% Intraday, Breaks Below 5,600; SK Hynix Down 4% - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzMExtV3VYNWF5VHJQektjVWxtZGJhVUlwdWh2WERPVTFRUTN4TVlhLVZsTHg4bjFfeGJTaDQ4Q0ZqTzlrV1dkRl9vRFNIN2RDU01fNDVQY1NfeHN5X1RsVjNIcEJpUW11RTZNcG90clhwLTkwNmc?oc=5",
+      "published_at_utc": "2026-10-20T03:55:00+00:00",
+      "themes": [
+        "반도체/AI",
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "[Opening Market] KOSPI Falls More Than 2% Right After Open - Businesskorea",
+      "source": "Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8weGlCNjFNRXhoeklIMVE5UHdvdllqNm5xWUNqQUpwbWZzOVlncWx5cjdVUF84OWdNWm5xVkVaV3NfT0tlRlp6YWx1VHdZc0ZCVVRWZDFxR3pxXy1BNDFlRGhfQkFBNXp0aXdscDEwS2RZYzJU?oc=5",
+      "published_at_utc": "2026-10-20T02:30:18+00:00",
+      "themes": [
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "KOSPI Falls 3.5% at Open as 2026 Gain Shrinks From 116% to 31% - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWF9qWFhBckY1SG9TdnVQblhtajNyQktPaXFvU0ROUlpaSTd3U1FVOFl4bUYyT0VYaEdFT19LZmhuWk56YktTMmt4alpHLXFEZERyWnoxT3h6MFZLTG9vRFlFSDQ3SkV2bUVES0FnNzdXcmFoS2RidFFSdGc5eFJFcHY4T0xSOHJvS0VhbFZZY1VQSWlTazRv?oc=5",
+      "published_at_utc": "2026-10-20T01:13:00+00:00",
+      "themes": [
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests - LancasterOnline",
+      "source": "LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeTl0YTMyS0FmLXNFTmZFZDNkbUdiMzljWHNYcFVuSFQxak8tSzVjTHhlaEUzZVhQbnJHLVEtOFJrN0JldmJoZDJ2bWVrSVJ6Q0plOUpfRWg3VzlFQmJkZ09Bc2lwd0tjRklFLTFNLTg4RFhMdzRrWnZrTmdrN0xRbDZVVGpsQnBvT0lZUWZ0czVCWGNKRUlrbmtqLWZOMUtrQm9sX0JoMlFXRXBIWl9oYXEtNm9qWS1wQTI3UEg5TVhtY050Mm9WMDZibmhreVNza0pVOVZaYllvMUFIS0VFcjhIZUs5V2p2TnU1U0l1SjltQnh6bjhZSzNXaXNHNTllT0lxRGJ5cV9BeTI5WThNdg?oc=5",
+      "published_at_utc": "2026-10-19T20:28:32+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+      "published_at_utc": "2026-10-19T19:28:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Chip stocks rebound after their worst weekly selloff since March - Startup Fortune",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTm5qZkNTMHFfZUtlMWUwUDVXYlI3dU1Ld3hWY0VQa0NZRXZuNE5wTnV5WFc1cnFaUzNNdGJaRkhxR2lVOGJ3dzV2TWpISWxBWVU3WEVDMU1MUVo5ejl3RDZzYkpGQUJEdVlhUDJaRGYyNHdobUl1Nktwa2p5V1c0ZzZrYkJLeFhxaDVkclBmVF9DV0l5Tm1v?oc=5",
+      "published_at_utc": "2026-10-19T17:34:09+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Semiconductor Sell-Off: 5 Stocks to Buy on the Dip - The Motley Fool",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPazl5QWIyUmpvQmJZeE5HUURXeklXUHluNXN1di1XYUU0SXZiandTbll5ZVU0MG03cE00Zy1oeXBtSXlxQlpuN3RBRHpzdDZCZWtib3ZLOUJpRWRoYk9LN0Q5YXkyWWl2RERENzVrNnUwX1F2MGY1cC1zajM2TzFmcG1GTmNzX3QtbjdKcHpyako5Q2FfRkNj?oc=5",
+      "published_at_utc": "2026-10-19T16:00:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Not Nvidia. Not Micron. This Artificial Intelligence (AI) Chip Stock Has the Most Upside Through 2030. - The Globe and Mail",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdFYwSXNHaWN2UkFjYV91QXlJTXJnYWs3N3RqdExyaVBNdU1DUG43cmg5S2lyVDZ4Q2EwR1MtLVU1YjBzOUhvdGxGNHpLM2FVbzdRVGZGbkFwc1lRYkF0NVVsdXlHWFg4bzBRS3o0M1RIQ3RpR05ZdXBnYVFnNDM4dHJUaXRseEotdXNCNnZBVWNuVmQ3dEVBQzEtX2dYdkpqUkFXVEdvTmU3WnkxcUl0T1dfLWk4cl8ybkptbTFvNW1lU00wcmRlOGlNcUNkLVBHeXJmR1ZEWXRlbno3aXlMd0ZNQUVlMmMzMHB0N3ZjMjE1b3NlTk9jT09wVDJnZ1g1LXMtWWh4c0w5ejk0V1E?oc=5",
+      "published_at_utc": "2026-10-19T15:03:26+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Intel and AMD Rise 4% as JPMorgan Upgrades INTC After Steep Pullback; NVIDIA Edges Higher - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3gzbjBVYjhaNWZIbUVubDdTLXNaTFFzQXFrZFRURlZLQWhsN2FpQllWTFdKbEQzVVV4X3FvMjI5ZnViNFlIaUx4Y3h5Ukg3MENBQnFZdy0wdlQxQl9oTEdzMUhqd1RxYmpaRmpSSFZsVXRRdU1iQ3JBUXdsMUlWc1hZYm9hQWRHVzRwdm5QSjBoZW1yYUk0aFBOMnlob1lHQnp4SHZ5LWVFT2xrSkw1bC1Lb3JjbkJfRXVadTlXTEp3aTBZR1VQRTlWZWg?oc=5",
+      "published_at_utc": "2026-10-19T13:36:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "US STOCKS-S&P 500, Nasdaq set to open higher as AI stocks rebound ahead of earnings rush - Devdiscourse",
+      "source": "Devdiscourse",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQm5hdVVndlF3ZzgxNnZKNXBNeDhPRWhCNmZkVVMtUjVCa2lqbTFSbFFna3gtOG1GeGhhV2czY2E5RkF6UWI3X2VIOEI4OVhxVklIMDVuQ3MwOVM1RXpMOG8zTUhrZHBkYmVBb1JTdzI0cC1WaTdHdEFQMkhJc1I5OUJLSGNKOEZZaHU3MklmX0lsdUhJZkRPTVpmU05pZDd1bVZ0dDR1TEZIeDZpOHVTWDFEOFNFclZPSHprQkU4LUlOQ2xyZmVWVElDZjNvOG9OR2h1OFozLWFhd3Q2VFowYU16Y9IB4wFBVV95cUxNQm5hdVVndlF3ZzgxNnZKNXBNeDhPRWhCNmZkVVMtUjVCa2lqbTFSbFFna3gtOG1GeGhhV2czY2E5RkF6UWI3X2VIOEI4OVhxVklIMDVuQ3MwOVM1RXpMOG8zTUhrZHBkYmVBb1JTdzI0cC1WaTdHdEFQMkhJc1I5OUJLSGNKOEZZaHU3MklmX0lsdUhJZkRPTVpmU05pZDd1bVZ0dDR1TEZIeDZpOHVTWDFEOFNFclZPSHprQkU4LUlOQ2xyZmVWVElDZjNvOG9OR2h1OFozLWFhd3Q2VFowYU16Yw?oc=5",
+      "published_at_utc": "2026-10-19T13:06:01+00:00",
+      "themes": [
+        "반도체/AI",
+        "기술주"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Rise On AI, Fed Watch After Holiday Break: Why ZIM, AAPL, TCNNF, DIS Kept Traders On Edge Today - Stocktwits",
+      "source": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVXNaLWtuMEdPNlcxWEFlV2V5dmFILUFTNjFyR09hWmtMT3NaTm5MT1lfaWxnSkN5bVlHSlFiVHlwenlEblMtXzdMZ3NYenBCNVladFBlSTgySnRxUjJNcDVpZnhXck55VGI5VC1kRzUyems2ekt0WFpZZGROWDNnaDBoa0pidW9kcEM5T3pXcDc4WVAxTk8zNUcwVXdOcFQ1RjhGX0RxSndPdnhYV2lEdnd5NVZuNW5fT0lza0tMTUJYSm8?oc=5",
+      "published_at_utc": "2026-10-19T10:36:12+00:00",
+      "themes": [
+        "반도체/AI",
+        "금리/연준",
+        "기술주"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Scott Bessent Links September Inflation to 'Energy Shock' — RCAT, ESLT, STLD in Focus - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPMGlsNTQ4b1d2Z3BFRzgzSDlXall5Wl9PckZrc0NjcVNjdnAtdjZPVGxSTE5ZNFZCaWxoVUZYWm9leXIyaWNiZjhqdnhUTnFycEowbHNIN2N1UVJQX29yUnpEcmJyZ3B2WXc0NS1xMXBlelVVZENNeW9DMDhpSEFIYUlwc2VCUGlfR0dORkd4MXdXSUZYdjNxbWxFMlVsQ3lwZi1FLURZQmFVVWdtRlRyZDd1OGJWUGQ3TFZ1WjJZanIwbmhxZDhuX3d1eUZVX1lVdmpLZHlIOFUzMGc1cjhXTWQ3Q3dfTnkxMS1xNEFObjVfR0xDUTIta1MzNGxLOTZqdnVDN2pXZEY3QXVhTVhkVUN6OHdLWXFmVHlF?oc=5",
+      "published_at_utc": "2026-10-19T09:24:45+00:00",
+      "themes": [],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "US Stock Futures Rise Ahead of Technology Earnings as Oil Prices Decline: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2JYcWpFTmI1Yy1hNW5mcVlmbTVTVUJ3cUp2WXZaeUJ6S2FsUGNWSks3SDdzajUtbDktU0tjM3cxMjNuSW16enFwZ1hfeFdFeE1KTXpqeUJCMk5hSVAzWEJJeVNiY3phTU1EWF8xQTVQVV9hVDZUdVo3Wmhld0JHc1lRenNTM2dYYUlLVVRlYWliZUlmNzMw?oc=5",
+      "published_at_utc": "2026-10-19T09:09:12+00:00",
+      "themes": [
+        "기술주"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "US Stock Market Today: S&P 500 Futures Drop As Trade Inflation Fears Return - Simply Wall Street",
+      "source": "Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLTRPTWwwc2llbW04UHFDeWczMENhU2kyZ1I5RTdhdEEzR1FBWG1FSGFQZmFaMTRLcUNUc0k1aVVTTFBrSl9oWVAzS3lDWUs2WUFpa01EVHlGb2VDM08tUDMweFdjZllJa0ozQUlKM09iZTQybnY3QjBqb1FCeXh0UFhVRWFwMlVZX19nOGFmQkRnZXNPVmVPclBCNWFZZXhjTnEwT3d4MFVTem5FQ0dEd0VEckY3eXdWU3ZiRkVxRjc1eTY2VUZZ0gHMAUFVX3lxTE8yYTRfM2JtWlBIX0lEcnlrVkItVGM2RzNNSlIxZFZvQjFpajBZdDd1WHd1M3RLUlQzZVROVHpJaW5nUnFMT1Z4SjhFYUo5QldNY2ttUi01U0VTQ1ctSEhUb2pOdUt2ZV9LazFKUmlwWkpaN18xWm9QX1FnQWlSWWlpVW9ETWpQOE5yekRqSEQzMGFKcVg4M0RkOVpvT0M3clF3T2MtZXFhNVdZTTFoSEpvQU1KaW1NVHBWR2s5dVBHaVVMMkZhbTBTc0hCag?oc=5",
+      "published_at_utc": "2026-10-19T09:00:27+00:00",
+      "themes": [],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Wall Street muscles higher despite more swings for AI stocks - Mankato Free Press",
+      "source": "Mankato Free Press",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNMXVHS2xYSnZtcGpjbkNVaXZQbFZhdFRpZUg3cEJVRkRjU2JhcHNDb2c0ZlhKOFB4RDIxRDdiS2M3cUh5SjJDY2lnYmxlUHdFQ1FoeHR5bDJGd0dpZ3JDOU4tUnMtOUpvNFRQOU5xRC1zUEdUUlozUThoUl9RUUNPMzBrNXJnT0ZKVU5OVzY3NTBLcDZlXzdNbjUtN2s3NTQ0eW5kMXByNTB5czhWS1N4ZmJybkZ0U294QzRyS1podXdUdDlKenpueTRZUGhzNmpiQ084NHdzdTl0SUFUMW9vZWFnZ21GZVdkeWxMczN6OXA2eUNUcDBMUm5mWFNsXzlNdlJ0a2t1OA?oc=5",
+      "published_at_utc": "2026-10-19T07:43:06+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    }
+  ],
+  "sources": {
+    "market": "Yahoo Finance via yfinance (unofficial, may be delayed)",
+    "news": "Google News public RSS (headlines/links; not verified article contents)",
+    "broadcast": "not_available_no_verified_transcript"
+  },
+  "warnings": [
+    "뉴스는 RSS 기사 제목만 분류했으며 기사 본문·방송 발언을 분석한 결과가 아닙니다.",
+    "주제별 관련 종목은 관찰 대상이지 매수·매도 추천이 아닙니다.",
+    "실시간 시세가 아닌 지연될 수 있는 일별 종가입니다.",
+    "v3.3 분석은 유효한 개장 전 예측으로 확인되지 않았습니다."
+  ]
+}
