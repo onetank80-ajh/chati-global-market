@@ -1,0 +1,29 @@
+name: Chati v3.4 YouTube Caption Probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install caption client
+        run: python -m pip install 'youtube-transcript-api>=1.2,<2'
+      - name: Probe Osun Oct 19 broadcast
+        run: python scripts/youtube_caption_probe.py 'https://www.youtube.com/watch?v=BeeIcWciVI0' --output caption_probe_private.json
+      - name: Print status without transcript
+        run: |
+          python - <<'PYCODE'
+          import json
+          d=json.load(open('caption_probe_private.json',encoding='utf-8'))
+          print('status:',d['status'])
+          print('video_id:',d['video_id'])
+          print('language:',d.get('language'))
+          print('caption_characters:',d.get('caption_characters',0))
+          print('error_type:',d.get('error_type',''))
+          PYCODE
