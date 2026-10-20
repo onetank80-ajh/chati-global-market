@@ -1,0 +1,33 @@
+name: Chati v3.6 Sourced Briefing
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 22 * * 0-4' # 07:05 KST weekdays; does not change v3.2 push
+permissions:
+  contents: write
+concurrency:
+  group: chati-v36-briefing
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Refresh headlines
+        run: python scripts/news_update.py
+      - name: Build sourced briefing
+        run: python scripts/v36_briefing.py
+      - name: Commit generated data only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news.json data/briefing_v36.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh v3.6 sourced briefing'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
