@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "version": "3.3-experimental",
+  "generated_at_kst": "2026-10-20T10:27:18.099520+09:00",
+  "analysis_kind": "explainable_rules_not_ai_not_backtested",
+  "analysis_mode": "retrospective_or_unverified",
+  "eligible_for_prediction_record": false,
+  "snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-10-20T01:27:15.922568+00:00",
+  "coverage": 1.0,
+  "factors": [
+    {
+      "key": "sp500",
+      "name": "S&P500",
+      "market_date": "2026-10-19",
+      "change_percent": 0.409,
+      "signal": 1,
+      "weight": 2,
+      "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
+    },
+    {
+      "key": "nasdaq",
+      "name": "나스닥",
+      "market_date": "2026-10-19",
+      "change_percent": 1.113,
+      "signal": 1,
+      "weight": 1,
+      "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
+    },
+    {
+      "key": "sox",
+      "name": "반도체 SOX",
+      "market_date": "2026-10-19",
+      "change_percent": 1.608,
+      "signal": 1,
+      "weight": 2,
+      "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
+    },
+    {
+      "key": "usdkrw",
+      "name": "달러/원",
+      "market_date": "2026-10-20",
+      "change_percent": -0.466,
+      "signal": 1,
+      "weight": 1,
+      "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
+    }
+  ],
+  "scenarios": [
+    {
+      "market": "kospi",
+      "bias": "상승 우세",
+      "score": 6,
+      "max_abs_score": 6,
+      "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함"
+    },
+    {
+      "market": "kosdaq",
+      "bias": "상승 우세",
+      "score": 6,
+      "max_abs_score": 6,
+      "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "반도체",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "basis": "SOX 변동을 참고하며 개별 종목 방향을 확정하지 않음"
+    }
+  ],
+  "broadcast": {
+    "status": "not_available",
+    "transcript_verified": false,
+    "summary": null
+  },
+  "news_headline_count": 15,
+  "risk_checks": [
+    "국내 개장 후 외국인·기관 수급",
+    "국내 거래대금과 시가 갭",
+    "미국 지표 기준일과 휴장 여부",
+    "당일 환율 방향 변화"
+  ],
+  "warnings": [
+    "규칙 기반 참고 분석이며 학습·검증된 수익 예측 모델이 아닙니다.",
+    "한국 지수별 임계값 차이는 실험적 설정이며 백테스트 전에는 성능 우위를 주장할 수 없습니다.",
+    "오선 방송의 실제 자막/원문이 제공되지 않아 방송 분석은 수행하지 않았습니다.",
+    "미국 지표별 기준일이 다릅니다. 비교에 주의하세요.",
+    "개장 전 신선한 데이터로 확인되지 않았습니다. 사전 예측이나 적중률 계산에 사용하면 안 됩니다."
+  ]
+}
