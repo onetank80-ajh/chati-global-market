@@ -1,6 +1,37 @@
 {
   "schema_version": 1,
-  "records": [],
-  "generated_at_kst": "2026-10-20T02:19:18.180048+09:00",
+  "records": [
+    {
+      "date": "2026-10-21",
+      "market": "kospi",
+      "prediction": "flat",
+      "score": 1,
+      "predicted_at_kst": "2026-10-21T07:53:26.802123+09:00",
+      "source_snapshot_utc": "2026-10-20T22:53:24.187552+00:00",
+      "source_dates": {
+        "sp500": "2026-10-20",
+        "sox": "2026-10-20",
+        "usdkrw": "2026-10-20"
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-21",
+      "market": "kosdaq",
+      "prediction": "flat",
+      "score": 1,
+      "predicted_at_kst": "2026-10-21T07:53:26.802123+09:00",
+      "source_snapshot_utc": "2026-10-20T22:53:24.187552+00:00",
+      "source_dates": {
+        "sp500": "2026-10-20",
+        "sox": "2026-10-20",
+        "usdkrw": "2026-10-20"
+      },
+      "actual": null,
+      "status": "pending"
+    }
+  ],
+  "generated_at_kst": "2026-10-21T07:53:26.802123+09:00",
   "method": "S&P500 ±0.3%, SOX ±0.5%, USDKRW ±0.3%; sum >=2 up, <=-2 down, else flat. Flat actual ±0.1%."
 }
