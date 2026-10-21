@@ -1,16 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-20T22:53:25.120900+00:00",
-  "generated_at_kst": "2026-10-21T07:53:25.120900+09:00",
+  "generated_at_utc": "2026-10-21T22:28:06.098155+00:00",
+  "generated_at_kst": "2026-10-22T07:28:06.098155+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
     {
       "category": "us_market",
-      "title": "US Stock Futures Rise Ahead of Technology Earnings as Oil Prices Decline: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2JYcWpFTmI1Yy1hNW5mcVlmbTVTVUJ3cUp2WXZaeUJ6S2FsUGNWSks3SDdzajUtbDktU0tjM3cxMjNuSW16enFwZ1hfeFdFeE1KTXpqeUJCMk5hSVAzWEJJeVNiY3phTU1EWF8xQTVQVV9hVDZUdVo3Wmhld0JHc1lRenNTM2dYYUlLVVRlYWliZUlmNzMw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-19T09:09:12+00:00"
+      "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gains as Iran Prolongs US Talks Ahead of Midterms — NFLX - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNczN0a2VfUUFLU01UaWJDNmtObnN4d2JsNktKOXBBdHFBdmU0eWRPSEMxay1oS2VTZkJXdVp2cTlmb2FzMmx0eTFJQnNXZTBLaWJKc05zLTRuNHA3a0haZXBfbWRlMTJFYXkzTkVsc01rdG9uXzVaX0tUb3BZZlBTc2RzZHVxSjcwaHpwelJiMHRWVHU5aURCeWFyTzBpbWl0VUUweFdXYVhLMWZQMTU1V2NGTG9OelNaVmVfZDg0MUFkcGxJcE5Jb1lCWFhZQUV6aXdWQnl4N0k5YjF6bllvSElOMTBhM1UtTVZ4UENWZHJSY1h6bnFWX2s4V2U1X2FTX0NuOFJn?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-10-21T10:03:33+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Chinese Stocks BABA, JD, PDD Slide After Hong Kong Tech Index Falls Below 4,000, Even as US Market Edges Higher - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSk5xVk9hdlE5MGlHOG9oTHV4NEhCUmFZVkFORzNaaFN3NW93U1FUOHNyb2Fjb09xQkpCWWxVVXAyVmZRT05XeFBneWthaExuQ21NODZiYnVhcUxfWTZldHJqR0dMZFJ6MTdmNzAwZGZSLTN3Y3E5QU5zbHBzTHdzRUlzSFU4Z2VGdG9vY2JReUMyS1NZMnY2cFFLbnJrNGJ3eldHRjlaa18zTUZtNFBjSzNKWEZhSUo5cFlOTHhvTWhhRVRSNkFuZzFhcnNtRmJRSEFUWkliZndEdUZzeEU3UXlWcnRZWXB4TGVDMm1LMkx3VFYwek5CcXNud3JQUQ?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-21T18:07:21+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "US Stock Market: Dow Jones, Nasdaq, S&P 500 Climb Almost 1% Driven By Space, Chip Stocks; Wall Street Outlook - Goodreturns",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOemNheGdERGtqTkc4N2lKei1fSUZ5ZEFWYzBQT0hKRGl2RGJaby1xTExVeXhHUHpxTlJXVThTTmppVlNVczdQbnVvMks4clJHRmwxVkt4Y3RwZm5WNEpzb2ZlT0RLa014OG1XMDNLQTRZSWtIU2tlajdzTkJ5VDBDN1ZrMzNrczJkN2pha3VYYWNXWnhRSEUxTWVIMktPdGNfVk9oenowdE5wQURIT0NvREt0cmNVYUtEc0NSSGc4a3h2b3pIM2hsUi1aVWxfT0xBR0lXV3FUSDU?oc=5",
+      "source": "Goodreturns",
+      "published_at_utc": "2026-10-21T21:34:22+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "US stock futures slip as Nasdaq 100 futures fell, Dow Jones futures rose - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObFRIYVBaSzcwXzZzQ0xnRlo0cnhnc2t5MFlfdl8xVl9IYVl0QmxqQlRkNU9QbVdzSlc4MnNlRS1MZzRkLUNfWjNYQ1RZTjlLRDY2aGFRVU55dkVsQlA2QkpLdlBxUVNuR1NpMnNRQUtHcnVJNDcxelRDYml3azlTTmVBQnl0dw?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-10-20T10:52:04+00:00"
     },
     {
       "category": "us_market",
@@ -20,95 +41,74 @@
       "published_at_utc": "2026-10-20T10:13:04+00:00"
     },
     {
-      "category": "us_market",
-      "title": "Dow, S&P 500, Nasdaq Futures Climb As AI Frenzy Drives Record Rally: Why CSCO, LUNR, ONDS, NVDA, NOK Are In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMlRlYjR4azlSZVZmbVdnNHlGR2RfOUxRellPU1FieFJRUTNUOUFUckRWYVBZaS1ha1E2d0JxX0hhdmJldW53Ui1HWnVqNVR0UHp4UlV2Nk5hYzVDalBDaXp3NGRlTEhTdElPbFNGRGlITnlNRFlhZy1JUEFteWZzQ1RRUzVWWUFnV056Tk8zUjM3dmxVTGpXaVB6ejRJaXFPQ3FWMEVJM0dEdEhnUFVOMGx0RkoyT2tlbmlvUE9B?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-19T23:32:35+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Scott Bessent Links September Inflation to 'Energy Shock' — RCAT, ESLT, STLD in Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPMGlsNTQ4b1d2Z3BFRzgzSDlXall5Wl9PckZrc0NjcVNjdnAtdjZPVGxSTE5ZNFZCaWxoVUZYWm9leXIyaWNiZjhqdnhUTnFycEowbHNIN2N1UVJQX29yUnpEcmJyZ3B2WXc0NS1xMXBlelVVZENNeW9DMDhpSEFIYUlwc2VCUGlfR0dORkd4MXdXSUZYdjNxbWxFMlVsQ3lwZi1FLURZQmFVVWdtRlRyZDd1OGJWUGQ3TFZ1WjJZanIwbmhxZDhuX3d1eUZVX1lVdmpLZHlIOFUzMGc1cjhXTWQ3Q3dfTnkxMS1xNEFObjVfR0xDUTIta1MzNGxLOTZqdnVDN2pXZEY3QXVhTVhkVUN6OHdLWXFmVHlF?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-10-19T09:24:45+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "US stock futures slip as Qatar mediates US-Iran talks - scanx.trade",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMGJEaVBrNlRSTGRuR01OcU1ZT0tucHBoUjFZUS1wSTBjY1pXSS1iNHhYZFk0VzlDOEFGOXNuTG54LS1nVVdDZlFhUkg5OExVQWRRN1dBM1ZkbklqUmtuUU56RWJKQU8zTnVNTm43eDBLT1AycVd5V3JXNFlmZkdpaVBZWERJTXNrc0Q2aXVUUnh0bXZValpOM0V3WlVWb1ds?oc=5",
-      "source": "scanx.trade",
-      "published_at_utc": "2026-10-20T20:59:43+00:00"
-    },
-    {
       "category": "semiconductor",
-      "title": "Semiconductor Sell-Off: 5 Stocks to Buy on the Dip - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT3VNcHlWS1hjd0c0Q1NIT3pjQm12cnk5eEt4M0dLT3JlOXB3b2FiMmVnQVlRWEZ4OG9vXzJ6dXEyOGx1WVBVUklVVlR2OW1KUmtKVjhCc0JOc2pzLXRHUGdCREhLQWF2UHNzOGN2eU0xYWNGbzU4MmgxTU52YVZaOFBSX2pMZ08tS0lxa2NtcHRMSk1TaDBiNWh1dFY?oc=5",
+      "title": "$4,000 in These 4 Non-Nvidia Chip Stocks Could Be Worth This Much by 2030 - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUnZ0ZXFEQmtZMW95Q2tHak0tSlk0SnJIcVQxM1J5c2dGdzZJdWpXSUdQVUxKcFhKWjNCaFdMOEdDNzYyamVPb242amlpS296bXdZSWVuMDhTV2xQU1lacExQLUlycTlCb1pBaWNKelU0OW10QTFvMDNWYVlDV1FzUTNCTlFKcFhKN29j?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-19T15:20:00+00:00"
+      "published_at_utc": "2026-10-21T20:05:00+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Semiconductor Sell-Off: 5 Stocks to Buy on the Dip - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPazl5QWIyUmpvQmJZeE5HUURXeklXUHluNXN1di1XYUU0SXZiandTbll5ZVU0MG03cE00Zy1oeXBtSXlxQlpuN3RBRHpzdDZCZWtib3ZLOUJpRWRoYk9LN0Q5YXkyWWl2RERENzVrNnUwX1F2MGY1cC1zajM2TzFmcG1GTmNzX3QtbjdKcHpyako5Q2FfRkNj?oc=5",
+      "title": "ASML Has Incredible News for Nvidia Stock and Micron Stock Investors - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkFJdXAzQlduVjl6alhDSmJkdlc3N1dnUUhRai1jVWNKSU56OFc1U0tfa1NUeW1WejltYmRjV1hHMzJ4dmtCYkpTV21XTTZNaEgwVWdJMWVIS21tTE15S1E2SDItT0pvdU1LaGdEOGdHeHU1azdzbHUyc2VhMUltcXZBV283WHZaLXNmSHFKc0p4MTkwWHBQa3NwNnc2R2hhNEpoQzFpZmV6OVM1cUJNZA?oc=5",
       "source": "The Motley Fool",
-      "published_at_utc": "2026-10-19T16:00:00+00:00"
+      "published_at_utc": "2026-10-21T19:32:00+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Not Nvidia. Not Micron. This Artificial Intelligence (AI) Chip Stock Has the Most Upside Through 2030. - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdFYwSXNHaWN2UkFjYV91QXlJTXJnYWs3N3RqdExyaVBNdU1DUG43cmg5S2lyVDZ4Q2EwR1MtLVU1YjBzOUhvdGxGNHpLM2FVbzdRVGZGbkFwc1lRYkF0NVVsdXlHWFg4bzBRS3o0M1RIQ3RpR05ZdXBnYVFnNDM4dHJUaXRseEotdXNCNnZBVWNuVmQ3dEVBQzEtX2dYdkpqUkFXVEdvTmU3WnkxcUl0T1dfLWk4cl8ybkptbTFvNW1lU00wcmRlOGlNcUNkLVBHeXJmR1ZEWXRlbno3aXlMd0ZNQUVlMmMzMHB0N3ZjMjE1b3NlTk9jT09wVDJnZ1g1LXMtWWh4c0w5ejk0V1E?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-19T15:03:26+00:00"
+      "title": "Nvidia, AMD and Intel stocks fall again in premarket: what went wrong overnight? - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSG82TDh2X3BPR09iNjdKdUhoM1Vtc0NRNU1yd0ZaeWhBN1hiZWJKSDZoQXdhT1VlVGdzUlZYc3FNNXZqd2xUWEk1UjNsMENHTEN4VnFGMi1RLVR1T2RhaWlLdGVScGhLdVN6bjUzNjlQR3Z0YU5ITnVGZ1BPOXdCSlZOZTZfT2Jnb3k3UjNBbHdaVmdOU2RlLWF3Zl9KdmhkWmVFTHFoWnZ0YmtfMEFOcC0wUks0Q0lQLTdabm04anBfR1NVN3FKRDg4ZWJiQQ?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-20T10:13:23+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "US Premarket Movers for October 19, 2026 - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3RLelhTMXoyTkdiZmdVRHdhQmhLNjhRVngtTUJXcTlodi1rOE9hV21wOVRSOC04ZmJwMjU5LThkckRJeUVPT3V0Ynk5NF80ZXFKeG9IYUNuazJXWVJ5SEZHdDFXSUpzWTlNLUZ2TFlKYVdacHF5R25Eb3ZvMndhQmotQXo1OVhSSklIREpRQm1IS2ZzaC15M09DdGhldWhMQlBiOFBlQi1MeG9XaUE?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-10-19T12:00:04+00:00"
+      "title": "Hedge Funds Dumped Tech Stocks at the Fastest Pace in a Decade, Goldman Says - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUmg2N0xWU3RqdFJtNXNmRW5TWWRVYkhZMjNUTFNOR2lBckhEc29HUHd2czlFbEdzX0VSZGpmdFdOczAxdWRXTG1hdnBBcjRlY2dlaUMzeUkwN3ZHQnJsRHp4Q09JazNCbGpOdzlHUks1MHVCU1hMMkZnbi11U2J4cE5BZWRvbWJBaE5hQjZJSk9nd2ZtSUFqLVhBS0l0N2pPTnJoUC1uMnJ5TEM2ZUdFVnBManhZeFJWbGJn?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-10-20T13:35:00+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Chip stocks rebound after their worst weekly selloff since March - Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTm5qZkNTMHFfZUtlMWUwUDVXYlI3dU1Ld3hWY0VQa0NZRXZuNE5wTnV5WFc1cnFaUzNNdGJaRkhxR2lVOGJ3dzV2TWpISWxBWVU3WEVDMU1MUVo5ejl3RDZzYkpGQUJEdVlhUDJaRGYyNHdobUl1Nktwa2p5V1c0ZzZrYkJLeFhxaDVkclBmVF9DV0l5Tm1v?oc=5",
-      "source": "Startup Fortune",
-      "published_at_utc": "2026-10-19T17:34:09+00:00"
+      "title": "Japan’s Nikkei jumps over 1% as AI optimism lifts chip stocks; exports rise 16.7% - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMEk5REpTaWRNQ3lCYjllTlBPZ1poMmplMC1Od2UtZ2FnZU1ObndsTDRNZHE5T0FONk9fRVk3ZFY2WmhUbmhKTnR0ZUlNU25YWDJtUVVNYnpObGRZRXRVUERSTlFDR3FTei1rV3pnUkRUUG91dHlGLUVWQmh1c3F4NE9yOU9XbXBYYmJBLWxScFBGb0otTkZlQUpBejdNeFg2eEQ3SVFxZ2JlRkUzVmVqVDg4TEhmc1hHR2ZPaUVqTzhLM0Z0QkxIRlpSb0VnMl9LYUd4U0RfNlpUMy1leVVHU1V6LVZ3ZWFKYm5GOTRTYkVweDNxa1HSAe8BQVVfeXFMTkpGdFAxMFlZOFpoYlJENXlCMlc1ek45VlowM3JCaHNuRXoyUFctWU0yQzUtcmFuVWxnS0E2bFpET1ZTVHpaUnV6aEVYdWh0VE9lTGJkcFV0aWlBOWNFQ1NYWU1JRm9QRjZzSTkyMGU0Z3phV1VfZzRhQ1VjWUVSS2lEdUc4M2g3RldENW5Ec3UyTVhINnltMmhpOUs4LVpFX1NlNi0yckNkTkV3WER6Y3A1anppZHM3cWlIS3dGSXdxWFN3SHRFZjdhaEFDTTlBeGctVEo3WG1TVTFtaC1UcC12b0JTeUFRWm14a0hoc0E?oc=5",
+      "source": "The Economic Times",
+      "published_at_utc": "2026-10-21T04:16:06+00:00"
     },
     {
       "category": "korea",
-      "title": "KOSPI Falls 3.5% at Open as 2026 Gain Shrinks From 116% to 31% - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWF9qWFhBckY1SG9TdnVQblhtajNyQktPaXFvU0ROUlpaSTd3U1FVOFl4bUYyT0VYaEdFT19LZmhuWk56YktTMmt4alpHLXFEZERyWnoxT3h6MFZLTG9vRFlFSDQ3SkV2bUVES0FnNzdXcmFoS2RidFFSdGc5eFJFcHY4T0xSOHJvS0VhbFZZY1VQSWlTazRv?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-20T01:13:00+00:00"
+      "title": "A strong profit report from SpaceX helps lift AI stocks and Wall Street - Oskaloosa Herald",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQ01kS2JkdEY1VGU5S1NNZVNvb2k2RTJfNVQwd2ZpUjJTQkxQcFVBUjBCSnBzUkg2MUttaGM2WlNkdUFodU5TQVRIbjdBZmxBNkxGMVc0NlpUckJYMlBuSzVNVkx6MWlrVF8xUXF4dXE2dnFPVm0xaEVjYTBkNFNCT094S0hBQUxhdDBjazB5VWJHaHN6V0Uyb1AzbjVnSDFaeDNCNXg4R3JOUThGVmZsd3poZ09yYU40SmVuNk1mV25CN2h0VUplaHBDVEI0LXBUdmlUMFRPN01YaEdPUkhGdm5TYkwxRmRBOGNRY0dGQzFXdThFU3ZBMkR3?oc=5",
+      "source": "Oskaloosa Herald",
+      "published_at_utc": "2026-10-21T20:05:27+00:00"
     },
     {
       "category": "korea",
-      "title": "[Closing Market] KOSPI Plunges 3.7% on Heavy Foreign, Institutional Selling - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02WTFlTHdLMVlDSkRkVEEyaXZydGlGODZUazdFMU9uYlBCTy1oa1hzdGhSanpRR0VSei0ySk5xcUhGVE1hN0FIeGdFeVBRUVhNbUI0QTJFVXFjbEhVNG4xV0VIVUJzU1JjRWNoRUJfcFRheVRl?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-10-20T09:56:36+00:00"
+      "title": "A strong profit report from SpaceX helps lift tech stocks and Wall Street - Beloit Daily News",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOXhXY0NhOHpGcEMyM2pjMm9hbU9fVDBzbE55VDBQa01xNFN4Z0hCZjVwUnpKS1NsVV85X09jYkhtd0ZZRnJ3UG5CdDBIZE16YldBVzJ2bXdsWXdMWTlPRExBX1lZdy1JRmh6eEJYcVJJd1Y5S3VWNldrMGxOb3ZDV2FwVnI0TkFpVnA4UWpTTUZMamw1Rk9qR1hyeGJTQUNocXJDa3JHeGNyZklCdnhhVE83ZzlFSDdvWGdOSzNENEx6SEhOS1UwWFkzMEZYLTFNSm9JeHRrVHNBYk9jV2llWWFhY1l1enFBMTFTaXQ5eXo2QjV6SEYwSEpUR0lRZ1diU2lF?oc=5",
+      "source": "Beloit Daily News",
+      "published_at_utc": "2026-10-21T20:19:30+00:00"
     },
     {
       "category": "korea",
-      "title": "South Korea's KOSPI Plunges 3% Intraday, Breaks Below 5,600; SK Hynix Down 4% - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzMExtV3VYNWF5VHJQektjVWxtZGJhVUlwdWh2WERPVTFRUTN4TVlhLVZsTHg4bjFfeGJTaDQ4Q0ZqTzlrV1dkRl9vRFNIN2RDU01fNDVQY1NfeHN5X1RsVjNIcEJpUW11RTZNcG90clhwLTkwNmc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-10-20T03:58:30+00:00"
+      "title": "Asian shares are mixed, with Kospi up 3% after US stocks rally on strong earnings - Bozeman Daily Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNd2I1QnlhekVLMXhEdG43NnRmaWFIeV9rTUFCUUp6dHI0NThrS3BCcFpsdERxNV9yUXZRSjJJVXFUd3Q3ZVVvOFpHT3lxa0ZWWTJqcUh5b0I4amg2a1AyNDNzQTBpSEZuOEN1aGZOLWx4WHh2cGYyUXBoUDd0Q1Q3Zk1Ia0F6TzFEeVZ6WlNPUmxhZ1hWX2ROY2FMQjEtUENQNFAzTjhpVFRPTVRuLThTZ3lDNW1xR0tzVE15ME1XaXVNOVhaRHQzSVlsNHJ6d2M1cFRqa0JfWDlKVmZobXR2VExKTDVDMFVqVUhXd1MtcHJwQUdrZ1BnZHA3Vk43ZGtaLXRqWl9oaGFtdTViQ2c?oc=5",
+      "source": "Bozeman Daily Chronicle",
+      "published_at_utc": "2026-10-21T04:53:23+00:00"
     },
     {
       "category": "korea",
-      "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests - LancasterOnline",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeTl0YTMyS0FmLXNFTmZFZDNkbUdiMzljWHNYcFVuSFQxak8tSzVjTHhlaEUzZVhQbnJHLVEtOFJrN0JldmJoZDJ2bWVrSVJ6Q0plOUpfRWg3VzlFQmJkZ09Bc2lwd0tjRklFLTFNLTg4RFhMdzRrWnZrTmdrN0xRbDZVVGpsQnBvT0lZUWZ0czVCWGNKRUlrbmtqLWZOMUtrQm9sX0JoMlFXRXBIWl9oYXEtNm9qWS1wQTI3UEg5TVhtY050Mm9WMDZibmhreVNza0pVOVZaYllvMUFIS0VFcjhIZUs5V2p2TnU1U0l1SjltQnh6bjhZSzNXaXNHNTllT0lxRGJ5cV9BeTI5WThNdg?oc=5",
-      "source": "LancasterOnline",
-      "published_at_utc": "2026-10-19T20:28:32+00:00"
+      "title": "Wall Street gains ground after SpaceX helps lift AI stocks - The Killeen Daily Herald",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNUh6NWJrellzdFpPOVpXSzd3TzZPOVRkQUpYaXZldmFkQmZIU1lPQnpDXzI1cW5CcktuM1BwQU8xRlNmczNWWllwWFYycjdUUzhHRGxjN0ZIZC16b1BCUUViaXVOSTQwaVZBSFZVQ3FQVWdpVmNUWHdIaGpCUlo1T3A2WWtnNUVkRmhwRVNrT0xRRDIxUWtaaXVEbDlpMS16UENBYmhocUcwZF9YQmVnXzVrN2F5RTdnSjRTdllQdjREMkM2TWx5S1czRGM5S1lLTWQ2eWo2RQ?oc=5",
+      "source": "The Killeen Daily Herald",
+      "published_at_utc": "2026-10-21T18:11:13+00:00"
     },
     {
       "category": "korea",
-      "title": "This year, the largest-ever private fund \"Money Move\" appeared on the Korean stock market thanks to - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yVkRMb3hqSUI0S1pOdGdzWFE5WUk3ODZMaHJJcElRb2pLTUlrSWFWZXV3dE9qNDNGMmpSRkxwZGhGN1JacWVRRC1tTE1sUVE?oc=5",
-      "source": "매일경제",
-      "published_at_utc": "2026-10-20T08:35:54+00:00"
+      "title": "South Korea's AI Trade Just Went From Panic to Euphoria in 24 Hours - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNejd3Mml6OWdzS0sxSDBCWlRSVkdydEh4azY3RkxnSEVLVU9CUDFSazNOU2J6QUN6eEh1Q25PMzB1czhFVWRrRi1PMWNScGdrUDFyYU0zSnZiRTY1MnkxRkM2dVFTLTBQZU5pQ1FSc2lDUEVfalI0VDFqZkM5dTZTeHpYSUFKRi1POHZPQUJTazJYeGZSZW1lbW1lMmQ3X3ZRYmc?oc=5",
+      "source": "Business Insider",
+      "published_at_utc": "2026-10-21T04:18:00+00:00"
     }
   ],
   "warnings": []
