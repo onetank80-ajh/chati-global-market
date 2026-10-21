@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-21T22:28:06.098155+00:00",
-  "generated_at_kst": "2026-10-22T07:28:06.098155+09:00",
+  "generated_at_utc": "2026-10-21T22:54:14.189524+00:00",
+  "generated_at_kst": "2026-10-22T07:54:14.189524+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -49,6 +49,13 @@
     },
     {
       "category": "semiconductor",
+      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
+      "source": "Investor's Business Daily",
+      "published_at_utc": "2026-10-21T17:09:00+00:00"
+    },
+    {
+      "category": "semiconductor",
       "title": "ASML Has Incredible News for Nvidia Stock and Micron Stock Investors - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkFJdXAzQlduVjl6alhDSmJkdlc3N1dnUUhRai1jVWNKSU56OFc1U0tfa1NUeW1WejltYmRjV1hHMzJ4dmtCYkpTV21XTTZNaEgwVWdJMWVIS21tTE15S1E2SDItT0pvdU1LaGdEOGdHeHU1azdzbHUyc2VhMUltcXZBV283WHZaLXNmSHFKc0p4MTkwWHBQa3NwNnc2R2hhNEpoQzFpZmV6OVM1cUJNZA?oc=5",
       "source": "The Motley Fool",
@@ -69,13 +76,6 @@
       "published_at_utc": "2026-10-20T13:35:00+00:00"
     },
     {
-      "category": "semiconductor",
-      "title": "Japan’s Nikkei jumps over 1% as AI optimism lifts chip stocks; exports rise 16.7% - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMEk5REpTaWRNQ3lCYjllTlBPZ1poMmplMC1Od2UtZ2FnZU1ObndsTDRNZHE5T0FONk9fRVk3ZFY2WmhUbmhKTnR0ZUlNU25YWDJtUVVNYnpObGRZRXRVUERSTlFDR3FTei1rV3pnUkRUUG91dHlGLUVWQmh1c3F4NE9yOU9XbXBYYmJBLWxScFBGb0otTkZlQUpBejdNeFg2eEQ3SVFxZ2JlRkUzVmVqVDg4TEhmc1hHR2ZPaUVqTzhLM0Z0QkxIRlpSb0VnMl9LYUd4U0RfNlpUMy1leVVHU1V6LVZ3ZWFKYm5GOTRTYkVweDNxa1HSAe8BQVVfeXFMTkpGdFAxMFlZOFpoYlJENXlCMlc1ek45VlowM3JCaHNuRXoyUFctWU0yQzUtcmFuVWxnS0E2bFpET1ZTVHpaUnV6aEVYdWh0VE9lTGJkcFV0aWlBOWNFQ1NYWU1JRm9QRjZzSTkyMGU0Z3phV1VfZzRhQ1VjWUVSS2lEdUc4M2g3RldENW5Ec3UyTVhINnltMmhpOUs4LVpFX1NlNi0yckNkTkV3WER6Y3A1anppZHM3cWlIS3dGSXdxWFN3SHRFZjdhaEFDTTlBeGctVEo3WG1TVTFtaC1UcC12b0JTeUFRWm14a0hoc0E?oc=5",
-      "source": "The Economic Times",
-      "published_at_utc": "2026-10-21T04:16:06+00:00"
-    },
-    {
       "category": "korea",
       "title": "A strong profit report from SpaceX helps lift AI stocks and Wall Street - Oskaloosa Herald",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQ01kS2JkdEY1VGU5S1NNZVNvb2k2RTJfNVQwd2ZpUjJTQkxQcFVBUjBCSnBzUkg2MUttaGM2WlNkdUFodU5TQVRIbjdBZmxBNkxGMVc0NlpUckJYMlBuSzVNVkx6MWlrVF8xUXF4dXE2dnFPVm0xaEVjYTBkNFNCT094S0hBQUxhdDBjazB5VWJHaHN6V0Uyb1AzbjVnSDFaeDNCNXg4R3JOUThGVmZsd3poZ09yYU40SmVuNk1mV25CN2h0VUplaHBDVEI0LXBUdmlUMFRPN01YaEdPUkhGdm5TYkwxRmRBOGNRY0dGQzFXdThFU3ZBMkR3?oc=5",
@@ -84,17 +84,17 @@
     },
     {
       "category": "korea",
-      "title": "A strong profit report from SpaceX helps lift tech stocks and Wall Street - Beloit Daily News",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOXhXY0NhOHpGcEMyM2pjMm9hbU9fVDBzbE55VDBQa01xNFN4Z0hCZjVwUnpKS1NsVV85X09jYkhtd0ZZRnJ3UG5CdDBIZE16YldBVzJ2bXdsWXdMWTlPRExBX1lZdy1JRmh6eEJYcVJJd1Y5S3VWNldrMGxOb3ZDV2FwVnI0TkFpVnA4UWpTTUZMamw1Rk9qR1hyeGJTQUNocXJDa3JHeGNyZklCdnhhVE83ZzlFSDdvWGdOSzNENEx6SEhOS1UwWFkzMEZYLTFNSm9JeHRrVHNBYk9jV2llWWFhY1l1enFBMTFTaXQ5eXo2QjV6SEYwSEpUR0lRZ1diU2lF?oc=5",
-      "source": "Beloit Daily News",
-      "published_at_utc": "2026-10-21T20:19:30+00:00"
-    },
-    {
-      "category": "korea",
       "title": "Asian shares are mixed, with Kospi up 3% after US stocks rally on strong earnings - Bozeman Daily Chronicle",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNd2I1QnlhekVLMXhEdG43NnRmaWFIeV9rTUFCUUp6dHI0NThrS3BCcFpsdERxNV9yUXZRSjJJVXFUd3Q3ZVVvOFpHT3lxa0ZWWTJqcUh5b0I4amg2a1AyNDNzQTBpSEZuOEN1aGZOLWx4WHh2cGYyUXBoUDd0Q1Q3Zk1Ia0F6TzFEeVZ6WlNPUmxhZ1hWX2ROY2FMQjEtUENQNFAzTjhpVFRPTVRuLThTZ3lDNW1xR0tzVE15ME1XaXVNOVhaRHQzSVlsNHJ6d2M1cFRqa0JfWDlKVmZobXR2VExKTDVDMFVqVUhXd1MtcHJwQUdrZ1BnZHA3Vk43ZGtaLXRqWl9oaGFtdTViQ2c?oc=5",
       "source": "Bozeman Daily Chronicle",
       "published_at_utc": "2026-10-21T04:53:23+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "A strong profit report from SpaceX helps lift tech stocks and Wall Street - Beloit Daily News",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOXhXY0NhOHpGcEMyM2pjMm9hbU9fVDBzbE55VDBQa01xNFN4Z0hCZjVwUnpKS1NsVV85X09jYkhtd0ZZRnJ3UG5CdDBIZE16YldBVzJ2bXdsWXdMWTlPRExBX1lZdy1JRmh6eEJYcVJJd1Y5S3VWNldrMGxOb3ZDV2FwVnI0TkFpVnA4UWpTTUZMamw1Rk9qR1hyeGJTQUNocXJDa3JHeGNyZklCdnhhVE83ZzlFSDdvWGdOSzNENEx6SEhOS1UwWFkzMEZYLTFNSm9JeHRrVHNBYk9jV2llWWFhY1l1enFBMTFTaXQ5eXo2QjV6SEYwSEpUR0lRZ1diU2lF?oc=5",
+      "source": "Beloit Daily News",
+      "published_at_utc": "2026-10-21T20:19:30+00:00"
     },
     {
       "category": "korea",
