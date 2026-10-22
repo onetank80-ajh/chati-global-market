@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-21T22:54:15.577612+00:00",
+  "generated_at_utc": "2026-10-22T22:54:27.166223+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 15,
+  "headline_count_after": 13,
   "market_signals": {
     "sp500": {
-      "change_percent": 0.578,
-      "market_date": "2026-10-21",
+      "change_percent": -1.208,
+      "market_date": "2026-10-22",
       "status": "ok"
     },
     "sox": {
-      "change_percent": 1.965,
-      "market_date": "2026-10-21",
+      "change_percent": -6.724,
+      "market_date": "2026-10-22",
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.316,
-      "market_date": "2026-10-21",
+      "change_percent": 0.087,
+      "market_date": "2026-10-22",
       "status": "ok"
     },
     "nasdaq": {
-      "change_percent": 1.052,
-      "market_date": "2026-10-21",
+      "change_percent": -2.599,
+      "market_date": "2026-10-22",
       "status": "ok"
     }
   },
@@ -33,34 +33,86 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "방향 확인 필요",
+      "view": "변동성 주의",
       "basis": "필라델피아 반도체지수와 관련 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "우호적 참고",
+      "view": "방향 확인 필요",
       "basis": "S&P500 종가 방향"
     },
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "원화 강세 참고",
+      "view": "환율 변동 확인",
       "basis": "원/달러 환율 변화"
     }
   ],
   "top_headlines": [
     {
-      "title": "US Stock Market: Dow Jones, Nasdaq, S&P 500 Climb Almost 1% Driven By Space, Chip Stocks; Wall Street Outlook - Goodreturns",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOemNheGdERGtqTkc4N2lKei1fSUZ5ZEFWYzBQT0hKRGl2RGJaby1xTExVeXhHUHpxTlJXVThTTmppVlNVczdQbnVvMks4clJHRmwxVkt4Y3RwZm5WNEpzb2ZlT0RLa014OG1XMDNLQTRZSWtIU2tlajdzTkJ5VDBDN1ZrMzNrczJkN2pha3VYYWNXWnhRSEUxTWVIMktPdGNfVk9oenowdE5wQURIT0NvREt0cmNVYUtEc0NSSGc4a3h2b3pIM2hsUi1aVWxfT0xBR0lXV3FUSDU?oc=5",
+      "title": "US Stock Market: DJIA, Nasdaq, S&P 500 Surged As Yields Fall From 19-Yr High; What's Ahead After Fed Minutes - Goodreturns",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbXVieEcxTklSUmdEMmJrRlpWTUIwTGowd0lieHlNc3hndVhfUFNzZnY5bEphMjBJSW5YdzR4a19lOHE4ejdDYzhsOXpydFNQd2FoR2hyYVdSdlJlODdRd2w3SHFibUo3ZWRZV3hOTG5MNlNqWHFXdjQ1S0g0dkU4Q0J3N2RaV2hHWTZvWktuQW1WU0dZSDdQUWdMNmJJMlUydnZIdjVVcm9Pb01Gc2g2eWdzOVB6ekZEbGstUzdOblZhbjBrUGhPT3JHRDd3Sk8zNTNYX0RWSHZ2Wl9G?oc=5",
       "source": "Goodreturns",
-      "published_at_utc": "2026-10-21T21:34:22+00:00",
-      "age_hours": 1.3,
-      "relevance_score": 55,
+      "published_at_utc": "2026-10-22T16:57:57+00:00",
+      "age_hours": 5.9,
+      "relevance_score": 49,
+      "tags": [
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Chip Stocks Tumble Despite Solid Earnings Reports - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRmxDZklQNlhieWRsRng2cUUweDRiSXpqaUpRUEpLWF92QS1WanNidU14Y0FrcG9PZE0tODIxRlBldTV6Wkwwa0t0Umo0bkhRS2xZdHkzbkRMTl9raU5aN1N5Rll2ZEN5R3phczlUOGUzcXhVdVFkUWZZd0N1RTJvQl9VWHEyc1F3TWZRY0tCNA?oc=5",
+      "source": "Investor's Business Daily",
+      "published_at_utc": "2026-10-22T21:01:00+00:00",
+      "age_hours": 1.9,
+      "relevance_score": 45,
       "tags": [
         "반도체/AI"
       ],
-      "category": "us_market",
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Taiwan Semiconductor and ASML Are Incredible, but 1 of These Monopoly Chip Stocks Is Far Safer. - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNSXozZXhTUEIyMmVPMHZWaHdpQVB4dS1meW5lWHBvWXBGVVJsYVlKX01GVWY3cmNpTlFweWdwMFN3SERHbzhMMHNXMlpsMTRNS0hYWFRFeFBDZUE2b0tfNW5sbnZhYjVMQnZ3QmhlWnZYMDhSTHRxOEFZNVpLWmJpR0pfUS1NdnV5T09nSExjVUEyNVNkb2xZZWs2OVZYZVdCWk9JeHJuSHJWeHF1SkN2YTk1NEFIMVVGLTdMbVExd1BwMlRxUWpPUk1HWHVYQzRzckxvV2tTTHdob28zRGZRXzhMcG1vNmlpdGIyMU8taWdyMDlHcHNlQVRfYVpyLUYySHl2QWRLZnp3dw?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-10-22T18:08:27+00:00",
+      "age_hours": 4.8,
+      "relevance_score": 44,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Chip Stocks Tumble, Crushing Investor Hopes for a Long-Term Rebound - Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYkpXdTl6R3laLU1mRkxVeFdyTWFlVEV3TTBfbElRSHpibW1xQlp2N1NPNnNoUlNEazlaeE5jdjBOcW55bS1PWlhZbzVtVk1YWUdTbTN4WWVUY2o2UW15aVlTWmpZcUprTVBWSy16Z3NQdXBiUm9XeTFnUXVGc2h3ZUkxb3l0ZlFOT3diZkN6ZWxNNjE3N0pZTTV0YXdIZ3pJTzU4V3ljQ2pKTU9mUEJ0RThHOUpJdGxONm52NTExa0ZCNlFYaUZGbnJHWlREbVY1cEVXdzhWT2E?oc=5",
+      "source": "Investopedia",
+      "published_at_utc": "2026-10-22T13:11:56+00:00",
+      "age_hours": 9.7,
+      "relevance_score": 42,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Nvidia Has 80% of Its Portfolio Invested in 2 Artificial Intelligence (AI) Stocks - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZHpMSlN2SjNMczQ0MDVlQmhKWVV4dFoxcHQwS2tfakxSaHJLMUdPdFRQcmdSZFBtMURPSWVMeHMtVUh0V2MxdFlTN2Z0M3lvdk9CVTJzdHoyWUp4LTRna0o1Qi1RdDFmUkNSTjlsN3czc2hyTTRjUTZFX2tPUkxsYlFuNlhpRTJDNllr?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-10-22T09:53:00+00:00",
+      "age_hours": 13.0,
+      "relevance_score": 41,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
       "needs_verification": true
     },
     {
@@ -68,8 +120,8 @@
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNd2I1QnlhekVLMXhEdG43NnRmaWFIeV9rTUFCUUp6dHI0NThrS3BCcFpsdERxNV9yUXZRSjJJVXFUd3Q3ZVVvOFpHT3lxa0ZWWTJqcUh5b0I4amg2a1AyNDNzQTBpSEZuOEN1aGZOLWx4WHh2cGYyUXBoUDd0Q1Q3Zk1Ia0F6TzFEeVZ6WlNPUmxhZ1hWX2ROY2FMQjEtUENQNFAzTjhpVFRPTVRuLThTZ3lDNW1xR0tzVE15ME1XaXVNOVhaRHQzSVlsNHJ6d2M1cFRqa0JfWDlKVmZobXR2VExKTDVDMFVqVUhXd1MtcHJwQUdrZ1BnZHA3Vk43ZGtaLXRqWl9oaGFtdTViQ2c?oc=5",
       "source": "Bozeman Daily Chronicle",
       "published_at_utc": "2026-10-21T04:53:23+00:00",
-      "age_hours": 18.0,
-      "relevance_score": 49,
+      "age_hours": 42.0,
+      "relevance_score": 41,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -81,8 +133,8 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNejd3Mml6OWdzS0sxSDBCWlRSVkdydEh4azY3RkxnSEVLVU9CUDFSazNOU2J6QUN6eEh1Q25PMzB1czhFVWRrRi1PMWNScGdrUDFyYU0zSnZiRTY1MnkxRkM2dVFTLTBQZU5pQ1FSc2lDUEVfalI0VDFqZkM5dTZTeHpYSUFKRi1POHZPQUJTazJYeGZSZW1lbW1lMmQ3X3ZRYmc?oc=5",
       "source": "Business Insider",
       "published_at_utc": "2026-10-21T04:18:00+00:00",
-      "age_hours": 18.6,
-      "relevance_score": 49,
+      "age_hours": 42.6,
+      "relevance_score": 41,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -94,8 +146,8 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUnZ0ZXFEQmtZMW95Q2tHak0tSlk0SnJIcVQxM1J5c2dGdzZJdWpXSUdQVUxKcFhKWjNCaFdMOEdDNzYyamVPb242amlpS296bXdZSWVuMDhTV2xQU1lacExQLUlycTlCb1pBaWNKelU0OW10QTFvMDNWYVlDV1FzUTNCTlFKcFhKN29j?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-21T20:05:00+00:00",
-      "age_hours": 2.8,
-      "relevance_score": 45,
+      "age_hours": 26.8,
+      "relevance_score": 37,
       "tags": [
         "반도체/AI"
       ],
@@ -103,95 +155,45 @@
       "needs_verification": true
     },
     {
-      "title": "ASML Has Incredible News for Nvidia Stock and Micron Stock Investors - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkFJdXAzQlduVjl6alhDSmJkdlc3N1dnUUhRai1jVWNKSU56OFc1U0tfa1NUeW1WejltYmRjV1hHMzJ4dmtCYkpTV21XTTZNaEgwVWdJMWVIS21tTE15S1E2SDItT0pvdU1LaGdEOGdHeHU1azdzbHUyc2VhMUltcXZBV283WHZaLXNmSHFKc0p4MTkwWHBQa3NwNnc2R2hhNEpoQzFpZmV6OVM1cUJNZA?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-10-21T19:32:00+00:00",
-      "age_hours": 3.4,
-      "relevance_score": 44,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
-      "source": "Investor's Business Daily",
-      "published_at_utc": "2026-10-21T17:09:00+00:00",
-      "age_hours": 5.8,
-      "relevance_score": 44,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Nvidia, AMD and Intel stocks fall again in premarket: what went wrong overnight? - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSG82TDh2X3BPR09iNjdKdUhoM1Vtc0NRNU1yd0ZaeWhBN1hiZWJKSDZoQXdhT1VlVGdzUlZYc3FNNXZqd2xUWEk1UjNsMENHTEN4VnFGMi1RLVR1T2RhaWlLdGVScGhLdVN6bjUzNjlQR3Z0YU5ITnVGZ1BPOXdCSlZOZTZfT2Jnb3k3UjNBbHdaVmdOU2RlLWF3Zl9KdmhkWmVFTHFoWnZ0YmtfMEFOcC0wUks0Q0lQLTdabm04anBfR1NVN3FKRDg4ZWJiQQ?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-10-20T10:13:23+00:00",
-      "age_hours": 36.7,
-      "relevance_score": 33,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Chinese Stocks BABA, JD, PDD Slide After Hong Kong Tech Index Falls Below 4,000, Even as US Market Edges Higher - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSk5xVk9hdlE5MGlHOG9oTHV4NEhCUmFZVkFORzNaaFN3NW93U1FUOHNyb2Fjb09xQkpCWWxVVXAyVmZRT05XeFBneWthaExuQ21NODZiYnVhcUxfWTZldHJqR0dMZFJ6MTdmNzAwZGZSLTN3Y3E5QU5zbHBzTHdzRUlzSFU4Z2VGdG9vY2JReUMyS1NZMnY2cFFLbnJrNGJ3eldHRjlaa18zTUZtNFBjSzNKWEZhSUo5cFlOTHhvTWhhRVRSNkFuZzFhcnNtRmJRSEFUWkliZndEdUZzeEU3UXlWcnRZWXB4TGVDMm1LMkx3VFYwek5CcXNud3JQUQ?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-10-21T18:07:21+00:00",
-      "age_hours": 4.8,
-      "relevance_score": 29,
+      "title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-22T20:48:22+00:00",
+      "age_hours": 2.1,
+      "relevance_score": 30,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gains as Iran Prolongs US Talks Ahead of Midterms — NFLX - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNczN0a2VfUUFLU01UaWJDNmtObnN4d2JsNktKOXBBdHFBdmU0eWRPSEMxay1oS2VTZkJXdVp2cTlmb2FzMmx0eTFJQnNXZTBLaWJKc05zLTRuNHA3a0haZXBfbWRlMTJFYXkzTkVsc01rdG9uXzVaX0tUb3BZZlBTc2RzZHVxSjcwaHpwelJiMHRWVHU5aURCeWFyTzBpbWl0VUUweFdXYVhLMWZQMTU1V2NGTG9OelNaVmVfZDg0MUFkcGxJcE5Jb1lCWFhZQUV6aXdWQnl4N0k5YjF6bllvSElOMTBhM1UtTVZ4UENWZHJSY1h6bnFWX2s4V2U1X2FTX0NuOFJn?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-10-21T10:03:33+00:00",
-      "age_hours": 12.8,
+      "title": "US STOCKS-S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff - Devdiscourse",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZnd3OTBtaVF0ZUNKTnQ4MGpwcmlpQWVFMkRRZ1RGN0lWQ05ILWNmVFNISE45ME1lM3NENDQxbVJUcFhJU2cyUUhNZ0s4cUNaaUlMYzQ2TUdqZHJHWVEwWklqSXhjRENzejlNY0hqcWQ0SlJxRTRaaUVyZkJVa2pDd0wwcGhwOE9rLUw2S2hBSXp6TGJmM1dZQ25EME53bGNKc2hjWUVBWHFVY2hHY1Z6c1FZWEJjcm80ZU1zTWtJdkQtcXlnVWdsQnlWcUFNNnlLNk1peS1LeUh1QXk1T2fSAd4BQVVfeXFMTWZ3dzkwbWlRdGVDSk50ODBqcHJpaUFlRTJEUWdURjdJVkNOSC1jZlRTSEhOOTBNZTNzRDQ0MW1SVHBYSVNnMlFITWdLOHFDWmlJTGM0Nk1HamRyR1lRMFpJakl4Y0RDc3o5TWNIanFkNEpScUU0WmlFcmZCVWtqQ3dMMHBocDhPay1MNktoQUl6ekxiZjNXWUNuRDBOd2xjSnNoY1lFQVhxVWNoR2NWenNRWVhCY3JvNGVNc01rSXZELXF5Z1VnbEJ5VnFBTTZ5SzZNaXktS3lIdUF5NU9n?oc=5",
+      "source": "Devdiscourse",
+      "published_at_utc": "2026-10-22T20:01:03+00:00",
+      "age_hours": 2.9,
+      "relevance_score": 30,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Stock Market Today: S&P 500, Dow Futures Drop Following Asian Market Sell-off, Middle East Tensions — NFLX, SPCX, SMCI in Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOX0c2MTNySDdnUWpqQ1ptdEwzOGdkZW00dEpsUlk1WmNrdVI1VjZnVTdVMTlVeEphRHpHYUViT3NVbXRYbnVSUmRGZHpDOUJuc0VxQXF0UHVQdndsSDUwNHBxY3pmcHlsWGNIYjNNYjJNTzFqM1hYUXczY1RYRGdHMmgwSmgzUEV6ZUVQR0pqXzY5N01TUDAwbVhVcGtUQ0RyQXZjZHJYckdQUVktemtTMVVZMGJDM2tCZWhVVUJqU3J3d0o1T19nS1RfS3pDMjZWQldMY1NwUjJ2S1k0NnFjdXd3bktVR0wyZ3FEU0JlbFN0MFZHT0xKUV8zTXRNTTh6akZmZ2FGTUpqQm8?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-22T09:43:13+00:00",
+      "age_hours": 13.2,
       "relevance_score": 26,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "A strong profit report from SpaceX helps lift tech stocks and Wall Street - Beloit Daily News",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOXhXY0NhOHpGcEMyM2pjMm9hbU9fVDBzbE55VDBQa01xNFN4Z0hCZjVwUnpKS1NsVV85X09jYkhtd0ZZRnJ3UG5CdDBIZE16YldBVzJ2bXdsWXdMWTlPRExBX1lZdy1JRmh6eEJYcVJJd1Y5S3VWNldrMGxOb3ZDV2FwVnI0TkFpVnA4UWpTTUZMamw1Rk9qR1hyeGJTQUNocXJDa3JHeGNyZklCdnhhVE83ZzlFSDdvWGdOSzNENEx6SEhOS1UwWFkzMEZYLTFNSm9JeHRrVHNBYk9jV2llWWFhY1l1enFBMTFTaXQ5eXo2QjV6SEYwSEpUR0lRZ1diU2lF?oc=5",
-      "source": "Beloit Daily News",
-      "published_at_utc": "2026-10-21T20:19:30+00:00",
-      "age_hours": 2.6,
-      "relevance_score": 20,
-      "tags": [],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "A strong profit report from SpaceX helps lift AI stocks and Wall Street - Oskaloosa Herald",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQ01kS2JkdEY1VGU5S1NNZVNvb2k2RTJfNVQwd2ZpUjJTQkxQcFVBUjBCSnBzUkg2MUttaGM2WlNkdUFodU5TQVRIbjdBZmxBNkxGMVc0NlpUckJYMlBuSzVNVkx6MWlrVF8xUXF4dXE2dnFPVm0xaEVjYTBkNFNCT094S0hBQUxhdDBjazB5VWJHaHN6V0Uyb1AzbjVnSDFaeDNCNXg4R3JOUThGVmZsd3poZ09yYU40SmVuNk1mV25CN2h0VUplaHBDVEI0LXBUdmlUMFRPN01YaEdPUkhGdm5TYkwxRmRBOGNRY0dGQzFXdThFU3ZBMkR3?oc=5",
-      "source": "Oskaloosa Herald",
-      "published_at_utc": "2026-10-21T20:05:27+00:00",
-      "age_hours": 2.8,
-      "relevance_score": 20,
-      "tags": [],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "Wall Street gains ground after SpaceX helps lift AI stocks - The Killeen Daily Herald",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNUh6NWJrellzdFpPOVpXSzd3TzZPOVRkQUpYaXZldmFkQmZIU1lPQnpDXzI1cW5CcktuM1BwQU8xRlNmczNWWllwWFYycjdUUzhHRGxjN0ZIZC16b1BCUUViaXVOSTQwaVZBSFZVQ3FQVWdpVmNUWHdIaGpCUlo1T3A2WWtnNUVkRmhwRVNrT0xRRDIxUWtaaXVEbDlpMS16UENBYmhocUcwZF9YQmVnXzVrN2F5RTdnSjRTdllQdjREMkM2TWx5S1czRGM5S1lLTWQ2eWo2RQ?oc=5",
-      "source": "The Killeen Daily Herald",
-      "published_at_utc": "2026-10-21T18:11:13+00:00",
-      "age_hours": 4.7,
-      "relevance_score": 19,
+      "title": "Wall Street ticks higher after SpaceX helps lift AI stocks - LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWVJEY0R5SjhZNmFoVnhGQUl4eGZyTWprWkpxTVV2ZWdQcFlwbE54bGlHZmR2VTl2ZDhmUlBOa2xmdU8zZGdLTi1qZjhFcFVocUZfd05SZlh6d1hhNndmQmFHNHJUNnBtWjNLN0s4cjFSY2xfVEVsNlQzS3pHak10dElSc1JBT1U1cE9KU2V0RV9hYjVfZzZFT0xyd29xM3ZxR21ldkxTejZhS1NqQjJKWXRSTFBuSkI3YzJoZDUzb3EyTGdsU242ekNMYmxMeTRFWWREbnN3MWJWcGMtSXdXOFlwTjhBYm02QThxNnJpUlZ6dzVGR295U0ZHdmc1ZEpfQ0JDazRGcw?oc=5",
+      "source": "LancasterOnline",
+      "published_at_utc": "2026-10-21T13:42:45+00:00",
+      "age_hours": 33.2,
+      "relevance_score": 9,
       "tags": [],
       "category": "korea",
       "needs_verification": true
