@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-25T22:20:39.730682+00:00",
-  "generated_at_kst": "2026-10-26T07:20:39.730682+09:00",
+  "generated_at_utc": "2026-10-25T22:47:26.571337+00:00",
+  "generated_at_kst": "2026-10-26T07:47:26.571337+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -28,17 +28,17 @@
     },
     {
       "category": "us_market",
+      "title": "AI Capex Payoff Put to the Test as US Tech Earnings and Fed Meeting Mark Market Inflection Point - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qdjcxLXdfZkFxVGtZZld2R0IyZXB0TDZPanpHYUdlWGZZMFNybGN5a2JYSjEydlFKT2tUbFVpQWJHbk5UVHZ0LWxUUE5TWWtMaHVfUUNGbVNISm5FSUdTWFF0a2NfQ3Y4cnFsNW5PM0tqSlBYOVE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-10-25T20:05:00+00:00"
+    },
+    {
+      "category": "us_market",
       "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - FOREX.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORkZ6Tnc3eEZGajNjUC1jYWhIVFBSdjN5UFhKeVZDc0xYVFA4a2dqQUhoWU9DblB3MXhpVVRCR2IwY2I5Qi1pNE8tRWxmclBvVHJBQnRnT3BPMWd0N25oa2U5TUJWc05XcXgzQVNBVHRXenAyOWF5T05RYThXMU8xYTI2SXliWVRGNjdvZDBic3V3RFBEdDhDU3ZFQ1duMTFTSVlva3hjb0wyZ2FJSXZUNDVFMDY3VEZQUXgyWlY4MHNaWFIwQXhXQkxIb1Q1VWxiMHfSAdIBQVVfeXFMTkZGek53N3hGRmozY1AtY2FoSFRQUnYzeVBYSnlWQ3NMWFRQOGtnakFIaFlPQ25QdzF4aVVUQkdiMGNiOUItaTRPLUVsZnJQb1RyQUJ0Z09wTzFndDduaGtlOU1CVnNOV3F4M0FTQVR0V3pwMjlheU9OUWE4VzFPMWEyNkl5YllURjY3b2QwYnN1d0RQRHQ4Q1N2RUNXbjExU0lZb2t4Y29MMmdhSUl2VDQ1RTA2N1RGUFF4MlpWODBzWlhSMEF4V0JMSG9UNVVsYjB3?oc=5",
       "source": "FOREX.com",
       "published_at_utc": "2026-10-25T02:16:11+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "Nasdaq, S&P 500 Futures Slip As Memory Chip Selloff Hits Tech Stocks: Why SPCX, MU, QCOM, BB, ILLR, TII Are In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdkQxRVFSSndsaC1ucUxSdWZhY1RoZU5WR3MxQndZcmlOcUEtNUFzTjBKSW9MUG5Zdlk5WVI0Vm1wYk5IbWpyR01HOTJPUEFuM1ppWUN6Wk50dHpGajM3dWpUZnJKcnJ0LVlva3pnS2hERjlSd2hXTHZvT0xXNWVuSG5KQ3h0LXpGNFFDX1JZclpRcTRfWEJENXpwZ3hVQWJXTXVEUlVXVGwxWDhmZk1VTUlFSFhQMmdjU3hTRUpUQ1VmeEtiRExWOUFaQ0t4cG14WUN3WUpEUTBPU3JkRWR5d2hKN3FiVGlEZVVmMV9RbjVlVl9IODdjcEd4cWxJSHhu?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-25T01:20:25+00:00"
     },
     {
       "category": "semiconductor",
@@ -56,6 +56,13 @@
     },
     {
       "category": "semiconductor",
+      "title": "20pc a year for a decade: How this fundie mastered the AI trade - AFR",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeDB5cjhNbm9ReHFXRTRZaTRSTjNwaWNhbG5lVWIwUUNsWlIyM0plR0ZSTnZFMGlmalZobjREMGhqeG9YeVVDRHB1dnVaakRZdDRBM2NvSTZMcTFsWmJScFc3RUJSaVdVMnVSSVREOXJCcVYzNkVnYWRHU2RxY1VOVUFkMEdaeTVIWThHY0hSbkprR1M5YnlTSW9kNHFjSlhuU3FrQVJXcm82VjNwUjVzWWd1NDZlZm5JTUxESXNB?oc=5",
+      "source": "AFR",
+      "published_at_utc": "2026-10-25T18:00:00+00:00"
+    },
+    {
+      "category": "semiconductor",
       "title": "Why SK hynix shelved Solidigm's $150b US IPO plan - The Investor",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lYURCUmVBZ09sbENpemNac1BtcGxmXzBfbEE2TFRLbEhVYk1RMWhsUVlqUXl6QU5Ka0E3S2lqTlVRNE1walZ6ZnFJWm13OUVaZUhicDNUMjJPZw?oc=5",
       "source": "The Investor",
@@ -63,17 +70,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "China's Moonshot Reportedly Seeks Access To More NVDA Blackwell Chips A Week After Trump Official Flagged Export Control Breach - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV2tyTkstdkVkNmJVTGdqcG9xempJVWVqb1Z5WHhvOTExVC1PRXJFUUJkQW1NN0VYeXJNMlk3MGdOWER6TGpiRzRYVXViZFlQdzE5WkpmcURMeEgxQndUVkN6dEVRbWFCTVN2eFdneXl3STNWb0ZoSVRvNHNYU2lCcGhUNkp1eWNvUEkyYUNWX2VaT1NrOXF3dXZGNmg5SDF3MHRUWVRLai1sSmpXT1ZUUmFOQS1WdWdWM1BJTF8xMXd4dmMySFhhbUJMVVFvU0drNTE2a2ln?oc=5",
+      "title": "Nvidia Reportedly Targets Chinese Market Comeback With Specialized AI Inference Chips — NVDA Stock Slips - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdjVKZGRabXJwSXMwNUZpeF9OVDE2MUVUdGt6blV1UnBTYmw5RkV4M0xOc3ZFNFdBSG9tYjhxaDIyV3NMRVA2QThaZ29SdGZ1eWtYa1RtbktSZkg0STg1NmV3TVVkMDBRcFBENWpqZEYwM1p4LVdTcE53NVEyWGJ4QVBMS1lnUG1saVJzbUtNM01ZcG5Relp2T2l4bmR4LTFMMllRZkFJbnctMnJhdHljTWdwUV9PeWdndUplUG1IU0FoaGozc1dnU2JGUzhWckJuNFNUME5nS1B4M1dtNzZTal9oQQ?oc=5",
       "source": "Stocktwits",
-      "published_at_utc": "2026-10-24T23:35:32+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "TSMC or Nvidia: If I Could Only Own 1 for the Next 5 Years, It Would Be This 1. - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPczJIa1RnVXViNktmOEVDaS1VVlZRbUhkZE1teU1xcHJIUXktQmZXMlJpSzhCUktodFcxaWZiZXJXMlJoakN6LUFpSjBTRTlvVEx2TWEwM3dHODhMMGtVTEo4eDVLbkFBSlFWb1g1VUctREVUU3lFRE1PX05BQ05RZW5XaHMtVmU1MkhkbDlMa0NEZm11OWgwdmhPUjBIenJjYmpIV0xFTmZzYUhENmphcmF1MTVmd2RzRDBIMm9OMkhOdlFUcjhFTjY4bnpaWEd4amxoWkw5bXoxcHVEUXpDb3lTZ3FTZkdCQ0tleUlPMjZiQQ?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-24T04:20:00+00:00"
+      "published_at_utc": "2026-10-24T20:36:50+00:00"
     },
     {
       "category": "korea",
