@@ -51,3 +51,4 @@ jobs:
             git commit -m 'Update Korea forecast verification'
             git pull --rebase origin main
             git push origin HEAD:main
+          fi
