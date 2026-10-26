@@ -103,7 +103,7 @@ def main():
                 'errors':errors,'message':'공개 순위 데이터 수집 실패. 기존 후보는 과거 자료이며 현재 추천이 아닙니다.'}
         health=OUT.with_name('theme_radar_v40_health.json')
         health.parent.mkdir(parents=True,exist_ok=True)
-        health.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+        health.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         print('Radar unavailable; existing candidates preserved:', '; '.join(errors),flush=True)
         return
     # Capped subset, not entire market. Daily Yahoo bars may be delayed/incomplete.
