@@ -26,6 +26,21 @@ jobs:
           assert 'if [ -f data/theme_radar_v40.json ]; then git add data/theme_radar_v40.json; fi' in workflow
           print('PASS: no missing-file git add on first source outage')
           PY
+      - name: Validate ranking parser with representative HTML
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from unittest.mock import Mock
+          spec=importlib.util.spec_from_file_location('radar','scripts/theme_radar_v40.py')
+          radar=importlib.util.module_from_spec(spec);spec.loader.exec_module(radar)
+          html='<table><tr><td><a href="/item/main.naver?code=005930">삼성전자</a></td><td>70,000</td><td>상승</td><td>+3.5%</td></tr></table>'
+          response=Mock();response.text=html;response.apparent_encoding='utf-8';response.raise_for_status.return_value=None
+          session=Mock();session.get.return_value=response
+          rows=radar.fetch_rankings(session,0,'rise')
+          assert len(rows)==1, f'expected 1 parsed row, got {rows}'
+          assert rows[0]['ticker']=='005930' and rows[0]['rank_change_percent']==3.5
+          print('PASS: ranking parser extracts ticker and positive percent')
+          PY
       - name: Verify missing ranking sources do not erase last valid radar
         run: |
           python - <<'PY'
