@@ -42,3 +42,4 @@ jobs:
             git commit -m "Update Chati market intelligence"
             git pull --rebase origin main
             git push origin HEAD:main
+          fi
