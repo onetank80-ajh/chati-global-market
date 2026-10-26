@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-26T22:30:58.035192+00:00",
-  "generated_at_kst": "2026-10-27T07:30:58.035192+09:00",
+  "generated_at_utc": "2026-10-26T22:41:04.407610+00:00",
+  "generated_at_kst": "2026-10-27T07:41:04.407610+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -56,17 +56,17 @@
     },
     {
       "category": "semiconductor",
-      "title": "Chip Stocks Suffered a Rare Rout—Can This Week’s Earnings Turn the Tide? - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-26T13:50:02+00:00"
-    },
-    {
-      "category": "semiconductor",
       "title": "Chip Stocks Push Nasdaq On Course To One-Month High On Anthropic IPO Buzz: Nvidia, Micron Lead Gains - NDTV Profit",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcTQ2TWJsN0laUk54WnZOQW43UXQ3ekNxZllrMWU2WUZnTlJkXzJtQ3A0ZXY2OWxNS3ROY0h2UmtVckVBOFdTZ2FXNWhrdW94ckdienhITW1YaEN4MUk3Wk9ZTDMyMnlwajV2aEdEWGJJUUo3ajJzLW4tOFd0UUdrWkR6OFpxbExRYkxEeUFwRjF6MXVyUFhBZ0ZMdEc3QjRVZXAtMGZESkR5dWJpbHUtVG8ydGxCWVZxanU2LWdtSUk5TWNtOWY4ejdEVHRJaG5OOFHSAdoBQVVfeXFMUGhLRkw5QzNWOGxmMEt4WEJLYTNXUXlyZDMzX2t4dEJVdi1OOEgxbjNzRDJVeFRtUVcyRmw4dkhkRFRtT0w5b0xjMGxiTXRHVDEyZWUweU9YX1daZWZNeDRoT2V6eWZhOGtUeTVFNUpmVmpNWkVWQ1lIMGUwRHNBY28xLVd5UU5hMzBGUzY1ajRfTThPbHdDOWNGRmtGYzVOT2k3T2Q1RXZYUXBiMG16NE45UTBIRG9yb1pFVFhOWUx0VmI0SFR1WGlWR1JfWi1aTmwwdlVhSURFQUE?oc=5",
       "source": "NDTV Profit",
       "published_at_utc": "2026-10-26T17:10:14+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Chip Stocks Suffered a Rare Rout—Can This Week’s Earnings Turn the Tide? - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
+      "source": "Moomoo",
+      "published_at_utc": "2026-10-26T13:50:02+00:00"
     },
     {
       "category": "semiconductor",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-26T22:21:58.054175+00:00",
-  "generated_at_kst": "2026-10-27T07:21:58.054175+09:00",
+  "generated_at_utc": "2026-10-26T22:41:05.919807+00:00",
+  "generated_at_kst": "2026-10-27T07:41:05.919807+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.001,
+      "change_percent": -0.051,
       "reference_direction": "우호적"
     }
   ],
@@ -33,8 +33,8 @@
       "source": "TV News Check",
       "published_at_utc": "2026-10-26T20:54:19+00:00",
       "category": "us_market",
-      "age_hours": 1.5,
-      "freshness_score": 97,
+      "age_hours": 1.8,
+      "freshness_score": 96,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -44,8 +44,8 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-26T20:25:19+00:00",
       "category": "us_market",
-      "age_hours": 1.9,
-      "freshness_score": 96,
+      "age_hours": 2.3,
+      "freshness_score": 95,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
@@ -57,8 +57,8 @@
       "source": "Bloomberg.com",
       "published_at_utc": "2026-10-26T20:15:45+00:00",
       "category": "us_market",
-      "age_hours": 2.1,
-      "freshness_score": 96,
+      "age_hours": 2.4,
+      "freshness_score": 95,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -68,8 +68,8 @@
       "source": "NDTV Profit",
       "published_at_utc": "2026-10-26T17:10:14+00:00",
       "category": "semiconductor",
-      "age_hours": 5.2,
-      "freshness_score": 90,
+      "age_hours": 5.5,
+      "freshness_score": 89,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -81,7 +81,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-26T16:35:00+00:00",
       "category": "semiconductor",
-      "age_hours": 5.8,
+      "age_hours": 6.1,
       "freshness_score": 88,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -94,8 +94,8 @@
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-10-26T15:51:00+00:00",
       "category": "semiconductor",
-      "age_hours": 6.5,
-      "freshness_score": 87,
+      "age_hours": 6.8,
+      "freshness_score": 86,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -107,7 +107,7 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-26T14:35:00+00:00",
       "category": "semiconductor",
-      "age_hours": 7.8,
+      "age_hours": 8.1,
       "freshness_score": 84,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -115,25 +115,12 @@
       ]
     },
     {
-      "title": "Chip Stocks Suffered a Rare Rout—Can This Week’s Earnings Turn the Tide? - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-26T13:50:02+00:00",
-      "category": "semiconductor",
-      "age_hours": 8.5,
-      "freshness_score": 83,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
       "title": "US stocks tick higher as oil prices ease a bit - Rocky Mount Telegram",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQlhBMXpkZm1RX09WRUdlN2h4cDBBNjZqNll1TXhwWFNwZnc2bHo4dTcwNDdjeFFnQVc3eXVPZ242OVItN2ZmNjI0MUJEMnh3MlZMNFc2QVdfdFdIMkxFNnVfRmMtSUhaSFJud19EZlhGUWtaaU1SSUdDbTg3dkNmR0dKNEZnMFNyV2Y0bVlhMnNKazd0RzlVSGpWMzRaNkgtVHpBVGlvVkJBaUJuRGdtQjEtbzAzZVBrYm43eGNsYnFhNE83NVM2aFYycFpYOXdBV0lWWC00ZjhBU1pEVnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONkZJak9vcU51MFl0MEY5TXpJSXVwYXFTSnZKRkVtWmtmdEVGMHpJZ3MyTlRaRDJJQTFDTTdYOXMzd0RZb2d4MVlHeTc4LUpiVC1HRW1fZ3VjLWhxcmdaUmFoa25MdFB5WlEzaVdPOWVZYk5pOTJ2ZjlodTBET2t2ZnJST2dvNVhLSDJpZ2NNNTFaMVB1cU5hOURMS1VHWFoydk42OXNLU1JpUU5HY05FbmViVnU5NDgxcjl1LUNXRHhFVGlNU1NMektXUFpTdGZRYVhrYmhCWEJncnlR?oc=5",
       "source": "Rocky Mount Telegram",
       "published_at_utc": "2026-10-26T14:03:18+00:00",
       "category": "korea",
-      "age_hours": 8.3,
+      "age_hours": 8.6,
       "freshness_score": 83,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -144,10 +131,23 @@
       "source": "Traverse City Record-Eagle",
       "published_at_utc": "2026-10-26T14:03:18+00:00",
       "category": "korea",
-      "age_hours": 8.3,
+      "age_hours": 8.6,
       "freshness_score": 83,
       "headline_tone": "긍정 표현",
       "sectors": []
+    },
+    {
+      "title": "Chip Stocks Suffered a Rare Rout—Can This Week’s Earnings Turn the Tide? - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
+      "source": "Moomoo",
+      "published_at_utc": "2026-10-26T13:50:02+00:00",
+      "category": "semiconductor",
+      "age_hours": 8.9,
+      "freshness_score": 82,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
     },
     {
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After Trump Rules Out Iran Strike — ITUB - Benzinga",
@@ -155,7 +155,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-10-26T12:31:00+00:00",
       "category": "us_market",
-      "age_hours": 9.8,
+      "age_hours": 10.2,
       "freshness_score": 80,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -166,8 +166,8 @@
       "source": "AOL.com",
       "published_at_utc": "2026-10-26T10:11:53+00:00",
       "category": "us_market",
-      "age_hours": 12.2,
-      "freshness_score": 76,
+      "age_hours": 12.5,
+      "freshness_score": 75,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -177,7 +177,7 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-10-26T09:00:20+00:00",
       "category": "korea",
-      "age_hours": 13.4,
+      "age_hours": 13.7,
       "freshness_score": 73,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -188,8 +188,8 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-26T03:25:00+00:00",
       "category": "korea",
-      "age_hours": 18.9,
-      "freshness_score": 62,
+      "age_hours": 19.3,
+      "freshness_score": 61,
       "headline_tone": "부정 표현",
       "sectors": []
     },
@@ -199,8 +199,8 @@
       "source": "KED Global",
       "published_at_utc": "2026-10-25T12:50:00+00:00",
       "category": "korea",
-      "age_hours": 33.5,
-      "freshness_score": 33,
+      "age_hours": 33.9,
+      "freshness_score": 32,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
