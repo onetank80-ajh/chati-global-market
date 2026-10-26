@@ -22,6 +22,10 @@ def main():
     if now.weekday() >= 5:
         print("Weekend; no notification")
         return
+    # Do not send a late morning briefing as if it were on time.
+    # GitHub scheduled workflows can be delayed; backup is allowed through 08:00 KST.
+    if (now.hour, now.minute) >= (8, 0):
+        raise RuntimeError("Morning push cutoff 08:00 KST passed; refusing late notification")
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     if not topic:
         raise RuntimeError("NTFY_TOPIC is not set. No notification sent.")
