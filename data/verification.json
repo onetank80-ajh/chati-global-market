@@ -13,8 +13,13 @@
         "sox": "2026-10-20",
         "usdkrw": "2026-10-20"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": 3.2942,
+      "status": "verified",
+      "actual_close": 5735.6602,
+      "actual_direction": "up",
+      "matched": false,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-21",
@@ -28,8 +33,13 @@
         "sox": "2026-10-20",
         "usdkrw": "2026-10-20"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": 1.3799,
+      "status": "verified",
+      "actual_close": 792.76,
+      "actual_direction": "up",
+      "matched": false,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-22",
@@ -43,8 +53,13 @@
         "sox": "2026-10-21",
         "usdkrw": "2026-10-21"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": -3.5199,
+      "status": "verified",
+      "actual_close": 5533.77,
+      "actual_direction": "down",
+      "matched": false,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-22",
@@ -58,8 +73,13 @@
         "sox": "2026-10-21",
         "usdkrw": "2026-10-21"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": -3.6152,
+      "status": "verified",
+      "actual_close": 764.1,
+      "actual_direction": "down",
+      "matched": false,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-23",
@@ -73,8 +93,13 @@
         "sox": "2026-10-22",
         "usdkrw": "2026-10-22"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": 0.2987,
+      "status": "verified",
+      "actual_close": 5550.2998,
+      "actual_direction": "up",
+      "matched": false,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-23",
@@ -88,8 +113,13 @@
         "sox": "2026-10-22",
         "usdkrw": "2026-10-22"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": -1.6241,
+      "status": "verified",
+      "actual_close": 751.69,
+      "actual_direction": "down",
+      "matched": true,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-26",
@@ -103,8 +133,13 @@
         "sox": "2026-10-23",
         "usdkrw": "2026-10-25"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": -1.4563,
+      "status": "verified",
+      "actual_close": 5469.4702,
+      "actual_direction": "down",
+      "matched": false,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-26",
@@ -118,10 +153,15 @@
         "sox": "2026-10-23",
         "usdkrw": "2026-10-25"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": -3.2567,
+      "status": "verified",
+      "actual_close": 727.21,
+      "actual_direction": "down",
+      "matched": false,
+      "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     }
   ],
-  "generated_at_kst": "2026-10-26T07:47:28.370466+09:00",
+  "generated_at_kst": "2026-10-26T18:24:00.819700+09:00",
   "method": "S&P500 ±0.3%, SOX ±0.5%, USDKRW ±0.3%; sum >=2 up, <=-2 down, else flat. Flat actual ±0.1%."
 }
