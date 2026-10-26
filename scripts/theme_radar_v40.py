@@ -95,7 +95,17 @@ def main():
                 for x in items:pool[x['ticker']]=x
                 print('Ranking page',market,kind,len(items),flush=True)
             except Exception as e:errors.append(f'Naver {market} {kind}: {str(e)[:120]}')
-    if not pool:raise RuntimeError('No public ranking data available: '+'; '.join(errors))
+    if not pool:
+        # Do not replace the last valid candidate set with fabricated or empty signals.
+        # Write a separate health report; preserve the existing radar snapshot.
+        status={'generated_at_kst':now.isoformat(),'status':'SOURCE_UNAVAILABLE',
+                'candidate_data_updated':False,'ranking_pages_ok':pages,
+                'errors':errors,'message':'공개 순위 데이터 수집 실패. 기존 후보는 과거 자료이며 현재 추천이 아닙니다.'}
+        health=OUT.with_name('theme_radar_v40_health.json')
+        health.parent.mkdir(parents=True,exist_ok=True)
+        health.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+        print('Radar unavailable; existing candidates preserved:', '; '.join(errors),flush=True)
+        return
     # Capped subset, not entire market. Daily Yahoo bars may be delayed/incomplete.
     scanned=[]
     for i,item in enumerate(list(pool.values())[:85]):
