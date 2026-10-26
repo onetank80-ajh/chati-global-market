@@ -90,7 +90,7 @@ def main():
         for kind in ('rise','quant'):
             try:
                 items=fetch_rankings(session,market,kind)
-                if not items:raise RuntimeError('No rows parsed')
+                if not items:raise RuntimeError('No rows parsed (ranking page returned no eligible stock rows)')
                 pages+=1
                 for x in items:pool[x['ticker']]=x
                 print('Ranking page',market,kind,len(items),flush=True)
