@@ -25,7 +25,14 @@ for item in news.get('items',[]):
     if isinstance(title,str) and isinstance(url,str) and url.startswith('https://'):
         headlines.append({'title':title,'url':url,'source':item.get('source',''),'published_at_utc':item.get('published_at_utc','')})
     if len(headlines)>=8: break
-out={'schema_version':1,'generated_at_kst':now.isoformat(),'analysis_kind':'rule_based_not_ai','market_snapshot_at':market.get('generated_at_kst') or market.get('generated_at_utc'), 'news_snapshot_at':news.get('generated_at_kst') or news.get('generated_at_utc'), 'indicators':indicators,'sectors':intel.get('sectors',[])[:6], 'headlines':headlines,'warnings':['기존 market.json/news.json 스냅샷을 바탕으로 생성','기사 본문 미검증, AI 번역·요약 아님','한국 증시 주가 예측 또는 매매 신호 아님']}
+snapshot_at=market.get('generated_at_utc') or market.get('generated_at_kst')
+try:
+    parsed=datetime.datetime.fromisoformat(snapshot_at.replace('Z','+00:00'))
+    snapshot_age_hours=round((now-parsed).total_seconds()/3600,2)
+except (AttributeError,ValueError,TypeError):
+    snapshot_age_hours=None
+snapshot_fresh=(snapshot_age_hours is not None and 0<=snapshot_age_hours<=12)
+out={'schema_version':1,'generated_at_kst':now.isoformat(),'analysis_kind':'rule_based_not_ai','market_snapshot_at':market.get('generated_at_kst') or market.get('generated_at_utc'), 'news_snapshot_at':news.get('generated_at_kst') or news.get('generated_at_utc'), 'market_snapshot_age_hours':snapshot_age_hours,'market_snapshot_fresh':snapshot_fresh,'indicators':indicators,'sectors':intel.get('sectors',[])[:6], 'headlines':headlines,'warnings':(['시장 데이터가 오래되었거나 수집 시각을 확인할 수 없습니다. 오늘의 매매 판단에 사용하지 마세요.'] if not snapshot_fresh else [])+['기존 market.json/news.json 스냅샷을 바탕으로 생성','기사 본문 미검증, AI 번역·요약 아님','한국 증시 주가 예측 또는 매매 신호 아님']}
 DATA.mkdir(exist_ok=True)
 (DATA/'morning.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('morning.json generated:',len(indicators),'indicators,',len(headlines),'headlines')
