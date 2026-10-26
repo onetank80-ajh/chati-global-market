@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-26T22:41:05.950986+00:00",
+  "generated_at_utc": "2026-10-26T22:59:10.489168+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
   "headline_count_after": 15,
@@ -16,7 +16,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.051,
+      "change_percent": -0.097,
       "market_date": "2026-10-26",
       "status": "ok"
     },
@@ -55,7 +55,7 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11aHFmRFhscEh0aFJiZjN5eEhhZXIxazJVWWp5MVR4SnV6NkotLXluT3dubHM0VnVuYURORXd6Tnp2VVNKRE5RZ1lmcnRuM2V2ajdZMmoyQzdLdVZpOFpPU2tULUh6ME5DV21kNFRPMzEzdmNYMDlZc3Zn?oc=5",
       "source": "KED Global",
       "published_at_utc": "2026-10-25T12:50:00+00:00",
-      "age_hours": 33.9,
+      "age_hours": 34.2,
       "relevance_score": 69,
       "tags": [
         "한국시장 직접언급",
@@ -69,7 +69,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBveXJLMnhjcHIzS0tuX2U1ZGtrbnZUNXh4MkQ4dW05VEdOODhfQVZwSWlQc1JTd092TnJmZjVPRjdwZGViNWlGOWVPa3dKSTJ5SHV2UUU4aU5uTVVtX0I4Z3U5TzFheGlmUS1GWWpla3RKaTl4?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-10-26T09:00:20+00:00",
-      "age_hours": 13.7,
+      "age_hours": 14.0,
       "relevance_score": 51,
       "tags": [
         "한국시장 직접언급"
@@ -82,7 +82,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29LWk1mM3hvOXNzYUlVdzdIR2VYSHJCUkdOUFJiMDRsZFpsdDJyekhzbl9qTGVPQUwzLU1IRmQtZEVCeE1kTjYtTk5YS0RhdmZkSHdmQTdEWFpubzdJdDBTS3ptTjNEM1JIaEg4MW9yMkQ4RnJyTERoOFVVa0lWc2w2NEV4OHd1TS1XVDFGbkFYRzBseXdubkhEa2ZnWmJncnV6WXh0SmVkb0J0ZWZxMlRR?oc=5",
       "source": "Bloomberg.com",
       "published_at_utc": "2026-10-26T20:15:45+00:00",
-      "age_hours": 2.4,
+      "age_hours": 2.7,
       "relevance_score": 50,
       "tags": [
         "거시경제"
@@ -95,7 +95,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyRW80Ql9JcUZpVkNGeS1qb2V2QktmM09uajVudEwwbzRMdThveVdmcVVKaFM0R3YyT1ExcXNTRGl4cGtWOFJlRkxGM1BYS1ppaFhIS1VhRzRsVFp1SkZMMXhiaF9LUkZuYVNNTVFUM3QxeXhWN3c?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-26T03:25:00+00:00",
-      "age_hours": 19.3,
+      "age_hours": 19.6,
       "relevance_score": 49,
       "tags": [
         "한국시장 직접언급"
@@ -108,7 +108,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcTQ2TWJsN0laUk54WnZOQW43UXQ3ekNxZllrMWU2WUZnTlJkXzJtQ3A0ZXY2OWxNS3ROY0h2UmtVckVBOFdTZ2FXNWhrdW94ckdienhITW1YaEN4MUk3Wk9ZTDMyMnlwajV2aEdEWGJJUUo3ajJzLW4tOFd0UUdrWkR6OFpxbExRYkxEeUFwRjF6MXVyUFhBZ0ZMdEc3QjRVZXAtMGZESkR5dWJpbHUtVG8ydGxCWVZxanU2LWdtSUk5TWNtOWY4ejdEVHRJaG5OOFHSAdoBQVVfeXFMUGhLRkw5QzNWOGxmMEt4WEJLYTNXUXlyZDMzX2t4dEJVdi1OOEgxbjNzRDJVeFRtUVcyRmw4dkhkRFRtT0w5b0xjMGxiTXRHVDEyZWUweU9YX1daZWZNeDRoT2V6eWZhOGtUeTVFNUpmVmpNWkVWQ1lIMGUwRHNBY28xLVd5UU5hMzBGUzY1ajRfTThPbHdDOWNGRmtGYzVOT2k3T2Q1RXZYUXBiMG16NE45UTBIRG9yb1pFVFhOWUx0VmI0SFR1WGlWR1JfWi1aTmwwdlVhSURFQUE?oc=5",
       "source": "NDTV Profit",
       "published_at_utc": "2026-10-26T17:10:14+00:00",
-      "age_hours": 5.5,
+      "age_hours": 5.8,
       "relevance_score": 44,
       "tags": [
         "반도체/AI"
@@ -121,7 +121,7 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWtmUTBoZGtrTUhrSnVKMUZZcU9TVVhQWlFSME0xemREdklmMk1zbmlINHN6WlVNN1djeTJkTEpHS0J3cExLNDh1X1FGcmM0WWNadDlqTWttUUhUQTl5STFIQ1Z3Uy1aZkFKb1loZVgtbmdIcDZNNzRfZExfbWdnTC1iZW5GNW42YjR0UGx5aEtVZlJFSHc?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-26T16:35:00+00:00",
-      "age_hours": 6.1,
+      "age_hours": 6.4,
       "relevance_score": 43,
       "tags": [
         "반도체/AI"
@@ -134,7 +134,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWlGTjM2X1lYcjlKdURYUDJOV1hIZl80RDk1S3JzZkM2Yi05T1ZGVk1JSUp6MmIzVm8wOUVMRFhKd3BtamYxZWZXYWdKMFAzYmY2YVRCRjUyMjNlTEluTjZnaWc2a09QR3Jya0JtQ1dJcXZtUFBjbFBuNVFmLVJuRmZHelJFeTNf?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-10-26T15:51:00+00:00",
-      "age_hours": 6.8,
+      "age_hours": 7.1,
       "relevance_score": 43,
       "tags": [
         "반도체/AI"
@@ -147,7 +147,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OVmVZeG1OWTQ2bHZ2VWR2UjI1Um9zRm50enAzc1V2LWVTblRiNTdQVVdxWktZcTk1RUI0Wnh2N3c1dC1VY1J6STlZU0YtUHBVMUFtUFhSVjhaUUN4M3R4Q0doSExvLU5PTzQyWnQtQTZiejNSanc?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-26T14:35:00+00:00",
-      "age_hours": 8.1,
+      "age_hours": 8.4,
       "relevance_score": 43,
       "tags": [
         "반도체/AI"
@@ -160,8 +160,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
       "source": "Moomoo",
       "published_at_utc": "2026-10-26T13:50:02+00:00",
-      "age_hours": 8.9,
-      "relevance_score": 43,
+      "age_hours": 9.2,
+      "relevance_score": 42,
       "tags": [
         "반도체/AI"
       ],
@@ -169,11 +169,22 @@
       "needs_verification": true
     },
     {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq gain as Anthropic IPO Boosts AI trade, Oil Price Falls - Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3JmQ3pOaGZVQkREWGlPRHJrZ0JURUUwMVViQjBOU3hlNHM5MExnV0ZYMnBYSjhOWnlfTmtqdVBwajg1UUVIUFltODBuZ1VIQ1IzV3hGakNuSnFkZXhjenNwOG00WGRha05IclZfUUdDMkZRalM3SnVnZkZrWV9KdEtjazZpVHFmOEF6OE1MX1dlQVlyTVFsdUpsNlE5YWRSQkdUaU5JYW1RSTg3TzQzOUQzaVp6Rlk1ZGVHQ2ppWFFlaW1UNG55Z0NXSGtJbjQ?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-10-26T22:42:09+00:00",
+      "age_hours": 0.3,
+      "relevance_score": 30,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
       "title": "Dow Adds 146, Nasdaq Climbs 214, S&P 500 Gains 53 - TV News Check",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkd1QnRzRl8wai1nSEpLUlZzSHZmYTlHQndidDNFemFrU0k4aWctaHNzRDQxS2d3ekdCcG9nMWlTUnF1Z0VBLWNoc1hqbzkxbGJIUU9KOE1LSGFGN25YeFBWQmJ3SmkwczRmSHFfdG56MzRvUnR1Z0J4VDVGWHR3S2lna1ZZcEF0eUE4Yl9ZZWdTdw?oc=5",
       "source": "TV News Check",
       "published_at_utc": "2026-10-26T20:54:19+00:00",
-      "age_hours": 1.8,
+      "age_hours": 2.1,
       "relevance_score": 30,
       "tags": [],
       "category": "us_market",
@@ -184,19 +195,8 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-10-26T20:25:19+00:00",
-      "age_hours": 2.3,
+      "age_hours": 2.6,
       "relevance_score": 30,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After Trump Rules Out Iran Strike — ITUB - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMmdNSEJSSEVlWGpwS2NFM0R1eENYMnpmdXJCc0RISWp5NWVXbUxvM0NVb2ltdVB6bUVMRVExR0hTYXdwcTQ4SE84d3BwRU85R2dNLUJzaHViTHN5ck9SdVlKbzJVYlMxdHJJQTZPNHBpbXNuVjFYUEZCdTh5N0Jyd3E0N0gwMGJBQ1BxYXBGVmdUbDFTdEM3NmppVTgyUVR2Tk4xSHVwdGR6Y3hvLWNVUmhLcDNfWTBPUTA2VmtSdHNiMEl3S3docmRkQ2ZsNF9RY2hxWHF2SnVES0VLSkZoVGpRT1hadnVxTXZOaFh5WG5aR00?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-10-26T12:31:00+00:00",
-      "age_hours": 10.2,
-      "relevance_score": 27,
       "tags": [],
       "category": "us_market",
       "needs_verification": true

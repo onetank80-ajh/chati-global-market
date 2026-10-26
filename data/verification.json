@@ -192,6 +192,6 @@
       "status": "pending"
     }
   ],
-  "generated_at_kst": "2026-10-27T07:45:07.797178+09:00",
+  "generated_at_kst": "2026-10-27T07:59:11.009294+09:00",
   "method": "S&P500 ±0.3%, SOX ±0.5%, USDKRW ±0.3%; sum >=2 up, <=-2 down, else flat. Flat actual ±0.1%."
 }

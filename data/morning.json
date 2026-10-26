@@ -1,26 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-10-26T07:48:11.188791+09:00",
+  "generated_at_kst": "2026-10-27T07:59:10.536282+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-10-26T07:47:25.548469+09:00",
-  "news_snapshot_at": "2026-10-26T07:47:26.571337+09:00",
+  "market_snapshot_at": "2026-10-27T07:59:08.134895+09:00",
+  "news_snapshot_at": "2026-10-27T07:59:09.117989+09:00",
+  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_fresh": true,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -0.519,
-      "market_date": "2026-10-23",
-      "meaning": "하락"
+      "change_percent": 0.696,
+      "market_date": "2026-10-26",
+      "meaning": "상승"
     },
     {
       "name": "반도체",
-      "change_percent": 0.442,
-      "market_date": "2026-10-23",
+      "change_percent": 2.82,
+      "market_date": "2026-10-26",
       "meaning": "상승"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.194,
-      "market_date": "2026-10-25",
+      "change_percent": -0.097,
+      "market_date": "2026-10-26",
       "meaning": "원화 강세 방향"
     }
   ],
@@ -37,7 +39,7 @@
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "방향 확인 필요",
+      "view": "우호적 참고",
       "basis": "S&P500 종가 방향"
     },
     {
@@ -49,52 +51,52 @@
   ],
   "headlines": [
     {
-      "title": "Wall Street closes lower to end rocky week - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR01KeXBjdXBubVRzTlJfWWJTMHctb2hFS2pVT21ydWtZNzBaMldxd1c2ZUJGNWhIeGV6MUxvQVZvSl9GdFh5QThQbFpuT0IwYi02Y3JGM19YSWJ3LXMtb29RbS1WZUljdGtsS2dockxHVm5SWnBSMzJpM0Y4RFItdW5SMzFsdXg2LWtrYWE1SC1TQlkxOERJZHNtQVREdw?oc=5",
+      "title": "Equities end higher as Anthropic's IPO filing buoys AI stocks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-10-23T23:46:35+00:00"
+      "published_at_utc": "2026-10-26T20:25:19+00:00"
     },
     {
-      "title": "North American Stock Markets Today: S&P 500, Dow Jones, Nasdaq and TSX Rise as SpaceX and Super Micro Revive the AI Trade - BBN Times",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRkZfaGZBVmExSlUzUVhzQ05YcW9xcnMyckYySnNHTEotOUxxejBDNk1URmlHeU1IenlYTkQzREt2LTItNHdWaFI1ei1ZQ0dtNFd3V1hNa0UwWUZCd2p6bEhoRlV0V3c5NFQ3d0hxeFZneDAxUjhGaE9wLTdPZUppZjBKakhXMnJxbms2Q1ZUeW5CQlo4enJTRFBDM3RPYzFzby1seUJXaERZUldoejl2MjRDNnQ2UzRVem5WRmlPa2oyTzJvMlRKN3lRcDc0OVh3cjEyUVl5NDVtb3cwUGdyVEowcEVzTU90NVpyZm92UQ?oc=5",
-      "source": "BBN Times",
-      "published_at_utc": "2026-10-25T21:53:06+00:00"
+      "title": "US Stock Futures Gain Ahead of Big Tech Earnings, Fed Decision - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29LWk1mM3hvOXNzYUlVdzdIR2VYSHJCUkdOUFJiMDRsZFpsdDJyekhzbl9qTGVPQUwzLU1IRmQtZEVCeE1kTjYtTk5YS0RhdmZkSHdmQTdEWFpubzdJdDBTS3ptTjNEM1JIaEg4MW9yMkQ4RnJyTERoOFVVa0lWc2w2NEV4OHd1TS1XVDFGbkFYRzBseXdubkhEa2ZnWmJncnV6WXh0SmVkb0J0ZWZxMlRR?oc=5",
+      "source": "Bloomberg.com",
+      "published_at_utc": "2026-10-26T20:15:45+00:00"
     },
     {
-      "title": "President Donald Trump Just Proclaimed, \"Tariffs Don't Cause Inflation, They Cause Wealth,\" but Data From Federal Reserve Economists Show Otherwise - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPWEhjTmdhOXZMMG5rNFFOTGxON3d4bnZfZVY4UERlZ3JCcVRDdHFXQUhvYTRpMDljMDR5ZmRVUVFpMm9wSnZ6NHNZRkxqVE1lcjhIODliS04zUExzeXN6aDg2N1dHOTVhcjhfSURIQ1JwaHcwUDZwNE91YlJVQXE0WFJHMlAwMy1aTVQyNFozWlc4VjB1WlJJcGk3c3FTc3lCcklINVNoMHJzNFQ4OExZc1JldC0xeXk4X0c1S19jUmk0VzJoZFpFOUhOcFZqc0o0dmhjeWxuN3p3NnlBcTlJNko2aWFlN0MycmRuYWl6ZVJYQlhXZ2FKRkpMelhla1NnN3ItLW1yNWdlUFh5QW5FcnlKMUtORm5hVU4yWElHSjRrR2NRUHNObWFMVkxQNGxOZ2phYW9ZdTFOS2NSLTdhcVBEN3lHSEVHMWc?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-25T09:24:27+00:00"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq gain as Anthropic IPO Boosts AI trade, Oil Price Falls - Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3JmQ3pOaGZVQkREWGlPRHJrZ0JURUUwMVViQjBOU3hlNHM5MExnV0ZYMnBYSjhOWnlfTmtqdVBwajg1UUVIUFltODBuZ1VIQ1IzV3hGakNuSnFkZXhjenNwOG00WGRha05IclZfUUdDMkZRalM3SnVnZkZrWV9KdEtjazZpVHFmOEF6OE1MX1dlQVlyTVFsdUpsNlE5YWRSQkdUaU5JYW1RSTg3TzQzOUQzaVp6Rlk1ZGVHQ2ppWFFlaW1UNG55Z0NXSGtJbjQ?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-10-26T22:42:09+00:00"
     },
     {
-      "title": "AI Capex Payoff Put to the Test as US Tech Earnings and Fed Meeting Mark Market Inflection Point - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qdjcxLXdfZkFxVGtZZld2R0IyZXB0TDZPanpHYUdlWGZZMFNybGN5a2JYSjEydlFKT2tUbFVpQWJHbk5UVHZ0LWxUUE5TWWtMaHVfUUNGbVNISm5FSUdTWFF0a2NfQ3Y4cnFsNW5PM0tqSlBYOVE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-10-25T20:05:00+00:00"
+      "title": "Dow Adds 146, Nasdaq Climbs 214, S&P 500 Gains 53 - TV News Check",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkd1QnRzRl8wai1nSEpLUlZzSHZmYTlHQndidDNFemFrU0k4aWctaHNzRDQxS2d3ekdCcG9nMWlTUnF1Z0VBLWNoc1hqbzkxbGJIUU9KOE1LSGFGN25YeFBWQmJ3SmkwczRmSHFfdG56MzRvUnR1Z0J4VDVGWHR3S2lna1ZZcEF0eUE4Yl9ZZWdTdw?oc=5",
+      "source": "TV News Check",
+      "published_at_utc": "2026-10-26T20:54:19+00:00"
     },
     {
-      "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - FOREX.com",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORkZ6Tnc3eEZGajNjUC1jYWhIVFBSdjN5UFhKeVZDc0xYVFA4a2dqQUhoWU9DblB3MXhpVVRCR2IwY2I5Qi1pNE8tRWxmclBvVHJBQnRnT3BPMWd0N25oa2U5TUJWc05XcXgzQVNBVHRXenAyOWF5T05RYThXMU8xYTI2SXliWVRGNjdvZDBic3V3RFBEdDhDU3ZFQ1duMTFTSVlva3hjb0wyZ2FJSXZUNDVFMDY3VEZQUXgyWlY4MHNaWFIwQXhXQkxIb1Q1VWxiMHfSAdIBQVVfeXFMTkZGek53N3hGRmozY1AtY2FoSFRQUnYzeVBYSnlWQ3NMWFRQOGtnakFIaFlPQ25QdzF4aVVUQkdiMGNiOUItaTRPLUVsZnJQb1RyQUJ0Z09wTzFndDduaGtlOU1CVnNOV3F4M0FTQVR0V3pwMjlheU9OUWE4VzFPMWEyNkl5YllURjY3b2QwYnN1d0RQRHQ4Q1N2RUNXbjExU0lZb2t4Y29MMmdhSUl2VDQ1RTA2N1RGUFF4MlpWODBzWlhSMEF4V0JMSG9UNVVsYjB3?oc=5",
-      "source": "FOREX.com",
-      "published_at_utc": "2026-10-25T02:16:11+00:00"
+      "title": "5 Things to Know Before the Stock Market Opens on Monday - Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT2lrV3J1YkhVWjdwZnZBbUNxSGtuRVpFajBuOVN4d0hmUTNRM3dzRi10U2sydDlCSTVlTHQxN1BZbEt1endrYlB3WHN6Y2FUQkFmTTlYZ1NtZ3BXTy1ySDByMXBBbkVFbWNraTZfTmtTUjhrM3B0a1BuUE41LWtMaFVJamtNVERNdXJJb3hiV0JyejhZa0xVWnBpZDkwRkQ4b1VyVDhDZ2s4VlNDaE1z?oc=5",
+      "source": "Investopedia",
+      "published_at_utc": "2026-10-26T12:14:23+00:00"
     },
     {
-      "title": "Here's What $10,000 Invested Equally in Nvidia, AMD, and Broadcom Could Be Worth by 2030 - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQam9ueHNidEo0LVFIUml2R3NFbl8wNklCdzcxNWVsc1FqSF9yTUh6eVRoU3Y5eDFpN1dXa2EtQnAzOW96WDZaZXgwTzlGaGJZZHc2cGNsbWt1Y0hvWFV1MGJfTldLVU52WVpoT1lpZ2JiY1k1TUt4bzIyS0pmaUNKY1ZUYzRwOEduWnRETElFS2tBUTZ3Y2JsakpB?oc=5",
+      "title": "Not Nvidia. This Chip Stock Has More Upside, According to Wall Street. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWtmUTBoZGtrTUhrSnVKMUZZcU9TVVhQWlFSME0xemREdklmMk1zbmlINHN6WlVNN1djeTJkTEpHS0J3cExLNDh1X1FGcmM0WWNadDlqTWttUUhUQTl5STFIQ1Z3Uy1aZkFKb1loZVgtbmdIcDZNNzRfZExfbWdnTC1iZW5GNW42YjR0UGx5aEtVZlJFSHc?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-25T13:35:00+00:00"
+      "published_at_utc": "2026-10-26T16:35:00+00:00"
     },
     {
-      "title": "Taiwan Semiconductor Is Set to Cash in on AI. Here's What a $5,000 Investment Could Be Worth by 2030. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM19uMDhwWHhPdVVRWEVIaGwxUUZYWldnaFVHdDlkMXF4LVBoM0F2YXQzYmptRFRHQlNvejdhNEhsUXdOQkl5RjJMeDN0VlRMSmJzdW1YeWN0UlJKb3pEeVl2SFFFb3BYeVB5TXJfVVEzZmQzcFFUbHBXeXlBb0thUjdpNFl0Sjk1S0ctTW93NXpkWURSa3M4ZDFJdEMyQQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-25T14:15:00+00:00"
+      "title": "98% Of Nvidia Analysts Have \"Buy\" Rating - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWlGTjM2X1lYcjlKdURYUDJOV1hIZl80RDk1S3JzZkM2Yi05T1ZGVk1JSUp6MmIzVm8wOUVMRFhKd3BtamYxZWZXYWdKMFAzYmY2YVRCRjUyMjNlTEluTjZnaWc2a09QR3Jya0JtQ1dJcXZtUFBjbFBuNVFmLVJuRmZHelJFeTNf?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-10-26T15:51:00+00:00"
     },
     {
-      "title": "20pc a year for a decade: How this fundie mastered the AI trade - AFR",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeDB5cjhNbm9ReHFXRTRZaTRSTjNwaWNhbG5lVWIwUUNsWlIyM0plR0ZSTnZFMGlmalZobjREMGhqeG9YeVVDRHB1dnVaakRZdDRBM2NvSTZMcTFsWmJScFc3RUJSaVdVMnVSSVREOXJCcVYzNkVnYWRHU2RxY1VOVUFkMEdaeTVIWThHY0hSbkprR1M5YnlTSW9kNHFjSlhuU3FrQVJXcm82VjNwUjVzWWd1NDZlZm5JTUxESXNB?oc=5",
-      "source": "AFR",
-      "published_at_utc": "2026-10-25T18:00:00+00:00"
+      "title": "Chip Stocks Suffered a Rare Rout—Can This Week’s Earnings Turn the Tide? - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
+      "source": "Moomoo",
+      "published_at_utc": "2026-10-26T13:50:02+00:00"
     }
   ],
   "warnings": [
