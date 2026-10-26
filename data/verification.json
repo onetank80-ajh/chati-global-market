@@ -160,8 +160,38 @@
       "matched": false,
       "settled_at_kst": "2026-10-26T18:24:00.819700+09:00",
       "source": "Yahoo Finance via yfinance (unofficial, delayed)"
+    },
+    {
+      "date": "2026-10-27",
+      "market": "kospi",
+      "prediction": "up",
+      "score": 2,
+      "predicted_at_kst": "2026-10-27T07:45:07.797178+09:00",
+      "source_snapshot_utc": "2026-10-26T22:41:03.130272+00:00",
+      "source_dates": {
+        "sp500": "2026-10-26",
+        "sox": "2026-10-26",
+        "usdkrw": "2026-10-26"
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "date": "2026-10-27",
+      "market": "kosdaq",
+      "prediction": "up",
+      "score": 2,
+      "predicted_at_kst": "2026-10-27T07:45:07.797178+09:00",
+      "source_snapshot_utc": "2026-10-26T22:41:03.130272+00:00",
+      "source_dates": {
+        "sp500": "2026-10-26",
+        "sox": "2026-10-26",
+        "usdkrw": "2026-10-26"
+      },
+      "actual": null,
+      "status": "pending"
     }
   ],
-  "generated_at_kst": "2026-10-26T18:24:00.819700+09:00",
+  "generated_at_kst": "2026-10-27T07:45:07.797178+09:00",
   "method": "S&P500 ±0.3%, SOX ±0.5%, USDKRW ±0.3%; sum >=2 up, <=-2 down, else flat. Flat actual ±0.1%."
 }
