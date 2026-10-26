@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Sync latest snapshots
+        run: git pull --rebase origin main
       - name: Generate morning brief from existing JSON snapshots
         run: python scripts/morning_brief.py
       - name: Commit updated JSON
@@ -25,5 +27,6 @@ jobs:
           git add data/morning.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update morning briefing data'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
