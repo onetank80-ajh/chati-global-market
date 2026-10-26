@@ -29,6 +29,8 @@ jobs:
               s=(Path('.github/workflows')/name).read_text()
               block=s.split('run: |')[-1]
               assert re.search(r'^\s+fi\s*$',block,re.M), name+' missing fi'
+          brief=Path('.github/workflows/morning-brief.yml').read_text()
+          assert brief.index('Sync latest snapshots') < brief.index('Generate morning brief')
           s=Path('.github/workflows/morning_push.yml').read_text()
           order=('Refresh market (retry)','Refresh intelligence',
                  'Build synchronized morning brief','Publish reports',
