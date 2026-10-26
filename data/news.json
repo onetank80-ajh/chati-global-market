@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-26T22:21:56.567942+00:00",
-  "generated_at_kst": "2026-10-27T07:21:56.567942+09:00",
+  "generated_at_utc": "2026-10-26T22:30:58.035192+00:00",
+  "generated_at_kst": "2026-10-27T07:30:58.035192+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -84,13 +84,6 @@
     },
     {
       "category": "korea",
-      "title": "US stocks tick higher as oil prices ease a bit - Rocky Mount Telegram",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQlhBMXpkZm1RX09WRUdlN2h4cDBBNjZqNll1TXhwWFNwZnc2bHo4dTcwNDdjeFFnQVc3eXVPZ242OVItN2ZmNjI0MUJEMnh3MlZMNFc2QVdfdFdIMkxFNnVfRmMtSUhaSFJud19EZlhGUWtaaU1SSUdDbTg3dkNmR0dKNEZnMFNyV2Y0bVlhMnNKazd0RzlVSGpWMzRaNkgtVHpBVGlvVkJBaUJuRGdtQjEtbzAzZVBrYm43eGNsYnFhNE83NVM2aFYycFpYOXdBV0lWWC00ZjhBU1pEVnc?oc=5",
-      "source": "Rocky Mount Telegram",
-      "published_at_utc": "2026-10-26T14:03:18+00:00"
-    },
-    {
-      "category": "korea",
       "title": "AI money shifts from chips to software, exposing Korea’s lack of alternatives - KED Global",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11aHFmRFhscEh0aFJiZjN5eEhhZXIxazJVWWp5MVR4SnV6NkotLXluT3dubHM0VnVuYURORXd6Tnp2VVNKRE5RZ1lmcnRuM2V2ajdZMmoyQzdLdVZpOFpPU2tULUh6ME5DV21kNFRPMzEzdmNYMDlZc3Zn?oc=5",
       "source": "KED Global",
@@ -109,6 +102,13 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyRW80Ql9JcUZpVkNGeS1qb2V2QktmM09uajVudEwwbzRMdThveVdmcVVKaFM0R3YyT1ExcXNTRGl4cGtWOFJlRkxGM1BYS1ppaFhIS1VhRzRsVFp1SkZMMXhiaF9LUkZuYVNNTVFUM3QxeXhWN3c?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-26T03:25:00+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "US stocks tick higher as oil prices ease a bit - Rocky Mount Telegram",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONkZJak9vcU51MFl0MEY5TXpJSXVwYXFTSnZKRkVtWmtmdEVGMHpJZ3MyTlRaRDJJQTFDTTdYOXMzd0RZb2d4MVlHeTc4LUpiVC1HRW1fZ3VjLWhxcmdaUmFoa25MdFB5WlEzaVdPOWVZYk5pOTJ2ZjlodTBET2t2ZnJST2dvNVhLSDJpZ2NNNTFaMVB1cU5hOURMS1VHWFoydk42OXNLU1JpUU5HY05FbmViVnU5NDgxcjl1LUNXRHhFVGlNU1NMektXUFpTdGZRYVhrYmhCWEJncnlR?oc=5",
+      "source": "Rocky Mount Telegram",
+      "published_at_utc": "2026-10-26T14:03:18+00:00"
     }
   ],
   "warnings": []
