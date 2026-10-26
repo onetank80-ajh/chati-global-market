@@ -1,0 +1,49 @@
+name: Chati Morning Pipeline Offline Check
+on:
+  push:
+    paths:
+      - 'scripts/morning_brief.py'
+      - 'scripts/push_briefing.py'
+      - '.github/workflows/morning_push.yml'
+      - '.github/workflows/morning-brief.yml'
+      - '.github/workflows/market.yml'
+      - '.github/workflows/verification.yml'
+      - '.github/workflows/morning_pipeline_check.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Python syntax
+        run: python3 -m py_compile scripts/morning_brief.py scripts/push_briefing.py
+      - name: Check workflow shell blocks and morning pipeline order
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          for name in ('market.yml','verification.yml'):
+              s=(Path('.github/workflows')/name).read_text()
+              block=s.split('run: |')[-1]
+              assert re.search(r'^\s+fi\s*$',block,re.M), name+' missing fi'
+          s=Path('.github/workflows/morning_push.yml').read_text()
+          order=('Refresh market (retry)','Refresh intelligence',
+                 'Build synchronized morning brief','Publish reports',
+                 'Send push (retry)')
+          positions=[s.index(x) for x in order]
+          assert positions==sorted(positions), 'morning pipeline out of order'
+      - name: Generate and validate offline briefing
+        run: |
+          python3 scripts/morning_brief.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('data/morning.json').read_text(encoding='utf-8'))
+          assert isinstance(data['market_snapshot_fresh'],bool)
+          assert 'market_snapshot_age_hours' in data
+          assert isinstance(data['warnings'],list)
+          print('Morning report schema OK; fresh:',data['market_snapshot_fresh'])
+          PY
