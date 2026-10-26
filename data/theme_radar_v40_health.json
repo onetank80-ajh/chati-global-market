@@ -1,0 +1,13 @@
+{
+  "generated_at_kst": "2026-10-26T17:13:10.315448+09:00",
+  "status": "SOURCE_UNAVAILABLE",
+  "candidate_data_updated": false,
+  "ranking_pages_ok": 0,
+  "errors": [
+    "Naver 0 rise: No rows parsed (ranking page returned no eligible stock rows)",
+    "Naver 0 quant: No rows parsed (ranking page returned no eligible stock rows)",
+    "Naver 1 rise: No rows parsed (ranking page returned no eligible stock rows)",
+    "Naver 1 quant: No rows parsed (ranking page returned no eligible stock rows)"
+  ],
+  "message": "공개 순위 데이터 수집 실패. 기존 후보는 과거 자료이며 현재 추천이 아닙니다."
+}
