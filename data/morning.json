@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-10-28T07:57:07.576404+09:00",
+  "generated_at_kst": "2026-10-28T07:57:47.077029+09:00",
   "analysis_kind": "rule_based_not_ai",
   "market_snapshot_at": "2026-10-28T07:57:04.831341+09:00",
   "news_snapshot_at": "2026-10-28T07:57:06.246042+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_age_hours": 0.01,
   "market_snapshot_fresh": true,
   "indicators": [
     {
