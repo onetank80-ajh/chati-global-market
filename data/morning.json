@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-10-27T07:59:43.881301+09:00",
+  "generated_at_kst": "2026-10-28T07:57:07.576404+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-10-27T07:59:08.134895+09:00",
-  "news_snapshot_at": "2026-10-27T07:59:09.117989+09:00",
-  "market_snapshot_age_hours": 0.01,
+  "market_snapshot_at": "2026-10-28T07:57:04.831341+09:00",
+  "news_snapshot_at": "2026-10-28T07:57:06.246042+09:00",
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": 0.696,
-      "market_date": "2026-10-26",
+      "change_percent": 0.597,
+      "market_date": "2026-10-27",
       "meaning": "상승"
     },
     {
       "name": "반도체",
-      "change_percent": 2.82,
-      "market_date": "2026-10-26",
+      "change_percent": 3.6,
+      "market_date": "2026-10-27",
       "meaning": "상승"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.097,
-      "market_date": "2026-10-26",
-      "meaning": "원화 강세 방향"
+      "change_percent": 0.347,
+      "market_date": "2026-10-27",
+      "meaning": "원화 약세 방향"
     }
   ],
   "sectors": [
@@ -45,58 +45,58 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "원화 강세 참고",
+      "view": "환율 변동 확인",
       "basis": "원/달러 환율 변화"
     }
   ],
   "headlines": [
     {
-      "title": "Equities end higher as Anthropic's IPO filing buoys AI stocks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
+      "title": "Wall Street ends higher on revived AI momentum - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-10-26T20:25:19+00:00"
+      "published_at_utc": "2026-10-27T21:11:24+00:00"
     },
     {
-      "title": "US Stock Futures Gain Ahead of Big Tech Earnings, Fed Decision - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29LWk1mM3hvOXNzYUlVdzdIR2VYSHJCUkdOUFJiMDRsZFpsdDJyekhzbl9qTGVPQUwzLU1IRmQtZEVCeE1kTjYtTk5YS0RhdmZkSHdmQTdEWFpubzdJdDBTS3ptTjNEM1JIaEg4MW9yMkQ4RnJyTERoOFVVa0lWc2w2NEV4OHd1TS1XVDFGbkFYRzBseXdubkhEa2ZnWmJncnV6WXh0SmVkb0J0ZWZxMlRR?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-10-26T20:15:45+00:00"
+      "title": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
+      "source": "WSJ",
+      "published_at_utc": "2026-10-27T20:45:00+00:00"
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq gain as Anthropic IPO Boosts AI trade, Oil Price Falls - Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3JmQ3pOaGZVQkREWGlPRHJrZ0JURUUwMVViQjBOU3hlNHM5MExnV0ZYMnBYSjhOWnlfTmtqdVBwajg1UUVIUFltODBuZ1VIQ1IzV3hGakNuSnFkZXhjenNwOG00WGRha05IclZfUUdDMkZRalM3SnVnZkZrWV9KdEtjazZpVHFmOEF6OE1MX1dlQVlyTVFsdUpsNlE5YWRSQkdUaU5JYW1RSTg3TzQzOUQzaVp6Rlk1ZGVHQ2ppWFFlaW1UNG55Z0NXSGtJbjQ?oc=5",
-      "source": "Eurasia Business News",
-      "published_at_utc": "2026-10-26T22:42:09+00:00"
+      "title": "S&P 500, Nasdaq advance as oil eases ahead of Fed decision - Central Oregon Daily",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPN21adUJNWUR2YW44RUJnYWxJazJ2dm1PMWNESlpocVItS3NQTW9PTzBFTTMzS1ZkaWFJOEZFRy1ESENhYm5iNGpBdW9vTmNrQnNEYTdfeGV2UlYzeHRhcjI2eklzMlFjUmRJZTVwd0NVTGUtNGM0NEdkTHlZaE1fVHZiWEcwTm9vQVcxekhBeXRDTUE2X0QzYVNLVlI0SGJqVndiRERLeHFVWVZ0V0YzZW8xWjhJMEowVjFRdDFoakl0REdjM3dlZXdudXNtYUZqaThmUy1rbThpVDdBZHo0NlVKUGhERmdhTWxDNw?oc=5",
+      "source": "Central Oregon Daily",
+      "published_at_utc": "2026-10-27T14:41:52+00:00"
     },
     {
-      "title": "Dow Adds 146, Nasdaq Climbs 214, S&P 500 Gains 53 - TV News Check",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkd1QnRzRl8wai1nSEpLUlZzSHZmYTlHQndidDNFemFrU0k4aWctaHNzRDQxS2d3ekdCcG9nMWlTUnF1Z0VBLWNoc1hqbzkxbGJIUU9KOE1LSGFGN25YeFBWQmJ3SmkwczRmSHFfdG56MzRvUnR1Z0J4VDVGWHR3S2lna1ZZcEF0eUE4Yl9ZZWdTdw?oc=5",
-      "source": "TV News Check",
-      "published_at_utc": "2026-10-26T20:54:19+00:00"
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 10 Futures Gain as Fed Begins Its Two-Day Meet— Novartis, HSBC, Welltower in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSGJMZzk4UzQ4NzdmU25zYlZuV1lGcU5UR190MXhTdDZHUXNyN3EyOW5VN3I1WFhuWUdwWTA0OEZ6ZVVOWFdLdUc2bXRTMmJKdmY2UzJzQmpfSkRxVklKazhLOWtzdXZaVlFtdDNSaHU3emtsc3pkaVpfU3dwWVdTZkYzSjQ5VmpBZHI0dUxWSzlGUFRTVXNRMXN5U2lwV3dkVWZBOTQwOWQxR0VDb2N3MWtHV3plNHl4Yi05NWNxRDFOUFp2cnY5WGFERS12Yl9rV1NQQjhhRDUyVFRzUGxraDFKQUVEWmFJaWVvRDhCQksxTWV2ajIteWhNR1RiVTN0cFFDeVRMYnc5cmVkLXZwbkxnNzd6Z0Jxb3c?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-27T12:45:13+00:00"
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens on Monday - Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT2lrV3J1YkhVWjdwZnZBbUNxSGtuRVpFajBuOVN4d0hmUTNRM3dzRi10U2sydDlCSTVlTHQxN1BZbEt1endrYlB3WHN6Y2FUQkFmTTlYZ1NtZ3BXTy1ySDByMXBBbkVFbWNraTZfTmtTUjhrM3B0a1BuUE41LWtMaFVJamtNVERNdXJJb3hiV0JyejhZa0xVWnBpZDkwRkQ4b1VyVDhDZ2s4VlNDaE1z?oc=5",
-      "source": "Investopedia",
-      "published_at_utc": "2026-10-26T12:14:23+00:00"
+      "title": "S&P 500, Nasdaq open higher as oil pulls back ahead of Fed decision - The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR2JpUEZrTDdzMEN5WU5UaUlROWVhM2Rpc1VkZk1iVnl2UGdmV3VvcmRMNHBxNjFfU3R4dEdkdm03X2M5SzVPV3J1Z0gyY3hndlVqb214cFM4bFpHZW56cFpORFlTNm14RHo1V3drSXZXRXVOTF9feXlZZjRGNVhrSFBjdUFlLXRvT1BBV0g5M0NKQUtFLXk2XzNUQTgyM2wtQ01paVFDdDNsclhRcmhoSmpnR3NVNkU2WDBF?oc=5",
+      "source": "The Standard (HK)",
+      "published_at_utc": "2026-10-27T13:34:10+00:00"
     },
     {
-      "title": "Not Nvidia. This Chip Stock Has More Upside, According to Wall Street. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWtmUTBoZGtrTUhrSnVKMUZZcU9TVVhQWlFSME0xemREdklmMk1zbmlINHN6WlVNN1djeTJkTEpHS0J3cExLNDh1X1FGcmM0WWNadDlqTWttUUhUQTl5STFIQ1Z3Uy1aZkFKb1loZVgtbmdIcDZNNzRfZExfbWdnTC1iZW5GNW42YjR0UGx5aEtVZlJFSHc?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-26T16:35:00+00:00"
+      "title": "Chip Stocks Rise For Third Straight Day: Micron, AMD Rise 3% As Nvidia-Meta Deepen AI Ties - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMDRBNFdhZG9rT0x1VnNucUpSRG1GYVJhbGNFRWw5T01odTF0QXhaR0YzNm9QdUpiVjNMSDdJVHpLTldnblA2QzJkUUJ5dTlRVGE3bmhFc3hRUUl1T0VMSU0wLXM1NnlKc0RpcEh6MmtBQWFyRkc3VVlCQkdLNTNTLXNWMi1kU3FZYVpRWGVuNnpOR0ZmRUtlUGxHVDZOZGs5Q3E5X1psUlBFdHlRSUZMZDVzUUVtd3ZvSDIxS0gyZG42Ry1CZm9NcDc1SdIB0wFBVV95cUxOLXptbkRQQ3ZDcmoxTzhWMTc4Vjlfc2tBMHdTSGwzd0lIMjVyOFltVWE2cXNjSDFUVml0LUN1clFEa1VjWklWNHo2bnVDOURjRVRjaVZIVWJPZWk0RmZFZUFhaE5abmxBTWFZdG9LMjNkdmc0WllsUW9NTFZyUVNlWWJUeTVsZjFDcmZSSmVMcTVCTlR6YVloVEs3bTd2Y0MySDQxcUlmQ3NhTTZpcWVfZm9NaktUWm5IWWdNUDY4ODJSWGV5ZTdRc09HRlVoWUFxRVNj?oc=5",
+      "source": "NDTV Profit",
+      "published_at_utc": "2026-10-27T16:24:42+00:00"
     },
     {
-      "title": "98% Of Nvidia Analysts Have \"Buy\" Rating - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWlGTjM2X1lYcjlKdURYUDJOV1hIZl80RDk1S3JzZkM2Yi05T1ZGVk1JSUp6MmIzVm8wOUVMRFhKd3BtamYxZWZXYWdKMFAzYmY2YVRCRjUyMjNlTEluTjZnaWc2a09QR3Jya0JtQ1dJcXZtUFBjbFBuNVFmLVJuRmZHelJFeTNf?oc=5",
-      "source": "24/7 Wall St.",
-      "published_at_utc": "2026-10-26T15:51:00+00:00"
+      "title": "Nvidia Backing Puts These AI Semiconductor Stocks In Focus - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOck1HWGF5M1hCM0pGM045NG5hWDVsbDFaamU0ZWMzVkZBTGZXZzNSVDJMTTJ4RmhWV3BucEkwZ1N3bTdnOEthbHZwRzFJMWJLYUp3V0ZCelVKWTdYNDkxWFJ6dFo0NDhYTWJxY3RlcTNCTm9vRVlGU00zLWprQzg0LWNVa0tSbDhMVHNPblZTNmJEMGVaZUxrQ1hCNXF2VkJfa28takZ0Vnp0enVCcHVqcHpBeTFaYlhwc2ZoMXFCNFFSb0hVVHBfZjd30gHPAUFVX3lxTE1QWHFERWxtWlBGOEU2bWhMd2k2MEIxbjFPbF9tckZ4dmU5OGFHcTBrMXg0RUpMNFNQNTJ3RGh4UG1RZ0xPOEQzOWFNcWRNdm11NERjUll6d29UNkZSU19iSnNPYTl4Mk1BQzBpbFhuYl9JOEZIcEJqS0pXSURYbjdIU2U0SkZIRFpFTDFsWVlRaDFGbE9tWElOVWlXNzVDTGRGMHE4TlJyNHZiWEE3VkIwV3NHTGF2Y1pRQWIzQkQ1WlI2ZEJDcXk5Tmp4S19qRQ?oc=5",
+      "source": "Simply Wall Street",
+      "published_at_utc": "2026-10-27T13:31:02+00:00"
     },
     {
-      "title": "Chip Stocks Suffered a Rare Rout—Can This Week’s Earnings Turn the Tide? - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-26T13:50:02+00:00"
+      "title": "Not Nvidia. This Chip Stock Has More Upside, According to Wall Street. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUlpTMy1iMkV0QS1RWHFfV191dXoxR0xxMjAyUTdmanFlRmUtUjREcWhMUXNFcDBLclBBVHd4SWZvSUI4TWhPN0pMNnBGUnE1bUJ2UHpxSk5QY1p4Q1BrMkdkQWhxRUhxUDM1WVduOFR5eGlXOFZzd0d2NzZaNVg1VEdIU2FnR0dkSk5SMXRZX0F1ZmxlVnFkaA?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-10-26T17:15:00+00:00"
     }
   ],
   "warnings": [
