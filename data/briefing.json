@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-26T22:59:10.441943+00:00",
-  "generated_at_kst": "2026-10-27T07:59:10.441943+09:00",
+  "generated_at_utc": "2026-10-27T22:25:26.994094+00:00",
+  "generated_at_kst": "2026-10-28T07:25:26.994094+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -12,197 +12,197 @@
   "market_signals": [
     {
       "indicator": "미국 대형주",
-      "change_percent": 0.696,
+      "change_percent": 0.597,
       "reference_direction": "우호적"
     },
     {
       "indicator": "반도체",
-      "change_percent": 2.82,
+      "change_percent": 3.6,
       "reference_direction": "우호적"
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.097,
-      "reference_direction": "우호적"
+      "change_percent": 0.368,
+      "reference_direction": "주의"
     }
   ],
   "headlines": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq gain as Anthropic IPO Boosts AI trade, Oil Price Falls - Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3JmQ3pOaGZVQkREWGlPRHJrZ0JURUUwMVViQjBOU3hlNHM5MExnV0ZYMnBYSjhOWnlfTmtqdVBwajg1UUVIUFltODBuZ1VIQ1IzV3hGakNuSnFkZXhjenNwOG00WGRha05IclZfUUdDMkZRalM3SnVnZkZrWV9KdEtjazZpVHFmOEF6OE1MX1dlQVlyTVFsdUpsNlE5YWRSQkdUaU5JYW1RSTg3TzQzOUQzaVp6Rlk1ZGVHQ2ppWFFlaW1UNG55Z0NXSGtJbjQ?oc=5",
-      "source": "Eurasia Business News",
-      "published_at_utc": "2026-10-26T22:42:09+00:00",
-      "category": "us_market",
-      "age_hours": 0.3,
-      "freshness_score": 99,
-      "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Dow Adds 146, Nasdaq Climbs 214, S&P 500 Gains 53 - TV News Check",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkd1QnRzRl8wai1nSEpLUlZzSHZmYTlHQndidDNFemFrU0k4aWctaHNzRDQxS2d3ekdCcG9nMWlTUnF1Z0VBLWNoc1hqbzkxbGJIUU9KOE1LSGFGN25YeFBWQmJ3SmkwczRmSHFfdG56MzRvUnR1Z0J4VDVGWHR3S2lna1ZZcEF0eUE4Yl9ZZWdTdw?oc=5",
-      "source": "TV News Check",
-      "published_at_utc": "2026-10-26T20:54:19+00:00",
-      "category": "us_market",
-      "age_hours": 2.1,
-      "freshness_score": 96,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "Equities end higher as Anthropic's IPO filing buoys AI stocks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
+      "title": "Wall Street ends higher on revived AI momentum - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-10-26T20:25:19+00:00",
+      "published_at_utc": "2026-10-27T21:11:24+00:00",
       "category": "us_market",
-      "age_hours": 2.6,
-      "freshness_score": 95,
+      "age_hours": 1.2,
+      "freshness_score": 98,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "US Stock Futures Gain Ahead of Big Tech Earnings, Fed Decision - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29LWk1mM3hvOXNzYUlVdzdIR2VYSHJCUkdOUFJiMDRsZFpsdDJyekhzbl9qTGVPQUwzLU1IRmQtZEVCeE1kTjYtTk5YS0RhdmZkSHdmQTdEWFpubzdJdDBTS3ptTjNEM1JIaEg4MW9yMkQ4RnJyTERoOFVVa0lWc2w2NEV4OHd1TS1XVDFGbkFYRzBseXdubkhEa2ZnWmJncnV6WXh0SmVkb0J0ZWZxMlRR?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-10-26T20:15:45+00:00",
+      "title": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
+      "source": "WSJ",
+      "published_at_utc": "2026-10-27T20:45:00+00:00",
       "category": "us_market",
-      "age_hours": 2.7,
-      "freshness_score": 95,
+      "age_hours": 1.7,
+      "freshness_score": 97,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "[U.S. Stocks] Gains extend amid chip rally and oil decline; SOXL surges 11.7% - 파이낸셜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ENWFDMmQyTWxHaGdDdE9zdzIwbk5wSHFlNDhfRGhRa1p4bHJIU0tFZDl5d3ZJeElqSkc3SlJqMWpDNVpFM2RvR1Q1VktxV29nczNtSUV6TTM?oc=5",
+      "source": "파이낸셜뉴스",
+      "published_at_utc": "2026-10-27T20:24:06+00:00",
+      "category": "semiconductor",
+      "age_hours": 2.0,
+      "freshness_score": 96,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Chip Stocks Rise For Third Straight Day: Micron, AMD Rise 3% As Nvidia-Meta Deepen AI Ties - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMDRBNFdhZG9rT0x1VnNucUpSRG1GYVJhbGNFRWw5T01odTF0QXhaR0YzNm9QdUpiVjNMSDdJVHpLTldnblA2QzJkUUJ5dTlRVGE3bmhFc3hRUUl1T0VMSU0wLXM1NnlKc0RpcEh6MmtBQWFyRkc3VVlCQkdLNTNTLXNWMi1kU3FZYVpRWGVuNnpOR0ZmRUtlUGxHVDZOZGs5Q3E5X1psUlBFdHlRSUZMZDVzUUVtd3ZvSDIxS0gyZG42Ry1CZm9NcDc1SdIB0wFBVV95cUxOLXptbkRQQ3ZDcmoxTzhWMTc4Vjlfc2tBMHdTSGwzd0lIMjVyOFltVWE2cXNjSDFUVml0LUN1clFEa1VjWklWNHo2bnVDOURjRVRjaVZIVWJPZWk0RmZFZUFhaE5abmxBTWFZdG9LMjNkdmc0WllsUW9NTFZyUVNlWWJUeTVsZjFDcmZSSmVMcTVCTlR6YVloVEs3bTd2Y0MySDQxcUlmQ3NhTTZpcWVfZm9NaktUWm5IWWdNUDY4ODJSWGV5ZTdRc09HRlVoWUFxRVNj?oc=5",
+      "source": "NDTV Profit",
+      "published_at_utc": "2026-10-27T16:24:42+00:00",
+      "category": "semiconductor",
+      "age_hours": 6.0,
+      "freshness_score": 88,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "S&P 500, Nasdaq advance as oil eases ahead of Fed decision - Central Oregon Daily",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPN21adUJNWUR2YW44RUJnYWxJazJ2dm1PMWNESlpocVItS3NQTW9PTzBFTTMzS1ZkaWFJOEZFRy1ESENhYm5iNGpBdW9vTmNrQnNEYTdfeGV2UlYzeHRhcjI2eklzMlFjUmRJZTVwd0NVTGUtNGM0NEdkTHlZaE1fVHZiWEcwTm9vQVcxekhBeXRDTUE2X0QzYVNLVlI0SGJqVndiRERLeHFVWVZ0V0YzZW8xWjhJMEowVjFRdDFoakl0REdjM3dlZXdudXNtYUZqaThmUy1rbThpVDdBZHo0NlVKUGhERmdhTWxDNw?oc=5",
+      "source": "Central Oregon Daily",
+      "published_at_utc": "2026-10-27T14:41:52+00:00",
+      "category": "us_market",
+      "age_hours": 7.7,
+      "freshness_score": 85,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
     {
-      "title": "Chip Stocks Push Nasdaq On Course To One-Month High On Anthropic IPO Buzz: Nvidia, Micron Lead Gains - NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcTQ2TWJsN0laUk54WnZOQW43UXQ3ekNxZllrMWU2WUZnTlJkXzJtQ3A0ZXY2OWxNS3ROY0h2UmtVckVBOFdTZ2FXNWhrdW94ckdienhITW1YaEN4MUk3Wk9ZTDMyMnlwajV2aEdEWGJJUUo3ajJzLW4tOFd0UUdrWkR6OFpxbExRYkxEeUFwRjF6MXVyUFhBZ0ZMdEc3QjRVZXAtMGZESkR5dWJpbHUtVG8ydGxCWVZxanU2LWdtSUk5TWNtOWY4ejdEVHRJaG5OOFHSAdoBQVVfeXFMUGhLRkw5QzNWOGxmMEt4WEJLYTNXUXlyZDMzX2t4dEJVdi1OOEgxbjNzRDJVeFRtUVcyRmw4dkhkRFRtT0w5b0xjMGxiTXRHVDEyZWUweU9YX1daZWZNeDRoT2V6eWZhOGtUeTVFNUpmVmpNWkVWQ1lIMGUwRHNBY28xLVd5UU5hMzBGUzY1ajRfTThPbHdDOWNGRmtGYzVOT2k3T2Q1RXZYUXBiMG16NE45UTBIRG9yb1pFVFhOWUx0VmI0SFR1WGlWR1JfWi1aTmwwdlVhSURFQUE?oc=5",
-      "source": "NDTV Profit",
-      "published_at_utc": "2026-10-26T17:10:14+00:00",
-      "category": "semiconductor",
-      "age_hours": 5.8,
-      "freshness_score": 88,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Not Nvidia. This Chip Stock Has More Upside, According to Wall Street. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWtmUTBoZGtrTUhrSnVKMUZZcU9TVVhQWlFSME0xemREdklmMk1zbmlINHN6WlVNN1djeTJkTEpHS0J3cExLNDh1X1FGcmM0WWNadDlqTWttUUhUQTl5STFIQ1Z3Uy1aZkFKb1loZVgtbmdIcDZNNzRfZExfbWdnTC1iZW5GNW42YjR0UGx5aEtVZlJFSHc?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-26T16:35:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 6.4,
-      "freshness_score": 87,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "98% Of Nvidia Analysts Have \"Buy\" Rating - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWlGTjM2X1lYcjlKdURYUDJOV1hIZl80RDk1S3JzZkM2Yi05T1ZGVk1JSUp6MmIzVm8wOUVMRFhKd3BtamYxZWZXYWdKMFAzYmY2YVRCRjUyMjNlTEluTjZnaWc2a09QR3Jya0JtQ1dJcXZtUFBjbFBuNVFmLVJuRmZHelJFeTNf?oc=5",
-      "source": "24/7 Wall St.",
-      "published_at_utc": "2026-10-26T15:51:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 7.1,
-      "freshness_score": 86,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Anthropic IPO Filing Ignites Rally; Chip Stocks Lead U.S. Rebound as TSMC ADR Climbs - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OVmVZeG1OWTQ2bHZ2VWR2UjI1Um9zRm50enAzc1V2LWVTblRiNTdQVVdxWktZcTk1RUI0Wnh2N3c1dC1VY1J6STlZU0YtUHBVMUFtUFhSVjhaUUN4M3R4Q0doSExvLU5PTzQyWnQtQTZiejNSanc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-10-26T14:35:00+00:00",
-      "category": "semiconductor",
+      "title": "Wall Street drifts as Broadcom and other AI-related stocks help support the market - 巴士的報",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY1NtbWJWM0FtU2Y0UVZkb1lBMWVaMFVyZmxvQ1JMNUx1Sk4zeXlvSm9wUU5uSDBfMnNTVXJZaGpDUmFJY2hUYXdaVXVGUU5NWTNEOHhzdXRzQjFjbDFPZ1VBRWRveE5GQzhILXRLNGdmbHZOc29pM3VRR2ZJNzV4UjhCY3hWbmVhaEpyLWNpU3RoQlFsVlV6V3R2TV9kSWFCbHRqajM0X1Q2M01lVVF0a3hxVmE3bjg5b2xDRzNncldVWkJ3VndtSl9OOGZYc0E?oc=5",
+      "source": "巴士的報",
+      "published_at_utc": "2026-10-27T13:58:53+00:00",
+      "category": "korea",
       "age_hours": 8.4,
       "freshness_score": 83,
-      "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Chip Stocks Suffered a Rare Rout—Can This Week’s Earnings Turn the Tide? - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGVPRWpKVWhTNEp0emxwMTNIUXpCZkwzTHJPQkpDQ19BdHlwdWJvdE5uS3g0d0taMmxmTGFEU211QlRYaTF0MUk4akdIcTZlTjVjTjduVVhRc2daR0xkUXpXd3AwcjFBMFk3UXR2aU9CTy1HOEdwRU55dmN5bXI4eDdleUxSanpSTzFvZVFDaGUwRlZPMW1fNW5pUDBkaHFvMHNtSVZkTW5BZw?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-26T13:50:02+00:00",
-      "category": "semiconductor",
-      "age_hours": 9.2,
-      "freshness_score": 82,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "US stocks tick higher as oil prices ease a bit - Rocky Mount Telegram",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQlhBMXpkZm1RX09WRUdlN2h4cDBBNjZqNll1TXhwWFNwZnc2bHo4dTcwNDdjeFFnQVc3eXVPZ242OVItN2ZmNjI0MUJEMnh3MlZMNFc2QVdfdFdIMkxFNnVfRmMtSUhaSFJud19EZlhGUWtaaU1SSUdDbTg3dkNmR0dKNEZnMFNyV2Y0bVlhMnNKazd0RzlVSGpWMzRaNkgtVHpBVGlvVkJBaUJuRGdtQjEtbzAzZVBrYm43eGNsYnFhNE83NVM2aFYycFpYOXdBV0lWWC00ZjhBU1pEVnc?oc=5",
-      "source": "Rocky Mount Telegram",
-      "published_at_utc": "2026-10-26T14:03:18+00:00",
-      "category": "korea",
-      "age_hours": 8.9,
-      "freshness_score": 82,
-      "headline_tone": "긍정 표현",
-      "sectors": []
-    },
-    {
-      "title": "US stocks tick higher as oil prices ease a bit - Traverse City Record-Eagle",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUVgyQ1h3SG45cU9nTWVkanZ1RHlKNjloSFRhaW5oTncwT3BXcURibVh3MVUxY3FnREJpMXNlSmoxSmw4UTI5bGttU1FUa0l0aUoybS1YWkdBQTlTSFlSVlVEaURVZVpsOXdvSlZwVkFpZmxSWGFrN2dyM1gzUlpRVVE3QURneXY0M1FnSDNjd0wwLVR2MnZmLVhxdWNPaDg4Z0xDcWJVbk5OYlB4Z29ZTW5GZGpGWVJQRXBSelBEZ21MNWJJZmpvNTJBOFM4RUpLNTlV?oc=5",
-      "source": "Traverse City Record-Eagle",
-      "published_at_utc": "2026-10-26T14:03:18+00:00",
-      "category": "korea",
-      "age_hours": 8.9,
-      "freshness_score": 82,
-      "headline_tone": "긍정 표현",
-      "sectors": []
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens on Monday - Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT2lrV3J1YkhVWjdwZnZBbUNxSGtuRVpFajBuOVN4d0hmUTNRM3dzRi10U2sydDlCSTVlTHQxN1BZbEt1endrYlB3WHN6Y2FUQkFmTTlYZ1NtZ3BXTy1ySDByMXBBbkVFbWNraTZfTmtTUjhrM3B0a1BuUE41LWtMaFVJamtNVERNdXJJb3hiV0JyejhZa0xVWnBpZDkwRkQ4b1VyVDhDZ2s4VlNDaE1z?oc=5",
-      "source": "Investopedia",
-      "published_at_utc": "2026-10-26T12:14:23+00:00",
-      "category": "us_market",
-      "age_hours": 10.7,
-      "freshness_score": 79,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "[Closing Market] KOSPI Slumps into 5,400 Range Amid Hitting 7-Month Low - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBveXJLMnhjcHIzS0tuX2U1ZGtrbnZUNXh4MkQ4dW05VEdOODhfQVZwSWlQc1JTd092TnJmZjVPRjdwZGViNWlGOWVPa3dKSTJ5SHV2UUU4aU5uTVVtX0I4Z3U5TzFheGlmUS1GWWpla3RKaTl4?oc=5",
+      "title": "Nvidia Backing Puts These AI Semiconductor Stocks In Focus - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOck1HWGF5M1hCM0pGM045NG5hWDVsbDFaamU0ZWMzVkZBTGZXZzNSVDJMTTJ4RmhWV3BucEkwZ1N3bTdnOEthbHZwRzFJMWJLYUp3V0ZCelVKWTdYNDkxWFJ6dFo0NDhYTWJxY3RlcTNCTm9vRVlGU00zLWprQzg0LWNVa0tSbDhMVHNPblZTNmJEMGVaZUxrQ1hCNXF2VkJfa28takZ0Vnp0enVCcHVqcHpBeTFaYlhwc2ZoMXFCNFFSb0hVVHBfZjd30gHPAUFVX3lxTE1QWHFERWxtWlBGOEU2bWhMd2k2MEIxbjFPbF9tckZ4dmU5OGFHcTBrMXg0RUpMNFNQNTJ3RGh4UG1RZ0xPOEQzOWFNcWRNdm11NERjUll6d29UNkZSU19iSnNPYTl4Mk1BQzBpbFhuYl9JOEZIcEJqS0pXSURYbjdIU2U0SkZIRFpFTDFsWVlRaDFGbE9tWElOVWlXNzVDTGRGMHE4TlJyNHZiWEE3VkIwV3NHTGF2Y1pRQWIzQkQ1WlI2ZEJDcXk5Tmp4S19qRQ?oc=5",
+      "source": "Simply Wall Street",
+      "published_at_utc": "2026-10-27T13:31:02+00:00",
+      "category": "semiconductor",
+      "age_hours": 8.9,
+      "freshness_score": 82,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 10 Futures Gain as Fed Begins Its Two-Day Meet— Novartis, HSBC, Welltower in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSGJMZzk4UzQ4NzdmU25zYlZuV1lGcU5UR190MXhTdDZHUXNyN3EyOW5VN3I1WFhuWUdwWTA0OEZ6ZVVOWFdLdUc2bXRTMmJKdmY2UzJzQmpfSkRxVklKazhLOWtzdXZaVlFtdDNSaHU3emtsc3pkaVpfU3dwWVdTZkYzSjQ5VmpBZHI0dUxWSzlGUFRTVXNRMXN5U2lwV3dkVWZBOTQwOWQxR0VDb2N3MWtHV3plNHl4Yi05NWNxRDFOUFp2cnY5WGFERS12Yl9rV1NQQjhhRDUyVFRzUGxraDFKQUVEWmFJaWVvRDhCQksxTWV2ajIteWhNR1RiVTN0cFFDeVRMYnc5cmVkLXZwbkxnNzd6Z0Jxb3c?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-27T12:45:13+00:00",
+      "category": "us_market",
+      "age_hours": 9.7,
+      "freshness_score": 81,
+      "headline_tone": "긍정 표현",
+      "sectors": []
+    },
+    {
+      "title": "[Closing Market] KOSPI Surges Above 5,600 on AI Optimism - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LZmNiRkRVR0lqV0MyTkJsenJhQWVGUXFJN0VXSzg0RXRaUUM4RFR6RFQtOU1obTVaQTY1Y2JtbTFoM3ppVW9CSmtJRjFEZVJQUmYwNUhHVUhYRDRlcjl0c09FVV8zMEc2RzVPOXMxNFRaeGJZ?oc=5",
       "source": "Businesskorea",
-      "published_at_utc": "2026-10-26T09:00:20+00:00",
+      "published_at_utc": "2026-10-27T08:14:48+00:00",
       "category": "korea",
-      "age_hours": 14.0,
+      "age_hours": 14.2,
       "freshness_score": 72,
       "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Asian stocks advance following a rally on Wall Street and oil prices fall - Bozeman Daily Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPVVZMNTE4ZV9Qd1NmVTJEM0EzZjJ2N3UtR0JoMFFfQ05BRmFqUE93aFlwMlpTRk94ZDBCOEtKNlZRNTB2NDU5ZXZKZGhPX20zcU9EZmF4OHBaMTNsYktUZnNQMmliRjRUVm9VekJaUVlxYjJSS0RpLS1pTGt2VTA5WmNpTjUtQU9CRnpIWWdoZ1ZSX29lMjBJOTdMWDk5a1FSSGlnNXdVcDJiRElodE9QakZzXzgzbk9WSVE0TC02MWlScmZwTHp2RElMY2JNS0F6aWFFZnhiZm84S1NsM1hBcTl1WnV6UmJwN0lCVFZxT0RhV3FONEdVcnM1OFBrVFVYdDVQaFNn?oc=5",
+      "source": "Bozeman Daily Chronicle",
+      "published_at_utc": "2026-10-27T07:10:58+00:00",
+      "category": "korea",
+      "age_hours": 15.2,
+      "freshness_score": 70,
+      "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "South Korea's Stock-for-Home Sales Plunge 59% in Two Months as KOSPI Slumps - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyRW80Ql9JcUZpVkNGeS1qb2V2QktmM09uajVudEwwbzRMdThveVdmcVVKaFM0R3YyT1ExcXNTRGl4cGtWOFJlRkxGM1BYS1ppaFhIS1VhRzRsVFp1SkZMMXhiaF9LUkZuYVNNTVFUM3QxeXhWN3c?oc=5",
+      "title": "The AI trade is driving global markets more than oil, Goldman Sachs says - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDBiUW9VU3I3UUtwMWNXaHJuWnZsVGN2V05TVzBUaXpUNU50Y3NYdHJCUWQxNHdrSnlPNkNUVlhnLWh1OURUaW5Rd3hrdjNfaE5sVy1lcTBRejlmc1d0UVAxejhheXhQanlxeVpWaDVwNFBYNVItY3RXbU0wRTRqZHYwalVCRlh5Q2E5elFONFFIQWp2amNRT3NOVDM?oc=5",
+      "source": "Business Insider",
+      "published_at_utc": "2026-10-27T07:26:00+00:00",
+      "category": "korea",
+      "age_hours": 15.0,
+      "freshness_score": 70,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "South Korea's Kospi Swings Send Retail Investors Fleeing to \"Parking\" Products; Money Market ETFs Draw approximately $1.8 Billion - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNaFo1T25DYV9oLTg0eVB1Q3FhLWhaQVVHNjluQlpzSVBaNW5tenQ4QTZvYlZLakFzSmtmTFBiVTdGalN2emt4V3JQajlCbzNmNWxqUWZHTmx1RFR2azQtMU5BRHN5aEVMRHRZTVpZcnZsUGd1eFE?oc=5",
       "source": "BigGo Finance",
-      "published_at_utc": "2026-10-26T03:25:00+00:00",
+      "published_at_utc": "2026-10-27T03:36:00+00:00",
       "category": "korea",
-      "age_hours": 19.6,
-      "freshness_score": 61,
-      "headline_tone": "부정 표현",
+      "age_hours": 18.8,
+      "freshness_score": 62,
+      "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "AI money shifts from chips to software, exposing Korea’s lack of alternatives - KED Global",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11aHFmRFhscEh0aFJiZjN5eEhhZXIxazJVWWp5MVR4SnV6NkotLXluT3dubHM0VnVuYURORXd6Tnp2VVNKRE5RZ1lmcnRuM2V2ajdZMmoyQzdLdVZpOFpPU2tULUh6ME5DV21kNFRPMzEzdmNYMDlZc3Zn?oc=5",
-      "source": "KED Global",
-      "published_at_utc": "2026-10-25T12:50:00+00:00",
-      "category": "korea",
-      "age_hours": 34.2,
-      "freshness_score": 32,
+      "title": "US Stock Futures Gain, Oil Falls on Iran Comments: Markets Wrap - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
+      "source": "Bloomberg.com",
+      "published_at_utc": "2026-10-26T22:03:56+00:00",
+      "category": "us_market",
+      "age_hours": 24.4,
+      "freshness_score": 51,
+      "headline_tone": "긍정 표현",
+      "sectors": []
+    },
+    {
+      "title": "Not Nvidia. This Chip Stock Has More Upside, According to Wall Street. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUlpTMy1iMkV0QS1RWHFfV191dXoxR0xxMjAyUTdmanFlRmUtUjREcWhMUXNFcDBLclBBVHd4SWZvSUI4TWhPN0pMNnBGUnE1bUJ2UHpxSk5QY1p4Q1BrMkdkQWhxRUhxUDM1WVduOFR5eGlXOFZzd0d2NzZaNVg1VEdIU2FnR0dkSk5SMXRZX0F1ZmxlVnFkaA?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-10-26T17:15:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 29.2,
+      "freshness_score": 42,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Prediction: This Could Trigger NVDA’s Next Breakout by 2027 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQREZTS1hMYzJXdnNuUEt5QjdCQUZLSmpqU09sRDhLd05XX3Q1blhTMURVbDI2dUZnNFpsYjRobmZxMEEwdGZWVWJTS0pDM05rZFpVX1BOZnJLSF9fSU1PVUZaS1BIa3dMbkRqUEtWN1F3Yk9qZXBUVTlYdmFVWFZoR1Nld2Qwbzdyd1U3ckQ4amxqcTY0OG5BaEstUnkzNVlJUERF?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-10-26T15:30:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 30.9,
+      "freshness_score": 38,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
