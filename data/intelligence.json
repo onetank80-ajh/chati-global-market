@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-27T22:25:27.047116+00:00",
+  "generated_at_utc": "2026-10-27T22:41:36.784595+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
   "headline_count_after": 15,
@@ -16,7 +16,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.368,
+      "change_percent": 0.353,
       "market_date": "2026-10-27",
       "status": "ok"
     },
@@ -55,7 +55,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LZmNiRkRVR0lqV0MyTkJsenJhQWVGUXFJN0VXSzg0RXRaUUM4RFR6RFQtOU1obTVaQTY1Y2JtbTFoM3ppVW9CSmtJRjFEZVJQUmYwNUhHVUhYRDRlcjl0c09FVV8zMEc2RzVPOXMxNFRaeGJZ?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-10-27T08:14:48+00:00",
-      "age_hours": 14.2,
+      "age_hours": 14.4,
       "relevance_score": 51,
       "tags": [
         "한국시장 직접언급"
@@ -68,7 +68,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
       "source": "WSJ",
       "published_at_utc": "2026-10-27T20:45:00+00:00",
-      "age_hours": 1.7,
+      "age_hours": 1.9,
       "relevance_score": 50,
       "tags": [
         "거시경제"
@@ -81,7 +81,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNaFo1T25DYV9oLTg0eVB1Q3FhLWhaQVVHNjluQlpzSVBaNW5tenQ4QTZvYlZLakFzSmtmTFBiVTdGalN2emt4V3JQajlCbzNmNWxqUWZHTmx1RFR2azQtMU5BRHN5aEVMRHRZTVpZcnZsUGd1eFE?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-27T03:36:00+00:00",
-      "age_hours": 18.8,
+      "age_hours": 19.1,
       "relevance_score": 49,
       "tags": [
         "한국시장 직접언급"
@@ -94,7 +94,20 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPN21adUJNWUR2YW44RUJnYWxJazJ2dm1PMWNESlpocVItS3NQTW9PTzBFTTMzS1ZkaWFJOEZFRy1ESENhYm5iNGpBdW9vTmNrQnNEYTdfeGV2UlYzeHRhcjI2eklzMlFjUmRJZTVwd0NVTGUtNGM0NEdkTHlZaE1fVHZiWEcwTm9vQVcxekhBeXRDTUE2X0QzYVNLVlI0SGJqVndiRERLeHFVWVZ0V0YzZW8xWjhJMEowVjFRdDFoakl0REdjM3dlZXdudXNtYUZqaThmUy1rbThpVDdBZHo0NlVKUGhERmdhTWxDNw?oc=5",
       "source": "Central Oregon Daily",
       "published_at_utc": "2026-10-27T14:41:52+00:00",
-      "age_hours": 7.7,
+      "age_hours": 8.0,
+      "relevance_score": 48,
+      "tags": [
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "US stocks: S&P 500, Nasdaq open higher as oil pulls back ahead of Fed decision - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa2g5a2JEdTFuMkhNYjVWNlFueDZua19NMERrZW9WQlNUZWdhVkRGRWtmZDdLWDMxQ1Y4VGh4el9xZXRmaDQyRlUtMTdJTUhFQ0pGZjhQR01CTlMyb3BpUXE3REZEWE9TWVFTaG5uSEctNDBnV3NOSnI5U3NWMmxvZ2NtUnlZREtEODhNRUNidmMwc1owUXprWElNUE9nc1g4REIzaUpENWJ5cHk3dlNtXzdEZVloZGtTcC1tVk5wbnhIaDA4blI4akd5enUyZGh0Mld4MUZSRmVvemdIOWdnTw?oc=5",
+      "source": "The Business Times",
+      "published_at_utc": "2026-10-27T14:21:00+00:00",
+      "age_hours": 8.3,
       "relevance_score": 48,
       "tags": [
         "거시경제"
@@ -107,7 +120,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSGJMZzk4UzQ4NzdmU25zYlZuV1lGcU5UR190MXhTdDZHUXNyN3EyOW5VN3I1WFhuWUdwWTA0OEZ6ZVVOWFdLdUc2bXRTMmJKdmY2UzJzQmpfSkRxVklKazhLOWtzdXZaVlFtdDNSaHU3emtsc3pkaVpfU3dwWVdTZkYzSjQ5VmpBZHI0dUxWSzlGUFRTVXNRMXN5U2lwV3dkVWZBOTQwOWQxR0VDb2N3MWtHV3plNHl4Yi05NWNxRDFOUFp2cnY5WGFERS12Yl9rV1NQQjhhRDUyVFRzUGxraDFKQUVEWmFJaWVvRDhCQksxTWV2ajIteWhNR1RiVTN0cFFDeVRMYnc5cmVkLXZwbkxnNzd6Z0Jxb3c?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-10-27T12:45:13+00:00",
-      "age_hours": 9.7,
+      "age_hours": 9.9,
       "relevance_score": 47,
       "tags": [
         "거시경제"
@@ -120,7 +133,7 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ENWFDMmQyTWxHaGdDdE9zdzIwbk5wSHFlNDhfRGhRa1p4bHJIU0tFZDl5d3ZJeElqSkc3SlJqMWpDNVpFM2RvR1Q1VktxV29nczNtSUV6TTM?oc=5",
       "source": "파이낸셜뉴스",
       "published_at_utc": "2026-10-27T20:24:06+00:00",
-      "age_hours": 2.0,
+      "age_hours": 2.3,
       "relevance_score": 45,
       "tags": [
         "반도체/AI"
@@ -133,7 +146,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMDRBNFdhZG9rT0x1VnNucUpSRG1GYVJhbGNFRWw5T01odTF0QXhaR0YzNm9QdUpiVjNMSDdJVHpLTldnblA2QzJkUUJ5dTlRVGE3bmhFc3hRUUl1T0VMSU0wLXM1NnlKc0RpcEh6MmtBQWFyRkc3VVlCQkdLNTNTLXNWMi1kU3FZYVpRWGVuNnpOR0ZmRUtlUGxHVDZOZGs5Q3E5X1psUlBFdHlRSUZMZDVzUUVtd3ZvSDIxS0gyZG42Ry1CZm9NcDc1SdIB0wFBVV95cUxOLXptbkRQQ3ZDcmoxTzhWMTc4Vjlfc2tBMHdTSGwzd0lIMjVyOFltVWE2cXNjSDFUVml0LUN1clFEa1VjWklWNHo2bnVDOURjRVRjaVZIVWJPZWk0RmZFZUFhaE5abmxBTWFZdG9LMjNkdmc0WllsUW9NTFZyUVNlWWJUeTVsZjFDcmZSSmVMcTVCTlR6YVloVEs3bTd2Y0MySDQxcUlmQ3NhTTZpcWVfZm9NaktUWm5IWWdNUDY4ODJSWGV5ZTdRc09HRlVoWUFxRVNj?oc=5",
       "source": "NDTV Profit",
       "published_at_utc": "2026-10-27T16:24:42+00:00",
-      "age_hours": 6.0,
+      "age_hours": 6.3,
       "relevance_score": 43,
       "tags": [
         "반도체/AI"
@@ -146,8 +159,8 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOck1HWGF5M1hCM0pGM045NG5hWDVsbDFaamU0ZWMzVkZBTGZXZzNSVDJMTTJ4RmhWV3BucEkwZ1N3bTdnOEthbHZwRzFJMWJLYUp3V0ZCelVKWTdYNDkxWFJ6dFo0NDhYTWJxY3RlcTNCTm9vRVlGU00zLWprQzg0LWNVa0tSbDhMVHNPblZTNmJEMGVaZUxrQ1hCNXF2VkJfa28takZ0Vnp0enVCcHVqcHpBeTFaYlhwc2ZoMXFCNFFSb0hVVHBfZjd30gHPAUFVX3lxTE1QWHFERWxtWlBGOEU2bWhMd2k2MEIxbjFPbF9tckZ4dmU5OGFHcTBrMXg0RUpMNFNQNTJ3RGh4UG1RZ0xPOEQzOWFNcWRNdm11NERjUll6d29UNkZSU19iSnNPYTl4Mk1BQzBpbFhuYl9JOEZIcEJqS0pXSURYbjdIU2U0SkZIRFpFTDFsWVlRaDFGbE9tWElOVWlXNzVDTGRGMHE4TlJyNHZiWEE3VkIwV3NHTGF2Y1pRQWIzQkQ1WlI2ZEJDcXk5Tmp4S19qRQ?oc=5",
       "source": "Simply Wall Street",
       "published_at_utc": "2026-10-27T13:31:02+00:00",
-      "age_hours": 8.9,
-      "relevance_score": 43,
+      "age_hours": 9.2,
+      "relevance_score": 42,
       "tags": [
         "반도체/AI"
       ],
@@ -159,7 +172,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUlpTMy1iMkV0QS1RWHFfV191dXoxR0xxMjAyUTdmanFlRmUtUjREcWhMUXNFcDBLclBBVHd4SWZvSUI4TWhPN0pMNnBGUnE1bUJ2UHpxSk5QY1p4Q1BrMkdkQWhxRUhxUDM1WVduOFR5eGlXOFZzd0d2NzZaNVg1VEdIU2FnR0dkSk5SMXRZX0F1ZmxlVnFkaA?oc=5",
       "source": "The Motley Fool",
       "published_at_utc": "2026-10-26T17:15:00+00:00",
-      "age_hours": 29.2,
+      "age_hours": 29.4,
       "relevance_score": 36,
       "tags": [
         "반도체/AI"
@@ -172,19 +185,8 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-10-27T21:11:24+00:00",
-      "age_hours": 1.2,
+      "age_hours": 1.5,
       "relevance_score": 30,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "US Stock Futures Gain, Oil Falls on Iran Comments: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-10-26T22:03:56+00:00",
-      "age_hours": 24.4,
-      "relevance_score": 22,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -194,7 +196,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY1NtbWJWM0FtU2Y0UVZkb1lBMWVaMFVyZmxvQ1JMNUx1Sk4zeXlvSm9wUU5uSDBfMnNTVXJZaGpDUmFJY2hUYXdaVXVGUU5NWTNEOHhzdXRzQjFjbDFPZ1VBRWRveE5GQzhILXRLNGdmbHZOc29pM3VRR2ZJNzV4UjhCY3hWbmVhaEpyLWNpU3RoQlFsVlV6V3R2TV9kSWFCbHRqajM0X1Q2M01lVVF0a3hxVmE3bjg5b2xDRzNncldVWkJ3VndtSl9OOGZYc0E?oc=5",
       "source": "巴士的報",
       "published_at_utc": "2026-10-27T13:58:53+00:00",
-      "age_hours": 8.4,
+      "age_hours": 8.7,
       "relevance_score": 18,
       "tags": [],
       "category": "korea",

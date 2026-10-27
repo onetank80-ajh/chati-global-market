@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-27T22:33:03.699075+00:00",
-  "generated_at_kst": "2026-10-28T07:33:03.699075+09:00",
+  "generated_at_utc": "2026-10-27T22:41:35.509704+00:00",
+  "generated_at_kst": "2026-10-28T07:41:35.509704+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -35,10 +35,10 @@
     },
     {
       "category": "us_market",
-      "title": "US Stock Futures Gain, Oil Falls on Iran Comments: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-10-26T22:03:56+00:00"
+      "title": "US stocks: S&P 500, Nasdaq open higher as oil pulls back ahead of Fed decision - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa2g5a2JEdTFuMkhNYjVWNlFueDZua19NMERrZW9WQlNUZWdhVkRGRWtmZDdLWDMxQ1Y4VGh4el9xZXRmaDQyRlUtMTdJTUhFQ0pGZjhQR01CTlMyb3BpUXE3REZEWE9TWVFTaG5uSEctNDBnV3NOSnI5U3NWMmxvZ2NtUnlZREtEODhNRUNidmMwc1owUXprWElNUE9nc1g4REIzaUpENWJ5cHk3dlNtXzdEZVloZGtTcC1tVk5wbnhIaDA4blI4akd5enUyZGh0Mld4MUZSRmVvemdIOWdnTw?oc=5",
+      "source": "The Business Times",
+      "published_at_utc": "2026-10-27T14:21:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -84,13 +84,6 @@
     },
     {
       "category": "korea",
-      "title": "Broadcom and other AI stocks lift Wall Street closer to its record - Newsday",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmczFMeUgwd0pxX2lLVU80NXZFVi12NDdfVGFRS0pVa1lMdXhPc1Raa2VkS1ZBbTIteERTcElSUkZIY3luTGRSWFhmbWx3ekllYUxENnVZckVqRHM5TmZMY1pfZDdkZEpTRmFKcVlqbzhLZGxkOHNkdy1n?oc=5",
-      "source": "Newsday",
-      "published_at_utc": "2026-10-27T19:12:51+00:00"
-    },
-    {
-      "category": "korea",
       "title": "The AI trade is driving global markets more than oil, Goldman Sachs says - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDBiUW9VU3I3UUtwMWNXaHJuWnZsVGN2V05TVzBUaXpUNU50Y3NYdHJCUWQxNHdrSnlPNkNUVlhnLWh1OURUaW5Rd3hrdjNfaE5sVy1lcTBRejlmc1d0UVAxejhheXhQanlxeVpWaDVwNFBYNVItY3RXbU0wRTRqZHYwalVCRlh5Q2E5elFONFFIQWp2amNRT3NOVDM?oc=5",
       "source": "Business Insider",
@@ -109,6 +102,13 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNaFo1T25DYV9oLTg0eVB1Q3FhLWhaQVVHNjluQlpzSVBaNW5tenQ4QTZvYlZLakFzSmtmTFBiVTdGalN2emt4V3JQajlCbzNmNWxqUWZHTmx1RFR2azQtMU5BRHN5aEVMRHRZTVpZcnZsUGd1eFE?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-27T03:36:00+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Wall Street drifts as Broadcom and other AI-related stocks help support the market - 巴士的報",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY1NtbWJWM0FtU2Y0UVZkb1lBMWVaMFVyZmxvQ1JMNUx1Sk4zeXlvSm9wUU5uSDBfMnNTVXJZaGpDUmFJY2hUYXdaVXVGUU5NWTNEOHhzdXRzQjFjbDFPZ1VBRWRveE5GQzhILXRLNGdmbHZOc29pM3VRR2ZJNzV4UjhCY3hWbmVhaEpyLWNpU3RoQlFsVlV6V3R2TV9kSWFCbHRqajM0X1Q2M01lVVF0a3hxVmE3bjg5b2xDRzNncldVWkJ3VndtSl9OOGZYc0E?oc=5",
+      "source": "巴士的報",
+      "published_at_utc": "2026-10-27T13:58:53+00:00"
     }
   ],
   "warnings": []
