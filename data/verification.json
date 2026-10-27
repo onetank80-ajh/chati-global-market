@@ -173,8 +173,13 @@
         "sox": "2026-10-26",
         "usdkrw": "2026-10-26"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": 3.0875,
+      "status": "verified",
+      "actual_close": 5638.3398,
+      "actual_direction": "up",
+      "matched": true,
+      "settled_at_kst": "2026-10-27T18:20:41.016010+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     },
     {
       "date": "2026-10-27",
@@ -188,10 +193,15 @@
         "sox": "2026-10-26",
         "usdkrw": "2026-10-26"
       },
-      "actual": null,
-      "status": "pending"
+      "actual": 2.2854,
+      "status": "verified",
+      "actual_close": 743.83,
+      "actual_direction": "up",
+      "matched": true,
+      "settled_at_kst": "2026-10-27T18:20:41.016010+09:00",
+      "source": "Yahoo Finance via yfinance (unofficial, delayed)"
     }
   ],
-  "generated_at_kst": "2026-10-27T07:59:11.009294+09:00",
+  "generated_at_kst": "2026-10-27T18:20:41.016010+09:00",
   "method": "S&P500 ±0.3%, SOX ±0.5%, USDKRW ±0.3%; sum >=2 up, <=-2 down, else flat. Flat actual ±0.1%."
 }
