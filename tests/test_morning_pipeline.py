@@ -272,6 +272,18 @@ class MorningPipelineTests(unittest.TestCase):
         morning = json.loads((self.root / "data" / "morning.json").read_text())
         self.assertEqual(morning["headlines"], [])
 
+    def test_malformed_https_news_links_are_hidden(self):
+        now = datetime.now(timezone.utc).isoformat()
+        self.write("news.json", {"generated_at_utc": now, "items": [
+            {"title": "Bad missing host", "url": "https://", "published_at_utc": now},
+            {"title": "Bad whitespace", "url": "https://example.com/a b", "published_at_utc": now},
+            {"title": "Valid market story", "url": "https://example.com/market", "published_at_utc": now},
+        ]})
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual([row["title"] for row in morning["headlines"]], ["Valid market story"])
+
     def test_malformed_news_list_does_not_crash(self):
         now = datetime.now(timezone.utc).isoformat()
         self.write("news.json", {"generated_at_utc": now, "items": {"unexpected": "object"}})
