@@ -55,7 +55,8 @@ def main():
     required = ("sp500", "sox", "usdkrw")
     missing = [key for key in required if items[key]["status"] != "ok"]
     if missing:
-        raise RuntimeError("Required market data unavailable (" + ", ".join(missing) + "); keeping previous market.json")
+        details = "; ".join(f"{key} ({items[key].get('symbol', key)}): {items[key].get('error', 'unknown error')}" for key in missing)
+        raise RuntimeError("Required market data unavailable; keeping previous market.json. " + details)
     path = Path("data/market.json")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
