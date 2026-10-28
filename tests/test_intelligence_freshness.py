@@ -45,6 +45,17 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         self.assertEqual(result["headline_count_after"], 1)
         self.assertEqual(result["top_headlines"][0]["url"], "")
 
+    def test_top_level_news_list_does_not_crash(self):
+        result = self.generate([{"title": "unexpected top-level list"}])
+        self.assertFalse(result["news_snapshot_fresh"])
+        self.assertEqual(result["top_headlines"], [])
+
+    def test_top_level_market_list_does_not_crash(self):
+        now = datetime.now(timezone.utc).isoformat()
+        self.write("market.json", ["unexpected top-level list"])
+        result = self.generate({"generated_at_utc": now, "items": []})
+        self.assertEqual(result["market_signals"]["sp500"]["status"], "unavailable")
+
     def test_malformed_market_quotes_are_unavailable(self):
         now = datetime.now(timezone.utc).isoformat()
         self.write("market.json", {"markets": {"sp500": None, "sox": "broken", "usdkrw": []}})
