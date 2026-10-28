@@ -66,6 +66,15 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("market snapshot is stale", result.stdout + result.stderr)
 
+    def test_old_morning_generation_is_rejected(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        morning["generated_at_kst"] = "2020-01-01T00:00:00+00:00"
+        self.write("morning.json", morning)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("morning generation time outside", result.stdout + result.stderr)
+
     def test_changed_market_snapshot_fails(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         self.market["markets"]["sox"]["change_percent"] = -1.0
