@@ -6,6 +6,8 @@ from pathlib import Path
 data = Path(__file__).resolve().parents[1] / "data"
 market = json.loads((data / "market.json").read_text(encoding="utf-8"))
 morning = json.loads((data / "morning.json").read_text(encoding="utf-8"))
+if not isinstance(market, dict) or not isinstance(morning, dict):
+    raise SystemExit("FAIL: malformed market or morning document")
 market_time = market.get("generated_at_kst") or market.get("generated_at_utc")
 source_time = morning.get("market_snapshot_at")
 if not market_time or not source_time:
@@ -47,6 +49,8 @@ for key, label in labels.items():
 if morning.get("market_snapshot_fresh") is not True:
     raise SystemExit("FAIL: morning briefing marks market snapshot as stale")
 intelligence = json.loads((data / "intelligence.json").read_text(encoding="utf-8"))
+if not isinstance(intelligence, dict):
+    raise SystemExit("FAIL: malformed intelligence document")
 intel_time = intelligence.get("market_snapshot_at")
 if not intel_time:
     raise SystemExit("FAIL: intelligence missing market snapshot timestamp")
