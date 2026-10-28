@@ -328,6 +328,18 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertEqual(morning["sectors"], [])
         self.assertTrue(any("업종 분석" in w for w in morning["warnings"]))
 
+    def test_boolean_intelligence_signal_hides_sectors(self):
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        self.market["markets"]["sp500"]["change_percent"] = 1
+        self.save_market()
+        intelligence["market_signals"]["sp500"]["change_percent"] = True
+        intelligence["sectors"] = [{"name": "boolean signal sector"}]
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["sectors"], [])
+
     def test_mismatched_intelligence_sectors_hidden_from_morning(self):
         intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
         intelligence["market_signals"]["sox"]["change_percent"] = -10
