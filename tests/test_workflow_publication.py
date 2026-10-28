@@ -26,6 +26,18 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertIn("PUBLISH_OUTCOME: ${{ steps.publish.outcome }}", content)
         self.assertIn("if: always()", content)
 
+    def test_market_fetch_retries_and_preserves_failure(self):
+        content = MARKET.read_text(encoding="utf-8")
+        start = content.index("- name: Fetch market snapshot")
+        end = content.index("- name: Fetch headlines", start)
+        section = content[start:end]
+        self.assertIn("for attempt in 1 2 3; do", section)
+        self.assertIn("if python scripts/market_update.py; then", section)
+        self.assertIn("sleep 20", section)
+        self.assertIn("exit 1", section)
+        self.assertIn("keeping previous snapshot", section)
+        self.assertLess(section.index("if python scripts/market_update.py; then"), section.index("exit 1"))
+
     def test_market_refresh_requires_both_derived_files(self):
         content = MARKET.read_text(encoding="utf-8")
         self.assertIn("for derived in data/intelligence.json data/morning.json", content)
