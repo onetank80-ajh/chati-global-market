@@ -13,6 +13,8 @@ def key(title):
 def main():
  now=datetime.datetime.now(datetime.timezone.utc)
  news=read('news.json');market=read('market.json');rows=[];seen=set()
+ if not isinstance(news,dict):news={}
+ if not isinstance(market,dict):market={}
  try:
   stamp=news.get('generated_at_utc') or news.get('generated_at_kst')
   news_time=datetime.datetime.fromisoformat(stamp.replace('Z','+00:00'))
