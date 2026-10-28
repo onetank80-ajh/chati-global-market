@@ -190,6 +190,17 @@ class MorningPipelineTests(unittest.TestCase):
         morning = json.loads((self.root / "data" / "morning.json").read_text())
         self.assertEqual(morning["indicators"], [])
 
+    def test_snapshot_just_over_twelve_hours_is_stale(self):
+        from datetime import timedelta
+        old = (datetime.now(timezone.utc) - timedelta(hours=12, seconds=2)).isoformat()
+        self.market["generated_at_utc"] = old
+        self.market["generated_at_kst"] = old
+        self.save_market()
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertFalse(morning["market_snapshot_fresh"])
+
     def test_malformed_news_list_does_not_crash(self):
         now = datetime.now(timezone.utc).isoformat()
         self.write("news.json", {"generated_at_utc": now, "items": {"unexpected": "object"}})
