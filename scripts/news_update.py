@@ -27,7 +27,8 @@ def get_news(group, query):
         url = (node.findtext('link') or '').strip()
         published = (node.findtext('pubDate') or '').strip()
         source = node.findtext('source') or ''
-        if not title or not url.startswith('https://'):
+        parsed_url = urllib.parse.urlsplit(url)
+        if not title or parsed_url.scheme != 'https' or not parsed_url.hostname or any(c.isspace() for c in url):
             continue
         try:
             parsed = parsedate_to_datetime(published)
