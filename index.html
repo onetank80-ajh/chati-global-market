@@ -31,7 +31,10 @@ function renderV17(m,intel,news){
  const stamp=m?.generated_at_utc||m?.generated_at_kst,age=(Date.now()-Date.parse(stamp))/3600000;
  const dates=keys.map(k=>markets[k]?.market_date).filter(Boolean);const same=dates.length===3&&new Set(dates).size===1;
  const fresh=Number.isFinite(age)&&age>=-1&&age<=36;
- const quality=valid.length<3?'불충분':!fresh?'시점 주의':!same?'기준일 혼재':'기본 조건 충족';
+ const usDate=Date.parse((markets.sp500?.market_date||'')+'T00:00:00Z');
+ const usSame=markets.sp500?.market_date&&markets.sp500.market_date===markets.sox?.market_date;
+ const usRecent=Number.isFinite(usDate)&&usDate<=Date.now()+86400000&&Date.now()-usDate<=4*86400000;
+ const quality=valid.length<3?'불충분':!fresh?'시점 주의':!usSame?'미국 지수 기준일 불일치':!usRecent?'미국 종가 오래됨':!same?'기준일 혼재':'기본 조건 충족';
  const block=(title,body,cls)=>{const c=el('div',undefined,'scenario-card');c.append(el('strong',title,cls||''),el('div',body,'small'));root.append(c)};
  block('데이터 신뢰도: '+quality,'유효 지표 '+valid.length+'/3 · 수집 경과 '+(Number.isFinite(age)?Math.max(0,Math.floor(age))+'시간':'알 수 없음')+' · 지표 기준일 '+(same?'일치':'불일치/미상')+'. 지표 신선도는 분석의 정확도를 보장하지 않습니다.',quality==='기본 조건 충족'?'good':'warning');
  block('신호 일치도','우호 '+up+'개 / 경계 '+down+'개 / 중립 '+valid.filter(x=>x===0).length+'개. 이는 단순 규칙 집계이며 상승 확률이나 검증된 예측력이 아닙니다.');
