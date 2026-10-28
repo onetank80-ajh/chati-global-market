@@ -236,6 +236,15 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("malformed morning indicator name", result.stdout + result.stderr)
 
+    def test_duplicate_morning_indicators_block_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        morning["indicators"].append(dict(morning["indicators"][0]))
+        self.write("morning.json", morning)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("duplicate morning indicators", result.stdout + result.stderr)
+
     def test_malformed_morning_indicators_block_publication_cleanly(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         morning = json.loads((self.root / "data" / "morning.json").read_text())
