@@ -43,6 +43,13 @@ for key, label in labels.items():
         raise SystemExit(f"FAIL: malformed {key} quote")
     if quote.get("status") != "ok":
         raise SystemExit(f"FAIL: required {key} quote unavailable")
+    market_date = quote.get("market_date")
+    try:
+        if not isinstance(market_date, str) or len(market_date) != 10:
+            raise ValueError("bad date")
+        datetime.strptime(market_date, "%Y-%m-%d")
+    except ValueError:
+        raise SystemExit(f"FAIL: invalid {key} market date")
     value = quote.get("change_percent")
     if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
         raise SystemExit(f"FAIL: invalid {key} percentage")
