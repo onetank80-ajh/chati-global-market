@@ -10,7 +10,10 @@ market_time = market.get("generated_at_kst") or market.get("generated_at_utc")
 source_time = morning.get("market_snapshot_at")
 if not market_time or not source_time:
     raise SystemExit("FAIL: missing market snapshot timestamp")
-delta = abs((datetime.fromisoformat(market_time) - datetime.fromisoformat(source_time)).total_seconds())
+try:
+    delta = abs((datetime.fromisoformat(market_time.replace("Z", "+00:00")) - datetime.fromisoformat(source_time.replace("Z", "+00:00"))).total_seconds())
+except (ValueError, TypeError, AttributeError):
+    raise SystemExit("FAIL: invalid market snapshot timestamp")
 if delta > 2:
     raise SystemExit(f"FAIL: briefing uses different market snapshot ({delta:.1f}s)")
 labels = {"sp500": "미국 대형주", "sox": "반도체", "usdkrw": "원/달러"}
