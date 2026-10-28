@@ -79,7 +79,6 @@ jobs:
               except (OSError, ValueError, AttributeError) as exc:
                   lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
           lines.append("")
-          lines.append("")
           lines.append("### Publication state")
           lines.append(f"- Job status: \`{os.environ.get('JOB_STATUS', 'unknown')}\`")
           lines.append("- Failed jobs do not publish new snapshots unless the commit/push step completed.")
