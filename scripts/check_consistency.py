@@ -14,6 +14,8 @@ try:
     delta = abs((datetime.fromisoformat(market_time.replace("Z", "+00:00")) - datetime.fromisoformat(source_time.replace("Z", "+00:00"))).total_seconds())
 except (ValueError, TypeError, AttributeError):
     raise SystemExit("FAIL: invalid market snapshot timestamp")
+if not math.isfinite(delta):
+    raise SystemExit("FAIL: invalid market snapshot delta")
 if delta > 2:
     raise SystemExit(f"FAIL: briefing uses different market snapshot ({delta:.1f}s)")
 labels = {"sp500": "미국 대형주", "sox": "반도체", "usdkrw": "원/달러"}
