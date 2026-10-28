@@ -18,6 +18,19 @@ from scripts import market_update
 
 
 class MarketSnapshotTests(unittest.TestCase):
+    def test_yahoo_history_has_bounded_timeout(self):
+        fake_closes = MagicMock()
+        fake_closes.__len__.return_value = 2
+        fake_closes.iloc.__getitem__.side_effect = [100.0, 101.0]
+        fake_closes.index.__getitem__.return_value.strftime.return_value = "2026-10-28"
+        fake_frame = MagicMock()
+        fake_frame.__getitem__.return_value.dropna.return_value = fake_closes
+        with patch.object(market_update.yf, "Ticker") as ticker:
+            ticker.return_value.history.return_value = fake_frame
+            result = market_update.fetch("^GSPC", "S&P 500", "points")
+        self.assertEqual(result["status"], "ok")
+        self.assertEqual(ticker.return_value.history.call_args.kwargs["timeout"], 15)
+
     def test_required_quote_failure_keeps_previous_file(self):
         with tempfile.TemporaryDirectory() as tmp:
             previous = '{"previous": true}\n'
