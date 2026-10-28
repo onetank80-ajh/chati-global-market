@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-28T22:34:58.738814+00:00",
-  "generated_at_kst": "2026-10-29T07:34:58.738814+09:00",
+  "generated_at_utc": "2026-10-28T22:59:50.235416+00:00",
+  "generated_at_kst": "2026-10-29T07:59:50.235416+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -21,10 +21,17 @@
     },
     {
       "category": "us_market",
-      "title": "Dow Adds 98, Nasdaq Climbs 72, S&P 500 Gains 21 - TV News Check",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVDZGRzFoZ29XZkswLU9DNmhaOGRxS2FEa3FlVzhoRHVXWUJjMkdONlJMdnBYRFlzSU9QQWt0alkteFRnVjRaNXBVSnFCelF3QlE1NjlOUy0xOEJTNHNuMjNyT2FJU21YMHZBcWtjN1psWlA4U3FmcFdDSFh5aC1vOEF2UjVMekZmeFg0VE1DWQ?oc=5",
-      "source": "TV News Check",
-      "published_at_utc": "2026-10-28T20:26:08+00:00"
+      "title": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
+      "source": "WSJ",
+      "published_at_utc": "2026-10-27T20:45:00+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "The bond market swings, but U.S. stocks remain steady after the Fed says it won’t raise interest rates - BNN Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONXFNaHB2S1NmczhFeERWUFdQbmpiWWdhdWFXZXFQMkR3a05INFk1akMtdzl5TnRlUktfakI0b3VRNWhZU2xfWE5ZUnpmLVpZZVlWTFlreHNCUkRrQVl6ZlEyUjFRSlN4UzFXVGdaa2JNRFBieXNYV1ExeGlTbHF0RjF3ZU9ObHlFeUJGaG0xTlpkQzEzSnRoUFZ4YUppZkZWaDRBQ0o1Ui1kUXZncU9ER25EeVlFR2s?oc=5",
+      "source": "BNN Bloomberg",
+      "published_at_utc": "2026-10-28T20:24:10+00:00"
     },
     {
       "category": "us_market",
@@ -32,13 +39,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNOHIyTThiOE03WlhxUFYxRTBxMy1RVm53Wkh1NDg5Z1lmVEp3c1JRSlJtRzJQV09faVNvWEZHOFRJOUtSWDdKbjVGaHpYZmZiQUJfU1dEUUV0c0lDWEw2TjJmc0xKY1RyZkJwcm4wUmd3ay1DTy1jWDNYcVpxWlFMcFBReUl4N3hoaGtfZVU0NVJMRS1zazlEdjZxbGpVbnBjTFBIcjlnNGVET1RXTk50STZHTXExb1MybUt2UEF4XzJuQnNOcHJhdU1na1REMzlNWmZCc0c3QnBUWG84VFQ4eGt3bmgtakZWUmNsbXFueGFINF9RbE1Jbm1ndFFEQVVnQkg1b2p6VnJoSElMeTItV2YwYkowS1Bw?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-10-28T09:47:15+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
-      "source": "WSJ",
-      "published_at_utc": "2026-10-27T20:45:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -84,6 +84,13 @@
     },
     {
       "category": "korea",
+      "title": "US stocks remain steady after the Federal Reserve says it won't raise interest rates - Rocky Mount Telegram",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQUDNQWXpadXluUG16YkpVeTlmaXg0SzN0MjE0OTJ1Qmlpa0pMUGowQi1CTFl2QWRoaVhoM2dqQTBWSmVIRGpsWGUyT2NZSGhxZGZ4aWZvSnZiUUJaR3gzTHJod3ZSWVFxMW5Ram1MbFE5WFpUa0tpVEhGamFGRjVfSm5ScW9BaldBRGJWQzZoNHNEQTByOUtNb09vTW4zWUdwUDlVTEo0WDUwTk9PVGFrOTdFNW1uLWt1TDltOWljbzdUcUdlNFFKYTZMTU14TlFKRDJ0S2VwaEZPYkNOb043MkRWbHNvWnZmandtN2ZZSHBSWGRGVGVqS2FvMFJ4dFVKYlZjeU1tRVk4QQ?oc=5",
+      "source": "Rocky Mount Telegram",
+      "published_at_utc": "2026-10-28T18:26:01+00:00"
+    },
+    {
+      "category": "korea",
       "title": "[Closing Market] KOSPI Surges Past 6,000 on SK hynix Earnings - Businesskorea",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56RHFLUXZKQWRJeXk1Z3lZTkhZRFE2Q19zX21xWkdRWmZJakx6dGp5QTI2LWlPWU5hRFlNZnp3VlE0OENyNkhpLS1PbjIycng3WW16MEVWRnRvbFFlRVpJNF9yejF1eEtZQW5TeDBFYy0xOEFC?oc=5",
       "source": "Businesskorea",
@@ -91,10 +98,10 @@
     },
     {
       "category": "korea",
-      "title": "US stocks remain steady after the Federal Reserve says it won't raise interest rates - reflector.com",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSFplMWZVU1VPQXVlZTFFa2o4U3NJMmpvS05KbHRmRUc3Tjdla3lhcktHbWdUMC05T0daeW9ZSnlxWWJLd2MtNzRNcWZ2T0syc3B0UkFDUWtvU05aZzMyeFhFWjdyenhjQVdvU3JGS1R0LWdFblFlaHptOFM5TkpCenplN1RqUTJSaXVyZkhub19rbVZ5dmtfRXB4X283dzg1ODRnMFRuRm9IWXdPWk9KZFBfOURhOFBEcU43d2Z5NVhBUlRESk5Kd1RiU01YcUMwS1p1X1lvNFdHRzRvaEd3aUd2eXMyamZCRVNGS3ZsNTZ5ckVsQlZMckhLODhDLWV2bGc?oc=5",
-      "source": "reflector.com",
-      "published_at_utc": "2026-10-28T18:26:01+00:00"
+      "title": "Asian stocks rise after a rally on Wall Street, while oil prices edge higher - Bozeman Daily Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQN0lEa0trNUwxeFVNSi1UZGt0VGEwR1FwcGRMTEpHN2ZwaWtaSFZ6M1BYdVNWTGp6WWdmLUxvWF9LRmJXWVZTNTlRNFVEQnZ2NW54X1JrUmgtWUNBYTJSNWN4emlXd0o3TEZBN2tBdjlXUGpLZ1EzX0pLX0UzWVppbEtfNk82Zl9Memo1QUJSSmNjV1JBYWYzM0NEcnNDSDM5SXBteDZPRnRPYjNCaXRmSC1lekxTVllqMzVsdmJ0SWR6QmJJUDh6LWNVdjFhNGw0V1pBcnEzakxPb2EwbzRiYW5oWUZkY1FLLTVBLUJmWlRmcWxxWEdjUWJIX0RTQV9JZGZROG9aZ2M?oc=5",
+      "source": "Bozeman Daily Chronicle",
+      "published_at_utc": "2026-10-28T03:58:14+00:00"
     },
     {
       "category": "korea",
@@ -102,13 +109,6 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDBiUW9VU3I3UUtwMWNXaHJuWnZsVGN2V05TVzBUaXpUNU50Y3NYdHJCUWQxNHdrSnlPNkNUVlhnLWh1OURUaW5Rd3hrdjNfaE5sVy1lcTBRejlmc1d0UVAxejhheXhQanlxeVpWaDVwNFBYNVItY3RXbU0wRTRqZHYwalVCRlh5Q2E5elFONFFIQWp2amNRT3NOVDM?oc=5",
       "source": "Business Insider",
       "published_at_utc": "2026-10-27T07:26:00+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone - 巴士的報",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVVR4ck8yWWFpRWJPY0w1X3hER2s5T3ZCUFR3SGdycXdOTjZva2pMWnF6bWZLRWpTNHVXUVdEN01nd3pWSmpfTENNS2ROd2dVLXVma0tkbEZwUDdIcHZvQ1F5TnFrQllKS2J2MURxam93cEd0TUdWRm0tdHFxYlJuU2pDOXBERFJaUTdPcXpXaGNIUWZLNmw5bWtySFBZRGNkcUZoTHV2aWI3Q2NwTkpwR0tDZmFaQnNGYmk5NFdrdEN0QVpMTEthalpnUVVOQU9rc1E?oc=5",
-      "source": "巴士的報",
-      "published_at_utc": "2026-10-28T12:07:26+00:00"
     }
   ],
   "warnings": []
