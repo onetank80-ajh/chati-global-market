@@ -134,6 +134,24 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different trading dates", result.stdout + result.stderr)
 
+    def test_missing_market_date_blocks_publication(self):
+        self.market["markets"]["sox"].pop("market_date")
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("missing sox market date", result.stdout + result.stderr)
+
+    def test_invalid_market_date_blocks_publication(self):
+        self.market["markets"]["sp500"]["market_date"] = "2026-99-99"
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("invalid sp500 market date", result.stdout + result.stderr)
+
     def test_changed_market_snapshot_fails(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         self.market["markets"]["sox"]["change_percent"] = -1.0
