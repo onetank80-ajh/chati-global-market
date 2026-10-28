@@ -77,6 +77,16 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         result = self.generate({"generated_at_utc": now, "items": []})
         self.assertEqual(result["market_signals"]["sox"]["status"], "unavailable")
 
+    def test_duplicate_headline_from_different_sources_is_counted_once(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now, "items": [
+            {"title": "Nvidia semiconductor stocks rise - Source A",
+             "url": "https://example.com/a", "published_at_utc": now},
+            {"title": "Nvidia semiconductor stocks rise - Source B",
+             "url": "https://example.com/b", "published_at_utc": now}]})
+        self.assertEqual(result["headline_count_after"], 1)
+        self.assertEqual(len(result["top_headlines"]), 1)
+
     def test_old_snapshot_does_not_reuse_recent_article(self):
         now = datetime.now(timezone.utc).isoformat()
         result = self.generate({"generated_at_utc": "2020-01-01T00:00:00+00:00",
