@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 import math
 from pathlib import Path
 
@@ -19,6 +19,9 @@ except (ValueError, TypeError, AttributeError):
     raise SystemExit("FAIL: invalid market snapshot timestamp")
 if market_dt.tzinfo is None or source_dt.tzinfo is None:
     raise SystemExit("FAIL: market snapshot timestamp missing timezone")
+market_age_hours = (datetime.now(timezone.utc) - market_dt).total_seconds() / 3600
+if not math.isfinite(market_age_hours) or not 0 <= market_age_hours <= 12:
+    raise SystemExit("FAIL: market snapshot is stale or future-dated")
 delta = abs((market_dt - source_dt).total_seconds())
 if not math.isfinite(delta):
     raise SystemExit("FAIL: invalid market snapshot delta")
