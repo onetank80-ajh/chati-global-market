@@ -85,6 +85,14 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different market snapshot", result.stdout + result.stderr)
 
+    def test_nonfinite_intelligence_snapshot_delta_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_snapshot_at"] = "9999-12-31T23:59:59+00:00"
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+
     def test_malformed_morning_indicators_block_publication_cleanly(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         morning = json.loads((self.root / "data" / "morning.json").read_text())
