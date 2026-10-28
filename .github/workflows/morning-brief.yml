@@ -48,6 +48,19 @@ jobs:
       - name: Check briefing consistency before commit
         if: steps.drift.outputs.repair == 'true'
         run: python scripts/check_consistency.py
+      - name: Commit updated JSON
+        if: steps.drift.outputs.repair == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/morning.json data/intelligence.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update morning briefing data'
+            git pull --rebase origin main
+            python scripts/check_consistency.py
+            git push origin HEAD:main
+          fi
+
       - name: Report recovery evidence
         if: always()
         env:
@@ -67,15 +80,3 @@ jobs:
           print(f"repair={os.environ.get('REPAIR_DECISION')} status={os.environ.get('JOB_STATUS')}")
           print(f"run_url={os.environ.get('GITHUB_SERVER_URL')}/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}")
           PY
-      - name: Commit updated JSON
-        if: steps.drift.outputs.repair == 'true'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/morning.json data/intelligence.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update morning briefing data'
-            git pull --rebase origin main
-            python scripts/check_consistency.py
-            git push origin HEAD:main
-          fi
