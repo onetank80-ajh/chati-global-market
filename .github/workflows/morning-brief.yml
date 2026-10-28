@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: chati-morning-brief
+  group: chati-market-update
   cancel-in-progress: false
 jobs:
   morning:
