@@ -65,7 +65,7 @@ intel_quotes_aligned=isinstance(intel_signals,dict) and all(
     for key in ('sp500','sox','usdkrw')
 )
 intel_safe=intel_time_fresh and intel_market_aligned and intel_quotes_aligned
-sectors=intel.get('sectors',[])[:6] if intel_safe and isinstance(intel.get('sectors'),list) else []
+sectors=[row for row in intel.get('sectors',[]) if isinstance(row,dict)][:6] if intel_safe and isinstance(intel.get('sectors'),list) else []
 snapshot_at=market.get('generated_at_utc') or market.get('generated_at_kst')
 try:
     parsed=datetime.datetime.fromisoformat(snapshot_at.replace('Z','+00:00'))
