@@ -25,6 +25,16 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertIn("refusing partial publish", content)
         self.assertIn("python scripts/check_consistency.py", content)
 
+    def test_frontend_hides_mismatched_morning_snapshot(self):
+        page = (ROOT / "index.html").read_text(encoding="utf-8")
+        start = page.index("function renderMorning(")
+        end = page.index("function renderSectors(", start)
+        renderer = page[start:end]
+        guard = "if(!Number.isFinite(drift)||Math.abs(drift)>2/60)"
+        self.assertIn(guard, renderer)
+        self.assertLess(renderer.index(guard), renderer.index("for(const v of"))
+        self.assertIn("브리핑 지표를 숨깁니다.", renderer)
+
     def test_recovery_tests_run_after_sync(self):
         content = MORNING.read_text(encoding="utf-8")
         sync = content.index("- name: Sync latest snapshots")
