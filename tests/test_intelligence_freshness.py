@@ -1,0 +1,80 @@
+"""Offline freshness regression tests for the news intelligence generator."""
+import json
+import shutil
+import subprocess
+import sys
+import tempfile
+import unittest
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class IntelligenceFreshnessTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        (self.root / "scripts").mkdir()
+        (self.root / "data").mkdir()
+        shutil.copy2(ROOT / "scripts" / "intelligence_update.py",
+                     self.root / "scripts" / "intelligence_update.py")
+        self.write("market.json", {"markets": {
+            "sp500": {"status": "ok", "change_percent": 0.6, "market_date": "2026-10-27"},
+            "sox": {"status": "ok", "change_percent": 1.2, "market_date": "2026-10-27"},
+            "usdkrw": {"status": "ok", "change_percent": -0.2, "market_date": "2026-10-28"},
+        }})
+
+    def write(self, name, value):
+        (self.root / "data" / name).write_text(json.dumps(value), encoding="utf-8")
+
+    def generate(self, news):
+        self.write("news.json", news)
+        run = subprocess.run(
+            [sys.executable, str(self.root / "scripts" / "intelligence_update.py")],
+            cwd=self.root, capture_output=True, text=True)
+        self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
+        return json.loads((self.root / "data" / "intelligence.json").read_text())
+
+    def test_old_snapshot_does_not_reuse_recent_article(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": "2020-01-01T00:00:00+00:00",
+                                "items": [{"title": "Nvidia semiconductor stocks rise",
+                                           "url": "https://example.com/new",
+                                           "published_at_utc": now}]})
+        self.assertFalse(result["news_snapshot_fresh"])
+        self.assertEqual(result["top_headlines"], [])
+        self.assertEqual(result["headline_count_after"], 0)
+        self.assertTrue(any("뉴스 수집 시각" in s for s in result["cautions"]))
+
+    def test_fresh_snapshot_keeps_fresh_article(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now,
+                                "items": [{"title": "Nvidia semiconductor stocks rise",
+                                           "url": "https://example.com/new",
+                                           "published_at_utc": now}]})
+        self.assertTrue(result["news_snapshot_fresh"])
+        self.assertEqual(result["headline_count_after"], 1)
+        self.assertEqual(len(result["top_headlines"]), 1)
+
+    def test_missing_snapshot_time_blocks_news(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"items": [{"title": "US stock market advances",
+                                           "url": "https://example.com/new",
+                                           "published_at_utc": now}]})
+        self.assertFalse(result["news_snapshot_fresh"])
+        self.assertEqual(result["top_headlines"], [])
+
+    def test_old_article_excluded_even_with_fresh_snapshot(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now,
+                                "items": [{"title": "Old market article",
+                                           "url": "https://example.com/old",
+                                           "published_at_utc": "2020-01-01T00:00:00+00:00"}]})
+        self.assertTrue(result["news_snapshot_fresh"])
+        self.assertEqual(result["top_headlines"], [])
+
+
+if __name__ == "__main__":
+    unittest.main()
