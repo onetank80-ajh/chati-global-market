@@ -52,6 +52,20 @@ class MorningPipelineTests(unittest.TestCase):
         result = self.run_script("check_consistency.py")
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
+    def test_forged_fresh_flag_cannot_publish_old_market_snapshot(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        old = "2020-01-01T00:00:00+00:00"
+        self.market["generated_at_utc"] = old
+        self.market["generated_at_kst"] = old
+        self.save_market()
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        morning["market_snapshot_at"] = old
+        morning["market_snapshot_fresh"] = True
+        self.write("morning.json", morning)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("market snapshot is stale", result.stdout + result.stderr)
+
     def test_changed_market_snapshot_fails(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         self.market["markets"]["sox"]["change_percent"] = -1.0
