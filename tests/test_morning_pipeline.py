@@ -105,6 +105,15 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("morning generation time outside", result.stdout + result.stderr)
 
+    def test_mixed_us_trading_dates_block_publication(self):
+        self.market["markets"]["sox"]["market_date"] = "2026-10-26"
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("different trading dates", result.stdout + result.stderr)
+
     def test_changed_market_snapshot_fails(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         self.market["markets"]["sox"]["change_percent"] = -1.0
