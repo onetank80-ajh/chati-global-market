@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPTS = ("morning_brief.py", "check_consistency.py")
+SCRIPTS = ("morning_brief.py", "check_consistency.py", "intelligence_update.py")
 
 
 class MorningPipelineTests(unittest.TestCase):
@@ -33,7 +33,7 @@ class MorningPipelineTests(unittest.TestCase):
         }
         self.save_market()
         self.write("news.json", {"items": []})
-        self.write("intelligence.json", {"sectors": []})
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
 
     def write(self, name, value):
         (self.root / "data" / name).write_text(json.dumps(value), encoding="utf-8")
