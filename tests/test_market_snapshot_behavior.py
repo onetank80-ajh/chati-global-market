@@ -38,6 +38,26 @@ class MarketSnapshotTests(unittest.TestCase):
             finally:
                 os.chdir(original)
 
+    def test_optional_quote_failure_still_saves_required_quotes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            original = os.getcwd()
+            try:
+                os.chdir(tmp)
+                def fake_fetch(symbol, name, unit):
+                    if symbol == "^DJI":
+                        return {"symbol": symbol, "status": "unavailable", "error": "temporary failure"}
+                    return {"symbol": symbol, "name": name, "unit": unit,
+                            "status": "ok", "change_percent": 0.1,
+                            "market_date": "2026-10-28"}
+                with patch.object(market_update, "fetch", side_effect=fake_fetch):
+                    market_update.main()
+                data = json.loads((Path("data") / "market.json").read_text(encoding="utf-8"))
+                self.assertEqual(data["markets"]["dow"]["status"], "unavailable")
+                self.assertTrue(all(data["markets"][key]["status"] == "ok"
+                                    for key in ("sp500", "sox", "usdkrw")))
+            finally:
+                os.chdir(original)
+
     def test_success_writes_complete_snapshot(self):
         with tempfile.TemporaryDirectory() as tmp:
             original = os.getcwd()
