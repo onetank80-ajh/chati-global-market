@@ -51,7 +51,7 @@ try:
     intel_market_drift=abs((market_dt-intel_dt).total_seconds()) if market_dt.tzinfo is not None and intel_dt.tzinfo is not None else None
 except (AttributeError,ValueError,TypeError):
     intel_market_drift=None
-intel_market_aligned=intel_market_drift is not None and intel_market_drift<=2
+intel_market_aligned=intel_market_drift is not None and math.isfinite(intel_market_drift) and intel_market_drift<=2
 intel_signals=intel.get('market_signals',{})
 intel_quotes_aligned=isinstance(intel_signals,dict) and all(
     isinstance(intel_signals.get(key),dict)
