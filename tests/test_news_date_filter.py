@@ -18,6 +18,20 @@ class FakeResponse:
 
 
 class NewsDateTests(unittest.TestCase):
+    def test_stale_first_eight_do_not_hide_later_recent_article(self):
+        now = datetime.now(timezone.utc)
+        old = format_datetime(now - timedelta(days=5))
+        fresh = format_datetime(now - timedelta(hours=2))
+        items = "".join(
+            "<item><title>Old %d</title><link>https://example.org/%d</link><pubDate>%s</pubDate></item>" % (i, i, old)
+            for i in range(8)
+        )
+        items += "<item><title>Recent</title><link>https://example.org/recent</link><pubDate>%s</pubDate></item>" % fresh
+        xml = ("<rss><channel>" + items + "</channel></rss>").encode()
+        with patch("scripts.news_update.urllib.request.urlopen", return_value=FakeResponse(xml)):
+            result = get_news("us_market", "test")
+        self.assertEqual([row["title"] for row in result], ["Recent"])
+
     def test_only_recent_timezone_aware_headline_is_kept(self):
         now = datetime.now(timezone.utc)
         dates = [
