@@ -38,7 +38,7 @@ if news_fresh:
         if not isinstance(item,dict): continue
         title=item.get('title'); url=item.get('url')
         published_age=age_hours(item.get('published_at_utc'))
-        if isinstance(title,str) and isinstance(url,str) and url.startswith('https://') and published_age is not None and 0<=published_age<=48:
+        if isinstance(title,str) and title.strip() and isinstance(url,str) and url.startswith('https://') and published_age is not None and 0<=published_age<=48:
             headlines.append({'title':title,'url':url,'source':item.get('source',''),'published_at_utc':item.get('published_at_utc','')})
         if len(headlines)>=8: break
 intel_age=age_hours(intel.get('generated_at_utc') or intel.get('generated_at_kst'))
