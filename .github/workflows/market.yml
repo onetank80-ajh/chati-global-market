@@ -26,6 +26,7 @@ jobs:
           echo "KST: $(TZ=Asia/Seoul date '+%Y-%m-%dT%H:%M:%S%z')"
           echo "Commit: ${GITHUB_SHA}"
           echo "Event: ${GITHUB_EVENT_NAME}"
+          echo "Run: ${GITHUB_RUN_ID}"
       - name: Offline regression tests (no extra job)
         run: python -m unittest discover -s tests -v
       - name: Fetch market snapshot
