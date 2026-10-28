@@ -85,6 +85,15 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different market snapshot", result.stdout + result.stderr)
 
+    def test_boolean_intelligence_signal_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_signals"]["sox"]["change_percent"] = True
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("invalid intelligence sox percentage", result.stdout + result.stderr)
+
     def test_boolean_morning_indicator_blocks_publication(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         morning = json.loads((self.root / "data" / "morning.json").read_text())
