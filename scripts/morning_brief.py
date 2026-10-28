@@ -12,9 +12,6 @@ market=read('market.json'); news=read('news.json'); intel=read('intelligence.jso
 if not isinstance(market,dict): market={}
 if not isinstance(news,dict): news={}
 if not isinstance(intel,dict): intel={}
-if not isinstance(market,dict): market={}
-if not isinstance(news,dict): news={}
-if not isinstance(intel,dict): intel={}
 markets=market.get('markets',{})
 if not isinstance(markets,dict): markets={}
 indicators=[]
