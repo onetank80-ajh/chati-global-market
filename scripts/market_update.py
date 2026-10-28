@@ -1,6 +1,8 @@
 """Fetch indicative daily market closes for the Chati market briefing app."""
 import json
 import math
+import os
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -59,7 +61,17 @@ def main():
         raise RuntimeError("Required market data unavailable; keeping previous market.json. " + details)
     path = Path("data/market.json")
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # Write beside the destination and atomically replace only after success.
+    temp_name = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=path.parent,
+                                         prefix=".market-", suffix=".json", delete=False) as handle:
+            temp_name = handle.name
+            handle.write(json.dumps(output, ensure_ascii=False, indent=2) + "\n")
+        os.replace(temp_name, path)
+    finally:
+        if temp_name and os.path.exists(temp_name):
+            os.unlink(temp_name)
     print("Saved", path, "successful symbols:", sum(v["status"] == "ok" for v in items.values()))
 
 
