@@ -69,6 +69,9 @@ for key in ("sp500", "sox", "usdkrw"):
     signal = signals.get(key, {})
     if not isinstance(signal, dict):
         raise SystemExit(f"FAIL: malformed intelligence {key} signal")
-    if signal.get("status") != "ok" or signal.get("change_percent") != quote["change_percent"] or signal.get("market_date") != quote.get("market_date"):
+    signal_value = signal.get("change_percent")
+    if isinstance(signal_value, bool) or not isinstance(signal_value, (int, float)) or not math.isfinite(signal_value):
+        raise SystemExit(f"FAIL: invalid intelligence {key} percentage")
+    if signal.get("status") != "ok" or signal_value != quote["change_percent"] or signal.get("market_date") != quote.get("market_date"):
         raise SystemExit(f"FAIL: intelligence {key} mismatch")
 print("PASS: morning briefing and intelligence match market snapshot")
