@@ -16,6 +16,8 @@ except (ValueError, TypeError, AttributeError):
     raise SystemExit("FAIL: invalid market snapshot timestamp")
 if not math.isfinite(delta):
     raise SystemExit("FAIL: invalid market snapshot delta")
+if datetime.fromisoformat(market_time.replace("Z", "+00:00")).tzinfo is None or datetime.fromisoformat(source_time.replace("Z", "+00:00")).tzinfo is None:
+    raise SystemExit("FAIL: market snapshot timestamp missing timezone")
 if delta > 2:
     raise SystemExit(f"FAIL: briefing uses different market snapshot ({delta:.1f}s)")
 labels = {"sp500": "미국 대형주", "sox": "반도체", "usdkrw": "원/달러"}
@@ -40,6 +42,8 @@ try:
     intel_delta = abs((datetime.fromisoformat(market_time.replace("Z", "+00:00")) - datetime.fromisoformat(intel_time.replace("Z", "+00:00"))).total_seconds())
 except (ValueError, TypeError, AttributeError):
     raise SystemExit("FAIL: invalid intelligence market snapshot timestamp")
+if datetime.fromisoformat(intel_time.replace("Z", "+00:00")).tzinfo is None:
+    raise SystemExit("FAIL: intelligence market snapshot timestamp missing timezone")
 if intel_delta > 2:
     raise SystemExit(f"FAIL: intelligence uses different market snapshot ({intel_delta:.1f}s)")
 signals = intelligence.get("market_signals", {})
