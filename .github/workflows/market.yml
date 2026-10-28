@@ -93,6 +93,17 @@ jobs:
                   generated = data.get("generated_at_kst") or data.get("generated_at_utc") or "missing"
                   source = data.get("market_snapshot_at") or "—"
                   lines.append(f"- **{filename}**: generated `{generated}`, market snapshot `{source}`")
+                  if filename == "market.json":
+                      market_generated = generated
+                  elif source != "—":
+                      from datetime import datetime
+                      try:
+                          market_stamp = datetime.fromisoformat(market_generated.replace("Z", "+00:00"))
+                          derived_stamp = datetime.fromisoformat(source.replace("Z", "+00:00"))
+                          drift = abs((market_stamp - derived_stamp).total_seconds())
+                          lines.append(f"  - Snapshot drift: `{drift:.1f}s` (allowed: 2s)")
+                      except (ValueError, TypeError, NameError):
+                          lines.append("  - Snapshot drift: unavailable")
               except (OSError, ValueError, AttributeError) as exc:
                   lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
           lines.append("")
