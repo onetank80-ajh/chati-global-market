@@ -1,34 +1,48 @@
-"""Ensure the UTC cron runs at 06:30 KST on Korean weekdays only."""
+"""Validate UTC cron schedules against intended Korean weekdays."""
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import re
 import unittest
 
-WORKFLOW = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "market.yml"
+ROOT = Path(__file__).resolve().parents[1]
 KST = timezone(timedelta(hours=9))
+CRON = re.compile(r"""cron:\s*['"](\d+)\s+(\d+)\s+\*\s+\*\s+([0-6,-]+)['"]""")
+
+
+def local_schedule(path):
+    source = (ROOT / path).read_text(encoding="utf-8")
+    expressions = CRON.findall(source)
+    if not expressions:
+        raise AssertionError(f"No recognizable cron schedule in {path}")
+    sunday = datetime(2026, 10, 25, tzinfo=timezone.utc)
+    local_times = []
+    for minute, hour, weekdays in expressions:
+        days = set()
+        for part in weekdays.split(","):
+            if "-" in part:
+                start, end = map(int, part.split("-"))
+                days.update(range(start, end + 1))
+            else:
+                days.add(int(part))
+        for day in days:
+            utc = sunday + timedelta(days=day, hours=int(hour), minutes=int(minute))
+            local_times.append(utc.astimezone(KST))
+    return local_times
 
 
 class MarketScheduleTests(unittest.TestCase):
-    def test_cron_maps_to_korean_weekdays(self):
-        source = WORKFLOW.read_text(encoding="utf-8")
-        match = re.search(r"cron:\\s*['\\\"](\\d+)\\s+(\\d+)\\s+\\*\\s+\\*\\s+([0-6,-]+)['\\\"]", source)
-        self.assertIsNotNone(match, "Expected explicit UTC schedule")
-        minute, hour = map(int, match.group(1, 2))
-        days = set()
-        for chunk in match.group(3).split(","):
-            if "-" in chunk:
-                first, last = map(int, chunk.split("-"))
-                days.update(range(first, last + 1))
-            else:
-                days.add(int(chunk))
-        # Sunday 2026-10-25 is cron weekday 0; all UTC schedule days in this week.
-        sunday = datetime(2026, 10, 25, tzinfo=timezone.utc)
-        local_times = [
-            (sunday + timedelta(days=day, hours=hour, minutes=minute)).astimezone(KST)
-            for day in sorted(days)
-        ]
-        self.assertEqual({t.weekday() for t in local_times}, set(range(5)))
-        self.assertTrue(all((t.hour, t.minute) == (6, 30) for t in local_times))
+    def test_market_refresh_is_0630_kst_weekdays(self):
+        times = local_schedule(".github/workflows/market.yml")
+        self.assertEqual(len(times), 5)
+        self.assertEqual({(t.weekday(), t.hour, t.minute) for t in times},
+                         {(day, 6, 30) for day in range(5)})
+
+    def test_repair_checks_are_0715_and_0830_kst_weekdays(self):
+        times = local_schedule(".github/workflows/morning-brief.yml")
+        self.assertEqual(len(times), 10)
+        self.assertEqual({(t.weekday(), t.hour, t.minute) for t in times},
+                         {(day, hour, minute) for day in range(5)
+                          for hour, minute in [(7, 15), (8, 30)]})
 
 
 if __name__ == "__main__":
