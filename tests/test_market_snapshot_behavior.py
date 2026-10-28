@@ -4,7 +4,15 @@ import os
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import patch
+import sys
+from unittest.mock import MagicMock, patch
+
+# The recovery workflow runs offline tests without installing yfinance.
+# These tests mock fetch(), so the external package is not required.
+try:
+    import yfinance
+except ImportError:
+    sys.modules['yfinance'] = MagicMock()
 
 from scripts import market_update
 
