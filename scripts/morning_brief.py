@@ -66,10 +66,11 @@ sectors=intel.get('sectors',[])[:6] if intel_safe and isinstance(intel.get('sect
 snapshot_at=market.get('generated_at_utc') or market.get('generated_at_kst')
 try:
     parsed=datetime.datetime.fromisoformat(snapshot_at.replace('Z','+00:00'))
-    snapshot_age_hours=round((now-parsed).total_seconds()/3600,2) if parsed.tzinfo is not None else None
+    snapshot_age_exact=(now-parsed).total_seconds()/3600 if parsed.tzinfo is not None else None
 except (AttributeError,ValueError,TypeError):
-    snapshot_age_hours=None
-snapshot_fresh=(snapshot_age_hours is not None and 0<=snapshot_age_hours<=12)
+    snapshot_age_exact=None
+snapshot_age_hours=round(snapshot_age_exact,2) if snapshot_age_exact is not None else None
+snapshot_fresh=(snapshot_age_exact is not None and math.isfinite(snapshot_age_exact) and 0<=snapshot_age_exact<=12)
 # Record how late the scheduled 07:00 KST combined refresh actually ran.
 scheduled=now.replace(hour=7,minute=0,second=0,microsecond=0)
 delay_minutes=round((now-scheduled).total_seconds()/60,1)
