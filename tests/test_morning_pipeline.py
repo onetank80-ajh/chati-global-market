@@ -85,6 +85,22 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different market snapshot", result.stdout + result.stderr)
 
+    def test_malformed_market_quote_does_not_crash_briefing(self):
+        self.market["markets"]["sox"] = None
+        self.save_market()
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertNotIn("반도체", [row["name"] for row in morning["indicators"]])
+
+    def test_malformed_market_collection_does_not_crash_briefing(self):
+        self.market["markets"] = []
+        self.save_market()
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["indicators"], [])
+
     def test_malformed_news_list_does_not_crash(self):
         now = datetime.now(timezone.utc).isoformat()
         self.write("news.json", {"generated_at_utc": now, "items": {"unexpected": "object"}})
