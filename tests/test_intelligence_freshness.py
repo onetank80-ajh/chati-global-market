@@ -37,6 +37,14 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
         return json.loads((self.root / "data" / "intelligence.json").read_text())
 
+    def test_unsafe_article_link_is_not_exposed(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now, "items": [
+            {"title": "Nvidia semiconductor stocks rise",
+             "url": "javascript:alert(1)", "published_at_utc": now}]})
+        self.assertEqual(result["headline_count_after"], 1)
+        self.assertEqual(result["top_headlines"][0]["url"], "")
+
     def test_malformed_market_quotes_are_unavailable(self):
         now = datetime.now(timezone.utc).isoformat()
         self.write("market.json", {"markets": {"sp500": None, "sox": "broken", "usdkrw": []}})
