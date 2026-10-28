@@ -29,7 +29,7 @@ class MorningPipelineTests(unittest.TestCase):
             "generated_at_kst": now,
             "markets": {
                 "sp500": {"status": "ok", "change_percent": 0.6, "market_date": us_day},
-                "sox": {"status": "ok", "change_percent": 1.2, "market_date": "2026-10-27"},
+                "sox": {"status": "ok", "change_percent": 1.2, "market_date": us_day},
                 "usdkrw": {"status": "ok", "change_percent": -0.2, "market_date": fx_day},
             },
         }
