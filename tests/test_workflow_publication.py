@@ -25,6 +25,15 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertIn("refusing partial publish", content)
         self.assertIn("python scripts/check_consistency.py", content)
 
+    def test_recovery_tests_run_after_sync(self):
+        content = MORNING.read_text(encoding="utf-8")
+        sync = content.index("- name: Sync latest snapshots")
+        tests = content.index("- name: Offline regression tests on synced code before recovery")
+        generation = content.index("- name: Refresh derived intelligence")
+        self.assertLess(sync, tests)
+        self.assertLess(tests, generation)
+        self.assertIn("python -m unittest discover -s tests -v", content)
+
     def test_recovery_checks_consistency_before_and_after_rebase(self):
         content = MORNING.read_text(encoding="utf-8")
         self.assertGreaterEqual(content.count("python scripts/check_consistency.py"), 2)
