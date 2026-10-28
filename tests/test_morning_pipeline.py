@@ -5,7 +5,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,13 +22,15 @@ class MorningPipelineTests(unittest.TestCase):
         for script in SCRIPTS:
             shutil.copy2(ROOT / "scripts" / script, self.root / "scripts" / script)
         now = datetime.now(timezone.utc).isoformat()
+        us_day = (datetime.now(timezone.utc) - timedelta(days=1)).date().isoformat()
+        fx_day = datetime.now(timezone.utc).date().isoformat()
         self.market = {
             "generated_at_utc": now,
             "generated_at_kst": now,
             "markets": {
-                "sp500": {"status": "ok", "change_percent": 0.6, "market_date": "2026-10-27"},
+                "sp500": {"status": "ok", "change_percent": 0.6, "market_date": us_day},
                 "sox": {"status": "ok", "change_percent": 1.2, "market_date": "2026-10-27"},
-                "usdkrw": {"status": "ok", "change_percent": -0.2, "market_date": "2026-10-28"},
+                "usdkrw": {"status": "ok", "change_percent": -0.2, "market_date": fx_day},
             },
         }
         self.save_market()
