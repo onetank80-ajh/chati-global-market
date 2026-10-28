@@ -35,7 +35,8 @@ def validate_generation_time(document, label):
         raise SystemExit(f"FAIL: invalid {label} generation timestamp")
     if generated.tzinfo is None:
         raise SystemExit(f"FAIL: {label} generation timestamp missing timezone")
-    if generated < market_dt or (generated - datetime.now(timezone.utc)).total_seconds() > 120:
+    generation_age = (generated - market_dt).total_seconds()
+    if not math.isfinite(generation_age) or generation_age < 0 or generation_age > 3600 or (generated - datetime.now(timezone.utc)).total_seconds() > 120:
         raise SystemExit(f"FAIL: {label} generation time outside market snapshot window")
 
 validate_generation_time(morning, "morning")
