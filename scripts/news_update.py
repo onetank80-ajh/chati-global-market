@@ -30,7 +30,13 @@ def get_news(group, query):
         if not title or not url.startswith('https://'):
             continue
         try:
-            stamp = parsedate_to_datetime(published).astimezone(timezone.utc).isoformat()
+            parsed = parsedate_to_datetime(published)
+            if parsed.tzinfo is None:
+                continue
+            age = (datetime.now(timezone.utc) - parsed).total_seconds() / 3600
+            if age < 0 or age > 48:
+                continue
+            stamp = parsed.astimezone(timezone.utc).isoformat()
         except (TypeError, ValueError):
             continue
         items.append({'category': group, 'title': title[:240], 'url': url,
