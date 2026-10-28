@@ -37,6 +37,12 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
         return json.loads((self.root / "data" / "intelligence.json").read_text())
 
+    def test_link_with_space_in_host_is_sanitized(self):
+        now = datetime.now(timezone.utc).isoformat()
+        news = {"generated_at_utc": now, "items": [{"title": "Market news", "url": "https://bad host/story", "published_at_utc": now}]}
+        result = self.generate(news)
+        self.assertEqual(result["top_headlines"][0]["url"], "")
+
     def test_https_link_requires_nonempty_host(self):
         now = datetime.now(timezone.utc).isoformat()
         result = self.generate({"generated_at_utc": now, "items": [
