@@ -13,7 +13,7 @@ function renderV16(m,morning,intel,newsData){
  const signal=el('div',undefined,'signal');signal.append(el('strong',label),el('span','지표 '+valid+'/3 · 신호 점수 '+(!old&&valid===3?score:'산출 보류'),'chip score'));target.append(signal);
  if(old)target.append(el('div','⚠ 수집 시각 또는 미국 지수 기준일이 오래되거나 서로 일치하지 않습니다. 아래 분석은 최신 전망으로 사용하지 마세요.','insight warning'));else if(valid<3)target.append(el('div','⚠ 핵심 지표가 누락되어 판단을 보류합니다. 일부 지표만으로 시장 방향을 확정하지 마세요.','insight warning'));
  const grid=el('div',undefined,'grid');const metrics=[['미국 대형주',sp,'S&P 500 종가 방향'],['반도체',sox,'필라델피아 반도체 종가 방향'],['원/달러',fx,'환율 상승은 원화 약세 방향']];
- for(const [name,v,note] of metrics){const box=el('div',undefined,'metric');box.append(el('div',name,'label'),el('div',Number.isFinite(v)?(v>0?'+':'')+fmt(v)+'%':'수집 불가','number'),el('div',note,'small'));grid.append(box)}target.append(grid);
+ for(const [name,v,note] of metrics){const box=el('div',undefined,'metric');box.append(el('div',name,'label'),el('div',!old&&Number.isFinite(v)?(v>0?'+':'')+fmt(v)+'%':old?'갱신 필요':'수집 불가','number'),el('div',note,'small'));grid.append(box)}target.append(grid);
  target.append(el('div','한국 장 시작 후 확인할 항목','subhead'));
  const ul=el('ul',undefined,'checklist');for(const t of ['08:00 NXT 거래 반응과 09:00 정규장 시초가 구분','삼성전자·SK하이닉스 시초가와 반도체 업종 거래대금 확인','외국인·기관 순매수 및 원/달러 실시간 방향 확인','시초가 급등락 시 추격보다 5~15분 지속성 확인'])ul.append(el('li',t));target.append(ul);
  target.append(el('p','시장 데이터 기준: '+date(snapshotTime)+' · 아침 브리핑 생성: '+date(morning?.generated_at_kst)+' · 규칙 신호는 매수·매도 신호나 통계적 확률이 아닙니다.','small'));
