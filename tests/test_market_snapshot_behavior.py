@@ -58,6 +58,28 @@ class MarketSnapshotTests(unittest.TestCase):
             finally:
                 os.chdir(original)
 
+    def test_failed_atomic_replace_preserves_previous_file(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data" / "market.json"
+            path.parent.mkdir()
+            previous = '{"previous": true}\\n'
+            path.write_text(previous, encoding="utf-8")
+            original = os.getcwd()
+            try:
+                os.chdir(tmp)
+                def fake_fetch(symbol, name, unit):
+                    return {"symbol": symbol, "name": name, "unit": unit,
+                            "status": "ok", "change_percent": 0.1,
+                            "market_date": "2026-10-28"}
+                with patch.object(market_update, "fetch", side_effect=fake_fetch):
+                    with patch.object(market_update.os, "replace", side_effect=OSError("disk error")):
+                        with self.assertRaisesRegex(OSError, "disk error"):
+                            market_update.main()
+                self.assertEqual(path.read_text(encoding="utf-8"), previous)
+                self.assertEqual(list(path.parent.glob(".market-*.json")), [])
+            finally:
+                os.chdir(original)
+
     def test_success_writes_complete_snapshot(self):
         with tempfile.TemporaryDirectory() as tmp:
             original = os.getcwd()
