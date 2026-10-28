@@ -86,6 +86,7 @@ jobs:
           from pathlib import Path
 
           lines = ["## Chati market snapshot diagnostics", ""]
+          market_generated = None
           for filename in ("market.json", "intelligence.json", "morning.json"):
               path = Path("data") / filename
               try:
@@ -95,15 +96,21 @@ jobs:
                   lines.append(f"- **{filename}**: generated `{generated}`, market snapshot `{source}`")
                   if filename == "market.json":
                       market_generated = generated
-                  elif source != "—":
+                  elif source == "—":
+                      lines.append("  - Snapshot drift: unavailable (missing market_snapshot_at)")
+                  else:
                       from datetime import datetime
                       try:
+                          if market_generated is None:
+                              raise ValueError("market snapshot missing")
                           market_stamp = datetime.fromisoformat(market_generated.replace("Z", "+00:00"))
                           derived_stamp = datetime.fromisoformat(source.replace("Z", "+00:00"))
+                          if market_stamp.tzinfo is None or derived_stamp.tzinfo is None:
+                              raise ValueError("timestamp lacks timezone")
                           drift = abs((market_stamp - derived_stamp).total_seconds())
                           lines.append(f"  - Snapshot drift: `{drift:.1f}s` (allowed: 2s)")
-                      except (ValueError, TypeError, NameError):
-                          lines.append("  - Snapshot drift: unavailable")
+                      except (ValueError, TypeError, AttributeError):
+                          lines.append("  - Snapshot drift: unavailable (invalid timestamp)")
               except (OSError, ValueError, AttributeError) as exc:
                   lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
           lines.append("")
