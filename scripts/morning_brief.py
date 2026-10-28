@@ -41,7 +41,9 @@ intel_time_fresh=intel_age is not None and 0<=intel_age<=24
 market_time=market.get('generated_at_kst') or market.get('generated_at_utc')
 intel_market_time=intel.get('market_snapshot_at')
 try:
-    intel_market_drift=abs((datetime.datetime.fromisoformat(market_time.replace('Z','+00:00'))-datetime.datetime.fromisoformat(intel_market_time.replace('Z','+00:00'))).total_seconds())
+    market_dt=datetime.datetime.fromisoformat(market_time.replace('Z','+00:00'))
+    intel_dt=datetime.datetime.fromisoformat(intel_market_time.replace('Z','+00:00'))
+    intel_market_drift=abs((market_dt-intel_dt).total_seconds()) if market_dt.tzinfo is not None and intel_dt.tzinfo is not None else None
 except (AttributeError,ValueError,TypeError):
     intel_market_drift=None
 intel_market_aligned=intel_market_drift is not None and intel_market_drift<=2
