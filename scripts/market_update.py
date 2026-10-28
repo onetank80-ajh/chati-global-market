@@ -1,5 +1,6 @@
 """Fetch indicative daily market closes for the Chati market briefing app."""
 import json
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -22,6 +23,8 @@ def fetch(symbol, name, unit):
         if len(closes) < 2:
             raise ValueError("Fewer than two daily closes")
         previous, latest = float(closes.iloc[-2]), float(closes.iloc[-1])
+        if not all(math.isfinite(v) and v > 0 for v in (previous, latest)):
+            raise ValueError("Non-finite or non-positive daily close")
         return {
             "symbol": symbol,
             "name": name,
