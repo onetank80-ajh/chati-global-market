@@ -31,6 +31,28 @@ class MarketSnapshotTests(unittest.TestCase):
         self.assertEqual(result["status"], "ok")
         self.assertEqual(ticker.return_value.history.call_args.kwargs["timeout"], 15)
 
+    def test_required_quote_timeout_preserves_previous_snapshot(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data" / "market.json"
+            path.parent.mkdir()
+            previous = '{"previous": true}\\n'
+            path.write_text(previous, encoding="utf-8")
+            original = os.getcwd()
+            try:
+                os.chdir(tmp)
+                def fake_fetch(symbol, name, unit):
+                    if symbol == "^SOX":
+                        return {"symbol": symbol, "status": "unavailable", "error": "timed out"}
+                    return {"symbol": symbol, "status": "ok",
+                            "change_percent": 0.1, "market_date": "2026-10-28"}
+                with patch.object(market_update, "fetch", side_effect=fake_fetch):
+                    with self.assertRaisesRegex(RuntimeError, "timed out"):
+                        market_update.main()
+                self.assertEqual(path.read_text(encoding="utf-8"), previous)
+                self.assertEqual(list(path.parent.glob(".market-*.json")), [])
+            finally:
+                os.chdir(original)
+
     def test_required_quote_failure_keeps_previous_file(self):
         with tempfile.TemporaryDirectory() as tmp:
             previous = '{"previous": true}\n'
