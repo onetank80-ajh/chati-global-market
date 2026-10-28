@@ -122,6 +122,25 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("intelligence sox mismatch", result.stdout + result.stderr)
 
+    def test_stale_intelligence_sectors_hidden_from_morning(self):
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["generated_at_utc"] = "2020-01-01T00:00:00+00:00"
+        intelligence["sectors"] = [{"name": "stale sector"}]
+        self.write("intelligence.json", intelligence)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["sectors"], [])
+        self.assertTrue(any("업종 분석" in w for w in morning["warnings"]))
+
+    def test_mismatched_intelligence_sectors_hidden_from_morning(self):
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_signals"]["sox"]["change_percent"] = -10
+        intelligence["sectors"] = [{"name": "mismatched sector"}]
+        self.write("intelligence.json", intelligence)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["sectors"], [])
+
     def test_nonfinite_quote_does_not_publish(self):
         self.market["markets"]["sox"]["change_percent"] = float("nan")
         self.save_market()
