@@ -67,6 +67,15 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("required sox quote unavailable", result.stdout + result.stderr)
 
+    def test_naive_intelligence_snapshot_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_snapshot_at"] = "2026-10-28T07:00:00"
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("missing timezone", result.stdout + result.stderr)
+
     def test_snapshot_timestamp_mismatch_blocks_publication(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         morning = json.loads((self.root / "data" / "morning.json").read_text())
