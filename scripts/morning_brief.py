@@ -29,7 +29,7 @@ news_age=age_hours(news.get('generated_at_utc') or news.get('generated_at_kst'))
 news_fresh=news_age is not None and 0<=news_age<=24
 headlines=[]
 if news_fresh:
-    for item in news.get('items',[]):
+    for item in (news.get('items') if isinstance(news.get('items'),list) else []):
         if not isinstance(item,dict): continue
         title=item.get('title'); url=item.get('url')
         published_age=age_hours(item.get('published_at_utc'))
@@ -59,7 +59,7 @@ sectors=intel.get('sectors',[])[:6] if intel_safe and isinstance(intel.get('sect
 snapshot_at=market.get('generated_at_utc') or market.get('generated_at_kst')
 try:
     parsed=datetime.datetime.fromisoformat(snapshot_at.replace('Z','+00:00'))
-    snapshot_age_hours=round((now-parsed).total_seconds()/3600,2)
+    snapshot_age_hours=round((now-parsed).total_seconds()/3600,2) if parsed.tzinfo is not None else None
 except (AttributeError,ValueError,TypeError):
     snapshot_age_hours=None
 snapshot_fresh=(snapshot_age_hours is not None and 0<=snapshot_age_hours<=12)
