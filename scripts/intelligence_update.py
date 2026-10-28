@@ -16,8 +16,10 @@ def main():
  try:
   stamp=news.get('generated_at_utc') or news.get('generated_at_kst')
   news_time=datetime.datetime.fromisoformat(stamp.replace('Z','+00:00'))
-  news_age=(now-news_time).total_seconds()/3600
-  news_fresh=news_time.tzinfo is not None and 0<=news_age<=24
+  news_fresh=False
+  if news_time.tzinfo is not None:
+   news_age=(now-news_time).total_seconds()/3600
+   news_fresh=0<=news_age<=24
  except (AttributeError,ValueError,TypeError):news_fresh=False
  for item in (news.get('items',[]) if news_fresh and isinstance(news.get('items'),list) else []):
   if not isinstance(item,dict):continue
