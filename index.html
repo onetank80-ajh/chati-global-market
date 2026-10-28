@@ -9,8 +9,8 @@ function renderV16(m,morning,intel,newsData){
  let score=0;if(Number.isFinite(sp))score+=sp>0.3?1:sp< -0.3?-1:0;
  if(Number.isFinite(sox))score+=sox>0.5?1:sox< -0.5?-1:0;
  if(Number.isFinite(fx))score+=fx< -0.3?1:fx>0.3?-1:0;
- const label=valid<3?'판단 보류':score>=2?'우호 신호 우세':score<=-2?'경계 신호 우세':'혼조 · 중립 관찰';
- const signal=el('div',undefined,'signal');signal.append(el('strong',label),el('span','지표 '+valid+'/3 · 신호 점수 '+(valid===3?score:'산출 보류'),'chip score'));target.append(signal);
+ const label=old||valid<3?'판단 보류':score>=2?'우호 신호 우세':score<=-2?'경계 신호 우세':'혼조 · 중립 관찰';
+ const signal=el('div',undefined,'signal');signal.append(el('strong',label),el('span','지표 '+valid+'/3 · 신호 점수 '+(!old&&valid===3?score:'산출 보류'),'chip score'));target.append(signal);
  if(old)target.append(el('div','⚠ 시장 수집 데이터가 36시간 이상 경과했거나 수집 시각을 확인할 수 없습니다. 아래 분석은 최신 전망으로 사용하지 마세요.','insight warning'));
  const grid=el('div',undefined,'grid');const metrics=[['미국 대형주',sp,'S&P 500 종가 방향'],['반도체',sox,'필라델피아 반도체 종가 방향'],['원/달러',fx,'환율 상승은 원화 약세 방향']];
  for(const [name,v,note] of metrics){const box=el('div',undefined,'metric');box.append(el('div',name,'label'),el('div',Number.isFinite(v)?(v>0?'+':'')+fmt(v)+'%':'수집 불가','number'),el('div',note,'small'));grid.append(box)}target.append(grid);
