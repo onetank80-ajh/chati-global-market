@@ -47,6 +47,18 @@ class MorningPipelineTests(unittest.TestCase):
             cwd=self.root, capture_output=True, text=True,
         )
 
+    def test_generation_too_late_after_market_snapshot_blocks_publication(self):
+        from datetime import timedelta
+        earlier = (datetime.now(timezone.utc) - timedelta(hours=2)).isoformat()
+        self.market["generated_at_utc"] = earlier
+        self.market["generated_at_kst"] = earlier
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("generation time outside market snapshot window", result.stdout + result.stderr)
+
     def test_invalid_market_date_blocks_publication(self):
         self.market["markets"]["sox"]["market_date"] = "2026-02-30"
         self.save_market()
