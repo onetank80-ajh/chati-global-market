@@ -50,6 +50,8 @@ if any(not isinstance(name, str) for name in indicator_names):
 if len(indicator_names) != len(set(indicator_names)):
     raise SystemExit("FAIL: duplicate morning indicator names")
 indicators = {row.get("name"): row for row in indicator_rows}
+if len(indicators) != len(indicator_rows):
+    raise SystemExit("FAIL: duplicate morning indicators")
 quotes = market.get("markets", {})
 if not isinstance(quotes, dict):
     raise SystemExit("FAIL: malformed market quotes")
