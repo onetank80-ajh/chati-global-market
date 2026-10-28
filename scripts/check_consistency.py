@@ -29,7 +29,9 @@ indicator_rows = morning.get("indicators", [])
 if not isinstance(indicator_rows, list) or any(not isinstance(row, dict) for row in indicator_rows):
     raise SystemExit("FAIL: malformed morning indicators")
 indicator_names = [row.get("name") for row in indicator_rows]
-if len(indicator_names) != len(set(str(name) for name in indicator_names)):
+if any(not isinstance(name, str) for name in indicator_names):
+    raise SystemExit("FAIL: malformed morning indicator name")
+if len(indicator_names) != len(set(indicator_names)):
     raise SystemExit("FAIL: duplicate morning indicator names")
 indicators = {row.get("name"): row for row in indicator_rows}
 quotes = market.get("markets", {})
