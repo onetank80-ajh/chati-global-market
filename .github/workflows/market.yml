@@ -24,7 +24,20 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Fetch market snapshot
         id: market_fetch
-        run: python scripts/market_update.py
+        run: |
+          # Retry transient upstream quote failures; do not publish partial snapshots.
+          for attempt in 1 2 3; do
+            if python scripts/market_update.py; then
+              echo "Market snapshot fetched on attempt ${attempt}"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Market fetch failed (attempt ${attempt}/3); retrying in 20 seconds"
+              sleep 20
+            fi
+          done
+          echo "Market fetch failed after 3 attempts; keeping previous snapshot" >&2
+          exit 1
       - name: Fetch headlines
         run: python scripts/news_update.py
         continue-on-error: true
