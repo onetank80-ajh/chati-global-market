@@ -43,12 +43,14 @@ jobs:
           git add data/market.json data/intelligence.json data/morning.json
           if [ -f data/news.json ]; then git add data/news.json; fi
           if [ -f data/briefing.json ]; then git add data/briefing.json; fi
-          # Never publish a refreshed market snapshot without its matching morning briefing.
+          # Derived intelligence and morning briefing must be committed with every new market snapshot.
           if git diff --cached --name-only -- data/market.json | grep -qx 'data/market.json'; then
-            if ! git diff --cached --name-only -- data/morning.json | grep -qx 'data/morning.json'; then
-              echo 'FAIL: market.json changed without morning.json; refusing partial publish' >&2
-              exit 1
-            fi
+            for derived in data/intelligence.json data/morning.json; do
+              if ! git diff --cached --name-only -- "$derived" | grep -qx "$derived"; then
+                echo "FAIL: market.json changed without $derived; refusing partial publish" >&2
+                exit 1
+              fi
+            done
           fi
           if ! git diff --cached --quiet; then
             git commit -m "Update Chati market intelligence"
