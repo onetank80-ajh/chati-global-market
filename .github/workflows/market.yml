@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
   schedule:
     # Start at 06:30 KST weekdays to allow upstream retries before 07:30 briefing.
-    # 21:30 UTC Sun-Thu = 06:30 KST Mon-Fri (not UTC Mon-Fri).
+    # 21:30 UTC Sunday-Thursday = 06:30 KST Monday-Friday.
     # GitHub scheduled runs can be delayed; this is a buffer, not a guarantee.
-    - cron: '30 21 * * 0-3,6'
+    - cron: '30 21 * * 0-4'
 permissions:
   contents: write
 concurrency:
