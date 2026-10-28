@@ -74,6 +74,8 @@ for key, label in labels.items():
         raise SystemExit(f"FAIL: invalid morning {key} percentage")
     if not row or row.get("change_percent") != quote.get("change_percent") or row.get("market_date") != quote.get("market_date"):
         raise SystemExit(f"FAIL: {key} mismatch")
+if quotes["sp500"]["market_date"] != quotes["sox"]["market_date"]:
+    raise SystemExit("FAIL: US market indices have different trading dates")
 if morning.get("market_snapshot_fresh") is not True:
     raise SystemExit("FAIL: morning briefing marks market snapshot as stale")
 intelligence = json.loads((data / "intelligence.json").read_text(encoding="utf-8"))
