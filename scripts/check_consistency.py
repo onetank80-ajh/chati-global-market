@@ -23,9 +23,17 @@ if not math.isfinite(delta):
 if delta > 2:
     raise SystemExit(f"FAIL: briefing uses different market snapshot ({delta:.1f}s)")
 labels = {"sp500": "미국 대형주", "sox": "반도체", "usdkrw": "원/달러"}
-indicators = {row.get("name"): row for row in morning.get("indicators", [])}
+indicator_rows = morning.get("indicators", [])
+if not isinstance(indicator_rows, list) or any(not isinstance(row, dict) for row in indicator_rows):
+    raise SystemExit("FAIL: malformed morning indicators")
+indicators = {row.get("name"): row for row in indicator_rows}
+quotes = market.get("markets", {})
+if not isinstance(quotes, dict):
+    raise SystemExit("FAIL: malformed market quotes")
 for key, label in labels.items():
-    quote = market.get("markets", {}).get(key, {})
+    quote = quotes.get(key, {})
+    if not isinstance(quote, dict):
+        raise SystemExit(f"FAIL: malformed {key} quote")
     if quote.get("status") != "ok":
         raise SystemExit(f"FAIL: required {key} quote unavailable")
     value = quote.get("change_percent")
@@ -50,9 +58,13 @@ intel_delta = abs((market_dt - intel_dt).total_seconds())
 if intel_delta > 2:
     raise SystemExit(f"FAIL: intelligence uses different market snapshot ({intel_delta:.1f}s)")
 signals = intelligence.get("market_signals", {})
+if not isinstance(signals, dict):
+    raise SystemExit("FAIL: malformed intelligence signals")
 for key in ("sp500", "sox", "usdkrw"):
-    quote = market["markets"][key]
+    quote = quotes[key]
     signal = signals.get(key, {})
+    if not isinstance(signal, dict):
+        raise SystemExit(f"FAIL: malformed intelligence {key} signal")
     if signal.get("status") != "ok" or signal.get("change_percent") != quote["change_percent"] or signal.get("market_date") != quote.get("market_date"):
         raise SystemExit(f"FAIL: intelligence {key} mismatch")
 print("PASS: morning briefing and intelligence match market snapshot")
