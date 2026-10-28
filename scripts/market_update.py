@@ -42,8 +42,8 @@ def fetch(symbol, name, unit):
 
 
 def main():
-    now = datetime.now(timezone.utc)
     items = {key: fetch(*spec) for key, spec in SYMBOLS.items()}
+    now = datetime.now(timezone.utc)
     output = {
         "schema_version": 1,
         "generated_at_utc": now.isoformat(),
