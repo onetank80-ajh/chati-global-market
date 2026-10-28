@@ -65,6 +65,13 @@ for key, label in labels.items():
         datetime.strptime(market_date, "%Y-%m-%d")
     except ValueError:
         raise SystemExit(f"FAIL: invalid {key} market date")
+    date_text = quote.get("market_date")
+    if not isinstance(date_text, str) or len(date_text) != 10:
+        raise SystemExit(f"FAIL: invalid {key} market date")
+    try:
+        datetime.strptime(date_text, "%Y-%m-%d")
+    except ValueError:
+        raise SystemExit(f"FAIL: invalid {key} market date")
     value = quote.get("change_percent")
     if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
         raise SystemExit(f"FAIL: invalid {key} percentage")
