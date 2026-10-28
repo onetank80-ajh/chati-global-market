@@ -20,7 +20,7 @@ SYMBOLS = {
 
 def fetch(symbol, name, unit):
     try:
-        frame = yf.Ticker(symbol).history(period="10d", interval="1d", auto_adjust=False)
+        frame = yf.Ticker(symbol).history(period="10d", interval="1d", auto_adjust=False, timeout=15)
         closes = frame["Close"].dropna()
         if len(closes) < 2:
             raise ValueError("Fewer than two daily closes")
