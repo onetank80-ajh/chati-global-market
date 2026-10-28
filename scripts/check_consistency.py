@@ -71,6 +71,14 @@ for key, label in labels.items():
     calendar_age = (datetime.now(timezone.utc).date() - trading_day).days
     if calendar_age < -1 or calendar_age > 7:
         raise SystemExit(f"FAIL: stale or future {key} market date")
+    market_date = quote.get("market_date")
+    if not isinstance(market_date, str):
+        raise SystemExit(f"FAIL: missing {key} market date")
+    try:
+        if datetime.strptime(market_date, "%Y-%m-%d").date().isoformat() != market_date:
+            raise ValueError("noncanonical market date")
+    except ValueError:
+        raise SystemExit(f"FAIL: invalid {key} market date")
     value = quote.get("change_percent")
     if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
         raise SystemExit(f"FAIL: invalid {key} percentage")
