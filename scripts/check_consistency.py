@@ -30,4 +30,20 @@ for key, label in labels.items():
         raise SystemExit(f"FAIL: {key} mismatch")
 if morning.get("market_snapshot_fresh") is not True:
     raise SystemExit("FAIL: morning briefing marks market snapshot as stale")
-print("PASS: morning briefing matches market snapshot")
+intelligence = json.loads((data / "intelligence.json").read_text(encoding="utf-8"))
+intel_time = intelligence.get("market_snapshot_at")
+if not intel_time:
+    raise SystemExit("FAIL: intelligence missing market snapshot timestamp")
+try:
+    intel_delta = abs((datetime.fromisoformat(market_time.replace("Z", "+00:00")) - datetime.fromisoformat(intel_time.replace("Z", "+00:00"))).total_seconds())
+except (ValueError, TypeError, AttributeError):
+    raise SystemExit("FAIL: invalid intelligence market snapshot timestamp")
+if intel_delta > 2:
+    raise SystemExit(f"FAIL: intelligence uses different market snapshot ({intel_delta:.1f}s)")
+signals = intelligence.get("market_signals", {})
+for key in ("sp500", "sox", "usdkrw"):
+    quote = market["markets"][key]
+    signal = signals.get(key, {})
+    if signal.get("status") != "ok" or signal.get("change_percent") != quote["change_percent"] or signal.get("market_date") != quote.get("market_date"):
+        raise SystemExit(f"FAIL: intelligence {key} mismatch")
+print("PASS: morning briefing and intelligence match market snapshot")
