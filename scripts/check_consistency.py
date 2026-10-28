@@ -40,6 +40,8 @@ for key, label in labels.items():
     if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
         raise SystemExit(f"FAIL: invalid {key} percentage")
     row = indicators.get(label)
+    if row and (isinstance(row.get("change_percent"), bool) or not isinstance(row.get("change_percent"), (int, float)) or not math.isfinite(row["change_percent"])):
+        raise SystemExit(f"FAIL: invalid morning {key} percentage")
     if not row or row.get("change_percent") != quote.get("change_percent") or row.get("market_date") != quote.get("market_date"):
         raise SystemExit(f"FAIL: {key} mismatch")
 if morning.get("market_snapshot_fresh") is not True:
