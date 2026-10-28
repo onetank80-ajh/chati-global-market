@@ -1,4 +1,4 @@
-import json, datetime, pathlib
+import json, datetime, pathlib, math
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'
 KST=datetime.timezone(datetime.timedelta(hours=9))
@@ -13,7 +13,7 @@ markets=market.get('markets',{})
 indicators=[]
 for key,label in [('sp500','미국 대형주'),('sox','반도체'),('usdkrw','원/달러')]:
     m=markets.get(key,{})
-    if m.get('status')=='ok' and isinstance(m.get('change_percent'),(int,float)):
+    if m.get('status')=='ok' and isinstance(m.get('change_percent'),(int,float)) and not isinstance(m.get('change_percent'),bool) and math.isfinite(m['change_percent']):
         v=m['change_percent']
         if key=='usdkrw': meaning='원화 강세 방향' if v<0 else '원화 약세 방향' if v>0 else '보합'
         else: meaning='상승' if v>0 else '하락' if v<0 else '보합'
