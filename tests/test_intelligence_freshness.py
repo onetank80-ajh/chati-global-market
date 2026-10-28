@@ -37,6 +37,14 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
         return json.loads((self.root / "data" / "intelligence.json").read_text())
 
+    def test_https_link_requires_nonempty_host(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now, "items": [
+            {"title": "Nvidia semiconductor stocks rise",
+             "url": "https:///missing-host", "published_at_utc": now}]})
+        self.assertEqual(result["headline_count_after"], 1)
+        self.assertEqual(result["top_headlines"][0]["url"], "")
+
     def test_unsafe_article_link_is_not_exposed(self):
         now = datetime.now(timezone.utc).isoformat()
         result = self.generate({"generated_at_utc": now, "items": [
