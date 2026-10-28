@@ -56,6 +56,9 @@ def main():
     }
     required = ("sp500", "sox", "usdkrw")
     missing = [key for key in required if items[key]["status"] != "ok"]
+    for key, item in items.items():
+        if item["status"] != "ok":
+            print(f"Quote unavailable: {key} ({item.get('symbol', key)}): {item.get('error', 'unknown error')}", flush=True)
     if missing:
         details = "; ".join(f"{key} ({items[key].get('symbol', key)}): {items[key].get('error', 'unknown error')}" for key in missing)
         raise RuntimeError("Required market data unavailable; keeping previous market.json. " + details)
