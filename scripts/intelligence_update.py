@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Deterministic headline-only intelligence; no LLM or verified forecasts."""
-import json,re,datetime, pathlib
+import json,re,datetime, pathlib, math
 from collections import Counter
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'
@@ -30,7 +30,10 @@ def main():
  rows.sort(key=lambda x:(-x['relevance_score'],x['age_hours']))
  markets=market.get('markets',{}); signals={}
  for k in ('sp500','sox','usdkrw','nasdaq'):
-  d=markets.get(k,{});signals[k]={'change_percent':d.get('change_percent'),'market_date':d.get('market_date'),'status':d.get('status','missing')}
+  d=markets.get(k,{})
+  v=d.get('change_percent')
+  valid=d.get('status')=='ok' and isinstance(v,(int,float)) and not isinstance(v,bool) and math.isfinite(v)
+  signals[k]={'change_percent':v if valid else None,'market_date':d.get('market_date') if valid else None,'status':'ok' if valid else 'unavailable'}
  sox=signals['sox']['change_percent'];sp=signals['sp500']['change_percent'];fx=signals['usdkrw']['change_percent']
  sectors=[{'name':'반도체','related_stocks':['삼성전자','SK하이닉스'],'view':('변동성 주의' if isinstance(sox,(int,float)) and sox<0 else '방향 확인 필요'),'basis':'필라델피아 반도체지수와 관련 뉴스 제목'},{'name':'미국 대형주 연동','related_stocks':[],'view':('우호적 참고' if isinstance(sp,(int,float)) and sp>0 else '방향 확인 필요'),'basis':'S&P500 종가 방향'},{'name':'환율 민감 업종','related_stocks':[],'view':('원화 강세 참고' if isinstance(fx,(int,float)) and fx<0 else '환율 변동 확인'),'basis':'원/달러 환율 변화'}]
  output={'schema_version':1,'generated_at_utc':now.isoformat(),'analysis_kind':'rule_based_headlines_only_no_translation_no_ai_no_prediction','headline_count_before':len(news.get('items',[])),'headline_count_after':len(rows),'market_signals':signals,'sectors':sectors,'top_headlines':rows[:12],'cautions':['기사 본문과 제목 사실관계 미검증','관련성 점수는 확률/매매신호가 아님','뉴스 제목은 자동 번역되지 않음','7:30 예약 실행은 지연될 수 있음']}
