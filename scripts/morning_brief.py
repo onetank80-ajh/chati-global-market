@@ -10,9 +10,11 @@ def read(name):
         return {}
 market=read('market.json'); news=read('news.json'); intel=read('intelligence.json')
 markets=market.get('markets',{})
+if not isinstance(markets,dict): markets={}
 indicators=[]
 for key,label in [('sp500','미국 대형주'),('sox','반도체'),('usdkrw','원/달러')]:
     m=markets.get(key,{})
+    if not isinstance(m,dict): m={}
     if m.get('status')=='ok' and isinstance(m.get('change_percent'),(int,float)) and not isinstance(m.get('change_percent'),bool) and math.isfinite(m['change_percent']):
         v=m['change_percent']
         if key=='usdkrw': meaning='원화 강세 방향' if v<0 else '원화 약세 방향' if v>0 else '보합'
