@@ -39,7 +39,7 @@ if news_fresh:
         title=item.get('title'); url=item.get('url')
         published_age=age_hours(item.get('published_at_utc'))
         if isinstance(title,str) and title.strip() and isinstance(url,str) and url.startswith('https://') and len(url.split('/')[2])>0 and not any(c.isspace() for c in url) and isinstance(item.get('published_at_utc'),str) and published_age is not None and 0<=published_age<=48:
-            headlines.append({'title':title,'url':url,'source':item.get('source',''),'published_at_utc':item.get('published_at_utc','')})
+            headlines.append({'title':title,'url':url,'source':item.get('source') if isinstance(item.get('source'),str) else '', 'published_at_utc':item['published_at_utc']})
         if len(headlines)>=8: break
 intel_age=age_hours(intel.get('generated_at_utc') or intel.get('generated_at_kst'))
 intel_time_fresh=intel_age is not None and 0<=intel_age<=24
