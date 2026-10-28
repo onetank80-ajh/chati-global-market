@@ -2,8 +2,9 @@ name: Chati Global Market
 on:
   workflow_dispatch:
   schedule:
-    # Once at 07:00 KST weekdays; avoid duplicate market refresh billing.
-    - cron: '0 22 * * 0-4'
+    # Start at 06:30 KST weekdays to allow upstream retries before 07:30 briefing.
+    # GitHub scheduled runs can be delayed; this is a buffer, not a guarantee.
+    - cron: '30 21 * * 0-4'
 permissions:
   contents: write
 concurrency:
