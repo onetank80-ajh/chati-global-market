@@ -10,8 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class MobileJavaScriptSyntaxTests(unittest.TestCase):
-    @unittest.skipUnless(shutil.which("node"), "Node.js is not installed")
     def test_inline_scripts_parse(self):
+        self.assertIsNotNone(shutil.which("node"), "Node.js is required for HTML JavaScript syntax verification")
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         scripts = re.findall(r"<script\b[^>]*>([\s\S]*?)</script>", html, re.IGNORECASE)
         self.assertTrue(scripts, "No inline JavaScript found in index.html")
