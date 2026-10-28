@@ -44,7 +44,11 @@ def fetch(symbol, name, unit):
 
 
 def main():
-    items = {key: fetch(*spec) for key, spec in SYMBOLS.items()}
+    items = {}
+    for key, spec in SYMBOLS.items():
+        print(f"Fetching quote: {key} ({spec[0]})", flush=True)
+        items[key] = fetch(*spec)
+        print(f"Quote result: {key} status={items[key].get('status', 'missing')}", flush=True)
     now = datetime.now(timezone.utc)
     output = {
         "schema_version": 1,
