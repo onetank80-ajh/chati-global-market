@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-27T07:52:26.626070+00:00",
-  "generated_at_kst": "2026-10-27T16:52:26.626070+09:00",
+  "generated_at_utc": "2026-10-28T08:03:31.848565+00:00",
+  "generated_at_kst": "2026-10-28T17:03:31.848565+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
@@ -9,41 +9,41 @@
       "symbol": "^KS11",
       "name": "코스피",
       "status": "ok",
-      "market_date": "2026-10-27",
-      "close": 5638.34,
-      "previous_close": 5469.47,
-      "change_percent": 3.087,
-      "volume": 183135
+      "market_date": "2026-10-28",
+      "close": 6012.44,
+      "previous_close": 5638.34,
+      "change_percent": 6.635,
+      "volume": 223200
     },
     "kosdaq": {
       "symbol": "^KQ11",
       "name": "코스닥",
       "status": "ok",
-      "market_date": "2026-10-27",
-      "close": 743.83,
-      "previous_close": 727.21,
-      "change_percent": 2.285,
-      "volume": 502562
+      "market_date": "2026-10-28",
+      "close": 771.28,
+      "previous_close": 743.83,
+      "change_percent": 3.69,
+      "volume": 533015
     },
     "samsung": {
       "symbol": "005930.KS",
       "name": "삼성전자",
       "status": "ok",
-      "market_date": "2026-10-27",
-      "close": 222000.0,
-      "previous_close": 213000.0,
-      "change_percent": 4.225,
-      "volume": 15223029
+      "market_date": "2026-10-28",
+      "close": 242000.0,
+      "previous_close": 222000.0,
+      "change_percent": 9.009,
+      "volume": 18514878
     },
     "skhynix": {
       "symbol": "000660.KS",
       "name": "SK하이닉스",
       "status": "ok",
-      "market_date": "2026-10-27",
-      "close": 1341000.0,
-      "previous_close": 1275000.0,
-      "change_percent": 5.176,
-      "volume": 3146361
+      "market_date": "2026-10-28",
+      "close": 1487000.0,
+      "previous_close": 1341000.0,
+      "change_percent": 10.887,
+      "volume": 4232283
     }
   }
 }
