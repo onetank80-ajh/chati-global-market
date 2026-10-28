@@ -322,6 +322,17 @@ class MorningPipelineTests(unittest.TestCase):
         morning = json.loads((self.root / "data" / "morning.json").read_text())
         self.assertEqual([row["title"] for row in morning["headlines"]], ["Valid market story"])
 
+    def test_nontext_news_source_is_normalized(self):
+        now = datetime.now(timezone.utc).isoformat()
+        self.write("news.json", {"generated_at_utc": now, "items": [
+            {"title": "Market news", "url": "https://example.com/article",
+             "source": {"unexpected": "object"}, "published_at_utc": now}]})
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(len(morning["headlines"]), 1)
+        self.assertEqual(morning["headlines"][0]["source"], "")
+
     def test_malformed_news_list_does_not_crash(self):
         now = datetime.now(timezone.utc).isoformat()
         self.write("news.json", {"generated_at_utc": now, "items": {"unexpected": "object"}})
