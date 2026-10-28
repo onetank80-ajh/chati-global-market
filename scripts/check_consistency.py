@@ -55,6 +55,8 @@ except (ValueError, TypeError, AttributeError):
 if intel_dt.tzinfo is None:
     raise SystemExit("FAIL: intelligence market snapshot timestamp missing timezone")
 intel_delta = abs((market_dt - intel_dt).total_seconds())
+if not math.isfinite(intel_delta):
+    raise SystemExit("FAIL: invalid intelligence snapshot delta")
 if intel_delta > 2:
     raise SystemExit(f"FAIL: intelligence uses different market snapshot ({intel_delta:.1f}s)")
 signals = intelligence.get("market_signals", {})
