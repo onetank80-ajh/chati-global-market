@@ -27,6 +27,18 @@ if not math.isfinite(delta):
     raise SystemExit("FAIL: invalid market snapshot delta")
 if delta > 2:
     raise SystemExit(f"FAIL: briefing uses different market snapshot ({delta:.1f}s)")
+def validate_generation_time(document, label):
+    stamp = document.get("generated_at_kst") or document.get("generated_at_utc")
+    try:
+        generated = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+    except (ValueError, TypeError, AttributeError):
+        raise SystemExit(f"FAIL: invalid {label} generation timestamp")
+    if generated.tzinfo is None:
+        raise SystemExit(f"FAIL: {label} generation timestamp missing timezone")
+    if generated < market_dt or (generated - datetime.now(timezone.utc)).total_seconds() > 120:
+        raise SystemExit(f"FAIL: {label} generation time outside market snapshot window")
+
+validate_generation_time(morning, "morning")
 labels = {"sp500": "미국 대형주", "sox": "반도체", "usdkrw": "원/달러"}
 indicator_rows = morning.get("indicators", [])
 if not isinstance(indicator_rows, list) or any(not isinstance(row, dict) for row in indicator_rows):
@@ -66,6 +78,7 @@ if morning.get("market_snapshot_fresh") is not True:
 intelligence = json.loads((data / "intelligence.json").read_text(encoding="utf-8"))
 if not isinstance(intelligence, dict):
     raise SystemExit("FAIL: malformed intelligence document")
+validate_generation_time(intelligence, "intelligence")
 intel_time = intelligence.get("market_snapshot_at")
 if not intel_time:
     raise SystemExit("FAIL: intelligence missing market snapshot timestamp")
