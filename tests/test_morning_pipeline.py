@@ -59,6 +59,23 @@ class MorningPipelineTests(unittest.TestCase):
         result = self.run_script("check_consistency.py")
         self.assertNotEqual(result.returncode, 0)
 
+    def test_missing_required_quote_blocks_publication(self):
+        self.market["markets"]["sox"] = {"status": "unavailable"}
+        self.save_market()
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("required sox quote unavailable", result.stdout + result.stderr)
+
+    def test_snapshot_timestamp_mismatch_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        morning["market_snapshot_at"] = "2020-01-01T00:00:00+00:00"
+        self.write("morning.json", morning)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("different market snapshot", result.stdout + result.stderr)
+
     def test_nonfinite_quote_does_not_publish(self):
         self.market["markets"]["sox"]["change_percent"] = float("nan")
         self.save_market()
