@@ -76,6 +76,24 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different market snapshot", result.stdout + result.stderr)
 
+    def test_malformed_news_list_does_not_crash(self):
+        now = datetime.now(timezone.utc).isoformat()
+        self.write("news.json", {"generated_at_utc": now, "items": {"unexpected": "object"}})
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["headlines"], [])
+
+    def test_timezone_naive_market_timestamp_is_stale(self):
+        self.market["generated_at_utc"] = "2026-10-28T07:00:00"
+        self.market["generated_at_kst"] = "2026-10-28T07:00:00"
+        self.save_market()
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertFalse(morning["market_snapshot_fresh"])
+        self.assertIsNone(morning["market_snapshot_age_hours"])
+
     def test_stale_news_is_not_republished(self):
         self.write("news.json", {
             "generated_at_utc": "2020-01-01T00:00:00+00:00",
