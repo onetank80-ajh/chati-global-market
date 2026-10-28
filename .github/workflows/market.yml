@@ -45,6 +45,15 @@ jobs:
           done
           echo "Market fetch failed after 3 attempts; keeping previous snapshot" >&2
           exit 1
+      - name: Preserve market failure evidence
+        if: failure()
+        run: |
+          echo "::error::Market pipeline failed. Inspect the first failed step and its per-symbol quote logs."
+          echo "UTC: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+          echo "Run ID: ${GITHUB_RUN_ID}"
+          echo "Run URL: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          echo "Checked out commit: ${GITHUB_SHA}"
+          git status --short
       - name: Fetch headlines
         run: python scripts/news_update.py
         continue-on-error: true
