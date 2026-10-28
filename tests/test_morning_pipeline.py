@@ -103,6 +103,25 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertTrue(morning["news_snapshot_fresh"])
         self.assertEqual([h["title"] for h in morning["headlines"]], ["Recent"])
 
+    def test_changed_intelligence_snapshot_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_snapshot_at"] = "2020-01-01T00:00:00+00:00"
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("intelligence uses different market snapshot",
+                      result.stdout + result.stderr)
+
+    def test_changed_intelligence_quote_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_signals"]["sox"]["change_percent"] = -99.0
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("intelligence sox mismatch", result.stdout + result.stderr)
+
     def test_nonfinite_quote_does_not_publish(self):
         self.market["markets"]["sox"]["change_percent"] = float("nan")
         self.save_market()
