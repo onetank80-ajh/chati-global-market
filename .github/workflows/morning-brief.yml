@@ -19,13 +19,17 @@ jobs:
           python-version: '3.12'
       - name: Sync latest snapshots
         run: git pull --rebase origin main
+      - name: Refresh derived intelligence from existing JSON snapshots
+        run: python scripts/intelligence_update.py
       - name: Generate morning brief from existing JSON snapshots
         run: python scripts/morning_brief.py
+      - name: Check briefing consistency before commit
+        run: python scripts/check_consistency.py
       - name: Commit updated JSON
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/morning.json
+          git add data/morning.json data/intelligence.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update morning briefing data'
             git pull --rebase origin main
