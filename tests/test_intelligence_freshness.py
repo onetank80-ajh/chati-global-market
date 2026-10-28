@@ -66,6 +66,21 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         self.assertFalse(result["news_snapshot_fresh"])
         self.assertEqual(result["top_headlines"], [])
 
+    def test_malformed_news_items_do_not_crash(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now, "items": [
+            None, "invalid", {"title": "Nvidia semiconductor stocks rise",
+                              "url": "https://example.com/new",
+                              "published_at_utc": now}]})
+        self.assertEqual(result["headline_count_after"], 1)
+
+    def test_naive_article_time_is_excluded(self):
+        now = datetime.now(timezone.utc)
+        result = self.generate({"generated_at_utc": now.isoformat(),
+                                "items": [{"title": "Nvidia semiconductor stocks rise",
+                                           "published_at_utc": now.replace(tzinfo=None).isoformat()}]})
+        self.assertEqual(result["top_headlines"], [])
+
     def test_old_article_excluded_even_with_fresh_snapshot(self):
         now = datetime.now(timezone.utc).isoformat()
         result = self.generate({"generated_at_utc": now,
