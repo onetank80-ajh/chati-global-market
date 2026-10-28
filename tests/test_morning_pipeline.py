@@ -231,6 +231,16 @@ class MorningPipelineTests(unittest.TestCase):
         morning = json.loads((self.root / "data" / "morning.json").read_text())
         self.assertEqual(morning["sectors"], [{"name": "current sector"}])
 
+    def test_extreme_intelligence_timestamp_hides_sectors(self):
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_snapshot_at"] = "9999-12-31T23:59:59+00:00"
+        intelligence["sectors"] = [{"name": "out-of-range sector"}]
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["sectors"], [])
+
     def test_naive_intelligence_timestamp_hides_sectors(self):
         intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
         intelligence["market_snapshot_at"] = "2026-10-28T07:00:00"
