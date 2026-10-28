@@ -11,13 +11,15 @@ source_time = morning.get("market_snapshot_at")
 if not market_time or not source_time:
     raise SystemExit("FAIL: missing market snapshot timestamp")
 try:
-    delta = abs((datetime.fromisoformat(market_time.replace("Z", "+00:00")) - datetime.fromisoformat(source_time.replace("Z", "+00:00"))).total_seconds())
+    market_dt = datetime.fromisoformat(market_time.replace("Z", "+00:00"))
+    source_dt = datetime.fromisoformat(source_time.replace("Z", "+00:00"))
 except (ValueError, TypeError, AttributeError):
     raise SystemExit("FAIL: invalid market snapshot timestamp")
+if market_dt.tzinfo is None or source_dt.tzinfo is None:
+    raise SystemExit("FAIL: market snapshot timestamp missing timezone")
+delta = abs((market_dt - source_dt).total_seconds())
 if not math.isfinite(delta):
     raise SystemExit("FAIL: invalid market snapshot delta")
-if datetime.fromisoformat(market_time.replace("Z", "+00:00")).tzinfo is None or datetime.fromisoformat(source_time.replace("Z", "+00:00")).tzinfo is None:
-    raise SystemExit("FAIL: market snapshot timestamp missing timezone")
 if delta > 2:
     raise SystemExit(f"FAIL: briefing uses different market snapshot ({delta:.1f}s)")
 labels = {"sp500": "미국 대형주", "sox": "반도체", "usdkrw": "원/달러"}
@@ -39,11 +41,12 @@ intel_time = intelligence.get("market_snapshot_at")
 if not intel_time:
     raise SystemExit("FAIL: intelligence missing market snapshot timestamp")
 try:
-    intel_delta = abs((datetime.fromisoformat(market_time.replace("Z", "+00:00")) - datetime.fromisoformat(intel_time.replace("Z", "+00:00"))).total_seconds())
+    intel_dt = datetime.fromisoformat(intel_time.replace("Z", "+00:00"))
 except (ValueError, TypeError, AttributeError):
     raise SystemExit("FAIL: invalid intelligence market snapshot timestamp")
-if datetime.fromisoformat(intel_time.replace("Z", "+00:00")).tzinfo is None:
+if intel_dt.tzinfo is None:
     raise SystemExit("FAIL: intelligence market snapshot timestamp missing timezone")
+intel_delta = abs((market_dt - intel_dt).total_seconds())
 if intel_delta > 2:
     raise SystemExit(f"FAIL: intelligence uses different market snapshot ({intel_delta:.1f}s)")
 signals = intelligence.get("market_signals", {})
