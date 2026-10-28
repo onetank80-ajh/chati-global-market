@@ -47,6 +47,15 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertIn('drift:.1f}s', content)
         self.assertIn("(allowed: 2s)", content)
 
+    def test_diagnostics_run_after_failure_and_show_missing_snapshot(self):
+        content = MARKET.read_text(encoding="utf-8")
+        diagnostics = content.index("- name: Publish snapshot diagnostics")
+        self.assertGreater(diagnostics, content.index("- name: Fetch market snapshot"))
+        section = content[diagnostics:]
+        self.assertIn("if: always()", section)
+        self.assertIn("missing market_snapshot_at", section)
+        self.assertIn("Snapshot drift:", section)
+
     def test_market_refresh_requires_both_derived_files(self):
         content = MARKET.read_text(encoding="utf-8")
         self.assertIn("for derived in data/intelligence.json data/morning.json", content)
