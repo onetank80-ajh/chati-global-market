@@ -122,6 +122,15 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("intelligence sox mismatch", result.stdout + result.stderr)
 
+    def test_matching_intelligence_sectors_are_kept(self):
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["sectors"] = [{"name": "current sector"}]
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["sectors"], [{"name": "current sector"}])
+
     def test_stale_intelligence_sectors_hidden_from_morning(self):
         intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
         intelligence["generated_at_utc"] = "2020-01-01T00:00:00+00:00"
