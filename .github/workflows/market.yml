@@ -36,6 +36,29 @@ jobs:
         run: python scripts/morning_brief.py
       - name: Check briefing consistency
         run: python scripts/check_consistency.py
+      - name: Publish snapshot diagnostics
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          lines = ["## Chati market snapshot diagnostics", ""]
+          for filename in ("market.json", "intelligence.json", "morning.json"):
+              path = Path("data") / filename
+              try:
+                  data = json.loads(path.read_text(encoding="utf-8"))
+                  generated = data.get("generated_at_kst") or data.get("generated_at_utc") or "missing"
+                  source = data.get("market_snapshot_at") or "—"
+                  lines.append(f"- **{filename}**: generated `{generated}`, market snapshot `{source}`")
+              except (OSError, ValueError, AttributeError) as exc:
+                  lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
+          lines.append("")
+          lines.append("See the failed step above for the exact error. No partial market data should be published.")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
+              out.write("\\n".join(lines) + "\\n")
+          PY
       - name: Commit data files
         run: |
           git config user.name "github-actions[bot]"
