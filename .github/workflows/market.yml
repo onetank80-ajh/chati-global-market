@@ -82,7 +82,7 @@ jobs:
                   lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
           lines.append("")
           lines.append("### Publication state")
-          lines.append(f"- Publish step outcome: \`{os.environ.get('PUBLISH_OUTCOME', 'unknown')}\`")
+          lines.append(f"- Publish step outcome: `{os.environ.get('PUBLISH_OUTCOME', 'unknown')}`")
           lines.append(f"- Job status: \`{os.environ.get('JOB_STATUS', 'unknown')}\`")
           lines.append("- A successful publish step means its commands completed; inspect the Git log for whether a new commit was needed.")
           lines.append("- Inspect the failing step logs for the underlying provider or Git error.")
