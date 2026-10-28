@@ -74,6 +74,15 @@ class IntelligenceFreshnessTests(unittest.TestCase):
                               "published_at_utc": now}]})
         self.assertEqual(result["headline_count_after"], 1)
 
+    def test_nontext_headlines_are_excluded(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now, "items": [
+            {"title": {"unexpected": "object"}, "published_at_utc": now},
+            {"title": ["unexpected", "list"], "published_at_utc": now},
+            {"title": "Nvidia semiconductor stocks rise", "published_at_utc": now}]})
+        self.assertEqual(result["headline_count_after"], 1)
+        self.assertEqual(result["top_headlines"][0]["title"], "Nvidia semiconductor stocks rise")
+
     def test_naive_news_snapshot_blocks_news_without_crashing(self):
         now = datetime.now(timezone.utc)
         result = self.generate({"generated_at_utc": now.replace(tzinfo=None).isoformat(),
