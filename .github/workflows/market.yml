@@ -2,9 +2,8 @@ name: Chati Global Market
 on:
   workflow_dispatch:
   schedule:
-    # 07:00 and 07:10 KST on weekdays (UTC previous day).
+    # Once at 07:00 KST weekdays; avoid duplicate market refresh billing.
     - cron: '0 22 * * 0-4'
-    - cron: '10 22 * * 0-4'
 permissions:
   contents: write
 concurrency:
