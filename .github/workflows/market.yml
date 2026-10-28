@@ -32,6 +32,8 @@ jobs:
         run: python scripts/intelligence_update.py
       - name: Generate morning briefing from fresh snapshots
         run: python scripts/morning_brief.py
+      - name: Check briefing consistency
+        run: python scripts/check_consistency.py
       - name: Commit data files
         run: |
           git config user.name "github-actions[bot]"
