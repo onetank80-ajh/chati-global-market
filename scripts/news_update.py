@@ -22,7 +22,7 @@ def get_news(group, query):
         xml = response.read(1024 * 1024)
     root = ET.fromstring(xml)
     items = []
-    for node in root.findall('./channel/item')[:8]:
+    for node in root.findall('./channel/item')[:40]:
         title = (node.findtext('title') or '').strip()
         url = (node.findtext('link') or '').strip()
         published = (node.findtext('pubDate') or '').strip()
@@ -41,6 +41,8 @@ def get_news(group, query):
             continue
         items.append({'category': group, 'title': title[:240], 'url': url,
                       'source': source[:100], 'published_at_utc': stamp})
+        if len(items) >= 8:
+            break
     return items
 
 def main():
