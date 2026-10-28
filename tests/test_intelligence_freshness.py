@@ -51,6 +51,14 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         self.assertEqual(result["headline_count_after"], 1)
         self.assertEqual(result["top_headlines"][0]["url"], "")
 
+    def test_whitespace_inside_https_link_is_sanitized(self):
+        now = datetime.now(timezone.utc).isoformat()
+        result = self.generate({"generated_at_utc": now, "items": [
+            {"title": "Semiconductor industry gains",
+             "url": "https://example.com/path with spaces", "published_at_utc": now}]})
+        self.assertEqual(result["headline_count_after"], 1)
+        self.assertEqual(result["top_headlines"][0]["url"], "")
+
     def test_unsafe_article_link_is_not_exposed(self):
         now = datetime.now(timezone.utc).isoformat()
         result = self.generate({"generated_at_utc": now, "items": [
