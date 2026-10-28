@@ -59,6 +59,15 @@ class MorningPipelineTests(unittest.TestCase):
         result = self.run_script("check_consistency.py")
         self.assertNotEqual(result.returncode, 0)
 
+    def test_missing_quote_market_date_blocks_publication(self):
+        self.market["markets"]["sox"]["market_date"] = None
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("invalid sox market date", result.stdout + result.stderr)
+
     def test_missing_required_quote_blocks_publication(self):
         self.market["markets"]["sox"] = {"status": "unavailable"}
         self.save_market()
