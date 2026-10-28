@@ -25,6 +25,8 @@ def main():
   if not isinstance(item,dict):continue
   title=item.get('title','')
   if not isinstance(title,str) or not title.strip():continue
+  url=item.get('url')
+  if not isinstance(url,str) or not url.startswith('https:'):continue
   k=key(title)
   if not k or k in seen:continue
   try:
