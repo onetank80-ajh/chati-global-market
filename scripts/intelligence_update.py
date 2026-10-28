@@ -23,7 +23,9 @@ def main():
  except (AttributeError,ValueError,TypeError):news_fresh=False
  for item in (news.get('items',[]) if news_fresh and isinstance(news.get('items'),list) else []):
   if not isinstance(item,dict):continue
-  title=item.get('title','');k=key(title)
+  title=item.get('title','')
+  if not isinstance(title,str) or not title.strip():continue
+  k=key(title)
   if not k or k in seen:continue
   try:
    dt=datetime.datetime.fromisoformat(item['published_at_utc'].replace('Z','+00:00'))
