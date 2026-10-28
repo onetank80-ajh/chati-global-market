@@ -1,7 +1,7 @@
 name: Chati Morning Brief 0730 KST
 on:
-  schedule:
-    - cron: '30 22 * * 0-4' # UTC Sunday-Thursday = KST Monday-Friday 07:30
+  # Scheduled generation is handled by market.yml at 07:00 KST.
+  # Keep manual dispatch as a recovery option without daily Actions minutes.
   workflow_dispatch:
 permissions:
   contents: write
