@@ -39,6 +39,7 @@ def main():
   if not 0<=age<=48:continue
   seen.add(k)
   c=clean(title);cat=item.get('category','')
+  if not isinstance(cat,str):cat=''
   semiconductor=bool(re.search(r'chip|semiconductor|nvidia|amd|tsmc|hynix|삼성전자|반도체',c))
   macro=bool(re.search(r'fed|inflation|interest rate|rate hike|tariff|환율|금리',c))
   korea=bool(re.search(r'korea|kospi|kosdaq|samsung|hynix|한국|코스피|코스닥',c))
