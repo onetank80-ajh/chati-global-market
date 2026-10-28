@@ -37,6 +37,7 @@ jobs:
       - name: Check briefing consistency
         run: python scripts/check_consistency.py
       - name: Commit data files
+        id: publish
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -62,6 +63,7 @@ jobs:
         if: always()
         env:
           JOB_STATUS: ${{ job.status }}
+          PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
           python - <<'PY'
           import json
@@ -80,8 +82,9 @@ jobs:
                   lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
           lines.append("")
           lines.append("### Publication state")
+          lines.append(f"- Publish step outcome: \`{os.environ.get('PUBLISH_OUTCOME', 'unknown')}\`")
           lines.append(f"- Job status: \`{os.environ.get('JOB_STATUS', 'unknown')}\`")
-          lines.append("- Failed jobs do not publish new snapshots unless the commit/push step completed.")
+          lines.append("- A successful publish step means its commands completed; inspect the Git log for whether a new commit was needed.")
           lines.append("- Inspect the failing step logs for the underlying provider or Git error.")
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
               out.write("\n".join(lines) + "\n")
