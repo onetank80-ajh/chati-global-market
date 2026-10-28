@@ -48,6 +48,25 @@ jobs:
       - name: Check briefing consistency before commit
         if: steps.drift.outputs.repair == 'true'
         run: python scripts/check_consistency.py
+      - name: Report recovery evidence
+        if: always()
+        env:
+          REPAIR_DECISION: ${{ steps.drift.outputs.repair }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          for name in ("market", "intelligence", "morning"):
+              path = Path("data") / (name + ".json")
+              try:
+                  data = json.loads(path.read_text(encoding="utf-8"))
+                  print(f"{name}: generated={data.get('generated_at_kst') or data.get('generated_at_utc')} source_market={data.get('market_snapshot_at', 'self')}")
+              except (OSError, ValueError) as exc:
+                  print(f"{name}: unavailable ({exc})")
+          print(f"repair={os.environ.get('REPAIR_DECISION')} status={os.environ.get('JOB_STATUS')}")
+          print(f"run_url={os.environ.get('GITHUB_SERVER_URL')}/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}")
+          PY
       - name: Commit updated JSON
         if: steps.drift.outputs.repair == 'true'
         run: |
