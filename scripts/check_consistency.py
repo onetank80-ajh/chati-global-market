@@ -1,5 +1,6 @@
 import json
 from datetime import datetime
+import math
 from pathlib import Path
 
 data = Path(__file__).resolve().parents[1] / "data"
@@ -18,6 +19,9 @@ for key, label in labels.items():
     quote = market.get("markets", {}).get(key, {})
     if quote.get("status") != "ok":
         raise SystemExit(f"FAIL: required {key} quote unavailable")
+    value = quote.get("change_percent")
+    if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
+        raise SystemExit(f"FAIL: invalid {key} percentage")
     row = indicators.get(label)
     if not row or row.get("change_percent") != quote.get("change_percent") or row.get("market_date") != quote.get("market_date"):
         raise SystemExit(f"FAIL: {key} mismatch")
