@@ -36,6 +36,28 @@ jobs:
         run: python scripts/morning_brief.py
       - name: Check briefing consistency
         run: python scripts/check_consistency.py
+      - name: Commit data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market.json data/intelligence.json data/morning.json
+          if [ -f data/news.json ]; then git add data/news.json; fi
+          if [ -f data/briefing.json ]; then git add data/briefing.json; fi
+          # Derived intelligence and morning briefing must be committed with every new market snapshot.
+          if git diff --cached --name-only -- data/market.json | grep -qx 'data/market.json'; then
+            for derived in data/intelligence.json data/morning.json; do
+              if ! git diff --cached --name-only -- "$derived" | grep -qx "$derived"; then
+                echo "FAIL: market.json changed without $derived; refusing partial publish" >&2
+                exit 1
+              fi
+            done
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Chati market intelligence"
+            git pull --rebase origin main
+            python scripts/check_consistency.py
+            git push origin HEAD:main
+          fi
       - name: Publish snapshot diagnostics
         if: always()
         run: |
@@ -59,25 +81,3 @@ jobs:
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
               out.write("\n".join(lines) + "\n")
           PY
-      - name: Commit data files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market.json data/intelligence.json data/morning.json
-          if [ -f data/news.json ]; then git add data/news.json; fi
-          if [ -f data/briefing.json ]; then git add data/briefing.json; fi
-          # Derived intelligence and morning briefing must be committed with every new market snapshot.
-          if git diff --cached --name-only -- data/market.json | grep -qx 'data/market.json'; then
-            for derived in data/intelligence.json data/morning.json; do
-              if ! git diff --cached --name-only -- "$derived" | grep -qx "$derived"; then
-                echo "FAIL: market.json changed without $derived; refusing partial publish" >&2
-                exit 1
-              fi
-            done
-          fi
-          if ! git diff --cached --quiet; then
-            git commit -m "Update Chati market intelligence"
-            git pull --rebase origin main
-            python scripts/check_consistency.py
-            git push origin HEAD:main
-          fi
