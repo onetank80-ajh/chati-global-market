@@ -76,6 +76,33 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different market snapshot", result.stdout + result.stderr)
 
+    def test_stale_news_is_not_republished(self):
+        self.write("news.json", {
+            "generated_at_utc": "2020-01-01T00:00:00+00:00",
+            "items": [{"title": "Old headline", "url": "https://example.com/old",
+                       "published_at_utc": "2020-01-01T00:00:00+00:00"}],
+        })
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertFalse(morning["news_snapshot_fresh"])
+        self.assertEqual(morning["headlines"], [])
+        self.assertTrue(any("뉴스 수집 시각" in w for w in morning["warnings"]))
+
+    def test_recent_news_keeps_only_recent_articles(self):
+        now = datetime.now(timezone.utc).isoformat()
+        self.write("news.json", {
+            "generated_at_utc": now,
+            "items": [
+                {"title": "Recent", "url": "https://example.com/new", "published_at_utc": now},
+                {"title": "Old", "url": "https://example.com/old",
+                 "published_at_utc": "2020-01-01T00:00:00+00:00"},
+            ],
+        })
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertTrue(morning["news_snapshot_fresh"])
+        self.assertEqual([h["title"] for h in morning["headlines"]], ["Recent"])
+
     def test_nonfinite_quote_does_not_publish(self):
         self.market["markets"]["sox"]["change_percent"] = float("nan")
         self.save_market()
