@@ -122,6 +122,17 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("FAIL: malformed intelligence signals", result.stdout + result.stderr)
 
+    def test_nonobject_input_roots_do_not_crash_briefing(self):
+        self.write("market.json", [])
+        self.write("news.json", None)
+        self.write("intelligence.json", "invalid")
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["indicators"], [])
+        self.assertEqual(morning["headlines"], [])
+        self.assertEqual(morning["sectors"], [])
+
     def test_malformed_market_quote_does_not_crash_briefing(self):
         self.market["markets"]["sox"] = None
         self.save_market()
