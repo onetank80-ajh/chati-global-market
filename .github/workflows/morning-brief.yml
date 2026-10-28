@@ -29,5 +29,6 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m 'Update morning briefing data'
             git pull --rebase origin main
+            python scripts/check_consistency.py
             git push origin HEAD:main
           fi
