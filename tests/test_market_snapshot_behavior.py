@@ -80,6 +80,26 @@ class MarketSnapshotTests(unittest.TestCase):
             finally:
                 os.chdir(original)
 
+    def test_quote_fetch_progress_logs_all_symbols(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            original = os.getcwd()
+            try:
+                os.chdir(tmp)
+                def fake_fetch(symbol, name, unit):
+                    return {"symbol": symbol, "name": name, "unit": unit,
+                            "status": "ok", "change_percent": 0.1,
+                            "market_date": "2026-10-28"}
+                from io import StringIO
+                with patch.object(market_update, "fetch", side_effect=fake_fetch):
+                    with patch("sys.stdout", new_callable=StringIO) as output:
+                        market_update.main()
+                logs = output.getvalue()
+                for key, (symbol, _, _) in market_update.SYMBOLS.items():
+                    self.assertIn(f"Fetching quote: {key} ({symbol})", logs)
+                    self.assertIn(f"Quote result: {key} status=ok", logs)
+            finally:
+                os.chdir(original)
+
     def test_optional_failure_logs_symbol_and_reason(self):
         with tempfile.TemporaryDirectory() as tmp:
             original = os.getcwd()
