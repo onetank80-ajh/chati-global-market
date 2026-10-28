@@ -42,9 +42,12 @@ def main():
   tags=(["한국시장 직접언급"] if korea else [])+(["반도체/AI"] if semiconductor else [])+(["거시경제"] if macro else [])
   rows.append({'title':title,'url':item.get('url',''),'source':item.get('source',''), 'published_at_utc':item['published_at_utc'],'age_hours':round(age,1),'relevance_score':score,'tags':tags,'category':cat,'needs_verification':True})
  rows.sort(key=lambda x:(-x['relevance_score'],x['age_hours']))
- markets=market.get('markets',{}); signals={}
+ markets=market.get('markets',{})
+ if not isinstance(markets,dict):markets={}
+ signals={}
  for k in ('sp500','sox','usdkrw','nasdaq'):
   d=markets.get(k,{})
+  if not isinstance(d,dict):d={}
   v=d.get('change_percent')
   valid=d.get('status')=='ok' and isinstance(v,(int,float)) and not isinstance(v,bool) and math.isfinite(v)
   signals[k]={'change_percent':v if valid else None,'market_date':d.get('market_date') if valid else None,'status':'ok' if valid else 'unavailable'}
