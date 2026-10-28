@@ -57,6 +57,9 @@ intel_quotes_aligned=isinstance(intel_signals,dict) and all(
     isinstance(intel_signals.get(key),dict)
     and isinstance(markets.get(key),dict)
     and intel_signals[key].get('status')==markets[key].get('status')=='ok'
+    and isinstance(intel_signals[key].get('change_percent'),(int,float))
+    and not isinstance(intel_signals[key].get('change_percent'),bool)
+    and math.isfinite(intel_signals[key]['change_percent'])
     and intel_signals[key].get('change_percent')==markets[key].get('change_percent')
     and intel_signals[key].get('market_date')==markets[key].get('market_date')
     for key in ('sp500','sox','usdkrw')
