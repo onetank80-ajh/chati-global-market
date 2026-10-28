@@ -60,6 +60,8 @@ jobs:
           fi
       - name: Publish snapshot diagnostics
         if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
         run: |
           python - <<'PY'
           import json
@@ -77,7 +79,11 @@ jobs:
               except (OSError, ValueError, AttributeError) as exc:
                   lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
           lines.append("")
-          lines.append("See the failed step above for the exact error. No partial market data should be published.")
+          lines.append("")
+          lines.append("### Publication state")
+          lines.append(f"- Job status: \`{os.environ.get('JOB_STATUS', 'unknown')}\`")
+          lines.append("- Failed jobs do not publish new snapshots unless the commit/push step completed.")
+          lines.append("- Inspect the failing step logs for the underlying provider or Git error.")
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
               out.write("\n".join(lines) + "\n")
           PY
