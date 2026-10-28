@@ -23,6 +23,7 @@ jobs:
       - name: Offline regression tests (no extra job)
         run: python -m unittest discover -s tests -v
       - name: Fetch market snapshot
+        id: market_fetch
         run: python scripts/market_update.py
       - name: Fetch headlines
         run: python scripts/news_update.py
@@ -64,6 +65,7 @@ jobs:
         env:
           JOB_STATUS: ${{ job.status }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+          MARKET_FETCH_OUTCOME: ${{ steps.market_fetch.outcome }}
         run: |
           python - <<'PY'
           import json
@@ -82,6 +84,7 @@ jobs:
                   lines.append(f"- **{filename}**: unavailable ({type(exc).__name__})")
           lines.append("")
           lines.append("### Publication state")
+          lines.append(f"- Market fetch outcome: `{os.environ.get('MARKET_FETCH_OUTCOME', 'unknown')}`")
           lines.append(f"- Publish step outcome: `{os.environ.get('PUBLISH_OUTCOME', 'unknown')}`")
           lines.append(f"- Job status: `{os.environ.get('JOB_STATUS', 'unknown')}`")
           lines.append("- A successful publish step means its commands completed; inspect the Git log for whether a new commit was needed.")
