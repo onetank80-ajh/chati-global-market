@@ -80,6 +80,26 @@ class MarketSnapshotTests(unittest.TestCase):
             finally:
                 os.chdir(original)
 
+    def test_optional_failure_logs_symbol_and_reason(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            original = os.getcwd()
+            try:
+                os.chdir(tmp)
+                def fake_fetch(symbol, name, unit):
+                    if symbol == "^DJI":
+                        return {"symbol": symbol, "status": "unavailable", "error": "provider timeout"}
+                    return {"symbol": symbol, "name": name, "unit": unit,
+                            "status": "ok", "change_percent": 0.1,
+                            "market_date": "2026-10-28"}
+                from io import StringIO
+                with patch.object(market_update, "fetch", side_effect=fake_fetch):
+                    with patch("sys.stdout", new_callable=StringIO) as output:
+                        market_update.main()
+                self.assertIn("Quote unavailable: dow (^DJI): provider timeout", output.getvalue())
+                self.assertTrue((Path("data") / "market.json").exists())
+            finally:
+                os.chdir(original)
+
     def test_success_writes_complete_snapshot(self):
         with tempfile.TemporaryDirectory() as tmp:
             original = os.getcwd()
