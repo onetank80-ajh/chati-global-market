@@ -30,11 +30,13 @@ jobs:
         continue-on-error: true
       - name: Generate v1 intelligence
         run: python scripts/intelligence_update.py
+      - name: Generate morning briefing from fresh snapshots
+        run: python scripts/morning_brief.py
       - name: Commit data files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market.json data/intelligence.json
+          git add data/market.json data/intelligence.json data/morning.json
           if [ -f data/news.json ]; then git add data/news.json; fi
           if [ -f data/briefing.json ]; then git add data/briefing.json; fi
           if ! git diff --cached --quiet; then
