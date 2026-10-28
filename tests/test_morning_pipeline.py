@@ -113,6 +113,20 @@ class MorningPipelineTests(unittest.TestCase):
         result = self.run_script("check_consistency.py")
         self.assertNotEqual(result.returncode, 0)
 
+    def test_malformed_top_level_morning_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        self.write("morning.json", [])
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("FAIL: malformed market or morning document", result.stdout + result.stderr)
+
+    def test_malformed_top_level_intelligence_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        self.write("intelligence.json", [])
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("FAIL: malformed intelligence document", result.stdout + result.stderr)
+
     def test_malformed_morning_indicators_block_publication_cleanly(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         morning = json.loads((self.root / "data" / "morning.json").read_text())
