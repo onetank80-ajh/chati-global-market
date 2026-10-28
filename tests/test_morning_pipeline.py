@@ -47,6 +47,15 @@ class MorningPipelineTests(unittest.TestCase):
             cwd=self.root, capture_output=True, text=True,
         )
 
+    def test_invalid_market_date_blocks_publication(self):
+        self.market["markets"]["sox"]["market_date"] = "2026-02-30"
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("invalid sox market date", result.stdout + result.stderr)
+
     def test_matching_snapshot_passes_even_when_fx_date_differs(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         result = self.run_script("check_consistency.py")
