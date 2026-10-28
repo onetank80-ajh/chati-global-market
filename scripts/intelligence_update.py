@@ -28,7 +28,7 @@ def main():
   title=item.get('title','')
   if not isinstance(title,str) or not title.strip():continue
   url=item.get('url')
-  if not isinstance(url,str) or not re.match(r'^https://[^/\\s?#]+(?:[/?#]|$)',url,re.IGNORECASE):url=''
+  if not isinstance(url,str) or not re.match(r'^https://[^/\s?#]+(?:[/?#]|$)',url,re.IGNORECASE):url=''
   k=key(title)
   if not k or k in seen:continue
   try:
