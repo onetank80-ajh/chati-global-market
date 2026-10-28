@@ -85,6 +85,17 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different market snapshot", result.stdout + result.stderr)
 
+    def test_boolean_morning_indicator_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        for row in morning["indicators"]:
+            if row["name"] == "반도체":
+                row["change_percent"] = True
+        self.write("morning.json", morning)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("invalid morning sox percentage", result.stdout + result.stderr)
+
     def test_nonfinite_intelligence_snapshot_delta_blocks_publication(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
