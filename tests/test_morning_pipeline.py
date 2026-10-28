@@ -158,6 +158,17 @@ class MorningPipelineTests(unittest.TestCase):
         morning = json.loads((self.root / "data" / "morning.json").read_text())
         self.assertEqual(morning["sectors"], [{"name": "current sector"}])
 
+    def test_naive_intelligence_timestamp_hides_sectors(self):
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_snapshot_at"] = "2026-10-28T07:00:00"
+        intelligence["sectors"] = [{"name": "unsafe sector"}]
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("morning_brief.py")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        self.assertEqual(morning["sectors"], [])
+        self.assertTrue(any("업종 분석" in warning for warning in morning["warnings"]))
+
     def test_stale_intelligence_sectors_hidden_from_morning(self):
         intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
         intelligence["generated_at_utc"] = "2020-01-01T00:00:00+00:00"
