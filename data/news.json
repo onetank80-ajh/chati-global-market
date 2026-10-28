@@ -1,16 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-27T22:57:06.246042+00:00",
-  "generated_at_kst": "2026-10-28T07:57:06.246042+09:00",
+  "generated_at_utc": "2026-10-28T22:34:58.738814+00:00",
+  "generated_at_kst": "2026-10-29T07:34:58.738814+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
     {
       "category": "us_market",
-      "title": "Wall Street ends higher on revived AI momentum - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
+      "title": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-10-27T21:11:24+00:00"
+      "published_at_utc": "2026-10-28T20:23:48+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Stock Market Today: Fed Holds Rates Steady, Dow, S&P 500 and Nasdaq Post Modest Gains - Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORmdWTHRYTzlqdXI1ZkNOVlZ0REoydlpLOU13MTFORHJ6U0JwanpPMTJlRVdHRE1FU0RPLTZRLWtjWDBhMjJpaXdVY2VZTUY4RGNZdFlFWGVRU0JmTWdKMVhxTVJfcHNyOS1MM1hXclUyaFl5RTBpUFFvUkxCcEwtOGxERGlsVjRNaktzemEtalR1SlRWbGExTGYwRVprQlFycDc1Z0IzZFpZdEtwczBJN1dzd1NxNzN0Q3JJTEZneno4bms?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-10-28T21:52:07+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Dow Adds 98, Nasdaq Climbs 72, S&P 500 Gains 21 - TV News Check",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVDZGRzFoZ29XZkswLU9DNmhaOGRxS2FEa3FlVzhoRHVXWUJjMkdONlJMdnBYRFlzSU9QQWt0alkteFRnVjRaNXBVSnFCelF3QlE1NjlOUy0xOEJTNHNuMjNyT2FJU21YMHZBcWtjN1psWlA4U3FmcFdDSFh5aC1vOEF2UjVMekZmeFg0VE1DWQ?oc=5",
+      "source": "TV News Check",
+      "published_at_utc": "2026-10-28T20:26:08+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate Decision — SKHY, STX, V, GOOGL in Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNOHIyTThiOE03WlhxUFYxRTBxMy1RVm53Wkh1NDg5Z1lmVEp3c1JRSlJtRzJQV09faVNvWEZHOFRJOUtSWDdKbjVGaHpYZmZiQUJfU1dEUUV0c0lDWEw2TjJmc0xKY1RyZkJwcm4wUmd3ay1DTy1jWDNYcVpxWlFMcFBReUl4N3hoaGtfZVU0NVJMRS1zazlEdjZxbGpVbnBjTFBIcjlnNGVET1RXTk50STZHTXExb1MybUt2UEF4XzJuQnNOcHJhdU1na1REMzlNWmZCc0c3QnBUWG84VFQ4eGt3bmgtakZWUmNsbXFueGFINF9RbE1Jbm1ndFFEQVVnQkg1b2p6VnJoSElMeTItV2YwYkowS1Bw?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-28T09:47:15+00:00"
     },
     {
       "category": "us_market",
@@ -20,74 +41,60 @@
       "published_at_utc": "2026-10-27T20:45:00+00:00"
     },
     {
-      "category": "us_market",
-      "title": "S&P 500, Nasdaq advance as oil eases ahead of Fed decision - Central Oregon Daily",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPN21adUJNWUR2YW44RUJnYWxJazJ2dm1PMWNESlpocVItS3NQTW9PTzBFTTMzS1ZkaWFJOEZFRy1ESENhYm5iNGpBdW9vTmNrQnNEYTdfeGV2UlYzeHRhcjI2eklzMlFjUmRJZTVwd0NVTGUtNGM0NEdkTHlZaE1fVHZiWEcwTm9vQVcxekhBeXRDTUE2X0QzYVNLVlI0SGJqVndiRERLeHFVWVZ0V0YzZW8xWjhJMEowVjFRdDFoakl0REdjM3dlZXdudXNtYUZqaThmUy1rbThpVDdBZHo0NlVKUGhERmdhTWxDNw?oc=5",
-      "source": "Central Oregon Daily",
-      "published_at_utc": "2026-10-27T14:41:52+00:00"
+      "category": "semiconductor",
+      "title": "Nvidia, AMD, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU1VRUzZlRzhNam5fWHJSdzRDNk9iM3dYN29jUGlidG5vRnV0aG4wVERiVDlPRmVOYmRBR0NZTmwyREdyT1Jtb2h6cURZUUZRbGhVMkFCSmZ1dnp0WVBYWHR6UlNTaXY4Y0NMNk13YU5QMGR3MG8yUG1CalVpYUhWVGtibnVQRXFjZWxwb0NhNzhQSVBtYjhsSWRaNmpQSV9LRGVONUd0UWRUUVBIdWd3VHREdHpaeFFEZXhtVWlURXVKN0hlS085TWJ4cjk?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-28T13:34:51+00:00"
     },
     {
-      "category": "us_market",
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 10 Futures Gain as Fed Begins Its Two-Day Meet— Novartis, HSBC, Welltower in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSGJMZzk4UzQ4NzdmU25zYlZuV1lGcU5UR190MXhTdDZHUXNyN3EyOW5VN3I1WFhuWUdwWTA0OEZ6ZVVOWFdLdUc2bXRTMmJKdmY2UzJzQmpfSkRxVklKazhLOWtzdXZaVlFtdDNSaHU3emtsc3pkaVpfU3dwWVdTZkYzSjQ5VmpBZHI0dUxWSzlGUFRTVXNRMXN5U2lwV3dkVWZBOTQwOWQxR0VDb2N3MWtHV3plNHl4Yi05NWNxRDFOUFp2cnY5WGFERS12Yl9rV1NQQjhhRDUyVFRzUGxraDFKQUVEWmFJaWVvRDhCQksxTWV2ajIteWhNR1RiVTN0cFFDeVRMYnc5cmVkLXZwbkxnNzd6Z0Jxb3c?oc=5",
+      "category": "semiconductor",
+      "title": "SK Hynix Record Profit Lifts Micron, Nvidia and AI Chip Stocks - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUElhWW40N0xpYzZNZm9UN1JVR3kwdTA1WkFJM3ZCQ21zUmh3c0ZhTmJtUmRvWHZwbFlkWW12azhmanFCcUVTbkxNOWwxWTUzcTd2VlZaMjY0REFsWFJ0TXRBamxBTGpYZnVhaHJ2Q0RvTGhXUlpYUlF2bFdLWGdScHRoVkh3RnB5UXNpaWNZOTNfVHNJckZaRHlLSFNYZmx5WDZEVGZtZDBhYzdMMHk1NEI2YmU2U1BJUnVCNnpn?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-10-27T12:45:13+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "S&P 500, Nasdaq open higher as oil pulls back ahead of Fed decision - The Standard (HK)",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR2JpUEZrTDdzMEN5WU5UaUlROWVhM2Rpc1VkZk1iVnl2UGdmV3VvcmRMNHBxNjFfU3R4dEdkdm03X2M5SzVPV3J1Z0gyY3hndlVqb214cFM4bFpHZW56cFpORFlTNm14RHo1V3drSXZXRXVOTF9feXlZZjRGNVhrSFBjdUFlLXRvT1BBV0g5M0NKQUtFLXk2XzNUQTgyM2wtQ01paVFDdDNsclhRcmhoSmpnR3NVNkU2WDBF?oc=5",
-      "source": "The Standard (HK)",
-      "published_at_utc": "2026-10-27T13:34:10+00:00"
+      "published_at_utc": "2026-10-28T20:02:01+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Chip Stocks Rise For Third Straight Day: Micron, AMD Rise 3% As Nvidia-Meta Deepen AI Ties - NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMDRBNFdhZG9rT0x1VnNucUpSRG1GYVJhbGNFRWw5T01odTF0QXhaR0YzNm9QdUpiVjNMSDdJVHpLTldnblA2QzJkUUJ5dTlRVGE3bmhFc3hRUUl1T0VMSU0wLXM1NnlKc0RpcEh6MmtBQWFyRkc3VVlCQkdLNTNTLXNWMi1kU3FZYVpRWGVuNnpOR0ZmRUtlUGxHVDZOZGs5Q3E5X1psUlBFdHlRSUZMZDVzUUVtd3ZvSDIxS0gyZG42Ry1CZm9NcDc1SdIB0wFBVV95cUxOLXptbkRQQ3ZDcmoxTzhWMTc4Vjlfc2tBMHdTSGwzd0lIMjVyOFltVWE2cXNjSDFUVml0LUN1clFEa1VjWklWNHo2bnVDOURjRVRjaVZIVWJPZWk0RmZFZUFhaE5abmxBTWFZdG9LMjNkdmc0WllsUW9NTFZyUVNlWWJUeTVsZjFDcmZSSmVMcTVCTlR6YVloVEs3bTd2Y0MySDQxcUlmQ3NhTTZpcWVfZm9NaktUWm5IWWdNUDY4ODJSWGV5ZTdRc09HRlVoWUFxRVNj?oc=5",
-      "source": "NDTV Profit",
-      "published_at_utc": "2026-10-27T16:24:42+00:00"
+      "title": "AMD, Broadcom, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUNESjNKQm9WM29KdEpZZlN1dGpYam5zbUhBUDE0X1lnLW1xZ3BGaFpsUld2cTJzVDJaeV80UTdyNWcyUW5xVkZEZ2Z5a0VNYlROSTZGUGRPQ0JSUFVINXNhWUcyQVo5MTRULWs2SVVLUXI5ZVd1SzBWbm1jdzNORkt0SkM5WHV4aUhGTlRiQ29TNzluVTlGTERRdmNiNklmVV9kMUQwbktWWHJVZHo0SndTYWVQeTdYM3h2dzF5WmJrWXZGLXk2Q3QxLTgxV3M?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-28T15:03:29+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Nvidia Backing Puts These AI Semiconductor Stocks In Focus - Simply Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOck1HWGF5M1hCM0pGM045NG5hWDVsbDFaamU0ZWMzVkZBTGZXZzNSVDJMTTJ4RmhWV3BucEkwZ1N3bTdnOEthbHZwRzFJMWJLYUp3V0ZCelVKWTdYNDkxWFJ6dFo0NDhYTWJxY3RlcTNCTm9vRVlGU00zLWprQzg0LWNVa0tSbDhMVHNPblZTNmJEMGVaZUxrQ1hCNXF2VkJfa28takZ0Vnp0enVCcHVqcHpBeTFaYlhwc2ZoMXFCNFFSb0hVVHBfZjd30gHPAUFVX3lxTE1QWHFERWxtWlBGOEU2bWhMd2k2MEIxbjFPbF9tckZ4dmU5OGFHcTBrMXg0RUpMNFNQNTJ3RGh4UG1RZ0xPOEQzOWFNcWRNdm11NERjUll6d29UNkZSU19iSnNPYTl4Mk1BQzBpbFhuYl9JOEZIcEJqS0pXSURYbjdIU2U0SkZIRFpFTDFsWVlRaDFGbE9tWElOVWlXNzVDTGRGMHE4TlJyNHZiWEE3VkIwV3NHTGF2Y1pRQWIzQkQ1WlI2ZEJDcXk5Tmp4S19qRQ?oc=5",
-      "source": "Simply Wall Street",
-      "published_at_utc": "2026-10-27T13:31:02+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Not Nvidia. This Chip Stock Has More Upside, According to Wall Street. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUlpTMy1iMkV0QS1RWHFfV191dXoxR0xxMjAyUTdmanFlRmUtUjREcWhMUXNFcDBLclBBVHd4SWZvSUI4TWhPN0pMNnBGUnE1bUJ2UHpxSk5QY1p4Q1BrMkdkQWhxRUhxUDM1WVduOFR5eGlXOFZzd0d2NzZaNVg1VEdIU2FnR0dkSk5SMXRZX0F1ZmxlVnFkaA?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-10-26T17:15:00+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "[U.S. Stocks] Gains extend amid chip rally and oil decline; SOXL surges 11.7% - 파이낸셜뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ENWFDMmQyTWxHaGdDdE9zdzIwbk5wSHFlNDhfRGhRa1p4bHJIU0tFZDl5d3ZJeElqSkc3SlJqMWpDNVpFM2RvR1Q1VktxV29nczNtSUV6TTM?oc=5",
-      "source": "파이낸셜뉴스",
-      "published_at_utc": "2026-10-27T20:24:06+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Prediction: This Could Trigger NVDA’s Next Breakout by 2027 - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQREZTS1hMYzJXdnNuUEt5QjdCQUZLSmpqU09sRDhLd05XX3Q1blhTMURVbDI2dUZnNFpsYjRobmZxMEEwdGZWVWJTS0pDM05rZFpVX1BOZnJLSF9fSU1PVUZaS1BIa3dMbkRqUEtWN1F3Yk9qZXBUVTlYdmFVWFZoR1Nld2Qwbzdyd1U3ckQ4amxqcTY0OG5BaEstUnkzNVlJUERF?oc=5",
+      "title": "AMD Jumped 5% and Is Closing In on $1 Trillion Again - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNnRuSW5Ha19zXzBWRlJmWmRSWkU1cVgwZjV6dEhOSDRvQnYybVo4ODNxTjBIWm5fdW9aMTJhM2M2U1RXRlhIajg3OHloODRUQWNkdVF2Ymk1dlczS0tVQ2paMERSZGstczJWaUtqSUJnaDVkOXBoaHZGODFOaElHTEdHQkJzRjNHNGhDakc1RGRLdUFERFpFVjRn?oc=5",
       "source": "24/7 Wall St.",
-      "published_at_utc": "2026-10-26T15:30:00+00:00"
+      "published_at_utc": "2026-10-28T12:39:00+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Nvidia Supply Chain Stocks Tied To AI Chip Packaging Demand - Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcmIxZEl4bzBoNlQ4OGFSTXd1RFVkSnZvdFBaSEx3a1BUdVlzdGV0eTVFenBLLXVseWdOX1NsRWVtOGF2aTlhbUxlbmc4ODN6MVhLSXFicGtLOUZJRHQ5ek5wNUI0NU1lcmRoa3I5dlJoLUkycVdlQ0ZzcW9GZ3E1Z0JFNkU3UEJ2V3ZDcHpxVTNKcXA0cVJRTmhpUUNzTFBDN2NEeDhQZ25ZVUl5c3lpUGVVX2cwSFFRd3NJODBVcndZRzYteDd2UmV3bGkxeTkxWnNR0gHYAUFVX3lxTE5CYWMxWU0tT05aUEtEdDRDUjhwYzdNRGhlT2R4aVJMN1hfZlNzWTI3QnRJUnVGWWJneGhOR2J5M210aEtETU4tZndCM1pudDhCVHNNNGFpY0R0ZmhvdnZmSWxtNXFSbmpHZGJWUldjQ3VJNFZDOUhFQWxxVVZHeC16STVFQlFxeGE0VWdSUlpvWjBPS2puVEQ2cFMtLU9ZSnBCZjNPU0g3MkxkZzc3dU5qRTFnekpCYzZYOGctREh3WlVNTUNwZ2N4V1VsSF9ZVExwTWROR3p1OQ?oc=5",
+      "source": "Simply Wall St",
+      "published_at_utc": "2026-10-28T21:26:23+00:00"
     },
     {
       "category": "korea",
-      "title": "Asian stocks advance following a rally on Wall Street and oil prices fall - Bozeman Daily Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPVVZMNTE4ZV9Qd1NmVTJEM0EzZjJ2N3UtR0JoMFFfQ05BRmFqUE93aFlwMlpTRk94ZDBCOEtKNlZRNTB2NDU5ZXZKZGhPX20zcU9EZmF4OHBaMTNsYktUZnNQMmliRjRUVm9VekJaUVlxYjJSS0RpLS1pTGt2VTA5WmNpTjUtQU9CRnpIWWdoZ1ZSX29lMjBJOTdMWDk5a1FSSGlnNXdVcDJiRElodE9QakZzXzgzbk9WSVE0TC02MWlScmZwTHp2RElMY2JNS0F6aWFFZnhiZm84S1NsM1hBcTl1WnV6UmJwN0lCVFZxT0RhV3FONEdVcnM1OFBrVFVYdDVQaFNn?oc=5",
-      "source": "Bozeman Daily Chronicle",
-      "published_at_utc": "2026-10-27T07:10:58+00:00"
+      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - reflector.com",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZXFwem1MeEVKOGV3YWJsS0FKNG1OOUZOQXN1WUdQOHQwVjAtalp0SzE3bkpVV190ZXhpcUk4MHJvOWhrS1ROX2xIRW82Z0lETThjUVJZT1JWaGdvNzc5RHZfRGIzWnpmWC1HbXcyMU1RYUNucUhMZmM1X1ZmR1pTX0t3WmFBVU4wdnFkaEVFNjl3SHl5UFIxTThwLUJGSkowblg5clRyZXNla2d0SGJseHJIczRzVjQ2T19sa0pZdlhrMlJORHQzRDVydzE3Yi1URksyc3pRQmtkNnltSG52bjAtem9QNXJhVGVZUHlnVlYycnpGMWJjaUlvVWVNOEc3czl2dg?oc=5",
+      "source": "reflector.com",
+      "published_at_utc": "2026-10-28T20:02:52+00:00"
     },
     {
       "category": "korea",
-      "title": "Broadcom and other AI stocks lift Wall Street closer to its record - Newsday",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmczFMeUgwd0pxX2lLVU80NXZFVi12NDdfVGFRS0pVa1lMdXhPc1Raa2VkS1ZBbTIteERTcElSUkZIY3luTGRSWFhmbWx3ekllYUxENnVZckVqRHM5TmZMY1pfZDdkZEpTRmFKcVlqbzhLZGxkOHNkdy1n?oc=5",
-      "source": "Newsday",
-      "published_at_utc": "2026-10-27T19:12:51+00:00"
+      "title": "[Closing Market] KOSPI Surges Past 6,000 on SK hynix Earnings - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56RHFLUXZKQWRJeXk1Z3lZTkhZRFE2Q19zX21xWkdRWmZJakx6dGp5QTI2LWlPWU5hRFlNZnp3VlE0OENyNkhpLS1PbjIycng3WW16MEVWRnRvbFFlRVpJNF9yejF1eEtZQW5TeDBFYy0xOEFC?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-10-28T08:27:06+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "US stocks remain steady after the Federal Reserve says it won't raise interest rates - reflector.com",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSFplMWZVU1VPQXVlZTFFa2o4U3NJMmpvS05KbHRmRUc3Tjdla3lhcktHbWdUMC05T0daeW9ZSnlxWWJLd2MtNzRNcWZ2T0syc3B0UkFDUWtvU05aZzMyeFhFWjdyenhjQVdvU3JGS1R0LWdFblFlaHptOFM5TkpCenplN1RqUTJSaXVyZkhub19rbVZ5dmtfRXB4X283dzg1ODRnMFRuRm9IWXdPWk9KZFBfOURhOFBEcU43d2Z5NVhBUlRESk5Kd1RiU01YcUMwS1p1X1lvNFdHRzRvaEd3aUd2eXMyamZCRVNGS3ZsNTZ5ckVsQlZMckhLODhDLWV2bGc?oc=5",
+      "source": "reflector.com",
+      "published_at_utc": "2026-10-28T18:26:01+00:00"
     },
     {
       "category": "korea",
@@ -98,17 +105,10 @@
     },
     {
       "category": "korea",
-      "title": "[Closing Market] KOSPI Surges Above 5,600 on AI Optimism - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LZmNiRkRVR0lqV0MyTkJsenJhQWVGUXFJN0VXSzg0RXRaUUM4RFR6RFQtOU1obTVaQTY1Y2JtbTFoM3ppVW9CSmtJRjFEZVJQUmYwNUhHVUhYRDRlcjl0c09FVV8zMEc2RzVPOXMxNFRaeGJZ?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-10-27T08:14:48+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "South Korea's Kospi Swings Send Retail Investors Fleeing to \"Parking\" Products; Money Market ETFs Draw approximately $1.8 Billion - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNaFo1T25DYV9oLTg0eVB1Q3FhLWhaQVVHNjluQlpzSVBaNW5tenQ4QTZvYlZLakFzSmtmTFBiVTdGalN2emt4V3JQajlCbzNmNWxqUWZHTmx1RFR2azQtMU5BRHN5aEVMRHRZTVpZcnZsUGd1eFE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-10-27T03:36:00+00:00"
+      "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone - 巴士的報",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVVR4ck8yWWFpRWJPY0w1X3hER2s5T3ZCUFR3SGdycXdOTjZva2pMWnF6bWZLRWpTNHVXUVdEN01nd3pWSmpfTENNS2ROd2dVLXVma0tkbEZwUDdIcHZvQ1F5TnFrQllKS2J2MURxam93cEd0TUdWRm0tdHFxYlJuU2pDOXBERFJaUTdPcXpXaGNIUWZLNmw5bWtySFBZRGNkcUZoTHV2aWI3Q2NwTkpwR0tDZmFaQnNGYmk5NFdrdEN0QVpMTEthalpnUVVOQU9rc1E?oc=5",
+      "source": "巴士的報",
+      "published_at_utc": "2026-10-28T12:07:26+00:00"
     }
   ],
   "warnings": []
