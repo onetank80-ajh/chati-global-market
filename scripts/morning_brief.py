@@ -74,11 +74,11 @@ except (AttributeError,ValueError,TypeError):
     snapshot_age_exact=None
 snapshot_age_hours=round(snapshot_age_exact,2) if snapshot_age_exact is not None and math.isfinite(snapshot_age_exact) else None
 snapshot_fresh=(snapshot_age_exact is not None and math.isfinite(snapshot_age_exact) and 0<=snapshot_age_exact<=12)
-# Record how late the scheduled 07:00 KST combined refresh actually ran.
-scheduled=now.replace(hour=7,minute=0,second=0,microsecond=0)
+# Measure delay from the scheduled 06:30 KST refresh start.
+scheduled=now.replace(hour=6,minute=30,second=0,microsecond=0)
 delay_minutes=round((now-scheduled).total_seconds()/60,1)
 late=delay_minutes>10
-out={'schema_version':1,'generated_at_kst':now.isoformat(),'analysis_kind':'rule_based_not_ai','market_snapshot_at':market.get('generated_at_kst') or market.get('generated_at_utc'), 'news_snapshot_at':news.get('generated_at_kst') or news.get('generated_at_utc'), 'market_snapshot_age_hours':snapshot_age_hours,'market_snapshot_fresh':snapshot_fresh,'scheduled_briefing_at_kst':scheduled.isoformat(),'briefing_delay_minutes':delay_minutes,'briefing_late_over_10min':late,'indicators':indicators,'sectors':sectors, 'headlines':headlines,'news_snapshot_fresh':news_fresh,'warnings':(['업종 분석이 오래되었거나 시장 데이터와 일치하지 않아 숨겼습니다.'] if not intel_safe else [])+(['뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.'] if not news_fresh else [])+(['시장 데이터가 오래되었거나 수집 시각을 확인할 수 없습니다. 오늘의 매매 판단에 사용하지 마세요.'] if not snapshot_fresh else [])+(['오전 7시 통합 데이터 갱신이 10분 넘게 지연되었습니다.'] if late else [])+['기존 market.json/news.json 스냅샷을 바탕으로 생성','기사 본문 미검증, AI 번역·요약 아님','한국 증시 주가 예측 또는 매매 신호 아님']}
+out={'schema_version':1,'generated_at_kst':now.isoformat(),'analysis_kind':'rule_based_not_ai','market_snapshot_at':market.get('generated_at_kst') or market.get('generated_at_utc'), 'news_snapshot_at':news.get('generated_at_kst') or news.get('generated_at_utc'), 'market_snapshot_age_hours':snapshot_age_hours,'market_snapshot_fresh':snapshot_fresh,'scheduled_briefing_at_kst':scheduled.isoformat(),'briefing_delay_minutes':delay_minutes,'briefing_late_over_10min':late,'indicators':indicators,'sectors':sectors, 'headlines':headlines,'news_snapshot_fresh':news_fresh,'warnings':(['업종 분석이 오래되었거나 시장 데이터와 일치하지 않아 숨겼습니다.'] if not intel_safe else [])+(['뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.'] if not news_fresh else [])+(['시장 데이터가 오래되었거나 수집 시각을 확인할 수 없습니다. 오늘의 매매 판단에 사용하지 마세요.'] if not snapshot_fresh else [])+(['오전 6시 30분 통합 데이터 갱신 기준으로 10분 넘게 경과했습니다.'] if late else [])+['기존 market.json/news.json 스냅샷을 바탕으로 생성','기사 본문 미검증, AI 번역·요약 아님','한국 증시 주가 예측 또는 매매 신호 아님']}
 DATA.mkdir(exist_ok=True)
 (DATA/'morning.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('morning.json generated:',len(indicators),'indicators,',len(headlines),'headlines')
