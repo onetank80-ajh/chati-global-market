@@ -45,7 +45,9 @@ def main():
   korea=bool(re.search(r'korea|kospi|kosdaq|samsung|hynix|한국|코스피|코스닥',c))
   score=min(100, (35 if korea else 0)+(25 if semiconductor else 0)+(20 if macro else 0)+(10 if cat=='us_market' else 0)+max(0,20-int(age/3)))
   tags=(["한국시장 직접언급"] if korea else [])+(["반도체/AI"] if semiconductor else [])+(["거시경제"] if macro else [])
-  rows.append({'title':title,'url':url,'source':item.get('source',''), 'published_at_utc':item['published_at_utc'],'age_hours':round(age,1),'relevance_score':score,'tags':tags,'category':cat,'needs_verification':True})
+  source=item.get('source','')
+  if not isinstance(source,str):source=''
+  rows.append({'title':title,'url':url,'source':source, 'published_at_utc':item['published_at_utc'],'age_hours':round(age,1),'relevance_score':score,'tags':tags,'category':cat,'needs_verification':True})
  rows.sort(key=lambda x:(-x['relevance_score'],x['age_hours']))
  markets=market.get('markets',{})
  if not isinstance(markets,dict):markets={}
