@@ -23,9 +23,12 @@ def main():
   if not isinstance(item,dict):continue
   title=item.get('title','');k=key(title)
   if not k or k in seen:continue
-  try:dt=datetime.datetime.fromisoformat(item['published_at_utc'].replace('Z','+00:00'));age=(now-dt).total_seconds()/3600
-  except (KeyError,ValueError,TypeError):continue
-  if dt.tzinfo is None or not 0<=age<=48:continue
+  try:
+   dt=datetime.datetime.fromisoformat(item['published_at_utc'].replace('Z','+00:00'))
+   if dt.tzinfo is None:continue
+   age=(now-dt).total_seconds()/3600
+  except (KeyError,AttributeError,ValueError,TypeError):continue
+  if not 0<=age<=48:continue
   seen.add(k)
   c=clean(title);cat=item.get('category','')
   semiconductor=bool(re.search(r'chip|semiconductor|nvidia|amd|tsmc|hynix|삼성전자|반도체',c))
