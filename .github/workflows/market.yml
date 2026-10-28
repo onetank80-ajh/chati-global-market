@@ -57,7 +57,7 @@ jobs:
           lines.append("")
           lines.append("See the failed step above for the exact error. No partial market data should be published.")
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
-              out.write("\\n".join(lines) + "\\n")
+              out.write("\n".join(lines) + "\n")
           PY
       - name: Commit data files
         run: |
