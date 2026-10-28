@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 data = Path(__file__).resolve().parents[1] / "data"
@@ -21,4 +21,6 @@ for key, label in labels.items():
     row = indicators.get(label)
     if not row or row.get("change_percent") != quote.get("change_percent") or row.get("market_date") != quote.get("market_date"):
         raise SystemExit(f"FAIL: {key} mismatch")
+if not morning.get("market_snapshot_fresh", False):
+    raise SystemExit("FAIL: morning briefing marks market snapshot as stale")
 print("PASS: morning briefing matches market snapshot")
