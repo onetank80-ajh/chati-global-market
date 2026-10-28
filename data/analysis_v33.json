@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.3-experimental",
-  "generated_at_kst": "2026-10-28T08:13:58.478477+09:00",
+  "generated_at_kst": "2026-10-28T21:11:21.686364+09:00",
   "analysis_kind": "explainable_rules_not_ai_not_backtested",
   "analysis_mode": "retrospective_or_unverified",
   "eligible_for_prediction_record": false,
-  "snapshot_age_hours": 0.0,
+  "snapshot_age_hours": 12.96,
   "market_snapshot_at": "2026-10-27T23:13:57.150113+00:00",
   "coverage": 1.0,
   "factors": [
