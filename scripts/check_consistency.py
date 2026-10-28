@@ -63,9 +63,12 @@ for key, label in labels.items():
     if not isinstance(date_text, str) or len(date_text) != 10:
         raise SystemExit(f"FAIL: invalid {key} market date")
     try:
-        datetime.strptime(date_text, "%Y-%m-%d")
+        trading_day = datetime.strptime(date_text, "%Y-%m-%d").date()
     except ValueError:
         raise SystemExit(f"FAIL: invalid {key} market date")
+    calendar_age = (datetime.now(timezone.utc).date() - trading_day).days
+    if calendar_age < -1 or calendar_age > 7:
+        raise SystemExit(f"FAIL: stale or future {key} market date")
     value = quote.get("change_percent")
     if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
         raise SystemExit(f"FAIL: invalid {key} percentage")
