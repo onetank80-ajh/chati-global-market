@@ -52,12 +52,12 @@ def main():
         "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
         "markets": items,
     }
+    if all(v["status"] != "ok" for v in items.values()):
+        raise RuntimeError("No market data available; keeping previous market.json")
     path = Path("data/market.json")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Saved", path, "successful symbols:", sum(v["status"] == "ok" for v in items.values()))
-    if all(v["status"] != "ok" for v in items.values()):
-        raise RuntimeError("No market data available; refusing to publish an all-error snapshot")
 
 
 if __name__ == "__main__":
