@@ -18,6 +18,14 @@ class WorkflowPublicationTests(unittest.TestCase):
             groups.append(match.group(1))
         self.assertEqual(groups, ["chati-market-update"] * 2)
 
+    def test_market_workflow_reports_fetch_and_publish_outcomes(self):
+        content = MARKET.read_text(encoding="utf-8")
+        self.assertIn("id: market_fetch", content)
+        self.assertIn("id: publish", content)
+        self.assertIn("MARKET_FETCH_OUTCOME: ${{ steps.market_fetch.outcome }}", content)
+        self.assertIn("PUBLISH_OUTCOME: ${{ steps.publish.outcome }}", content)
+        self.assertIn("if: always()", content)
+
     def test_market_refresh_requires_both_derived_files(self):
         content = MARKET.read_text(encoding="utf-8")
         self.assertIn("for derived in data/intelligence.json data/morning.json", content)
