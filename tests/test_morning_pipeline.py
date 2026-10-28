@@ -85,6 +85,24 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("different market snapshot", result.stdout + result.stderr)
 
+    def test_malformed_morning_indicators_block_publication_cleanly(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        morning = json.loads((self.root / "data" / "morning.json").read_text())
+        morning["indicators"] = [None]
+        self.write("morning.json", morning)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("FAIL: malformed morning indicators", result.stdout + result.stderr)
+
+    def test_malformed_intelligence_signals_block_publication_cleanly(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        intelligence = json.loads((self.root / "data" / "intelligence.json").read_text())
+        intelligence["market_signals"] = []
+        self.write("intelligence.json", intelligence)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("FAIL: malformed intelligence signals", result.stdout + result.stderr)
+
     def test_malformed_market_quote_does_not_crash_briefing(self):
         self.market["markets"]["sox"] = None
         self.save_market()
