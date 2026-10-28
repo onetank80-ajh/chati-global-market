@@ -1,8 +1,11 @@
 name: Chati Morning Brief 0730 KST
 on:
-  # Scheduled generation is handled by market.yml at 07:00 KST.
-  # Keep manual dispatch as a recovery option without daily Actions minutes.
+  # Main refresh runs at 06:30 KST. Repair derived data if market.json is pushed alone.
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/market.json'
 permissions:
   contents: write
 concurrency:
@@ -19,15 +22,30 @@ jobs:
           python-version: '3.12'
       - name: Sync latest snapshots
         run: git pull --rebase origin main
+      - name: Detect out-of-sync market briefing
+        id: drift
+        run: |
+          if python scripts/check_consistency.py; then
+            echo 'repair=false' >> "$GITHUB_OUTPUT"
+            echo 'Market and briefing already aligned; no repair needed.'
+          else
+            echo 'repair=true' >> "$GITHUB_OUTPUT"
+            echo 'Market and briefing differ; regenerating derived data.'
+          fi
       - name: Offline regression tests on synced code before recovery
+        if: steps.drift.outputs.repair == 'true'
         run: python -m unittest discover -s tests -v
       - name: Refresh derived intelligence from existing JSON snapshots
+        if: steps.drift.outputs.repair == 'true'
         run: python scripts/intelligence_update.py
       - name: Generate morning brief from existing JSON snapshots
+        if: steps.drift.outputs.repair == 'true'
         run: python scripts/morning_brief.py
       - name: Check briefing consistency before commit
+        if: steps.drift.outputs.repair == 'true'
         run: python scripts/check_consistency.py
       - name: Commit updated JSON
+        if: steps.drift.outputs.repair == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
