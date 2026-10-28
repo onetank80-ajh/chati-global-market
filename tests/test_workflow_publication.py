@@ -38,6 +38,15 @@ class WorkflowPublicationTests(unittest.TestCase):
         self.assertIn("keeping previous snapshot", section)
         self.assertLess(section.index("if python scripts/market_update.py; then"), section.index("exit 1"))
 
+    def test_diagnostics_explain_missing_and_mismatched_snapshot_times(self):
+        content = MARKET.read_text(encoding="utf-8")
+        self.assertIn("market_generated = None", content)
+        self.assertIn("Snapshot drift: unavailable (missing market_snapshot_at)", content)
+        self.assertIn("Snapshot drift: unavailable (invalid timestamp)", content)
+        self.assertIn("if market_stamp.tzinfo is None or derived_stamp.tzinfo is None:", content)
+        self.assertIn('drift:.1f}s', content)
+        self.assertIn("(allowed: 2s)", content)
+
     def test_market_refresh_requires_both_derived_files(self):
         content = MARKET.read_text(encoding="utf-8")
         self.assertIn("for derived in data/intelligence.json data/morning.json", content)
