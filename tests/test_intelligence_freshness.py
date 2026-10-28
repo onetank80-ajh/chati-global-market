@@ -37,6 +37,19 @@ class IntelligenceFreshnessTests(unittest.TestCase):
         self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
         return json.loads((self.root / "data" / "intelligence.json").read_text())
 
+    def test_malformed_market_quotes_are_unavailable(self):
+        now = datetime.now(timezone.utc).isoformat()
+        self.write("market.json", {"markets": {"sp500": None, "sox": "broken", "usdkrw": []}})
+        result = self.generate({"generated_at_utc": now, "items": []})
+        for key in ("sp500", "sox", "usdkrw"):
+            self.assertEqual(result["market_signals"][key]["status"], "unavailable")
+
+    def test_malformed_market_collection_does_not_crash(self):
+        now = datetime.now(timezone.utc).isoformat()
+        self.write("market.json", {"markets": []})
+        result = self.generate({"generated_at_utc": now, "items": []})
+        self.assertEqual(result["market_signals"]["sox"]["status"], "unavailable")
+
     def test_old_snapshot_does_not_reuse_recent_article(self):
         now = datetime.now(timezone.utc).isoformat()
         result = self.generate({"generated_at_utc": "2020-01-01T00:00:00+00:00",
