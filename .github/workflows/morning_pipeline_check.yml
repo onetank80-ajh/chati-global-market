@@ -49,6 +49,14 @@ jobs:
               assert "steps.prepared.outputs.ready != 'true'" in block, step+' must skip on fresh data'
           assert s.index('Wait until 07:30 KST') < s.index('Send push (retry)')
           assert 'market_snapshot_at' in s and 'market_snapshot_fresh' in s
+          # Prepared fast path must reject stale US quotes before skipping refresh.
+          prepared=s.split('      - name: Check prepared briefing freshness',1)[1].split('      - name: Install dependencies',1)[0]
+          assert 'us_dates_valid' in prepared and 'market_date' in prepared
+          assert 'and valid and us_dates_valid' in prepared
+          # Push must independently refuse stale US closing dates.
+          push=Path('scripts/push_briefing.py').read_text()
+          assert 'Outdated US market close' in push
+          assert 'for key in ("sp500", "sox")' in push
       - name: Verify late push is rejected without network
         run: |
           python3 - <<'PY'
