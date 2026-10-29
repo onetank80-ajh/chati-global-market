@@ -46,6 +46,9 @@ jobs:
         if: steps.drift.outputs.repair == 'true'
         continue-on-error: true
         run: python -m unittest discover -s tests -v
+      - name: Required recovery schedule and freshness guard tests
+        if: steps.drift.outputs.repair == 'true'
+        run: python -m unittest discover -s tests -p 'test_market_schedule.py' -v && python -m unittest discover -s tests -p 'test_consistency_recovery_window.py' -v
       - name: Refresh derived intelligence from existing JSON snapshots
         if: steps.drift.outputs.repair == 'true'
         run: python scripts/intelligence_update.py
