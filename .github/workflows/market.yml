@@ -29,7 +29,9 @@ jobs:
           echo "Commit: ${GITHUB_SHA}"
           echo "Event: ${GITHUB_EVENT_NAME}"
           echo "Run: ${GITHUB_RUN_ID}"
-      - name: Offline regression tests (no extra job)
+      - name: Offline regression tests (report failures without blocking market refresh)
+        id: regressions
+        continue-on-error: true
         run: python -m unittest discover -s tests -v
       - name: Fetch market snapshot
         id: market_fetch
@@ -97,6 +99,7 @@ jobs:
           JOB_STATUS: ${{ job.status }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
           MARKET_FETCH_OUTCOME: ${{ steps.market_fetch.outcome }}
+          REGRESSION_OUTCOME: ${{ steps.regressions.outcome }}
         run: |
           python - <<'PY'
           import json
@@ -134,6 +137,7 @@ jobs:
           lines.append("")
           lines.append("### Publication state")
           lines.append(f"- Market fetch outcome: `{os.environ.get('MARKET_FETCH_OUTCOME', 'unknown')}`")
+          lines.append(f"- Regression test outcome: `{os.environ.get('REGRESSION_OUTCOME', 'unknown')}`")
           lines.append(f"- Publish step outcome: `{os.environ.get('PUBLISH_OUTCOME', 'unknown')}`")
           lines.append(f"- Job status: `{os.environ.get('JOB_STATUS', 'unknown')}`")
           lines.append("- A successful publish step means its commands completed; inspect the Git log for whether a new commit was needed.")
