@@ -118,6 +118,22 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", evidence)
         self.assertNotIn("git diff --cached --quiet;", evidence)
 
+    def test_recovery_evidence_commits_only_its_own_file(self):
+        source = WORKFLOWS[1].read_text(encoding="utf-8")
+        evidence = source.split(
+            "      - name: Publish recovery evidence", 1
+        )[1].split(
+            "      - name: Offline regression tests (diagnostic;", 1
+        )[0]
+        self.assertIn(
+            "git diff --quiet HEAD -- data/recovery_health.json", evidence
+        )
+        self.assertIn(
+            "git commit --only data/recovery_health.json", evidence
+        )
+        self.assertIn("continue-on-error: true", evidence)
+        self.assertNotIn("git diff --cached --quiet;", evidence)
+
     def test_optional_publish_cannot_block_critical_publish(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         critical = source.index("      - name: Commit data files")
