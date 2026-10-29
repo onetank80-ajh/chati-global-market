@@ -1,21 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-28T23:17:36.506395+00:00",
-  "generated_at_kst": "2026-10-29T08:17:36.506395+09:00",
+  "generated_at_utc": "2026-10-29T11:22:01.855590+00:00",
+  "generated_at_kst": "2026-10-29T20:22:01.855590+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
-    "nasdaq": {
-      "symbol": "^IXIC",
-      "name": "NASDAQ Composite",
-      "unit": "points",
-      "close": 26549.8516,
-      "previous_close": 26477.8105,
-      "change": 72.041,
-      "change_percent": 0.272,
-      "market_date": "2026-10-28",
-      "status": "ok"
-    },
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
@@ -24,17 +13,6 @@
       "previous_close": 7722.6001,
       "change": 21.3799,
       "change_percent": 0.277,
-      "market_date": "2026-10-28",
-      "status": "ok"
-    },
-    "dow": {
-      "symbol": "^DJI",
-      "name": "Dow Jones",
-      "unit": "points",
-      "close": 52475.1016,
-      "previous_close": 52377.5703,
-      "change": 97.5312,
-      "change_percent": 0.186,
       "market_date": "2026-10-28",
       "status": "ok"
     },
@@ -53,10 +31,32 @@
       "symbol": "KRW=X",
       "name": "USD/KRW",
       "unit": "KRW per USD",
-      "close": 1341.75,
-      "previous_close": 1324.77,
-      "change": 16.98,
-      "change_percent": 1.282,
+      "close": 1337.48,
+      "previous_close": 1326.8101,
+      "change": 10.6699,
+      "change_percent": 0.804,
+      "market_date": "2026-10-29",
+      "status": "ok"
+    },
+    "nasdaq": {
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "unit": "points",
+      "close": 26549.8496,
+      "previous_close": 26477.8105,
+      "change": 72.0391,
+      "change_percent": 0.272,
+      "market_date": "2026-10-28",
+      "status": "ok"
+    },
+    "dow": {
+      "symbol": "^DJI",
+      "name": "Dow Jones",
+      "unit": "points",
+      "close": 52475.1016,
+      "previous_close": 52377.5703,
+      "change": 97.5312,
+      "change_percent": 0.186,
       "market_date": "2026-10-28",
       "status": "ok"
     }
