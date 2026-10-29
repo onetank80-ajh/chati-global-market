@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-29T22:22:35.261159+00:00",
-  "generated_at_kst": "2026-10-30T07:22:35.261159+09:00",
+  "generated_at_utc": "2026-10-29T22:40:13.782908+00:00",
+  "generated_at_kst": "2026-10-30T07:40:13.782908+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.902,
+      "change_percent": 0.886,
       "reference_direction": "주의"
     }
   ],
@@ -33,7 +33,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-29T20:30:27+00:00",
       "category": "us_market",
-      "age_hours": 1.9,
+      "age_hours": 2.2,
       "freshness_score": 96,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -46,7 +46,7 @@
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-10-29T16:33:00+00:00",
       "category": "semiconductor",
-      "age_hours": 5.8,
+      "age_hours": 6.1,
       "freshness_score": 88,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -54,17 +54,15 @@
       ]
     },
     {
-      "title": "Not Nvidia. Not AMD. This Is the Best Artificial Intelligence (AI) Stock to Buy in November - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbW9USmVKd0dwdk9MTXR4WlJja2c0ZmRoS3F0LTZVT0NTc1VZYnlkblJIa3IxaXJIZlB5NGJMLVAxYWZaaFlOWFVOcDZ3ek8zeFZIRFpaR25zUV9vTkJFZ1hzeDVubnNsWWRjOU5WUEROSkZwTGhrd05MWVZzdnJ3UUw2ek95UEZzZHQ5SWZyMm8zWlB2X0FwYmpVMzBTenoyMDhwZER1LW5pc2xXUnN1bGZDRXc3UlpCSlUzemhUaS1JN1p6dFN2MlVzSmhsRGI3NjVhMEJIeUNsNXdna2RqSUJmOW03c1NqYXFzVjFpamhQSDFMZ3lmdDd5N2htWE1mTFE?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-10-29T06:35:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 15.8,
-      "freshness_score": 68,
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-10-29T09:33:23+00:00",
+      "category": "us_market",
+      "age_hours": 13.1,
+      "freshness_score": 74,
       "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
+      "sectors": []
     },
     {
       "title": "[Opening Market] KOSPI Opens Above 6,000 on Semiconductor Rally - Businesskorea",
@@ -72,23 +70,12 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-10-29T02:41:24+00:00",
       "category": "korea",
-      "age_hours": 19.7,
-      "freshness_score": 61,
+      "age_hours": 20.0,
+      "freshness_score": 60,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
       ]
-    },
-    {
-      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNdWxVcTFiYVhKSk9ZVnhaaENyUUotdHV1TXhuTXM3ODZLNnhqOGxXZWJVTnVwek1nREVFbnlFaTd6SGtzeldoQkR5NVpXaXB3Z0ExUjRvemM3WmYzNGdaYzBIZXoxN2lZeHNJM09EWkFTWERuZjZtby0xVnpFcWcySXpEX0kxb1hQeUxjNU1hQzY4LThwMGdPT0ZyUUNIZGJxTjI4elg3ekoxWUVZbEstZElKazlGUnd6Q3Z5TWNSM2pyb1M3VFVpMDByV0Z4eXo5ZmU0emVYNGtKaWh3T3J3QU5IMk9DN0NHeFFjMzZjVURtam5hS1RBWjltS19Ha2xlY0F1N1BpNUtOVHhUSFpWYTgxclF5Ukk5VDJHUTlZNGVmTmw3UXdMMmRpOXJPdWZUNFRzaWVFWllTakxwd0FubHdYSUpaQ3lXUEF3V2J1U2s?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-29T01:49:39+00:00",
-      "category": "us_market",
-      "age_hours": 20.5,
-      "freshness_score": 59,
-      "headline_tone": "혼재/불명",
-      "sectors": []
     },
     {
       "title": "South Korea's KOSPI Tries to Settle Above 6,000; Foreign Buying Streak Lifts Index to 6,040 Range - BigGo Finance",
@@ -96,7 +83,7 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-29T01:06:00+00:00",
       "category": "korea",
-      "age_hours": 21.3,
+      "age_hours": 21.6,
       "freshness_score": 57,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -107,8 +94,8 @@
       "source": "Reuters",
       "published_at_utc": "2026-10-28T23:53:34+00:00",
       "category": "us_market",
-      "age_hours": 22.5,
-      "freshness_score": 55,
+      "age_hours": 22.8,
+      "freshness_score": 54,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -118,8 +105,8 @@
       "source": "Eurasia Business News",
       "published_at_utc": "2026-10-28T21:52:07+00:00",
       "category": "us_market",
-      "age_hours": 24.5,
-      "freshness_score": 51,
+      "age_hours": 24.8,
+      "freshness_score": 50,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -129,7 +116,7 @@
       "source": "TradingView",
       "published_at_utc": "2026-10-28T20:02:01+00:00",
       "category": "semiconductor",
-      "age_hours": 26.3,
+      "age_hours": 26.6,
       "freshness_score": 47,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -142,10 +129,47 @@
       "source": "reflector.com",
       "published_at_utc": "2026-10-28T20:02:52+00:00",
       "category": "korea",
-      "age_hours": 26.3,
+      "age_hours": 26.6,
       "freshness_score": 47,
       "headline_tone": "혼재/불명",
       "sectors": []
+    },
+    {
+      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1BWaEhJTENtZVh4TWR1ZUFaNjl5dTk1U1dmcm51R19KaEVNQlNoMURRMnhVX1ZJM0xqQnROLUQtaXBWLUtIYmhna0xveDBSS2tUSUpZVHNrSkREMnhGcWh3azRUTENELVhZN05wNkJjdjBITUVSX25UR2kzWGctQ1RRNkZXMkpucWJQZGZXRDlmU2xYMTV5ei0wNUh5MmlqUHV4eHBfcFNIRW5jcG5hQg?oc=5",
+      "source": "WRAL",
+      "published_at_utc": "2026-10-28T19:25:06+00:00",
+      "category": "us_market",
+      "age_hours": 27.3,
+      "freshness_score": 45,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Micron, AMD and Nvidia Stocks Rise as Memory Chip Boom Lifts AI Trade - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeVhYWUZWX0YzbEx1dWFldW9vNWRIS29wQkpMTFU4endHbDFwRHRaVmkxYWwxZXVXLVl0MlFDNURlTlJXY2RnNi1HUlQzSjJzdmluY28wZ3R1NUlqQ1VrcE9qZ1NnOVVPaWViem1ndVZIX2RrWl8weGNZRVdTbVNqSWdsRDZZLUtZY2dfNXBPdkVmYUM3dmlKNE55cHZYaFExdnBoVzBuWURRNzg0SlhqT0NwSk9hc1d2RlRJLWFJZWZpNjNzam13?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-10-28T18:38:14+00:00",
+      "category": "semiconductor",
+      "age_hours": 28.0,
+      "freshness_score": 44,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "AMD, Broadcom, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUNESjNKQm9WM29KdEpZZlN1dGpYam5zbUhBUDE0X1lnLW1xZ3BGaFpsUld2cTJzVDJaeV80UTdyNWcyUW5xVkZEZ2Z5a0VNYlROSTZGUGRPQ0JSUFVINXNhWUcyQVo5MTRULWs2SVVLUXI5ZVd1SzBWbm1jdzNORkt0SkM5WHV4aUhGTlRiQ29TNzluVTlGTERRdmNiNklmVV9kMUQwbktWWHJVZHo0SndTYWVQeTdYM3h2dzF5WmJrWXZGLXk2Q3QxLTgxV3M?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-28T13:57:56+00:00",
+      "category": "semiconductor",
+      "age_hours": 32.7,
+      "freshness_score": 35,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
     },
     {
       "title": "Nvidia, AMD, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
@@ -153,22 +177,9 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-28T13:34:51+00:00",
       "category": "semiconductor",
-      "age_hours": 32.8,
+      "age_hours": 33.1,
       "freshness_score": 34,
       "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Semiconductor stocks in focus after SK Hynix results; Micron, Nvidia top Quant list (SMH:NASDAQ) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWFdCT1ZwOEhaZlotRmh2VU9mSV8wR01fTm0tLXp2ZkRDV1c0RTQ3NVRBbkUyVmg0czV3NWdFR3hUeVFxWFZVRTNFc3hyM1pyRVV3cmQ0ZllVZTJZTnJLTDNQZE5qMEhGazZjM2syNndJejIwLXpaVGFkMlJra2NDeUhwZS1kVGV4UzI4Z0lhRlJhNl93TmtVNjBFZXJ6UGZkRlk1MU1KSG9pMWlSMUh4TGdqRm1STDZIY0Vr?oc=5",
-      "source": "Seeking Alpha",
-      "published_at_utc": "2026-10-28T11:26:56+00:00",
-      "category": "semiconductor",
-      "age_hours": 34.9,
-      "freshness_score": 30,
-      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
@@ -179,7 +190,7 @@
       "source": "Bozeman Daily Chronicle",
       "published_at_utc": "2026-10-28T03:58:14+00:00",
       "category": "korea",
-      "age_hours": 42.4,
+      "age_hours": 42.7,
       "freshness_score": 15,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -190,23 +201,10 @@
       "source": "WFMZ.com",
       "published_at_utc": "2026-10-28T04:07:04+00:00",
       "category": "korea",
-      "age_hours": 42.3,
+      "age_hours": 42.6,
       "freshness_score": 15,
       "headline_tone": "긍정 표현",
       "sectors": []
-    },
-    {
-      "title": "Wall Street ends higher on revived AI momentum - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-27T23:01:33+00:00",
-      "category": "us_market",
-      "age_hours": 47.4,
-      "freshness_score": 5,
-      "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
     }
   ]
 }

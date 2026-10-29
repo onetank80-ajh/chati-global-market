@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-29T22:36:35.721473+00:00",
-  "generated_at_kst": "2026-10-30T07:36:35.721473+09:00",
+  "generated_at_utc": "2026-10-29T22:40:12.813624+00:00",
+  "generated_at_kst": "2026-10-30T07:40:12.813624+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -14,10 +14,10 @@
     },
     {
       "category": "us_market",
-      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNdWxVcTFiYVhKSk9ZVnhaaENyUUotdHV1TXhuTXM3ODZLNnhqOGxXZWJVTnVwek1nREVFbnlFaTd6SGtzeldoQkR5NVpXaXB3Z0ExUjRvemM3WmYzNGdaYzBIZXoxN2lZeHNJM09EWkFTWERuZjZtby0xVnpFcWcySXpEX0kxb1hQeUxjNU1hQzY4LThwMGdPT0ZyUUNIZGJxTjI4elg3ekoxWUVZbEstZElKazlGUnd6Q3Z5TWNSM2pyb1M3VFVpMDByV0Z4eXo5ZmU0emVYNGtKaWh3T3J3QU5IMk9DN0NHeFFjMzZjVURtam5hS1RBWjltS19Ha2xlY0F1N1BpNUtOVHhUSFpWYTgxclF5Ukk5VDJHUTlZNGVmTmw3UXdMMmRpOXJPdWZUNFRzaWVFWllTakxwd0FubHdYSUpaQ3lXUEF3V2J1U2s?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-29T01:49:39+00:00"
+      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1BWaEhJTENtZVh4TWR1ZUFaNjl5dTk1U1dmcm51R19KaEVNQlNoMURRMnhVX1ZJM0xqQnROLUQtaXBWLUtIYmhna0xveDBSS2tUSUpZVHNrSkREMnhGcWh3azRUTENELVhZN05wNkJjdjBITUVSX25UR2kzWGctQ1RRNkZXMkpucWJQZGZXRDlmU2xYMTV5ei0wNUh5MmlqUHV4eHBfcFNIRW5jcG5hQg?oc=5",
+      "source": "WRAL",
+      "published_at_utc": "2026-10-28T19:25:06+00:00"
     },
     {
       "category": "us_market",
@@ -35,10 +35,10 @@
     },
     {
       "category": "us_market",
-      "title": "Wall Street ends higher on revived AI momentum - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-27T23:01:33+00:00"
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-10-29T09:33:23+00:00"
     },
     {
       "category": "semiconductor",
@@ -70,10 +70,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nb3Qya2dEajFPaUk5dEVveFlBb0lMSjVhTXBHYldhYUI1TlAwUXYxZjFoZHhmRURWd3BRTjRZVDk1REF1NXNOUzRXWFhkT2d4b1E?oc=5",
-      "source": "Yahoo Finance Australia",
-      "published_at_utc": "2026-10-29T00:45:15+00:00"
+      "title": "The Same $10,000 in AMD and Nvidia Could Produce Very Different Results by 2030 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbEx5R0VsMzc2S0JEYXYzT2Uyckg5S3MxY3cwczRfTUhUdWlITjR3X28zUHAya2NrTFpadlF1Sko5a1k1aUdHVjM0NXhyQ3JKZUkyeGdOWUUwYjc5TnM5TzR2QW5ueVpKcUNXcDJHRVR5RnpSTzU0X05talpNZkxMQ3ZnOHAtT2hmT2ctXy1mWHdmTjBJcFhLUjZ4U2NYVkFDS3k1M2FxNERSaFpQSDFJWll5V3hLcUZROE8tNF93?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-10-29T16:33:00+00:00"
     },
     {
       "category": "korea",
