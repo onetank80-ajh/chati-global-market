@@ -41,13 +41,13 @@ class MarketUpdateSafetyTests(unittest.TestCase):
     def test_all_quotes_unavailable_preserves_previous_file(self):
         result, content = self.run_offline(True)
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("keeping previous market.json", result.stdout + result.stderr)
+        self.assertIn("Required market data unavailable: sp500", result.stdout + result.stderr)
         self.assertEqual(content, '{"preserved": true}\n')
 
     def test_missing_required_sox_preserves_previous_file(self):
         result, content = self.run_offline(False, "^SOX")
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("Required market data unavailable (sox)", result.stdout + result.stderr)
+        self.assertIn("Required market data unavailable: sox", result.stdout + result.stderr)
         self.assertEqual(content, '{"preserved": true}\n')
 
     def test_missing_optional_dow_still_writes_snapshot(self):
