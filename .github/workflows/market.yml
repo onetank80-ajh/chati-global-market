@@ -118,11 +118,14 @@ jobs:
             python scripts/check_consistency.py
             git push origin HEAD:main
             echo "PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
+          else
+            # A clean, consistent no-op is still a completed pipeline run.
+            echo "VERIFIED_NOOP_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           fi
       # Persist independently readable evidence of a successful critical push.
       # Best-effort: telemetry must never block the briefing itself.
       - name: Publish machine-readable pipeline evidence
-        if: env.PUBLISHED_UTC != ''
+        if: env.PUBLISHED_UTC != '' || env.VERIFIED_NOOP_UTC != ''
         continue-on-error: true
         run: |
           python - <<'PY'
@@ -145,7 +148,7 @@ jobs:
               delay = int((started - planned_dt).total_seconds())
           evidence = {
               "schema_version": 1,
-              "result": "critical_snapshot_pushed",
+              "result": "critical_snapshot_pushed" if os.environ.get("PUBLISHED_UTC") else "consistent_snapshot_unchanged",
               "run_id": os.environ.get("GITHUB_RUN_ID"),
               "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
               "trigger": os.environ.get("TRIGGER_EVENT"),
@@ -153,7 +156,8 @@ jobs:
               "scheduled_at_utc": planned,
               "started_at_utc": started.isoformat(),
               "schedule_delay_seconds": delay,
-              "published_at_utc": os.environ["PUBLISHED_UTC"],
+              "published_at_utc": os.environ.get("PUBLISHED_UTC") or None,
+              "verified_noop_at_utc": os.environ.get("VERIFIED_NOOP_UTC") or None,
               "observed_at_utc": now.isoformat(),
               "source_commit": os.environ.get("GITHUB_SHA"),
           }
