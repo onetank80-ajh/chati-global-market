@@ -112,14 +112,14 @@ jobs:
       - name: Record premarket prediction
         if: steps.status.outputs.send == 'true'
         run: |
-          python -m pip install --disable-pip-version-check yfinance==0.2.66
           python scripts/verify_market.py predict
       - name: Publish reports
-        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
+        if: steps.status.outputs.send == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/market.json data/intelligence.json data/verification.json data/morning.json
+          git add data/verification.json
+          if [ "${{ steps.prepared.outputs.ready }}" != 'true' ]; then git add data/market.json data/intelligence.json data/morning.json; fi
           if [ -f data/news.json ]; then git add data/news.json; fi
           if [ -f data/briefing.json ]; then git add data/briefing.json; fi
           if ! git diff --cached --quiet; then
