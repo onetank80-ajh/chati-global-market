@@ -30,6 +30,20 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
                     self.fail(f"{workflow.name} embedded Python syntax error: {exc}")
         self.assertGreaterEqual(found, 5, "Recovery guard and diagnostics must also be compiled")
 
+    def test_recovery_postfetch_checks_real_quote_values(self):
+        source = WORKFLOWS[1].read_text(encoding="utf-8")
+        verification = source.split(
+            "      - name: Verify recovered snapshot before derived generation", 1
+        )[1].split("      - name: Detect out-of-sync market briefing", 1)[0]
+        self.assertIn('close = quote.get("close")', verification)
+        self.assertIn("math.isfinite(close)", verification)
+        self.assertIn("close <= 0", verification)
+        self.assertIn('quote.get("market_date")', verification)
+        self.assertLess(
+            source.index("      - name: Verify recovered snapshot before derived generation"),
+            source.index("      - name: Refresh derived intelligence"),
+        )
+
     def test_market_publication_requires_consistency(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         self.assertIn("python scripts/check_consistency.py", source)
