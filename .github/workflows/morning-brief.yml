@@ -69,7 +69,7 @@ jobs:
 
       - name: Offline regression tests (diagnostic; do not block validated recovery)
         id: regressions
-        if: steps.drift.outputs.repair == 'true'
+        if: always() && steps.drift.outputs.repair == 'true'
         continue-on-error: true
         run: python -m unittest discover -s tests -v
 
