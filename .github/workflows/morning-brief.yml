@@ -84,6 +84,26 @@ jobs:
               sleep 20
             done
           fi
+      - name: Verify recovered snapshot before derived generation
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          data = json.loads(Path("data/market.json").read_text(encoding="utf-8"))
+          stamp = data.get("generated_at_utc") or data.get("generated_at_kst")
+          generated = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+          if generated.tzinfo is None:
+              raise SystemExit("Market snapshot has no timezone")
+          age = (datetime.now(timezone.utc) - generated).total_seconds()
+          if not 0 <= age <= 12 * 3600:
+              raise SystemExit("Market snapshot stale after recovery; aborting")
+          for key in ("sp500", "sox", "usdkrw"):
+              quote = data.get("markets", {}).get(key, {})
+              if quote.get("status") != "ok":
+                  raise SystemExit(f"Required quote unavailable after recovery: {key}")
+          print("Recovery snapshot freshness and critical quotes verified")
+          PY
       - name: Detect out-of-sync market briefing
         id: drift
         run: |
