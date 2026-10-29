@@ -97,6 +97,24 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("invalid sox market date", result.stdout + result.stderr)
 
+    def test_zero_required_close_blocks_publication(self):
+        self.market["markets"]["sox"]["close"] = 0
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("invalid sox close", result.stdout + result.stderr)
+
+    def test_nonfinite_required_close_blocks_publication(self):
+        self.market["markets"]["sp500"]["close"] = float("nan")
+        self.save_market()
+        self.assertEqual(self.run_script("intelligence_update.py").returncode, 0)
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        result = self.run_script("check_consistency.py")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("invalid sp500 close", result.stdout + result.stderr)
+
     def test_matching_snapshot_passes_even_when_fx_date_differs(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         result = self.run_script("check_consistency.py")
