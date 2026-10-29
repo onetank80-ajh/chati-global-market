@@ -47,6 +47,16 @@ class MarketScheduleTests(unittest.TestCase):
             with self.subTest(cron=cron):
                 self.assertIn(repr(cron), diagnostics.replace('"', "'"))
 
+    def test_recovery_publishes_refetched_market_with_derived_data(self):
+        source = (ROOT / ".github/workflows/morning-brief.yml").read_text(encoding="utf-8")
+        self.assertIn("python scripts/market_update.py", source)
+        self.assertIn("git add data/market.json data/morning.json data/intelligence.json", source)
+        self.assertIn("FAIL: recovered market changed without", source)
+        self.assertLess(source.index("python scripts/market_update.py"),
+                        source.index("python scripts/check_consistency.py"))
+        self.assertLess(source.index("python scripts/check_consistency.py"),
+                        source.index("git add data/market.json data/morning.json data/intelligence.json"))
+
     def test_repair_checks_are_0715_0830_0930_kst_weekdays(self):
         times = local_schedule(".github/workflows/morning-brief.yml")
         self.assertEqual(len(times), 15)
