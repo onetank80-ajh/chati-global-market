@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "version": "3.3-experimental",
-  "generated_at_kst": "2026-10-29T08:17:36.640392+09:00",
+  "generated_at_kst": "2026-10-29T21:12:01.867664+09:00",
   "analysis_kind": "explainable_rules_not_ai_not_backtested",
   "analysis_mode": "retrospective_or_unverified",
   "eligible_for_prediction_record": false,
-  "snapshot_age_hours": 0.0,
-  "market_snapshot_at": "2026-10-28T23:17:36.506395+00:00",
+  "snapshot_age_hours": 0.83,
+  "market_snapshot_at": "2026-10-29T11:22:01.855590+00:00",
   "coverage": 1.0,
   "factors": [
     {
@@ -39,8 +39,8 @@
     {
       "key": "usdkrw",
       "name": "달러/원",
-      "market_date": "2026-10-28",
-      "change_percent": 1.282,
+      "market_date": "2026-10-29",
+      "change_percent": 0.804,
       "signal": -1,
       "weight": 1,
       "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
@@ -88,6 +88,7 @@
     "규칙 기반 참고 분석이며 학습·검증된 수익 예측 모델이 아닙니다.",
     "한국 지수별 임계값 차이는 실험적 설정이며 백테스트 전에는 성능 우위를 주장할 수 없습니다.",
     "오선 방송의 실제 자막/원문이 제공되지 않아 방송 분석은 수행하지 않았습니다.",
+    "미국 지표별 기준일이 다릅니다. 비교에 주의하세요.",
     "개장 전 신선한 데이터로 확인되지 않았습니다. 사전 예측이나 적중률 계산에 사용하면 안 됩니다."
   ]
 }
