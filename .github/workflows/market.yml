@@ -35,6 +35,8 @@ jobs:
         id: regressions
         continue-on-error: true
         run: python -m unittest discover -s tests -v
+      - name: Required scheduling and freshness guard tests
+        run: python -m unittest discover -s tests -p 'test_market_schedule.py' -v && python -m unittest discover -s tests -p 'test_consistency_recovery_window.py' -v
       - name: Fetch market snapshot
         id: market_fetch
         run: |
