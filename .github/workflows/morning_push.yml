@@ -40,11 +40,48 @@ jobs:
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
               f.write('send=' + ('false' if last == today else 'true') + '\n')
           print('KST date:', today, 'last sent:', last)
-      - name: Install dependencies
+      - name: Check prepared briefing freshness
+        id: prepared
         if: steps.status.outputs.send == 'true'
+        shell: python
+        run: |
+          import json, os, math
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          ready = False
+          try:
+              market = json.loads(Path('data/market.json').read_text(encoding='utf-8'))
+              morning = json.loads(Path('data/morning.json').read_text(encoding='utf-8'))
+              stamp = market.get('generated_at_utc')
+              generated = datetime.fromisoformat(stamp.replace('Z', '+00:00'))
+              age = (datetime.now(timezone.utc) - generated).total_seconds()
+              quotes = market.get('markets', {})
+              required = ('sp500', 'sox', 'usdkrw')
+              valid = all(
+                  isinstance(quotes.get(k), dict)
+                  and quotes[k].get('status') == 'ok'
+                  and isinstance(quotes[k].get('close'), (int, float))
+                  and not isinstance(quotes[k]['close'], bool)
+                  and math.isfinite(quotes[k]['close'])
+                  and quotes[k]['close'] > 0
+                  for k in required
+              )
+              today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+              ready = (0 <= age <= 12 * 3600 and valid
+                       and morning.get('market_snapshot_at') == market.get('generated_at_kst')
+                       and morning.get('market_snapshot_fresh') is True
+                       and generated.astimezone(ZoneInfo('Asia/Seoul')).date() == today)
+          except (OSError, ValueError, TypeError, KeyError, AttributeError):
+              ready = False
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write('ready=' + str(ready).lower() + '\n')
+          print('Prepared briefing ready:', ready)
+      - name: Install dependencies
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: python -m pip install --disable-pip-version-check yfinance==0.2.66
       - name: Refresh market (retry)
-        if: steps.status.outputs.send == 'true'
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: |
           for attempt in 1 2 3; do
             python scripts/market_update.py && break
@@ -52,24 +89,24 @@ jobs:
             sleep 20
           done
       - name: Refresh news
-        if: steps.status.outputs.send == 'true'
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: python scripts/news_update.py
         continue-on-error: true
       - name: Refresh briefing
-        if: steps.status.outputs.send == 'true'
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: python scripts/briefing_update.py
         continue-on-error: true
       - name: Refresh intelligence
-        if: steps.status.outputs.send == 'true'
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: python scripts/intelligence_update.py
       - name: Build synchronized morning brief
-        if: steps.status.outputs.send == 'true'
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: python scripts/morning_brief.py
       - name: Record premarket prediction
-        if: steps.status.outputs.send == 'true'
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: python scripts/verify_market.py predict
       - name: Publish reports
-        if: steps.status.outputs.send == 'true'
+        if: steps.status.outputs.send == 'true' && steps.prepared.outputs.ready != 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
