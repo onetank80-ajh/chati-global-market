@@ -2,10 +2,11 @@ name: Chati Morning Brief 0730 KST
 on:
   # Main refresh runs at 06:30 KST. Repair derived data if market.json is pushed alone.
   workflow_dispatch:
-  # 07:15 and 08:30 KST Mon-Fri; scheduled runs also recover GITHUB_TOKEN commits.
+  # 07:15, 08:30 and 09:30 KST Mon-Fri; scheduled runs also recover GITHUB_TOKEN commits.
   schedule:
     - cron: '15 22 * * 0-4'
     - cron: '30 23 * * 0-4'
+    - cron: '30 0 * * 1-5'
   push:
     branches: [main]
     paths:
