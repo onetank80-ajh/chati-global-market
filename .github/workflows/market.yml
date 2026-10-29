@@ -322,6 +322,11 @@ jobs:
               "result": "market_workflow_failed",
               "run_id": os.environ.get("GITHUB_RUN_ID"),
               "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
+              "run_url": "{}/{}/actions/runs/{}".format(
+                  os.environ.get("GITHUB_SERVER_URL", "https://github.com"),
+                  os.environ.get("GITHUB_REPOSITORY", ""),
+                  os.environ.get("GITHUB_RUN_ID", ""),
+              ),
               "trigger": os.environ.get("GITHUB_EVENT_NAME"),
               "trigger_cron": os.environ.get("TRIGGER_CRON") or None,
               "market_fetch_outcome": os.environ.get("MARKET_FETCH_OUTCOME") or None,
