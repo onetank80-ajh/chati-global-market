@@ -162,9 +162,10 @@ jobs:
           )
           PY
           git add data/pipeline_health.json
-          if ! git diff --cached --quiet; then
+          # Only the telemetry file may trigger its own commit.
+          if ! git diff --quiet HEAD -- data/pipeline_health.json; then
             git commit --only data/pipeline_health.json -m "Record successful Chati briefing publication"
-            git pull --rebase origin main
+            git -c rebase.autoStash=true pull --rebase origin main
             git push origin HEAD:main
           fi
       # Optional legacy data is generated only after the critical morning
