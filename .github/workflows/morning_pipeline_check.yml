@@ -37,6 +37,18 @@ jobs:
                  'Send push (retry)')
           positions=[s.index(x) for x in order]
           assert positions==sorted(positions), 'morning pipeline out of order'
+          # The 07:25 path must reuse a valid prebuilt snapshot instead of
+          # unconditionally refetching and delaying the 07:30 notification.
+          assert s.index('Check prepared briefing freshness') < s.index('Refresh market (retry)')
+          assert "id: prepared" in s
+          for step in ('Install dependencies', 'Refresh market (retry)',
+                       'Refresh news', 'Refresh briefing', 'Refresh intelligence',
+                       'Build synchronized morning brief', 'Record premarket prediction',
+                       'Publish reports'):
+              block=s.split('      - name: '+step+'\\n',1)[1].split('      - name: ',1)[0]
+              assert "steps.prepared.outputs.ready != 'true'" in block, step+' must skip on fresh data'
+          assert s.index('Wait until 07:30 KST') < s.index('Send push (retry)')
+          assert 'market_snapshot_at' in s and 'market_snapshot_fresh' in s
       - name: Verify late push is rejected without network
         run: |
           python3 - <<'PY'
