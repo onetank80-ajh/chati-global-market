@@ -44,6 +44,11 @@ jobs:
           expected = schedules.get(cron)
           if expected:
               planned = now.replace(hour=expected[0], minute=expected[1], second=0, microsecond=0)
+              # Runs can start after midnight UTC; preserve the previous
+              # day's scheduled trigger rather than reporting a negative delay.
+              if planned > now:
+                  from datetime import timedelta
+                  planned -= timedelta(days=1)
               delay = int((now - planned).total_seconds())
               print(f"market_schedule_delay_seconds={delay}")
           else:
