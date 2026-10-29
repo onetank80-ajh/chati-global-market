@@ -118,6 +118,16 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", evidence)
         self.assertNotIn("git diff --cached --quiet;", evidence)
 
+    def test_success_telemetry_records_0730_deadline(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        evidence = source.split(
+            "      - name: Publish machine-readable pipeline evidence", 1
+        )[1].split("      - name: Fetch headlines", 1)[0]
+        self.assertIn('"published_at_kst": published_kst', evidence)
+        self.assertIn('"published_by_0730_kst": published_by_0730', evidence)
+        self.assertIn("published_by_0730 = None", evidence)
+        self.assertIn("published_by_0730 = published_dt <= deadline", evidence)
+
     def test_noop_market_run_emits_honest_evidence(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         publish = source.split("      - name: Commit data files", 1)[1].split(
