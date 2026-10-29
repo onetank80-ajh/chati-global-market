@@ -34,10 +34,6 @@ jobs:
           echo "PIPELINE_START_UTC=$(date -u +%s)" >> "$GITHUB_ENV"
           echo "TRIGGER_CRON=${{ github.event.schedule }}" >> "$GITHUB_ENV"
           echo "TRIGGER_EVENT=${GITHUB_EVENT_NAME}" >> "$GITHUB_ENV"
-      - name: Offline regression tests (report failures without blocking market refresh)
-        id: regressions
-        continue-on-error: true
-        run: python -m unittest discover -s tests -v
       - name: Required scheduling and freshness guard tests
         run: python -m unittest discover -s tests -p 'test_market_schedule.py' -v && python -m unittest discover -s tests -p 'test_consistency_recovery_window.py' -v && python -m unittest discover -s tests -p 'test_market_fail_fast.py' -v
       - name: Fetch market snapshot
@@ -103,6 +99,10 @@ jobs:
             git push origin HEAD:main
             echo "PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           fi
+      - name: Offline regression tests (report failures without blocking market refresh)
+        id: regressions
+        continue-on-error: true
+        run: python -m unittest discover -s tests -v
       - name: Publish snapshot diagnostics
         if: always()
         env:
