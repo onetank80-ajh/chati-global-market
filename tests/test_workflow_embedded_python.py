@@ -118,6 +118,15 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", evidence)
         self.assertNotIn("git diff --cached --quiet;", evidence)
 
+    def test_pipeline_start_is_captured_before_dependency_install(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        start = source.index('echo "PIPELINE_START_UTC=$(date -u +%s)"')
+        install = source.index("      - name: Install dependencies")
+        self.assertLess(start, install)
+        self.assertEqual(
+            source.count('echo "PIPELINE_START_UTC=$(date -u +%s)"'), 1
+        )
+
     def test_success_telemetry_records_0730_deadline(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         evidence = source.split(
