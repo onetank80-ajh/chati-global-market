@@ -118,6 +118,14 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", evidence)
         self.assertNotIn("git diff --cached --quiet;", evidence)
 
+    def test_success_telemetry_links_to_exact_actions_run(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        evidence = source.split(
+            "      - name: Publish machine-readable pipeline evidence", 1
+        )[1].split("      - name: Fetch headlines", 1)[0]
+        self.assertIn('"run_url": "{}/{}/actions/runs/{}".format(', evidence)
+        self.assertIn('os.environ.get("GITHUB_RUN_ID", "")', evidence)
+
     def test_pipeline_start_is_captured_before_dependency_install(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         start = source.index('echo "PIPELINE_START_UTC=$(date -u +%s)"')
