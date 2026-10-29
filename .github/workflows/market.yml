@@ -160,6 +160,11 @@ jobs:
               "result": "critical_snapshot_pushed" if os.environ.get("PUBLISHED_UTC") else "consistent_snapshot_unchanged",
               "run_id": os.environ.get("GITHUB_RUN_ID"),
               "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
+              "run_url": "{}/{}/actions/runs/{}".format(
+                  os.environ.get("GITHUB_SERVER_URL", "https://github.com"),
+                  os.environ.get("GITHUB_REPOSITORY", ""),
+                  os.environ.get("GITHUB_RUN_ID", ""),
+              ),
               "trigger": os.environ.get("TRIGGER_EVENT"),
               "trigger_cron": cron or None,
               "scheduled_at_utc": planned,
