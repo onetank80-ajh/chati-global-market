@@ -25,8 +25,9 @@ jobs:
         with:
           python-version: '3.11'
       # Capture a run identifier before any dependency installation or market fetch.
-      # This breadcrumb is best-effort and must not delay critical data work.
+      # Diagnostic summary must never block the critical pipeline.
       - name: Record run start in job summary
+        continue-on-error: true
         run: |
           echo "run_id=${GITHUB_RUN_ID} attempt=${GITHUB_RUN_ATTEMPT} event=${GITHUB_EVENT_NAME}" >> "$GITHUB_STEP_SUMMARY"
           echo "started_at_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_STEP_SUMMARY"
