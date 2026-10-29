@@ -153,6 +153,8 @@ jobs:
           p = Path('data/push_status.json')
           p.write_text(json.dumps({'last_sent_date_kst': now.date().isoformat(), 'last_sent_at_kst': now.isoformat(), 'note': 'ntfy HTTP success; device receipt not independently verified'}, indent=2)+'\n', encoding='utf-8')
           PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/push_status.json
           git commit -m 'Record Chati morning push'
           git pull --rebase origin main
