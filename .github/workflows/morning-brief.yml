@@ -182,6 +182,39 @@ jobs:
             echo "RECOVERY_PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           fi
 
+      # Expose recovery publication evidence without requiring an Actions run URL.
+      # Telemetry is best-effort and cannot block the critical publication.
+      - name: Publish recovery evidence
+        if: env.RECOVERY_PUBLISHED_UTC != ''
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+          record = {
+              "schema_version": 1,
+              "result": "recovery_snapshot_pushed",
+              "run_id": os.environ.get("GITHUB_RUN_ID"),
+              "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
+              "trigger": os.environ.get("GITHUB_EVENT_NAME"),
+              "trigger_cron": "${{ github.event.schedule }}" or None,
+              "published_at_utc": os.environ["RECOVERY_PUBLISHED_UTC"],
+              "observed_at_utc": datetime.now(timezone.utc).isoformat(),
+              "source_commit": os.environ.get("GITHUB_SHA"),
+          }
+          Path("data/recovery_health.json").write_text(
+              json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+          PY
+          git add data/recovery_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Chati recovery publication evidence"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
       - name: Offline regression tests (diagnostic; do not block validated recovery)
         id: regressions
         if: always() && steps.drift.outputs.repair == 'true'
