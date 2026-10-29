@@ -38,6 +38,15 @@ class MarketScheduleTests(unittest.TestCase):
                          {(day, hour, minute) for day in range(5)
                           for hour, minute in [(6, 30), (6, 50), (7, 5)]})
 
+    def test_all_market_crons_have_delay_diagnostics(self):
+        source = (ROOT / ".github/workflows/market.yml").read_text(encoding="utf-8")
+        crons = re.findall(r"""cron:\\s*['"]([^'"]+)['"]""", source)
+        self.assertEqual(len(crons), 3)
+        diagnostics = source.split("expected = ", 1)[1].split(".get(trigger)", 1)[0]
+        for cron in crons:
+            with self.subTest(cron=cron):
+                self.assertIn(repr(cron), diagnostics.replace('"', "'"))
+
     def test_repair_checks_are_0715_0830_0930_kst_weekdays(self):
         times = local_schedule(".github/workflows/morning-brief.yml")
         self.assertEqual(len(times), 15)
