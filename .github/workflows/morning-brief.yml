@@ -95,7 +95,17 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/morning.json data/intelligence.json
+          # Recovery may have fetched a replacement market snapshot.
+          # Publish it atomically with both derived files, never derived-only.
+          git add data/market.json data/morning.json data/intelligence.json
+          if git diff --cached --name-only -- data/market.json | grep -qx 'data/market.json'; then
+            for derived in data/intelligence.json data/morning.json; do
+              if ! git diff --cached --name-only -- "$derived" | grep -qx "$derived"; then
+                echo "FAIL: recovered market changed without $derived" >&2
+                exit 1
+              fi
+            done
+          fi
           if ! git diff --cached --quiet; then
             git commit -m 'Update morning briefing data'
             git pull --rebase origin main
