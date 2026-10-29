@@ -80,5 +80,20 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", optional_stage)
 
 
+    def test_recovery_publish_precedes_diagnostic_regressions(self):
+        source = WORKFLOWS[1].read_text(encoding="utf-8")
+        required = source.index("      - name: Required recovery schedule and freshness guard tests")
+        intelligence = source.index("      - name: Refresh derived intelligence from existing JSON snapshots")
+        morning = source.index("      - name: Generate morning brief from existing JSON snapshots")
+        consistency = source.index("      - name: Check briefing consistency before commit")
+        publish = source.index("      - name: Commit updated JSON")
+        diagnostic = source.index("      - name: Offline regression tests (diagnostic; do not block validated recovery)")
+        self.assertEqual(
+            [required, intelligence, morning, consistency, publish, diagnostic],
+            sorted([required, intelligence, morning, consistency, publish, diagnostic]),
+            "Diagnostic regression must not delay recovery publication",
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
