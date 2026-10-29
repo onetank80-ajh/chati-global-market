@@ -105,7 +105,11 @@ jobs:
       - name: Publish optional legacy data
         continue-on-error: true
         run: |
-          git add -A -- data/news.json data/briefing.json
+          # Both legacy files are optional and may not exist in a fresh checkout.
+          # Stage only files that exist; avoid fatal pathspec errors.
+          for legacy in data/news.json data/briefing.json; do
+            if [ -f "$legacy" ]; then git add -- "$legacy"; fi
+          done
           if ! git diff --cached --quiet; then
             git commit -m "Update optional Chati news and legacy briefing"
             git pull --rebase origin main
