@@ -310,6 +310,7 @@ jobs:
           git add data/pipeline_failure.json
           if ! git diff --quiet HEAD -- data/pipeline_failure.json; then
             git commit --only data/pipeline_failure.json -m "Record failed Chati market workflow run"
-            git pull --rebase origin main
+            # Earlier failed steps can leave modified working files; autostash prevents rebase refusal.
+            git -c rebase.autoStash=true pull --rebase origin main
             git push origin HEAD:main
           fi
