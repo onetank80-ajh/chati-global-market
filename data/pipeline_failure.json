@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "result": "market_workflow_failed",
+  "run_id": "40963613341",
+  "run_attempt": "1",
+  "run_url": "https://github.com/onetank80-ajh/chati-global-market/actions/runs/40963613341",
+  "trigger": "schedule",
+  "trigger_cron": "30 21 * * 0-4",
+  "market_fetch_outcome": "skipped",
+  "publish_outcome": "skipped",
+  "observed_at_utc": "2026-10-29T22:09:22.780178+00:00"
+}
