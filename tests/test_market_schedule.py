@@ -57,6 +57,14 @@ class MarketScheduleTests(unittest.TestCase):
         self.assertLess(source.index("python scripts/check_consistency.py"),
                         source.index("git add data/market.json data/morning.json data/intelligence.json"))
 
+    def test_recovery_freshness_checks_required_quote_status(self):
+        source = (ROOT / ".github/workflows/morning-brief.yml").read_text(encoding="utf-8")
+        recovery = source.split("- name: Recover stale or missing market snapshot", 1)[1]
+        recovery = recovery.split("- name: Detect out-of-sync market briefing", 1)[0]
+        self.assertIn('required = ("sp500", "sox", "usdkrw")', recovery)
+        self.assertIn('markets[key].get("status") == "ok"', recovery)
+        self.assertIn('fresh = 0 <= age <= 12 * 3600 and valid_quotes', recovery)
+
     def test_repair_checks_are_0715_0830_0930_kst_weekdays(self):
         times = local_schedule(".github/workflows/morning-brief.yml")
         self.assertEqual(len(times), 15)
