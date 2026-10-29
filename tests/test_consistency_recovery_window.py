@@ -24,7 +24,7 @@ class RecoveryWindowTests(unittest.TestCase):
 
     def test_market_freshness_guard_remains_12_hours(self):
         source = CHECKER.read_text(encoding="utf-8")
-        self.assertIn("market_age_hours > 12", source)
+        self.assertIn("not 0 <= market_age_hours <= 12", source)
 
 
 if __name__ == "__main__":
