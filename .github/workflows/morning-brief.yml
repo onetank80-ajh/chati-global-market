@@ -46,8 +46,6 @@ jobs:
           print(f"recovery_trigger={os.environ.get('TRIGGER_EVENT')} cron={schedule or 'none'}")
           if expected:
               planned = now.replace(hour=expected[0], minute=expected[1], second=0, microsecond=0)
-              if schedule == "30 0 * * 1-5":
-                  planned = planned
               print(f"recovery_schedule_delay_seconds={int((now - planned).total_seconds())}")
           else:
               print("recovery_schedule_delay_seconds=not_scheduled")
