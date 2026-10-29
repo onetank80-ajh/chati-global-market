@@ -124,17 +124,17 @@ jobs:
           from datetime import datetime, timezone, timedelta
           from pathlib import Path
           now = datetime.now(timezone.utc)
+          started = datetime.fromtimestamp(int(os.environ["PIPELINE_START_UTC"]), timezone.utc)
           cron = os.environ.get("TRIGGER_CRON", "")
           schedules = {"30 21 * * 0-4": (21, 30), "50 21 * * 0-4": (21, 50), "5 22 * * 0-4": (22, 5)}
           planned = None
           delay = None
           if cron in schedules:
               hour, minute = schedules[cron]
-              planned_dt = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
-              if planned_dt > now:
+              planned_dt = started.replace(hour=hour, minute=minute, second=0, microsecond=0)
+              if planned_dt > started:
                   planned_dt -= timedelta(days=1)
               planned = planned_dt.isoformat()
-              started = datetime.fromtimestamp(int(os.environ["PIPELINE_START_UTC"]), timezone.utc)
               delay = int((started - planned_dt).total_seconds())
           evidence = {
               "schema_version": 1,
@@ -144,7 +144,7 @@ jobs:
               "trigger": os.environ.get("TRIGGER_EVENT"),
               "trigger_cron": cron or None,
               "scheduled_at_utc": planned,
-              "started_at_utc": datetime.fromtimestamp(int(os.environ["PIPELINE_START_UTC"]), timezone.utc).isoformat(),
+              "started_at_utc": started.isoformat(),
               "schedule_delay_seconds": delay,
               "published_at_utc": os.environ["PUBLISHED_UTC"],
               "observed_at_utc": now.isoformat(),
