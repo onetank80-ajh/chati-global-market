@@ -31,11 +31,12 @@ def local_schedule(path):
 
 
 class MarketScheduleTests(unittest.TestCase):
-    def test_market_refresh_is_0630_and_0650_kst_weekdays(self):
+    def test_market_refresh_is_0630_0650_0705_kst_weekdays(self):
         times = local_schedule(".github/workflows/market.yml")
-        self.assertEqual(len(times), 10)
+        self.assertEqual(len(times), 15)
         self.assertEqual({(t.weekday(), t.hour, t.minute) for t in times},
-                         {(day, 6, minute) for day in range(5) for minute in (30, 50)})
+                         {(day, hour, minute) for day in range(5)
+                          for hour, minute in [(6, 30), (6, 50), (7, 5)]})
 
     def test_repair_checks_are_0715_0830_0930_kst_weekdays(self):
         times = local_schedule(".github/workflows/morning-brief.yml")
