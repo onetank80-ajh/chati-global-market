@@ -118,6 +118,17 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", evidence)
         self.assertNotIn("git diff --cached --quiet;", evidence)
 
+    def test_failure_and_recovery_evidence_link_to_actions_run(self):
+        market = WORKFLOWS[0].read_text(encoding="utf-8")
+        recovery = WORKFLOWS[1].read_text(encoding="utf-8")
+        failure_step = market.split("      - name: Publish failed-run evidence", 1)[1]
+        recovery_step = recovery.split("      - name: Publish recovery evidence", 1)[1].split(
+            "      - name: Offline regression tests (diagnostic;", 1
+        )[0]
+        for step in (failure_step, recovery_step):
+            self.assertIn('"run_url": "{}/{}/actions/runs/{}".format(', step)
+            self.assertIn('os.environ.get("GITHUB_RUN_ID", "")', step)
+
     def test_success_telemetry_links_to_exact_actions_run(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         evidence = source.split(
