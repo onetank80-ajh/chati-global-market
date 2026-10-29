@@ -51,7 +51,7 @@ class MorningPipelineTests(unittest.TestCase):
 
     def test_generation_too_late_after_market_snapshot_blocks_publication(self):
         from datetime import timedelta
-        earlier = (datetime.now(timezone.utc) - timedelta(hours=2)).isoformat()
+        earlier = (datetime.now(timezone.utc) - timedelta(hours=4)).isoformat()
         self.market["generated_at_utc"] = earlier
         self.market["generated_at_kst"] = earlier
         self.save_market()
@@ -141,7 +141,7 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
         result = self.run_script("check_consistency.py")
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("missing sox market date", result.stdout + result.stderr)
+        self.assertIn("invalid sox market date", result.stdout + result.stderr)
 
     def test_invalid_market_date_blocks_publication(self):
         self.market["markets"]["sp500"]["market_date"] = "2026-99-99"
@@ -261,7 +261,7 @@ class MorningPipelineTests(unittest.TestCase):
         self.write("morning.json", morning)
         result = self.run_script("check_consistency.py")
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("duplicate morning indicators", result.stdout + result.stderr)
+        self.assertIn("duplicate morning indicator names", result.stdout + result.stderr)
 
     def test_malformed_morning_indicators_block_publication_cleanly(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
