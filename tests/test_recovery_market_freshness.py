@@ -18,10 +18,10 @@ class RecoveryMarketFreshnessTests(unittest.TestCase):
         source = WORKFLOW.read_text(encoding="utf-8")
         block = source.split("- name: Recover stale or missing market snapshot", 1)[1]
         block = block.split("- name: Detect out-of-sync market briefing", 1)[0]
-        match = re.search(r"if python - <<'PY'\\n(.*?)\\n          PY", block, re.S)
+        match = re.search(r"if python - <<'PY'\n(.*?)\n          PY", block, re.S)
         if not match:
             raise AssertionError("Recovery freshness Python heredoc missing")
-        cls.guard = "\\n".join(line[10:] for line in match.group(1).splitlines())
+        cls.guard = "\n".join(line[10:] for line in match.group(1).splitlines())
 
     def check_snapshot(self, age_minutes=15, missing=None, naive=False, malformed=False):
         with tempfile.TemporaryDirectory() as folder:
