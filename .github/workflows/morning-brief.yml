@@ -43,8 +43,11 @@ jobs:
               data = json.loads(Path("data/market.json").read_text(encoding="utf-8"))
               stamp = data.get("generated_at_utc") or data.get("generated_at_kst")
               generated = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
-              age = (datetime.now(timezone.utc) - generated).total_seconds()
-              fresh = generated.tzinfo is not None and 0 <= age <= 12 * 3600
+              if generated.tzinfo is None:
+                  fresh = False
+              else:
+                  age = (datetime.now(timezone.utc) - generated).total_seconds()
+                  fresh = 0 <= age <= 12 * 3600
           except (OSError, ValueError, TypeError, AttributeError):
               fresh = False
           print(f"Existing market snapshot fresh: {fresh}")
