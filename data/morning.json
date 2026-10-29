@@ -1,14 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-10-29T07:59:51.577836+09:00",
+  "generated_at_kst": "2026-10-29T10:03:26.877918+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-10-29T07:59:50.042630+09:00",
+  "market_snapshot_at": "2026-10-29T08:17:36.506395+09:00",
   "news_snapshot_at": "2026-10-29T07:59:50.235416+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_age_hours": 1.76,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-10-29T07:00:00+09:00",
-  "briefing_delay_minutes": 59.9,
+  "scheduled_briefing_at_kst": "2026-10-29T06:30:00+09:00",
+  "briefing_delay_minutes": 213.4,
   "briefing_late_over_10min": true,
+  "briefing_deadline_at_kst": "2026-10-29T07:30:00+09:00",
+  "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
@@ -24,7 +26,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 1.291,
+      "change_percent": 1.282,
       "market_date": "2026-10-28",
       "meaning": "원화 약세 방향"
     }
@@ -104,7 +106,7 @@
   ],
   "news_snapshot_fresh": true,
   "warnings": [
-    "오전 7시 통합 데이터 갱신이 10분 넘게 지연되었습니다.",
+    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
