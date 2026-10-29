@@ -41,11 +41,6 @@ jobs:
             echo 'repair=true' >> "$GITHUB_OUTPUT"
             echo 'Market and briefing differ; regenerating derived data.'
           fi
-      - name: Offline regression tests (diagnostic; do not block validated recovery)
-        id: regressions
-        if: steps.drift.outputs.repair == 'true'
-        continue-on-error: true
-        run: python -m unittest discover -s tests -v
       - name: Required recovery schedule and freshness guard tests
         if: steps.drift.outputs.repair == 'true'
         run: python -m unittest discover -s tests -p 'test_market_schedule.py' -v && python -m unittest discover -s tests -p 'test_consistency_recovery_window.py' -v
@@ -71,6 +66,12 @@ jobs:
             python scripts/check_consistency.py
             git push origin HEAD:main
           fi
+
+      - name: Offline regression tests (diagnostic; do not block validated recovery)
+        id: regressions
+        if: steps.drift.outputs.repair == 'true'
+        continue-on-error: true
+        run: python -m unittest discover -s tests -v
 
       - name: Report recovery evidence
         if: always()
