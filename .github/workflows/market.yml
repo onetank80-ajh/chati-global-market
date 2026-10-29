@@ -6,6 +6,8 @@ on:
     # 21:30 UTC Sunday-Thursday = 06:30 KST Monday-Friday.
     # GitHub scheduled runs can be delayed; this is a buffer, not a guarantee.
     - cron: '30 21 * * 0-4'
+    # Backup at 06:50 KST if the 06:30 scheduled run is delayed or dropped.
+    - cron: '50 21 * * 0-4'
 permissions:
   contents: write
 concurrency:
