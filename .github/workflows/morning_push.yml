@@ -46,7 +46,7 @@ jobs:
         shell: python
         run: |
           import json, os, math
-          from datetime import datetime, timezone
+          from datetime import datetime, timezone, timedelta
           from pathlib import Path
           from zoneinfo import ZoneInfo
           ready = False
@@ -67,7 +67,6 @@ jobs:
                   and quotes[k]['close'] > 0
                   for k in required
               )
-              from datetime import timedelta
               today = datetime.now(ZoneInfo('Asia/Seoul')).date()
               expected = today - timedelta(days=3 if today.weekday() == 0 else 1)
               us_dates_valid = all(
