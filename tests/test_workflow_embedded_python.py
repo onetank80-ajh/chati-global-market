@@ -118,6 +118,20 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", evidence)
         self.assertNotIn("git diff --cached --quiet;", evidence)
 
+    def test_noop_market_run_emits_honest_evidence(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        publish = source.split("      - name: Commit data files", 1)[1].split(
+            "      - name: Publish machine-readable pipeline evidence", 1
+        )[0]
+        evidence = source.split(
+            "      - name: Publish machine-readable pipeline evidence", 1
+        )[1].split("      - name: Fetch headlines", 1)[0]
+        self.assertIn("VERIFIED_NOOP_UTC=", publish)
+        self.assertIn("env.VERIFIED_NOOP_UTC != ''", evidence)
+        self.assertIn('"consistent_snapshot_unchanged"', evidence)
+        self.assertIn('os.environ.get("PUBLISHED_UTC") or None', evidence)
+        self.assertIn('os.environ.get("VERIFIED_NOOP_UTC") or None', evidence)
+
     def test_recovery_evidence_commits_only_its_own_file(self):
         source = WORKFLOWS[1].read_text(encoding="utf-8")
         evidence = source.split(
