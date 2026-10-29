@@ -104,6 +104,20 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertNotIn("git add data/briefing.json", critical)
         self.assertIn("git push origin HEAD:main", critical)
 
+    def test_success_evidence_commits_only_its_own_file(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        evidence = source.split(
+            "      - name: Publish machine-readable pipeline evidence", 1
+        )[1].split("      - name: Fetch headlines (optional, max 15s)", 1)[0]
+        self.assertIn(
+            "git diff --quiet HEAD -- data/pipeline_health.json", evidence
+        )
+        self.assertIn(
+            "git commit --only data/pipeline_health.json", evidence
+        )
+        self.assertIn("continue-on-error: true", evidence)
+        self.assertNotIn("git diff --cached --quiet;", evidence)
+
     def test_optional_publish_cannot_block_critical_publish(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         critical = source.index("      - name: Commit data files")
