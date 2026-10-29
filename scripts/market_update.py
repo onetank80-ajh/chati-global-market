@@ -9,12 +9,14 @@ from zoneinfo import ZoneInfo
 
 import yfinance as yf
 
+# Required briefing indicators first: fail fast if a critical provider is down.
+# Optional benchmarks follow and never determine whether a snapshot is publishable.
 SYMBOLS = {
-    "nasdaq": ("^IXIC", "NASDAQ Composite", "points"),
     "sp500": ("^GSPC", "S&P 500", "points"),
-    "dow": ("^DJI", "Dow Jones", "points"),
     "sox": ("^SOX", "PHLX Semiconductor", "points"),
     "usdkrw": ("KRW=X", "USD/KRW", "KRW per USD"),
+    "nasdaq": ("^IXIC", "NASDAQ Composite", "points"),
+    "dow": ("^DJI", "Dow Jones", "points"),
 }
 
 
