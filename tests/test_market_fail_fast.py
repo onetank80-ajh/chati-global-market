@@ -30,16 +30,15 @@ class MarketFailFastTests(unittest.TestCase):
             return {"symbol": symbol, "status": "ok"}
         with tempfile.TemporaryDirectory() as tmp:
             with patch.object(self.module, "fetch", side_effect=fake_fetch):
-                with patch("os.getcwd", return_value=tmp):
-                    # main() uses a relative data path, so isolate process cwd.
-                    import os
-                    old = os.getcwd()
-                    try:
-                        os.chdir(tmp)
-                        with self.assertRaisesRegex(RuntimeError, "sox"):
-                            self.module.main()
-                    finally:
-                        os.chdir(old)
+                # main() uses a relative data path, so isolate process cwd.
+                import os
+                old = os.getcwd()
+                try:
+                    os.chdir(tmp)
+                    with self.assertRaisesRegex(RuntimeError, "sox"):
+                        self.module.main()
+                finally:
+                    os.chdir(old)
             self.assertEqual(requested, ["^GSPC", "^SOX"])
             self.assertFalse((Path(tmp) / "data/market.json").exists())
 
