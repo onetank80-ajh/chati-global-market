@@ -198,6 +198,11 @@ jobs:
               "result": "recovery_snapshot_pushed",
               "run_id": os.environ.get("GITHUB_RUN_ID"),
               "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
+              "run_url": "{}/{}/actions/runs/{}".format(
+                  os.environ.get("GITHUB_SERVER_URL", "https://github.com"),
+                  os.environ.get("GITHUB_REPOSITORY", ""),
+                  os.environ.get("GITHUB_RUN_ID", ""),
+              ),
               "trigger": os.environ.get("GITHUB_EVENT_NAME"),
               "trigger_cron": "${{ github.event.schedule }}" or None,
               "published_at_utc": os.environ["RECOVERY_PUBLISHED_UTC"],
