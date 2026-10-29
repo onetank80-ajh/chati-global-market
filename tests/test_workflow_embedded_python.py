@@ -17,7 +17,7 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         for workflow in WORKFLOWS:
             source = workflow.read_text(encoding="utf-8")
             blocks = re.findall(
-                r"(?m)^([ ]*)python - <<'PY'[ ]*\n(.*?)^\1PY[ ]*$",
+                r"(?m)^([ ]*)(?:if )?python - <<'PY'[ ]*\n(.*?)^\1PY[ ]*$",
                 source,
                 flags=re.DOTALL | re.MULTILINE,
             )
@@ -28,7 +28,7 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
                     compile(textwrap.dedent(body), str(workflow), "exec")
                 except SyntaxError as exc:
                     self.fail(f"{workflow.name} embedded Python syntax error: {exc}")
-        self.assertGreaterEqual(found, 2)
+        self.assertGreaterEqual(found, 5, "Recovery guard and diagnostics must also be compiled")
 
     def test_market_publication_requires_consistency(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
