@@ -72,9 +72,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # The critical publication must contain only mutually consistent
+          # market/intelligence/morning data. Optional legacy files are
+          # committed later in their own best-effort stage.
           git add data/market.json data/intelligence.json data/morning.json
-          if [ -f data/news.json ]; then git add data/news.json; fi
-          if [ -f data/briefing.json ]; then git add data/briefing.json; fi
           # Derived intelligence and morning briefing must be committed with every new market snapshot.
           if git diff --cached --name-only -- data/market.json | grep -qx 'data/market.json'; then
             for derived in data/intelligence.json data/morning.json; do
