@@ -1,6 +1,9 @@
 name: Chati Morning Push v3.2
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Chati Global Market']
+    types: [completed]
   push:
     branches: [main]
     paths:
