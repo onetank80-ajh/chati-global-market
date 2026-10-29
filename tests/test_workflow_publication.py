@@ -76,11 +76,12 @@ class WorkflowPublicationTests(unittest.TestCase):
     def test_recovery_tests_run_after_sync(self):
         content = MORNING.read_text(encoding="utf-8")
         sync = content.index("- name: Sync latest snapshots")
-        tests = content.index("- name: Offline regression tests on synced code before recovery")
+        tests = content.index("- name: Required recovery schedule and freshness guard tests")
         generation = content.index("- name: Refresh derived intelligence")
         self.assertLess(sync, tests)
         self.assertLess(tests, generation)
         self.assertIn("python -m unittest discover -s tests -v", content)
+        self.assertIn("- name: Offline regression tests (diagnostic; do not block validated recovery)", content)
 
     def test_recovery_checks_consistency_before_and_after_rebase(self):
         content = MORNING.read_text(encoding="utf-8")
