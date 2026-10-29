@@ -156,7 +156,7 @@ jobs:
           PY
           git add data/pipeline_health.json
           if ! git diff --cached --quiet; then
-            git commit -m "Record successful Chati briefing publication"
+            git commit --only data/pipeline_health.json -m "Record successful Chati briefing publication"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
