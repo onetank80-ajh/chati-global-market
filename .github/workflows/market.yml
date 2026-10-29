@@ -100,6 +100,7 @@ jobs:
             git pull --rebase origin main
             python scripts/check_consistency.py
             git push origin HEAD:main
+            echo "PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           fi
       - name: Publish snapshot diagnostics
         if: always()
@@ -111,6 +112,7 @@ jobs:
           PIPELINE_START_UTC: ${{ env.PIPELINE_START_UTC }}
           TRIGGER_CRON: ${{ env.TRIGGER_CRON }}
           TRIGGER_EVENT: ${{ env.TRIGGER_EVENT }}
+          PUBLISHED_UTC: ${{ env.PUBLISHED_UTC }}
         run: |
           python - <<'PY'
           import json
@@ -160,6 +162,14 @@ jobs:
           deadline = local.replace(hour=7, minute=30, second=0, microsecond=0)
           lines.append(f"- Diagnostics at KST: {local.isoformat(timespec='seconds')}")
           lines.append(f"- 07:30 KST deadline already passed: {local > deadline}")
+          published_raw = os.environ.get("PUBLISHED_UTC", "")
+          if published_raw:
+              published = datetime.fromisoformat(published_raw.replace("Z", "+00:00")).astimezone(kst)
+              publish_deadline = published.replace(hour=7, minute=30, second=0, microsecond=0)
+              lines.append(f"- Git push completed at KST: `{published.isoformat(timespec='seconds')}`")
+              lines.append(f"- Published by 07:30 KST: `{published <= publish_deadline}`")
+          else:
+              lines.append("- Published by 07:30 KST: `not confirmed (no successful push in this run)`")
           trigger = os.environ.get("TRIGGER_CRON", "")
           lines.append(f"- Trigger: `{os.environ.get('TRIGGER_EVENT', 'unknown')}`, cron: `{trigger or 'n/a'}`")
           expected = {"30 21 * * 0-4": (6, 30), "50 21 * * 0-4": (6, 50)}.get(trigger)
