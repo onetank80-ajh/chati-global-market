@@ -23,14 +23,14 @@ class RecoveryMarketFreshnessTests(unittest.TestCase):
             raise AssertionError("Recovery freshness Python heredoc missing")
         cls.guard = "\n".join(line[10:] for line in match.group(1).splitlines())
 
-    def check_snapshot(self, age_minutes=15, missing=None, naive=False, malformed=False):
+    def check_snapshot(self, age_minutes=15, missing=None, naive=False, malformed=False, bad_close=None):
         with tempfile.TemporaryDirectory() as folder:
             data = Path(folder) / "data"
             data.mkdir()
             stamp = datetime.now(timezone.utc) - timedelta(minutes=age_minutes)
             if naive:
                 stamp = stamp.replace(tzinfo=None)
-            quotes = {key: {"status": "ok"} for key in ("sp500", "sox", "usdkrw")}
+            quotes = {key: {"status": "ok", "close": 100.0, "market_date": "2026-10-28"}\n                      for key in ("sp500", "sox", "usdkrw")}\n            if bad_close is not None:\n                quotes["sox"]["close"] = bad_close
             if missing:
                 quotes[missing] = {"status": "unavailable"}
             payload = {"generated_at_utc": stamp.isoformat(), "markets": quotes}
@@ -51,6 +51,11 @@ class RecoveryMarketFreshnessTests(unittest.TestCase):
         for key in ("sp500", "sox", "usdkrw"):
             with self.subTest(key=key):
                 self.assertEqual(self.check_snapshot(missing=key).returncode, 1)
+
+    def test_invalid_close_requires_refetch(self):
+        for close in (0, -1, "not-a-number", True):
+            with self.subTest(close=close):
+                self.assertEqual(self.check_snapshot(bad_close=close).returncode, 1)
 
     def test_naive_timestamp_requires_refetch(self):
         self.assertEqual(self.check_snapshot(naive=True).returncode, 1)
