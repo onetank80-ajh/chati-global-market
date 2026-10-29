@@ -40,7 +40,7 @@ class MarketScheduleTests(unittest.TestCase):
 
     def test_all_market_crons_have_delay_diagnostics(self):
         source = (ROOT / ".github/workflows/market.yml").read_text(encoding="utf-8")
-        crons = re.findall(r"""cron:\\s*['"]([^'"]+)['"]""", source)
+        crons = re.findall(r"""cron:\s*['"]([^'"]+)['"]""", source)
         self.assertEqual(len(crons), 3)
         diagnostics = source.split("expected = ", 1)[1].split(".get(trigger)", 1)[0]
         for cron in crons:
