@@ -9,7 +9,7 @@ on:
       - '.github/workflows/**'
       - 'requirements*.txt'
 permissions:
-  contents: read
+  contents: write
 jobs:
   regression:
     runs-on: ubuntu-latest
@@ -26,8 +26,10 @@ jobs:
       - name: Install test dependencies
         run: python -m pip install --disable-pip-version-check yfinance==0.2.66
       - name: Compile Python scripts and tests before running them
+        id: compile
         run: python -m compileall -q scripts tests
       - name: Run complete offline test suite
+        id: tests
         run: python -m unittest discover -s tests -v
       - name: Report regression result
         if: always()
@@ -36,3 +38,47 @@ jobs:
           echo "- Python: ${{ matrix.python-version }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Commit: ${{ github.sha }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> "$GITHUB_STEP_SUMMARY"
+
+      # Persist CI outcomes even when tests fail, so status can be audited without
+      # browsing a specific run ID. Each Python version writes its own file.
+      - name: Publish machine-readable regression evidence
+        if: always()
+        continue-on-error: true
+        env:
+          COMPILE_OUTCOME: ${{ steps.compile.outcome }}
+          TEST_OUTCOME: ${{ steps.tests.outcome }}
+          PYTHON_VERSION: ${{ matrix.python-version }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+          version = os.environ["PYTHON_VERSION"].replace(".", "")
+          record = {
+              "schema_version": 1,
+              "source_commit": os.environ.get("GITHUB_SHA"),
+              "python_version": os.environ["PYTHON_VERSION"],
+              "compile_outcome": os.environ.get("COMPILE_OUTCOME"),
+              "test_outcome": os.environ.get("TEST_OUTCOME"),
+              "run_id": os.environ.get("GITHUB_RUN_ID"),
+              "run_url": "{}/{}/actions/runs/{}".format(
+                  os.environ.get("GITHUB_SERVER_URL", "https://github.com"),
+                  os.environ.get("GITHUB_REPOSITORY", ""),
+                  os.environ.get("GITHUB_RUN_ID", ""),
+              ),
+              "observed_at_utc": datetime.now(timezone.utc).isoformat(),
+          }
+          target = Path(f"data/ci_health_py{version}.json")
+          target.parent.mkdir(exist_ok=True)
+          target.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          file="data/ci_health_py${PYTHON_VERSION//./}.json"
+          git add "$file"
+          if ! git diff --quiet HEAD -- "$file"; then
+            git commit --only "$file" -m "Record regression CI outcome for Python ${PYTHON_VERSION}"
+            git -c rebase.autoStash=true pull --rebase origin main
+            git push origin HEAD:main
+          fi
