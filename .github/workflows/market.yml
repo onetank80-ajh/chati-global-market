@@ -8,6 +8,8 @@ on:
     - cron: '30 21 * * 0-4'
     # Backup at 06:50 KST if the 06:30 scheduled run is delayed or dropped.
     - cron: '50 21 * * 0-4'
+    # Final pre-deadline retry at 07:05 KST if earlier scheduled runs were dropped.
+    - cron: '5 22 * * 0-4'
 permissions:
   contents: write
 concurrency:
