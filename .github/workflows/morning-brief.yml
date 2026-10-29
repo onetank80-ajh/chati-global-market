@@ -89,7 +89,7 @@ jobs:
           fi
       - name: Required recovery schedule and freshness guard tests
         if: steps.drift.outputs.repair == 'true'
-        run: python -m unittest discover -s tests -p 'test_market_schedule.py' -v && python -m unittest discover -s tests -p 'test_consistency_recovery_window.py' -v && python -m unittest discover -s tests -p 'test_morning_deadline.py' -v
+        run: python -m unittest discover -s tests -p 'test_market_schedule.py' -v && python -m unittest discover -s tests -p 'test_consistency_recovery_window.py' -v && python -m unittest discover -s tests -p 'test_morning_deadline.py' -v && python -m unittest discover -s tests -p 'test_recovery_market_freshness.py' -v
       - name: Refresh derived intelligence from existing JSON snapshots
         if: steps.drift.outputs.repair == 'true'
         run: python scripts/intelligence_update.py
