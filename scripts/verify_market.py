@@ -6,7 +6,6 @@ import sys
 from datetime import datetime, timezone, time
 from pathlib import Path
 from zoneinfo import ZoneInfo
-import yfinance as yf
 
 KST = ZoneInfo('Asia/Seoul')
 OUT = Path('data/verification.json')
@@ -47,6 +46,7 @@ def main(mode):
             if any(r.get('date') == now.date().isoformat() and r.get('market') == key for r in records): continue
             records.append({'date': now.date().isoformat(), 'market': key, 'prediction': predicted, 'score': score, 'predicted_at_kst': now.isoformat(), 'source_snapshot_utc': snapshot, 'source_dates': {k:mk[k].get('market_date') for k in ('sp500','sox','usdkrw')}, 'actual': None, 'status': 'pending'})
     elif mode == 'settle':
+        import yfinance as yf
         for key, symbol in SYMBOLS.items():
             pending = [r for r in records if r.get('market') == key and r.get('status') == 'pending' and r.get('date') <= now.date().isoformat()]
             if not pending: continue
