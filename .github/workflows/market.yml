@@ -65,12 +65,13 @@ jobs:
           echo "Run URL: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           echo "Checked out commit: ${GITHUB_SHA}"
           git status --short
-      # Optional news and legacy briefing must not consume the 07:30 deadline.
-      - name: Fetch headlines (optional, max 45s)
-        run: timeout 45s python scripts/news_update.py
+      # Keep optional stages within a short fixed budget so the core
+      # market/intelligence/morning publication takes priority.
+      - name: Fetch headlines (optional, max 15s)
+        run: timeout 15s python scripts/news_update.py
         continue-on-error: true
-      - name: Generate existing briefing (optional, max 20s)
-        run: timeout 20s python scripts/briefing_update.py
+      - name: Generate existing briefing (optional, max 10s)
+        run: timeout 10s python scripts/briefing_update.py
         continue-on-error: true
       - name: Generate v1 intelligence
         run: python scripts/intelligence_update.py
