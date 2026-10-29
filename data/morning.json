@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-10-30T07:40:09.304309+09:00",
+  "generated_at_kst": "2026-10-30T08:58:45.225499+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-10-30T07:40:09.161382+09:00",
-  "news_snapshot_at": "2026-10-30T07:36:35.721473+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-10-30T08:18:45.347417+09:00",
+  "news_snapshot_at": "2026-10-30T07:40:12.813624+09:00",
+  "market_snapshot_age_hours": 0.67,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-10-30T06:30:00+09:00",
-  "briefing_delay_minutes": 70.2,
+  "briefing_delay_minutes": 148.8,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-10-30T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -26,7 +26,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.886,
+      "change_percent": 0.935,
       "market_date": "2026-10-29",
       "meaning": "원화 약세 방향"
     }
@@ -62,10 +62,10 @@
       "published_at_utc": "2026-10-28T23:53:34+00:00"
     },
     {
-      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNdWxVcTFiYVhKSk9ZVnhaaENyUUotdHV1TXhuTXM3ODZLNnhqOGxXZWJVTnVwek1nREVFbnlFaTd6SGtzeldoQkR5NVpXaXB3Z0ExUjRvemM3WmYzNGdaYzBIZXoxN2lZeHNJM09EWkFTWERuZjZtby0xVnpFcWcySXpEX0kxb1hQeUxjNU1hQzY4LThwMGdPT0ZyUUNIZGJxTjI4elg3ekoxWUVZbEstZElKazlGUnd6Q3Z5TWNSM2pyb1M3VFVpMDByV0Z4eXo5ZmU0emVYNGtKaWh3T3J3QU5IMk9DN0NHeFFjMzZjVURtam5hS1RBWjltS19Ha2xlY0F1N1BpNUtOVHhUSFpWYTgxclF5Ukk5VDJHUTlZNGVmTmw3UXdMMmRpOXJPdWZUNFRzaWVFWllTakxwd0FubHdYSUpaQ3lXUEF3V2J1U2s?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-29T01:49:39+00:00"
+      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1BWaEhJTENtZVh4TWR1ZUFaNjl5dTk1U1dmcm51R19KaEVNQlNoMURRMnhVX1ZJM0xqQnROLUQtaXBWLUtIYmhna0xveDBSS2tUSUpZVHNrSkREMnhGcWh3azRUTENELVhZN05wNkJjdjBITUVSX25UR2kzWGctQ1RRNkZXMkpucWJQZGZXRDlmU2xYMTV5ei0wNUh5MmlqUHV4eHBfcFNIRW5jcG5hQg?oc=5",
+      "source": "WRAL",
+      "published_at_utc": "2026-10-28T19:25:06+00:00"
     },
     {
       "title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Reuters",
@@ -80,10 +80,10 @@
       "published_at_utc": "2026-10-28T21:52:07+00:00"
     },
     {
-      "title": "Wall Street ends higher on revived AI momentum - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-27T23:01:33+00:00"
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-10-29T09:33:23+00:00"
     },
     {
       "title": "Nvidia, AMD, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",

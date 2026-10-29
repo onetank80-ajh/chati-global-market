@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-29T22:40:09.264743+00:00",
+  "generated_at_utc": "2026-10-29T23:58:45.181357+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 14,
+  "headline_count_after": 13,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-10-30T07:40:09.161382+09:00",
+  "market_snapshot_at": "2026-10-30T08:18:45.347417+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": -0.305,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.886,
+      "change_percent": 0.935,
       "market_date": "2026-10-29",
       "status": "ok"
     },
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxTDFhVE1saGU1YVdmYlR4WkxQdkg0R19fZklIT2YzU2lLWUprTFBsbkdTRzc5Mi0zVFBiVk9xZWR6ZFgtYm1sQndGZ01uVUNxeXh3Z05tZlVudU5KSC1JOGVLYnIwOHlvX0JRNjRyOW1YdERq?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-10-29T02:41:24+00:00",
-      "age_hours": 20.0,
-      "relevance_score": 74,
+      "age_hours": 21.3,
+      "relevance_score": 73,
       "tags": [
         "한국시장 직접언급",
         "반도체/AI"
@@ -71,8 +71,8 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUElhWW40N0xpYzZNZm9UN1JVR3kwdTA1WkFJM3ZCQ21zUmh3c0ZhTmJtUmRvWHZwbFlkWW12azhmanFCcUVTbkxNOWwxWTUzcTd2VlZaMjY0REFsWFJ0TXRBamxBTGpYZnVhaHJ2Q0RvTGhXUlpYUlF2bFdLWGdScHRoVkh3RnB5UXNpaWNZOTNfVHNJckZaRHlLSFNYZmx5WDZEVGZtZDBhYzdMMHk1NEI2YmU2U1BJUnVCNnpn?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-10-28T20:02:01+00:00",
-      "age_hours": 26.6,
-      "relevance_score": 72,
+      "age_hours": 27.9,
+      "relevance_score": 71,
       "tags": [
         "한국시장 직접언급",
         "반도체/AI"
@@ -85,7 +85,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5leG9tUUJ3akdKMUNtOVZFVG1pQUJzNHZrSXNYdnhXQ1BEVzcwOEV1d2xsLUMyRXRnLWNGWkRYR25PMXUyN3FMUmNlRE9Ma2VROXJYNWdTMWRxMHNscGUwNmpqbExkVXJHbzRRQU43N2hOMTI0UHc?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-29T01:06:00+00:00",
-      "age_hours": 21.6,
+      "age_hours": 22.9,
       "relevance_score": 48,
       "tags": [
         "한국시장 직접언급"
@@ -94,12 +94,38 @@
       "needs_verification": true
     },
     {
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-10-29T09:33:23+00:00",
+      "age_hours": 14.4,
+      "relevance_score": 46,
+      "tags": [
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "The Same $10,000 in AMD and Nvidia Could Produce Very Different Results by 2030 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbEx5R0VsMzc2S0JEYXYzT2Uyckg5S3MxY3cwczRfTUhUdWlITjR3X28zUHAya2NrTFpadlF1Sko5a1k1aUdHVjM0NXhyQ3JKZUkyeGdOWUUwYjc5TnM5TzR2QW5ueVpKcUNXcDJHRVR5RnpSTzU0X05talpNZkxMQ3ZnOHAtT2hmT2ctXy1mWHdmTjBJcFhLUjZ4U2NYVkFDS3k1M2FxNERSaFpQSDFJWll5V3hLcUZROE8tNF93?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-10-29T16:33:00+00:00",
+      "age_hours": 7.4,
+      "relevance_score": 43,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
       "title": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-10-28T23:53:34+00:00",
-      "age_hours": 22.8,
-      "relevance_score": 43,
+      "age_hours": 24.1,
+      "relevance_score": 42,
       "tags": [
         "거시경제"
       ],
@@ -111,7 +137,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORmdWTHRYTzlqdXI1ZkNOVlZ0REoydlpLOU13MTFORHJ6U0JwanpPMTJlRVdHRE1FU0RPLTZRLWtjWDBhMjJpaXdVY2VZTUY4RGNZdFlFWGVRU0JmTWdKMVhxTVJfcHNyOS1MM1hXclUyaFl5RTBpUFFvUkxCcEwtOGxERGlsVjRNaktzemEtalR1SlRWbGExTGYwRVprQlFycDc1Z0IzZFpZdEtwczBJN1dzd1NxNzN0Q3JJTEZneno4bms?oc=5",
       "source": "Eurasia Business News",
       "published_at_utc": "2026-10-28T21:52:07+00:00",
-      "age_hours": 24.8,
+      "age_hours": 26.1,
       "relevance_score": 42,
       "tags": [
         "거시경제"
@@ -120,16 +146,16 @@
       "needs_verification": true
     },
     {
-      "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nb3Qya2dEajFPaUk5dEVveFlBb0lMSjVhTXBHYldhYUI1TlAwUXYxZjFoZHhmRURWd3BRTjRZVDk1REF1NXNOUzRXWFhkT2d4b1E?oc=5",
-      "source": "Yahoo Finance Australia",
-      "published_at_utc": "2026-10-29T00:45:15+00:00",
-      "age_hours": 21.9,
-      "relevance_score": 38,
+      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1BWaEhJTENtZVh4TWR1ZUFaNjl5dTk1U1dmcm51R19KaEVNQlNoMURRMnhVX1ZJM0xqQnROLUQtaXBWLUtIYmhna0xveDBSS2tUSUpZVHNrSkREMnhGcWh3azRUTENELVhZN05wNkJjdjBITUVSX25UR2kzWGctQ1RRNkZXMkpucWJQZGZXRDlmU2xYMTV5ei0wNUh5MmlqUHV4eHBfcFNIRW5jcG5hQg?oc=5",
+      "source": "WRAL",
+      "published_at_utc": "2026-10-28T19:25:06+00:00",
+      "age_hours": 28.6,
+      "relevance_score": 41,
       "tags": [
-        "반도체/AI"
+        "거시경제"
       ],
-      "category": "semiconductor",
+      "category": "us_market",
       "needs_verification": true
     },
     {
@@ -137,7 +163,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeVhYWUZWX0YzbEx1dWFldW9vNWRIS29wQkpMTFU4endHbDFwRHRaVmkxYWwxZXVXLVl0MlFDNURlTlJXY2RnNi1HUlQzSjJzdmluY28wZ3R1NUlqQ1VrcE9qZ1NnOVVPaWViem1ndVZIX2RrWl8weGNZRVdTbVNqSWdsRDZZLUtZY2dfNXBPdkVmYUM3dmlKNE55cHZYaFExdnBoVzBuWURRNzg0SlhqT0NwSk9hc1d2RlRJLWFJZWZpNjNzam13?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-10-28T18:38:14+00:00",
-      "age_hours": 28.0,
+      "age_hours": 29.3,
       "relevance_score": 36,
       "tags": [
         "반도체/AI"
@@ -150,8 +176,8 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUNESjNKQm9WM29KdEpZZlN1dGpYam5zbUhBUDE0X1lnLW1xZ3BGaFpsUld2cTJzVDJaeV80UTdyNWcyUW5xVkZEZ2Z5a0VNYlROSTZGUGRPQ0JSUFVINXNhWUcyQVo5MTRULWs2SVVLUXI5ZVd1SzBWbm1jdzNORkt0SkM5WHV4aUhGTlRiQ29TNzluVTlGTERRdmNiNklmVV9kMUQwbktWWHJVZHo0SndTYWVQeTdYM3h2dzF5WmJrWXZGLXk2Q3QxLTgxV3M?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-28T13:57:56+00:00",
-      "age_hours": 32.7,
-      "relevance_score": 35,
+      "age_hours": 34.0,
+      "relevance_score": 34,
       "tags": [
         "반도체/AI"
       ],
@@ -163,7 +189,7 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU1VRUzZlRzhNam5fWHJSdzRDNk9iM3dYN29jUGlidG5vRnV0aG4wVERiVDlPRmVOYmRBR0NZTmwyREdyT1Jtb2h6cURZUUZRbGhVMkFCSmZ1dnp0WVBYWHR6UlNTaXY4Y0NMNk13YU5QMGR3MG8yUG1CalVpYUhWVGtibnVQRXFjZWxwb0NhNzhQSVBtYjhsSWRaNmpQSV9LRGVONUd0UWRUUVBIdWd3VHREdHpaeFFEZXhtVWlURXVKN0hlS085TWJ4cjk?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-28T13:34:51+00:00",
-      "age_hours": 33.1,
+      "age_hours": 34.4,
       "relevance_score": 34,
       "tags": [
         "반도체/AI"
@@ -172,36 +198,12 @@
       "needs_verification": true
     },
     {
-      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - reflector.com",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZXFwem1MeEVKOGV3YWJsS0FKNG1OOUZOQXN1WUdQOHQwVjAtalp0SzE3bkpVV190ZXhpcUk4MHJvOWhrS1ROX2xIRW82Z0lETThjUVJZT1JWaGdvNzc5RHZfRGIzWnpmWC1HbXcyMU1RYUNucUhMZmM1X1ZmR1pTX0t3WmFBVU4wdnFkaEVFNjl3SHl5UFIxTThwLUJGSkowblg5clRyZXNla2d0SGJseHJIczRzVjQ2T19sa0pZdlhrMlJORHQzRDVydzE3Yi1URksyc3pRQmtkNnltSG52bjAtem9QNXJhVGVZUHlnVlYycnpGMWJjaUlvVWVNOEc3czl2dg?oc=5",
-      "source": "reflector.com",
-      "published_at_utc": "2026-10-28T20:02:52+00:00",
-      "age_hours": 26.6,
-      "relevance_score": 32,
-      "tags": [
-        "거시경제"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
       "title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-10-29T20:30:27+00:00",
-      "age_hours": 2.2,
-      "relevance_score": 30,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNdWxVcTFiYVhKSk9ZVnhaaENyUUotdHV1TXhuTXM3ODZLNnhqOGxXZWJVTnVwek1nREVFbnlFaTd6SGtzeldoQkR5NVpXaXB3Z0ExUjRvemM3WmYzNGdaYzBIZXoxN2lZeHNJM09EWkFTWERuZjZtby0xVnpFcWcySXpEX0kxb1hQeUxjNU1hQzY4LThwMGdPT0ZyUUNIZGJxTjI4elg3ekoxWUVZbEstZElKazlGUnd6Q3Z5TWNSM2pyb1M3VFVpMDByV0Z4eXo5ZmU0emVYNGtKaWh3T3J3QU5IMk9DN0NHeFFjMzZjVURtam5hS1RBWjltS19Ha2xlY0F1N1BpNUtOVHhUSFpWYTgxclF5Ukk5VDJHUTlZNGVmTmw3UXdMMmRpOXJPdWZUNFRzaWVFWllTakxwd0FubHdYSUpaQ3lXUEF3V2J1U2s?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-10-29T01:49:39+00:00",
-      "age_hours": 20.8,
-      "relevance_score": 24,
+      "age_hours": 3.5,
+      "relevance_score": 29,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
