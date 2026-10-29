@@ -123,5 +123,35 @@ class MarketFailFastTests(unittest.TestCase):
                 self.assertEqual(output["markets"][key]["status"], "ok")
 
 
+    def test_successful_fetch_replaces_snapshot_atomically(self):
+        import json
+        import os
+        requested = []
+
+        def fake_fetch(symbol, name, unit):
+            requested.append(symbol)
+            return {"symbol": symbol, "status": "ok", "market_date": "2026-10-28",
+                    "close": 100.0, "previous_close": 99.0, "change_percent": 1.01}
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data/market.json"
+            path.parent.mkdir(parents=True)
+            path.write_text('{"old": true}\n', encoding="utf-8")
+            with patch.object(self.module, "fetch", side_effect=fake_fetch):
+                old = os.getcwd()
+                try:
+                    os.chdir(tmp)
+                    self.module.main()
+                finally:
+                    os.chdir(old)
+            output = json.loads(path.read_text(encoding="utf-8"))
+            self.assertEqual(len(requested), 5)
+            self.assertEqual(len(output["markets"]), 5)
+            self.assertTrue(all(item["status"] == "ok"
+                                for item in output["markets"].values()))
+            self.assertNotIn("old", output)
+            self.assertEqual(list(path.parent.glob(".market-*.json")), [])
+
+
 if __name__ == "__main__":
     unittest.main()
