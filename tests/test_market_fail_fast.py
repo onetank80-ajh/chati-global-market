@@ -70,6 +70,32 @@ class MarketFailFastTests(unittest.TestCase):
                     self.assertFalse(optional.intersection(requested))
                     self.assertFalse((Path(tmp) / "data/market.json").exists())
 
+    def test_required_failure_preserves_existing_snapshot(self):
+        import os
+        requested = []
+        original = '{"previous_snapshot": true}\n'
+
+        def fake_fetch(symbol, name, unit):
+            requested.append(symbol)
+            if symbol == "KRW=X":
+                return {"symbol": symbol, "status": "unavailable", "error": "simulated outage"}
+            return {"symbol": symbol, "status": "ok"}
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data/market.json"
+            path.parent.mkdir(parents=True)
+            path.write_text(original, encoding="utf-8")
+            with patch.object(self.module, "fetch", side_effect=fake_fetch):
+                old = os.getcwd()
+                try:
+                    os.chdir(tmp)
+                    with self.assertRaisesRegex(RuntimeError, "usdkrw"):
+                        self.module.main()
+                finally:
+                    os.chdir(old)
+            self.assertEqual(path.read_text(encoding="utf-8"), original)
+            self.assertEqual(requested, ["^GSPC", "^SOX", "KRW=X"])
+
     def test_optional_failure_keeps_valid_required_snapshot(self):
         import json
         import os
