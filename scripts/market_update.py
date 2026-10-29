@@ -51,6 +51,13 @@ def main():
         print(f"Fetching quote: {key} ({spec[0]})", flush=True)
         items[key] = fetch(*spec)
         print(f"Quote result: {key} status={items[key].get('status', 'missing')}", flush=True)
+        # Do not spend additional provider requests on optional indices when a
+        # required indicator has already failed; the whole attempt must retry.
+        if key in ("sp500", "sox", "usdkrw") and items[key].get("status") != "ok":
+            raise RuntimeError(
+                f"Required market data unavailable: {key} "
+                f"({items[key].get('symbol', key)}): {items[key].get('error', 'unknown error')}"
+            )
     now = datetime.now(timezone.utc)
     output = {
         "schema_version": 1,
