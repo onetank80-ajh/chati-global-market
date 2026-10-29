@@ -59,5 +59,26 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
                          "Optional work must not delay the critical morning publication")
 
 
+    def test_critical_publish_stages_only_required_data(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        critical = source.split("      - name: Commit data files", 1)[1].split(
+            "      - name: Fetch headlines (optional, max 15s)", 1
+        )[0]
+        self.assertIn("git add data/market.json data/intelligence.json data/morning.json", critical)
+        self.assertNotIn("git add data/news.json", critical)
+        self.assertNotIn("git add data/briefing.json", critical)
+        self.assertIn("git push origin HEAD:main", critical)
+
+    def test_optional_publish_cannot_block_critical_publish(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        critical = source.index("      - name: Commit data files")
+        optional = source.index("      - name: Publish optional legacy data")
+        self.assertLess(critical, optional)
+        optional_stage = source[optional:source.index(
+            "      - name: Offline regression tests", optional
+        )]
+        self.assertIn("continue-on-error: true", optional_stage)
+
+
 if __name__ == "__main__":
     unittest.main()
