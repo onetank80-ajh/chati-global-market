@@ -29,7 +29,7 @@ class MarketUpdateSafetyTests(unittest.TestCase):
                 "spec.loader.exec_module(module)\n"
                 "def fake_fetch(symbol,name,unit):\n"
                 "    return {'status':'unavailable'} if sys.argv[2]=='all' or symbol==sys.argv[3] else "
-                "{'status':'ok','change_percent':1.0,'market_date':'2026-10-28'}\n"
+                "{'status':'ok','close':100.0,'change_percent':1.0,'market_date':'2026-10-28'}\n"
                 "module.fetch=fake_fetch\n"
                 "module.main()\n",
                 encoding="utf-8")
