@@ -112,6 +112,54 @@ jobs:
             git push origin HEAD:main
             echo "PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           fi
+      # Persist independently readable evidence of a successful critical push.
+      # Best-effort: telemetry must never block the briefing itself.
+      - name: Publish machine-readable pipeline evidence
+        if: env.PUBLISHED_UTC != ''
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+          now = datetime.now(timezone.utc)
+          cron = os.environ.get("TRIGGER_CRON", "")
+          schedules = {"30 21 * * 0-4": (21, 30), "50 21 * * 0-4": (21, 50), "5 22 * * 0-4": (22, 5)}
+          planned = None
+          delay = None
+          if cron in schedules:
+              hour, minute = schedules[cron]
+              planned_dt = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+              if planned_dt > now:
+                  planned_dt -= timedelta(days=1)
+              planned = planned_dt.isoformat()
+              started = datetime.fromtimestamp(int(os.environ["PIPELINE_START_UTC"]), timezone.utc)
+              delay = int((started - planned_dt).total_seconds())
+          evidence = {
+              "schema_version": 1,
+              "result": "critical_snapshot_pushed",
+              "run_id": os.environ.get("GITHUB_RUN_ID"),
+              "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
+              "trigger": os.environ.get("TRIGGER_EVENT"),
+              "trigger_cron": cron or None,
+              "scheduled_at_utc": planned,
+              "started_at_utc": datetime.fromtimestamp(int(os.environ["PIPELINE_START_UTC"]), timezone.utc).isoformat(),
+              "schedule_delay_seconds": delay,
+              "published_at_utc": os.environ["PUBLISHED_UTC"],
+              "observed_at_utc": now.isoformat(),
+              "source_commit": os.environ.get("GITHUB_SHA"),
+          }
+          Path("data/pipeline_health.json").write_text(
+              json.dumps(evidence, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+          PY
+          git add data/pipeline_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record successful Chati briefing publication"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
       # Optional legacy data is generated only after the critical morning
       # snapshot has already been pushed. Its failure must not delay or
       # invalidate the main publication.
