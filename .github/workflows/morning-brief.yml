@@ -31,6 +31,42 @@ jobs:
           python-version: '3.12'
       - name: Sync latest snapshots
         run: git pull --rebase origin main
+      # If every main-market scheduled run failed, derived-only repair cannot
+      # recover: fetch a new market snapshot before checking consistency.
+      - name: Recover stale or missing market snapshot
+        run: |
+          if python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          try:
+              data = json.loads(Path("data/market.json").read_text(encoding="utf-8"))
+              stamp = data.get("generated_at_utc") or data.get("generated_at_kst")
+              generated = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+              age = (datetime.now(timezone.utc) - generated).total_seconds()
+              fresh = generated.tzinfo is not None and 0 <= age <= 12 * 3600
+          except (OSError, ValueError, TypeError, AttributeError):
+              fresh = False
+          print(f"Existing market snapshot fresh: {fresh}")
+          raise SystemExit(0 if fresh else 1)
+          PY
+          then
+            echo "Market snapshot is fresh; only check derived-data consistency."
+          else
+            echo "Market snapshot stale or missing; recovery must fetch market data."
+            python -m pip install --disable-pip-version-check yfinance==0.2.66
+            for attempt in 1 2; do
+              if python scripts/market_update.py; then
+                echo "Recovery market fetch succeeded on attempt ${attempt}"
+                break
+              fi
+              if [ "$attempt" -eq 2 ]; then
+                echo "::error::Recovery market fetch failed; refusing to publish stale data."
+                exit 1
+              fi
+              sleep 20
+            done
+          fi
       - name: Detect out-of-sync market briefing
         id: drift
         run: |
