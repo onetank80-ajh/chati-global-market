@@ -37,6 +37,18 @@ def main():
     if not 0 <= age <= 12:
         raise RuntimeError(f"Market snapshot stale: {age:.1f} hours")
     mk = market.get("markets", {})
+    # A fresh JSON timestamp does not guarantee fresh US closing prices.
+    # Allow one additional calendar day for US exchange holidays.
+    from datetime import timedelta
+    expected = now.date() - timedelta(days=3 if now.weekday() == 0 else 1)
+    for key in ("sp500", "sox"):
+        item = mk.get(key, {})
+        try:
+            quoted = datetime.strptime(item["market_date"], "%Y-%m-%d").date()
+        except (KeyError, TypeError, ValueError):
+            raise RuntimeError(f"Missing US market date: {key}")
+        if quoted < expected - timedelta(days=1) or quoted > now.date():
+            raise RuntimeError(f"Outdated US market close: {key} {quoted}; expected around {expected}")
     lines = []
     for key, label in (("sp500","S&P500"),("nasdaq","나스닥"),("sox","반도체 SOX"),("usdkrw","달러/원")):
         item = mk.get(key, {})
