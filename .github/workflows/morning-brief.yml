@@ -109,6 +109,7 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import math
           from datetime import datetime, timezone
           from pathlib import Path
           data = json.loads(Path("data/market.json").read_text(encoding="utf-8"))
@@ -121,8 +122,15 @@ jobs:
               raise SystemExit("Market snapshot stale after recovery; aborting")
           for key in ("sp500", "sox", "usdkrw"):
               quote = data.get("markets", {}).get(key, {})
-              if quote.get("status") != "ok":
-                  raise SystemExit(f"Required quote unavailable after recovery: {key}")
+              close = quote.get("close")
+              if (quote.get("status") != "ok"
+                      or not isinstance(close, (int, float))
+                      or isinstance(close, bool)
+                      or not math.isfinite(close)
+                      or close <= 0
+                      or not isinstance(quote.get("market_date"), str)
+                      or not quote["market_date"]):
+                  raise SystemExit(f"Required quote invalid after recovery: {key}")
           print("Recovery snapshot freshness and critical quotes verified")
           PY
       - name: Detect out-of-sync market briefing
