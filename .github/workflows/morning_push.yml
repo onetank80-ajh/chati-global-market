@@ -26,7 +26,8 @@ jobs:
   morning:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # Market-completion fallback may start at 06:30 and wait for 07:30.
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
