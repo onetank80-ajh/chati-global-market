@@ -146,6 +146,15 @@ jobs:
                   planned_dt -= timedelta(days=1)
               planned = planned_dt.isoformat()
               delay = int((started - planned_dt).total_seconds())
+          published_raw = os.environ.get("PUBLISHED_UTC")
+          published_kst = None
+          published_by_0730 = None
+          if published_raw:
+              kst = timezone(timedelta(hours=9))
+              published_dt = datetime.fromisoformat(published_raw.replace("Z", "+00:00")).astimezone(kst)
+              published_kst = published_dt.isoformat()
+              deadline = published_dt.replace(hour=7, minute=30, second=0, microsecond=0)
+              published_by_0730 = published_dt <= deadline
           evidence = {
               "schema_version": 1,
               "result": "critical_snapshot_pushed" if os.environ.get("PUBLISHED_UTC") else "consistent_snapshot_unchanged",
@@ -157,6 +166,8 @@ jobs:
               "started_at_utc": started.isoformat(),
               "schedule_delay_seconds": delay,
               "published_at_utc": os.environ.get("PUBLISHED_UTC") or None,
+              "published_at_kst": published_kst,
+              "published_by_0730_kst": published_by_0730,
               "verified_noop_at_utc": os.environ.get("VERIFIED_NOOP_UTC") or None,
               "observed_at_utc": now.isoformat(),
               "source_commit": os.environ.get("GITHUB_SHA"),
