@@ -67,8 +67,15 @@ jobs:
                   and quotes[k]['close'] > 0
                   for k in required
               )
+              from datetime import timedelta
               today = datetime.now(ZoneInfo('Asia/Seoul')).date()
-              ready = (0 <= age <= 12 * 3600 and valid
+              expected = today - timedelta(days=3 if today.weekday() == 0 else 1)
+              us_dates_valid = all(
+                  expected - timedelta(days=1)
+                  <= datetime.strptime(quotes[k]['market_date'], '%Y-%m-%d').date()
+                  <= today for k in ('sp500', 'sox')
+              )
+              ready = (0 <= age <= 12 * 3600 and valid and us_dates_valid
                        and morning.get('market_snapshot_at') == market.get('generated_at_kst')
                        and morning.get('market_snapshot_fresh') is True
                        and generated.astimezone(ZoneInfo('Asia/Seoul')).date() == today)
