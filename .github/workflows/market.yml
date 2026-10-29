@@ -306,9 +306,10 @@ jobs:
           PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Never include staged market files from a failed critical publication.
           git add data/pipeline_failure.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Record failed Chati market workflow run"
+          if ! git diff --quiet HEAD -- data/pipeline_failure.json; then
+            git commit --only data/pipeline_failure.json -m "Record failed Chati market workflow run"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
