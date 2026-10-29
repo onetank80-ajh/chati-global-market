@@ -32,6 +32,8 @@ jobs:
           echo "Event: ${GITHUB_EVENT_NAME}"
           echo "Run: ${GITHUB_RUN_ID}"
           echo "PIPELINE_START_UTC=$(date -u +%s)" >> "$GITHUB_ENV"
+          echo "TRIGGER_CRON=${{ github.event.schedule }}" >> "$GITHUB_ENV"
+          echo "TRIGGER_EVENT=${GITHUB_EVENT_NAME}" >> "$GITHUB_ENV"
       - name: Offline regression tests (report failures without blocking market refresh)
         id: regressions
         continue-on-error: true
@@ -107,6 +109,8 @@ jobs:
           MARKET_FETCH_OUTCOME: ${{ steps.market_fetch.outcome }}
           REGRESSION_OUTCOME: ${{ steps.regressions.outcome }}
           PIPELINE_START_UTC: ${{ env.PIPELINE_START_UTC }}
+          TRIGGER_CRON: ${{ env.TRIGGER_CRON }}
+          TRIGGER_EVENT: ${{ env.TRIGGER_EVENT }}
         run: |
           python - <<'PY'
           import json
@@ -156,6 +160,16 @@ jobs:
           deadline = local.replace(hour=7, minute=30, second=0, microsecond=0)
           lines.append(f"- Diagnostics at KST: {local.isoformat(timespec='seconds')}")
           lines.append(f"- 07:30 KST deadline already passed: {local > deadline}")
+          trigger = os.environ.get("TRIGGER_CRON", "")
+          lines.append(f"- Trigger: `{os.environ.get('TRIGGER_EVENT', 'unknown')}`, cron: `{trigger or 'n/a'}`")
+          expected = {"30 21 * * 0-4": (6, 30), "50 21 * * 0-4": (6, 50)}.get(trigger)
+          if expected:
+              scheduled = local.replace(hour=expected[0], minute=expected[1], second=0, microsecond=0)
+              delay = (started.astimezone(kst) - scheduled).total_seconds() / 60 if start_raw.isdigit() else None
+              if delay is not None:
+                  lines.append(f"- Scheduled trigger to context-step delay: `{delay:.1f} min` (includes runner setup; not pure GitHub queue delay)")
+              else:
+                  lines.append("- Scheduled trigger delay: unavailable")
           lines.append(f"- Market fetch outcome: `{os.environ.get('MARKET_FETCH_OUTCOME', 'unknown')}`")
           lines.append(f"- Regression test outcome: `{os.environ.get('REGRESSION_OUTCOME', 'unknown')}`")
           lines.append(f"- Publish step outcome: `{os.environ.get('PUBLISH_OUTCOME', 'unknown')}`")
