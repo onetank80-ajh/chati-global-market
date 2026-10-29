@@ -1,6 +1,10 @@
 name: Chati Morning Push v3.2
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/chati_morning_recovery_trigger.txt'
   schedule:
     # KST 07:25 primary, 07:40 backup (previous UTC day)
     - cron: '25 22 * * 0-4'
