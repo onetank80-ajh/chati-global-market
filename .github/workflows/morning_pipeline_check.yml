@@ -43,10 +43,12 @@ jobs:
           assert "id: prepared" in s
           for step in ('Install dependencies', 'Refresh market (retry)',
                        'Refresh news', 'Refresh briefing', 'Refresh intelligence',
-                       'Build synchronized morning brief', 'Record premarket prediction',
-                       'Publish reports'):
+                       'Build synchronized morning brief'):
               block=s.split('      - name: '+step+'\n',1)[1].split('      - name: ',1)[0]
               assert "steps.prepared.outputs.ready != 'true'" in block, step+' must skip on fresh data'
+          for step in ('Record premarket prediction', 'Publish reports'):
+              block=s.split('      - name: '+step+'\n',1)[1].split('      - name: ',1)[0]
+              assert "steps.status.outputs.send == 'true'" in block, step+' must run on prepared data'
           assert s.index('Wait until 07:30 KST') < s.index('Send push (retry)')
           assert 'market_snapshot_at' in s and 'market_snapshot_fresh' in s
           # Prepared fast path must reject stale US quotes before skipping refresh.
