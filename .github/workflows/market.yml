@@ -61,14 +61,6 @@ jobs:
           echo "Run URL: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           echo "Checked out commit: ${GITHUB_SHA}"
           git status --short
-      # Keep optional stages within a short fixed budget so the core
-      # market/intelligence/morning publication takes priority.
-      - name: Fetch headlines (optional, max 15s)
-        run: timeout 15s python scripts/news_update.py
-        continue-on-error: true
-      - name: Generate existing briefing (optional, max 10s)
-        run: timeout 10s python scripts/briefing_update.py
-        continue-on-error: true
       - name: Generate v1 intelligence
         run: python scripts/intelligence_update.py
       - name: Generate morning briefing from fresh snapshots
@@ -98,6 +90,26 @@ jobs:
             python scripts/check_consistency.py
             git push origin HEAD:main
             echo "PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
+          fi
+      # Optional legacy data is generated only after the critical morning
+      # snapshot has already been pushed. Its failure must not delay or
+      # invalidate the main publication.
+      # Keep optional stages within a short fixed budget so the core
+      # market/intelligence/morning publication takes priority.
+      - name: Fetch headlines (optional, max 15s)
+        run: timeout 15s python scripts/news_update.py
+        continue-on-error: true
+      - name: Generate existing briefing (optional, max 10s)
+        run: timeout 10s python scripts/briefing_update.py
+        continue-on-error: true
+      - name: Publish optional legacy data
+        continue-on-error: true
+        run: |
+          git add -A -- data/news.json data/briefing.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update optional Chati news and legacy briefing"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - name: Offline regression tests (report failures without blocking market refresh)
         id: regressions
