@@ -70,6 +70,16 @@ class MorningPipelineTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("invalid sox close", result.stdout + result.stderr)
 
+    def test_invalid_required_close_blocks_publication(self):
+        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
+        for bad_close in (0, -1, None, True, float("nan")):
+            with self.subTest(close=bad_close):
+                self.market["markets"]["sox"]["close"] = bad_close
+                self.save_market()
+                result = self.run_script("check_consistency.py")
+                self.assertNotEqual(result.returncode, 0)
+                self.assertIn("invalid sox close", result.stdout + result.stderr)
+
     def test_old_trading_date_blocks_publication(self):
         self.market["markets"]["sox"]["market_date"] = (datetime.now(timezone.utc) - timedelta(days=20)).date().isoformat()
         self.save_market()
