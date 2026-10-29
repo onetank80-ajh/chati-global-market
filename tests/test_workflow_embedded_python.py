@@ -107,5 +107,14 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertNotIn("python scripts/briefing_update.py", critical)
 
 
+    def test_recovery_diagnostics_run_after_failed_repair(self):
+        source = WORKFLOWS[1].read_text(encoding="utf-8")
+        diagnostic = source.split(
+            "      - name: Offline regression tests (diagnostic; do not block validated recovery)", 1
+        )[1].split("      - name: Report recovery evidence", 1)[0]
+        self.assertIn("if: always() && steps.drift.outputs.repair == 'true'", diagnostic)
+        self.assertIn("continue-on-error: true", diagnostic)
+
+
 if __name__ == "__main__":
     unittest.main()
