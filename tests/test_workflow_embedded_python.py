@@ -17,7 +17,7 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         for workflow in WORKFLOWS:
             source = workflow.read_text(encoding="utf-8")
             blocks = re.findall(
-                r"(?m)^([ ]*)python - <<'PY'\\s*\\n(.*?)^\\1PY[ ]*$",
+                r"(?m)^([ ]*)python - <<'PY'\s*\n(.*?)^\1PY[ ]*$",
                 source,
                 flags=re.DOTALL | re.MULTILINE,
             )
