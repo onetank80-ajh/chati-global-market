@@ -3,9 +3,8 @@ import json
 import math
 import os
 import tempfile
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 import yfinance as yf
 
@@ -62,7 +61,7 @@ def main():
     output = {
         "schema_version": 1,
         "generated_at_utc": now.isoformat(),
-        "generated_at_kst": now.astimezone(ZoneInfo("Asia/Seoul")).isoformat(),
+        "generated_at_kst": now.astimezone(timezone(timedelta(hours=9))).isoformat(),
         "data_kind": "daily_close_snapshot_not_live",
         "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
         "markets": items,
