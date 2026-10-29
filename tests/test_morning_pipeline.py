@@ -28,9 +28,9 @@ class MorningPipelineTests(unittest.TestCase):
             "generated_at_utc": now,
             "generated_at_kst": now,
             "markets": {
-                "sp500": {"status": "ok", "change_percent": 0.6, "market_date": us_day},
-                "sox": {"status": "ok", "change_percent": 1.2, "market_date": us_day},
-                "usdkrw": {"status": "ok", "change_percent": -0.2, "market_date": fx_day},
+                "sp500": {"status": "ok", "close": 7000.0, "change_percent": 0.6, "market_date": us_day},
+                "sox": {"status": "ok", "close": 10000.0, "change_percent": 1.2, "market_date": us_day},
+                "usdkrw": {"status": "ok", "close": 1400.0, "change_percent": -0.2, "market_date": fx_day},
             },
         }
         self.save_market()
