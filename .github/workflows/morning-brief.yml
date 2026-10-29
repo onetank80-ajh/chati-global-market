@@ -210,7 +210,7 @@ jobs:
           PY
           git add data/recovery_health.json
           if ! git diff --cached --quiet; then
-            git commit -m "Record Chati recovery publication evidence"
+            git commit --only data/recovery_health.json -m "Record Chati recovery publication evidence"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
