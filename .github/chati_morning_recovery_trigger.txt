@@ -1,0 +1,1 @@
+2026-10-30 KST: recover missed scheduled morning push; preserve existing idempotency and 08:00 cutoff.
