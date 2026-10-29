@@ -40,5 +40,24 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         )
 
 
+    def test_morning_publication_precedes_optional_work(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        stages = (
+            "      - name: Required scheduling and freshness guard tests",
+            "      - name: Fetch market snapshot",
+            "      - name: Generate v1 intelligence",
+            "      - name: Generate morning briefing from fresh snapshots",
+            "      - name: Check briefing consistency",
+            "      - name: Commit data files",
+            "      - name: Fetch headlines (optional, max 15s)",
+            "      - name: Generate existing briefing (optional, max 10s)",
+            "      - name: Publish optional legacy data",
+            "      - name: Offline regression tests (report failures without blocking market refresh)",
+        )
+        positions = [source.index(stage) for stage in stages]
+        self.assertEqual(positions, sorted(positions),
+                         "Optional work must not delay the critical morning publication")
+
+
 if __name__ == "__main__":
     unittest.main()
