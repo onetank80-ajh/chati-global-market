@@ -24,6 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      # Capture a run identifier before any dependency installation or market fetch.
+      # This breadcrumb is best-effort and must not delay critical data work.
+      - name: Record run start in job summary
+        run: |
+          echo "run_id=${GITHUB_RUN_ID} attempt=${GITHUB_RUN_ATTEMPT} event=${GITHUB_EVENT_NAME}" >> "$GITHUB_STEP_SUMMARY"
+          echo "started_at_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_STEP_SUMMARY"
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check yfinance==0.2.66
       - name: Print refresh context
