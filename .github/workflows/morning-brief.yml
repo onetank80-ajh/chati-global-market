@@ -65,6 +65,7 @@ jobs:
             git pull --rebase origin main
             python scripts/check_consistency.py
             git push origin HEAD:main
+            echo "RECOVERY_PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
           fi
 
       - name: Offline regression tests (diagnostic; do not block validated recovery)
@@ -80,6 +81,7 @@ jobs:
           JOB_STATUS: ${{ job.status }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
           REGRESSION_OUTCOME: ${{ steps.regressions.outcome }}
+          RECOVERY_PUBLISHED_UTC: ${{ env.RECOVERY_PUBLISHED_UTC }}
         run: |
           python - <<'PY'
           import json, os
@@ -91,6 +93,14 @@ jobs:
                   print(f"{name}: generated={data.get('generated_at_kst') or data.get('generated_at_utc')} source_market={data.get('market_snapshot_at', 'self')}")
               except (OSError, ValueError) as exc:
                   print(f"{name}: unavailable ({exc})")
+          published = os.environ.get("RECOVERY_PUBLISHED_UTC", "")
+          if published:
+              from datetime import datetime, timezone, timedelta
+              completed = datetime.fromisoformat(published.replace("Z", "+00:00")).astimezone(timezone(timedelta(hours=9)))
+              deadline = completed.replace(hour=7, minute=30, second=0, microsecond=0)
+              print(f"recovery_published_kst={completed.isoformat(timespec='seconds')} by_0730={completed <= deadline}")
+          else:
+              print("recovery_published_kst=not_confirmed")
           print(f"repair={os.environ.get('REPAIR_DECISION')} status={os.environ.get('JOB_STATUS')} publish={os.environ.get('PUBLISH_OUTCOME')} regressions={os.environ.get('REGRESSION_OUTCOME')}")
           print(f"run_url={os.environ.get('GITHUB_SERVER_URL')}/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}")
           PY
