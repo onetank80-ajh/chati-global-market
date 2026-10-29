@@ -11,6 +11,9 @@ on:
     branches: [main]
     paths:
       - 'data/market.json'
+      # Recheck immediately when recovery logic itself is repaired.
+      - '.github/workflows/morning-brief.yml'
+      - 'scripts/check_consistency.py'
 permissions:
   contents: write
 concurrency:
