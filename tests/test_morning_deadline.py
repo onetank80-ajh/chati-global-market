@@ -40,6 +40,17 @@ class MorningDeadlineTests(unittest.TestCase):
     def test_0731_is_late(self):
         self.assertTrue(calculate(7, 31)["late"])
 
+    def test_ten_minute_delay_flag_uses_0730_deadline(self):
+        source = SOURCE.read_text(encoding="utf-8")
+        self.assertIn("'briefing_late_over_10min':(now-deadline).total_seconds()>600", source)
+        for hour, minute, expected in [(6, 41, False), (7, 30, False),
+                                       (7, 40, False), (7, 41, True)]:
+            with self.subTest(hour=hour, minute=minute):
+                now = datetime.datetime(2026, 10, 29, hour, minute,
+                    tzinfo=datetime.timezone(datetime.timedelta(hours=9)))
+                deadline = now.replace(hour=7, minute=30, second=0, microsecond=0)
+                self.assertEqual((now-deadline).total_seconds()>600, expected)
+
     def test_0641_is_not_late(self):
         self.assertFalse(calculate(6, 41)["late"])
 
