@@ -43,6 +43,8 @@ jobs:
                        '25 22 * * 0-4', '28 22 * * 0-4',
                        '40 22 * * 0-4'):
               assert cron in s, 'missing morning push schedule: '+cron
+          # The 06:30 market-completion fallback may wait until 07:30.
+          assert 'timeout-minutes: 90' in s, 'fallback must not time out before 07:30'
           assert "workflows: ['Chati Global Market']" in s
           assert 'types: [completed]' in s
           assert "github.event.workflow_run.conclusion == 'success'" in s
