@@ -37,6 +37,15 @@ jobs:
                  'Send push (retry)')
           positions=[s.index(x) for x in order]
           assert positions==sorted(positions), 'morning pipeline out of order'
+          # Multiple staggered cron entries mitigate (but cannot eliminate)
+          # delayed/dropped GitHub scheduled workflow events.
+          for cron in ('20 22 * * 0-4', '23 22 * * 0-4',
+                       '25 22 * * 0-4', '28 22 * * 0-4',
+                       '40 22 * * 0-4'):
+              assert cron in s, 'missing morning push schedule: '+cron
+          assert 'group: chati-morning-pipeline' in s
+          assert "last_sent_date_kst" in s
+          assert "steps.status.outputs.send == 'true'" in s
           # The 07:25 path must reuse a valid prebuilt snapshot instead of
           # unconditionally refetching and delaying the 07:30 notification.
           assert s.index('Check prepared briefing freshness') < s.index('Refresh market (retry)')
