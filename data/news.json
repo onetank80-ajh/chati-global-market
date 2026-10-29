@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-28T22:59:50.235416+00:00",
-  "generated_at_kst": "2026-10-29T07:59:50.235416+09:00",
+  "generated_at_utc": "2026-10-29T22:22:33.795680+00:00",
+  "generated_at_kst": "2026-10-30T07:22:33.795680+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -10,7 +10,21 @@
       "title": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-10-28T20:23:48+00:00"
+      "published_at_utc": "2026-10-28T23:53:34+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNdWxVcTFiYVhKSk9ZVnhaaENyUUotdHV1TXhuTXM3ODZLNnhqOGxXZWJVTnVwek1nREVFbnlFaTd6SGtzeldoQkR5NVpXaXB3Z0ExUjRvemM3WmYzNGdaYzBIZXoxN2lZeHNJM09EWkFTWERuZjZtby0xVnpFcWcySXpEX0kxb1hQeUxjNU1hQzY4LThwMGdPT0ZyUUNIZGJxTjI4elg3ekoxWUVZbEstZElKazlGUnd6Q3Z5TWNSM2pyb1M3VFVpMDByV0Z4eXo5ZmU0emVYNGtKaWh3T3J3QU5IMk9DN0NHeFFjMzZjVURtam5hS1RBWjltS19Ha2xlY0F1N1BpNUtOVHhUSFpWYTgxclF5Ukk5VDJHUTlZNGVmTmw3UXdMMmRpOXJPdWZUNFRzaWVFWllTakxwd0FubHdYSUpaQ3lXUEF3V2J1U2s?oc=5",
+      "source": "Moomoo",
+      "published_at_utc": "2026-10-29T01:49:39+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-29T20:30:27+00:00"
     },
     {
       "category": "us_market",
@@ -21,24 +35,17 @@
     },
     {
       "category": "us_market",
-      "title": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
-      "source": "WSJ",
-      "published_at_utc": "2026-10-27T20:45:00+00:00"
+      "title": "Wall Street ends higher on revived AI momentum - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-27T23:01:33+00:00"
     },
     {
-      "category": "us_market",
-      "title": "The bond market swings, but U.S. stocks remain steady after the Fed says it won’t raise interest rates - BNN Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONXFNaHB2S1NmczhFeERWUFdQbmpiWWdhdWFXZXFQMkR3a05INFk1akMtdzl5TnRlUktfakI0b3VRNWhZU2xfWE5ZUnpmLVpZZVlWTFlreHNCUkRrQVl6ZlEyUjFRSlN4UzFXVGdaa2JNRFBieXNYV1ExeGlTbHF0RjF3ZU9ObHlFeUJGaG0xTlpkQzEzSnRoUFZ4YUppZkZWaDRBQ0o1Ui1kUXZncU9ER25EeVlFR2s?oc=5",
-      "source": "BNN Bloomberg",
-      "published_at_utc": "2026-10-28T20:24:10+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate Decision — SKHY, STX, V, GOOGL in Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNOHIyTThiOE03WlhxUFYxRTBxMy1RVm53Wkh1NDg5Z1lmVEp3c1JRSlJtRzJQV09faVNvWEZHOFRJOUtSWDdKbjVGaHpYZmZiQUJfU1dEUUV0c0lDWEw2TjJmc0xKY1RyZkJwcm4wUmd3ay1DTy1jWDNYcVpxWlFMcFBReUl4N3hoaGtfZVU0NVJMRS1zazlEdjZxbGpVbnBjTFBIcjlnNGVET1RXTk50STZHTXExb1MybUt2UEF4XzJuQnNOcHJhdU1na1REMzlNWmZCc0c3QnBUWG84VFQ4eGt3bmgtakZWUmNsbXFueGFINF9RbE1Jbm1ndFFEQVVnQkg1b2p6VnJoSElMeTItV2YwYkowS1Bw?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-10-28T09:47:15+00:00"
+      "category": "semiconductor",
+      "title": "The Same $10,000 in AMD and Nvidia Could Produce Very Different Results by 2030 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbEx5R0VsMzc2S0JEYXYzT2Uyckg5S3MxY3cwczRfTUhUdWlITjR3X28zUHAya2NrTFpadlF1Sko5a1k1aUdHVjM0NXhyQ3JKZUkyeGdOWUUwYjc5TnM5TzR2QW5ueVpKcUNXcDJHRVR5RnpSTzU0X05talpNZkxMQ3ZnOHAtT2hmT2ctXy1mWHdmTjBJcFhLUjZ4U2NYVkFDS3k1M2FxNERSaFpQSDFJWll5V3hLcUZROE8tNF93?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-10-29T16:33:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -49,52 +56,24 @@
     },
     {
       "category": "semiconductor",
+      "title": "Not Nvidia. Not AMD. This Is the Best Artificial Intelligence (AI) Stock to Buy in November - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbW9USmVKd0dwdk9MTXR4WlJja2c0ZmRoS3F0LTZVT0NTc1VZYnlkblJIa3IxaXJIZlB5NGJMLVAxYWZaaFlOWFVOcDZ3ek8zeFZIRFpaR25zUV9vTkJFZ1hzeDVubnNsWWRjOU5WUEROSkZwTGhrd05MWVZzdnJ3UUw2ek95UEZzZHQ5SWZyMm8zWlB2X0FwYmpVMzBTenoyMDhwZER1LW5pc2xXUnN1bGZDRXc3UlpCSlUzemhUaS1JN1p6dFN2MlVzSmhsRGI3NjVhMEJIeUNsNXdna2RqSUJmOW03c1NqYXFzVjFpamhQSDFMZ3lmdDd5N2htWE1mTFE?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-10-29T06:35:00+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Semiconductor stocks in focus after SK Hynix results; Micron, Nvidia top Quant list (SMH:NASDAQ) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWFdCT1ZwOEhaZlotRmh2VU9mSV8wR01fTm0tLXp2ZkRDV1c0RTQ3NVRBbkUyVmg0czV3NWdFR3hUeVFxWFZVRTNFc3hyM1pyRVV3cmQ0ZllVZTJZTnJLTDNQZE5qMEhGazZjM2syNndJejIwLXpaVGFkMlJra2NDeUhwZS1kVGV4UzI4Z0lhRlJhNl93TmtVNjBFZXJ6UGZkRlk1MU1KSG9pMWlSMUh4TGdqRm1STDZIY0Vr?oc=5",
+      "source": "Seeking Alpha",
+      "published_at_utc": "2026-10-28T11:26:56+00:00"
+    },
+    {
+      "category": "semiconductor",
       "title": "SK Hynix Record Profit Lifts Micron, Nvidia and AI Chip Stocks - TradingView",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUElhWW40N0xpYzZNZm9UN1JVR3kwdTA1WkFJM3ZCQ21zUmh3c0ZhTmJtUmRvWHZwbFlkWW12azhmanFCcUVTbkxNOWwxWTUzcTd2VlZaMjY0REFsWFJ0TXRBamxBTGpYZnVhaHJ2Q0RvTGhXUlpYUlF2bFdLWGdScHRoVkh3RnB5UXNpaWNZOTNfVHNJckZaRHlLSFNYZmx5WDZEVGZtZDBhYzdMMHk1NEI2YmU2U1BJUnVCNnpn?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-10-28T20:02:01+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "AMD, Broadcom, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUNESjNKQm9WM29KdEpZZlN1dGpYam5zbUhBUDE0X1lnLW1xZ3BGaFpsUld2cTJzVDJaeV80UTdyNWcyUW5xVkZEZ2Z5a0VNYlROSTZGUGRPQ0JSUFVINXNhWUcyQVo5MTRULWs2SVVLUXI5ZVd1SzBWbm1jdzNORkt0SkM5WHV4aUhGTlRiQ29TNzluVTlGTERRdmNiNklmVV9kMUQwbktWWHJVZHo0SndTYWVQeTdYM3h2dzF5WmJrWXZGLXk2Q3QxLTgxV3M?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-28T15:03:29+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "AMD Jumped 5% and Is Closing In on $1 Trillion Again - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNnRuSW5Ha19zXzBWRlJmWmRSWkU1cVgwZjV6dEhOSDRvQnYybVo4ODNxTjBIWm5fdW9aMTJhM2M2U1RXRlhIajg3OHloODRUQWNkdVF2Ymk1dlczS0tVQ2paMERSZGstczJWaUtqSUJnaDVkOXBoaHZGODFOaElHTEdHQkJzRjNHNGhDakc1RGRLdUFERFpFVjRn?oc=5",
-      "source": "24/7 Wall St.",
-      "published_at_utc": "2026-10-28T12:39:00+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Nvidia Supply Chain Stocks Tied To AI Chip Packaging Demand - Simply Wall St",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcmIxZEl4bzBoNlQ4OGFSTXd1RFVkSnZvdFBaSEx3a1BUdVlzdGV0eTVFenBLLXVseWdOX1NsRWVtOGF2aTlhbUxlbmc4ODN6MVhLSXFicGtLOUZJRHQ5ek5wNUI0NU1lcmRoa3I5dlJoLUkycVdlQ0ZzcW9GZ3E1Z0JFNkU3UEJ2V3ZDcHpxVTNKcXA0cVJRTmhpUUNzTFBDN2NEeDhQZ25ZVUl5c3lpUGVVX2cwSFFRd3NJODBVcndZRzYteDd2UmV3bGkxeTkxWnNR0gHYAUFVX3lxTE5CYWMxWU0tT05aUEtEdDRDUjhwYzdNRGhlT2R4aVJMN1hfZlNzWTI3QnRJUnVGWWJneGhOR2J5M210aEtETU4tZndCM1pudDhCVHNNNGFpY0R0ZmhvdnZmSWxtNXFSbmpHZGJWUldjQ3VJNFZDOUhFQWxxVVZHeC16STVFQlFxeGE0VWdSUlpvWjBPS2puVEQ2cFMtLU9ZSnBCZjNPU0g3MkxkZzc3dU5qRTFnekpCYzZYOGctREh3WlVNTUNwZ2N4V1VsSF9ZVExwTWROR3p1OQ?oc=5",
-      "source": "Simply Wall St",
-      "published_at_utc": "2026-10-28T21:26:23+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - reflector.com",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZXFwem1MeEVKOGV3YWJsS0FKNG1OOUZOQXN1WUdQOHQwVjAtalp0SzE3bkpVV190ZXhpcUk4MHJvOWhrS1ROX2xIRW82Z0lETThjUVJZT1JWaGdvNzc5RHZfRGIzWnpmWC1HbXcyMU1RYUNucUhMZmM1X1ZmR1pTX0t3WmFBVU4wdnFkaEVFNjl3SHl5UFIxTThwLUJGSkowblg5clRyZXNla2d0SGJseHJIczRzVjQ2T19sa0pZdlhrMlJORHQzRDVydzE3Yi1URksyc3pRQmtkNnltSG52bjAtem9QNXJhVGVZUHlnVlYycnpGMWJjaUlvVWVNOEc3czl2dg?oc=5",
-      "source": "reflector.com",
-      "published_at_utc": "2026-10-28T20:02:52+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "US stocks remain steady after the Federal Reserve says it won't raise interest rates - Rocky Mount Telegram",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQUDNQWXpadXluUG16YkpVeTlmaXg0SzN0MjE0OTJ1Qmlpa0pMUGowQi1CTFl2QWRoaVhoM2dqQTBWSmVIRGpsWGUyT2NZSGhxZGZ4aWZvSnZiUUJaR3gzTHJod3ZSWVFxMW5Ram1MbFE5WFpUa0tpVEhGamFGRjVfSm5ScW9BaldBRGJWQzZoNHNEQTByOUtNb09vTW4zWUdwUDlVTEo0WDUwTk9PVGFrOTdFNW1uLWt1TDltOWljbzdUcUdlNFFKYTZMTU14TlFKRDJ0S2VwaEZPYkNOb043MkRWbHNvWnZmandtN2ZZSHBSWGRGVGVqS2FvMFJ4dFVKYlZjeU1tRVk4QQ?oc=5",
-      "source": "Rocky Mount Telegram",
-      "published_at_utc": "2026-10-28T18:26:01+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "[Closing Market] KOSPI Surges Past 6,000 on SK hynix Earnings - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56RHFLUXZKQWRJeXk1Z3lZTkhZRFE2Q19zX21xWkdRWmZJakx6dGp5QTI2LWlPWU5hRFlNZnp3VlE0OENyNkhpLS1PbjIycng3WW16MEVWRnRvbFFlRVpJNF9yejF1eEtZQW5TeDBFYy0xOEFC?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-10-28T08:27:06+00:00"
     },
     {
       "category": "korea",
@@ -105,10 +84,31 @@
     },
     {
       "category": "korea",
-      "title": "The AI trade is driving global markets more than oil, Goldman Sachs says - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDBiUW9VU3I3UUtwMWNXaHJuWnZsVGN2V05TVzBUaXpUNU50Y3NYdHJCUWQxNHdrSnlPNkNUVlhnLWh1OURUaW5Rd3hrdjNfaE5sVy1lcTBRejlmc1d0UVAxejhheXhQanlxeVpWaDVwNFBYNVItY3RXbU0wRTRqZHYwalVCRlh5Q2E5elFONFFIQWp2amNRT3NOVDM?oc=5",
-      "source": "Business Insider",
-      "published_at_utc": "2026-10-27T07:26:00+00:00"
+      "title": "Asian stocks rise after a rally on Wall Street, while oil prices edge higher - WFMZ.com",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOGZyMXNvV3JIUDFJa1hoNXZtMnlYTWI3am9KS2o1WWR4aHdxU1VuWEZJNzQzUU13MGp6TDBQRl9fSVFFaFo4SjBCUDdHNDY4MWM4VlRJNEZtVWg3Ym5UamtBVlZRdy1ZQWhkQlEtcUJGSzBjZ0hNT0N5UU0zM0JLdkVEUnZhbWZ0NS03SXBzQk9UMFE4ZVZobXdzdE1rc3hhNFBxYzktZFBOaEZzNEpGcDRQb1hPY1BZbGxpM05ZRmduYm1uWnlaWHIzaTU2NUtLdjU3VURBdlE3RWpLbXNOTlIyeWhVdnJ3TjVOdWU1YnJGa0JKV0cySmxWYw?oc=5",
+      "source": "WFMZ.com",
+      "published_at_utc": "2026-10-28T04:07:04+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - reflector.com",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZXFwem1MeEVKOGV3YWJsS0FKNG1OOUZOQXN1WUdQOHQwVjAtalp0SzE3bkpVV190ZXhpcUk4MHJvOWhrS1ROX2xIRW82Z0lETThjUVJZT1JWaGdvNzc5RHZfRGIzWnpmWC1HbXcyMU1RYUNucUhMZmM1X1ZmR1pTX0t3WmFBVU4wdnFkaEVFNjl3SHl5UFIxTThwLUJGSkowblg5clRyZXNla2d0SGJseHJIczRzVjQ2T19sa0pZdlhrMlJORHQzRDVydzE3Yi1URksyc3pRQmtkNnltSG52bjAtem9QNXJhVGVZUHlnVlYycnpGMWJjaUlvVWVNOEc3czl2dg?oc=5",
+      "source": "reflector.com",
+      "published_at_utc": "2026-10-28T20:02:52+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "[Opening Market] KOSPI Opens Above 6,000 on Semiconductor Rally - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxTDFhVE1saGU1YVdmYlR4WkxQdkg0R19fZklIT2YzU2lLWUprTFBsbkdTRzc5Mi0zVFBiVk9xZWR6ZFgtYm1sQndGZ01uVUNxeXh3Z05tZlVudU5KSC1JOGVLYnIwOHlvX0JRNjRyOW1YdERq?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-10-29T02:41:24+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "South Korea's KOSPI Tries to Settle Above 6,000; Foreign Buying Streak Lifts Index to 6,040 Range - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5leG9tUUJ3akdKMUNtOVZFVG1pQUJzNHZrSXNYdnhXQ1BEVzcwOEV1d2xsLUMyRXRnLWNGWkRYR25PMXUyN3FMUmNlRE9Ma2VROXJYNWdTMWRxMHNscGUwNmpqbExkVXJHbzRRQU43N2hOMTI0UHc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-10-29T01:06:00+00:00"
     }
   ],
   "warnings": []
