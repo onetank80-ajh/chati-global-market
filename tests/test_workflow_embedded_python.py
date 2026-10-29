@@ -118,6 +118,13 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         self.assertIn("continue-on-error: true", evidence)
         self.assertNotIn("git diff --cached --quiet;", evidence)
 
+    def test_consistency_guard_rejects_invalid_required_close(self):
+        source = (ROOT / "scripts/check_consistency.py").read_text(encoding="utf-8")
+        self.assertIn('close = quote.get("close")', source)
+        self.assertIn("not math.isfinite(close)", source)
+        self.assertIn("close <= 0", source)
+        self.assertIn('raise SystemExit(f"FAIL: invalid {key} close")', source)
+
     def test_failure_and_recovery_evidence_link_to_actions_run(self):
         market = WORKFLOWS[0].read_text(encoding="utf-8")
         recovery = WORKFLOWS[1].read_text(encoding="utf-8")
