@@ -37,6 +37,7 @@ jobs:
         run: |
           if python - <<'PY'
           import json
+          import math
           from datetime import datetime, timezone
           from pathlib import Path
           try:
@@ -48,6 +49,12 @@ jobs:
               valid_quotes = isinstance(markets, dict) and all(
                   isinstance(markets.get(key), dict)
                   and markets[key].get("status") == "ok"
+                  and isinstance(markets[key].get("close"), (int, float))
+                  and not isinstance(markets[key].get("close"), bool)
+                  and math.isfinite(markets[key]["close"])
+                  and markets[key]["close"] > 0
+                  and isinstance(markets[key].get("market_date"), str)
+                  and bool(markets[key]["market_date"])
                   for key in required
               )
               if generated.tzinfo is None:
