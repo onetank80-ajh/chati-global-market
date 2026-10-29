@@ -44,6 +44,27 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
             source.index("      - name: Refresh derived intelligence"),
         )
 
+    def test_failure_evidence_never_commits_staged_market_data(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        step = source.split("      - name: Publish failed-run evidence", 1)[1]
+        self.assertIn("if: failure()", step)
+        self.assertIn("continue-on-error: true", step)
+        self.assertIn("git commit --only data/pipeline_failure.json", step)
+        self.assertNotIn("git add -A", step)
+        self.assertNotIn("git commit -am", step)
+
+    def test_pipeline_evidence_does_not_block_critical_publish(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        self.assertLess(
+            source.index("      - name: Commit data files"),
+            source.index("      - name: Publish machine-readable pipeline evidence"),
+        )
+        step = source.split("      - name: Publish machine-readable pipeline evidence", 1)[1].split(
+            "      - name: Fetch headlines", 1
+        )[0]
+        self.assertIn("continue-on-error: true", step)
+        self.assertIn("if: env.PUBLISHED_UTC != ''", step)
+
     def test_market_publication_requires_consistency(self):
         source = WORKFLOWS[0].read_text(encoding="utf-8")
         self.assertIn("python scripts/check_consistency.py", source)
