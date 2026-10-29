@@ -37,12 +37,12 @@ class MarketScheduleTests(unittest.TestCase):
         self.assertEqual({(t.weekday(), t.hour, t.minute) for t in times},
                          {(day, 6, 30) for day in range(5)})
 
-    def test_repair_checks_are_0715_and_0830_kst_weekdays(self):
+    def test_repair_checks_are_0715_0830_0930_kst_weekdays(self):
         times = local_schedule(".github/workflows/morning-brief.yml")
-        self.assertEqual(len(times), 10)
+        self.assertEqual(len(times), 15)
         self.assertEqual({(t.weekday(), t.hour, t.minute) for t in times},
                          {(day, hour, minute) for day in range(5)
-                          for hour, minute in [(7, 15), (8, 30)]})
+                          for hour, minute in [(7, 15), (8, 30), (9, 30)]})
 
 
 if __name__ == "__main__":
