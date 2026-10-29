@@ -62,6 +62,9 @@ for key, label in labels.items():
         raise SystemExit(f"FAIL: malformed {key} quote")
     if quote.get("status") != "ok":
         raise SystemExit(f"FAIL: required {key} quote unavailable")
+    close = quote.get("close")
+    if isinstance(close, bool) or not isinstance(close, (int, float)) or not math.isfinite(close) or close <= 0:
+        raise SystemExit(f"FAIL: invalid {key} close")
     date_text = quote.get("market_date")
     if not isinstance(date_text, str) or len(date_text) != 10:
         raise SystemExit(f"FAIL: invalid {key} market date")
