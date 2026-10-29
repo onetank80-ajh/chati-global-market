@@ -30,7 +30,10 @@ class RecoveryMarketFreshnessTests(unittest.TestCase):
             stamp = datetime.now(timezone.utc) - timedelta(minutes=age_minutes)
             if naive:
                 stamp = stamp.replace(tzinfo=None)
-            quotes = {key: {"status": "ok", "close": 100.0, "market_date": "2026-10-28"}\n                      for key in ("sp500", "sox", "usdkrw")}\n            if bad_close is not None:\n                quotes["sox"]["close"] = bad_close
+            quotes = {key: {"status": "ok", "close": 100.0, "market_date": "2026-10-28"}
+                      for key in ("sp500", "sox", "usdkrw")}
+            if bad_close is not None:
+                quotes["sox"]["close"] = bad_close
             if missing:
                 quotes[missing] = {"status": "unavailable"}
             payload = {"generated_at_utc": stamp.isoformat(), "markets": quotes}
