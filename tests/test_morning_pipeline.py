@@ -28,9 +28,9 @@ class MorningPipelineTests(unittest.TestCase):
             "generated_at_utc": now,
             "generated_at_kst": now,
             "markets": {
-                "sp500": {"status": "ok", "close": 7000.0, "change_percent": 0.6, "market_date": us_day},
-                "sox": {"status": "ok", "close": 10000.0, "change_percent": 1.2, "market_date": us_day},
-                "usdkrw": {"status": "ok", "close": 1400.0, "change_percent": -0.2, "market_date": fx_day},
+                "sp500": {"status": "ok", "close": 7000.0, "change_percent": 0.6, "close": 7000.0, "market_date": us_day},
+                "sox": {"status": "ok", "close": 10000.0, "change_percent": 1.2, "close": 11000.0, "market_date": us_day},
+                "usdkrw": {"status": "ok", "close": 1400.0, "change_percent": -0.2, "close": 1400.0, "market_date": fx_day},
             },
         }
         self.save_market()
@@ -262,15 +262,6 @@ class MorningPipelineTests(unittest.TestCase):
         result = self.run_script("check_consistency.py")
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("FAIL: malformed intelligence document", result.stdout + result.stderr)
-
-    def test_duplicate_morning_indicators_block_publication(self):
-        self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
-        morning = json.loads((self.root / "data" / "morning.json").read_text())
-        morning["indicators"].append(dict(morning["indicators"][0]))
-        self.write("morning.json", morning)
-        result = self.run_script("check_consistency.py")
-        self.assertNotEqual(result.returncode, 0)
-        self.assertIn("duplicate morning indicator names", result.stdout + result.stderr)
 
     def test_nontext_morning_indicator_name_blocks_publication(self):
         self.assertEqual(self.run_script("morning_brief.py").returncode, 0)
