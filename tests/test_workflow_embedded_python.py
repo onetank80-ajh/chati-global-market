@@ -95,5 +95,17 @@ class EmbeddedPythonWorkflowTests(unittest.TestCase):
         )
 
 
+    def test_market_core_is_independent_of_optional_news(self):
+        source = WORKFLOWS[0].read_text(encoding="utf-8")
+        publish = source.index("      - name: Commit data files")
+        news = source.index("      - name: Fetch headlines (optional, max 15s)")
+        legacy = source.index("      - name: Generate existing briefing (optional, max 10s)")
+        self.assertLess(publish, news)
+        self.assertLess(publish, legacy)
+        critical = source[:news]
+        self.assertNotIn("python scripts/news_update.py", critical)
+        self.assertNotIn("python scripts/briefing_update.py", critical)
+
+
 if __name__ == "__main__":
     unittest.main()
