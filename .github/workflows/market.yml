@@ -36,6 +36,23 @@ jobs:
           echo "PIPELINE_START_UTC=$(date -u +%s)" >> "$GITHUB_ENV"
           echo "TRIGGER_CRON=${{ github.event.schedule }}" >> "$GITHUB_ENV"
           echo "TRIGGER_EVENT=${GITHUB_EVENT_NAME}" >> "$GITHUB_ENV"
+          python - <<'PY'
+          import os
+          from datetime import datetime, timezone
+          now = datetime.now(timezone.utc)
+          cron = os.environ.get("TRIGGER_CRON", "")
+          # The environment variable written to GITHUB_ENV above is available
+          # to subsequent steps, not to this shell step.
+          schedules = {"30 21 * * 0-4": (21, 30), "50 21 * * 0-4": (21, 50), "5 22 * * 0-4": (22, 5)}
+          cron = "${{ github.event.schedule }}"
+          expected = schedules.get(cron)
+          if expected:
+              planned = now.replace(hour=expected[0], minute=expected[1], second=0, microsecond=0)
+              delay = int((now - planned).total_seconds())
+              print(f"market_schedule_delay_seconds={delay}")
+          else:
+              print("market_schedule_delay_seconds=not_scheduled")
+          PY
       - name: Required scheduling and freshness guard tests
         run: python -m unittest discover -s tests -p 'test_market_schedule.py' -v && python -m unittest discover -s tests -p 'test_consistency_recovery_window.py' -v && python -m unittest discover -s tests -p 'test_morning_deadline.py' -v && python -m unittest discover -s tests -p 'test_market_fail_fast.py' -v
       - name: Fetch market snapshot
