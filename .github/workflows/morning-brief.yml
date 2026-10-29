@@ -29,6 +29,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Record recovery run start and schedule delay
+        env:
+          TRIGGER_EVENT: ${{ github.event_name }}
+          TRIGGER_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timedelta, timezone
+          now = datetime.now(timezone.utc)
+          kst = timezone(timedelta(hours=9))
+          schedules = {"15 22 * * 0-4": (22, 15), "30 23 * * 0-4": (23, 30), "30 0 * * 1-5": (0, 30)}
+          schedule = os.environ.get("TRIGGER_SCHEDULE", "")
+          expected = schedules.get(schedule)
+          print(f"recovery_start_kst={now.astimezone(kst).isoformat(timespec='seconds')}")
+          print(f"recovery_trigger={os.environ.get('TRIGGER_EVENT')} cron={schedule or 'none'}")
+          if expected:
+              planned = now.replace(hour=expected[0], minute=expected[1], second=0, microsecond=0)
+              if schedule == "30 0 * * 1-5":
+                  planned = planned
+              print(f"recovery_schedule_delay_seconds={int((now - planned).total_seconds())}")
+          else:
+              print("recovery_schedule_delay_seconds=not_scheduled")
+          PY
       - name: Sync latest snapshots
         run: git pull --rebase origin main
       # If every main-market scheduled run failed, derived-only repair cannot
