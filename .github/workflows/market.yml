@@ -192,7 +192,7 @@ jobs:
               lines.append("- Published by 07:30 KST: `not confirmed (no successful push in this run)`")
           trigger = os.environ.get("TRIGGER_CRON", "")
           lines.append(f"- Trigger: `{os.environ.get('TRIGGER_EVENT', 'unknown')}`, cron: `{trigger or 'n/a'}`")
-          expected = {"30 21 * * 0-4": (6, 30), "50 21 * * 0-4": (6, 50)}.get(trigger)
+          expected = {"30 21 * * 0-4": (6, 30), "50 21 * * 0-4": (6, 50), "5 22 * * 0-4": (7, 5)}.get(trigger)
           if expected:
               scheduled = local.replace(hour=expected[0], minute=expected[1], second=0, microsecond=0)
               delay = (started.astimezone(kst) - scheduled).total_seconds() / 60 if start_raw.isdigit() else None
