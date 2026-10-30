@@ -33,5 +33,19 @@ class MorningDeliveryAuditTests(unittest.TestCase):
         self.assertIsNone(result["briefing_on_time"])
 
 
+    def test_exact_deadline_is_on_time(self):
+        result = self.check("2026-10-30T07:30:00+09:00", "2026-10-30T07:30:00+09:00")
+        self.assertTrue(result["push_on_time"])
+        self.assertTrue(result["briefing_on_time"])
+        self.assertEqual(result["push_delay_seconds"], 0)
+
+    def test_utc_timestamps_are_converted_to_kst(self):
+        result = self.check("2026-10-29T22:31:00+00:00", "2026-10-29T22:29:00+00:00")
+        self.assertEqual(result["date_kst"], "2026-10-30")
+        self.assertEqual(result["push_delay_seconds"], 60)
+        self.assertFalse(result["push_on_time"])
+        self.assertTrue(result["briefing_on_time"])
+
+
 if __name__ == "__main__":
     unittest.main()
