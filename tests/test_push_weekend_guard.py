@@ -77,6 +77,18 @@ class WeekendPushGuardTests(unittest.TestCase):
                         module.main()
                     network.assert_not_called()
 
+    def test_workflow_checks_cutoff_before_expensive_refresh(self):
+        workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
+        cutoff = workflow.index("- name: Fail fast after morning delivery cutoff")
+        freshness = workflow.index("- name: Check prepared briefing freshness")
+        install = workflow.index("- name: Install dependencies")
+        refresh = workflow.index("- name: Refresh market (retry)")
+        self.assertLess(cutoff, freshness)
+        self.assertLess(cutoff, install)
+        self.assertLess(cutoff, refresh)
+        self.assertIn("now.weekday() >= 5", workflow)
+        self.assertIn("(now.hour, now.minute) >= (8, 0)", workflow)
+
     def test_schedule_delay_diagnostic_present(self):
         workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", workflow)
