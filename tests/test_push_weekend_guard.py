@@ -50,6 +50,33 @@ class WeekendPushGuardTests(unittest.TestCase):
                 module.main()
             network.assert_not_called()
 
+    def test_weekday_delivery_time_boundaries(self):
+        spec = importlib.util.spec_from_file_location("push_briefing_time_test", SOURCE)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        from zoneinfo import ZoneInfo
+        from unittest.mock import patch
+        import os
+        kst = ZoneInfo("Asia/Seoul")
+        for hour, minute, expected_error in (
+            (7, 29, "refusing early notification"),
+            (7, 30, "NTFY_TOPIC is not set"),
+            (7, 59, "NTFY_TOPIC is not set"),
+            (8, 0, "refusing late notification"),
+        ):
+            with self.subTest(hour=hour, minute=minute):
+                fixed = datetime(2026, 11, 2, hour, minute, tzinfo=kst)
+                class FixedDatetime:
+                    @staticmethod
+                    def now(tz=None):
+                        return fixed.astimezone(tz) if tz else fixed
+                with patch.object(module, "datetime", FixedDatetime), \
+                     patch.object(module, "urlopen") as network, \
+                     patch.dict(os.environ, {"NTFY_TOPIC": ""}):
+                    with self.assertRaisesRegex(RuntimeError, expected_error):
+                        module.main()
+                    network.assert_not_called()
+
     def test_schedule_delay_diagnostic_present(self):
         workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", workflow)
