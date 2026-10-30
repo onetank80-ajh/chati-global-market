@@ -24,6 +24,8 @@ def main():
         return
     # Do not send a late morning briefing as if it were on time.
     # GitHub scheduled workflows can be delayed; backup is allowed through 08:00 KST.
+    if (now.hour, now.minute) < (7, 30):
+        raise RuntimeError("Morning push starts at 07:30 KST; refusing early notification")
     if (now.hour, now.minute) >= (8, 0):
         raise RuntimeError("Morning push cutoff 08:00 KST passed; refusing late notification")
     topic = os.environ.get("NTFY_TOPIC", "").strip()
