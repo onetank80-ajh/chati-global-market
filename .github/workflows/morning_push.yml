@@ -35,6 +35,32 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Diagnose scheduled start delay
+        env:
+          TRIGGER_CRON: ${{ github.event.schedule }}
+        shell: python
+        run: |
+          import os
+          from datetime import datetime, timedelta, timezone
+          now = datetime.now(timezone.utc)
+          event = os.environ.get('GITHUB_EVENT_NAME', '')
+          cron = os.environ.get('TRIGGER_CRON', '')
+          print('MORNING_PUSH_EVENT=' + event, flush=True)
+          print('MORNING_PUSH_JOB_STARTED_UTC=' + now.isoformat(), flush=True)
+          print('MORNING_PUSH_RUN_ID=' + os.environ.get('GITHUB_RUN_ID', ''), flush=True)
+          if event == 'schedule':
+              parts = cron.split()
+              if len(parts) == 5 and parts[0].isdigit() and parts[1].isdigit():
+                  minute, hour = int(parts[0]), int(parts[1])
+                  expected = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+                  if expected > now:
+                      expected -= timedelta(days=1)
+                  print('MORNING_PUSH_EXPECTED_UTC=' + expected.isoformat(), flush=True)
+                  print('MORNING_PUSH_SCHEDULE_DELAY_SECONDS=' + str(round((now - expected).total_seconds())), flush=True)
+              else:
+                  print('MORNING_PUSH_SCHEDULE_DELAY_SECONDS=unknown_cron', flush=True)
+          else:
+              print('MORNING_PUSH_SCHEDULE_DELAY_SECONDS=not_scheduled', flush=True)
       - name: Sync latest repository
         run: git pull --rebase origin main
       - name: Decide if push already sent today
