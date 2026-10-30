@@ -34,6 +34,26 @@ class MorningPipelineSafetyTests(unittest.TestCase):
         self.assertIn("Decide if push already sent today", source)
         self.assertIn("Fail fast after morning delivery cutoff", source)
 
+    def test_premarket_crons_resolve_to_korean_weekdays(self):
+        from datetime import datetime, timedelta, timezone
+        import re
+        source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
+        crons = re.findall(r"cron: '([0-9]+ [0-9]+ \\* \\* [0-9-]+)'", source)
+        self.assertEqual(len(crons), 5)
+        utc_sunday = datetime(2026, 10, 25, tzinfo=timezone.utc)
+        kst = timezone(timedelta(hours=9))
+        expected_times = {(7, 20), (7, 23), (7, 25), (7, 28), (7, 40)}
+        actual = set()
+        for cron in crons:
+            minute, hour, _, _, weekdays = cron.split()
+            self.assertEqual(weekdays, "0-4")
+            for utc_weekday in range(5):
+                local = (utc_sunday + timedelta(days=utc_weekday,
+                         hours=int(hour), minutes=int(minute))).astimezone(kst)
+                self.assertLess(local.weekday(), 5)
+                actual.add((local.hour, local.minute))
+        self.assertEqual(actual, expected_times)
+
     def test_push_can_start_from_successful_market_completion(self):
         source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("workflows: ['Chati Global Market']", source)
