@@ -31,6 +31,20 @@ jobs:
       - name: Run complete offline test suite
         id: tests
         run: python -m unittest discover -s tests -v
+      - name: Audit historical morning push timing (full Git history)
+        if: matrix.python-version == '3.11'
+        continue-on-error: true
+        run: |
+          git fetch --unshallow origin || git fetch origin main --depth=200
+          python scripts/audit_push_history.py > push_history_audit.json
+          python -c 'import json; d=json.load(open("push_history_audit.json")); print("Observed:", d["observed_days"], "On time:", d["on_time_days"], "Observed rate:", d["on_time_rate_observed_only"])'
+      - name: Upload historical timing evidence
+        if: matrix.python-version == '3.11' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: push-history-audit
+          path: push_history_audit.json
+          if-no-files-found: warn
       - name: Report regression result
         if: always()
         run: |
