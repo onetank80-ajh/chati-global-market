@@ -219,6 +219,24 @@ jobs:
             if [ "$attempt" = 3 ]; then exit 1; fi
             sleep 15
           done
+      - name: Summarize HTTP acknowledgment
+        if: steps.status.outputs.send == 'true'
+        shell: python
+        run: |
+          import json
+          import os
+          from pathlib import Path
+          p = Path('push_http_evidence.json')
+          value = 'missing (inspect Send push logs)'
+          if p.is_file():
+              try:
+                  value = json.loads(p.read_text(encoding='utf-8'))['http_succeeded_at_kst']
+              except (OSError, ValueError, KeyError, TypeError):
+                  value = 'invalid (inspect Send push logs)'
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+              summary.write('### ntfy HTTP acknowledgment\\n')
+              summary.write(f'- HTTP success (KST): {value}\\n')
+              summary.write('- This is server acknowledgment, not phone receipt.\\n')
       - name: Record successful delivery attempt
         if: steps.status.outputs.send == 'true'
         shell: bash
