@@ -94,11 +94,14 @@ def main():
     # The status workflow records this HTTP acknowledgment, not a device receipt.
     evidence_path = os.environ.get("PUSH_HTTP_EVIDENCE_PATH", "").strip()
     if evidence_path:
-        Path(evidence_path).write_text(
+        try:
+            Path(evidence_path).write_text(
             json.dumps({"http_succeeded_at_kst": succeeded_at,
                         "note": "ntfy HTTP success; device receipt not independently verified"},
-                       ensure_ascii=False) + "\\n", encoding="utf-8"
-        )
+                       ensure_ascii=False) + "\n", encoding="utf-8"
+            )
+        except OSError as exc:
+            print("PUSH_HTTP_EVIDENCE_WRITE_FAILED=" + str(exc), file=sys.stderr)
     print("Push notification sent; snapshot age hours:", round(age, 2))
 
 if __name__ == "__main__":
