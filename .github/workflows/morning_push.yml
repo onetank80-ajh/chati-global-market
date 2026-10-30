@@ -36,6 +36,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Diagnose scheduled start delay
+        continue-on-error: true
         env:
           TRIGGER_CRON: ${{ github.event.schedule }}
         shell: python
