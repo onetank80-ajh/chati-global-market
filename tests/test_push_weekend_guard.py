@@ -89,6 +89,15 @@ class WeekendPushGuardTests(unittest.TestCase):
         self.assertIn("now.weekday() >= 5", workflow)
         self.assertIn("(now.hour, now.minute) >= (8, 0)", workflow)
 
+    def test_push_success_timestamp_is_recorded_only_after_http_success(self):
+        workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
+        script = SOURCE.read_text(encoding="utf-8")
+        self.assertLess(workflow.index("- name: Send push (retry)"),
+                        workflow.index("- name: Record successful delivery attempt"))
+        self.assertIn("PUSH_HTTP_SUCCEEDED_KST=", script)
+        self.assertIn("last_sent_at_kst", workflow)
+        self.assertIn("ntfy HTTP success; device receipt not independently verified", workflow)
+
     def test_schedule_delay_diagnostic_present(self):
         workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", workflow)
