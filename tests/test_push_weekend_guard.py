@@ -109,6 +109,16 @@ class WeekendPushGuardTests(unittest.TestCase):
         self.assertIn("group: chati-morning-pipeline", workflow)
         self.assertIn("cancel-in-progress: false", workflow)
 
+    def test_push_wait_and_cutoff_are_both_enforced(self):
+        workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
+        script = SOURCE.read_text(encoding="utf-8")
+        self.assertLess(workflow.index("- name: Wait until 07:30 KST"),
+                        workflow.index("- name: Send push (retry)"))
+        self.assertIn("target = now.replace(hour=7, minute=30", workflow)
+        self.assertIn("time.sleep((target-now).total_seconds())", workflow)
+        self.assertIn("if (now.hour, now.minute) < (7, 30):", script)
+        self.assertIn("if (now.hour, now.minute) >= (8, 0):", script)
+
     def test_schedule_delay_diagnostic_present(self):
         workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", workflow)
