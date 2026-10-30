@@ -36,6 +36,20 @@ class WeekendPushGuardTests(unittest.TestCase):
                 module.main()
             network.assert_not_called()
 
+    def test_sunday_execution_fails_before_network_access(self):
+        spec = importlib.util.spec_from_file_location("push_briefing_sunday_test", SOURCE)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        sunday = datetime(2026, 11, 1, 0, 30, tzinfo=timezone.utc)
+        class FixedDatetime:
+            @staticmethod
+            def now(tz=None):
+                return sunday.astimezone(tz) if tz else sunday
+        with patch.object(module, "datetime", FixedDatetime), patch.object(module, "urlopen") as network:
+            with self.assertRaisesRegex(RuntimeError, "Weekend"):
+                module.main()
+            network.assert_not_called()
+
     def test_schedule_delay_diagnostic_present(self):
         workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", workflow)
