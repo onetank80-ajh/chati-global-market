@@ -38,7 +38,7 @@ class MorningPipelineSafetyTests(unittest.TestCase):
         from datetime import datetime, timedelta, timezone
         import re
         source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
-        crons = re.findall(r"cron: '([0-9]+ [0-9]+ \\* \\* [0-9-]+)'", source)
+        crons = re.findall(r"cron:\s*'([^']+)'", source)
         self.assertEqual(len(crons), 5)
         utc_sunday = datetime(2026, 10, 25, tzinfo=timezone.utc)
         kst = timezone(timedelta(hours=9))
