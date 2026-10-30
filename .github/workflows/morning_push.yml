@@ -150,8 +150,10 @@ jobs:
           import time
           now = datetime.now(ZoneInfo('Asia/Seoul'))
           target = now.replace(hour=7, minute=30, second=0, microsecond=0)
+          print('PUSH_WAIT_STARTED_KST=' + now.isoformat(), flush=True)
           if now < target:
               time.sleep((target-now).total_seconds())
+          print('PUSH_WAIT_FINISHED_KST=' + datetime.now(ZoneInfo('Asia/Seoul')).isoformat(), flush=True)
       - name: Send push (retry)
         if: steps.status.outputs.send == 'true'
         env:
