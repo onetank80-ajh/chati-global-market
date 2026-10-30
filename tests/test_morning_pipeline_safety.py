@@ -82,6 +82,19 @@ class MorningPipelineSafetyTests(unittest.TestCase):
         self.assertIn("PUSH_HTTP_EVIDENCE_WRITE_FAILED", sender)
         self.assertIn("PUSH_HTTP_SUCCEEDED_KST=", sender)
 
+    def test_http_acknowledgment_is_visible_in_job_summary(self):
+        workflow = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
+        summary = step(workflow, "Summarize HTTP acknowledgment")
+        self.assertIn("push_http_evidence.json", summary)
+        self.assertIn("http_succeeded_at_kst", summary)
+        self.assertIn("GITHUB_STEP_SUMMARY", summary)
+        self.assertIn("steps.status.outputs.send == 'true'", summary)
+        self.assertIn("not phone receipt", summary)
+        self.assertLess(workflow.index("Send push (retry)"),
+                        workflow.index("Summarize HTTP acknowledgment"))
+        self.assertLess(workflow.index("Summarize HTTP acknowledgment"),
+                        workflow.index("Record successful delivery attempt"))
+
     def test_push_remains_guarded_by_freshness_and_delivery_window(self):
         source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
         self.assertLess(source.index("Decide if push already sent today"),
