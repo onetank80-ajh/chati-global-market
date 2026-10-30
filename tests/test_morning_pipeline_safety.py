@@ -38,6 +38,18 @@ class MorningPipelineSafetyTests(unittest.TestCase):
         self.assertIn("steps.prepared.outputs.ready != 'true'", refresh)
         self.assertIn("steps.status.outputs.send == 'true'", refresh)
 
+    def test_http_acknowledgment_is_wired_into_push_status(self):
+        workflow = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
+        sender = (ROOT / "scripts/push_briefing.py").read_text(encoding="utf-8")
+        send = step(workflow, "Send push (retry)")
+        record = step(workflow, "Record successful delivery attempt")
+        self.assertIn("PUSH_HTTP_EVIDENCE_PATH: push_http_evidence.json", send)
+        self.assertIn("push_http_evidence.json", record)
+        self.assertIn("http_succeeded_at_kst", record)
+        self.assertIn("status_recorded_at_kst", record)
+        self.assertIn("PUSH_HTTP_EVIDENCE_WRITE_FAILED", sender)
+        self.assertIn("PUSH_HTTP_SUCCEEDED_KST=", sender)
+
     def test_push_remains_guarded_by_freshness_and_delivery_window(self):
         source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
         self.assertLess(source.index("Decide if push already sent today"),
