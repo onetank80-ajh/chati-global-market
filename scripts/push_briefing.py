@@ -89,7 +89,16 @@ def main():
     with urlopen(req, timeout=20) as response:
         if not 200 <= response.status < 300:
             raise RuntimeError(f"Notification failed: HTTP {response.status}")
-    print('PUSH_HTTP_SUCCEEDED_KST=' + datetime.now(timezone.utc).astimezone(KST).isoformat(), flush=True)
+    succeeded_at = datetime.now(timezone.utc).astimezone(KST).isoformat()
+    print('PUSH_HTTP_SUCCEEDED_KST=' + succeeded_at, flush=True)
+    # The status workflow records this HTTP acknowledgment, not a device receipt.
+    evidence_path = os.environ.get("PUSH_HTTP_EVIDENCE_PATH", "").strip()
+    if evidence_path:
+        Path(evidence_path).write_text(
+            json.dumps({"http_succeeded_at_kst": succeeded_at,
+                        "note": "ntfy HTTP success; device receipt not independently verified"},
+                       ensure_ascii=False) + "\\n", encoding="utf-8"
+        )
     print("Push notification sent; snapshot age hours:", round(age, 2))
 
 if __name__ == "__main__":
