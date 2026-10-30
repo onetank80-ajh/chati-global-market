@@ -22,6 +22,18 @@ class MorningPipelineSafetyTests(unittest.TestCase):
         self.assertNotIn("continue-on-error: true", step(source, "Fetch market snapshot"))
         self.assertNotIn("continue-on-error: true", step(source, "Check briefing consistency"))
 
+    def test_push_has_multiple_premarket_schedules_and_recovery(self):
+        source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
+        for cron in ("20 22 * * 0-4", "23 22 * * 0-4",
+                     "25 22 * * 0-4", "28 22 * * 0-4",
+                     "40 22 * * 0-4"):
+            with self.subTest(cron=cron):
+                self.assertIn("cron: '" + cron + "'", source)
+        self.assertIn("Diagnose scheduled start delay", source)
+        self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", source)
+        self.assertIn("Decide if push already sent today", source)
+        self.assertIn("Fail fast after morning delivery cutoff", source)
+
     def test_push_can_start_from_successful_market_completion(self):
         source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("workflows: ['Chati Global Market']", source)
