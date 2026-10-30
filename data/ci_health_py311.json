@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "source_commit": "8284ab6cff1587803cc4cd4e3da6ea047fc0974c",
+  "source_commit": "a5402d6027ff4c84d656fc7240b6f652db4bd1c1",
   "python_version": "3.11",
   "compile_outcome": "success",
-  "test_outcome": "success",
-  "run_id": "41078568992",
-  "run_url": "https://github.com/onetank80-ajh/chati-global-market/actions/runs/41078568992",
-  "observed_at_utc": "2026-10-30T15:13:03.132889+00:00"
+  "test_outcome": "failure",
+  "run_id": "41079520267",
+  "run_url": "https://github.com/onetank80-ajh/chati-global-market/actions/runs/41079520267",
+  "observed_at_utc": "2026-10-30T15:19:06.242383+00:00"
 }
