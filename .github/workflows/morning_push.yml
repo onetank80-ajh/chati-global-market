@@ -212,6 +212,7 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          PUSH_HTTP_EVIDENCE_PATH: push_http_evidence.json
         run: |
           for attempt in 1 2 3; do
             python scripts/push_briefing.py && break
@@ -229,7 +230,17 @@ jobs:
           from zoneinfo import ZoneInfo
           now = datetime.now(ZoneInfo('Asia/Seoul'))
           p = Path('data/push_status.json')
-          p.write_text(json.dumps({'last_sent_date_kst': now.date().isoformat(), 'last_sent_at_kst': now.isoformat(), 'note': 'ntfy HTTP success; device receipt not independently verified'}, indent=2)+'\n', encoding='utf-8')
+          evidence = Path('push_http_evidence.json')
+          sent_at = now
+          if evidence.is_file():
+              try:
+                  sent_at = datetime.fromisoformat(json.loads(evidence.read_text(encoding='utf-8'))['http_succeeded_at_kst'])
+                  if sent_at.tzinfo is None or sent_at.date() != now.date() or sent_at > now:
+                      raise ValueError('invalid HTTP acknowledgment timestamp')
+              except (OSError, ValueError, KeyError, TypeError) as exc:
+                  print('HTTP timestamp evidence invalid; using status recording time:', exc)
+                  sent_at = now
+          p.write_text(json.dumps({'last_sent_date_kst': now.date().isoformat(), 'last_sent_at_kst': sent_at.isoformat(), 'status_recorded_at_kst': now.isoformat(), 'note': 'ntfy HTTP success; device receipt not independently verified'}, indent=2)+'\n', encoding='utf-8')
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
