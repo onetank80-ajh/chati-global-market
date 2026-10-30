@@ -22,6 +22,22 @@ class MorningPipelineSafetyTests(unittest.TestCase):
         self.assertNotIn("continue-on-error: true", step(source, "Fetch market snapshot"))
         self.assertNotIn("continue-on-error: true", step(source, "Check briefing consistency"))
 
+    def test_push_can_start_from_successful_market_completion(self):
+        source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
+        self.assertIn("workflows: ['Chati Global Market']", source)
+        self.assertIn("types: [completed]", source)
+        self.assertIn("github.event.workflow_run.conclusion == 'success'", source)
+        self.assertIn("group: chati-morning-pipeline", source)
+        self.assertIn("cancel-in-progress: false", source)
+
+    def test_ready_briefing_skips_duplicate_market_refresh(self):
+        source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
+        prepared = step(source, "Check prepared briefing freshness")
+        refresh = step(source, "Refresh market (retry)")
+        self.assertIn("morning.get('market_snapshot_at') == market.get('generated_at_kst')", prepared)
+        self.assertIn("steps.prepared.outputs.ready != 'true'", refresh)
+        self.assertIn("steps.status.outputs.send == 'true'", refresh)
+
     def test_push_remains_guarded_by_freshness_and_delivery_window(self):
         source = (ROOT / ".github/workflows/morning_push.yml").read_text(encoding="utf-8")
         self.assertLess(source.index("Decide if push already sent today"),
