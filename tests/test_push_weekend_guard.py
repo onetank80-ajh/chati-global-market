@@ -19,6 +19,13 @@ class WeekendPushGuardTests(unittest.TestCase):
                         "Weekend guard must fail, not return success")
         self.assertFalse(any(isinstance(stmt, ast.Return) for stmt in guard.body))
 
+    def test_schedule_delay_diagnostic_present(self):
+        workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
+        self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", workflow)
+        self.assertIn("MORNING_PUSH_EXPECTED_UTC=", workflow)
+        self.assertIn("MORNING_PUSH_JOB_STARTED_UTC=", workflow)
+        self.assertIn("TRIGGER_CRON: ${{ github.event.schedule }}", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
