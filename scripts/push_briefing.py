@@ -20,8 +20,7 @@ def load(name):
 def main():
     now = datetime.now(timezone.utc).astimezone(KST)
     if now.weekday() >= 5:
-        print("Weekend; no notification")
-        return
+        raise RuntimeError("Weekend; no notification sent")
     # Do not send a late morning briefing as if it were on time.
     # GitHub scheduled workflows can be delayed; backup is allowed through 08:00 KST.
     if (now.hour, now.minute) < (7, 30):
