@@ -86,9 +86,11 @@ def main():
     token = os.environ.get("NTFY_TOKEN", "").strip()
     if token:
         req.add_header("Authorization", "Bearer " + token)
+    print('PUSH_HTTP_STARTED_KST=' + datetime.now(timezone.utc).astimezone(KST).isoformat(), flush=True)
     with urlopen(req, timeout=20) as response:
         if not 200 <= response.status < 300:
             raise RuntimeError(f"Notification failed: HTTP {response.status}")
+    print('PUSH_HTTP_SUCCEEDED_KST=' + datetime.now(timezone.utc).astimezone(KST).isoformat(), flush=True)
     print("Push notification sent; snapshot age hours:", round(age, 2))
 
 if __name__ == "__main__":
