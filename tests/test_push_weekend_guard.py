@@ -1,5 +1,8 @@
 """Guard against false-positive weekend notification success without network calls."""
 import ast
+import importlib.util
+from datetime import datetime, timezone
+from unittest.mock import patch
 import unittest
 from pathlib import Path
 
@@ -18,6 +21,20 @@ class WeekendPushGuardTests(unittest.TestCase):
         self.assertTrue(any(isinstance(stmt, ast.Raise) for stmt in guard.body),
                         "Weekend guard must fail, not return success")
         self.assertFalse(any(isinstance(stmt, ast.Return) for stmt in guard.body))
+
+    def test_saturday_execution_fails_before_network_access(self):
+        spec = importlib.util.spec_from_file_location("push_briefing_under_test", SOURCE)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        saturday = datetime(2026, 10, 31, 0, 30, tzinfo=timezone.utc)
+        class FixedDatetime:
+            @staticmethod
+            def now(tz=None):
+                return saturday.astimezone(tz) if tz else saturday
+        with patch.object(module, "datetime", FixedDatetime), patch.object(module, "urlopen") as network:
+            with self.assertRaisesRegex(RuntimeError, "Weekend"):
+                module.main()
+            network.assert_not_called()
 
     def test_schedule_delay_diagnostic_present(self):
         workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
