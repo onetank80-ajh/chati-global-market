@@ -98,6 +98,17 @@ class WeekendPushGuardTests(unittest.TestCase):
         self.assertIn("last_sent_at_kst", workflow)
         self.assertIn("ntfy HTTP success; device receipt not independently verified", workflow)
 
+    def test_daily_send_guard_precedes_push_and_recording(self):
+        workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
+        self.assertLess(workflow.index("- name: Decide if push already sent today"),
+                        workflow.index("- name: Send push (retry)"))
+        self.assertIn("last_sent_date_kst", workflow)
+        self.assertIn("last == today", workflow)
+        self.assertIn("if: steps.status.outputs.send == 'true'", workflow)
+        self.assertIn("concurrency:", workflow)
+        self.assertIn("group: chati-morning-pipeline", workflow)
+        self.assertIn("cancel-in-progress: false", workflow)
+
     def test_schedule_delay_diagnostic_present(self):
         workflow = (SOURCE.parents[1] / ".github" / "workflows" / "morning_push.yml").read_text(encoding="utf-8")
         self.assertIn("MORNING_PUSH_SCHEDULE_DELAY_SECONDS=", workflow)
