@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-01T22:01:58.000315+00:00",
+  "generated_at_utc": "2026-11-01T22:17:33.572485+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 0,
-  "news_snapshot_fresh": false,
-  "market_snapshot_at": "2026-11-02T07:01:57.897624+09:00",
+  "headline_count_after": 15,
+  "news_snapshot_fresh": true,
+  "market_snapshot_at": "2026-11-02T07:17:33.463792+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": -1.818,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.328,
+      "change_percent": -0.333,
       "market_date": "2026-11-01",
       "status": "ok"
     },
@@ -36,7 +36,7 @@
         "SK하이닉스"
       ],
       "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
+      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
@@ -51,9 +51,155 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "top_headlines": [],
+  "top_headlines": [
+    {
+      "title": "Doubts Over 'AI Profitability' Resurface... How Will the KOSPI Fare Today? - SBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlRUJKc1JfSDJTeTlUcS02Q0xaazFES2tDT25LdldvZ0FwZ1BtMjAxNWFIenVacFNQUlpLU2YwWjRubzZkSE9sZUdJeVYxNFRGeWMwS2RaODJnWnNGTDd4QlBTV2VtNkd1WktWUF9n0gFmQVVfeXFMTndWSzdxLUNpeUdrbERSbnRPeF9VWWt4Nm8tYjU2eVJ5UGh5V0h0ZkRjaE9FQnMzR0Y0cUtnMFVUdVR2Wk5jR1hjaW5kdnF2QkFhdGJSRU9ZdlptYU5aRTdfYUpuYjFn?oc=5",
+      "source": "SBS 뉴스",
+      "published_at_utc": "2026-11-01T21:11:49+00:00",
+      "age_hours": 1.1,
+      "relevance_score": 55,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "Korea’s Stock Market Crashed $1 Trillion. What Does That Mean for the Global AI Race? - ChinaTalk | Jordan Schneider",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FaUZ6X3pJUGlzeWEyMTRZSE1WT0QwTmFJb0Q1d3lLYUt6clBpVDNvdDhIeTEtM09UeGhoZjA4cjBBY1ZTdEhnNHVsdXh2LVFaeVRtQjJGVWhOQjlvY1lKOWRVMDFiVFkzY0VmZE1OUHhRSms4R184?oc=5",
+      "source": "ChinaTalk | Jordan Schneider",
+      "published_at_utc": "2026-11-01T13:33:33+00:00",
+      "age_hours": 8.7,
+      "relevance_score": 53,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "South Korea's KOSPI Pullback Shifts ETF Money: Domestic Equity Share Shrinks to 41%, Flows Move to Bond and Overseas Equity Funds - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4S2VQV2hrbS1VaE1jVU5pYXAxckZBY19LZHVKVGZzZ0pGTVJob0lhemh5NEhRbGFNUWlGd2JVUFJrWHVVNHpYc2dkbjlGZ180NUVzZ0NXLXNSVW9KLXlZOUNFeURiMXVnbTlJdkxFZTZvMkZqbVE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-01T05:01:10+00:00",
+      "age_hours": 17.3,
+      "relevance_score": 50,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "AI and Semiconductor Stocks Lose $5 Trillion: Will the US Stock Market Recover in November - entARABI",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXcyN0xRWXZjM2wxakVrcXNmREVrQkVydTE1Y05uVkZHNUFVZWg1cmRoLWtoV2dlSDdNX0dMVE1FMnQzdlBidzBmX25SUXo1bFo3SzJTM2ZNcDNTN0JiSVZtZzNJSnE1bTZVMVg2anBPQ1VOdWllZTB5UlJuWjRsdWZNVkNzVVUyVk9sZw?oc=5",
+      "source": "entARABI",
+      "published_at_utc": "2026-11-01T16:34:22+00:00",
+      "age_hours": 5.7,
+      "relevance_score": 44,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Nvidia Stock Selloff Puts AI Hardware Leaders Back On Watch - Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEVwQ1dwOWppeU1LN1dvWjhEOTh2blhZWjVVeE9OM0F4M1d1ZmhzRks1OTBXMkdHc1l5Y2dNclh2c1JLemE4NF9SbDdySXVKa0Ywc3NiaW9DUjdCMTc4a0pOenFkTGxnWDczMTN3UU1Nd0toSVE5VkV6bGczd21ZSHVDa3BoQjJ4UzRUb0tkY0s2VVJ2Qm9ZUzBpa29vSjhfVFJSSy1NUmJZc1A5dWNScUg5RHoxSHk2VzliR2xvZVU2eE16MzdFM2hOMzZSZV9qOUdtUFVzTdIB3AFBVV95cUxPOTd5Yjk2Vl9oWnAwZEJfck50QnV4N1h0cHY2MzlKSnBadWNXZmJBTDdBN0s4TmRDUWRuWHFhY0FwR2FjRFdKVkxOWmc4cEJ1eDRnUTdqN2YyaktmNDR2WnhxLXFHeDZvUFh5VXFMZXdXN1RaZUFJZl83MHpuaDhPY0pRMzRJaTNvTHp5QnVuWlk2WTBGbnAydXpIQm5wbjlyMnhFZ1JPd3R3MEs3eTVOeUVERlVUeURXdHV5NFQ0aFJnRGY0ZTk3NzU2MENUeUg0dUdpTm9qTkppRUlM?oc=5",
+      "source": "Simply Wall St",
+      "published_at_utc": "2026-11-01T12:54:35+00:00",
+      "age_hours": 9.4,
+      "relevance_score": 42,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRXBCSEozUjh1WlNYX29xUDc5LV9CajQyYm1wRUg3eTZWNzBnajJEVFc5M3Fob1ZwQWx0TlVNSDBiTklUWnNad0hodW1QQkhYWWo3YnY0dEgxUHU5RTYxYmVtc1BKVHM0bllnWUxrQV9GaFNYYnN0YW1kMG96cG5RVEstTzdXaUI1ekVxSHVqOTNQcFhrdVpNRERZVjdQUnJTdDh0LXZMdmhLcXhmemszaUo4RkVxVDl0eGJqMHVHR1hKMmRwaE1GMnZOdks5dVQ2Rmg1VEFrRHdUWm5PWFZzYVI4RHlFMGZPeFVMYXphNnlLUEpJV2c?oc=5",
+      "source": "Stocktwits",
+      "published_at_utc": "2026-10-31T19:30:52+00:00",
+      "age_hours": 26.8,
+      "relevance_score": 42,
+      "tags": [
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "4 Words From Fed Chair Kevin Warsh Should Have Wall Street and Investors Quaking in Their Boots - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOTg1a3F5SUp6ZzJPUjB2Yk5tTTh6dTR3WnFESEtqcjhiNlJKZTNMSUR0RzVucWFzU1RkYnRxVmQ2LW5uc2ZsY01tcDNVMEJHN1ZhMGE0S0lEeXlyRXpXbGs1UGFtS28yaldkb1hlTlNTZDFWcjVUc0lZZ0N0X2lsd2QtMTI4bmVTNWk1RjVISHpMUVJSOHpxVFNVUmxDMjRqSjRMcXFUSHlpdnZZVXAtMjVHajBjejh0Q3ZDcUc5QQ?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-10-31T14:06:00+00:00",
+      "age_hours": 32.2,
+      "relevance_score": 40,
+      "tags": [
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
+      "source": "StoneX",
+      "published_at_utc": "2026-11-01T19:29:20+00:00",
+      "age_hours": 2.8,
+      "relevance_score": 30,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOclNxelBMcDBBRW54cnBIM2FpS2sycnNiYzJEaEQxcko5YnZKa0lQbTJ1b1FxdGNoR3k3U0JSb3FnSGJBYXN5VEpYZ2o5WVAxa28tc2l0ZEp0b0NaNjU3QzRMcENhUXh4eHZJZkhPMnFtNEQ5MkN0REtBdHNjYkJNX0NVQmJWN3pOd1lOMFRacEMyVEFIa1pVU0ZlVHh4U0ZibEt6VXpFUGlWRG1seVRqU0pRTnd1RUE0LUcwdGpiZTdDNTJuR2wtUDdvaUw?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-01T17:45:07+00:00",
+      "age_hours": 4.5,
+      "relevance_score": 29,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Stock market forecast: Goldman Sachs, JPMorgan, Morgan Stanley predict what's next after tech selloff - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZHNGdmc1ckFLM21oaWlWLXdQQmdaUEVmUWViOWtSR05hajMtUzc4UzVsR1pRUmYzSzU2ZnVMaEw0X1hyOVJnWXZyYjU4ZG9lYkdWQkw5WGhVckptcEEwSkdJZ3pIZVJJTnZUbXVQMjhYc0R2cXc4ZW5GQUtTb1FtTlZOaEtWc09pQ05qcGI0M3Z4NlRqVlgtOE5MMTV3UGR6YWdkWUltc0R6OVJDMlJUaFg2X2pzYWhIZ08zRVo0YWNadw?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-01T13:29:35+00:00",
+      "age_hours": 8.8,
+      "relevance_score": 28,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Market Analyst Predicts November Rebound as Foreign Investors Return - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUEtWRVExTE1MZlJweHIwMm5hSUt2TGRyZ3RZbk12YTBSNmlWS1BlbDVpRzJCaUYtRWo3YmFHVjdWdVFFTHZiQS1WNDZZbkpYNXBvNmIzaDU5R1RkTS16N2JEbUhVb1BwY2YySnZIUU5LMkNGMEZxM3B0Nk15TU9fWnZqMXNUdFB6RV9wZFF3?oc=5",
+      "source": "조선일보",
+      "published_at_utc": "2026-11-01T20:34:18+00:00",
+      "age_hours": 1.7,
+      "relevance_score": 20,
+      "tags": [],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "1 Unstoppable ETF I'm Buying Hand Over Fist During the Next Bear Market - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOa3laOFEwN2twOGpVRDJ2ZUxvZTNUQWVkSTJxWTlmU3lrcXhsdWllRFRGM2h6U1M5WG51S1p4MER2SGFZR09Jd04wMWhqQ3NNcFFVTVZlNllPMGVQck1HZUhDR3ZkejNzcnRtaTVCUi1Gblg2UDEzdUo3dFJGUmx6TGN6QXFRVnhlRXYxVnNXME1TTjFmOWhiRm9EMmo1WEROSlBIM29WN1FDbkw0LVRTdC1jM3l4MTRJS2tJcFJycnRYTGM3ckEyanJuV1lJM0Y5UTNiS0dpaGt3OGwyZTRTUWFpcWNqQWhVUDdLbTVn?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-01T18:33:45+00:00",
+      "age_hours": 3.7,
+      "relevance_score": 19,
+      "tags": [],
+      "category": "semiconductor",
+      "needs_verification": true
+    }
+  ],
   "cautions": [
-    "뉴스 수집 시각이 오래되거나 확인되지 않아 기사 분석을 보류했습니다",
     "기사 본문과 제목 사실관계 미검증",
     "관련성 점수는 확률/매매신호가 아님",
     "뉴스 제목은 자동 번역되지 않음",
