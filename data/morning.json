@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-02T07:17:33.613539+09:00",
+  "generated_at_kst": "2026-11-02T07:35:03.252432+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-02T07:17:33.463792+09:00",
-  "news_snapshot_at": "2026-11-02T07:02:00.778232+09:00",
+  "market_snapshot_at": "2026-11-02T07:35:03.111890+09:00",
+  "news_snapshot_at": "2026-11-02T07:31:50.477943+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-02T06:30:00+09:00",
-  "briefing_delay_minutes": 47.6,
-  "briefing_deadline_delay_minutes": -12.4,
+  "briefing_delay_minutes": 65.1,
+  "briefing_deadline_delay_minutes": 5.1,
   "briefing_late_over_10min": false,
   "briefing_deadline_at_kst": "2026-11-02T07:30:00+09:00",
-  "briefing_missed_0730_deadline": false,
+  "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -0.333,
+      "change_percent": -0.402,
       "market_date": "2026-11-01",
       "meaning": "원화 강세 방향"
     }
@@ -57,10 +57,10 @@
   ],
   "headlines": [
     {
-      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
+      "title": "S&P 500 Forecast: SPX rises as tech rebounds ahead of earnings - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeXJtdmRLMmFmVF90Zl83WXNEbjVjaF84SFVqVUdJcmNxM3Zodi14a1poMzJGb0I1N2hxSm0xNWRWeUE4dlBFRXpEVW1MRXluSUlmcjZ5M0t5NnZ6cTctZE45MXFJVHdZOXlUNUZhUUROZkdSclF2UThlX1l1bVJLUk4tNTFsazRBbjVlYUMzVEhJaWtFZ0xzbnZDRFlGMmlxNS1WYjVzbmVTamVZMWNJTA?oc=5",
       "source": "StoneX",
-      "published_at_utc": "2026-11-01T19:29:20+00:00"
+      "published_at_utc": "2026-11-01T20:08:27+00:00"
     },
     {
       "title": "Stock market forecast: Goldman Sachs, JPMorgan, Morgan Stanley predict what's next after tech selloff - Beinsure",
@@ -75,22 +75,22 @@
       "published_at_utc": "2026-11-01T17:45:07+00:00"
     },
     {
-      "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRXBCSEozUjh1WlNYX29xUDc5LV9CajQyYm1wRUg3eTZWNzBnajJEVFc5M3Fob1ZwQWx0TlVNSDBiTklUWnNad0hodW1QQkhYWWo3YnY0dEgxUHU5RTYxYmVtc1BKVHM0bllnWUxrQV9GaFNYYnN0YW1kMG96cG5RVEstTzdXaUI1ekVxSHVqOTNQcFhrdVpNRERZVjdQUnJTdDh0LXZMdmhLcXhmemszaUo4RkVxVDl0eGJqMHVHR1hKMmRwaE1GMnZOdks5dVQ2Rmg1VEFrRHdUWm5PWFZzYVI4RHlFMGZPeFVMYXphNnlLUEpJV2c?oc=5",
+      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
+      "source": "StoneX",
+      "published_at_utc": "2026-11-01T19:29:20+00:00"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of Fed Rate Hike Expectations: CRCL, WING, CAVA, FPS Stocks In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPa24yX09GVG1IakJMbVU5ekJHOVFXOXFrVkg5TEZWeFk3bHZLWjFwX09aRXNTXzFIQlBXLTRNX3V3Y3VJZWt1VTJtVGRTbE9GVVJ1WXNmbmZiN3lKWUhkNzdMRnFUUEVVanlkUHFNLUYyRkt3eHRkakZGVUt6TVgtX3RIa3o4b3pOVWdLVGgtcXBkdTBmbXFTYlZ0aENBWnFJQlJNN3k5R3dJOUhjWEk1aURBVkZ2X2ZsZktyN0FZUlI5UTNBWmNsLW9iazlqX2cwS0FrSy1nN3Q4RVkyTVRCQnBzWWdoWE9oX0gyQW5pT3V1TDEzbENzVDNoZWtfMThmUUhtN3hiY0k?oc=5",
       "source": "Stocktwits",
-      "published_at_utc": "2026-10-31T19:30:52+00:00"
+      "published_at_utc": "2026-10-31T22:38:49+00:00"
     },
     {
-      "title": "4 Words From Fed Chair Kevin Warsh Should Have Wall Street and Investors Quaking in Their Boots - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOTg1a3F5SUp6ZzJPUjB2Yk5tTTh6dTR3WnFESEtqcjhiNlJKZTNMSUR0RzVucWFzU1RkYnRxVmQ2LW5uc2ZsY01tcDNVMEJHN1ZhMGE0S0lEeXlyRXpXbGs1UGFtS28yaldkb1hlTlNTZDFWcjVUc0lZZ0N0X2lsd2QtMTI4bmVTNWk1RjVISHpMUVJSOHpxVFNVUmxDMjRqSjRMcXFUSHlpdnZZVXAtMjVHajBjejh0Q3ZDcUc5QQ?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-10-31T14:06:00+00:00"
-    },
-    {
-      "title": "2 Unstoppable Growth Stocks I'd Buy With $1,000 and Hold for a Decade - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODhYVDQ1dFRFMk1UZGxHckZwQkFnMmxOLWU4dUs5QWtWeGRuaDlLdzhZLW9XZnFHZVhVRk1fRGVON2JzLXRYOFBDbjZoOFg5OW9UbldvdGVzSUUtd1ZBQ0xGNzRuTlViOFdEVVgtQzYyQTFwQnpQUlRLMXVRN1lCNnZhTUlCNFFRRXZzTkhibjNHOFlhWW9vam5TSQ?oc=5",
+      "title": "1 Unstoppable ETF I'm Buying Hand Over Fist During the Next Bear Market - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnZ4bERERGxQWXpYcUtuM0tmX1RTSklSOHVxeVgxMzlwRHhOaWxJaENOSHBBR1BUemhPTFNwRUpEWUxYUXFuQ2JGdEdDd1ZQUFU4QU0tNl9OUERuWUJuaEhLdHhyOHJ2MFU4b2g0aVp5enFxMV9qbzRRZk5Pa2pBQ3V2TGx5SzB1bmhjd3FQYkZiRFk3VGhJ?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-01T04:20:00+00:00"
+      "published_at_utc": "2026-11-01T13:05:00+00:00"
     },
     {
       "title": "FOMO Rally: Top 5 Stocks To Buy Ahead Of 2026 Midterms - Seeking Alpha",
@@ -107,6 +107,7 @@
   ],
   "news_snapshot_fresh": true,
   "warnings": [
+    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
