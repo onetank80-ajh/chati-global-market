@@ -1,23 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-01T22:17:36.848538+00:00",
-  "generated_at_kst": "2026-11-02T07:17:36.848538+09:00",
+  "generated_at_utc": "2026-11-01T22:31:50.477943+00:00",
+  "generated_at_kst": "2026-11-02T07:31:50.477943+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
     {
       "category": "us_market",
-      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
+      "title": "S&P 500 Forecast: SPX rises as tech rebounds ahead of earnings - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeXJtdmRLMmFmVF90Zl83WXNEbjVjaF84SFVqVUdJcmNxM3Zodi14a1poMzJGb0I1N2hxSm0xNWRWeUE4dlBFRXpEVW1MRXluSUlmcjZ5M0t5NnZ6cTctZE45MXFJVHdZOXlUNUZhUUROZkdSclF2UThlX1l1bVJLUk4tNTFsazRBbjVlYUMzVEhJaWtFZ0xzbnZDRFlGMmlxNS1WYjVzbmVTamVZMWNJTA?oc=5",
       "source": "StoneX",
-      "published_at_utc": "2026-11-01T19:29:20+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOclNxelBMcDBBRW54cnBIM2FpS2sycnNiYzJEaEQxcko5YnZKa0lQbTJ1b1FxdGNoR3k3U0JSb3FnSGJBYXN5VEpYZ2o5WVAxa28tc2l0ZEp0b0NaNjU3QzRMcENhUXh4eHZJZkhPMnFtNEQ5MkN0REtBdHNjYkJNX0NVQmJWN3pOd1lOMFRacEMyVEFIa1pVU0ZlVHh4U0ZibEt6VXpFUGlWRG1seVRqU0pRTnd1RUE0LUcwdGpiZTdDNTJuR2wtUDdvaUw?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-01T17:45:07+00:00"
+      "published_at_utc": "2026-11-01T20:08:27+00:00"
     },
     {
       "category": "us_market",
@@ -28,24 +21,31 @@
     },
     {
       "category": "us_market",
-      "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRXBCSEozUjh1WlNYX29xUDc5LV9CajQyYm1wRUg3eTZWNzBnajJEVFc5M3Fob1ZwQWx0TlVNSDBiTklUWnNad0hodW1QQkhYWWo3YnY0dEgxUHU5RTYxYmVtc1BKVHM0bllnWUxrQV9GaFNYYnN0YW1kMG96cG5RVEstTzdXaUI1ekVxSHVqOTNQcFhrdVpNRERZVjdQUnJTdDh0LXZMdmhLcXhmemszaUo4RkVxVDl0eGJqMHVHR1hKMmRwaE1GMnZOdks5dVQ2Rmg1VEFrRHdUWm5PWFZzYVI4RHlFMGZPeFVMYXphNnlLUEpJV2c?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-31T19:30:52+00:00"
+      "title": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOclNxelBMcDBBRW54cnBIM2FpS2sycnNiYzJEaEQxcko5YnZKa0lQbTJ1b1FxdGNoR3k3U0JSb3FnSGJBYXN5VEpYZ2o5WVAxa28tc2l0ZEp0b0NaNjU3QzRMcENhUXh4eHZJZkhPMnFtNEQ5MkN0REtBdHNjYkJNX0NVQmJWN3pOd1lOMFRacEMyVEFIa1pVU0ZlVHh4U0ZibEt6VXpFUGlWRG1seVRqU0pRTnd1RUE0LUcwdGpiZTdDNTJuR2wtUDdvaUw?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-01T17:45:07+00:00"
     },
     {
       "category": "us_market",
-      "title": "Nasdaq 100 forecast: US tech stocks extend decline as AI concerns intensify - FOREX.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSm5NazNweENaYWFkNXB5cTgtRGdOVTVfM3JkY0xVT2xBaGUxQ1ZONVM4Q3hWUjRTRG00a1FWVEV6SFpNU1g0dkxWaloxUjczS1lzRFJqQk1yS25xakJmcVlrcEN0Mm91bFRldDZ5MmVJSHA5X0trSjNKRTRoQ1ZGR3lQRGlubVN4c3FKTUdiVkZpUmJYTmN5Rnc2LWNaZ25kbUl4VFdYSkhhLTI5ZHB0eDk0SmRFWGh2ZGF1c0Jn?oc=5",
-      "source": "FOREX.com",
-      "published_at_utc": "2026-10-31T19:49:12+00:00"
+      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
+      "source": "StoneX",
+      "published_at_utc": "2026-11-01T19:29:20+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of Fed Rate Hike Expectations: CRCL, WING, CAVA, FPS Stocks In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPa24yX09GVG1IakJMbVU5ekJHOVFXOXFrVkg5TEZWeFk3bHZLWjFwX09aRXNTXzFIQlBXLTRNX3V3Y3VJZWt1VTJtVGRTbE9GVVJ1WXNmbmZiN3lKWUhkNzdMRnFUUEVVanlkUHFNLUYyRkt3eHRkakZGVUt6TVgtX3RIa3o4b3pOVWdLVGgtcXBkdTBmbXFTYlZ0aENBWnFJQlJNN3k5R3dJOUhjWEk1aURBVkZ2X2ZsZktyN0FZUlI5UTNBWmNsLW9iazlqX2cwS0FrSy1nN3Q4RVkyTVRCQnBzWWdoWE9oX0gyQW5pT3V1TDEzbENzVDNoZWtfMThmUUhtN3hiY0k?oc=5",
+      "source": "Stocktwits",
+      "published_at_utc": "2026-10-31T22:38:49+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "2 Unstoppable Growth Stocks I'd Buy With $1,000 and Hold for a Decade - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODhYVDQ1dFRFMk1UZGxHckZwQkFnMmxOLWU4dUs5QWtWeGRuaDlLdzhZLW9XZnFHZVhVRk1fRGVON2JzLXRYOFBDbjZoOFg5OW9UbldvdGVzSUUtd1ZBQ0xGNzRuTlViOFdEVVgtQzYyQTFwQnpQUlRLMXVRN1lCNnZhTUlCNFFRRXZzTkhibjNHOFlhWW9vam5TSQ?oc=5",
+      "title": "1 Unstoppable ETF I'm Buying Hand Over Fist During the Next Bear Market - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnZ4bERERGxQWXpYcUtuM0tmX1RTSklSOHVxeVgxMzlwRHhOaWxJaENOSHBBR1BUemhPTFNwRUpEWUxYUXFuQ2JGdEdDd1ZQUFU4QU0tNl9OUERuWUJuaEhLdHhyOHJ2MFU4b2g0aVp5enFxMV9qbzRRZk5Pa2pBQ3V2TGx5SzB1bmhjd3FQYkZiRFk3VGhJ?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-01T04:20:00+00:00"
+      "published_at_utc": "2026-11-01T13:05:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -70,10 +70,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "Nvidia Stock Selloff Puts AI Hardware Leaders Back On Watch - Simply Wall St",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEVwQ1dwOWppeU1LN1dvWjhEOTh2blhZWjVVeE9OM0F4M1d1ZmhzRks1OTBXMkdHc1l5Y2dNclh2c1JLemE4NF9SbDdySXVKa0Ywc3NiaW9DUjdCMTc4a0pOenFkTGxnWDczMTN3UU1Nd0toSVE5VkV6bGczd21ZSHVDa3BoQjJ4UzRUb0tkY0s2VVJ2Qm9ZUzBpa29vSjhfVFJSSy1NUmJZc1A5dWNScUg5RHoxSHk2VzliR2xvZVU2eE16MzdFM2hOMzZSZV9qOUdtUFVzTdIB3AFBVV95cUxPOTd5Yjk2Vl9oWnAwZEJfck50QnV4N1h0cHY2MzlKSnBadWNXZmJBTDdBN0s4TmRDUWRuWHFhY0FwR2FjRFdKVkxOWmc4cEJ1eDRnUTdqN2YyaktmNDR2WnhxLXFHeDZvUFh5VXFMZXdXN1RaZUFJZl83MHpuaDhPY0pRMzRJaTNvTHp5QnVuWlk2WTBGbnAydXpIQm5wbjlyMnhFZ1JPd3R3MEs3eTVOeUVERlVUeURXdHV5NFQ0aFJnRGY0ZTk3NzU2MENUeUg0dUdpTm9qTkppRUlM?oc=5",
-      "source": "Simply Wall St",
-      "published_at_utc": "2026-11-01T12:54:35+00:00"
+      "title": "2 Unstoppable Growth Stocks I'd Buy With $1,000 and Hold for a Decade - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR3hrSTVzTW9fSUQ0ZG9XNHdiWm5obXdHSDA3QXkzMzZwRm1pVkY1a2EtRnV1QkFBR2lDanBsVjI2djBEUXRwVUpEQVBsTEdaaVRYcjZGX24yeGFRUHRTU2l1WUdJSVZHc090Y1lKZ2V5bDhuRGxrZExFTmMzZGdlVXVsWmhnQXVLcWFLVUpkbXVuU3dhRFRoNg?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-01T05:00:00+00:00"
     },
     {
       "category": "korea",
@@ -81,13 +81,6 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FaUZ6X3pJUGlzeWEyMTRZSE1WT0QwTmFJb0Q1d3lLYUt6clBpVDNvdDhIeTEtM09UeGhoZjA4cjBBY1ZTdEhnNHVsdXh2LVFaeVRtQjJGVWhOQjlvY1lKOWRVMDFiVFkzY0VmZE1OUHhRSms4R184?oc=5",
       "source": "ChinaTalk | Jordan Schneider",
       "published_at_utc": "2026-11-01T13:33:33+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Doubts Over 'AI Profitability' Resurface... How Will the KOSPI Fare Today? - SBS 뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53Vks3cS1DaXlHa2xEUm50T3hfVVlreDZvLWI1NnlSeVBoeVdIdGZEY2hPRUJzM0dGNHFLZzBVVHVUdlpOY0dYY2luZHZxdkJBYXRiUkVPWXZabWFOWkU3X2FKbmIxZ9IBZkFVX3lxTE53Vks3cS1DaXlHa2xEUm50T3hfVVlreDZvLWI1NnlSeVBoeVdIdGZEY2hPRUJzM0dGNHFLZzBVVHVUdlpOY0dYY2luZHZxdkJBYXRiUkVPWXZabWFOWkU3X2FKbmIxZw?oc=5",
-      "source": "SBS 뉴스",
-      "published_at_utc": "2026-11-01T21:11:00+00:00"
     },
     {
       "category": "korea",
@@ -105,10 +98,17 @@
     },
     {
       "category": "korea",
-      "title": "Won Strength Resets Foreign Investors' Selling Threshold to 6,500 - Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeEhES3pYWE1RaG83TmhZclhZM0pVb2hCd2dXaFlGWFE0S0tpSmNxX1ppWVpRanh1S0hGQUpMRF9NVFhSZkk3SnY2cVVDcXBpTjdhQzRuc1FoWTlKMS1wV3h1V2ZTXzRnVFNaVE5Bd2tlVzZSMENJSlBjUnlST3ZMYkxxNTRsM29hWGVLbmVmbVVNTEt6VF9aZFFBcS15VFZUYVE?oc=5",
+      "title": "Doubts Over 'AI Profitability' Resurface... How Will the KOSPI Fare Today? - SBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlRUJKc1JfSDJTeTlUcS02Q0xaazFES2tDT25LdldvZ0FwZ1BtMjAxNWFIenVacFNQUlpLU2YwWjRubzZkSE9sZUdJeVYxNFRGeWMwS2RaODJnWnNGTDd4QlBTV2VtNkd1WktWUF9n0gFmQVVfeXFMTndWSzdxLUNpeUdrbERSbnRPeF9VWWt4Nm8tYjU2eVJ5UGh5V0h0ZkRjaE9FQnMzR0Y0cUtnMFVUdVR2Wk5jR1hjaW5kdnF2QkFhdGJSRU9ZdlptYU5aRTdfYUpuYjFn?oc=5",
+      "source": "SBS 뉴스",
+      "published_at_utc": "2026-11-01T21:11:49+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "U.S. Midterms, AI Payoff Doubts to Steer KOSPI's Rebound - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGM0dmZRUHJySHBJd1dTOHdtaHBxRm9hd0x5S0ZiaUh5X1JfeV9PcHVwTTB4ZktORHJqZ1lQSjZ2Y1RhMC1OTm5lc054bzRuUl9UYTBBQU5BY2NQeFdRc1Z4QlZzWGtJdFdzOVU2SFc5bVk5Q2ZSZmRncDJfTUZtYk1ibDU3cEx2dmROX1NHbTlGd1RmYndXS05B?oc=5",
       "source": "Seoul Economic Daily",
-      "published_at_utc": "2026-11-01T09:02:04+00:00"
+      "published_at_utc": "2026-11-01T22:00:05+00:00"
     }
   ],
   "warnings": []
