@@ -1,34 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-10-30T08:58:45.225499+09:00",
+  "generated_at_kst": "2026-11-02T07:01:58.029814+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-10-30T08:18:45.347417+09:00",
+  "market_snapshot_at": "2026-11-02T07:01:57.897624+09:00",
   "news_snapshot_at": "2026-10-30T07:40:12.813624+09:00",
-  "market_snapshot_age_hours": 0.67,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-10-30T06:30:00+09:00",
-  "briefing_delay_minutes": 148.8,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-10-30T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-02T06:30:00+09:00",
+  "briefing_delay_minutes": 32.0,
+  "briefing_deadline_delay_minutes": -28.0,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-02T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -0.305,
-      "market_date": "2026-10-29",
+      "change_percent": -1.818,
+      "market_date": "2026-10-30",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": -1.419,
-      "market_date": "2026-10-29",
+      "change_percent": -7.201,
+      "market_date": "2026-10-30",
       "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": 0.935,
-      "market_date": "2026-10-29",
-      "meaning": "원화 약세 방향"
+      "change_percent": -0.328,
+      "market_date": "2026-11-01",
+      "meaning": "원화 강세 방향"
     }
   ],
   "sectors": [
@@ -39,7 +40,7 @@
         "SK하이닉스"
       ],
       "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
+      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
     },
     {
       "name": "미국 대형주 연동",
@@ -50,63 +51,14 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [
-    {
-      "title": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-28T23:53:34+00:00"
-    },
-    {
-      "title": "The bond market swings, but US stocks remain steady after the Fed says it won't raise interest rates - WRAL",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1BWaEhJTENtZVh4TWR1ZUFaNjl5dTk1U1dmcm51R19KaEVNQlNoMURRMnhVX1ZJM0xqQnROLUQtaXBWLUtIYmhna0xveDBSS2tUSUpZVHNrSkREMnhGcWh3azRUTENELVhZN05wNkJjdjBITUVSX25UR2kzWGctQ1RRNkZXMkpucWJQZGZXRDlmU2xYMTV5ei0wNUh5MmlqUHV4eHBfcFNIRW5jcG5hQg?oc=5",
-      "source": "WRAL",
-      "published_at_utc": "2026-10-28T19:25:06+00:00"
-    },
-    {
-      "title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-29T20:30:27+00:00"
-    },
-    {
-      "title": "Stock Market Today: Fed Holds Rates Steady, Dow, S&P 500 and Nasdaq Post Modest Gains - Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORmdWTHRYTzlqdXI1ZkNOVlZ0REoydlpLOU13MTFORHJ6U0JwanpPMTJlRVdHRE1FU0RPLTZRLWtjWDBhMjJpaXdVY2VZTUY4RGNZdFlFWGVRU0JmTWdKMVhxTVJfcHNyOS1MM1hXclUyaFl5RTBpUFFvUkxCcEwtOGxERGlsVjRNaktzemEtalR1SlRWbGExTGYwRVprQlFycDc1Z0IzZFpZdEtwczBJN1dzd1NxNzN0Q3JJTEZneno4bms?oc=5",
-      "source": "Eurasia Business News",
-      "published_at_utc": "2026-10-28T21:52:07+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-10-29T09:33:23+00:00"
-    },
-    {
-      "title": "Nvidia, AMD, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU1VRUzZlRzhNam5fWHJSdzRDNk9iM3dYN29jUGlidG5vRnV0aG4wVERiVDlPRmVOYmRBR0NZTmwyREdyT1Jtb2h6cURZUUZRbGhVMkFCSmZ1dnp0WVBYWHR6UlNTaXY4Y0NMNk13YU5QMGR3MG8yUG1CalVpYUhWVGtibnVQRXFjZWxwb0NhNzhQSVBtYjhsSWRaNmpQSV9LRGVONUd0UWRUUVBIdWd3VHREdHpaeFFEZXhtVWlURXVKN0hlS085TWJ4cjk?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-28T13:34:51+00:00"
-    },
-    {
-      "title": "SK Hynix Record Profit Lifts Micron, Nvidia and AI Chip Stocks - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUElhWW40N0xpYzZNZm9UN1JVR3kwdTA1WkFJM3ZCQ21zUmh3c0ZhTmJtUmRvWHZwbFlkWW12azhmanFCcUVTbkxNOWwxWTUzcTd2VlZaMjY0REFsWFJ0TXRBamxBTGpYZnVhaHJ2Q0RvTGhXUlpYUlF2bFdLWGdScHRoVkh3RnB5UXNpaWNZOTNfVHNJckZaRHlLSFNYZmx5WDZEVGZtZDBhYzdMMHk1NEI2YmU2U1BJUnVCNnpn?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-10-28T20:02:01+00:00"
-    },
-    {
-      "title": "AMD, Broadcom, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUNESjNKQm9WM29KdEpZZlN1dGpYam5zbUhBUDE0X1lnLW1xZ3BGaFpsUld2cTJzVDJaeV80UTdyNWcyUW5xVkZEZ2Z5a0VNYlROSTZGUGRPQ0JSUFVINXNhWUcyQVo5MTRULWs2SVVLUXI5ZVd1SzBWbm1jdzNORkt0SkM5WHV4aUhGTlRiQ29TNzluVTlGTERRdmNiNklmVV9kMUQwbktWWHJVZHo0SndTYWVQeTdYM3h2dzF5WmJrWXZGLXk2Q3QxLTgxV3M?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-28T13:57:56+00:00"
-    }
-  ],
-  "news_snapshot_fresh": true,
+  "headlines": [],
+  "news_snapshot_fresh": false,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
+    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
