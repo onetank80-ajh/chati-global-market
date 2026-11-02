@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-02T08:56:42.390494+09:00",
+  "generated_at_kst": "2026-11-03T07:09:41.346231+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-02T08:15:20.315277+09:00",
+  "market_snapshot_at": "2026-11-03T07:09:41.179211+09:00",
   "news_snapshot_at": "2026-11-02T07:35:06.136210+09:00",
-  "market_snapshot_age_hours": 0.69,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-02T06:30:00+09:00",
-  "briefing_delay_minutes": 146.7,
-  "briefing_deadline_delay_minutes": 86.7,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-02T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-03T06:30:00+09:00",
+  "briefing_delay_minutes": 39.7,
+  "briefing_deadline_delay_minutes": -20.3,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-03T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -1.818,
-      "market_date": "2026-10-30",
+      "change_percent": -0.51,
+      "market_date": "2026-11-02",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": -7.201,
-      "market_date": "2026-10-30",
+      "change_percent": -3.372,
+      "market_date": "2026-11-02",
       "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.351,
-      "market_date": "2026-11-01",
-      "meaning": "원화 강세 방향"
+      "change_percent": 0.512,
+      "market_date": "2026-11-02",
+      "meaning": "원화 약세 방향"
     }
   ],
   "sectors": [
@@ -51,7 +51,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "원화 강세 참고",
+      "view": "환율 변동 확인",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -81,12 +81,6 @@
       "published_at_utc": "2026-11-01T19:29:20+00:00"
     },
     {
-      "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRXBCSEozUjh1WlNYX29xUDc5LV9CajQyYm1wRUg3eTZWNzBnajJEVFc5M3Fob1ZwQWx0TlVNSDBiTklUWnNad0hodW1QQkhYWWo3YnY0dEgxUHU5RTYxYmVtc1BKVHM0bllnWUxrQV9GaFNYYnN0YW1kMG96cG5RVEstTzdXaUI1ekVxSHVqOTNQcFhrdVpNRERZVjdQUnJTdDh0LXZMdmhLcXhmemszaUo4RkVxVDl0eGJqMHVHR1hKMmRwaE1GMnZOdks5dVQ2Rmg1VEFrRHdUWm5PWFZzYVI4RHlFMGZPeFVMYXphNnlLUEpJV2c?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-10-31T19:30:52+00:00"
-    },
-    {
       "title": "FOMO Rally: Top 5 Stocks To Buy Ahead Of 2026 Midterms - Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQclRIR1VXWUgtNEN1LWc5eHF4M3JOa2NCSjh2SGFBVDViSTlHN1B6X2UtRU5pZm5uSkRHTHBGMkx0VDJGSzhuOUVwNkYyVWpuUXNiRHZYbEVlME9EMnBLUEpiR040dGI1cFhCTlBIbzFXWHZvS2VtZHlXWW1GTnl1cFRuUU1TUkhoQ2RUSE5tNWdMNG9VTlZnWUNn?oc=5",
       "source": "Seeking Alpha",
@@ -103,11 +97,16 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEVwQ1dwOWppeU1LN1dvWjhEOTh2blhZWjVVeE9OM0F4M1d1ZmhzRks1OTBXMkdHc1l5Y2dNclh2c1JLemE4NF9SbDdySXVKa0Ywc3NiaW9DUjdCMTc4a0pOenFkTGxnWDczMTN3UU1Nd0toSVE5VkV6bGczd21ZSHVDa3BoQjJ4UzRUb0tkY0s2VVJ2Qm9ZUzBpa29vSjhfVFJSSy1NUmJZc1A5dWNScUg5RHoxSHk2VzliR2xvZVU2eE16MzdFM2hOMzZSZV9qOUdtUFVzTdIB3AFBVV95cUxPOTd5Yjk2Vl9oWnAwZEJfck50QnV4N1h0cHY2MzlKSnBadWNXZmJBTDdBN0s4TmRDUWRuWHFhY0FwR2FjRFdKVkxOWmc4cEJ1eDRnUTdqN2YyaktmNDR2WnhxLXFHeDZvUFh5VXFMZXdXN1RaZUFJZl83MHpuaDhPY0pRMzRJaTNvTHp5QnVuWlk2WTBGbnAydXpIQm5wbjlyMnhFZ1JPd3R3MEs3eTVOeUVERlVUeURXdHV5NFQ0aFJnRGY0ZTk3NzU2MENUeUg0dUdpTm9qTkppRUlM?oc=5",
       "source": "Simply Wall St",
       "published_at_utc": "2026-11-01T12:54:35+00:00"
+    },
+    {
+      "title": "2 Unstoppable Growth Stocks I'd Buy With $1,000 and Hold for a Decade - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00LXNhYnN1cXBkSFlBQ2tFenNCS1NJTE1oX0xpX0NSUHgxZU9mZFJ2b19GbEQxbU9NaG9USWw0UklGa3NDdmVzTF9fN1lFUVh0UEFQN3ZMUWdVbHVHXy1Sa3d0OFpfUDZsd1NTVnFDQW5HRF84aUJhS1VEZHNOQUE?oc=5",
+      "source": "AOL.com",
+      "published_at_utc": "2026-11-01T04:20:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
