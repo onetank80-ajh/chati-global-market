@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-02T22:39:20.197757+00:00",
-  "generated_at_kst": "2026-11-03T07:39:20.197757+09:00",
+  "generated_at_utc": "2026-11-02T23:22:10.963911+00:00",
+  "generated_at_kst": "2026-11-03T08:22:10.963911+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
@@ -31,10 +31,10 @@
       "symbol": "KRW=X",
       "name": "USD/KRW",
       "unit": "KRW per USD",
-      "close": 1345.73,
+      "close": 1344.73,
       "previous_close": 1337.98,
-      "change": 7.75,
-      "change_percent": 0.579,
+      "change": 6.75,
+      "change_percent": 0.504,
       "market_date": "2026-11-02",
       "status": "ok"
     },
@@ -42,9 +42,9 @@
       "symbol": "^IXIC",
       "name": "NASDAQ Composite",
       "unit": "points",
-      "close": 25164.3164,
+      "close": 25164.3633,
       "previous_close": 25437.0,
-      "change": -272.6836,
+      "change": -272.6367,
       "change_percent": -1.072,
       "market_date": "2026-11-02",
       "status": "ok"
