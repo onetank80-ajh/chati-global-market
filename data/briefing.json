@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-02T22:09:46.444410+00:00",
-  "generated_at_kst": "2026-11-03T07:09:46.444410+09:00",
+  "generated_at_utc": "2026-11-02T22:25:40.392848+00:00",
+  "generated_at_kst": "2026-11-03T07:25:40.392848+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.512,
+      "change_percent": 0.501,
       "reference_direction": "주의"
     }
   ],
@@ -33,8 +33,8 @@
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T20:30:00+00:00",
       "category": "semiconductor",
-      "age_hours": 1.7,
-      "freshness_score": 97,
+      "age_hours": 1.9,
+      "freshness_score": 96,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -46,7 +46,7 @@
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T18:13:00+00:00",
       "category": "us_market",
-      "age_hours": 3.9,
+      "age_hours": 4.2,
       "freshness_score": 92,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -57,8 +57,8 @@
       "source": "StoneX",
       "published_at_utc": "2026-11-02T17:33:00+00:00",
       "category": "us_market",
-      "age_hours": 4.6,
-      "freshness_score": 91,
+      "age_hours": 4.9,
+      "freshness_score": 90,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -68,20 +68,9 @@
       "source": "조선일보",
       "published_at_utc": "2026-11-02T16:13:38+00:00",
       "category": "korea",
-      "age_hours": 5.9,
+      "age_hours": 6.2,
       "freshness_score": 88,
       "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "U.S. stock futures rise ahead of midterm elections and Apple earnings - KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnNnUFloa0VsUjRZUkhQd0F1ZnFsT2N1SzhNSE11YUtJQmJrUmZDUlFtd3dqSDl6WXQ5WVN0MWtHeVZkdWd3T09QejdIdVdnOVE1WkY2dmQydzBsd1dxcUJNWHhrZkdrSGdldm5pX2JBT2F1QlREVWdQNHNCNEFKTW5TMnhsc1R3UXVEUFZtcmtJTEJ6cmRlUVZNeW9BM0RzSkpvYQ?oc=5",
-      "source": "KuCoin",
-      "published_at_utc": "2026-11-02T14:27:02+00:00",
-      "category": "us_market",
-      "age_hours": 7.7,
-      "freshness_score": 85,
-      "headline_tone": "긍정 표현",
       "sectors": []
     },
     {
@@ -90,7 +79,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-02T14:16:48+00:00",
       "category": "semiconductor",
-      "age_hours": 7.9,
+      "age_hours": 8.1,
       "freshness_score": 84,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -98,36 +87,36 @@
       ]
     },
     {
-      "title": "BEFORE THE BELL: US futures rebound from huge sell-off last week as oil prices retreat sharply - WPTF",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2lUVTlFeDJyNTczUzNOU1JMOTA5dFNTN2RKdE4xVV9TclhZV05pTFVlZDhHamo3UzZNeXl1U3l3ZjV6cGlRUGx2MV80VGdzaFZfd1J3cUJGVFUwYmc1LTdFbXRlMUpnNUpNd28ycVdVLW1DVjNFLTdRUElFNFA0eFYyeHk0WUJZTXc4T2Y0cXdCcEQ2NVlhQzRqR05QNFhScUwxSmJhWG1GNW43Qmt1VlBlbUpTV0RGcmhjRWdJQkw2TEo0?oc=5",
-      "source": "WPTF",
-      "published_at_utc": "2026-11-02T13:01:15+00:00",
-      "category": "korea",
-      "age_hours": 9.1,
-      "freshness_score": 82,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED) - TradingView",
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPX212dkozbS1FT2VNRm1fQ3JZWUIzNUV6REFvTEUwVjA1RnpTOXprQVdmZ29TQVJVU0tZbElxSWU0WE14VnFqLUowdjc1NFpudGc3N212MDJFUnFzMnhrTXdyaXFkMlJZSm1nWG9NYzNoVlhWRzRxOVlTQ3BJZ3JqbFdtMTNub3NQTVc2Ym9mdGJCOU1pVlUxOWJCaTMyemg3Q2gwT1kyZGF3MVotcWVFWnBsNF9QcjRxbElJaDhGWTRKdHpXVjNuUThHd2lleU5rb0xmWHFPQkhTXzVyNjFWZXJmbFdqS0lyWW5YRWxzQmVPRzNrZmFEMTdWMDNycHpXd2V5Zi1Kb2J5WVJmSmMyX0hB?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-02T13:15:14+00:00",
       "category": "us_market",
-      "age_hours": 8.9,
+      "age_hours": 9.2,
       "freshness_score": 82,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
     {
-      "title": "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-02T10:23:24+00:00",
+      "title": "BEFORE THE BELL: US futures rebound from huge sell-off last week as oil prices retreat sharply - WPTF",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2lUVTlFeDJyNTczUzNOU1JMOTA5dFNTN2RKdE4xVV9TclhZV05pTFVlZDhHamo3UzZNeXl1U3l3ZjV6cGlRUGx2MV80VGdzaFZfd1J3cUJGVFUwYmc1LTdFbXRlMUpnNUpNd28ycVdVLW1DVjNFLTdRUElFNFA0eFYyeHk0WUJZTXc4T2Y0cXdCcEQ2NVlhQzRqR05QNFhScUwxSmJhWG1GNW43Qmt1VlBlbUpTV0RGcmhjRWdJQkw2TEo0?oc=5",
+      "source": "WPTF",
+      "published_at_utc": "2026-11-02T13:01:15+00:00",
+      "category": "korea",
+      "age_hours": 9.4,
+      "freshness_score": 81,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
+      "source": "StoneX",
+      "published_at_utc": "2026-11-02T12:23:46+00:00",
       "category": "us_market",
-      "age_hours": 11.8,
-      "freshness_score": 76,
-      "headline_tone": "긍정 표현",
+      "age_hours": 10.0,
+      "freshness_score": 80,
+      "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
@@ -136,7 +125,7 @@
       "source": "KED Global",
       "published_at_utc": "2026-11-02T08:54:00+00:00",
       "category": "korea",
-      "age_hours": 13.3,
+      "age_hours": 13.5,
       "freshness_score": 73,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -147,7 +136,7 @@
       "source": "Technology Org",
       "published_at_utc": "2026-11-02T08:11:00+00:00",
       "category": "semiconductor",
-      "age_hours": 14.0,
+      "age_hours": 14.2,
       "freshness_score": 72,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -160,8 +149,19 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-02T08:17:16+00:00",
       "category": "korea",
-      "age_hours": 13.9,
+      "age_hours": 14.1,
       "freshness_score": 72,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmxUTVlzYVMwVkhYLWhFU29hX0gyNzdNVTN2WElGbkdTWlZiNVl6MEJLUUFHZ3NEbzZzWjQxaUt6YW5UUklsRURacUdLNERvRnZsd0ZHQzFpdjRzZUljYVAtT0FOaEFfLTdqZWw4cDNYcnM3SlZsajhnU1dzR0E5aUdteXhXN094akpQYThXWlJZMENDZTVReUR6a3lkVThXS09vMUdtT19ZZw?oc=5",
+      "source": "FOREX.com",
+      "published_at_utc": "2026-11-02T03:36:11+00:00",
+      "category": "us_market",
+      "age_hours": 18.8,
+      "freshness_score": 62,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -171,8 +171,8 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-02T02:56:00+00:00",
       "category": "semiconductor",
-      "age_hours": 19.2,
-      "freshness_score": 62,
+      "age_hours": 19.5,
+      "freshness_score": 61,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -184,25 +184,23 @@
       "source": "ChinaTalk | Jordan Schneider",
       "published_at_utc": "2026-11-01T13:33:33+00:00",
       "category": "korea",
-      "age_hours": 32.6,
-      "freshness_score": 35,
+      "age_hours": 32.9,
+      "freshness_score": 34,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "Jim Cramer Warns ‘Don’t Assume the Worst Is Behind Us’ After $1 Trillion Chip Stock Rout - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp3S1V3U0txb3ZMOHlmd051R005V0htUHZRajZQcUpQUWJiYTlZdlRMbVNURmw0T19fU0sxbkFXcUI0RkxiaE55VTJ0NlNqU1pVUGp3cUFoZG5qaGprRjBZOXp3REtsLWZKRTdZY1R5dlVzYmlDM2djSTJOZmZEdUxTdUlYZUZJY1ZEVS1laV80Y3dmc0pRTjNrazlHYnJhWG9IUjhQY2dJRmVtc19tT3Q1VExVRFV4bkF2RHRCVFk1RmlLWm16U1R5ZWp4V2pCbXI5SXJWc2JPMkJK?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-01T03:28:00+00:00",
+      "title": "FOMO Rally: Top 5 Stocks To Buy Ahead Of 2026 Midterms - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQclRIR1VXWUgtNEN1LWc5eHF4M3JOa2NCSjh2SGFBVDViSTlHN1B6X2UtRU5pZm5uSkRHTHBGMkx0VDJGSzhuOUVwNkYyVWpuUXNiRHZYbEVlME9EMnBLUEpiR040dGI1cFhCTlBIbzFXWHZvS2VtZHlXWW1GTnl1cFRuUU1TUkhoQ2RUSE5tNWdMNG9VTlZnWUNn?oc=5",
+      "source": "Seeking Alpha",
+      "published_at_utc": "2026-11-01T13:00:00+00:00",
       "category": "semiconductor",
-      "age_hours": 42.7,
-      "freshness_score": 15,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
+      "age_hours": 33.4,
+      "freshness_score": 33,
+      "headline_tone": "긍정 표현",
+      "sectors": []
     }
   ]
 }
