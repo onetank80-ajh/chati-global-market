@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-02T22:25:33.730889+00:00",
+  "generated_at_utc": "2026-11-02T22:39:20.348167+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
   "headline_count_after": 15,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-03T07:25:33.630720+09:00",
+  "market_snapshot_at": "2026-11-03T07:39:20.197757+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": -0.51,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.501,
+      "change_percent": 0.579,
       "market_date": "2026-11-02",
       "status": "ok"
     },
@@ -57,21 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLUFlUFpaX2Q4S0U0MU9aWHhlY3BWaHNxd2laODJfdWVSOTRqWmxPTXRmRGJLRjRLSzhWRG5nWFdkT05taU8zRjlNa0xmM2lXUElQQ3VzWjVCNmZDd21rUk5qU3pEeDhFZktlaG9TRFpmcjg4emtaTXBGbXkyci1jWWxxT09YdWNEMV84dWVR?oc=5",
       "source": "조선일보",
       "published_at_utc": "2026-11-02T16:13:38+00:00",
-      "age_hours": 6.2,
+      "age_hours": 6.4,
       "relevance_score": 53,
-      "tags": [
-        "한국시장 직접언급"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "Kospi ends up 2.2% with low PBR stocks in focus; KRX to introduce next-day settlement in 2028 - KED Global",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XNVRQUmRTSlRUYXQ0Nkp2LWtpMk9rZzZPRkZSTHZKZHRkczJlR25ETURIUlJzSEF0TllrT2FVNHBnMXVhTURlMHJqQmhIQWtxaXA1eFNhU0Z3ZFh5ODBWZC1wRmtTR21Reld1RW1pTXdtQTBYdGx0UENR?oc=5",
-      "source": "KED Global",
-      "published_at_utc": "2026-11-02T08:54:00+00:00",
-      "age_hours": 13.5,
-      "relevance_score": 51,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -83,8 +70,34 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00QXhJc29mYUlRMFNESzg0RHYtVXAwZ0pNS1NlTlZpNmxUWEU4Smhfd05EeWpHdnNJQmpqSFRuTURrQjRFcjA0Uk1FT0k1cXA5aFlNUGJFSllDSFZGSFlnd0VNSDY1aUd1a0p0OEg2LVlkM09E?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-02T08:17:16+00:00",
-      "age_hours": 14.1,
+      "age_hours": 14.4,
       "relevance_score": 51,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "South Korea's KOSPI Rebounds 2.24% After Intel Shock; Institutions Buy 1.2 Trillion Won to Close at 5,859 - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlRVZ0cE80c01BV1NOVUUzLXpLbXF6cV90SjhoeUQ0OXJBMVB0Ui1LZXk1SVlRNXB5Z0FRRXhzYkJYd1NXMnJKY1g1Q1JKRVU2dHBFdDF2bXlTRnhsb005b1hQb1lrUnBnT1FNR0N4M1l4VnM3alE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-02T07:55:00+00:00",
+      "age_hours": 14.7,
+      "relevance_score": 51,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "Seoul stocks open lower as disappointing tech earnings trigger AI spending woes - The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbjdBUVlNRkgyNXROVEVvN2lDWlZUN0JxS19RcEpqUEM4Z0lXeExMVk9CMjVsbUhLb3gwWFVJaVNQcWV1SFZiQlV2cldLUGhZZ25UdS1ZLXJra2tKbU9tR1YxNTJBd29ETlZRcUxTZXpjSWtZZ29NWGFxSGFJempXeDdIM2hvX21vTnRIdjBocTEwMV9wZGNFNDVkd2VhNmxEOFBEN3ktekRUamhPSmxHQ2tLRUt1VWV0aXZFQ1J0dXJYSnPSAcgBQVVfeXFMTXFtVUN1ODNwVFhjNjNhYUpBWmoxdU05eExQZnB5LW1NUUFvVUQwS2VzYVdPM3JQSU82eDBLdGx4OVZFUHFjRXFycEtEbXdrcVZBV29SeUxvX3FCQW9mbi1TeWZGNlJsWFpQXzZoSXpnVmZOX0FfbUdza1Z5TXNnMzYtQVd3eG1WTkcxZmNTT1NHSWxSay1zTm1RR25rbFZxQUM3NnRuN09adjV2TC05NG1xNEFMbUNVTGI2WWgtbUo5TzdIQVhBc1A?oc=5",
+      "source": "The Korea Times",
+      "published_at_utc": "2026-11-02T00:16:03+00:00",
+      "age_hours": 22.4,
+      "relevance_score": 48,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -96,7 +109,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd3hSdUtzUnNReUhLdTRlVEhPbVdIQk03NFlKT3NUeHpTdHJ4WjZTcjlfMF8zaEhGS1BWM00xbDdycFVRSzJjOHYxYXJlTHA0NWZPTkUySmUzd3V1WDhUSmFURjhtMzM1LUhxek5pdmZBRmxjbWtFSFV0TWgzdUZpbThMWTc3UnNjbDQzZ2MySjhCenRQcHhqZFllRWc3bDR2NEl5S1FXWTBiODVFdmtWVndtdElRc0syd3hSRXN0blV0eE0tYjhrYjJCbkExcGt1VXc?oc=5",
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T20:30:00+00:00",
-      "age_hours": 1.9,
+      "age_hours": 2.2,
       "relevance_score": 45,
       "tags": [
         "반도체/AI"
@@ -109,8 +122,8 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FaUZ6X3pJUGlzeWEyMTRZSE1WT0QwTmFJb0Q1d3lLYUt6clBpVDNvdDhIeTEtM09UeGhoZjA4cjBBY1ZTdEhnNHVsdXh2LVFaeVRtQjJGVWhOQjlvY1lKOWRVMDFiVFkzY0VmZE1OUHhRSms4R184?oc=5",
       "source": "ChinaTalk | Jordan Schneider",
       "published_at_utc": "2026-11-01T13:33:33+00:00",
-      "age_hours": 32.9,
-      "relevance_score": 45,
+      "age_hours": 33.1,
+      "relevance_score": 44,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -122,7 +135,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzNMQjJkNk5KTGtKQ0ZuX0UwRzJoN3Y1R0ZPYzBLWVUwV2ttTzVFUjlvU1ZZOVpuOUJraXN0THBXcUFHQ2ZtSnZEVmJrcGo0VVhXVEdac0Zsd05yQ1pVRG1sSjl1WEgwMXZ2alJOSVZxWW1PcW5odDV4YWlnX21CLXdPb2k1aEE3X3NENW9VdS0wS0cxdl83bFo1YUxBTjFjZG0xRTRSMngzUFlXZFF1WXdLM042WTBVdDI4aHRYNmF5M19LeWh4NUY2QzJDNEltTjRYQy03R1I?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-02T14:16:48+00:00",
-      "age_hours": 8.1,
+      "age_hours": 8.4,
       "relevance_score": 43,
       "tags": [
         "반도체/AI"
@@ -135,7 +148,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeG1xMDlUaFZSTVIwc0hGS0I4TTU4Z0hsS0N4Q0hyS3VGV2VCLUx5cGltWXIxSnRrb1NWNXFZa01uWUIxMjJkMGVPRjUxNTRPUl9LTlRzcFRZUjVoSEpGRG8zck5xVVNDSW1Ob1Jxc1c2eF9NN2xzMWR1Q3BkTTFvMXVOeWNsWmVmSTZ2c2N6WWdCRkZaa1RRNlRB?oc=5",
       "source": "Technology Org",
       "published_at_utc": "2026-11-02T08:11:00+00:00",
-      "age_hours": 14.2,
+      "age_hours": 14.5,
       "relevance_score": 41,
       "tags": [
         "반도체/AI"
@@ -148,21 +161,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pU3F2empKcDdFOWhyNE1xbnd0VE9qNnVSemZVNGtHeHlsek9nT3pOYVRMQ2JQbkFLM1VpVUR4X1B2Mll4dk1KcjZkZUxMOGFZUURFS2hXcjZMcUZlajZDUW5xenE3S0R2ZlFLSjgtdGdkMkpINEE?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-02T02:56:00+00:00",
-      "age_hours": 19.5,
+      "age_hours": 19.7,
       "relevance_score": 39,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Jim Cramer Warns ‘Don’t Assume the Worst Is Behind Us’ After $1 Trillion Chip Stock Rout - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp3S1V3U0txb3ZMOHlmd051R005V0htUHZRajZQcUpQUWJiYTlZdlRMbVNURmw0T19fU0sxbkFXcUI0RkxiaE55VTJ0NlNqU1pVUGp3cUFoZG5qaGprRjBZOXp3REtsLWZKRTdZY1R5dlVzYmlDM2djSTJOZmZEdUxTdUlYZUZJY1ZEVS1laV80Y3dmc0pRTjNrazlHYnJhWG9IUjhQY2dJRmVtc19tT3Q1VExVRFV4bkF2RHRCVFk1RmlLWm16U1R5ZWp4V2pCbXI5SXJWc2JPMkJK?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-01T03:28:00+00:00",
-      "age_hours": 43.0,
-      "relevance_score": 31,
       "tags": [
         "반도체/AI"
       ],
@@ -174,30 +174,30 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMXA3ZTcybGhIblhiUXVEYlduU18wSHZ5MXhBclY2RXlaVFpUT01FUzJHcjJNWUxjRkhrS2lzbGxuYnRNQjJLcVh6V3Jfb0hzVlV1ZjItdml6VS0wUXM5Q1J4bm1LTTlxblpBZlR5b05ibnc2VW1OMXJ5SkhLRGFOeGt4b0VqUkJqV19zWl85elo4RkFfVl80TEdRMzVlLTM2aUlsc0FYMHpEbU5IbndsS0RHSDhJd3c?oc=5",
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T18:13:00+00:00",
-      "age_hours": 4.2,
+      "age_hours": 4.4,
       "relevance_score": 29,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
-      "source": "StoneX",
-      "published_at_utc": "2026-11-02T17:33:00+00:00",
-      "age_hours": 4.9,
-      "relevance_score": 29,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "U.S. stock futures rise ahead of midterm elections and Apple earnings - KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnNnUFloa0VsUjRZUkhQd0F1ZnFsT2N1SzhNSE11YUtJQmJrUmZDUlFtd3dqSDl6WXQ5WVN0MWtHeVZkdWd3T09QejdIdVdnOVE1WkY2dmQydzBsd1dxcUJNWHhrZkdrSGdldm5pX2JBT2F1QlREVWdQNHNCNEFKTW5TMnhsc1R3UXVEUFZtcmtJTEJ6cmRlUVZNeW9BM0RzSkpvYQ?oc=5",
-      "source": "KuCoin",
-      "published_at_utc": "2026-11-02T14:27:02+00:00",
-      "age_hours": 8.0,
+      "title": "U.S. Index Futures Turn to Jobs Data and Treasury's Refunding After Friday's 3.46% Nasdaq-100 Drop - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSVc2U3BBb0tDbTEzbzBVUXNCNlZKMk5YQ1k5c254QXk2bDRZcW9xaHJQdjM4NmxYZDVISFF5WUxkLS0tdXhudWNjRWRJTVpmNXlINlNyWXVLOTlwbTVCeWg4dXlfV0s4Si1vNVRWZ3hDaEZ1aHByRm56VlpzVkZIT3VmTktTdkU0T3ZlS25lYjg4ZkcxVmtZcmkxMEx0am9UM3pQakVwUlRzUzRzRHZTNERTMlZKeFFodDZCaEZYekhxMEhCM0hzT19tUWFiUTlKODE4d3c1bU4zdTJsb3I0NjF3VzRmMURYYzNROVZB?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-02T14:05:00+00:00",
+      "age_hours": 8.6,
       "relevance_score": 28,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPX212dkozbS1FT2VNRm1fQ3JZWUIzNUV6REFvTEUwVjA1RnpTOXprQVdmZ29TQVJVU0tZbElxSWU0WE14VnFqLUowdjc1NFpudGc3N212MDJFUnFzMnhrTXdyaXFkMlJZSm1nWG9NYzNoVlhWRzRxOVlTQ3BJZ3JqbFdtMTNub3NQTVc2Ym9mdGJCOU1pVlUxOWJCaTMyemg3Q2gwT1kyZGF3MVotcWVFWnBsNF9QcjRxbElJaDhGWTRKdHpXVjNuUThHd2lleU5rb0xmWHFPQkhTXzVyNjFWZXJmbFdqS0lyWW5YRWxzQmVPRzNrZmFEMTdWMDNycHpXd2V5Zi1Kb2J5WVJmSmMyX0hB?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-02T13:15:14+00:00",
+      "age_hours": 9.4,
+      "relevance_score": 27,
       "tags": [],
       "category": "us_market",
       "needs_verification": true

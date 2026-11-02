@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-03T07:25:33.770333+09:00",
+  "generated_at_kst": "2026-11-03T07:39:20.395393+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-03T07:25:33.630720+09:00",
-  "news_snapshot_at": "2026-11-03T07:09:44.578107+09:00",
+  "market_snapshot_at": "2026-11-03T07:39:20.197757+09:00",
+  "news_snapshot_at": "2026-11-03T07:37:05.489361+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-03T06:30:00+09:00",
-  "briefing_delay_minutes": 55.6,
-  "briefing_deadline_delay_minutes": -4.4,
+  "briefing_delay_minutes": 69.3,
+  "briefing_deadline_delay_minutes": 9.3,
   "briefing_late_over_10min": false,
   "briefing_deadline_at_kst": "2026-11-03T07:30:00+09:00",
-  "briefing_missed_0730_deadline": false,
+  "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.501,
+      "change_percent": 0.579,
       "market_date": "2026-11-02",
       "meaning": "원화 약세 방향"
     }
@@ -57,12 +57,6 @@
   ],
   "headlines": [
     {
-      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
-      "source": "StoneX",
-      "published_at_utc": "2026-11-02T17:33:00+00:00"
-    },
-    {
       "title": "The bond-market rally is defying the typical investing playbook. Here’s why. - MarketWatch",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMXA3ZTcybGhIblhiUXVEYlduU18wSHZ5MXhBclY2RXlaVFpUT01FUzJHcjJNWUxjRkhrS2lzbGxuYnRNQjJLcVh6V3Jfb0hzVlV1ZjItdml6VS0wUXM5Q1J4bm1LTTlxblpBZlR5b05ibnc2VW1OMXJ5SkhLRGFOeGt4b0VqUkJqV19zWl85elo4RkFfVl80TEdRMzVlLTM2aUlsc0FYMHpEbU5IbndsS0RHSDhJd3c?oc=5",
       "source": "MarketWatch",
@@ -81,10 +75,16 @@
       "published_at_utc": "2026-11-02T10:23:24+00:00"
     },
     {
-      "title": "U.S. stock futures rise ahead of midterm elections and Apple earnings - KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnNnUFloa0VsUjRZUkhQd0F1ZnFsT2N1SzhNSE11YUtJQmJrUmZDUlFtd3dqSDl6WXQ5WVN0MWtHeVZkdWd3T09QejdIdVdnOVE1WkY2dmQydzBsd1dxcUJNWHhrZkdrSGdldm5pX2JBT2F1QlREVWdQNHNCNEFKTW5TMnhsc1R3UXVEUFZtcmtJTEJ6cmRlUVZNeW9BM0RzSkpvYQ?oc=5",
-      "source": "KuCoin",
-      "published_at_utc": "2026-11-02T14:27:02+00:00"
+      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmxUTVlzYVMwVkhYLWhFU29hX0gyNzdNVTN2WElGbkdTWlZiNVl6MEJLUUFHZ3NEbzZzWjQxaUt6YW5UUklsRURacUdLNERvRnZsd0ZHQzFpdjRzZUljYVAtT0FOaEFfLTdqZWw4cDNYcnM3SlZsajhnU1dzR0E5aUdteXhXN094akpQYThXWlJZMENDZTVReUR6a3lkVThXS09vMUdtT19ZZw?oc=5",
+      "source": "FOREX.com",
+      "published_at_utc": "2026-11-02T03:36:11+00:00"
+    },
+    {
+      "title": "U.S. Index Futures Turn to Jobs Data and Treasury's Refunding After Friday's 3.46% Nasdaq-100 Drop - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSVc2U3BBb0tDbTEzbzBVUXNCNlZKMk5YQ1k5c254QXk2bDRZcW9xaHJQdjM4NmxYZDVISFF5WUxkLS0tdXhudWNjRWRJTVpmNXlINlNyWXVLOTlwbTVCeWg4dXlfV0s4Si1vNVRWZ3hDaEZ1aHByRm56VlpzVkZIT3VmTktTdkU0T3ZlS25lYjg4ZkcxVmtZcmkxMEx0am9UM3pQakVwUlRzUzRzRHZTNERTMlZKeFFodDZCaEZYekhxMEhCM0hzT19tUWFiUTlKODE4d3c1bU4zdTJsb3I0NjF3VzRmMURYYzNROVZB?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-02T14:05:00+00:00"
     },
     {
       "title": "Chip stocks are suffering from a ‘crisis of confidence’ — but things aren’t as gloomy as they seem - MarketWatch",
@@ -107,6 +107,7 @@
   ],
   "news_snapshot_fresh": true,
   "warnings": [
+    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
