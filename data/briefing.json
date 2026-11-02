@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-02T22:25:40.392848+00:00",
-  "generated_at_kst": "2026-11-03T07:25:40.392848+09:00",
+  "generated_at_utc": "2026-11-02T22:39:24.943167+00:00",
+  "generated_at_kst": "2026-11-03T07:39:24.943167+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.501,
+      "change_percent": 0.579,
       "reference_direction": "주의"
     }
   ],
@@ -33,7 +33,7 @@
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T20:30:00+00:00",
       "category": "semiconductor",
-      "age_hours": 1.9,
+      "age_hours": 2.2,
       "freshness_score": 96,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -46,8 +46,8 @@
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T18:13:00+00:00",
       "category": "us_market",
-      "age_hours": 4.2,
-      "freshness_score": 92,
+      "age_hours": 4.4,
+      "freshness_score": 91,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -57,7 +57,7 @@
       "source": "StoneX",
       "published_at_utc": "2026-11-02T17:33:00+00:00",
       "category": "us_market",
-      "age_hours": 4.9,
+      "age_hours": 5.1,
       "freshness_score": 90,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -68,8 +68,8 @@
       "source": "조선일보",
       "published_at_utc": "2026-11-02T16:13:38+00:00",
       "category": "korea",
-      "age_hours": 6.2,
-      "freshness_score": 88,
+      "age_hours": 6.4,
+      "freshness_score": 87,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -79,23 +79,12 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-02T14:16:48+00:00",
       "category": "semiconductor",
-      "age_hours": 8.1,
-      "freshness_score": 84,
+      "age_hours": 8.4,
+      "freshness_score": 83,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPX212dkozbS1FT2VNRm1fQ3JZWUIzNUV6REFvTEUwVjA1RnpTOXprQVdmZ29TQVJVU0tZbElxSWU0WE14VnFqLUowdjc1NFpudGc3N212MDJFUnFzMnhrTXdyaXFkMlJZSm1nWG9NYzNoVlhWRzRxOVlTQ3BJZ3JqbFdtMTNub3NQTVc2Ym9mdGJCOU1pVlUxOWJCaTMyemg3Q2gwT1kyZGF3MVotcWVFWnBsNF9QcjRxbElJaDhGWTRKdHpXVjNuUThHd2lleU5rb0xmWHFPQkhTXzVyNjFWZXJmbFdqS0lyWW5YRWxzQmVPRzNrZmFEMTdWMDNycHpXd2V5Zi1Kb2J5WVJmSmMyX0hB?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-02T13:15:14+00:00",
-      "category": "us_market",
-      "age_hours": 9.2,
-      "freshness_score": 82,
-      "headline_tone": "긍정 표현",
-      "sectors": []
     },
     {
       "title": "BEFORE THE BELL: US futures rebound from huge sell-off last week as oil prices retreat sharply - WPTF",
@@ -103,9 +92,20 @@
       "source": "WPTF",
       "published_at_utc": "2026-11-02T13:01:15+00:00",
       "category": "korea",
-      "age_hours": 9.4,
+      "age_hours": 9.6,
       "freshness_score": 81,
       "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPX212dkozbS1FT2VNRm1fQ3JZWUIzNUV6REFvTEUwVjA1RnpTOXprQVdmZ29TQVJVU0tZbElxSWU0WE14VnFqLUowdjc1NFpudGc3N212MDJFUnFzMnhrTXdyaXFkMlJZSm1nWG9NYzNoVlhWRzRxOVlTQ3BJZ3JqbFdtMTNub3NQTVc2Ym9mdGJCOU1pVlUxOWJCaTMyemg3Q2gwT1kyZGF3MVotcWVFWnBsNF9QcjRxbElJaDhGWTRKdHpXVjNuUThHd2lleU5rb0xmWHFPQkhTXzVyNjFWZXJmbFdqS0lyWW5YRWxzQmVPRzNrZmFEMTdWMDNycHpXd2V5Zi1Kb2J5WVJmSmMyX0hB?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-02T13:15:14+00:00",
+      "category": "us_market",
+      "age_hours": 9.4,
+      "freshness_score": 81,
+      "headline_tone": "긍정 표현",
       "sectors": []
     },
     {
@@ -114,8 +114,8 @@
       "source": "StoneX",
       "published_at_utc": "2026-11-02T12:23:46+00:00",
       "category": "us_market",
-      "age_hours": 10.0,
-      "freshness_score": 80,
+      "age_hours": 10.3,
+      "freshness_score": 79,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -125,8 +125,8 @@
       "source": "KED Global",
       "published_at_utc": "2026-11-02T08:54:00+00:00",
       "category": "korea",
-      "age_hours": 13.5,
-      "freshness_score": 73,
+      "age_hours": 13.8,
+      "freshness_score": 72,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -136,8 +136,8 @@
       "source": "Technology Org",
       "published_at_utc": "2026-11-02T08:11:00+00:00",
       "category": "semiconductor",
-      "age_hours": 14.2,
-      "freshness_score": 72,
+      "age_hours": 14.5,
+      "freshness_score": 71,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -149,10 +149,23 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-02T08:17:16+00:00",
       "category": "korea",
-      "age_hours": 14.1,
-      "freshness_score": 72,
+      "age_hours": 14.4,
+      "freshness_score": 71,
       "headline_tone": "혼재/불명",
       "sectors": []
+    },
+    {
+      "title": "US AI and Chip Stocks Shed $5 Trillion in Market Value; Intel's Worst Crash in 52 Years Raises Questions About AI Profitability - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oUi1lRVBzcW1rLXQ4TzdiTWQ4cEJaTDZQNUZULVVMRzhBUGxTb3Z4TzRRMjcyZ3ZBY3JxN2tUMDllbm9yeHhCTWRKWkpHQ3JmNmxnM1hOUUlKQXZnSm1tN0FYbFJtRmUyZEl1ZklKOEJXeHhWS3c?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-02T03:55:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 18.7,
+      "freshness_score": 63,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
     },
     {
       "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - FOREX.com",
@@ -160,23 +173,10 @@
       "source": "FOREX.com",
       "published_at_utc": "2026-11-02T03:36:11+00:00",
       "category": "us_market",
-      "age_hours": 18.8,
+      "age_hours": 19.1,
       "freshness_score": 62,
       "headline_tone": "혼재/불명",
       "sectors": []
-    },
-    {
-      "title": "AI and Chip Stocks Shed approximately $5 Trillion in Market Value; Wall Street Says \"Now Is the Buying Opportunity\" - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pU3F2empKcDdFOWhyNE1xbnd0VE9qNnVSemZVNGtHeHlsek9nT3pOYVRMQ2JQbkFLM1VpVUR4X1B2Mll4dk1KcjZkZUxMOGFZUURFS2hXcjZMcUZlajZDUW5xenE3S0R2ZlFLSjgtdGdkMkpINEE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-02T02:56:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 19.5,
-      "freshness_score": 61,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
     },
     {
       "title": "Korea’s Stock Market Crashed $1 Trillion. What Does That Mean for the Global AI Race? - ChinaTalk | Jordan Schneider",
@@ -184,7 +184,7 @@
       "source": "ChinaTalk | Jordan Schneider",
       "published_at_utc": "2026-11-01T13:33:33+00:00",
       "category": "korea",
-      "age_hours": 32.9,
+      "age_hours": 33.1,
       "freshness_score": 34,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -197,7 +197,7 @@
       "source": "Seeking Alpha",
       "published_at_utc": "2026-11-01T13:00:00+00:00",
       "category": "semiconductor",
-      "age_hours": 33.4,
+      "age_hours": 33.7,
       "freshness_score": 33,
       "headline_tone": "긍정 표현",
       "sectors": []

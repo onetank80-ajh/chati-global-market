@@ -1,10 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-02T22:37:05.489361+00:00",
-  "generated_at_kst": "2026-11-03T07:37:05.489361+09:00",
+  "generated_at_utc": "2026-11-02T22:39:23.708819+00:00",
+  "generated_at_kst": "2026-11-03T07:39:23.708819+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
+    {
+      "category": "us_market",
+      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
+      "source": "StoneX",
+      "published_at_utc": "2026-11-02T17:33:00+00:00"
+    },
     {
       "category": "us_market",
       "title": "The bond-market rally is defying the typical investing playbook. Here’s why. - MarketWatch",
@@ -21,10 +28,10 @@
     },
     {
       "category": "us_market",
-      "title": "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-02T10:23:24+00:00"
+      "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
+      "source": "StoneX",
+      "published_at_utc": "2026-11-02T12:23:46+00:00"
     },
     {
       "category": "us_market",
@@ -32,13 +39,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmxUTVlzYVMwVkhYLWhFU29hX0gyNzdNVTN2WElGbkdTWlZiNVl6MEJLUUFHZ3NEbzZzWjQxaUt6YW5UUklsRURacUdLNERvRnZsd0ZHQzFpdjRzZUljYVAtT0FOaEFfLTdqZWw4cDNYcnM3SlZsajhnU1dzR0E5aUdteXhXN094akpQYThXWlJZMENDZTVReUR6a3lkVThXS09vMUdtT19ZZw?oc=5",
       "source": "FOREX.com",
       "published_at_utc": "2026-11-02T03:36:11+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "U.S. Index Futures Turn to Jobs Data and Treasury's Refunding After Friday's 3.46% Nasdaq-100 Drop - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSVc2U3BBb0tDbTEzbzBVUXNCNlZKMk5YQ1k5c254QXk2bDRZcW9xaHJQdjM4NmxYZDVISFF5WUxkLS0tdXhudWNjRWRJTVpmNXlINlNyWXVLOTlwbTVCeWg4dXlfV0s4Si1vNVRWZ3hDaEZ1aHByRm56VlpzVkZIT3VmTktTdkU0T3ZlS25lYjg4ZkcxVmtZcmkxMEx0am9UM3pQakVwUlRzUzRzRHZTNERTMlZKeFFodDZCaEZYekhxMEhCM0hzT19tUWFiUTlKODE4d3c1bU4zdTJsb3I0NjF3VzRmMURYYzNROVZB?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-02T14:05:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -63,10 +63,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "AI and Chip Stocks Shed approximately $5 Trillion in Market Value; Wall Street Says \"Now Is the Buying Opportunity\" - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pU3F2empKcDdFOWhyNE1xbnd0VE9qNnVSemZVNGtHeHlsek9nT3pOYVRMQ2JQbkFLM1VpVUR4X1B2Mll4dk1KcjZkZUxMOGFZUURFS2hXcjZMcUZlajZDUW5xenE3S0R2ZlFLSjgtdGdkMkpINEE?oc=5",
+      "title": "US AI and Chip Stocks Shed $5 Trillion in Market Value; Intel's Worst Crash in 52 Years Raises Questions About AI Profitability - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oUi1lRVBzcW1rLXQ4TzdiTWQ4cEJaTDZQNUZULVVMRzhBUGxTb3Z4TzRRMjcyZ3ZBY3JxN2tUMDllbm9yeHhCTWRKWkpHQ3JmNmxnM1hOUUlKQXZnSm1tN0FYbFJtRmUyZEl1ZklKOEJXeHhWS3c?oc=5",
       "source": "BigGo Finance",
-      "published_at_utc": "2026-11-02T02:56:00+00:00"
+      "published_at_utc": "2026-11-02T03:55:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -74,6 +74,13 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQclRIR1VXWUgtNEN1LWc5eHF4M3JOa2NCSjh2SGFBVDViSTlHN1B6X2UtRU5pZm5uSkRHTHBGMkx0VDJGSzhuOUVwNkYyVWpuUXNiRHZYbEVlME9EMnBLUEpiR040dGI1cFhCTlBIbzFXWHZvS2VtZHlXWW1GTnl1cFRuUU1TUkhoQ2RUSE5tNWdMNG9VTlZnWUNn?oc=5",
       "source": "Seeking Alpha",
       "published_at_utc": "2026-11-01T13:00:00+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Kospi ends up 2.2% with low PBR stocks in focus; KRX to introduce next-day settlement in 2028 - KED Global",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XNVRQUmRTSlRUYXQ0Nkp2LWtpMk9rZzZPRkZSTHZKZHRkczJlR25ETURIUlJzSEF0TllrT2FVNHBnMXVhTURlMHJqQmhIQWtxaXA1eFNhU0Z3ZFh5ODBWZC1wRmtTR21Reld1RW1pTXdtQTBYdGx0UENR?oc=5",
+      "source": "KED Global",
+      "published_at_utc": "2026-11-02T08:54:00+00:00"
     },
     {
       "category": "korea",
@@ -98,17 +105,10 @@
     },
     {
       "category": "korea",
-      "title": "South Korea's KOSPI Rebounds 2.24% After Intel Shock; Institutions Buy 1.2 Trillion Won to Close at 5,859 - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlRVZ0cE80c01BV1NOVUUzLXpLbXF6cV90SjhoeUQ0OXJBMVB0Ui1LZXk1SVlRNXB5Z0FRRXhzYkJYd1NXMnJKY1g1Q1JKRVU2dHBFdDF2bXlTRnhsb005b1hQb1lrUnBnT1FNR0N4M1l4VnM3alE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-02T07:55:00+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Seoul stocks open lower as disappointing tech earnings trigger AI spending woes - The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbjdBUVlNRkgyNXROVEVvN2lDWlZUN0JxS19RcEpqUEM4Z0lXeExMVk9CMjVsbUhLb3gwWFVJaVNQcWV1SFZiQlV2cldLUGhZZ25UdS1ZLXJra2tKbU9tR1YxNTJBd29ETlZRcUxTZXpjSWtZZ29NWGFxSGFJempXeDdIM2hvX21vTnRIdjBocTEwMV9wZGNFNDVkd2VhNmxEOFBEN3ktekRUamhPSmxHQ2tLRUt1VWV0aXZFQ1J0dXJYSnPSAcgBQVVfeXFMTXFtVUN1ODNwVFhjNjNhYUpBWmoxdU05eExQZnB5LW1NUUFvVUQwS2VzYVdPM3JQSU82eDBLdGx4OVZFUHFjRXFycEtEbXdrcVZBV29SeUxvX3FCQW9mbi1TeWZGNlJsWFpQXzZoSXpnVmZOX0FfbUdza1Z5TXNnMzYtQVd3eG1WTkcxZmNTT1NHSWxSay1zTm1RR25rbFZxQUM3NnRuN09adjV2TC05NG1xNEFMbUNVTGI2WWgtbUo5TzdIQVhBc1A?oc=5",
-      "source": "The Korea Times",
-      "published_at_utc": "2026-11-02T00:16:03+00:00"
+      "title": "BEFORE THE BELL: US futures rebound from huge sell-off last week as oil prices retreat sharply - WPTF",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2lUVTlFeDJyNTczUzNOU1JMOTA5dFNTN2RKdE4xVV9TclhZV05pTFVlZDhHamo3UzZNeXl1U3l3ZjV6cGlRUGx2MV80VGdzaFZfd1J3cUJGVFUwYmc1LTdFbXRlMUpnNUpNd28ycVdVLW1DVjNFLTdRUElFNFA0eFYyeHk0WUJZTXc4T2Y0cXdCcEQ2NVlhQzRqR05QNFhScUwxSmJhWG1GNW43Qmt1VlBlbUpTV0RGcmhjRWdJQkw2TEo0?oc=5",
+      "source": "WPTF",
+      "published_at_utc": "2026-11-02T13:01:15+00:00"
     }
   ],
   "warnings": []
