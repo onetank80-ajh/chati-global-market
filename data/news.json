@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-03T22:13:51.784355+00:00",
-  "generated_at_kst": "2026-11-04T07:13:51.784355+09:00",
+  "generated_at_utc": "2026-11-03T22:24:40.285993+00:00",
+  "generated_at_kst": "2026-11-04T07:24:40.285993+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -11,13 +11,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp4ZllrLS11M2UzVkNCTHp0dktIVkVxQ0tvb0xfcHYtc0FjNm1hdkpnSmluY2xYVFJjdlc5YWp6SHo4Uy1ZZUN5SkJ1eVZyVm5paTJRbC0xTGE3VWdfT1pIUUNJakMxTnlLTGVFenJaN3Zqb3JZb1FKb2xvX1ZwTUQzaVhsalo5Z1g0U1Y5cVA5TnV3QUlxN0xKdUEtNzh3Q2I5RDBGbTl5aFAybW9YbFNnOTA1Nnpfd0ZLN2MzRDdpY2U4UEUxSDdUSDAwbXRjRmtURERjUEVTTzBX?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-03T16:31:00+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUhySmR1aHB6eTVtLTRrNGt4RmF0MnJQdjNBaGZuZ3RXbGNkZnZNLVYwQnlsX3BjS1ptUVJTd3c1NGYxTFlUN2FHVDJJazE4c25vblVwSVlITlp0bU1mMU5wQUZzbjNqaXZsNm5GcVZ0OVViaE5WR0FHZDBnWEQ0b3VfTmRmQldGeTVhNUN1c19VV083blU0UTV1QmUwUDFmM1NQT2VQNjNuVXc?oc=5",
-      "source": "StoneX",
-      "published_at_utc": "2026-11-03T05:21:50+00:00"
     },
     {
       "category": "us_market",
@@ -35,10 +28,17 @@
     },
     {
       "category": "us_market",
-      "title": "Morgan Stanley Says U.S. Stock Correction in 'Final Stage,' Post-Midterm Buying Opportunity May Emerge - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KRUYtdjE5R2NmQmg4YlEzdUt0blplUk5vMk4xSGFfT0JxOEtWbVl0bUpYamxHYVRfS0VieEgzc2tUODFIOG9OMkZCekJQSjY3Q3ZlYzdhSnFQRloxdG1PNkFreXJQRkcyaEpieHRnYjJwRnlJdGc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-03T07:56:00+00:00"
+      "title": "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-02T10:23:24+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Market Movers blog: Oil prices plummet ahead of US midterm elections - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "source": "Investment Week",
+      "published_at_utc": "2026-11-02T08:00:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -70,10 +70,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "Apple Crushed Earnings, but Its Stock Is Dropping Over Memory-Chip Prices! - Gadget Review",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRjg2MjZEemFFZUxlY3BqNmRhSHJNdndhOUpIVkRtbHg5RmZUcUo3VjRtUHE4Umx6eFU5bWlTQTlhQ1hhaUdjeGVmM2JnRFpkc1V2ZjE4Z0wwVjNhNDdWOUgwWnFPMjhuVk10cTJTUFY3TUNBNmxfRjRCc2d5cXkzdkFnZWo1c2YyRHo0Ymw2blVBYXlod2N1WDc5alBTWEVfMDFB?oc=5",
-      "source": "Gadget Review",
-      "published_at_utc": "2026-11-03T16:19:04+00:00"
+      "title": "Nvidia Is Extremely Compelling Right Now And Here’s Why - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-03T17:45:00+00:00"
     },
     {
       "category": "korea",

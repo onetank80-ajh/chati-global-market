@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-03T22:13:53.126703+00:00",
-  "generated_at_kst": "2026-11-04T07:13:53.126703+09:00",
+  "generated_at_utc": "2026-11-03T22:24:41.504510+00:00",
+  "generated_at_kst": "2026-11-04T07:24:41.504510+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 1.329,
+      "change_percent": 1.347,
       "reference_direction": "주의"
     }
   ],
@@ -33,8 +33,21 @@
       "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
       "published_at_utc": "2026-11-03T19:46:50+00:00",
       "category": "korea",
-      "age_hours": 2.5,
+      "age_hours": 2.6,
       "freshness_score": 95,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "NVIDIA Rises 3% Despite AI CEO's Warning on Chinese Chip Competition; AMD Climbs 5%, Broadcom Gains 3% - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-03T18:48:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 3.6,
+      "freshness_score": 93,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -46,22 +59,9 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-03T18:38:16+00:00",
       "category": "semiconductor",
-      "age_hours": 3.6,
-      "freshness_score": 93,
+      "age_hours": 3.8,
+      "freshness_score": 92,
       "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "NVIDIA Rises 3% Despite AI CEO's Warning on Chinese Chip Competition; AMD Climbs 5%, Broadcom Gains 3% - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
-      "source": "24/7 Wall St.",
-      "published_at_utc": "2026-11-03T18:48:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 3.4,
-      "freshness_score": 93,
-      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
@@ -72,8 +72,21 @@
       "source": "Forbes Middle East",
       "published_at_utc": "2026-11-03T18:31:08+00:00",
       "category": "semiconductor",
-      "age_hours": 3.7,
-      "freshness_score": 93,
+      "age_hours": 3.9,
+      "freshness_score": 92,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Nvidia Is Extremely Compelling Right Now And Here’s Why - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-03T17:45:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 4.7,
+      "freshness_score": 91,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -85,7 +98,7 @@
       "source": "El Cronista",
       "published_at_utc": "2026-11-03T17:16:25+00:00",
       "category": "us_market",
-      "age_hours": 5.0,
+      "age_hours": 5.1,
       "freshness_score": 90,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -96,23 +109,10 @@
       "source": "TradingView",
       "published_at_utc": "2026-11-03T16:31:00+00:00",
       "category": "us_market",
-      "age_hours": 5.7,
-      "freshness_score": 89,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "Apple Crushed Earnings, but Its Stock Is Dropping Over Memory-Chip Prices! - Gadget Review",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRjg2MjZEemFFZUxlY3BqNmRhSHJNdndhOUpIVkRtbHg5RmZUcUo3VjRtUHE4Umx6eFU5bWlTQTlhQ1hhaUdjeGVmM2JnRFpkc1V2ZjE4Z0wwVjNhNDdWOUgwWnFPMjhuVk10cTJTUFY3TUNBNmxfRjRCc2d5cXkzdkFnZWo1c2YyRHo0Ymw2blVBYXlod2N1WDc5alBTWEVfMDFB?oc=5",
-      "source": "Gadget Review",
-      "published_at_utc": "2026-11-03T16:19:04+00:00",
-      "category": "semiconductor",
       "age_hours": 5.9,
       "freshness_score": 88,
       "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
+      "sectors": []
     },
     {
       "title": "Chip stocks rebound as Nvidia, AMD and Intel gain after $3.7 trillion semiconductor sell-off | Hindustan Times - Hindustan Times",
@@ -120,7 +120,7 @@
       "source": "Hindustan Times",
       "published_at_utc": "2026-11-03T15:43:38+00:00",
       "category": "semiconductor",
-      "age_hours": 6.5,
+      "age_hours": 6.7,
       "freshness_score": 87,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -133,7 +133,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-03T13:23:00+00:00",
       "category": "us_market",
-      "age_hours": 8.8,
+      "age_hours": 9.0,
       "freshness_score": 82,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -144,30 +144,8 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-03T08:22:06+00:00",
       "category": "korea",
-      "age_hours": 13.9,
+      "age_hours": 14.0,
       "freshness_score": 72,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "Morgan Stanley Says U.S. Stock Correction in 'Final Stage,' Post-Midterm Buying Opportunity May Emerge - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KRUYtdjE5R2NmQmg4YlEzdUt0blplUk5vMk4xSGFfT0JxOEtWbVl0bUpYamxHYVRfS0VieEgzc2tUODFIOG9OMkZCekJQSjY3Q3ZlYzdhSnFQRloxdG1PNkFreXJQRkcyaEpieHRnYjJwRnlJdGc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-03T07:56:00+00:00",
-      "category": "us_market",
-      "age_hours": 14.3,
-      "freshness_score": 71,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUhySmR1aHB6eTVtLTRrNGt4RmF0MnJQdjNBaGZuZ3RXbGNkZnZNLVYwQnlsX3BjS1ptUVJTd3c1NGYxTFlUN2FHVDJJazE4c25vblVwSVlITlp0bU1mMU5wQUZzbjNqaXZsNm5GcVZ0OVViaE5WR0FHZDBnWEQ0b3VfTmRmQldGeTVhNUN1c19VV083blU0UTV1QmUwUDFmM1NQT2VQNjNuVXc?oc=5",
-      "source": "StoneX",
-      "published_at_utc": "2026-11-03T05:21:50+00:00",
-      "category": "us_market",
-      "age_hours": 16.9,
-      "freshness_score": 66,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -177,8 +155,8 @@
       "source": "The Killeen Daily Herald",
       "published_at_utc": "2026-11-03T01:32:07+00:00",
       "category": "korea",
-      "age_hours": 20.7,
-      "freshness_score": 59,
+      "age_hours": 20.9,
+      "freshness_score": 58,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -188,7 +166,7 @@
       "source": "Yahoo Finance Singapore",
       "published_at_utc": "2026-11-02T20:23:41+00:00",
       "category": "korea",
-      "age_hours": 25.8,
+      "age_hours": 26.0,
       "freshness_score": 48,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -196,13 +174,35 @@
       ]
     },
     {
+      "title": "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-02T10:23:24+00:00",
+      "category": "us_market",
+      "age_hours": 36.0,
+      "freshness_score": 28,
+      "headline_tone": "긍정 표현",
+      "sectors": []
+    },
+    {
       "title": "Kospi ends up 2.2% with low PBR stocks in focus; KRX to introduce next-day settlement in 2028 - KED Global",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XNVRQUmRTSlRUYXQ0Nkp2LWtpMk9rZzZPRkZSTHZKZHRkczJlR25ETURIUlJzSEF0TllrT2FVNHBnMXVhTURlMHJqQmhIQWtxaXA1eFNhU0Z3ZFh5ODBWZC1wRmtTR21Reld1RW1pTXdtQTBYdGx0UENR?oc=5",
       "source": "KED Global",
       "published_at_utc": "2026-11-02T08:54:00+00:00",
       "category": "korea",
-      "age_hours": 37.3,
+      "age_hours": 37.5,
       "freshness_score": 25,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Market Movers blog: Oil prices plummet ahead of US midterm elections - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "source": "Investment Week",
+      "published_at_utc": "2026-11-02T08:00:00+00:00",
+      "category": "us_market",
+      "age_hours": 38.4,
+      "freshness_score": 23,
       "headline_tone": "혼재/불명",
       "sectors": []
     }
