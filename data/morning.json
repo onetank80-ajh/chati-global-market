@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-04T07:13:44.833387+09:00",
+  "generated_at_kst": "2026-11-04T07:24:35.359398+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-04T07:13:44.725830+09:00",
-  "news_snapshot_at": "2026-11-03T07:39:23.708819+09:00",
+  "market_snapshot_at": "2026-11-04T07:24:35.206376+09:00",
+  "news_snapshot_at": "2026-11-04T07:13:51.784355+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-04T06:30:00+09:00",
-  "briefing_delay_minutes": 43.7,
-  "briefing_deadline_delay_minutes": -16.3,
+  "briefing_delay_minutes": 54.6,
+  "briefing_deadline_delay_minutes": -5.4,
   "briefing_late_over_10min": false,
   "briefing_deadline_at_kst": "2026-11-04T07:30:00+09:00",
   "briefing_missed_0730_deadline": false,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 1.329,
+      "change_percent": 1.347,
       "market_date": "2026-11-03",
       "meaning": "원화 약세 방향"
     }
@@ -57,52 +57,52 @@
   ],
   "headlines": [
     {
-      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
-      "source": "StoneX",
-      "published_at_utc": "2026-11-02T17:33:00+00:00"
-    },
-    {
-      "title": "The bond-market rally is defying the typical investing playbook. Here’s why. - MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMXA3ZTcybGhIblhiUXVEYlduU18wSHZ5MXhBclY2RXlaVFpUT01FUzJHcjJNWUxjRkhrS2lzbGxuYnRNQjJLcVh6V3Jfb0hzVlV1ZjItdml6VS0wUXM5Q1J4bm1LTTlxblpBZlR5b05ibnc2VW1OMXJ5SkhLRGFOeGt4b0VqUkJqV19zWl85elo4RkFfVl80TEdRMzVlLTM2aUlsc0FYMHpEbU5IbndsS0RHSDhJd3c?oc=5",
-      "source": "MarketWatch",
-      "published_at_utc": "2026-11-02T18:13:00+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPX212dkozbS1FT2VNRm1fQ3JZWUIzNUV6REFvTEUwVjA1RnpTOXprQVdmZ29TQVJVU0tZbElxSWU0WE14VnFqLUowdjc1NFpudGc3N212MDJFUnFzMnhrTXdyaXFkMlJZSm1nWG9NYzNoVlhWRzRxOVlTQ3BJZ3JqbFdtMTNub3NQTVc2Ym9mdGJCOU1pVlUxOWJCaTMyemg3Q2gwT1kyZGF3MVotcWVFWnBsNF9QcjRxbElJaDhGWTRKdHpXVjNuUThHd2lleU5rb0xmWHFPQkhTXzVyNjFWZXJmbFdqS0lyWW5YRWxzQmVPRzNrZmFEMTdWMDNycHpXd2V5Zi1Kb2J5WVJmSmMyX0hB?oc=5",
+      "title": "Election Day Trading Splits the Benchmarks, With the Dow Lower and the Nasdaq Higher - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp4ZllrLS11M2UzVkNCTHp0dktIVkVxQ0tvb0xfcHYtc0FjNm1hdkpnSmluY2xYVFJjdlc5YWp6SHo4Uy1ZZUN5SkJ1eVZyVm5paTJRbC0xTGE3VWdfT1pIUUNJakMxTnlLTGVFenJaN3Zqb3JZb1FKb2xvX1ZwTUQzaVhsalo5Z1g0U1Y5cVA5TnV3QUlxN0xKdUEtNzh3Q2I5RDBGbTl5aFAybW9YbFNnOTA1Nnpfd0ZLN2MzRDdpY2U4UEUxSDdUSDAwbXRjRmtURERjUEVTTzBX?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-11-02T13:15:14+00:00"
+      "published_at_utc": "2026-11-03T16:31:00+00:00"
     },
     {
-      "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
+      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUhySmR1aHB6eTVtLTRrNGt4RmF0MnJQdjNBaGZuZ3RXbGNkZnZNLVYwQnlsX3BjS1ptUVJTd3c1NGYxTFlUN2FHVDJJazE4c25vblVwSVlITlp0bU1mMU5wQUZzbjNqaXZsNm5GcVZ0OVViaE5WR0FHZDBnWEQ0b3VfTmRmQldGeTVhNUN1c19VV083blU0UTV1QmUwUDFmM1NQT2VQNjNuVXc?oc=5",
       "source": "StoneX",
-      "published_at_utc": "2026-11-02T12:23:46+00:00"
+      "published_at_utc": "2026-11-03T05:21:50+00:00"
     },
     {
-      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - FOREX.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmxUTVlzYVMwVkhYLWhFU29hX0gyNzdNVTN2WElGbkdTWlZiNVl6MEJLUUFHZ3NEbzZzWjQxaUt6YW5UUklsRURacUdLNERvRnZsd0ZHQzFpdjRzZUljYVAtT0FOaEFfLTdqZWw4cDNYcnM3SlZsajhnU1dzR0E5aUdteXhXN094akpQYThXWlJZMENDZTVReUR6a3lkVThXS09vMUdtT19ZZw?oc=5",
-      "source": "FOREX.com",
-      "published_at_utc": "2026-11-02T03:36:11+00:00"
+      "title": "Wall Street the Day After: Which Indicators to Watch Closely After the Midterms - El Cronista",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0tvTmw4V0VpVkJDQk1IVWl1WEMxUDB2eEJpV3BKSlktYTVwNG45aVBTUU5ObnV0eEVSNWhIVzFTdm1kMXZGbm4zLUJUb3V0Qm9nSHNpX0xsNVQ0RUpodDFkcU9NWmhWSHB6VFpJS2V6MzBaQ3ZoZkw5Q2EzUkVFd1dEUEFjcXpubnV0YlFCVllZdEtDbktJVUxCSm9oWjFqdC1IRHdpY3kzSnloN011RnAwNlhuUQ?oc=5",
+      "source": "El Cronista",
+      "published_at_utc": "2026-11-03T17:16:25+00:00"
     },
     {
-      "title": "Chip stocks are suffering from a ‘crisis of confidence’ — but things aren’t as gloomy as they seem - MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd3hSdUtzUnNReUhLdTRlVEhPbVdIQk03NFlKT3NUeHpTdHJ4WjZTcjlfMF8zaEhGS1BWM00xbDdycFVRSzJjOHYxYXJlTHA0NWZPTkUySmUzd3V1WDhUSmFURjhtMzM1LUhxek5pdmZBRmxjbWtFSFV0TWgzdUZpbThMWTc3UnNjbDQzZ2MySjhCenRQcHhqZFllRWc3bDR2NEl5S1FXWTBiODVFdmtWVndtdElRc0syd3hSRXN0blV0eE0tYjhrYjJCbkExcGt1VXc?oc=5",
-      "source": "MarketWatch",
-      "published_at_utc": "2026-11-02T20:30:00+00:00"
-    },
-    {
-      "title": "Semiconductor Stocks Are Cheaper Than the S&P 500: Is It Time to Buy SOXX and SMH ETFs? - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzNMQjJkNk5KTGtKQ0ZuX0UwRzJoN3Y1R0ZPYzBLWVUwV2ttTzVFUjlvU1ZZOVpuOUJraXN0THBXcUFHQ2ZtSnZEVmJrcGo0VVhXVEdac0Zsd05yQ1pVRG1sSjl1WEgwMXZ2alJOSVZxWW1PcW5odDV4YWlnX21CLXdPb2k1aEE3X3NENW9VdS0wS0cxdl83bFo1YUxBTjFjZG0xRTRSMngzUFlXZFF1WXdLM042WTBVdDI4aHRYNmF5M19LeWh4NUY2QzJDNEltTjRYQy03R1I?oc=5",
+      "title": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes — A - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOS1VSksxcV80OVktM2o3cHZuQ2RpYUNiRzkxMG4yWEhJbUhjOVRyWTdSdEZhUks5OHB3Xy1QOGhfb2xza2wxdEFyQjlPeURlYm5PdE90XzEtallPZExzeFJqSGdEblRHLTBlZGFuSXFISzJzM1BWV2ViMl9ucDdfM2diVFVwRmxIOTZOd3l5Y1ctMzItR0trWmE3TDhUTEF0aE05MzdiZl9KaGptTFJMUmFwbnJic0h2S0FSOWpTMHF2NFJJNG43d0d3NWlTdHFLSXRldk1Wb1hIRXNVYUlXM1pxOXQ4Y1gzV3dacHZxXy11Zw?oc=5",
       "source": "Benzinga",
-      "published_at_utc": "2026-11-02T14:16:48+00:00"
+      "published_at_utc": "2026-11-03T13:23:00+00:00"
     },
     {
-      "title": "Apple Passes Nvidia at $5.03 Trillion Valuation - Technology Org",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeG1xMDlUaFZSTVIwc0hGS0I4TTU4Z0hsS0N4Q0hyS3VGV2VCLUx5cGltWXIxSnRrb1NWNXFZa01uWUIxMjJkMGVPRjUxNTRPUl9LTlRzcFRZUjVoSEpGRG8zck5xVVNDSW1Ob1Jxc1c2eF9NN2xzMWR1Q3BkTTFvMXVOeWNsWmVmSTZ2c2N6WWdCRkZaa1RRNlRB?oc=5",
-      "source": "Technology Org",
-      "published_at_utc": "2026-11-02T08:11:00+00:00"
+      "title": "Morgan Stanley Says U.S. Stock Correction in 'Final Stage,' Post-Midterm Buying Opportunity May Emerge - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KRUYtdjE5R2NmQmg4YlEzdUt0blplUk5vMk4xSGFfT0JxOEtWbVl0bUpYamxHYVRfS0VieEgzc2tUODFIOG9OMkZCekJQSjY3Q3ZlYzdhSnFQRloxdG1PNkFreXJQRkcyaEpieHRnYjJwRnlJdGc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-03T07:56:00+00:00"
+    },
+    {
+      "title": "Micron, Nvidia, and AMD lead chip stocks' rebound - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR241WmdKTExjbmZJcndhY3BOVG91eVFPT29xVzBLcVQ4NGQtUExYVDlray1hM1c5dENLekg3bkxyaHFramhTTVEwclZnci1uLWdvbi0zc21pbUMzazNZOFlRUEduSDF5al9jRjMxUG5FOGlTaTdTQVVKZVNRTWplRzh4UjdiYnNhZzBpTHlzS0Q4NzZLZmpfcjJLM1p3TlI3?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-03T18:38:16+00:00"
+    },
+    {
+      "title": "NVIDIA Rises 3% Despite AI CEO's Warning on Chinese Chip Competition; AMD Climbs 5%, Broadcom Gains 3% - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-03T18:48:00+00:00"
+    },
+    {
+      "title": "Nvidia Regains Title Of World’s Most Valuable Company—As Apple Shares Slide - Forbes Middle East",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNakJmSzdlQlJtcnFqMTFzVlRzYVdnRXRINTZWYkUxYm10Um52RU4zRjJDdUNmb3B4dlVPZUxxRDAtNEZJcEN0dWNPVHVDenBLVU9QX3EwRGlFOEpXaEdrNFgtQVg3WnpKbGtJeUFFY2ZMb29sbWNMSjlNMkkwU1Y1OVh1RE5xT0l4MG42TF9KbDdpQ2lJWWsxTzNaeGd6d2tzVEJRc21KT3NqSzFKV2xWZF9fZEVvM3NmM0dr?oc=5",
+      "source": "Forbes Middle East",
+      "published_at_utc": "2026-11-03T18:31:08+00:00"
     }
   ],
   "news_snapshot_fresh": true,
