@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-04T07:24:35.359398+09:00",
+  "generated_at_kst": "2026-11-04T07:40:18.686921+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-04T07:24:35.206376+09:00",
-  "news_snapshot_at": "2026-11-04T07:13:51.784355+09:00",
+  "market_snapshot_at": "2026-11-04T07:40:18.541374+09:00",
+  "news_snapshot_at": "2026-11-04T07:38:18.646160+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-04T06:30:00+09:00",
-  "briefing_delay_minutes": 54.6,
-  "briefing_deadline_delay_minutes": -5.4,
-  "briefing_late_over_10min": false,
+  "briefing_delay_minutes": 70.3,
+  "briefing_deadline_delay_minutes": 10.3,
+  "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-04T07:30:00+09:00",
-  "briefing_missed_0730_deadline": false,
+  "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 1.347,
+      "change_percent": 1.335,
       "market_date": "2026-11-03",
       "meaning": "원화 약세 방향"
     }
@@ -57,16 +57,16 @@
   ],
   "headlines": [
     {
-      "title": "Election Day Trading Splits the Benchmarks, With the Dow Lower and the Nasdaq Higher - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp4ZllrLS11M2UzVkNCTHp0dktIVkVxQ0tvb0xfcHYtc0FjNm1hdkpnSmluY2xYVFJjdlc5YWp6SHo4Uy1ZZUN5SkJ1eVZyVm5paTJRbC0xTGE3VWdfT1pIUUNJakMxTnlLTGVFenJaN3Zqb3JZb1FKb2xvX1ZwTUQzaVhsalo5Z1g0U1Y5cVA5TnV3QUlxN0xKdUEtNzh3Q2I5RDBGbTl5aFAybW9YbFNnOTA1Nnpfd0ZLN2MzRDdpY2U4UEUxSDdUSDAwbXRjRmtURERjUEVTTzBX?oc=5",
+      "title": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes — AAPL, PLTR, AMD in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTDk4bndZVXdYR2JfTzljZXNlcFhnbk50Nmk0MHJzRnduRnQyVnBieXdGbmVZWDM5UFZXb2VGaGpTWFd1M1VOYm1mcXpDWjdiUmFHeXJhMlVDR29iT1NCQ2cyNEVsbThkZ3hYU2xKa1QxNDNEaWRnUm1YLVNNdEc0VjJfNlNhZEtfcHJOZGtwR3Vic1o0MGFCNmZIdWE4a3NaTE1KbXEwb0JBbmlmVFkxSUU1cG54Z1l4MHhhcFplWWl2R1VkMVRQYUVmazNWd3I5Z2hseEtuOGpKaUhLUGdyYUM2Y0xXQ3RiRHQ1d290SHl0Zm1DTmNvREkyTkd2N183Sng3M2Y0ajdsZDRiMTNYSC1xcGpac2c?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-11-03T16:31:00+00:00"
+      "published_at_utc": "2026-11-03T13:23:41+00:00"
     },
     {
-      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUhySmR1aHB6eTVtLTRrNGt4RmF0MnJQdjNBaGZuZ3RXbGNkZnZNLVYwQnlsX3BjS1ptUVJTd3c1NGYxTFlUN2FHVDJJazE4c25vblVwSVlITlp0bU1mMU5wQUZzbjNqaXZsNm5GcVZ0OVViaE5WR0FHZDBnWEQ0b3VfTmRmQldGeTVhNUN1c19VV083blU0UTV1QmUwUDFmM1NQT2VQNjNuVXc?oc=5",
+      "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
       "source": "StoneX",
-      "published_at_utc": "2026-11-03T05:21:50+00:00"
+      "published_at_utc": "2026-11-03T00:40:57+00:00"
     },
     {
       "title": "Wall Street the Day After: Which Indicators to Watch Closely After the Midterms - El Cronista",
@@ -107,6 +107,7 @@
   ],
   "news_snapshot_fresh": true,
   "warnings": [
+    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
