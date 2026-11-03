@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-03T08:57:36.870115+09:00",
+  "generated_at_kst": "2026-11-04T07:13:44.833387+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-03T08:22:10.963911+09:00",
+  "market_snapshot_at": "2026-11-04T07:13:44.725830+09:00",
   "news_snapshot_at": "2026-11-03T07:39:23.708819+09:00",
-  "market_snapshot_age_hours": 0.59,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-03T06:30:00+09:00",
-  "briefing_delay_minutes": 147.6,
-  "briefing_deadline_delay_minutes": 87.6,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-03T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-04T06:30:00+09:00",
+  "briefing_delay_minutes": 43.7,
+  "briefing_deadline_delay_minutes": -16.3,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-04T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -0.51,
-      "market_date": "2026-11-02",
-      "meaning": "하락"
+      "change_percent": 0.365,
+      "market_date": "2026-11-03",
+      "meaning": "상승"
     },
     {
       "name": "반도체",
-      "change_percent": -3.372,
-      "market_date": "2026-11-02",
-      "meaning": "하락"
+      "change_percent": 2.634,
+      "market_date": "2026-11-03",
+      "meaning": "상승"
     },
     {
       "name": "원/달러",
-      "change_percent": 0.504,
-      "market_date": "2026-11-02",
+      "change_percent": 1.329,
+      "market_date": "2026-11-03",
       "meaning": "원화 약세 방향"
     }
   ],
@@ -39,13 +39,13 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "변동성 주의",
+      "view": "방향 확인 필요",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "방향 확인 필요",
+      "view": "우호적 참고",
       "basis": "S&P500 종가 방향"
     },
     {
@@ -107,7 +107,6 @@
   ],
   "news_snapshot_fresh": true,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"

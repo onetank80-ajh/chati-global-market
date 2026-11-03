@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-02T23:57:36.822624+00:00",
+  "generated_at_utc": "2026-11-03T22:13:44.804888+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 15,
+  "headline_count_after": 13,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-03T08:22:10.963911+09:00",
+  "market_snapshot_at": "2026-11-04T07:13:44.725830+09:00",
   "market_signals": {
     "sp500": {
-      "change_percent": -0.51,
-      "market_date": "2026-11-02",
+      "change_percent": 0.365,
+      "market_date": "2026-11-03",
       "status": "ok"
     },
     "sox": {
-      "change_percent": -3.372,
-      "market_date": "2026-11-02",
+      "change_percent": 2.634,
+      "market_date": "2026-11-03",
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.504,
-      "market_date": "2026-11-02",
+      "change_percent": 1.329,
+      "market_date": "2026-11-03",
       "status": "ok"
     },
     "nasdaq": {
-      "change_percent": -1.072,
-      "market_date": "2026-11-02",
+      "change_percent": 0.825,
+      "market_date": "2026-11-03",
       "status": "ok"
     }
   },
@@ -35,13 +35,13 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "변동성 주의",
+      "view": "방향 확인 필요",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "방향 확인 필요",
+      "view": "우호적 참고",
       "basis": "S&P500 종가 방향"
     },
     {
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLUFlUFpaX2Q4S0U0MU9aWHhlY3BWaHNxd2laODJfdWVSOTRqWmxPTXRmRGJLRjRLSzhWRG5nWFdkT05taU8zRjlNa0xmM2lXUElQQ3VzWjVCNmZDd21rUk5qU3pEeDhFZktlaG9TRFpmcjg4emtaTXBGbXkyci1jWWxxT09YdWNEMV84dWVR?oc=5",
       "source": "조선일보",
       "published_at_utc": "2026-11-02T16:13:38+00:00",
-      "age_hours": 7.7,
-      "relevance_score": 53,
+      "age_hours": 30.0,
+      "relevance_score": 45,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -70,8 +70,8 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XNVRQUmRTSlRUYXQ0Nkp2LWtpMk9rZzZPRkZSTHZKZHRkczJlR25ETURIUlJzSEF0TllrT2FVNHBnMXVhTURlMHJqQmhIQWtxaXA1eFNhU0Z3ZFh5ODBWZC1wRmtTR21Reld1RW1pTXdtQTBYdGx0UENR?oc=5",
       "source": "KED Global",
       "published_at_utc": "2026-11-02T08:54:00+00:00",
-      "age_hours": 15.1,
-      "relevance_score": 50,
+      "age_hours": 37.3,
+      "relevance_score": 43,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -83,8 +83,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00QXhJc29mYUlRMFNESzg0RHYtVXAwZ0pNS1NlTlZpNmxUWEU4Smhfd05EeWpHdnNJQmpqSFRuTURrQjRFcjA0Uk1FT0k1cXA5aFlNUGJFSllDSFZGSFlnd0VNSDY1aUd1a0p0OEg2LVlkM09E?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-02T08:17:16+00:00",
-      "age_hours": 15.7,
-      "relevance_score": 50,
+      "age_hours": 37.9,
+      "relevance_score": 43,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -96,8 +96,8 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd3hSdUtzUnNReUhLdTRlVEhPbVdIQk03NFlKT3NUeHpTdHJ4WjZTcjlfMF8zaEhGS1BWM00xbDdycFVRSzJjOHYxYXJlTHA0NWZPTkUySmUzd3V1WDhUSmFURjhtMzM1LUhxek5pdmZBRmxjbWtFSFV0TWgzdUZpbThMWTc3UnNjbDQzZ2MySjhCenRQcHhqZFllRWc3bDR2NEl5S1FXWTBiODVFdmtWVndtdElRc0syd3hSRXN0blV0eE0tYjhrYjJCbkExcGt1VXc?oc=5",
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T20:30:00+00:00",
-      "age_hours": 3.5,
-      "relevance_score": 44,
+      "age_hours": 25.7,
+      "relevance_score": 37,
       "tags": [
         "반도체/AI"
       ],
@@ -105,25 +105,12 @@
       "needs_verification": true
     },
     {
-      "title": "Korea’s Stock Market Crashed $1 Trillion. What Does That Mean for the Global AI Race? - ChinaTalk | Jordan Schneider",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FaUZ6X3pJUGlzeWEyMTRZSE1WT0QwTmFJb0Q1d3lLYUt6clBpVDNvdDhIeTEtM09UeGhoZjA4cjBBY1ZTdEhnNHVsdXh2LVFaeVRtQjJGVWhOQjlvY1lKOWRVMDFiVFkzY0VmZE1OUHhRSms4R184?oc=5",
-      "source": "ChinaTalk | Jordan Schneider",
-      "published_at_utc": "2026-11-01T13:33:33+00:00",
-      "age_hours": 34.4,
-      "relevance_score": 44,
-      "tags": [
-        "한국시장 직접언급"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
       "title": "Semiconductor Stocks Are Cheaper Than the S&P 500: Is It Time to Buy SOXX and SMH ETFs? - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzNMQjJkNk5KTGtKQ0ZuX0UwRzJoN3Y1R0ZPYzBLWVUwV2ttTzVFUjlvU1ZZOVpuOUJraXN0THBXcUFHQ2ZtSnZEVmJrcGo0VVhXVEdac0Zsd05yQ1pVRG1sSjl1WEgwMXZ2alJOSVZxWW1PcW5odDV4YWlnX21CLXdPb2k1aEE3X3NENW9VdS0wS0cxdl83bFo1YUxBTjFjZG0xRTRSMngzUFlXZFF1WXdLM042WTBVdDI4aHRYNmF5M19LeWh4NUY2QzJDNEltTjRYQy03R1I?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-02T14:16:48+00:00",
-      "age_hours": 9.7,
-      "relevance_score": 42,
+      "age_hours": 31.9,
+      "relevance_score": 35,
       "tags": [
         "반도체/AI"
       ],
@@ -135,8 +122,8 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeG1xMDlUaFZSTVIwc0hGS0I4TTU4Z0hsS0N4Q0hyS3VGV2VCLUx5cGltWXIxSnRrb1NWNXFZa01uWUIxMjJkMGVPRjUxNTRPUl9LTlRzcFRZUjVoSEpGRG8zck5xVVNDSW1Ob1Jxc1c2eF9NN2xzMWR1Q3BkTTFvMXVOeWNsWmVmSTZ2c2N6WWdCRkZaa1RRNlRB?oc=5",
       "source": "Technology Org",
       "published_at_utc": "2026-11-02T08:11:00+00:00",
-      "age_hours": 15.8,
-      "relevance_score": 40,
+      "age_hours": 38.0,
+      "relevance_score": 33,
       "tags": [
         "반도체/AI"
       ],
@@ -148,8 +135,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oUi1lRVBzcW1rLXQ4TzdiTWQ4cEJaTDZQNUZULVVMRzhBUGxTb3Z4TzRRMjcyZ3ZBY3JxN2tUMDllbm9yeHhCTWRKWkpHQ3JmNmxnM1hOUUlKQXZnSm1tN0FYbFJtRmUyZEl1ZklKOEJXeHhWS3c?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-02T03:55:00+00:00",
-      "age_hours": 20.0,
-      "relevance_score": 39,
+      "age_hours": 42.3,
+      "relevance_score": 31,
       "tags": [
         "반도체/AI"
       ],
@@ -161,8 +148,8 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMXA3ZTcybGhIblhiUXVEYlduU18wSHZ5MXhBclY2RXlaVFpUT01FUzJHcjJNWUxjRkhrS2lzbGxuYnRNQjJLcVh6V3Jfb0hzVlV1ZjItdml6VS0wUXM5Q1J4bm1LTTlxblpBZlR5b05ibnc2VW1OMXJ5SkhLRGFOeGt4b0VqUkJqV19zWl85elo4RkFfVl80TEdRMzVlLTM2aUlsc0FYMHpEbU5IbndsS0RHSDhJd3c?oc=5",
       "source": "MarketWatch",
       "published_at_utc": "2026-11-02T18:13:00+00:00",
-      "age_hours": 5.7,
-      "relevance_score": 29,
+      "age_hours": 28.0,
+      "relevance_score": 21,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -172,8 +159,8 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
       "source": "StoneX",
       "published_at_utc": "2026-11-02T17:33:00+00:00",
-      "age_hours": 6.4,
-      "relevance_score": 28,
+      "age_hours": 28.7,
+      "relevance_score": 21,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -183,8 +170,8 @@
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPX212dkozbS1FT2VNRm1fQ3JZWUIzNUV6REFvTEUwVjA1RnpTOXprQVdmZ29TQVJVU0tZbElxSWU0WE14VnFqLUowdjc1NFpudGc3N212MDJFUnFzMnhrTXdyaXFkMlJZSm1nWG9NYzNoVlhWRzRxOVlTQ3BJZ3JqbFdtMTNub3NQTVc2Ym9mdGJCOU1pVlUxOWJCaTMyemg3Q2gwT1kyZGF3MVotcWVFWnBsNF9QcjRxbElJaDhGWTRKdHpXVjNuUThHd2lleU5rb0xmWHFPQkhTXzVyNjFWZXJmbFdqS0lyWW5YRWxzQmVPRzNrZmFEMTdWMDNycHpXd2V5Zi1Kb2J5WVJmSmMyX0hB?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-02T13:15:14+00:00",
-      "age_hours": 10.7,
-      "relevance_score": 27,
+      "age_hours": 33.0,
+      "relevance_score": 20,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -194,8 +181,19 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
       "source": "StoneX",
       "published_at_utc": "2026-11-02T12:23:46+00:00",
-      "age_hours": 11.6,
-      "relevance_score": 27,
+      "age_hours": 33.8,
+      "relevance_score": 19,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO - FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmxUTVlzYVMwVkhYLWhFU29hX0gyNzdNVTN2WElGbkdTWlZiNVl6MEJLUUFHZ3NEbzZzWjQxaUt6YW5UUklsRURacUdLNERvRnZsd0ZHQzFpdjRzZUljYVAtT0FOaEFfLTdqZWw4cDNYcnM3SlZsajhnU1dzR0E5aUdteXhXN094akpQYThXWlJZMENDZTVReUR6a3lkVThXS09vMUdtT19ZZw?oc=5",
+      "source": "FOREX.com",
+      "published_at_utc": "2026-11-02T03:36:11+00:00",
+      "age_hours": 42.6,
+      "relevance_score": 16,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
