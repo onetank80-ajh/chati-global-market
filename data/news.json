@@ -1,23 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-03T22:38:18.646160+00:00",
-  "generated_at_kst": "2026-11-04T07:38:18.646160+09:00",
+  "generated_at_utc": "2026-11-03T22:40:25.319352+00:00",
+  "generated_at_kst": "2026-11-04T07:40:25.319352+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
     {
       "category": "us_market",
-      "title": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes — AAPL, PLTR, AMD in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTDk4bndZVXdYR2JfTzljZXNlcFhnbk50Nmk0MHJzRnduRnQyVnBieXdGbmVZWDM5UFZXb2VGaGpTWFd1M1VOYm1mcXpDWjdiUmFHeXJhMlVDR29iT1NCQ2cyNEVsbThkZ3hYU2xKa1QxNDNEaWRnUm1YLVNNdEc0VjJfNlNhZEtfcHJOZGtwR3Vic1o0MGFCNmZIdWE4a3NaTE1KbXEwb0JBbmlmVFkxSUU1cG54Z1l4MHhhcFplWWl2R1VkMVRQYUVmazNWd3I5Z2hseEtuOGpKaUhLUGdyYUM2Y0xXQ3RiRHQ1d290SHl0Zm1DTmNvREkyTkd2N183Sng3M2Y0ajdsZDRiMTNYSC1xcGpac2c?oc=5",
+      "title": "Election Day Trading Splits the Benchmarks, With the Dow Lower and the Nasdaq Higher - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp4ZllrLS11M2UzVkNCTHp0dktIVkVxQ0tvb0xfcHYtc0FjNm1hdkpnSmluY2xYVFJjdlc5YWp6SHo4Uy1ZZUN5SkJ1eVZyVm5paTJRbC0xTGE3VWdfT1pIUUNJakMxTnlLTGVFenJaN3Zqb3JZb1FKb2xvX1ZwTUQzaVhsalo5Z1g0U1Y5cVA5TnV3QUlxN0xKdUEtNzh3Q2I5RDBGbTl5aFAybW9YbFNnOTA1Nnpfd0ZLN2MzRDdpY2U4UEUxSDdUSDAwbXRjRmtURERjUEVTTzBX?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-11-03T13:23:41+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
-      "source": "StoneX",
-      "published_at_utc": "2026-11-03T00:40:57+00:00"
+      "published_at_utc": "2026-11-03T16:31:00+00:00"
     },
     {
       "category": "us_market",
@@ -35,10 +28,17 @@
     },
     {
       "category": "us_market",
-      "title": "Morgan Stanley Says U.S. Stock Correction in 'Final Stage,' Post-Midterm Buying Opportunity May Emerge - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KRUYtdjE5R2NmQmg4YlEzdUt0blplUk5vMk4xSGFfT0JxOEtWbVl0bUpYamxHYVRfS0VieEgzc2tUODFIOG9OMkZCekJQSjY3Q3ZlYzdhSnFQRloxdG1PNkFreXJQRkcyaEpieHRnYjJwRnlJdGc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-03T07:56:00+00:00"
+      "title": "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-02T10:23:24+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Market Movers blog: Oil prices plummet ahead of US midterm elections - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "source": "Investment Week",
+      "published_at_utc": "2026-11-02T08:00:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -70,10 +70,17 @@
     },
     {
       "category": "semiconductor",
-      "title": "Micron or Nvidia: If I Could Only Buy and Hold One of These Artificial Intelligence (AI) Chip Stocks for the Next 5 Years, It Would Be This One - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DZnRBd0FTSUxyX3A5cnhNWHVsY1pLLUhPcE5ieHgyM1BrM3lONkVLNXJIbUNtRTNaX0N3M3NVTU5Fa1JkSTh6LThUQjFTb3FtdmZXTllzeHp2bzY5OUhyWGE2bUVPcWpjY3VCRGt2cGJJZU5lcmNGeXdwWEY?oc=5",
-      "source": "AOL.com",
-      "published_at_utc": "2026-11-03T14:20:00+00:00"
+      "title": "Nvidia Is Extremely Compelling Right Now And Here’s Why - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-03T17:45:00+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Amid Stock Troubles, Is South Korea’s $880 Billion AI Infrastructure Buildout Under Threat? - The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMi1kanJRb0xOZ01SRkV6ZXhpM2x6R2Y4VjJ5NkpwaDBONGo5dWwxZ25MNnFEcnZMYmUtOENvbTllV3pvTG9ScG9FalUwbk5pZGE3OTducG5oVGpuYk15b1pOeEpGdEp5S0Nac2hkZElUNHJ1MmRZMUFsU3AwMjFLSWNlODg3OXdpazBkcGdJT0tqSlRnNkc0QXlrVGVYV1BoTkRlVGI1UmpfYVJtQ21NR3Z6NUZOUWloWVpWdQ?oc=5",
+      "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "published_at_utc": "2026-11-03T19:46:50+00:00"
     },
     {
       "category": "korea",
@@ -84,31 +91,24 @@
     },
     {
       "category": "korea",
-      "title": "South Korean Investors Net Buy Record $5.4 Billion in U.S. Stocks - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLUFlUFpaX2Q4S0U0MU9aWHhlY3BWaHNxd2laODJfdWVSOTRqWmxPTXRmRGJLRjRLSzhWRG5nWFdkT05taU8zRjlNa0xmM2lXUElQQ3VzWjVCNmZDd21rUk5qU3pEeDhFZktlaG9TRFpmcjg4emtaTXBGbXkyci1jWWxxT09YdWNEMV84dWVR?oc=5",
-      "source": "조선일보",
-      "published_at_utc": "2026-11-02T16:13:38+00:00"
+      "title": "SK hynix Inc. (000660.KS) stock price, news, quote and history - Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wdm1yZExaSDJlX3gzUV95VE1ScnpqcTFGeTJnRnBJSFFTVFVoOUNaY2RnbWVuY3lmakdVRkZPbGZ3VUtkZEpTcU9VaXYyNGVCb3lFblJUREY?oc=5",
+      "source": "Yahoo Finance Singapore",
+      "published_at_utc": "2026-11-02T20:23:41+00:00"
     },
     {
       "category": "korea",
-      "title": "South Korea's KOSPI Rebounds Despite U.S. Chip Shock, Reclaims 5,750 Level on 400 Billion Won Institutional Buying - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NNHVycjZIbV9PWWtjdFVLcndyWjlFaTFLQmVWT0tBeEpmLTBsWWxmUzVjRGtNRHFqNDMyM2xBLTRKbDhqTzBhZjZtX0F0QmI0Mk1xX1ZnakN2SkMzcm5wdWJndGJfREdaWTN0bXl2V21pQ3dfTEE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-02T02:56:00+00:00"
+      "title": "(LEAD) Seoul shares dip over 3 pct amid escalating AI woes - Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xU3VXLTUyakN1MS1LZWFPZFFTY1EtZU50eUNUNk9YaWNRMzM2VHVDRWNIcWo3WGtwY2JKNzdVampYLXpocVllSkVEMThRd3dMaTlEWm44YXJIdw?oc=5",
+      "source": "Yonhap News Agency",
+      "published_at_utc": "2026-11-03T06:57:07+00:00"
     },
     {
       "category": "korea",
-      "title": "[Opening Market] KOSPI, KOSDAQ Open Sharply Lower on Tech Rout - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xRmgtNmtSeDhrZXRObkVwRDBpUkFGcnZ5TGluNmdWdjN1dV83RXlEa3ZJNm9yVzR2MjA0UURSZnhQNnVTQUMtTm1VZFlLVlU2bTliNHRqLWQxM0N0YVRaNU5FMDlVWXc2WHhjbGtlWEtfT0xP?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-03T02:02:23+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "South Korea's inflation cools to 2.8%. Why is another rate hike still expected? - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS1kzcGpvdUxoNHd4bHFUZzB4R2d3V0ZvcEgxN3BOM1VDWi1MZlVNd3V1dFJlQ0NwQmppWVV0SHkyZTFEOUJFZGxKSC1ETlNMVGhhaG8xdEZ1N0NfdE9mbmkyVHJCbDB0Ym1EZFlVV3hYN09xQkU3UUxWcTItdXZZa0NpOVota2hG0gGOAUFVX3lxTE9welltdUhXTFpqNDJZYmJTQzFiRF9xd21mTzdwck1mNUN0akMzQlNQZUs5YmRpaDJpdzEwUGlHNmZrbDBxamFGalZ1RXp1Q2pLZ3BqTlJITm9IVlc4Ukg3U0J4emdTMm9oYjFibkxDY01rUklXUlhwUDJmeUlTakJuQU5TeTZ6MjQ5aFlnOXc?oc=5",
-      "source": "Firstpost",
-      "published_at_utc": "2026-11-03T01:19:11+00:00"
+      "title": "Foreign Selling Leaves Korean Stocks on Thin Ice - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNUtGSU5GOEVpS0JCck02T0xObnQyNnU2emRJYThKR29za183dENFWHRGT1hFUWtwdkhUN3daZHE5cVZvV21pNEUxZVQ3S3BGVnBsU3lEV3hVYThKajBLZGcteUIzQ2RVc0hEcnFaU1lLTExKX3FscFRjQjlueWk3T3RJdnRjcTZ2RElieGk2ZEdyd0Zi?oc=5",
+      "source": "Seoul Economic Daily",
+      "published_at_utc": "2026-11-03T09:09:07+00:00"
     }
   ],
   "warnings": []
