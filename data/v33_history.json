@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
   "records": [],
-  "updated_at_kst": "2026-11-04T21:14:06.387817+09:00",
+  "updated_at_kst": "2026-11-05T08:25:35.312911+09:00",
   "rule": "up >0.1%, down <-0.1%, otherwise flat"
 }
