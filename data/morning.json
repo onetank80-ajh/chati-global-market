@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-04T09:00:10.628958+09:00",
+  "generated_at_kst": "2026-11-05T07:14:38.853236+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-04T08:23:43.331032+09:00",
+  "market_snapshot_at": "2026-11-05T07:14:38.682486+09:00",
   "news_snapshot_at": "2026-11-04T07:40:25.319352+09:00",
-  "market_snapshot_age_hours": 0.61,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-04T06:30:00+09:00",
-  "briefing_delay_minutes": 150.2,
-  "briefing_deadline_delay_minutes": 90.2,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-04T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-05T06:30:00+09:00",
+  "briefing_delay_minutes": 44.6,
+  "briefing_deadline_delay_minutes": -15.4,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-05T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": 0.365,
-      "market_date": "2026-11-03",
+      "change_percent": 1.581,
+      "market_date": "2026-11-04",
       "meaning": "상승"
     },
     {
       "name": "반도체",
-      "change_percent": 2.634,
-      "market_date": "2026-11-03",
-      "meaning": "상승"
+      "change_percent": -3.13,
+      "market_date": "2026-11-04",
+      "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": 1.359,
-      "market_date": "2026-11-03",
-      "meaning": "원화 약세 방향"
+      "change_percent": -0.338,
+      "market_date": "2026-11-04",
+      "meaning": "원화 강세 방향"
     }
   ],
   "sectors": [
@@ -39,7 +39,7 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "방향 확인 필요",
+      "view": "변동성 주의",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
@@ -51,7 +51,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -75,18 +75,6 @@
       "published_at_utc": "2026-11-03T13:23:00+00:00"
     },
     {
-      "title": "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-02T10:23:24+00:00"
-    },
-    {
-      "title": "Market Movers blog: Oil prices plummet ahead of US midterm elections - Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "source": "Investment Week",
-      "published_at_utc": "2026-11-02T08:00:00+00:00"
-    },
-    {
       "title": "Micron, Nvidia, and AMD lead chip stocks' rebound - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR241WmdKTExjbmZJcndhY3BOVG91eVFPT29xVzBLcVQ4NGQtUExYVDlray1hM1c5dENLekg3bkxyaHFramhTTVEwclZnci1uLWdvbi0zc21pbUMzazNZOFlRUEduSDF5al9jRjMxUG5FOGlTaTdTQVVKZVNRTWplRzh4UjdiYnNhZzBpTHlzS0Q4NzZLZmpfcjJLM1p3TlI3?oc=5",
       "source": "Yahoo Finance",
@@ -103,11 +91,22 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNakJmSzdlQlJtcnFqMTFzVlRzYVdnRXRINTZWYkUxYm10Um52RU4zRjJDdUNmb3B4dlVPZUxxRDAtNEZJcEN0dWNPVHVDenBLVU9QX3EwRGlFOEpXaEdrNFgtQVg3WnpKbGtJeUFFY2ZMb29sbWNMSjlNMkkwU1Y1OVh1RE5xT0l4MG42TF9KbDdpQ2lJWWsxTzNaeGd6d2tzVEJRc21KT3NqSzFKV2xWZF9fZEVvM3NmM0dr?oc=5",
       "source": "Forbes Middle East",
       "published_at_utc": "2026-11-03T18:31:08+00:00"
+    },
+    {
+      "title": "Chip stocks rebound as Nvidia, AMD and Intel gain after $3.7 trillion semiconductor sell-off | Hindustan Times - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUGRZNFdWV3BsWVNMVkZ1UVBBZXpTS1R0RDNhTnRESWthY1lPdjdCMUxJMDBTelQyd1U1UFNPM3JBLVBVUG5rT2FyQi1PTTVrMkg0WE1jX3pNLXVjSkJlMENycGt1TDBRUVdEblR3VDlaYlJwbUR3Zm40aHJJVUt2WkI2cy0xV2FuNUxzR3o2YWNsdXNHczdVMEpRVnROcDVCWWdkVEZnaUNzN2JWejROU1FZSFdOdml5RDhDcUU4YkF1MEhESFQ0R3cxMDJXN3QzYkFnaWhqRG9DRmNleG1yaGdpRUVnRi00Zl9KZFhkZkZEd9IB9wFBVV95cUxOeVJsNlRVQWVvakxHaU85b3VNbVdQM2xZRWxKLXk1MXUtcXdXUk5Cci1LZEp0NUoyRjgwaVh5Yy12dVFNZTVvYy1SRk9wNDJKS1d4clBSSHZ2and6OXlWbjFtMDlpdXphd1FZR0RFN2ZfX0xDWWR1TjFpcHJ1Q29pWUd0bXAxRXNLS2xuZmpzSGM5REgzYWFsSUs2RGFJc1IzZkdnQk5rY1pORmQ3OUxiaVhhMm9DZnNJd2R6cndmWUx0WXdNTTlJY2pteU8wdmotS0cyTWRkUUd2LUdvQzRhdWY2TVVnbU1lX1dwbzlTR2ZFV1VsUFBv?oc=5",
+      "source": "Hindustan Times",
+      "published_at_utc": "2026-11-03T15:43:38+00:00"
+    },
+    {
+      "title": "Nvidia Is Extremely Compelling Right Now And Here’s Why - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-03T17:45:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"

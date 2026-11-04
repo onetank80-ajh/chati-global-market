@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-04T00:00:10.572282+00:00",
+  "generated_at_utc": "2026-11-04T22:14:38.806813+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 15,
+  "headline_count_after": 12,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-04T08:23:43.331032+09:00",
+  "market_snapshot_at": "2026-11-05T07:14:38.682486+09:00",
   "market_signals": {
     "sp500": {
-      "change_percent": 0.365,
-      "market_date": "2026-11-03",
+      "change_percent": 1.581,
+      "market_date": "2026-11-04",
       "status": "ok"
     },
     "sox": {
-      "change_percent": 2.634,
-      "market_date": "2026-11-03",
+      "change_percent": -3.13,
+      "market_date": "2026-11-04",
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 1.359,
-      "market_date": "2026-11-03",
+      "change_percent": -0.338,
+      "market_date": "2026-11-04",
       "status": "ok"
     },
     "nasdaq": {
-      "change_percent": 0.825,
-      "market_date": "2026-11-03",
+      "change_percent": 1.437,
+      "market_date": "2026-11-04",
       "status": "ok"
     }
   },
@@ -35,7 +35,7 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "방향 확인 필요",
+      "view": "변동성 주의",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
@@ -47,32 +47,18 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
   "top_headlines": [
     {
-      "title": "SK hynix Inc. (000660.KS) stock price, news, quote and history - Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wdm1yZExaSDJlX3gzUV95VE1ScnpqcTFGeTJnRnBJSFFTVFVoOUNaY2RnbWVuY3lmakdVRkZPbGZ3VUtkZEpTcU9VaXYyNGVCb3lFblJUREY?oc=5",
-      "source": "Yahoo Finance Singapore",
-      "published_at_utc": "2026-11-02T20:23:41+00:00",
-      "age_hours": 27.6,
-      "relevance_score": 71,
-      "tags": [
-        "한국시장 직접언급",
-        "반도체/AI"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
       "title": "Amid Stock Troubles, Is South Korea’s $880 Billion AI Infrastructure Buildout Under Threat? - The Diplomat – Asia-Pacific Current Affairs Magazine",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMi1kanJRb0xOZ01SRkV6ZXhpM2x6R2Y4VjJ5NkpwaDBONGo5dWwxZ25MNnFEcnZMYmUtOENvbTllV3pvTG9ScG9FalUwbk5pZGE3OTducG5oVGpuYk15b1pOeEpGdEp5S0Nac2hkZElUNHJ1MmRZMUFsU3AwMjFLSWNlODg3OXdpazBkcGdJT0tqSlRnNkc0QXlrVGVYV1BoTkRlVGI1UmpfYVJtQ21NR3Z6NUZOUWloWVpWdQ?oc=5",
       "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
       "published_at_utc": "2026-11-03T19:46:50+00:00",
-      "age_hours": 4.2,
-      "relevance_score": 54,
+      "age_hours": 26.5,
+      "relevance_score": 47,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -84,8 +70,8 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNUtGSU5GOEVpS0JCck02T0xObnQyNnU2emRJYThKR29za183dENFWHRGT1hFUWtwdkhUN3daZHE5cVZvV21pNEUxZVQ3S3BGVnBsU3lEV3hVYThKajBLZGcteUIzQ2RVc0hEcnFaU1lLTExKX3FscFRjQjlueWk3T3RJdnRjcTZ2RElieGk2ZEdyd0Zi?oc=5",
       "source": "Seoul Economic Daily",
       "published_at_utc": "2026-11-03T09:09:07+00:00",
-      "age_hours": 14.9,
-      "relevance_score": 51,
+      "age_hours": 37.1,
+      "relevance_score": 43,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -97,8 +83,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4blNxTEdPZW1yUFMxWkhmSktYWEpSUnVNZkYxYTY0ejczbUJzSWZNeWtISml4Mnp3VTRDWWo1SUI2OFhfTTQzU1NFc19BMXV2dV9VbVNHV1JYZThrUUxSQ254YWEzWWRnVUR4Q2VLS1hMMGpG?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-03T08:22:06+00:00",
-      "age_hours": 15.6,
-      "relevance_score": 50,
+      "age_hours": 37.9,
+      "relevance_score": 43,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -110,8 +96,8 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-03T18:48:00+00:00",
-      "age_hours": 5.2,
-      "relevance_score": 44,
+      "age_hours": 27.4,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -123,8 +109,8 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR241WmdKTExjbmZJcndhY3BOVG91eVFPT29xVzBLcVQ4NGQtUExYVDlray1hM1c5dENLekg3bkxyaHFramhTTVEwclZnci1uLWdvbi0zc21pbUMzazNZOFlRUEduSDF5al9jRjMxUG5FOGlTaTdTQVVKZVNRTWplRzh4UjdiYnNhZzBpTHlzS0Q4NzZLZmpfcjJLM1p3TlI3?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-03T18:38:16+00:00",
-      "age_hours": 5.4,
-      "relevance_score": 44,
+      "age_hours": 27.6,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -136,8 +122,8 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNakJmSzdlQlJtcnFqMTFzVlRzYVdnRXRINTZWYkUxYm10Um52RU4zRjJDdUNmb3B4dlVPZUxxRDAtNEZJcEN0dWNPVHVDenBLVU9QX3EwRGlFOEpXaEdrNFgtQVg3WnpKbGtJeUFFY2ZMb29sbWNMSjlNMkkwU1Y1OVh1RE5xT0l4MG42TF9KbDdpQ2lJWWsxTzNaeGd6d2tzVEJRc21KT3NqSzFKV2xWZF9fZEVvM3NmM0dr?oc=5",
       "source": "Forbes Middle East",
       "published_at_utc": "2026-11-03T18:31:08+00:00",
-      "age_hours": 5.5,
-      "relevance_score": 44,
+      "age_hours": 27.7,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -149,8 +135,8 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-03T17:45:00+00:00",
-      "age_hours": 6.3,
-      "relevance_score": 43,
+      "age_hours": 28.5,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -162,8 +148,8 @@
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUGRZNFdWV3BsWVNMVkZ1UVBBZXpTS1R0RDNhTnRESWthY1lPdjdCMUxJMDBTelQyd1U1UFNPM3JBLVBVUG5rT2FyQi1PTTVrMkg0WE1jX3pNLXVjSkJlMENycGt1TDBRUVdEblR3VDlaYlJwbUR3Zm40aHJJVUt2WkI2cy0xV2FuNUxzR3o2YWNsdXNHczdVMEpRVnROcDVCWWdkVEZnaUNzN2JWejROU1FZSFdOdml5RDhDcUU4YkF1MEhESFQ0R3cxMDJXN3QzYkFnaWhqRG9DRmNleG1yaGdpRUVnRi00Zl9KZFhkZkZEd9IB9wFBVV95cUxOeVJsNlRVQWVvakxHaU85b3VNbVdQM2xZRWxKLXk1MXUtcXdXUk5Cci1LZEp0NUoyRjgwaVh5Yy12dVFNZTVvYy1SRk9wNDJKS1d4clBSSHZ2and6OXlWbjFtMDlpdXphd1FZR0RFN2ZfX0xDWWR1TjFpcHJ1Q29pWUd0bXAxRXNLS2xuZmpzSGM5REgzYWFsSUs2RGFJc1IzZkdnQk5rY1pORmQ3OUxiaVhhMm9DZnNJd2R6cndmWUx0WXdNTTlJY2pteU8wdmotS0cyTWRkUUd2LUdvQzRhdWY2TVVnbU1lX1dwbzlTR2ZFV1VsUFBv?oc=5",
       "source": "Hindustan Times",
       "published_at_utc": "2026-11-03T15:43:38+00:00",
-      "age_hours": 8.3,
-      "relevance_score": 43,
+      "age_hours": 30.5,
+      "relevance_score": 35,
       "tags": [
         "반도체/AI"
       ],
@@ -175,8 +161,8 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0tvTmw4V0VpVkJDQk1IVWl1WEMxUDB2eEJpV3BKSlktYTVwNG45aVBTUU5ObnV0eEVSNWhIVzFTdm1kMXZGbm4zLUJUb3V0Qm9nSHNpX0xsNVQ0RUpodDFkcU9NWmhWSHB6VFpJS2V6MzBaQ3ZoZkw5Q2EzUkVFd1dEUEFjcXpubnV0YlFCVllZdEtDbktJVUxCSm9oWjFqdC1IRHdpY3kzSnloN011RnAwNlhuUQ?oc=5",
       "source": "El Cronista",
       "published_at_utc": "2026-11-03T17:16:25+00:00",
-      "age_hours": 6.7,
-      "relevance_score": 28,
+      "age_hours": 29.0,
+      "relevance_score": 21,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -186,8 +172,8 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp4ZllrLS11M2UzVkNCTHp0dktIVkVxQ0tvb0xfcHYtc0FjNm1hdkpnSmluY2xYVFJjdlc5YWp6SHo4Uy1ZZUN5SkJ1eVZyVm5paTJRbC0xTGE3VWdfT1pIUUNJakMxTnlLTGVFenJaN3Zqb3JZb1FKb2xvX1ZwTUQzaVhsalo5Z1g0U1Y5cVA5TnV3QUlxN0xKdUEtNzh3Q2I5RDBGbTl5aFAybW9YbFNnOTA1Nnpfd0ZLN2MzRDdpY2U4UEUxSDdUSDAwbXRjRmtURERjUEVTTzBX?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-03T16:31:00+00:00",
-      "age_hours": 7.5,
-      "relevance_score": 28,
+      "age_hours": 29.7,
+      "relevance_score": 21,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -197,10 +183,21 @@
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOS1VSksxcV80OVktM2o3cHZuQ2RpYUNiRzkxMG4yWEhJbUhjOVRyWTdSdEZhUks5OHB3Xy1QOGhfb2xza2wxdEFyQjlPeURlYm5PdE90XzEtallPZExzeFJqSGdEblRHLTBlZGFuSXFISzJzM1BWV2ViMl9ucDdfM2diVFVwRmxIOTZOd3l5Y1ctMzItR0trWmE3TDhUTEF0aE05MzdiZl9KaGptTFJMUmFwbnJic0h2S0FSOWpTMHF2NFJJNG43d0d3NWlTdHFLSXRldk1Wb1hIRXNVYUlXM1pxOXQ4Y1gzV3dacHZxXy11Zw?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-03T13:23:00+00:00",
-      "age_hours": 10.6,
-      "relevance_score": 27,
+      "age_hours": 32.9,
+      "relevance_score": 20,
       "tags": [],
       "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "(LEAD) Seoul shares dip over 3 pct amid escalating AI woes - Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xU3VXLTUyakN1MS1LZWFPZFFTY1EtZU50eUNUNk9YaWNRMzM2VHVDRWNIcWo3WGtwY2JKNzdVampYLXpocVllSkVEMThRd3dMaTlEWm44YXJIdw?oc=5",
+      "source": "Yonhap News Agency",
+      "published_at_utc": "2026-11-03T06:57:07+00:00",
+      "age_hours": 39.3,
+      "relevance_score": 7,
+      "tags": [],
+      "category": "korea",
       "needs_verification": true
     }
   ],
