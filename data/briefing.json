@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-04T22:14:42.586219+00:00",
-  "generated_at_kst": "2026-11-05T07:14:42.586219+09:00",
+  "generated_at_utc": "2026-11-04T22:30:41.404923+00:00",
+  "generated_at_kst": "2026-11-05T07:30:41.404923+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,19 +22,30 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.338,
+      "change_percent": -0.298,
       "reference_direction": "우호적"
     }
   ],
   "headlines": [
+    {
+      "title": "Stock Market Today: Dow Surges Over 1,500 Points as Democrats Sweep Congress and Oil Plunges, Gold Gains +3.30% - Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaHhMckwwVGJ0RGZKdHlldV83ZThJZTU0SWhwaXc3N3ZiNERQU0VaTlcyYVRPWmFjSXQwdi1HdkRXa2gwSHVnM0lqcTR4REdLNXNndE5pUXdvSks0WVRhQ3Q0bUgtS0pyamQtaEhHUGZBbXp3eEQ1UEVmVmpSZjBZT2xxY3F4REpXWU1JdGxwODJOd2dSajR4UXBoVlZXcGg0cDVJbWlvX3BQVWVqUkJpRXlXRm10emRWVzd3RTVyUllpSkxvek9iRFNhQ3ZjM01rX3M3bTlHeUcyUW9IUmFvY1hXbW0?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-11-04T20:55:43+00:00",
+      "category": "us_market",
+      "age_hours": 1.6,
+      "freshness_score": 97,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
     {
       "title": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win - Beinsure",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiMU5kdnJ3NnlRdlB3SHdGMXNPZXRRZTFSSWtpYU5MRXltODlSZTNvSjRTMzVYN2RqVy1seFBKbFhyQU5VS0RzbFl1a0ktUDduZzk0MXN0Ri1FUl91VkFKR1hXX2xoNEE4TU02NFJieXg3anB2TEN0OGw1T21Sdw?oc=5",
       "source": "Beinsure",
       "published_at_utc": "2026-11-04T17:37:46+00:00",
       "category": "us_market",
-      "age_hours": 4.6,
-      "freshness_score": 91,
+      "age_hours": 4.9,
+      "freshness_score": 90,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -44,8 +55,8 @@
       "source": "The Globe and Mail",
       "published_at_utc": "2026-11-04T16:36:24+00:00",
       "category": "semiconductor",
-      "age_hours": 5.6,
-      "freshness_score": 89,
+      "age_hours": 5.9,
+      "freshness_score": 88,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -57,8 +68,8 @@
       "source": "Morningstar",
       "published_at_utc": "2026-11-04T15:10:04+00:00",
       "category": "us_market",
-      "age_hours": 7.1,
-      "freshness_score": 86,
+      "age_hours": 7.3,
+      "freshness_score": 85,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -68,8 +79,8 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-04T14:11:36+00:00",
       "category": "us_market",
-      "age_hours": 8.1,
-      "freshness_score": 84,
+      "age_hours": 8.3,
+      "freshness_score": 83,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -79,22 +90,9 @@
       "source": "TradingView",
       "published_at_utc": "2026-11-04T13:40:09+00:00",
       "category": "us_market",
-      "age_hours": 8.6,
-      "freshness_score": 83,
+      "age_hours": 8.8,
+      "freshness_score": 82,
       "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQem5VeThlWExRTkY4ZzUwc1RpWWdjYnVXbkpyU3J0clF3TkRWeEVCUUc3dVdmY3A0djlrd21WYjJTOUJzWjN5alRPUExtVU5LdVQyenNndk5qdFJETTVFb3AxZzYyNmFqYzJjb1N3WDAwd0hpbVZ6RlVEVDRJR0g4eWxjSXJRcWRhN3JtNWUzYkZyNklwaUxkREM3MXFNU256V3BRX2djWm9Jd3JNbGd2TGo0OUNOcFJwR2tFZElEVkJBS2xXYXdveTdMc0FmbEFHYnc?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-04T11:36:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 10.6,
-      "freshness_score": 79,
-      "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -105,7 +103,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-04T11:56:02+00:00",
       "category": "semiconductor",
-      "age_hours": 10.3,
+      "age_hours": 10.6,
       "freshness_score": 79,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -113,14 +111,14 @@
       ]
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM1VCTElaajQ3dmQzal9zQmpST0JCRmZCTEZLNFdGT25wZ2NxWFpKbVFKY1dqbUcyWV9ISW52SUxCWF95RGpFRDdyMlpIa3k1RXBQaFNZTmlSN0pxb2dKR1RXZmF2WVU1dW1ZekxMQ3FnalI0OGYxbk1MQS1xbkhjZEFxNkctVkJiTVR3dEtSNDFhTVd3X2YwdGxTWXo3TFZMLTdOYWtjN1ZWZTF3Q2dOZWVaa3RWNXo4VjJPWVQ0V1lyX0JlYWNSQkFvRkhYOUxNdXJSTWFHS21ZdEkxbHc4X3R0dWFPWjY1eFBvcGpzajI3c3RVSTgzaA?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-04T10:17:28+00:00",
-      "category": "us_market",
-      "age_hours": 12.0,
-      "freshness_score": 76,
-      "headline_tone": "긍정 표현",
+      "title": "Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQem5VeThlWExRTkY4ZzUwc1RpWWdjYnVXbkpyU3J0clF3TkRWeEVCUUc3dVdmY3A0djlrd21WYjJTOUJzWjN5alRPUExtVU5LdVQyenNndk5qdFJETTVFb3AxZzYyNmFqYzJjb1N3WDAwd0hpbVZ6RlVEVDRJR0g4eWxjSXJRcWRhN3JtNWUzYkZyNklwaUxkREM3MXFNU256V3BRX2djWm9Jd3JNbGd2TGo0OUNOcFJwR2tFZElEVkJBS2xXYXdveTdMc0FmbEFHYnc?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-04T11:36:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 10.9,
+      "freshness_score": 78,
+      "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -131,8 +129,8 @@
       "source": "bloomingbit",
       "published_at_utc": "2026-11-04T09:40:48+00:00",
       "category": "korea",
-      "age_hours": 12.6,
-      "freshness_score": 75,
+      "age_hours": 12.8,
+      "freshness_score": 74,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -142,7 +140,7 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-04T08:53:17+00:00",
       "category": "korea",
-      "age_hours": 13.4,
+      "age_hours": 13.6,
       "freshness_score": 73,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -153,7 +151,7 @@
       "source": "Türkiye Today",
       "published_at_utc": "2026-11-04T07:46:47+00:00",
       "category": "korea",
-      "age_hours": 14.5,
+      "age_hours": 14.7,
       "freshness_score": 71,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -164,7 +162,7 @@
       "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
       "published_at_utc": "2026-11-03T19:46:50+00:00",
       "category": "korea",
-      "age_hours": 26.5,
+      "age_hours": 26.7,
       "freshness_score": 47,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -177,7 +175,7 @@
       "source": "Yahoo Finance UK",
       "published_at_utc": "2026-11-03T18:54:07+00:00",
       "category": "korea",
-      "age_hours": 27.3,
+      "age_hours": 27.6,
       "freshness_score": 45,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -188,21 +186,21 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-03T18:38:16+00:00",
       "category": "semiconductor",
-      "age_hours": 27.6,
-      "freshness_score": 45,
+      "age_hours": 27.9,
+      "freshness_score": 44,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "NVIDIA Rises 3% Despite AI CEO's Warning on Chinese Chip Competition; AMD Climbs 5%, Broadcom Gains 3% - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
+      "title": "Nvidia Is Extremely Compelling Right Now And Here’s Why - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
       "source": "24/7 Wall St.",
-      "published_at_utc": "2026-11-03T18:48:00+00:00",
+      "published_at_utc": "2026-11-03T17:45:00+00:00",
       "category": "semiconductor",
-      "age_hours": 27.4,
-      "freshness_score": 45,
+      "age_hours": 28.8,
+      "freshness_score": 42,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"

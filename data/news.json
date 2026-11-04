@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-04T22:14:41.499845+00:00",
-  "generated_at_kst": "2026-11-05T07:14:41.499845+09:00",
+  "generated_at_utc": "2026-11-04T22:30:40.299262+00:00",
+  "generated_at_kst": "2026-11-05T07:30:40.299262+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -35,10 +35,10 @@
     },
     {
       "category": "us_market",
-      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM1VCTElaajQ3dmQzal9zQmpST0JCRmZCTEZLNFdGT25wZ2NxWFpKbVFKY1dqbUcyWV9ISW52SUxCWF95RGpFRDdyMlpIa3k1RXBQaFNZTmlSN0pxb2dKR1RXZmF2WVU1dW1ZekxMQ3FnalI0OGYxbk1MQS1xbkhjZEFxNkctVkJiTVR3dEtSNDFhTVd3X2YwdGxTWXo3TFZMLTdOYWtjN1ZWZTF3Q2dOZWVaa3RWNXo4VjJPWVQ0V1lyX0JlYWNSQkFvRkhYOUxNdXJSTWFHS21ZdEkxbHc4X3R0dWFPWjY1eFBvcGpzajI3c3RVSTgzaA?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-04T10:17:28+00:00"
+      "title": "Stock Market Today: Dow Surges Over 1,500 Points as Democrats Sweep Congress and Oil Plunges, Gold Gains +3.30% - Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaHhMckwwVGJ0RGZKdHlldV83ZThJZTU0SWhwaXc3N3ZiNERQU0VaTlcyYVRPWmFjSXQwdi1HdkRXa2gwSHVnM0lqcTR4REdLNXNndE5pUXdvSks0WVRhQ3Q0bUgtS0pyamQtaEhHUGZBbXp3eEQ1UEVmVmpSZjBZT2xxY3F4REpXWU1JdGxwODJOd2dSajR4UXBoVlZXcGg0cDVJbWlvX3BQVWVqUkJpRXlXRm10emRWVzd3RTVyUllpSkxvek9iRFNhQ3ZjM01rX3M3bTlHeUcyUW9IUmFvY1hXbW0?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-11-04T20:55:43+00:00"
     },
     {
       "category": "semiconductor",
@@ -63,10 +63,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "NVIDIA Rises 3% Despite AI CEO's Warning on Chinese Chip Competition; AMD Climbs 5%, Broadcom Gains 3% - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
+      "title": "Nvidia Is Extremely Compelling Right Now And Here’s Why - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
       "source": "24/7 Wall St.",
-      "published_at_utc": "2026-11-03T18:48:00+00:00"
+      "published_at_utc": "2026-11-03T17:45:00+00:00"
     },
     {
       "category": "semiconductor",
