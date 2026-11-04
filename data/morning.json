@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-05T07:30:37.222652+09:00",
+  "generated_at_kst": "2026-11-05T07:45:35.354261+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-05T07:30:37.063104+09:00",
-  "news_snapshot_at": "2026-11-05T07:14:41.499845+09:00",
+  "market_snapshot_at": "2026-11-05T07:45:35.186836+09:00",
+  "news_snapshot_at": "2026-11-05T07:43:25.071814+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-05T06:30:00+09:00",
-  "briefing_delay_minutes": 60.6,
-  "briefing_deadline_delay_minutes": 0.6,
-  "briefing_late_over_10min": false,
+  "briefing_delay_minutes": 75.6,
+  "briefing_deadline_delay_minutes": 15.6,
+  "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-05T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -0.298,
+      "change_percent": -0.317,
       "market_date": "2026-11-04",
       "meaning": "원화 강세 방향"
     }
@@ -81,10 +81,10 @@
       "published_at_utc": "2026-11-04T15:10:04+00:00"
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM1VCTElaajQ3dmQzal9zQmpST0JCRmZCTEZLNFdGT25wZ2NxWFpKbVFKY1dqbUcyWV9ISW52SUxCWF95RGpFRDdyMlpIa3k1RXBQaFNZTmlSN0pxb2dKR1RXZmF2WVU1dW1ZekxMQ3FnalI0OGYxbk1MQS1xbkhjZEFxNkctVkJiTVR3dEtSNDFhTVd3X2YwdGxTWXo3TFZMLTdOYWtjN1ZWZTF3Q2dOZWVaa3RWNXo4VjJPWVQ0V1lyX0JlYWNSQkFvRkhYOUxNdXJSTWFHS21ZdEkxbHc4X3R0dWFPWjY1eFBvcGpzajI3c3RVSTgzaA?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-04T10:17:28+00:00"
+      "title": "Stock Market Today: Dow Surges Over 1,500 Points as Democrats Sweep Congress and Oil Plunges, Gold Gains +3.30% - Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaHhMckwwVGJ0RGZKdHlldV83ZThJZTU0SWhwaXc3N3ZiNERQU0VaTlcyYVRPWmFjSXQwdi1HdkRXa2gwSHVnM0lqcTR4REdLNXNndE5pUXdvSks0WVRhQ3Q0bUgtS0pyamQtaEhHUGZBbXp3eEQ1UEVmVmpSZjBZT2xxY3F4REpXWU1JdGxwODJOd2dSajR4UXBoVlZXcGg0cDVJbWlvX3BQVWVqUkJpRXlXRm10emRWVzd3RTVyUllpSkxvek9iRFNhQ3ZjM01rX3M3bTlHeUcyUW9IUmFvY1hXbW0?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-11-04T20:55:43+00:00"
     },
     {
       "title": "Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again - Yahoo Finance",
