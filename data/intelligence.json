@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-04T22:14:38.806813+00:00",
+  "generated_at_utc": "2026-11-04T22:30:37.180756+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 12,
+  "headline_count_after": 14,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-05T07:14:38.682486+09:00",
+  "market_snapshot_at": "2026-11-05T07:30:37.063104+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": 1.581,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.338,
+      "change_percent": -0.298,
       "market_date": "2026-11-04",
       "status": "ok"
     },
@@ -53,11 +53,63 @@
   ],
   "top_headlines": [
     {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQREl1eVNaQ0t6S1dLNHBPaGp6OU9PdDdKZnBTcHp2TGZ2ZGEwSWVXSjJuUFlEM0lZOHFFRmhBN1htNHh3RFhqMzF4YU4wVDgxUFlBSW5ZSUhxOFdXNVBuMjFHMzJVWUxaTDFlRTYtZmp6YVJDb0tnV0hTVENLdXpPejZhUWtxQnV0SnpzSFJJTnlMYlp2azhDZWtpbS1sejROanhhTXVvWWVZeVNxenZ5UEk4OTZldVRXMEFnVUFpMkc3cklKMUI1WnljTGhQVHFSZzJIYWhqZm5tMEpwQXZXTm5kdi01dV9SLWRwNVY2dF9tTWQ2Y24zWXFDU1BFaUpvLVlNV1JPNGwydG9oTFY2dEJub1NjZw?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-04T13:40:09+00:00",
+      "age_hours": 8.8,
+      "relevance_score": 53,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM1VCTElaajQ3dmQzal9zQmpST0JCRmZCTEZLNFdGT25wZ2NxWFpKbVFKY1dqbUcyWV9ISW52SUxCWF95RGpFRDdyMlpIa3k1RXBQaFNZTmlSN0pxb2dKR1RXZmF2WVU1dW1ZekxMQ3FnalI0OGYxbk1MQS1xbkhjZEFxNkctVkJiTVR3dEtSNDFhTVd3X2YwdGxTWXo3TFZMLTdOYWtjN1ZWZTF3Q2dOZWVaa3RWNXo4VjJPWVQ0V1lyX0JlYWNSQkFvRkhYOUxNdXJSTWFHS21ZdEkxbHc4X3R0dWFPWjY1eFBvcGpzajI3c3RVSTgzaA?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-04T10:17:28+00:00",
+      "age_hours": 12.2,
+      "relevance_score": 51,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Kospi Rises as Won-Dollar Rate Climbs in Unusual Tandem Move - bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsYVY2Z3JRQTBqeVpWcGItVTBQc0h1UzJGWXBCTG54eldvTTBpd1pXbUlxcTF5UUVYRFVfV2lhb3owcGJFTzdZVXB4Q0VMTFltX2pnNg?oc=5",
+      "source": "bloomingbit",
+      "published_at_utc": "2026-11-04T09:40:48+00:00",
+      "age_hours": 12.8,
+      "relevance_score": 51,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "[Closing Market] KOSPI Ends Slightly Higher After 400-Point Rollercoaster - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbkFzb0NQUnUxRHdaN1FtbUowOUFXQk0wOFZrSkhjNjBKc0pSM3Q3SnpLQ0lZLWpjcWphdlNiRk0xRjVHZVE2RHpWRlo1eU8zMVJ2dGFOeU9OakdsRlNfUUFEbTE0ZFJmR0k3WDJPX3pnZEZC?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-04T08:53:17+00:00",
+      "age_hours": 13.6,
+      "relevance_score": 51,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
       "title": "Amid Stock Troubles, Is South Korea’s $880 Billion AI Infrastructure Buildout Under Threat? - The Diplomat – Asia-Pacific Current Affairs Magazine",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMi1kanJRb0xOZ01SRkV6ZXhpM2x6R2Y4VjJ5NkpwaDBONGo5dWwxZ25MNnFEcnZMYmUtOENvbTllV3pvTG9ScG9FalUwbk5pZGE3OTducG5oVGpuYk15b1pOeEpGdEp5S0Nac2hkZElUNHJ1MmRZMUFsU3AwMjFLSWNlODg3OXdpazBkcGdJT0tqSlRnNkc0QXlrVGVYV1BoTkRlVGI1UmpfYVJtQ21NR3Z6NUZOUWloWVpWdQ?oc=5",
       "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
       "published_at_utc": "2026-11-03T19:46:50+00:00",
-      "age_hours": 26.5,
+      "age_hours": 26.7,
       "relevance_score": 47,
       "tags": [
         "한국시장 직접언급"
@@ -66,12 +118,12 @@
       "needs_verification": true
     },
     {
-      "title": "Foreign Selling Leaves Korean Stocks on Thin Ice - Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNUtGSU5GOEVpS0JCck02T0xObnQyNnU2emRJYThKR29za183dENFWHRGT1hFUWtwdkhUN3daZHE5cVZvV21pNEUxZVQ3S3BGVnBsU3lEV3hVYThKajBLZGcteUIzQ2RVc0hEcnFaU1lLTExKX3FscFRjQjlueWk3T3RJdnRjcTZ2RElieGk2ZEdyd0Zi?oc=5",
-      "source": "Seoul Economic Daily",
-      "published_at_utc": "2026-11-03T09:09:07+00:00",
-      "age_hours": 37.1,
-      "relevance_score": 43,
+      "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
+      "source": "Yahoo Finance UK",
+      "published_at_utc": "2026-11-03T18:54:07+00:00",
+      "age_hours": 27.6,
+      "relevance_score": 46,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -79,16 +131,29 @@
       "needs_verification": true
     },
     {
-      "title": "[Closing Market] KOSPI Plunges 3.6%, Sliding to 5,640 Amid AI, U.S. Election Fears - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4blNxTEdPZW1yUFMxWkhmSktYWEpSUnVNZkYxYTY0ejczbUJzSWZNeWtISml4Mnp3VTRDWWo1SUI2OFhfTTQzU1NFc19BMXV2dV9VbVNHV1JYZThrUUxSQ254YWEzWWRnVUR4Q2VLS1hMMGpG?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-03T08:22:06+00:00",
-      "age_hours": 37.9,
-      "relevance_score": 43,
+      "title": "4 Semiconductor Stocks to Buy as Q3 Sales Soar on Robust AI Demand - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNN2d6WV93OTh1WlIzS1gxa2gyQkZEa19fWkJxTDg4WnhuZTMtNnJuRUdVTjM1OTRJSG1aTHFHU0NEMU9ET3B1N3hURjZMVmpfLW9wbFhTVkpkTW94X3BoRktxc09DTFhDczQ2emwwVkdLZkNzdXJmT1laWW8tR1FybkxhNkV6WlYwT2E3VG4zdnpUaHlrdDF5b3JTemNBcDZDMHhaZHJ4RngzckFPZnNZeFJFalp3aml0Ymd2Ynp2cDdzQ1d5VUR3MFA5TUVwOWR6ZzF5bHV2aS1PQ1FsbFBfQ1otclE?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-04T16:36:24+00:00",
+      "age_hours": 5.9,
+      "relevance_score": 44,
       "tags": [
-        "한국시장 직접언급"
+        "반도체/AI"
       ],
-      "category": "korea",
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYU8zTTBndXIxNE15NDJrVHRDMmlnNlJGUFlyak1TS3ptSVVsamdCeFhUTkVFSHI0dUNpZi1hZjlHTjlSY1Bhdmx6bVduejN2eVRTc3B0YzNfaXdMS3FrYzBzVlVzdTFHd05iQ05ZN29OZHZFYWhsSFdfVWRJXzdkSmFyNUtHQzZtdklmeUkyNHpVbkp2cm14dnNhSHB1UQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-04T11:56:02+00:00",
+      "age_hours": 10.6,
+      "relevance_score": 42,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
       "needs_verification": true
     },
     {
@@ -96,7 +161,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-03T18:48:00+00:00",
-      "age_hours": 27.4,
+      "age_hours": 27.7,
       "relevance_score": 36,
       "tags": [
         "반도체/AI"
@@ -109,7 +174,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR241WmdKTExjbmZJcndhY3BOVG91eVFPT29xVzBLcVQ4NGQtUExYVDlray1hM1c5dENLekg3bkxyaHFramhTTVEwclZnci1uLWdvbi0zc21pbUMzazNZOFlRUEduSDF5al9jRjMxUG5FOGlTaTdTQVVKZVNRTWplRzh4UjdiYnNhZzBpTHlzS0Q4NzZLZmpfcjJLM1p3TlI3?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-03T18:38:16+00:00",
-      "age_hours": 27.6,
+      "age_hours": 27.9,
       "relevance_score": 36,
       "tags": [
         "반도체/AI"
@@ -118,86 +183,25 @@
       "needs_verification": true
     },
     {
-      "title": "Nvidia Regains Title Of World’s Most Valuable Company—As Apple Shares Slide - Forbes Middle East",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNakJmSzdlQlJtcnFqMTFzVlRzYVdnRXRINTZWYkUxYm10Um52RU4zRjJDdUNmb3B4dlVPZUxxRDAtNEZJcEN0dWNPVHVDenBLVU9QX3EwRGlFOEpXaEdrNFgtQVg3WnpKbGtJeUFFY2ZMb29sbWNMSjlNMkkwU1Y1OVh1RE5xT0l4MG42TF9KbDdpQ2lJWWsxTzNaeGd6d2tzVEJRc21KT3NqSzFKV2xWZF9fZEVvM3NmM0dr?oc=5",
-      "source": "Forbes Middle East",
-      "published_at_utc": "2026-11-03T18:31:08+00:00",
-      "age_hours": 27.7,
-      "relevance_score": 36,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Nvidia Is Extremely Compelling Right Now And Here’s Why - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcy1ZWkt6Y2x0UDhES21BYkRxTnhmZ1ItZkI2YUpfWHZEcUtzVXNWbVhkeF9FVW1CWnJsZDQwMHB4LWRXbURhUkloTnFqU2FLcU1hVUtLYnR4M0lKTUVENXRXUnRuNzdsWkNGLW1HcUNycC1lbjFoMHZVXzJuakFJUEcxaXBjR3cxRzEza2c2dUlNU0h0Z3Z0WU5aUmFSZEk?oc=5",
-      "source": "24/7 Wall St.",
-      "published_at_utc": "2026-11-03T17:45:00+00:00",
-      "age_hours": 28.5,
-      "relevance_score": 36,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Chip stocks rebound as Nvidia, AMD and Intel gain after $3.7 trillion semiconductor sell-off | Hindustan Times - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUGRZNFdWV3BsWVNMVkZ1UVBBZXpTS1R0RDNhTnRESWthY1lPdjdCMUxJMDBTelQyd1U1UFNPM3JBLVBVUG5rT2FyQi1PTTVrMkg0WE1jX3pNLXVjSkJlMENycGt1TDBRUVdEblR3VDlaYlJwbUR3Zm40aHJJVUt2WkI2cy0xV2FuNUxzR3o2YWNsdXNHczdVMEpRVnROcDVCWWdkVEZnaUNzN2JWejROU1FZSFdOdml5RDhDcUU4YkF1MEhESFQ0R3cxMDJXN3QzYkFnaWhqRG9DRmNleG1yaGdpRUVnRi00Zl9KZFhkZkZEd9IB9wFBVV95cUxOeVJsNlRVQWVvakxHaU85b3VNbVdQM2xZRWxKLXk1MXUtcXdXUk5Cci1LZEp0NUoyRjgwaVh5Yy12dVFNZTVvYy1SRk9wNDJKS1d4clBSSHZ2and6OXlWbjFtMDlpdXphd1FZR0RFN2ZfX0xDWWR1TjFpcHJ1Q29pWUd0bXAxRXNLS2xuZmpzSGM5REgzYWFsSUs2RGFJc1IzZkdnQk5rY1pORmQ3OUxiaVhhMm9DZnNJd2R6cndmWUx0WXdNTTlJY2pteU8wdmotS0cyTWRkUUd2LUdvQzRhdWY2TVVnbU1lX1dwbzlTR2ZFV1VsUFBv?oc=5",
-      "source": "Hindustan Times",
-      "published_at_utc": "2026-11-03T15:43:38+00:00",
-      "age_hours": 30.5,
-      "relevance_score": 35,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Wall Street the Day After: Which Indicators to Watch Closely After the Midterms - El Cronista",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0tvTmw4V0VpVkJDQk1IVWl1WEMxUDB2eEJpV3BKSlktYTVwNG45aVBTUU5ObnV0eEVSNWhIVzFTdm1kMXZGbm4zLUJUb3V0Qm9nSHNpX0xsNVQ0RUpodDFkcU9NWmhWSHB6VFpJS2V6MzBaQ3ZoZkw5Q2EzUkVFd1dEUEFjcXpubnV0YlFCVllZdEtDbktJVUxCSm9oWjFqdC1IRHdpY3kzSnloN011RnAwNlhuUQ?oc=5",
-      "source": "El Cronista",
-      "published_at_utc": "2026-11-03T17:16:25+00:00",
-      "age_hours": 29.0,
-      "relevance_score": 21,
+      "title": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiMU5kdnJ3NnlRdlB3SHdGMXNPZXRRZTFSSWtpYU5MRXltODlSZTNvSjRTMzVYN2RqVy1seFBKbFhyQU5VS0RzbFl1a0ktUDduZzk0MXN0Ri1FUl91VkFKR1hXX2xoNEE4TU02NFJieXg3anB2TEN0OGw1T21Sdw?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-04T17:37:46+00:00",
+      "age_hours": 4.9,
+      "relevance_score": 29,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "Election Day Trading Splits the Benchmarks, With the Dow Lower and the Nasdaq Higher - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMlp4ZllrLS11M2UzVkNCTHp0dktIVkVxQ0tvb0xfcHYtc0FjNm1hdkpnSmluY2xYVFJjdlc5YWp6SHo4Uy1ZZUN5SkJ1eVZyVm5paTJRbC0xTGE3VWdfT1pIUUNJakMxTnlLTGVFenJaN3Zqb3JZb1FKb2xvX1ZwTUQzaVhsalo5Z1g0U1Y5cVA5TnV3QUlxN0xKdUEtNzh3Q2I5RDBGbTl5aFAybW9YbFNnOTA1Nnpfd0ZLN2MzRDdpY2U4UEUxSDdUSDAwbXRjRmtURERjUEVTTzBX?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-03T16:31:00+00:00",
-      "age_hours": 29.7,
-      "relevance_score": 21,
+      "title": "US Midterms: How Markets Are Reacting to Democrat Victory - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXROUUFwMTZMSjlpQ3JNYUp2dmdPc0VvSXU0UjJ5aXJFT2t0YWlPZVJaNWp1Qkl5dm5rWU5mRmNyMkZzZ29fN2hCM0pIcWNFbGhQRjgwMDNnY0RWNU9VbVFIb1Y4WU1UZTlWUGoyQlFaSGRuekZVNjlxWDBBdTJab1BpSndHTUhvVU5mSFVVZVdUbXF3YkMxQlpWLUpmX2s?oc=5",
+      "source": "Morningstar",
+      "published_at_utc": "2026-11-04T15:10:04+00:00",
+      "age_hours": 7.3,
+      "relevance_score": 28,
       "tags": [],
       "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes — A - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOS1VSksxcV80OVktM2o3cHZuQ2RpYUNiRzkxMG4yWEhJbUhjOVRyWTdSdEZhUks5OHB3Xy1QOGhfb2xza2wxdEFyQjlPeURlYm5PdE90XzEtallPZExzeFJqSGdEblRHLTBlZGFuSXFISzJzM1BWV2ViMl9ucDdfM2diVFVwRmxIOTZOd3l5Y1ctMzItR0trWmE3TDhUTEF0aE05MzdiZl9KaGptTFJMUmFwbnJic0h2S0FSOWpTMHF2NFJJNG43d0d3NWlTdHFLSXRldk1Wb1hIRXNVYUlXM1pxOXQ4Y1gzV3dacHZxXy11Zw?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-03T13:23:00+00:00",
-      "age_hours": 32.9,
-      "relevance_score": 20,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "(LEAD) Seoul shares dip over 3 pct amid escalating AI woes - Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xU3VXLTUyakN1MS1LZWFPZFFTY1EtZU50eUNUNk9YaWNRMzM2VHVDRWNIcWo3WGtwY2JKNzdVampYLXpocVllSkVEMThRd3dMaTlEWm44YXJIdw?oc=5",
-      "source": "Yonhap News Agency",
-      "published_at_utc": "2026-11-03T06:57:07+00:00",
-      "age_hours": 39.3,
-      "relevance_score": 7,
-      "tags": [],
-      "category": "korea",
       "needs_verification": true
     }
   ],
