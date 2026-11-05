@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-05T22:44:23.741456+00:00",
-  "generated_at_kst": "2026-11-06T07:44:23.741456+09:00",
+  "generated_at_utc": "2026-11-05T22:46:25.851282+00:00",
+  "generated_at_kst": "2026-11-06T07:46:25.851282+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -35,17 +35,17 @@
     },
     {
       "category": "us_market",
-      "title": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win - Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiMU5kdnJ3NnlRdlB3SHdGMXNPZXRRZTFSSWtpYU5MRXltODlSZTNvSjRTMzVYN2RqVy1seFBKbFhyQU5VS0RzbFl1a0ktUDduZzk0MXN0Ri1FUl91VkFKR1hXX2xoNEE4TU02NFJieXg3anB2TEN0OGw1T21Sdw?oc=5",
-      "source": "Beinsure",
-      "published_at_utc": "2026-11-04T17:37:46+00:00"
+      "title": "US stocks tumble as Nasdaq, Dow, S&P 500 fall; chip stocks and AI data centre shares plunge - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVQ?oc=5",
+      "source": "Hindustan Times",
+      "published_at_utc": "2026-11-05T16:55:00+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Not Nvidia. Not AMD. 2 Chip Stocks I'd Buy Before the End of the Year. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUFXclpac1RMTFZVWXRpQkJyc3ZCbGw5VjRXZlA5NzJOcTVOUXVTNVNfcm40N0pSblpDeEZXMHdLQjhFOEYtb3B4eS1SOVBBX0NZa2N6aXlhSWpndTdudjRNMk1tY21rVHdyWnpnR2gwajZmVjdBWDAzcl84Q3B0Vjd1bWUyZks3OHpNWldB?oc=5",
+      "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T18:33:00+00:00"
+      "published_at_utc": "2026-11-05T21:07:41+00:00"
     },
     {
       "category": "semiconductor",
@@ -63,10 +63,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
+      "title": "Not Nvidia. Not AMD. 2 Chip Stocks I'd Buy Before the End of the Year. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUFXclpac1RMTFZVWXRpQkJyc3ZCbGw5VjRXZlA5NzJOcTVOUXVTNVNfcm40N0pSblpDeEZXMHdLQjhFOEYtb3B4eS1SOVBBX0NZa2N6aXlhSWpndTdudjRNMk1tY21rVHdyWnpnR2gwajZmVjdBWDAzcl84Q3B0Vjd1bWUyZks3OHpNWldB?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T14:42:04+00:00"
+      "published_at_utc": "2026-11-05T18:33:00+00:00"
     },
     {
       "category": "semiconductor",
