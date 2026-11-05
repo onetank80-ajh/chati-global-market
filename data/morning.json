@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-06T07:15:05.728208+09:00",
+  "generated_at_kst": "2026-11-06T07:29:34.983135+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-06T07:15:05.574714+09:00",
-  "news_snapshot_at": "2026-11-05T07:45:38.225594+09:00",
+  "market_snapshot_at": "2026-11-06T07:29:34.863841+09:00",
+  "news_snapshot_at": "2026-11-06T07:15:08.968106+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-06T06:30:00+09:00",
-  "briefing_delay_minutes": 45.1,
-  "briefing_deadline_delay_minutes": -14.9,
+  "briefing_delay_minutes": 59.6,
+  "briefing_deadline_delay_minutes": -0.4,
   "briefing_late_over_10min": false,
   "briefing_deadline_at_kst": "2026-11-06T07:30:00+09:00",
   "briefing_missed_0730_deadline": false,
@@ -57,52 +57,52 @@
   ],
   "headlines": [
     {
-      "title": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win - Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiMU5kdnJ3NnlRdlB3SHdGMXNPZXRRZTFSSWtpYU5MRXltODlSZTNvSjRTMzVYN2RqVy1seFBKbFhyQU5VS0RzbFl1a0ktUDduZzk0MXN0Ri1FUl91VkFKR1hXX2xoNEE4TU02NFJieXg3anB2TEN0OGw1T21Sdw?oc=5",
-      "source": "Beinsure",
-      "published_at_utc": "2026-11-04T17:37:46+00:00"
+      "title": "Nasdaq posts biggest daily drop in 19 months on fears of AI regulations - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-05T21:30:09+00:00"
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQREl1eVNaQ0t6S1dLNHBPaGp6OU9PdDdKZnBTcHp2TGZ2ZGEwSWVXSjJuUFlEM0lZOHFFRmhBN1htNHh3RFhqMzF4YU4wVDgxUFlBSW5ZSUhxOFdXNVBuMjFHMzJVWUxaTDFlRTYtZmp6YVJDb0tnV0hTVENLdXpPejZhUWtxQnV0SnpzSFJJTnlMYlp2azhDZWtpbS1sejROanhhTXVvWWVZeVNxenZ5UEk4OTZldVRXMEFnVUFpMkc3cklKMUI1WnljTGhQVHFSZzJIYWhqZm5tMEpwQXZXTm5kdi01dV9SLWRwNVY2dF9tTWQ2Y24zWXFDU1BFaUpvLVlNV1JPNGwydG9oTFY2dEJub1NjZw?oc=5",
+      "title": "S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
+      "source": "Bloomberg.com",
+      "published_at_utc": "2026-11-05T20:53:39+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed After Post-Midterm Rally— TM, ARM, QCOM in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPT3FLQnhfQkF1S1ViSzhqUzF5bkdvMVFzUXVXanhMdEhRYkFrWG90Vk1YWGJXN1NCeGx4ZWxFWUVMRm5fNmdkSzFFSGtaY1o3VHU1WkpvSHpzVDZmMk44eWdmankxNEx6RHdvcDFaM2h3NmJUbDdXSTNJYVBIQWxVWVBOSWNncURwWlp2UncyX1FBMl8wYk43bUxBUGRHZDc0NTNRQktreF9sMkhWRXlwNDV2SktoNEd4SGlpWmEzVGFxdFQ2aUJuaDdKdkpMTEI0VVBaQjduMWxMX3FQSHZENENfWnRoeHhKaFJNckF2ZTA0dTZ0cTVIOGR4NC1ZbHMyV1RMWEpIc0IybFNU?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-11-04T13:40:09+00:00"
+      "published_at_utc": "2026-11-05T13:46:42+00:00"
     },
     {
-      "title": "Wall Street Futures Point to Stronger Open as Investors Assess US Midterm Election Results: Dow Jones, S&P, Nasdaq - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFZRTXVnQTdnMDJ5bUl1MUZGNVEzQUVHbTBGNlBhbEVNZmJqaU05NUdCUDlYTThJQ1FpZEdZV2NBTDNqbjJMSERCcWpNTTNHaUdkdWZQbWJyVDczMlJLclgyQ3o5bGJYRDJBYjZUajZvRktoSTc3Wl9yR3pZSFk5WTQ4SUJCY2JnZXlNV0lSTThRYm1wUnJNTHJNWlAxbjJo?oc=5",
+      "title": "Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "source": "Investment Week",
+      "published_at_utc": "2026-11-05T11:10:10+00:00"
+    },
+    {
+      "title": "Nasdaq Took More Than a Decade to Recover From 78% Dot-Com Drop - www.tokenpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VTFRDVE44bDBHcTRWa0F6bUZuQUptdkJPdFZYQlBNcHdxWmNLRGZHWkgyZk1BX3BxeWVHdnFqWHQxbXlVb0FrZ3ZQRUxac2FDVHd4dDhwTjU5Zw?oc=5",
+      "source": "www.tokenpost.com",
+      "published_at_utc": "2026-11-05T17:42:00+00:00"
+    },
+    {
+      "title": "Not Nvidia. Not AMD. 2 Chip Stocks I'd Buy Before the End of the Year. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUFXclpac1RMTFZVWXRpQkJyc3ZCbGw5VjRXZlA5NzJOcTVOUXVTNVNfcm40N0pSblpDeEZXMHdLQjhFOEYtb3B4eS1SOVBBX0NZa2N6aXlhSWpndTdudjRNMk1tY21rVHdyWnpnR2gwajZmVjdBWDAzcl84Q3B0Vjd1bWUyZks3OHpNWldB?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-04T14:11:36+00:00"
+      "published_at_utc": "2026-11-05T18:33:00+00:00"
     },
     {
-      "title": "US Midterms: How Markets Are Reacting to Democrat Victory - Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXROUUFwMTZMSjlpQ3JNYUp2dmdPc0VvSXU0UjJ5aXJFT2t0YWlPZVJaNWp1Qkl5dm5rWU5mRmNyMkZzZ29fN2hCM0pIcWNFbGhQRjgwMDNnY0RWNU9VbVFIb1Y4WU1UZTlWUGoyQlFaSGRuekZVNjlxWDBBdTJab1BpSndHTUhvVU5mSFVVZVdUbXF3YkMxQlpWLUpmX2s?oc=5",
-      "source": "Morningstar",
-      "published_at_utc": "2026-11-04T15:10:04+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow Surges Over 1,500 Points as Democrats Sweep Congress and Oil Plunges, Gold Gains +3.30% - Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaHhMckwwVGJ0RGZKdHlldV83ZThJZTU0SWhwaXc3N3ZiNERQU0VaTlcyYVRPWmFjSXQwdi1HdkRXa2gwSHVnM0lqcTR4REdLNXNndE5pUXdvSks0WVRhQ3Q0bUgtS0pyamQtaEhHUGZBbXp3eEQ1UEVmVmpSZjBZT2xxY3F4REpXWU1JdGxwODJOd2dSajR4UXBoVlZXcGg0cDVJbWlvX3BQVWVqUkJpRXlXRm10emRWVzd3RTVyUllpSkxvek9iRFNhQ3ZjM01rX3M3bTlHeUcyUW9IUmFvY1hXbW0?oc=5",
-      "source": "Eurasia Business News",
-      "published_at_utc": "2026-11-04T20:55:43+00:00"
-    },
-    {
-      "title": "Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYU8zTTBndXIxNE15NDJrVHRDMmlnNlJGUFlyak1TS3ptSVVsamdCeFhUTkVFSHI0dUNpZi1hZjlHTjlSY1Bhdmx6bVduejN2eVRTc3B0YzNfaXdMS3FrYzBzVlVzdTFHd05iQ05ZN29OZHZFYWhsSFdfVWRJXzdkSmFyNUtHQzZtdklmeUkyNHpVbkp2cm14dnNhSHB1UQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-04T11:56:02+00:00"
-    },
-    {
-      "title": "Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQem5VeThlWExRTkY4ZzUwc1RpWWdjYnVXbkpyU3J0clF3TkRWeEVCUUc3dVdmY3A0djlrd21WYjJTOUJzWjN5alRPUExtVU5LdVQyenNndk5qdFJETTVFb3AxZzYyNmFqYzJjb1N3WDAwd0hpbVZ6RlVEVDRJR0g4eWxjSXJRcWRhN3JtNWUzYkZyNklwaUxkREM3MXFNU256V3BRX2djWm9Jd3JNbGd2TGo0OUNOcFJwR2tFZElEVkJBS2xXYXdveTdMc0FmbEFHYnc?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-04T11:36:00+00:00"
-    },
-    {
-      "title": "4 Semiconductor Stocks to Buy as Q3 Sales Soar on Robust AI Demand - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNN2d6WV93OTh1WlIzS1gxa2gyQkZEa19fWkJxTDg4WnhuZTMtNnJuRUdVTjM1OTRJSG1aTHFHU0NEMU9ET3B1N3hURjZMVmpfLW9wbFhTVkpkTW94X3BoRktxc09DTFhDczQ2emwwVkdLZkNzdXJmT1laWW8tR1FybkxhNkV6WlYwT2E3VG4zdnpUaHlrdDF5b3JTemNBcDZDMHhaZHJ4RngzckFPZnNZeFJFalp3aml0Ymd2Ynp2cDdzQ1d5VUR3MFA5TUVwOWR6ZzF5bHV2aS1PQ1FsbFBfQ1otclE?oc=5",
+      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1RQdk1xQmNNTThNUDdYQzNoNDJCS255VERTZE1BQzRhRi1kNmVzRmU1bTZJR3Eyd240c1pOdmtVaU5OdE51ZE9IZk9feWxZUnJXTUgyYm1FeEx2V1hySnVfaHpnOHBFRXhGd3F4MG5Ec3RHZklJQ2FoRGtvRG9qVkg0akI2ZV90Rl9wMGh2S0lTZFBwb05ZRFplXzM4T0tmQm9CTmYtdUJ2Z2YtMGNHa2RVeFl3b0lhalhObktPdW1TSUZ5cFItbzFBeTNfWk56cGljeXpQVVRnX083OFljNFFvbUEwX1V4T2RWUE9JM1RQZldZY1lrX3QtZGM4R0s3VnR1emZWOEpGaXUy?oc=5",
       "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-04T16:36:24+00:00"
+      "published_at_utc": "2026-11-05T19:04:39+00:00"
+    },
+    {
+      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTDNYN2cxV2pHRDRoZm0tUEFobGpnYzBKMUtlbUgwMFF1TklfMU9ZbkpFQnZCamZYVXY4dWFpTVRWUFhmczRvSi1TRnpNOUlpMlZGNnRQaWNpYzBzY1VqaVhUeVBpR0tYOXpuTGlZejhkVlZ5d18takN1ZGdTSkV5MHFTZm1FYVdNYUl0NW9RS3JMMWVJc3MwWA?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-05T15:02:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
