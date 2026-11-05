@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-05T22:15:08.968106+00:00",
-  "generated_at_kst": "2026-11-06T07:15:08.968106+09:00",
+  "generated_at_utc": "2026-11-05T22:29:37.990241+00:00",
+  "generated_at_kst": "2026-11-06T07:29:37.990241+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -11,13 +11,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-11-05T21:30:09+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-11-05T20:53:39+00:00"
     },
     {
       "category": "us_market",
@@ -39,6 +32,13 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VTFRDVE44bDBHcTRWa0F6bUZuQUptdkJPdFZYQlBNcHdxWmNLRGZHWkgyZk1BX3BxeWVHdnFqWHQxbXlVb0FrZ3ZQRUxac2FDVHd4dDhwTjU5Zw?oc=5",
       "source": "www.tokenpost.com",
       "published_at_utc": "2026-11-05T17:42:00+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "US stocks tumble as Nasdaq, Dow, S&P 500 fall; chip stocks and AI data centre shares plunge - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVQ?oc=5",
+      "source": "Hindustan Times",
+      "published_at_utc": "2026-11-05T16:55:00+00:00"
     },
     {
       "category": "semiconductor",

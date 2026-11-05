@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-05T22:15:10.085432+00:00",
-  "generated_at_kst": "2026-11-06T07:15:10.085432+09:00",
+  "generated_at_utc": "2026-11-05T22:29:39.082034+00:00",
+  "generated_at_kst": "2026-11-06T07:29:39.082034+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -33,22 +33,9 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-05T21:30:09+00:00",
       "category": "us_market",
-      "age_hours": 0.8,
+      "age_hours": 1.0,
       "freshness_score": 98,
       "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-11-05T20:53:39+00:00",
-      "category": "us_market",
-      "age_hours": 1.4,
-      "freshness_score": 97,
-      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
@@ -59,8 +46,8 @@
       "source": "The Globe and Mail",
       "published_at_utc": "2026-11-05T19:04:39+00:00",
       "category": "semiconductor",
-      "age_hours": 3.2,
-      "freshness_score": 94,
+      "age_hours": 3.4,
+      "freshness_score": 93,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -72,8 +59,21 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-05T18:33:00+00:00",
       "category": "semiconductor",
-      "age_hours": 3.7,
-      "freshness_score": 93,
+      "age_hours": 3.9,
+      "freshness_score": 92,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "QQQ stock today falls over 5%: Why Nvidia (NVDA), Qualcomm (QCOM), Intel (INTC) and Marvell (MRVL) are dra - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNNUZDc2RzT3FCTWFKdUQ4ZFhZVUN4MkpyYmw0eERwVkdXV0p3d2ZJcU42dmQ1bTlTaDRrX2h5bklMU01kMTNNZUlnWmJfV0JCTURsbTVtdzBpTXJpQ3RqbVZSTWp3UG9wbjIzNjhkdHFzTUtIbUQ1YlQ0S19DWmxCWkpmbGJiSk5STFE2dE4yNGFqMm5icExzQVdMc2Z1UVhoTEdjcHc3Ny0xZzNmaXFoM1hlV2MxaXJwTnlXYjNHcUN6eDFydThGSEdseE5RUXRraEZwakF2RElZRDBGbTI4NGEzb1NmaEJRSnluSjEyZV9uZVd1TnpkblJWdGpDTjgyQkI0X0JtNlpMZFlXMGt4WVRGRlVjMUp1TUZaWW9yRzdhZjZE0gGqAkFVX3lxTFBLMXVmTVB6cDhmdWYySEQ5SG56ek4xMXkwU3o2WkpnaVBsZWFsLUR3X1NFWVFkMkJkNzRHYXJ2aFAySk5CWGlibnBMZFBCd2VkMnMwcUJVNlBpZjFqNTBVOVhZSHBiRjEwcmNOcXdCbzY0NUZsdF9VZWJlbFl0Q25LSG5oQzR5NjlMNTN4eThJRmJ1anAxcnk5SWN2Q3ZwMEl1LXNvbnVyZ19IcGxQclVPOXVIOUlwQnJ6NF9kclpZYU1FZmRNU3lNbVpvRVM0RktGWmxLWlNkSE1ndExtS082cGJsTGVTc000SHM3Z0s5ZlNFVVVGTUxFSG5PN3R5VFRUb1dibkZjb2REZDhhTlpSanZyaUJ1SW9IdnBxUXdXOVFvVkdSM0stNFE?oc=5",
+      "source": "The Economic Times",
+      "published_at_utc": "2026-11-05T17:50:08+00:00",
+      "category": "semiconductor",
+      "age_hours": 4.7,
+      "freshness_score": 91,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -85,20 +85,20 @@
       "source": "www.tokenpost.com",
       "published_at_utc": "2026-11-05T17:42:00+00:00",
       "category": "us_market",
-      "age_hours": 4.6,
-      "freshness_score": 91,
+      "age_hours": 4.8,
+      "freshness_score": 90,
       "headline_tone": "부정 표현",
       "sectors": []
     },
     {
-      "title": "QQQ stock today falls over 5%: Why Nvidia (NVDA), Qualcomm (QCOM), Intel (INTC) and Marvell (MRVL) are dra - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNNUZDc2RzT3FCTWFKdUQ4ZFhZVUN4MkpyYmw0eERwVkdXV0p3d2ZJcU42dmQ1bTlTaDRrX2h5bklMU01kMTNNZUlnWmJfV0JCTURsbTVtdzBpTXJpQ3RqbVZSTWp3UG9wbjIzNjhkdHFzTUtIbUQ1YlQ0S19DWmxCWkpmbGJiSk5STFE2dE4yNGFqMm5icExzQVdMc2Z1UVhoTEdjcHc3Ny0xZzNmaXFoM1hlV2MxaXJwTnlXYjNHcUN6eDFydThGSEdseE5RUXRraEZwakF2RElZRDBGbTI4NGEzb1NmaEJRSnluSjEyZV9uZVd1TnpkblJWdGpDTjgyQkI0X0JtNlpMZFlXMGt4WVRGRlVjMUp1TUZaWW9yRzdhZjZE0gGqAkFVX3lxTFBLMXVmTVB6cDhmdWYySEQ5SG56ek4xMXkwU3o2WkpnaVBsZWFsLUR3X1NFWVFkMkJkNzRHYXJ2aFAySk5CWGlibnBMZFBCd2VkMnMwcUJVNlBpZjFqNTBVOVhZSHBiRjEwcmNOcXdCbzY0NUZsdF9VZWJlbFl0Q25LSG5oQzR5NjlMNTN4eThJRmJ1anAxcnk5SWN2Q3ZwMEl1LXNvbnVyZ19IcGxQclVPOXVIOUlwQnJ6NF9kclpZYU1FZmRNU3lNbVpvRVM0RktGWmxLWlNkSE1ndExtS082cGJsTGVTc000SHM3Z0s5ZlNFVVVGTUxFSG5PN3R5VFRUb1dibkZjb2REZDhhTlpSanZyaUJ1SW9IdnBxUXdXOVFvVkdSM0stNFE?oc=5",
-      "source": "The Economic Times",
-      "published_at_utc": "2026-11-05T17:50:08+00:00",
-      "category": "semiconductor",
-      "age_hours": 4.4,
-      "freshness_score": 91,
-      "headline_tone": "혼재/불명",
+      "title": "US stocks tumble as Nasdaq, Dow, S&P 500 fall; chip stocks and AI data centre shares plunge - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVQ?oc=5",
+      "source": "Hindustan Times",
+      "published_at_utc": "2026-11-05T16:55:00+00:00",
+      "category": "us_market",
+      "age_hours": 5.6,
+      "freshness_score": 89,
+      "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -109,8 +109,8 @@
       "source": "The Northern Virginia Daily",
       "published_at_utc": "2026-11-05T15:41:43+00:00",
       "category": "korea",
-      "age_hours": 6.6,
-      "freshness_score": 87,
+      "age_hours": 6.8,
+      "freshness_score": 86,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -122,8 +122,8 @@
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-05T15:02:00+00:00",
       "category": "semiconductor",
-      "age_hours": 7.2,
-      "freshness_score": 86,
+      "age_hours": 7.5,
+      "freshness_score": 85,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -135,23 +135,12 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-05T14:42:04+00:00",
       "category": "semiconductor",
-      "age_hours": 7.6,
-      "freshness_score": 85,
+      "age_hours": 7.8,
+      "freshness_score": 84,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
-    },
-    {
-      "title": "World shares mostly gain after US midterm elections as AI-related stocks sink - MySA",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzFtT2NncTNEVUU1WUZuNGVjckFMNUpCVDdSWkg5Z19HYm1Wb0VUVWVRY1JXVzJ4elJOTndvX3lramw0QkFMZGxwdGk5WHFXSVFqdWhlY0g0NF9ZNUVXdmFtMXNValpQSHBiYm1QSmVaUGN3Y2swUG1QOUZUZWVJa2sxWTc3cVRRM3RiZmtzNVNkQzRxZ3k0?oc=5",
-      "source": "MySA",
-      "published_at_utc": "2026-11-05T14:13:46+00:00",
-      "category": "korea",
-      "age_hours": 8.0,
-      "freshness_score": 84,
-      "headline_tone": "혼재/불명",
-      "sectors": []
     },
     {
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed After Post-Midterm Rally— TM, ARM, QCOM in Focus (UPDATED) - TradingView",
@@ -159,9 +148,20 @@
       "source": "TradingView",
       "published_at_utc": "2026-11-05T13:46:42+00:00",
       "category": "us_market",
-      "age_hours": 8.5,
+      "age_hours": 8.7,
       "freshness_score": 83,
       "headline_tone": "긍정 표현",
+      "sectors": []
+    },
+    {
+      "title": "World shares mostly gain after US midterm elections as AI-related stocks sink - MySA",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzFtT2NncTNEVUU1WUZuNGVjckFMNUpCVDdSWkg5Z19HYm1Wb0VUVWVRY1JXVzJ4elJOTndvX3lramw0QkFMZGxwdGk5WHFXSVFqdWhlY0g0NF9ZNUVXdmFtMXNValpQSHBiYm1QSmVaUGN3Y2swUG1QOUZUZWVJa2sxWTc3cVRRM3RiZmtzNVNkQzRxZ3k0?oc=5",
+      "source": "MySA",
+      "published_at_utc": "2026-11-05T14:13:46+00:00",
+      "category": "korea",
+      "age_hours": 8.3,
+      "freshness_score": 83,
+      "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
@@ -170,8 +170,8 @@
       "source": "Investment Week",
       "published_at_utc": "2026-11-05T11:10:10+00:00",
       "category": "us_market",
-      "age_hours": 11.1,
-      "freshness_score": 78,
+      "age_hours": 11.3,
+      "freshness_score": 77,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -181,7 +181,7 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-05T09:48:21+00:00",
       "category": "korea",
-      "age_hours": 12.4,
+      "age_hours": 12.7,
       "freshness_score": 75,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -192,7 +192,7 @@
       "source": "upi",
       "published_at_utc": "2026-11-05T09:21:40+00:00",
       "category": "korea",
-      "age_hours": 12.9,
+      "age_hours": 13.1,
       "freshness_score": 74,
       "headline_tone": "부정 표현",
       "sectors": [
@@ -205,8 +205,8 @@
       "source": "Houston Chronicle",
       "published_at_utc": "2026-11-05T03:34:33+00:00",
       "category": "korea",
-      "age_hours": 18.7,
-      "freshness_score": 63,
+      "age_hours": 18.9,
+      "freshness_score": 62,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
