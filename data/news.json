@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-05T22:29:37.990241+00:00",
-  "generated_at_kst": "2026-11-06T07:29:37.990241+09:00",
+  "generated_at_utc": "2026-11-05T22:44:23.741456+00:00",
+  "generated_at_kst": "2026-11-06T07:44:23.741456+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -35,10 +35,10 @@
     },
     {
       "category": "us_market",
-      "title": "US stocks tumble as Nasdaq, Dow, S&P 500 fall; chip stocks and AI data centre shares plunge - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVQ?oc=5",
-      "source": "Hindustan Times",
-      "published_at_utc": "2026-11-05T16:55:00+00:00"
+      "title": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiMU5kdnJ3NnlRdlB3SHdGMXNPZXRRZTFSSWtpYU5MRXltODlSZTNvSjRTMzVYN2RqVy1seFBKbFhyQU5VS0RzbFl1a0ktUDduZzk0MXN0Ri1FUl91VkFKR1hXX2xoNEE4TU02NFJieXg3anB2TEN0OGw1T21Sdw?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-04T17:37:46+00:00"
     },
     {
       "category": "semiconductor",
@@ -77,17 +77,17 @@
     },
     {
       "category": "korea",
-      "title": "A wipeout for AI stocks sends Wall Street reeling, and the S&P 500 tumbles more than 3% - The Northern Virginia Daily",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNcDZkUWlFbnA1ZVU3RFBZeFI3dVZyc3N3ekFOTWlCNHpLQ2tOTlZyVmRuVFNjWm9KR3FmM2xhYTJYTG9LMU1xR0VZY2pPX2ZxUXNwMkFGWmo5a242VEJlMXFWcWx3T0NjZnZjR2R1Y0tER09VVTlVWWJqSXF5ZnZHd09jWVlzYU96TjNDR0g0NkJKbVdfTm95cGJWeVVnUnRQUkVxRHNVT3BLQlBUUG1EcDVoS3h6bGFaNGcxdGF5U21FX1hDSENGbjBEc2VyX0o0TTRLV1gybHpWdTBZVk9sUVJYZ3JxcmxYZlRYSGFLVkNkYUw1UlNYM0k0cE9KM0NoZ2steUhFUmROYWFG?oc=5",
-      "source": "The Northern Virginia Daily",
-      "published_at_utc": "2026-11-05T15:41:43+00:00"
-    },
-    {
-      "category": "korea",
       "title": "World shares mostly gain after US midterm elections as AI-related stocks sink - MySA",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzFtT2NncTNEVUU1WUZuNGVjckFMNUpCVDdSWkg5Z19HYm1Wb0VUVWVRY1JXVzJ4elJOTndvX3lramw0QkFMZGxwdGk5WHFXSVFqdWhlY0g0NF9ZNUVXdmFtMXNValpQSHBiYm1QSmVaUGN3Y2swUG1QOUZUZWVJa2sxWTc3cVRRM3RiZmtzNVNkQzRxZ3k0?oc=5",
       "source": "MySA",
       "published_at_utc": "2026-11-05T14:13:46+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "A wipeout for AI stocks sends Wall Street reeling, and the S&P 500 tumbles more than 3% - The Killeen Daily Herald",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNN2RIQ0JqY2dyQk5RNzNMWVBDRW12cUw1ZFFFU0c0U0VNdFp5Nl9vLU1aZGkwVWhaa0FrRVpuem5FbDM4T1FJYkJIVk14WmNXUEJHdG11YjBrNGYyUDF1aC1NMjJ0Uk1sZGJuZVY1QmVKY1hrUWVVaTBFa2JmSGdUZFllMHo4eUlBRDhlVEhTNWZYelRFcmFIVzg1OEkxeWwtMVVyTUxYZFg3MVIzeW94dWFxYktUZDR1UnBOLWJwNWFBR2VsZUFPRzBZb1k2U0F0c3NpbnJvam1Qa0lpRnNZSUcwX2RuUQ?oc=5",
+      "source": "The Killeen Daily Herald",
+      "published_at_utc": "2026-11-05T18:52:54+00:00"
     },
     {
       "category": "korea",
