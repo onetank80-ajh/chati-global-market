@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-05T09:00:31.208093+09:00",
+  "generated_at_kst": "2026-11-06T07:15:05.728208+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-05T08:25:35.125600+09:00",
+  "market_snapshot_at": "2026-11-06T07:15:05.574714+09:00",
   "news_snapshot_at": "2026-11-05T07:45:38.225594+09:00",
-  "market_snapshot_age_hours": 0.58,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-05T06:30:00+09:00",
-  "briefing_delay_minutes": 150.5,
-  "briefing_deadline_delay_minutes": 90.5,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-05T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-06T06:30:00+09:00",
+  "briefing_delay_minutes": 45.1,
+  "briefing_deadline_delay_minutes": -14.9,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-06T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": 1.581,
-      "market_date": "2026-11-04",
-      "meaning": "상승"
+      "change_percent": -4.356,
+      "market_date": "2026-11-05",
+      "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": -3.13,
-      "market_date": "2026-11-04",
+      "change_percent": -12.246,
+      "market_date": "2026-11-05",
       "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.353,
-      "market_date": "2026-11-04",
-      "meaning": "원화 강세 방향"
+      "change_percent": 1.115,
+      "market_date": "2026-11-05",
+      "meaning": "원화 약세 방향"
     }
   ],
   "sectors": [
@@ -45,13 +45,13 @@
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "우호적 참고",
+      "view": "방향 확인 필요",
       "basis": "S&P500 종가 방향"
     },
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "원화 강세 참고",
+      "view": "환율 변동 확인",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -107,7 +107,6 @@
   ],
   "news_snapshot_fresh": true,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
