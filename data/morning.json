@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-06T07:29:34.983135+09:00",
+  "generated_at_kst": "2026-11-06T07:46:22.991392+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-06T07:29:34.863841+09:00",
-  "news_snapshot_at": "2026-11-06T07:15:08.968106+09:00",
+  "market_snapshot_at": "2026-11-06T07:46:22.826370+09:00",
+  "news_snapshot_at": "2026-11-06T07:44:23.741456+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-06T06:30:00+09:00",
-  "briefing_delay_minutes": 59.6,
-  "briefing_deadline_delay_minutes": -0.4,
-  "briefing_late_over_10min": false,
+  "briefing_delay_minutes": 76.4,
+  "briefing_deadline_delay_minutes": 16.4,
+  "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-06T07:30:00+09:00",
-  "briefing_missed_0730_deadline": false,
+  "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 1.115,
+      "change_percent": 1.072,
       "market_date": "2026-11-05",
       "meaning": "원화 약세 방향"
     }
@@ -63,12 +63,6 @@
       "published_at_utc": "2026-11-05T21:30:09+00:00"
     },
     {
-      "title": "S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-11-05T20:53:39+00:00"
-    },
-    {
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed After Post-Midterm Rally— TM, ARM, QCOM in Focus (UPDATED) - TradingView",
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPT3FLQnhfQkF1S1ViSzhqUzF5bkdvMVFzUXVXanhMdEhRYkFrWG90Vk1YWGJXN1NCeGx4ZWxFWUVMRm5fNmdkSzFFSGtaY1o3VHU1WkpvSHpzVDZmMk44eWdmankxNEx6RHdvcDFaM2h3NmJUbDdXSTNJYVBIQWxVWVBOSWNncURwWlp2UncyX1FBMl8wYk43bUxBUGRHZDc0NTNRQktreF9sMkhWRXlwNDV2SktoNEd4SGlpWmEzVGFxdFQ2aUJuaDdKdkpMTEI0VVBaQjduMWxMX3FQSHZENENfWnRoeHhKaFJNckF2ZTA0dTZ0cTVIOGR4NC1ZbHMyV1RMWEpIc0IybFNU?oc=5",
       "source": "TradingView",
@@ -85,6 +79,12 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VTFRDVE44bDBHcTRWa0F6bUZuQUptdkJPdFZYQlBNcHdxWmNLRGZHWkgyZk1BX3BxeWVHdnFqWHQxbXlVb0FrZ3ZQRUxac2FDVHd4dDhwTjU5Zw?oc=5",
       "source": "www.tokenpost.com",
       "published_at_utc": "2026-11-05T17:42:00+00:00"
+    },
+    {
+      "title": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiMU5kdnJ3NnlRdlB3SHdGMXNPZXRRZTFSSWtpYU5MRXltODlSZTNvSjRTMzVYN2RqVy1seFBKbFhyQU5VS0RzbFl1a0ktUDduZzk0MXN0Ri1FUl91VkFKR1hXX2xoNEE4TU02NFJieXg3anB2TEN0OGw1T21Sdw?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-04T17:37:46+00:00"
     },
     {
       "title": "Not Nvidia. Not AMD. 2 Chip Stocks I'd Buy Before the End of the Year. - Yahoo Finance",
@@ -107,6 +107,7 @@
   ],
   "news_snapshot_fresh": true,
   "warnings": [
+    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
