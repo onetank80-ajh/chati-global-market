@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-05T08:25:02.692343+00:00",
-  "generated_at_kst": "2026-11-05T17:25:02.692343+09:00",
+  "generated_at_utc": "2026-11-06T08:21:08.740326+00:00",
+  "generated_at_kst": "2026-11-06T17:21:08.740326+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
@@ -9,41 +9,41 @@
       "symbol": "^KS11",
       "name": "코스피",
       "status": "ok",
-      "market_date": "2026-11-05",
-      "close": 5383.8,
-      "previous_close": 5683.8,
-      "change_percent": -5.278,
-      "volume": 256819
+      "market_date": "2026-11-06",
+      "close": 5059.69,
+      "previous_close": 5383.8,
+      "change_percent": -6.02,
+      "volume": 297036
     },
     "kosdaq": {
       "symbol": "^KQ11",
       "name": "코스닥",
       "status": "ok",
-      "market_date": "2026-11-05",
-      "close": 678.41,
-      "previous_close": 714.95,
-      "change_percent": -5.111,
-      "volume": 408677
+      "market_date": "2026-11-06",
+      "close": 644.27,
+      "previous_close": 678.41,
+      "change_percent": -5.032,
+      "volume": 417550
     },
     "samsung": {
       "symbol": "005930.KS",
       "name": "삼성전자",
       "status": "ok",
-      "market_date": "2026-11-05",
-      "close": 201500.0,
-      "previous_close": 218000.0,
-      "change_percent": -7.569,
-      "volume": 25814337
+      "market_date": "2026-11-06",
+      "close": 188700.0,
+      "previous_close": 201500.0,
+      "change_percent": -6.352,
+      "volume": 35381435
     },
     "skhynix": {
       "symbol": "000660.KS",
       "name": "SK하이닉스",
       "status": "ok",
-      "market_date": "2026-11-05",
-      "close": 1264000.0,
-      "previous_close": 1396000.0,
-      "change_percent": -9.456,
-      "volume": 4492283
+      "market_date": "2026-11-06",
+      "close": 1132000.0,
+      "previous_close": 1264000.0,
+      "change_percent": -10.443,
+      "volume": 8115788
     }
   }
 }
