@@ -1,114 +1,114 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-05T22:46:25.851282+00:00",
-  "generated_at_kst": "2026-11-06T07:46:25.851282+09:00",
+  "generated_at_utc": "2026-11-08T22:04:09.290030+00:00",
+  "generated_at_kst": "2026-11-09T07:04:09.290030+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
     {
       "category": "us_market",
-      "title": "Nasdaq posts biggest daily drop in 19 months on fears of AI regulations - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-05T21:30:09+00:00"
+      "title": "DW News. . Concerns that newly elected US leaders will increase AI regulation sparked a multi-trillion dollar market sell-off, wiping out billions in tech valuations and rattling investors. The sharp decline has renewed debate over the futu",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSEt6R0FseWsyTjE4S3lOUlpxWTd2b2JvZmx2amZ3SmNHMk1mSEV5REFWNDB1RWx3Y1JJbTJscXZ0VXRnc1FuM0JmTlJMaExQajd3VkFyUVROQ1c2a1Nhb2RYaDBURU1PZEFqSnlOMHB4c1pJc21mSnlCekZJMmNUUV9ZdHVNQnVJZG9Nck1tenBkaFVYR1lDRDRMWXpsYjZsUFp2eVowckRFVXRoMW84bGFBRVMwLUlOdHFNazFveGNSZmtkdzBRek5ialRWTkpQbTRCdElWd0hOd01GbVVLNU9n?oc=5",
+      "source": "Facebook",
+      "published_at_utc": "2026-11-06T22:45:03+00:00"
     },
     {
       "category": "us_market",
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed After Post-Midterm Rally— TM, ARM, QCOM in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPT3FLQnhfQkF1S1ViSzhqUzF5bkdvMVFzUXVXanhMdEhRYkFrWG90Vk1YWGJXN1NCeGx4ZWxFWUVMRm5fNmdkSzFFSGtaY1o3VHU1WkpvSHpzVDZmMk44eWdmankxNEx6RHdvcDFaM2h3NmJUbDdXSTNJYVBIQWxVWVBOSWNncURwWlp2UncyX1FBMl8wYk43bUxBUGRHZDc0NTNRQktreF9sMkhWRXlwNDV2SktoNEd4SGlpWmEzVGFxdFQ2aUJuaDdKdkpMTEI0VVBaQjduMWxMX3FQSHZENENfWnRoeHhKaFJNckF2ZTA0dTZ0cTVIOGR4NC1ZbHMyV1RMWEpIc0IybFNU?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-05T13:46:42+00:00"
+      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZHI1Z0dnMGRCMzM2V3lfUVZpTjE5dWNLQTl6ZWpCRnZVemRUcWtxNHR0TS1qY1Q3LVhnZXpkc0pXbS11Vmd1ZGdFU196aWRYQnpTdzRYXzBIcThIdmhyaDd0ck1iT1RMRl9zODN5bXpVVWZleXlnZDJOYm83Q3VTUzFNa1RUeDVqNXBwWnpfOE1URS1YV29FSG5wQWJLU0F6cWZKQkpLeGh6QzVRWDFQZXpLdEowbE1HeE95MWt6SU1BYzJPY0ttb09rRG43RkxzOGJQYXhid0M3Y3RrRXB0alhEeHZoZHp3aWtBTk12ZkNXTGJSemFTbXJlTWR2a0ZpUTRVTW1rWVc4N3NLZVZoMFdsS0lPaUVrTlFlOTRtbkVsT2hXbkRlR2VUX21ra1FMZGhBX21B?oc=5",
+      "source": "Moomoo",
+      "published_at_utc": "2026-11-07T06:06:08+00:00"
     },
     {
       "category": "us_market",
-      "title": "Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "source": "Investment Week",
-      "published_at_utc": "2026-11-05T11:10:10+00:00"
+      "title": "How Are Dow, S&P 500, Nasdaq Futures Reacting Ahead Of Key Federal Reserve Rate Decision? - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNY2lIZGFzQ1Z4di01ZENub2hKSmNsSjg0aE1oTmhnYmJnbTd1SUhPN0R6ekEtNXZ0U3N2TzdXMWptSG5wTXQ1V3hKTVRuYVhXRzdCcXptbUN5emN3UlFVS1AxQVhYdGF2cW5JZFFCeVUtR0Y5VWFjVXE0aFR0Y3l1QmFmQmNmSURCVVFCZDBKSmlyVDVVenR3R2NvNUlGMmxvanFfVnh1WHc2MVFqaDRrSDBWQ0l5eWxNNDZpUVFBd2RrSVp6cFlaSVdrU3k5NmgzY0pjV01RZXU0eXVWSzh3cm52R1M0V1pRZ1E5YWtPQ0VmWTlmY2FHZEVOeFpOZ0VmcXNaemVDbXM0YlpEMThOVFhtRXhMLUxTdzhBOHd0QQ?oc=5",
+      "source": "Stocktwits",
+      "published_at_utc": "2026-11-07T12:19:28+00:00"
     },
     {
       "category": "us_market",
-      "title": "Nasdaq Took More Than a Decade to Recover From 78% Dot-Com Drop - www.tokenpost.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VTFRDVE44bDBHcTRWa0F6bUZuQUptdkJPdFZYQlBNcHdxWmNLRGZHWkgyZk1BX3BxeWVHdnFqWHQxbXlVb0FrZ3ZQRUxac2FDVHd4dDhwTjU5Zw?oc=5",
-      "source": "www.tokenpost.com",
-      "published_at_utc": "2026-11-05T17:42:00+00:00"
+      "title": "Global AI and Semiconductor Stocks Plunge; S&P 500 Tumbles 4.4% in a Single Day as Markets Watch Whether Three Central Banks Will Raise Rates in December - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhdXJRSlZRRi1FZUZXTlI1UmNkd3RVcDlNUHhoVmM3Q3BraUtrZGM1T0htQnRNaXROaWFabWNyV1RKQWZkZ0lKeVdOUGxJRW1xRjVsYXktZ0syVlFPLUpBSTBZMWNQc3VJZHRXX245NWVveVNUdVE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-08T04:35:00+00:00"
     },
     {
       "category": "us_market",
-      "title": "US stocks tumble as Nasdaq, Dow, S&P 500 fall; chip stocks and AI data centre shares plunge - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVQ?oc=5",
-      "source": "Hindustan Times",
-      "published_at_utc": "2026-11-05T16:55:00+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T21:07:41+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1RQdk1xQmNNTThNUDdYQzNoNDJCS255VERTZE1BQzRhRi1kNmVzRmU1bTZJR3Eyd240c1pOdmtVaU5OdE51ZE9IZk9feWxZUnJXTUgyYm1FeEx2V1hySnVfaHpnOHBFRXhGd3F4MG5Ec3RHZklJQ2FoRGtvRG9qVkg0akI2ZV90Rl9wMGh2S0lTZFBwb05ZRFplXzM4T0tmQm9CTmYtdUJ2Z2YtMGNHa2RVeFl3b0lhalhObktPdW1TSUZ5cFItbzFBeTNfWk56cGljeXpQVVRnX083OFljNFFvbUEwX1V4T2RWUE9JM1RQZldZY1lrX3QtZGM4R0s3VnR1emZWOEpGaXUy?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-05T19:04:39+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTDNYN2cxV2pHRDRoZm0tUEFobGpnYzBKMUtlbUgwMFF1TklfMU9ZbkpFQnZCamZYVXY4dWFpTVRWUFhmczRvSi1TRnpNOUlpMlZGNnRQaWNpYzBzY1VqaVhUeVBpR0tYOXpuTGlZejhkVlZ5d18takN1ZGdTSkV5MHFTZm1FYVdNYUl0NW9RS3JMMWVJc3MwWA?oc=5",
+      "title": "President Donald Trump Just Proclaimed That \"Inflation Is Way Down,\" but Federal Reserve Economists Have a Different Take - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWUZrODR3aVR4d1FKVGs5a044TC0wMW9hMThPbHFDOGI4VmExMjJ5MFdzSGNKVW8tVTM4UmU0V1o1UW1MYzJMeXZHSUFUSlhOUFlnekhUTG9CQXhEdnlBY0ZfWC1meW43T2hVbm5vYzkwMXBpbV8zakpnSVR3Mk12NFpfdTQ3MEx1M29fWmhsaGZ5Q21hdEU0VXJUeHZ0bDlkeTdRTHVQVnl5Wm9IS3FxS3lrU0VHYVllVnZrX3IyV2tLNFF5TURaNUpB?oc=5",
       "source": "The Motley Fool",
-      "published_at_utc": "2026-11-05T15:02:00+00:00"
+      "published_at_utc": "2026-11-07T09:06:00+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Not Nvidia. Not AMD. 2 Chip Stocks I'd Buy Before the End of the Year. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUFXclpac1RMTFZVWXRpQkJyc3ZCbGw5VjRXZlA5NzJOcTVOUXVTNVNfcm40N0pSblpDeEZXMHdLQjhFOEYtb3B4eS1SOVBBX0NZa2N6aXlhSWpndTdudjRNMk1tY21rVHdyWnpnR2gwajZmVjdBWDAzcl84Q3B0Vjd1bWUyZks3OHpNWldB?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T18:33:00+00:00"
+      "title": "Nvidia Stock Wavers As Chipmaker Rounds Up Funding For AI Buildout - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkx5Z0R4V1dsTXQwTjdaeTNIbGNtTVZaTjJ2dTkyZnFkaFA4MEVJZ21JY3JRNm5FaWVkU0ZNZFUwTGFwS0VKSUpmd0FNbk40aDFDeWc4RDFYbTMwWVRLbkRNNjB5Z2hlWWVYckNqNnNmWHdiWXhla3I5dTdEUWhxSkJlRQ?oc=5",
+      "source": "Investor's Business Daily",
+      "published_at_utc": "2026-11-08T20:00:07+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "QQQ stock today falls over 5%: Why Nvidia (NVDA), Qualcomm (QCOM), Intel (INTC) and Marvell (MRVL) are dra - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNNUZDc2RzT3FCTWFKdUQ4ZFhZVUN4MkpyYmw0eERwVkdXV0p3d2ZJcU42dmQ1bTlTaDRrX2h5bklMU01kMTNNZUlnWmJfV0JCTURsbTVtdzBpTXJpQ3RqbVZSTWp3UG9wbjIzNjhkdHFzTUtIbUQ1YlQ0S19DWmxCWkpmbGJiSk5STFE2dE4yNGFqMm5icExzQVdMc2Z1UVhoTEdjcHc3Ny0xZzNmaXFoM1hlV2MxaXJwTnlXYjNHcUN6eDFydThGSEdseE5RUXRraEZwakF2RElZRDBGbTI4NGEzb1NmaEJRSnluSjEyZV9uZVd1TnpkblJWdGpDTjgyQkI0X0JtNlpMZFlXMGt4WVRGRlVjMUp1TUZaWW9yRzdhZjZE0gGqAkFVX3lxTFBLMXVmTVB6cDhmdWYySEQ5SG56ek4xMXkwU3o2WkpnaVBsZWFsLUR3X1NFWVFkMkJkNzRHYXJ2aFAySk5CWGlibnBMZFBCd2VkMnMwcUJVNlBpZjFqNTBVOVhZSHBiRjEwcmNOcXdCbzY0NUZsdF9VZWJlbFl0Q25LSG5oQzR5NjlMNTN4eThJRmJ1anAxcnk5SWN2Q3ZwMEl1LXNvbnVyZ19IcGxQclVPOXVIOUlwQnJ6NF9kclpZYU1FZmRNU3lNbVpvRVM0RktGWmxLWlNkSE1ndExtS082cGJsTGVTc000SHM3Z0s5ZlNFVVVGTUxFSG5PN3R5VFRUb1dibkZjb2REZDhhTlpSanZyaUJ1SW9IdnBxUXdXOVFvVkdSM0stNFE?oc=5",
-      "source": "The Economic Times",
-      "published_at_utc": "2026-11-05T17:50:08+00:00"
+      "title": "Not Nvidia. Not Micron. After the Chip Sell-Off, I'd Buy This AI Stock and Hold It Forever. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkFIQnRzcUlHQ3RmeDdrb05BdzM5UnU0Z3ZmN29DQ2pDSHJ0NlNlTU5XamE0bUdKaEkxOExkTTdKRjdpX1FSUjk3a0ZDRFJPMTA0cVVUVTFJaDNjdXpva0FhMXViM1FHVHJkbUNRQ2hjOWhYdVV4Y3dzS21yZGJHbllITTBNWElSYVFQUks3UXpKcG9sVnVUTA?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-07T14:16:00+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "TSMC is weighing a move into 3D DRAM at Nvidia's request, The Information reports - MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemhyNXBEM1dNeUVlbGZvNDVjbHlOdzNQenQ2TlZ5MHQxVzE4dVFOMU1haFBiVkRzTUowQzB4RVNXNnAyMEtYclE5LTJiNTkwNG1zMnNYRHBGTUxNVFRWbVNrS1Q0RDdCVF9XcUVHdFpzWndLQTFCbVBpMlpwZE1EVllfSEFtWVN5dklFODZGeWdrRU9Sb0I1dGdnSzNrUTFibGc?oc=5",
+      "source": "MLQ.ai",
+      "published_at_utc": "2026-11-07T10:20:04+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Nvidia Shares Rebound After Historic Semiconductor Selloff - Demokratis.co.id",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBscWtRTVdiVmRtNmZ6VDBfRjFSQzhiTXNnd29nd1ZBeVo4QUpuV21nd3dDOVVINWJsQVNFNW42Y2J4bGVrajlxNWlVZVcwYXdjVHpkNWl0N1hhZ1FiOTh3UlNQY0w1dGpfenZmMnY5UW5vQQ?oc=5",
+      "source": "Demokratis.co.id",
+      "published_at_utc": "2026-11-07T19:01:00+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "S&P 500 posts worst week since April 2025, led by sharp tech and chip stock declines. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVozVTNOWDVvN3puUW41NmRobWRDaUIwZzR6U0xIU0hMVC1TaHZvYnBGOURWbTJ3QkRndGhUNWoyS3hEMEtkTzMzT3owTUg5cUkzcDV5bEFJY1JtMFd2cGg3U1FEZkRjLU9XaVJqbDB0Z281RzQ4aVpGeHhfZFFpOUh0Zw?oc=5",
+      "source": "Pluang",
+      "published_at_utc": "2026-11-07T17:44:54+00:00"
     },
     {
       "category": "korea",
-      "title": "World shares mostly gain after US midterm elections as AI-related stocks sink - MySA",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzFtT2NncTNEVUU1WUZuNGVjckFMNUpCVDdSWkg5Z19HYm1Wb0VUVWVRY1JXVzJ4elJOTndvX3lramw0QkFMZGxwdGk5WHFXSVFqdWhlY0g0NF9ZNUVXdmFtMXNValpQSHBiYm1QSmVaUGN3Y2swUG1QOUZUZWVJa2sxWTc3cVRRM3RiZmtzNVNkQzRxZ3k0?oc=5",
-      "source": "MySA",
-      "published_at_utc": "2026-11-05T14:13:46+00:00"
+      "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
+      "source": "Yahoo Finance UK",
+      "published_at_utc": "2026-11-07T16:49:31+00:00"
     },
     {
       "category": "korea",
-      "title": "A wipeout for AI stocks sends Wall Street reeling, and the S&P 500 tumbles more than 3% - The Killeen Daily Herald",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNN2RIQ0JqY2dyQk5RNzNMWVBDRW12cUw1ZFFFU0c0U0VNdFp5Nl9vLU1aZGkwVWhaa0FrRVpuem5FbDM4T1FJYkJIVk14WmNXUEJHdG11YjBrNGYyUDF1aC1NMjJ0Uk1sZGJuZVY1QmVKY1hrUWVVaTBFa2JmSGdUZFllMHo4eUlBRDhlVEhTNWZYelRFcmFIVzg1OEkxeWwtMVVyTUxYZFg3MVIzeW94dWFxYktUZDR1UnBOLWJwNWFBR2VsZUFPRzBZb1k2U0F0c3NpbnJvam1Qa0lpRnNZSUcwX2RuUQ?oc=5",
-      "source": "The Killeen Daily Herald",
-      "published_at_utc": "2026-11-05T18:52:54+00:00"
+      "title": "Foreigners Sell ₩8.7 Trillion in Korean Stocks, Yet Won Holds Steady With 1% Move — Semiconductor Dollars Are the Anchor - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IUE41dWVOS0lPUk5iOWJEbUFkWEJFckhmbi1nS2tUSllyOTJTOEVjYWY2Z2FzQnpQMURfUklxLVVmUWVBYUNsRkZlRzl3OFBDempCNFhneDk4MUlpMHVGYjR6aHZCXy1paEpIVEhLelI1dUdZeXc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-08T20:35:00+00:00"
     },
     {
       "category": "korea",
-      "title": "Seoul shares plunge over 5 pct on AI regulation concerns after U.S. midterms - upi",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZFZEWmFYZHlwQlB6MTNEbTROd0dHQWI5S2VoTWxFdEhLSDl0S1N2UWo2SnBnYm00ZXhOZ2lyR3Qtc3hsZjdvSGU2VjBfQkdIc1Z4LWVpSERUNVEwdXpONmRtSHJLMU1fSVZ6SmZzYTVjcDh6clNuRjdPQnp4WktMaVNrWk12c0JMV09hNDNFUWJEY2NMZmd4Umx4cnB1T20tMDR2SVVJR2xGTGwxeE55aGVMaWRESWxFSW8xeEQxSDFXUXZMYnZ1aTRUUDJCVHdO0gHWAUFVX3lxTFBDdlJKRUJWbDVxYVUwUlRuOGNndW91YVJCVW96VjlnMDBDWDdZOTZ4aVVNYkpzYUdkVDR4T0M1N3F4d0lOX0dDdHhIZ2dCSTBLNGtqZzJBSV9FQlA3aFRJYW5SdEc0Ml9tZC1JckV5ZlhpSFpwYWY5ZkpnSjZJNVRrMEhOMW11NFRqVXRiUHByclExX2dNcFZJNnBfa3IwQTVpOHJSdlFTV1hxWU1HZ0ZyQmpSQ2tkVUNjRmhUUWhYeUJraVJ0Ry1KOUZhbVBtWFgwZkh2Zmc?oc=5",
-      "source": "upi",
-      "published_at_utc": "2026-11-05T09:21:40+00:00"
+      "title": "KOSPI Decline Drives Annual Lows for One-Third of Listed Companies - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQkczT0RMWEVaSEo3d1NtV19RbzBEUDhKay1VeFNtcGFJV3g0bDVFZG9hamdodmlpb1V1LXBJZlppeWxWT1BHZFZSYmN1UDUzcWl1U3JXWGZhVGRDSHVhWVBrdS1NYklfU2dVdmZKX000S28wTWd0QXFQV3VvQUNsRDJIVjQyRnpPRWNFcDRB?oc=5",
+      "source": "조선일보",
+      "published_at_utc": "2026-11-08T15:34:46+00:00"
     },
     {
       "category": "korea",
-      "title": "Asian shares mostly advance following US midterms, though Kospi falls on selling of chipmakers - Houston Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWlqU3hiZ0FsS19GZ05OV2x2R2dTUFh6UG56T2RhYVFza24zaGJMTzk3TDZKdXBfLW0zajNkYVlDN3c1T3dUTlYtNnItbVI1U2ZpSFkxM0VPODAyMGZ6LWxRNDhnLWdxek5yYVA3azZaQ0FRZUVLYXpVY2MyQmI2RmpfNWd4SWxqdnF6VWpuSXNuOEd3SXpENl9zNXFFelozMGJvMWln?oc=5",
-      "source": "Houston Chronicle",
-      "published_at_utc": "2026-11-05T03:34:33+00:00"
+      "title": "South Korea’s US$1.7 tril rout burns day traders, challenges Lee - The Edge Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aS1Q2YlZHUEZuclZqcGJmS09vV0NLaWprR1VjX3IxNExWUmpKRHFIaUdPUmlOS094ZF8xcUp1ZHhrUVpSQUhmak1YVDNUYkpW?oc=5",
+      "source": "The Edge Malaysia",
+      "published_at_utc": "2026-11-08T10:20:05+00:00"
     },
     {
       "category": "korea",
-      "title": "[Closing Market] KOSPI Plunges Below 5,400 on Blue Wave Fears - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QVWRzTTRraVR0dEpzc3c1b0RrNnVFSVJrRE9JT0U2UXQ5cWI4N0tSOUJlelJjcmlETXpXdklVYzVMNHg1VE00VVJHaTNCaVNSNGNuYlkzVDdrcHJMMXlNTVhhcDZqU3d1Z3pfNlRGWGczTGZC?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-05T09:48:21+00:00"
+      "title": "Lone Gainer Amid a Market Rout: Parking ETFs Draw 2.2 Trillion Won in a Month [This Week’s ETF to Watch] - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UbFpQZFppbjZhSTE0azQzTkprTVVWVmJqeWVVdFNOY3MxUnVUS1R4X2E1b2xoYjhUX3hFaGh0N0JYRnFRZFo3S3NOLXB6YVBFaWlz?oc=5",
+      "source": "매일경제",
+      "published_at_utc": "2026-11-08T08:20:00+00:00"
     }
   ],
   "warnings": []
