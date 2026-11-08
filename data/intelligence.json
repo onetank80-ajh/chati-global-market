@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-06T00:03:37.977586+00:00",
+  "generated_at_utc": "2026-11-08T22:04:06.714309+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 14,
-  "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-06T08:26:52.128067+09:00",
+  "headline_count_after": 0,
+  "news_snapshot_fresh": false,
+  "market_snapshot_at": "2026-11-09T07:04:06.599951+09:00",
   "market_signals": {
     "sp500": {
-      "change_percent": -4.356,
-      "market_date": "2026-11-05",
+      "change_percent": 0.315,
+      "market_date": "2026-11-06",
       "status": "ok"
     },
     "sox": {
-      "change_percent": -12.246,
-      "market_date": "2026-11-05",
+      "change_percent": 4.207,
+      "market_date": "2026-11-06",
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 1.062,
-      "market_date": "2026-11-05",
+      "change_percent": 0.536,
+      "market_date": "2026-11-08",
       "status": "ok"
     },
     "nasdaq": {
-      "change_percent": -5.523,
-      "market_date": "2026-11-05",
+      "change_percent": 1.088,
+      "market_date": "2026-11-06",
       "status": "ok"
     }
   },
@@ -35,13 +35,13 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
+      "view": "방향 확인 필요",
+      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "방향 확인 필요",
+      "view": "우호적 참고",
       "basis": "S&P500 종가 방향"
     },
     {
@@ -51,156 +51,9 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "top_headlines": [
-    {
-      "title": "Asian shares mostly advance following US midterms, though Kospi falls on selling of chipmakers - Houston Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWlqU3hiZ0FsS19GZ05OV2x2R2dTUFh6UG56T2RhYVFza24zaGJMTzk3TDZKdXBfLW0zajNkYVlDN3c1T3dUTlYtNnItbVI1U2ZpSFkxM0VPODAyMGZ6LWxRNDhnLWdxek5yYVA3azZaQ0FRZUVLYXpVY2MyQmI2RmpfNWd4SWxqdnF6VWpuSXNuOEd3SXpENl9zNXFFelozMGJvMWln?oc=5",
-      "source": "Houston Chronicle",
-      "published_at_utc": "2026-11-05T03:34:33+00:00",
-      "age_hours": 20.5,
-      "relevance_score": 74,
-      "tags": [
-        "한국시장 직접언급",
-        "반도체/AI"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "US stocks tumble as Nasdaq, Dow, S&P 500 fall; chip stocks and AI data centre shares plunge - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVQ?oc=5",
-      "source": "Hindustan Times",
-      "published_at_utc": "2026-11-05T16:55:00+00:00",
-      "age_hours": 7.1,
-      "relevance_score": 53,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "[Closing Market] KOSPI Plunges Below 5,400 on Blue Wave Fears - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QVWRzTTRraVR0dEpzc3c1b0RrNnVFSVJrRE9JT0U2UXQ5cWI4N0tSOUJlelJjcmlETXpXdklVYzVMNHg1VE00VVJHaTNCaVNSNGNuYlkzVDdrcHJMMXlNTVhhcDZqU3d1Z3pfNlRGWGczTGZC?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-05T09:48:21+00:00",
-      "age_hours": 14.3,
-      "relevance_score": 51,
-      "tags": [
-        "한국시장 직접언급"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T21:07:41+00:00",
-      "age_hours": 2.9,
-      "relevance_score": 45,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1RQdk1xQmNNTThNUDdYQzNoNDJCS255VERTZE1BQzRhRi1kNmVzRmU1bTZJR3Eyd240c1pOdmtVaU5OdE51ZE9IZk9feWxZUnJXTUgyYm1FeEx2V1hySnVfaHpnOHBFRXhGd3F4MG5Ec3RHZklJQ2FoRGtvRG9qVkg0akI2ZV90Rl9wMGh2S0lTZFBwb05ZRFplXzM4T0tmQm9CTmYtdUJ2Z2YtMGNHa2RVeFl3b0lhalhObktPdW1TSUZ5cFItbzFBeTNfWk56cGljeXpQVVRnX083OFljNFFvbUEwX1V4T2RWUE9JM1RQZldZY1lrX3QtZGM4R0s3VnR1emZWOEpGaXUy?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-05T19:04:39+00:00",
-      "age_hours": 5.0,
-      "relevance_score": 44,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Not Nvidia. Not AMD. 2 Chip Stocks I'd Buy Before the End of the Year. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUFXclpac1RMTFZVWXRpQkJyc3ZCbGw5VjRXZlA5NzJOcTVOUXVTNVNfcm40N0pSblpDeEZXMHdLQjhFOEYtb3B4eS1SOVBBX0NZa2N6aXlhSWpndTdudjRNMk1tY21rVHdyWnpnR2gwajZmVjdBWDAzcl84Q3B0Vjd1bWUyZks3OHpNWldB?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T18:33:00+00:00",
-      "age_hours": 5.5,
-      "relevance_score": 44,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "QQQ stock today falls over 5%: Why Nvidia (NVDA), Qualcomm (QCOM), Intel (INTC) and Marvell (MRVL) are dra - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNNUZDc2RzT3FCTWFKdUQ4ZFhZVUN4MkpyYmw0eERwVkdXV0p3d2ZJcU42dmQ1bTlTaDRrX2h5bklMU01kMTNNZUlnWmJfV0JCTURsbTVtdzBpTXJpQ3RqbVZSTWp3UG9wbjIzNjhkdHFzTUtIbUQ1YlQ0S19DWmxCWkpmbGJiSk5STFE2dE4yNGFqMm5icExzQVdMc2Z1UVhoTEdjcHc3Ny0xZzNmaXFoM1hlV2MxaXJwTnlXYjNHcUN6eDFydThGSEdseE5RUXRraEZwakF2RElZRDBGbTI4NGEzb1NmaEJRSnluSjEyZV9uZVd1TnpkblJWdGpDTjgyQkI0X0JtNlpMZFlXMGt4WVRGRlVjMUp1TUZaWW9yRzdhZjZE0gGqAkFVX3lxTFBLMXVmTVB6cDhmdWYySEQ5SG56ek4xMXkwU3o2WkpnaVBsZWFsLUR3X1NFWVFkMkJkNzRHYXJ2aFAySk5CWGlibnBMZFBCd2VkMnMwcUJVNlBpZjFqNTBVOVhZSHBiRjEwcmNOcXdCbzY0NUZsdF9VZWJlbFl0Q25LSG5oQzR5NjlMNTN4eThJRmJ1anAxcnk5SWN2Q3ZwMEl1LXNvbnVyZ19IcGxQclVPOXVIOUlwQnJ6NF9kclpZYU1FZmRNU3lNbVpvRVM0RktGWmxLWlNkSE1ndExtS082cGJsTGVTc000SHM3Z0s5ZlNFVVVGTUxFSG5PN3R5VFRUb1dibkZjb2REZDhhTlpSanZyaUJ1SW9IdnBxUXdXOVFvVkdSM0stNFE?oc=5",
-      "source": "The Economic Times",
-      "published_at_utc": "2026-11-05T17:50:08+00:00",
-      "age_hours": 6.2,
-      "relevance_score": 43,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Nasdaq posts biggest daily drop in 19 months on fears of AI regulations - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-05T21:30:09+00:00",
-      "age_hours": 2.6,
-      "relevance_score": 30,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Nasdaq Took More Than a Decade to Recover From 78% Dot-Com Drop - www.tokenpost.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VTFRDVE44bDBHcTRWa0F6bUZuQUptdkJPdFZYQlBNcHdxWmNLRGZHWkgyZk1BX3BxeWVHdnFqWHQxbXlVb0FrZ3ZQRUxac2FDVHd4dDhwTjU5Zw?oc=5",
-      "source": "www.tokenpost.com",
-      "published_at_utc": "2026-11-05T17:42:00+00:00",
-      "age_hours": 6.4,
-      "relevance_score": 28,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed After Post-Midterm Rally— TM, ARM, QCOM in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPT3FLQnhfQkF1S1ViSzhqUzF5bkdvMVFzUXVXanhMdEhRYkFrWG90Vk1YWGJXN1NCeGx4ZWxFWUVMRm5fNmdkSzFFSGtaY1o3VHU1WkpvSHpzVDZmMk44eWdmankxNEx6RHdvcDFaM2h3NmJUbDdXSTNJYVBIQWxVWVBOSWNncURwWlp2UncyX1FBMl8wYk43bUxBUGRHZDc0NTNRQktreF9sMkhWRXlwNDV2SktoNEd4SGlpWmEzVGFxdFQ2aUJuaDdKdkpMTEI0VVBaQjduMWxMX3FQSHZENENfWnRoeHhKaFJNckF2ZTA0dTZ0cTVIOGR4NC1ZbHMyV1RMWEpIc0IybFNU?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-05T13:46:42+00:00",
-      "age_hours": 10.3,
-      "relevance_score": 27,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "source": "Investment Week",
-      "published_at_utc": "2026-11-05T11:10:10+00:00",
-      "age_hours": 12.9,
-      "relevance_score": 26,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "A wipeout for AI stocks sends Wall Street reeling, and the S&P 500 tumbles more than 3% - The Killeen Daily Herald",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNN2RIQ0JqY2dyQk5RNzNMWVBDRW12cUw1ZFFFU0c0U0VNdFp5Nl9vLU1aZGkwVWhaa0FrRVpuem5FbDM4T1FJYkJIVk14WmNXUEJHdG11YjBrNGYyUDF1aC1NMjJ0Uk1sZGJuZVY1QmVKY1hrUWVVaTBFa2JmSGdUZFllMHo4eUlBRDhlVEhTNWZYelRFcmFIVzg1OEkxeWwtMVVyTUxYZFg3MVIzeW94dWFxYktUZDR1UnBOLWJwNWFBR2VsZUFPRzBZb1k2U0F0c3NpbnJvam1Qa0lpRnNZSUcwX2RuUQ?oc=5",
-      "source": "The Killeen Daily Herald",
-      "published_at_utc": "2026-11-05T18:52:54+00:00",
-      "age_hours": 5.2,
-      "relevance_score": 19,
-      "tags": [],
-      "category": "korea",
-      "needs_verification": true
-    }
-  ],
+  "top_headlines": [],
   "cautions": [
+    "뉴스 수집 시각이 오래되거나 확인되지 않아 기사 분석을 보류했습니다",
     "기사 본문과 제목 사실관계 미검증",
     "관련성 점수는 확률/매매신호가 아님",
     "뉴스 제목은 자동 번역되지 않음",

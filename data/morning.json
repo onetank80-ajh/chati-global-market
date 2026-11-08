@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-06T09:03:38.031081+09:00",
+  "generated_at_kst": "2026-11-09T07:04:06.752336+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-06T08:26:52.128067+09:00",
+  "market_snapshot_at": "2026-11-09T07:04:06.599951+09:00",
   "news_snapshot_at": "2026-11-06T07:46:25.851282+09:00",
-  "market_snapshot_age_hours": 0.61,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-06T06:30:00+09:00",
-  "briefing_delay_minutes": 153.6,
-  "briefing_deadline_delay_minutes": 93.6,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-06T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-09T06:30:00+09:00",
+  "briefing_delay_minutes": 34.1,
+  "briefing_deadline_delay_minutes": -25.9,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-09T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -4.356,
-      "market_date": "2026-11-05",
-      "meaning": "하락"
+      "change_percent": 0.315,
+      "market_date": "2026-11-06",
+      "meaning": "상승"
     },
     {
       "name": "반도체",
-      "change_percent": -12.246,
-      "market_date": "2026-11-05",
-      "meaning": "하락"
+      "change_percent": 4.207,
+      "market_date": "2026-11-06",
+      "meaning": "상승"
     },
     {
       "name": "원/달러",
-      "change_percent": 1.062,
-      "market_date": "2026-11-05",
+      "change_percent": 0.536,
+      "market_date": "2026-11-08",
       "meaning": "원화 약세 방향"
     }
   ],
@@ -39,13 +39,13 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
+      "view": "방향 확인 필요",
+      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "방향 확인 필요",
+      "view": "우호적 참고",
       "basis": "S&P500 종가 방향"
     },
     {
@@ -55,59 +55,10 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [
-    {
-      "title": "Nasdaq posts biggest daily drop in 19 months on fears of AI regulations - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-05T21:30:09+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed After Post-Midterm Rally— TM, ARM, QCOM in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPT3FLQnhfQkF1S1ViSzhqUzF5bkdvMVFzUXVXanhMdEhRYkFrWG90Vk1YWGJXN1NCeGx4ZWxFWUVMRm5fNmdkSzFFSGtaY1o3VHU1WkpvSHpzVDZmMk44eWdmankxNEx6RHdvcDFaM2h3NmJUbDdXSTNJYVBIQWxVWVBOSWNncURwWlp2UncyX1FBMl8wYk43bUxBUGRHZDc0NTNRQktreF9sMkhWRXlwNDV2SktoNEd4SGlpWmEzVGFxdFQ2aUJuaDdKdkpMTEI0VVBaQjduMWxMX3FQSHZENENfWnRoeHhKaFJNckF2ZTA0dTZ0cTVIOGR4NC1ZbHMyV1RMWEpIc0IybFNU?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-05T13:46:42+00:00"
-    },
-    {
-      "title": "Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "source": "Investment Week",
-      "published_at_utc": "2026-11-05T11:10:10+00:00"
-    },
-    {
-      "title": "Nasdaq Took More Than a Decade to Recover From 78% Dot-Com Drop - www.tokenpost.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VTFRDVE44bDBHcTRWa0F6bUZuQUptdkJPdFZYQlBNcHdxWmNLRGZHWkgyZk1BX3BxeWVHdnFqWHQxbXlVb0FrZ3ZQRUxac2FDVHd4dDhwTjU5Zw?oc=5",
-      "source": "www.tokenpost.com",
-      "published_at_utc": "2026-11-05T17:42:00+00:00"
-    },
-    {
-      "title": "US stocks tumble as Nasdaq, Dow, S&P 500 fall; chip stocks and AI data centre shares plunge - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVQ?oc=5",
-      "source": "Hindustan Times",
-      "published_at_utc": "2026-11-05T16:55:00+00:00"
-    },
-    {
-      "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T21:07:41+00:00"
-    },
-    {
-      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNd1RQdk1xQmNNTThNUDdYQzNoNDJCS255VERTZE1BQzRhRi1kNmVzRmU1bTZJR3Eyd240c1pOdmtVaU5OdE51ZE9IZk9feWxZUnJXTUgyYm1FeEx2V1hySnVfaHpnOHBFRXhGd3F4MG5Ec3RHZklJQ2FoRGtvRG9qVkg0akI2ZV90Rl9wMGh2S0lTZFBwb05ZRFplXzM4T0tmQm9CTmYtdUJ2Z2YtMGNHa2RVeFl3b0lhalhObktPdW1TSUZ5cFItbzFBeTNfWk56cGljeXpQVVRnX083OFljNFFvbUEwX1V4T2RWUE9JM1RQZldZY1lrX3QtZGM4R0s3VnR1emZWOEpGaXUy?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-05T19:04:39+00:00"
-    },
-    {
-      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTDNYN2cxV2pHRDRoZm0tUEFobGpnYzBKMUtlbUgwMFF1TklfMU9ZbkpFQnZCamZYVXY4dWFpTVRWUFhmczRvSi1TRnpNOUlpMlZGNnRQaWNpYzBzY1VqaVhUeVBpR0tYOXpuTGlZejhkVlZ5d18takN1ZGdTSkV5MHFTZm1FYVdNYUl0NW9RS3JMMWVJc3MwWA?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-05T15:02:00+00:00"
-    }
-  ],
-  "news_snapshot_fresh": true,
+  "headlines": [],
+  "news_snapshot_fresh": false,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
+    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
