@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-09T07:36:58.949109+09:00",
+  "generated_at_kst": "2026-11-09T08:58:23.628870+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-09T07:36:58.819397+09:00",
-  "news_snapshot_at": "2026-11-09T07:34:02.893083+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-11-09T08:16:41.191081+09:00",
+  "news_snapshot_at": "2026-11-09T07:37:01.922519+09:00",
+  "market_snapshot_age_hours": 0.7,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-09T06:30:00+09:00",
-  "briefing_delay_minutes": 67.0,
-  "briefing_deadline_delay_minutes": 7.0,
-  "briefing_late_over_10min": false,
+  "briefing_delay_minutes": 148.4,
+  "briefing_deadline_delay_minutes": 88.4,
+  "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-09T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.521,
+      "change_percent": 0.523,
       "market_date": "2026-11-08",
       "meaning": "원화 약세 방향"
     }
@@ -69,12 +69,6 @@
       "published_at_utc": "2026-11-08T03:28:43+00:00"
     },
     {
-      "title": "DW News. . Concerns that newly elected US leaders will increase AI regulation sparked a multi-trillion dollar market sell-off, wiping out billions in tech valuations and rattling investors. The sharp decline has renewed debate over the futu",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSEt6R0FseWsyTjE4S3lOUlpxWTd2b2JvZmx2amZ3SmNHMk1mSEV5REFWNDB1RWx3Y1JJbTJscXZ0VXRnc1FuM0JmTlJMaExQajd3VkFyUVROQ1c2a1Nhb2RYaDBURU1PZEFqSnlOMHB4c1pJc21mSnlCekZJMmNUUV9ZdHVNQnVJZG9Nck1tenBkaFVYR1lDRDRMWXpsYjZsUFp2eVowckRFVXRoMW84bGFBRVMwLUlOdHFNazFveGNSZmtkdzBRek5ialRWTkpQbTRCdElWd0hOd01GbVVLNU9n?oc=5",
-      "source": "Facebook",
-      "published_at_utc": "2026-11-06T22:45:03+00:00"
-    },
-    {
       "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
       "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZHI1Z0dnMGRCMzM2V3lfUVZpTjE5dWNLQTl6ZWpCRnZVemRUcWtxNHR0TS1qY1Q3LVhnZXpkc0pXbS11Vmd1ZGdFU196aWRYQnpTdzRYXzBIcThIdmhyaDd0ck1iT1RMRl9zODN5bXpVVWZleXlnZDJOYm83Q3VTUzFNa1RUeDVqNXBwWnpfOE1URS1YV29FSG5wQWJLU0F6cWZKQkpLeGh6QzVRWDFQZXpLdEowbE1HeE95MWt6SU1BYzJPY0ttb09rRG43RkxzOGJQYXhid0M3Y3RrRXB0alhEeHZoZHp3aWtBTk12ZkNXTGJSemFTbXJlTWR2a0ZpUTRVTW1rWVc4N3NLZVZoMFdsS0lPaUVrTlFlOTRtbkVsT2hXbkRlR2VUX21ra1FMZGhBX21B?oc=5",
       "source": "Moomoo",
@@ -103,6 +97,12 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBscWtRTVdiVmRtNmZ6VDBfRjFSQzhiTXNnd29nd1ZBeVo4QUpuV21nd3dDOVVINWJsQVNFNW42Y2J4bGVrajlxNWlVZVcwYXdjVHpkNWl0N1hhZ1FiOTh3UlNQY0w1dGpfenZmMnY5UW5vQQ?oc=5",
       "source": "Demokratis.co.id",
       "published_at_utc": "2026-11-07T19:01:00+00:00"
+    },
+    {
+      "title": "S&P 500 posts worst week since April 2025, led by sharp tech and chip stock declines. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVozVTNOWDVvN3puUW41NmRobWRDaUIwZzR6U0xIU0hMVC1TaHZvYnBGOURWbTJ3QkRndGhUNWoyS3hEMEtkTzMzT3owTUg5cUkzcDV5bEFJY1JtMFd2cGg3U1FEZkRjLU9XaVJqbDB0Z281RzQ4aVpGeHhfZFFpOUh0Zw?oc=5",
+      "source": "Pluang",
+      "published_at_utc": "2026-11-07T17:44:54+00:00"
     }
   ],
   "news_snapshot_fresh": true,
