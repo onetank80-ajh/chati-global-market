@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-09T07:04:06.752336+09:00",
+  "generated_at_kst": "2026-11-09T07:20:20.136238+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-09T07:04:06.599951+09:00",
-  "news_snapshot_at": "2026-11-06T07:46:25.851282+09:00",
+  "market_snapshot_at": "2026-11-09T07:20:19.978041+09:00",
+  "news_snapshot_at": "2026-11-09T07:04:09.290030+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-09T06:30:00+09:00",
-  "briefing_delay_minutes": 34.1,
-  "briefing_deadline_delay_minutes": -25.9,
+  "briefing_delay_minutes": 50.3,
+  "briefing_deadline_delay_minutes": -9.7,
   "briefing_late_over_10min": false,
   "briefing_deadline_at_kst": "2026-11-09T07:30:00+09:00",
   "briefing_missed_0730_deadline": false,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.536,
+      "change_percent": 0.528,
       "market_date": "2026-11-08",
       "meaning": "원화 약세 방향"
     }
@@ -40,7 +40,7 @@
         "SK하이닉스"
       ],
       "view": "방향 확인 필요",
-      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
+      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
@@ -55,10 +55,58 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [],
-  "news_snapshot_fresh": false,
+  "headlines": [
+    {
+      "title": "DW News. . Concerns that newly elected US leaders will increase AI regulation sparked a multi-trillion dollar market sell-off, wiping out billions in tech valuations and rattling investors. The sharp decline has renewed debate over the futu",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSEt6R0FseWsyTjE4S3lOUlpxWTd2b2JvZmx2amZ3SmNHMk1mSEV5REFWNDB1RWx3Y1JJbTJscXZ0VXRnc1FuM0JmTlJMaExQajd3VkFyUVROQ1c2a1Nhb2RYaDBURU1PZEFqSnlOMHB4c1pJc21mSnlCekZJMmNUUV9ZdHVNQnVJZG9Nck1tenBkaFVYR1lDRDRMWXpsYjZsUFp2eVowckRFVXRoMW84bGFBRVMwLUlOdHFNazFveGNSZmtkdzBRek5ialRWTkpQbTRCdElWd0hOd01GbVVLNU9n?oc=5",
+      "source": "Facebook",
+      "published_at_utc": "2026-11-06T22:45:03+00:00"
+    },
+    {
+      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZHI1Z0dnMGRCMzM2V3lfUVZpTjE5dWNLQTl6ZWpCRnZVemRUcWtxNHR0TS1qY1Q3LVhnZXpkc0pXbS11Vmd1ZGdFU196aWRYQnpTdzRYXzBIcThIdmhyaDd0ck1iT1RMRl9zODN5bXpVVWZleXlnZDJOYm83Q3VTUzFNa1RUeDVqNXBwWnpfOE1URS1YV29FSG5wQWJLU0F6cWZKQkpLeGh6QzVRWDFQZXpLdEowbE1HeE95MWt6SU1BYzJPY0ttb09rRG43RkxzOGJQYXhid0M3Y3RrRXB0alhEeHZoZHp3aWtBTk12ZkNXTGJSemFTbXJlTWR2a0ZpUTRVTW1rWVc4N3NLZVZoMFdsS0lPaUVrTlFlOTRtbkVsT2hXbkRlR2VUX21ra1FMZGhBX21B?oc=5",
+      "source": "Moomoo",
+      "published_at_utc": "2026-11-07T06:06:08+00:00"
+    },
+    {
+      "title": "How Are Dow, S&P 500, Nasdaq Futures Reacting Ahead Of Key Federal Reserve Rate Decision? - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNY2lIZGFzQ1Z4di01ZENub2hKSmNsSjg0aE1oTmhnYmJnbTd1SUhPN0R6ekEtNXZ0U3N2TzdXMWptSG5wTXQ1V3hKTVRuYVhXRzdCcXptbUN5emN3UlFVS1AxQVhYdGF2cW5JZFFCeVUtR0Y5VWFjVXE0aFR0Y3l1QmFmQmNmSURCVVFCZDBKSmlyVDVVenR3R2NvNUlGMmxvanFfVnh1WHc2MVFqaDRrSDBWQ0l5eWxNNDZpUVFBd2RrSVp6cFlaSVdrU3k5NmgzY0pjV01RZXU0eXVWSzh3cm52R1M0V1pRZ1E5YWtPQ0VmWTlmY2FHZEVOeFpOZ0VmcXNaemVDbXM0YlpEMThOVFhtRXhMLUxTdzhBOHd0QQ?oc=5",
+      "source": "Stocktwits",
+      "published_at_utc": "2026-11-07T12:19:28+00:00"
+    },
+    {
+      "title": "Global AI and Semiconductor Stocks Plunge; S&P 500 Tumbles 4.4% in a Single Day as Markets Watch Whether Three Central Banks Will Raise Rates in December - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhdXJRSlZRRi1FZUZXTlI1UmNkd3RVcDlNUHhoVmM3Q3BraUtrZGM1T0htQnRNaXROaWFabWNyV1RKQWZkZ0lKeVdOUGxJRW1xRjVsYXktZ0syVlFPLUpBSTBZMWNQc3VJZHRXX245NWVveVNUdVE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-08T04:35:00+00:00"
+    },
+    {
+      "title": "President Donald Trump Just Proclaimed That \"Inflation Is Way Down,\" but Federal Reserve Economists Have a Different Take - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWUZrODR3aVR4d1FKVGs5a044TC0wMW9hMThPbHFDOGI4VmExMjJ5MFdzSGNKVW8tVTM4UmU0V1o1UW1MYzJMeXZHSUFUSlhOUFlnekhUTG9CQXhEdnlBY0ZfWC1meW43T2hVbm5vYzkwMXBpbV8zakpnSVR3Mk12NFpfdTQ3MEx1M29fWmhsaGZ5Q21hdEU0VXJUeHZ0bDlkeTdRTHVQVnl5Wm9IS3FxS3lrU0VHYVllVnZrX3IyV2tLNFF5TURaNUpB?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-07T09:06:00+00:00"
+    },
+    {
+      "title": "Nvidia Stock Wavers As Chipmaker Rounds Up Funding For AI Buildout - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkx5Z0R4V1dsTXQwTjdaeTNIbGNtTVZaTjJ2dTkyZnFkaFA4MEVJZ21JY3JRNm5FaWVkU0ZNZFUwTGFwS0VKSUpmd0FNbk40aDFDeWc4RDFYbTMwWVRLbkRNNjB5Z2hlWWVYckNqNnNmWHdiWXhla3I5dTdEUWhxSkJlRQ?oc=5",
+      "source": "Investor's Business Daily",
+      "published_at_utc": "2026-11-08T20:00:07+00:00"
+    },
+    {
+      "title": "Not Nvidia. Not Micron. After the Chip Sell-Off, I'd Buy This AI Stock and Hold It Forever. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkFIQnRzcUlHQ3RmeDdrb05BdzM5UnU0Z3ZmN29DQ2pDSHJ0NlNlTU5XamE0bUdKaEkxOExkTTdKRjdpX1FSUjk3a0ZDRFJPMTA0cVVUVTFJaDNjdXpva0FhMXViM1FHVHJkbUNRQ2hjOWhYdVV4Y3dzS21yZGJHbllITTBNWElSYVFQUks3UXpKcG9sVnVUTA?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-07T14:16:00+00:00"
+    },
+    {
+      "title": "TSMC is weighing a move into 3D DRAM at Nvidia's request, The Information reports - MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemhyNXBEM1dNeUVlbGZvNDVjbHlOdzNQenQ2TlZ5MHQxVzE4dVFOMU1haFBiVkRzTUowQzB4RVNXNnAyMEtYclE5LTJiNTkwNG1zMnNYRHBGTUxNVFRWbVNrS1Q0RDdCVF9XcUVHdFpzWndLQTFCbVBpMlpwZE1EVllfSEFtWVN5dklFODZGeWdrRU9Sb0I1dGdnSzNrUTFibGc?oc=5",
+      "source": "MLQ.ai",
+      "published_at_utc": "2026-11-07T10:20:04+00:00"
+    }
+  ],
+  "news_snapshot_fresh": true,
   "warnings": [
-    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
