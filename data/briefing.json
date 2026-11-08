@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-08T22:20:24.462592+00:00",
-  "generated_at_kst": "2026-11-09T07:20:24.462592+09:00",
+  "generated_at_utc": "2026-11-08T22:37:03.322394+00:00",
+  "generated_at_kst": "2026-11-09T07:37:03.322394+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,32 +22,43 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.528,
+      "change_percent": 0.521,
       "reference_direction": "주의"
     }
   ],
   "headlines": [
     {
-      "title": "Foreigners Sell ₩8.7 Trillion in Korean Stocks, Yet Won Holds Steady With 1% Move — Semiconductor Dollars Are the Anchor - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IUE41dWVOS0lPUk5iOWJEbUFkWEJFckhmbi1nS2tUSllyOTJTOEVjYWY2Z2FzQnpQMURfUklxLVVmUWVBYUNsRkZlRzl3OFBDempCNFhneDk4MUlpMHVGYjR6aHZCXy1paEpIVEhLelI1dUdZeXc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-08T20:35:00+00:00",
-      "category": "korea",
-      "age_hours": 1.8,
-      "freshness_score": 96,
+      "title": "This Semiconductor ETF Just Had Its Worst Day Since March 2020 - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd1hXb0FmdjhtWnRWMHhWdW1fNWRwZ05mbjlRR3JUMHZ0S2ZISTVCN0x4ZjRHbDBobGxNRVk4akZtUzVkNkJ4ZGtqT0JNbzRuWlp2SllKU1VTcFVTVUJodTE2UVBxNDlWRGdCMGtaNE4wUDZNVEdnRGVLLTRGdzlzbVYzclF4NFJHWFAyTWhkRXQ1QXBVbXFwVGRvUG5ZUGxtNXdESW9PQmwtQlBqdnVZcWdENFo0Sm1OTkJNSVhiMjV6SnB6VUY3dkFkNWVLeTFYek52WDdydXN1dHFMaVE?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-08T22:26:36+00:00",
+      "category": "semiconductor",
+      "age_hours": 0.2,
+      "freshness_score": 100,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "Nvidia Stock Wavers As Chipmaker Rounds Up Funding For AI Buildout - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkx5Z0R4V1dsTXQwTjdaeTNIbGNtTVZaTjJ2dTkyZnFkaFA4MEVJZ21JY3JRNm5FaWVkU0ZNZFUwTGFwS0VKSUpmd0FNbk40aDFDeWc4RDFYbTMwWVRLbkRNNjB5Z2hlWWVYckNqNnNmWHdiWXhla3I5dTdEUWhxSkJlRQ?oc=5",
-      "source": "Investor's Business Daily",
-      "published_at_utc": "2026-11-08T20:00:07+00:00",
-      "category": "semiconductor",
-      "age_hours": 2.3,
-      "freshness_score": 95,
+      "title": "Bitcoin's Correlation With the S&P 500 Just Hit 0.80. Is Bitcoin Trading Like a Tech Stock Again? - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeWVpWGc5TFlmLThNWEFPTWJhLTM3d1BhQTBiLVBUcVFsNXFFc2ttaHF4THRSMzBacGpKNThrOXUxYnlxZzV2WHhQMkxRMzNOR1VyX2I5eGJ5M3cyN1dYNDY1NWYzZ2RqRmN5NXUxS1RHUjN2ZXJLcWtJeUVLZXZDTnRvOTlpYzJVTFJYMnJuZGhiTlNjZW9qYzhTTW5YMi1XU2J1Qm9UT1JnWEI1bEI5dkdwc2JabWV2VVp3eFhaNkh2eXVCaEpub3lYOXVKSGh6RXNQU3dteVVmVUNTNWdtRUtXckE1c0k?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-08T22:17:00+00:00",
+      "category": "us_market",
+      "age_hours": 0.3,
+      "freshness_score": 99,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Foreigners Sell ₩8.7 Trillion in Korean Stocks, Yet Won Holds Steady With 1% Move — Semiconductor Dollars Are the Anchor - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IUE41dWVOS0lPUk5iOWJEbUFkWEJFckhmbi1nS2tUSllyOTJTOEVjYWY2Z2FzQnpQMURfUklxLVVmUWVBYUNsRkZlRzl3OFBDempCNFhneDk4MUlpMHVGYjR6aHZCXy1paEpIVEhLelI1dUdZeXc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-08T20:35:00+00:00",
+      "category": "korea",
+      "age_hours": 2.0,
+      "freshness_score": 96,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -59,7 +70,7 @@
       "source": "조선일보",
       "published_at_utc": "2026-11-08T15:34:46+00:00",
       "category": "korea",
-      "age_hours": 6.8,
+      "age_hours": 7.0,
       "freshness_score": 86,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -70,8 +81,8 @@
       "source": "The Edge Malaysia",
       "published_at_utc": "2026-11-08T10:20:05+00:00",
       "category": "korea",
-      "age_hours": 12.0,
-      "freshness_score": 76,
+      "age_hours": 12.3,
+      "freshness_score": 75,
       "headline_tone": "부정 표현",
       "sectors": []
     },
@@ -81,23 +92,10 @@
       "source": "매일경제",
       "published_at_utc": "2026-11-08T08:20:00+00:00",
       "category": "korea",
-      "age_hours": 14.0,
-      "freshness_score": 72,
+      "age_hours": 14.3,
+      "freshness_score": 71,
       "headline_tone": "부정 표현",
       "sectors": []
-    },
-    {
-      "title": "Global AI and Semiconductor Stocks Plunge; S&P 500 Tumbles 4.4% in a Single Day as Markets Watch Whether Three Central Banks Will Raise Rates in December - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhdXJRSlZRRi1FZUZXTlI1UmNkd3RVcDlNUHhoVmM3Q3BraUtrZGM1T0htQnRNaXROaWFabWNyV1RKQWZkZ0lKeVdOUGxJRW1xRjVsYXktZ0syVlFPLUpBSTBZMWNQc3VJZHRXX245NWVveVNUdVE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-08T04:35:00+00:00",
-      "category": "us_market",
-      "age_hours": 17.8,
-      "freshness_score": 64,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
     },
     {
       "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
@@ -105,7 +103,7 @@
       "source": "StoneX",
       "published_at_utc": "2026-11-08T03:28:43+00:00",
       "category": "us_market",
-      "age_hours": 18.9,
+      "age_hours": 19.1,
       "freshness_score": 62,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -116,7 +114,7 @@
       "source": "Demokratis.co.id",
       "published_at_utc": "2026-11-07T19:01:00+00:00",
       "category": "semiconductor",
-      "age_hours": 27.3,
+      "age_hours": 27.6,
       "freshness_score": 45,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -129,8 +127,8 @@
       "source": "Pluang",
       "published_at_utc": "2026-11-07T17:44:54+00:00",
       "category": "semiconductor",
-      "age_hours": 28.6,
-      "freshness_score": 43,
+      "age_hours": 28.9,
+      "freshness_score": 42,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -142,8 +140,8 @@
       "source": "Yahoo Finance UK",
       "published_at_utc": "2026-11-07T16:49:31+00:00",
       "category": "korea",
-      "age_hours": 29.5,
-      "freshness_score": 41,
+      "age_hours": 29.8,
+      "freshness_score": 40,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -153,8 +151,8 @@
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-07T14:16:00+00:00",
       "category": "semiconductor",
-      "age_hours": 32.1,
-      "freshness_score": 36,
+      "age_hours": 32.4,
+      "freshness_score": 35,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -166,23 +164,10 @@
       "source": "Stocktwits",
       "published_at_utc": "2026-11-07T12:19:28+00:00",
       "category": "us_market",
-      "age_hours": 34.0,
-      "freshness_score": 32,
+      "age_hours": 34.3,
+      "freshness_score": 31,
       "headline_tone": "혼재/불명",
       "sectors": []
-    },
-    {
-      "title": "TSMC is weighing a move into 3D DRAM at Nvidia's request, The Information reports - MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemhyNXBEM1dNeUVlbGZvNDVjbHlOdzNQenQ2TlZ5MHQxVzE4dVFOMU1haFBiVkRzTUowQzB4RVNXNnAyMEtYclE5LTJiNTkwNG1zMnNYRHBGTUxNVFRWbVNrS1Q0RDdCVF9XcUVHdFpzWndLQTFCbVBpMlpwZE1EVllfSEFtWVN5dklFODZGeWdrRU9Sb0I1dGdnSzNrUTFibGc?oc=5",
-      "source": "MLQ.ai",
-      "published_at_utc": "2026-11-07T10:20:04+00:00",
-      "category": "semiconductor",
-      "age_hours": 36.0,
-      "freshness_score": 28,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
     },
     {
       "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
@@ -190,10 +175,23 @@
       "source": "Moomoo",
       "published_at_utc": "2026-11-07T06:06:08+00:00",
       "category": "us_market",
-      "age_hours": 40.2,
-      "freshness_score": 20,
+      "age_hours": 40.5,
+      "freshness_score": 19,
       "headline_tone": "혼재/불명",
       "sectors": []
+    },
+    {
+      "title": "Chip Stocks Rebound as Nvidia and AMD Lead Recovery - Demokratis.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pNzFIdzNXMUMxWENkYUpfV240bFE5a0FaZ0FZWXVBcHZoNE9ZUUN1NWd3MHB6QnlSNXJZV1Bmd3F3QXgxbnU3WVZpbEpfZXE1NXJtNlFxQ1ZsWmN0Q05iejcxSUFPb3ZfaFE?oc=5",
+      "source": "Demokratis.co.id",
+      "published_at_utc": "2026-11-07T05:47:59+00:00",
+      "category": "semiconductor",
+      "age_hours": 40.8,
+      "freshness_score": 18,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
     },
     {
       "title": "DW News. . Concerns that newly elected US leaders will increase AI regulation sparked a multi-trillion dollar market sell-off, wiping out billions in tech valuations and rattling investors. The sharp decline has renewed debate over the futu",
@@ -201,8 +199,8 @@
       "source": "Facebook",
       "published_at_utc": "2026-11-06T22:45:03+00:00",
       "category": "us_market",
-      "age_hours": 47.6,
-      "freshness_score": 5,
+      "age_hours": 47.9,
+      "freshness_score": 4,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
