@@ -1,10 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-08T22:20:23.511534+00:00",
-  "generated_at_kst": "2026-11-09T07:20:23.511534+09:00",
+  "generated_at_utc": "2026-11-08T22:34:02.893083+00:00",
+  "generated_at_kst": "2026-11-09T07:34:02.893083+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
+    {
+      "category": "us_market",
+      "title": "Bitcoin's Correlation With the S&P 500 Just Hit 0.80. Is Bitcoin Trading Like a Tech Stock Again? - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeWVpWGc5TFlmLThNWEFPTWJhLTM3d1BhQTBiLVBUcVFsNXFFc2ttaHF4THRSMzBacGpKNThrOXUxYnlxZzV2WHhQMkxRMzNOR1VyX2I5eGJ5M3cyN1dYNDY1NWYzZ2RqRmN5NXUxS1RHUjN2ZXJLcWtJeUVLZXZDTnRvOTlpYzJVTFJYMnJuZGhiTlNjZW9qYzhTTW5YMi1XU2J1Qm9UT1JnWEI1bEI5dkdwc2JabWV2VVp3eFhaNkh2eXVCaEpub3lYOXVKSGh6RXNQU3dteVVmVUNTNWdtRUtXckE1c0k?oc=5",
+      "source": "24/7 Wall St.",
+      "published_at_utc": "2026-11-08T22:17:00+00:00"
+    },
     {
       "category": "us_market",
       "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
@@ -34,18 +41,11 @@
       "published_at_utc": "2026-11-07T12:19:28+00:00"
     },
     {
-      "category": "us_market",
-      "title": "Global AI and Semiconductor Stocks Plunge; S&P 500 Tumbles 4.4% in a Single Day as Markets Watch Whether Three Central Banks Will Raise Rates in December - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhdXJRSlZRRi1FZUZXTlI1UmNkd3RVcDlNUHhoVmM3Q3BraUtrZGM1T0htQnRNaXROaWFabWNyV1RKQWZkZ0lKeVdOUGxJRW1xRjVsYXktZ0syVlFPLUpBSTBZMWNQc3VJZHRXX245NWVveVNUdVE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-08T04:35:00+00:00"
-    },
-    {
       "category": "semiconductor",
-      "title": "Nvidia Stock Wavers As Chipmaker Rounds Up Funding For AI Buildout - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkx5Z0R4V1dsTXQwTjdaeTNIbGNtTVZaTjJ2dTkyZnFkaFA4MEVJZ21JY3JRNm5FaWVkU0ZNZFUwTGFwS0VKSUpmd0FNbk40aDFDeWc4RDFYbTMwWVRLbkRNNjB5Z2hlWWVYckNqNnNmWHdiWXhla3I5dTdEUWhxSkJlRQ?oc=5",
-      "source": "Investor's Business Daily",
-      "published_at_utc": "2026-11-08T20:00:07+00:00"
+      "title": "This Semiconductor ETF Just Had Its Worst Day Since March 2020 - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd1hXb0FmdjhtWnRWMHhWdW1fNWRwZ05mbjlRR3JUMHZ0S2ZISTVCN0x4ZjRHbDBobGxNRVk4akZtUzVkNkJ4ZGtqT0JNbzRuWlp2SllKU1VTcFVTVUJodTE2UVBxNDlWRGdCMGtaNE4wUDZNVEdnRGVLLTRGdzlzbVYzclF4NFJHWFAyTWhkRXQ1QXBVbXFwVGRvUG5ZUGxtNXdESW9PQmwtQlBqdnVZcWdENFo0Sm1OTkJNSVhiMjV6SnB6VUY3dkFkNWVLeTFYek52WDdydXN1dHFMaVE?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-08T22:26:36+00:00"
     },
     {
       "category": "semiconductor",
@@ -53,13 +53,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkFIQnRzcUlHQ3RmeDdrb05BdzM5UnU0Z3ZmN29DQ2pDSHJ0NlNlTU5XamE0bUdKaEkxOExkTTdKRjdpX1FSUjk3a0ZDRFJPMTA0cVVUVTFJaDNjdXpva0FhMXViM1FHVHJkbUNRQ2hjOWhYdVV4Y3dzS21yZGJHbllITTBNWElSYVFQUks3UXpKcG9sVnVUTA?oc=5",
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-07T14:16:00+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "TSMC is weighing a move into 3D DRAM at Nvidia's request, The Information reports - MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemhyNXBEM1dNeUVlbGZvNDVjbHlOdzNQenQ2TlZ5MHQxVzE4dVFOMU1haFBiVkRzTUowQzB4RVNXNnAyMEtYclE5LTJiNTkwNG1zMnNYRHBGTUxNVFRWbVNrS1Q0RDdCVF9XcUVHdFpzWndLQTFCbVBpMlpwZE1EVllfSEFtWVN5dklFODZGeWdrRU9Sb0I1dGdnSzNrUTFibGc?oc=5",
-      "source": "MLQ.ai",
-      "published_at_utc": "2026-11-07T10:20:04+00:00"
     },
     {
       "category": "semiconductor",
@@ -74,6 +67,13 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVozVTNOWDVvN3puUW41NmRobWRDaUIwZzR6U0xIU0hMVC1TaHZvYnBGOURWbTJ3QkRndGhUNWoyS3hEMEtkTzMzT3owTUg5cUkzcDV5bEFJY1JtMFd2cGg3U1FEZkRjLU9XaVJqbDB0Z281RzQ4aVpGeHhfZFFpOUh0Zw?oc=5",
       "source": "Pluang",
       "published_at_utc": "2026-11-07T17:44:54+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Chip Stocks Rebound as Nvidia and AMD Lead Recovery - Demokratis.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pNzFIdzNXMUMxWENkYUpfV240bFE5a0FaZ0FZWXVBcHZoNE9ZUUN1NWd3MHB6QnlSNXJZV1Bmd3F3QXgxbnU3WVZpbEpfZXE1NXJtNlFxQ1ZsWmN0Q05iejcxSUFPb3ZfaFE?oc=5",
+      "source": "Demokratis.co.id",
+      "published_at_utc": "2026-11-07T05:47:59+00:00"
     },
     {
       "category": "korea",
