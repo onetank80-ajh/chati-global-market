@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-09T22:14:50.645797+00:00",
-  "generated_at_kst": "2026-11-10T07:14:50.645797+09:00",
+  "generated_at_utc": "2026-11-09T22:29:22.144941+00:00",
+  "generated_at_kst": "2026-11-10T07:29:22.144941+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -63,10 +63,10 @@
     },
     {
       "category": "semiconductor",
-      "title": "AMD, Broadcom, Micron Rally Up To 8% As Chip Stocks Defy Nvidia Rout - NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZmN4WURKSEJvSU5WR2ZJU0phRUYyMlBwby1YNUlrZjB6bmhManVheHVhaTU4N24tUURKTXZEemZWY3hkVjk3UDMwNEFWbGxJMmw4ZjYxekl2Wnk0ZVllYnVvbWFWNkQ4UE5CaWdWbVUxY1NaN3NobzlLdnBKMDcwVFR5V29HRUxuVVdudlJCVUxGV1cxT0U5anFVMi1YTHJaeWJDUHJvcVozUDloQ3fSAbYBQVVfeXFMTjlTdW1ScjFyREVPTXlaTU5mQ0FuU0J6aG1FODNpdHNNcW4ySHJaQ2xmRzAzNzVKM0JvX0pIRzZtdFNhN1pDc2JZWElUWFlxa0JxQVVKS045bm8taVN6b2NiQmZxUXExYnA4SHJDYU5halBxcHFrMzVWLWlwTUlPZEwwVDZjSy1JbVJ1UnpVNFM0VUItdjlTcUQtYk5iUm9QRWpXWExMYUIweUF4aUJzUlNsZ216OFE?oc=5",
-      "source": "NDTV Profit",
-      "published_at_utc": "2026-11-09T15:19:31+00:00"
+      "title": "Quarterly Reports and an Independent Board Inquiry Frame the Chip Sector's Week - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY0Joc3oxaGxKbXpWYWpvMHQxb1ZNeHR0aEZ5LS1tc21pcDJhbWVYQ05vQW8xMGVuaFZyVTBLZURaOHJ5MW5RQ0ZXYjZ4SlVoTHdKTm5ncmY2RVcwY1pOSWJ1R0lSNmgyZktmWG5jc2ZxY2ltSmxGdmlwc3RJTGtieUc3SzFqLXZkQXlZUU96OUNpNWlYS1VKUXpKbFVSV3pYbTZldjk2NjlFRmZFYnI4TmctdDU1VWNYYS1ENnA3SDdpNkFhT3E5bnJpRWRSbmJSWVRvd1dxSQ?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-09T17:02:00+00:00"
     },
     {
       "category": "semiconductor",
