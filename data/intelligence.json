@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-08T23:58:23.599494+00:00",
+  "generated_at_utc": "2026-11-09T22:14:47.540165+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 14,
+  "headline_count_after": 7,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-09T08:16:41.191081+09:00",
+  "market_snapshot_at": "2026-11-10T07:14:47.396759+09:00",
   "market_signals": {
     "sp500": {
-      "change_percent": 0.315,
-      "market_date": "2026-11-06",
+      "change_percent": 2.346,
+      "market_date": "2026-11-09",
       "status": "ok"
     },
     "sox": {
-      "change_percent": 4.207,
-      "market_date": "2026-11-06",
+      "change_percent": 6.855,
+      "market_date": "2026-11-09",
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.523,
-      "market_date": "2026-11-08",
+      "change_percent": -1.155,
+      "market_date": "2026-11-09",
       "status": "ok"
     },
     "nasdaq": {
-      "change_percent": 1.088,
-      "market_date": "2026-11-06",
+      "change_percent": 2.741,
+      "market_date": "2026-11-09",
       "status": "ok"
     }
   },
@@ -47,7 +47,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IUE41dWVOS0lPUk5iOWJEbUFkWEJFckhmbi1nS2tUSllyOTJTOEVjYWY2Z2FzQnpQMURfUklxLVVmUWVBYUNsRkZlRzl3OFBDempCNFhneDk4MUlpMHVGYjR6aHZCXy1paEpIVEhLelI1dUdZeXc?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-08T20:35:00+00:00",
-      "age_hours": 3.4,
-      "relevance_score": 79,
+      "age_hours": 25.7,
+      "relevance_score": 72,
       "tags": [
         "한국시장 직접언급",
         "반도체/AI"
@@ -71,8 +71,8 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQkczT0RMWEVaSEo3d1NtV19RbzBEUDhKay1VeFNtcGFJV3g0bDVFZG9hamdodmlpb1V1LXBJZlppeWxWT1BHZFZSYmN1UDUzcWl1U3JXWGZhVGRDSHVhWVBrdS1NYklfU2dVdmZKX000S28wTWd0QXFQV3VvQUNsRDJIVjQyRnpPRWNFcDRB?oc=5",
       "source": "조선일보",
       "published_at_utc": "2026-11-08T15:34:46+00:00",
-      "age_hours": 8.4,
-      "relevance_score": 53,
+      "age_hours": 30.7,
+      "relevance_score": 45,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -84,8 +84,8 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aS1Q2YlZHUEZuclZqcGJmS09vV0NLaWprR1VjX3IxNExWUmpKRHFIaUdPUmlOS094ZF8xcUp1ZHhrUVpSQUhmak1YVDNUYkpW?oc=5",
       "source": "The Edge Malaysia",
       "published_at_utc": "2026-11-08T10:20:05+00:00",
-      "age_hours": 13.6,
-      "relevance_score": 51,
+      "age_hours": 35.9,
+      "relevance_score": 44,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -97,86 +97,8 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd1hXb0FmdjhtWnRWMHhWdW1fNWRwZ05mbjlRR3JUMHZ0S2ZISTVCN0x4ZjRHbDBobGxNRVk4akZtUzVkNkJ4ZGtqT0JNbzRuWlp2SllKU1VTcFVTVUJodTE2UVBxNDlWRGdCMGtaNE4wUDZNVEdnRGVLLTRGdzlzbVYzclF4NFJHWFAyTWhkRXQ1QXBVbXFwVGRvUG5ZUGxtNXdESW9PQmwtQlBqdnVZcWdENFo0Sm1OTkJNSVhiMjV6SnB6VUY3dkFkNWVLeTFYek52WDdydXN1dHFMaVE?oc=5",
       "source": "The Globe and Mail",
       "published_at_utc": "2026-11-08T22:26:36+00:00",
-      "age_hours": 1.5,
-      "relevance_score": 45,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
-      "source": "Yahoo Finance UK",
-      "published_at_utc": "2026-11-07T16:49:31+00:00",
-      "age_hours": 31.1,
-      "relevance_score": 45,
-      "tags": [
-        "한국시장 직접언급"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "How Are Dow, S&P 500, Nasdaq Futures Reacting Ahead Of Key Federal Reserve Rate Decision? - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNY2lIZGFzQ1Z4di01ZENub2hKSmNsSjg0aE1oTmhnYmJnbTd1SUhPN0R6ekEtNXZ0U3N2TzdXMWptSG5wTXQ1V3hKTVRuYVhXRzdCcXptbUN5emN3UlFVS1AxQVhYdGF2cW5JZFFCeVUtR0Y5VWFjVXE0aFR0Y3l1QmFmQmNmSURCVVFCZDBKSmlyVDVVenR3R2NvNUlGMmxvanFfVnh1WHc2MVFqaDRrSDBWQ0l5eWxNNDZpUVFBd2RrSVp6cFlaSVdrU3k5NmgzY0pjV01RZXU0eXVWSzh3cm52R1M0V1pRZ1E5YWtPQ0VmWTlmY2FHZEVOeFpOZ0VmcXNaemVDbXM0YlpEMThOVFhtRXhMLUxTdzhBOHd0QQ?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-11-07T12:19:28+00:00",
-      "age_hours": 35.6,
-      "relevance_score": 39,
-      "tags": [
-        "거시경제"
-      ],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Nvidia Shares Rebound After Historic Semiconductor Selloff - Demokratis.co.id",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBscWtRTVdiVmRtNmZ6VDBfRjFSQzhiTXNnd29nd1ZBeVo4QUpuV21nd3dDOVVINWJsQVNFNW42Y2J4bGVrajlxNWlVZVcwYXdjVHpkNWl0N1hhZ1FiOTh3UlNQY0w1dGpfenZmMnY5UW5vQQ?oc=5",
-      "source": "Demokratis.co.id",
-      "published_at_utc": "2026-11-07T19:01:00+00:00",
-      "age_hours": 29.0,
-      "relevance_score": 36,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "S&P 500 posts worst week since April 2025, led by sharp tech and chip stock declines. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVozVTNOWDVvN3puUW41NmRobWRDaUIwZzR6U0xIU0hMVC1TaHZvYnBGOURWbTJ3QkRndGhUNWoyS3hEMEtkTzMzT3owTUg5cUkzcDV5bEFJY1JtMFd2cGg3U1FEZkRjLU9XaVJqbDB0Z281RzQ4aVpGeHhfZFFpOUh0Zw?oc=5",
-      "source": "Pluang",
-      "published_at_utc": "2026-11-07T17:44:54+00:00",
-      "age_hours": 30.2,
-      "relevance_score": 35,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Not Nvidia. Not Micron. After the Chip Sell-Off, I'd Buy This AI Stock and Hold It Forever. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkFIQnRzcUlHQ3RmeDdrb05BdzM5UnU0Z3ZmN29DQ2pDSHJ0NlNlTU5XamE0bUdKaEkxOExkTTdKRjdpX1FSUjk3a0ZDRFJPMTA0cVVUVTFJaDNjdXpva0FhMXViM1FHVHJkbUNRQ2hjOWhYdVV4Y3dzS21yZGJHbllITTBNWElSYVFQUks3UXpKcG9sVnVUTA?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-07T14:16:00+00:00",
-      "age_hours": 33.7,
-      "relevance_score": 34,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Chip Stocks Rebound as Nvidia and AMD Lead Recovery - Demokratis.co.id",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pNzFIdzNXMUMxWENkYUpfV240bFE5a0FaZ0FZWXVBcHZoNE9ZUUN1NWd3MHB6QnlSNXJZV1Bmd3F3QXgxbnU3WVZpbEpfZXE1NXJtNlFxQ1ZsWmN0Q05iejcxSUFPb3ZfaFE?oc=5",
-      "source": "Demokratis.co.id",
-      "published_at_utc": "2026-11-07T05:47:59+00:00",
-      "age_hours": 42.2,
-      "relevance_score": 31,
+      "age_hours": 23.8,
+      "relevance_score": 38,
       "tags": [
         "반도체/AI"
       ],
@@ -188,8 +110,8 @@
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeWVpWGc5TFlmLThNWEFPTWJhLTM3d1BhQTBiLVBUcVFsNXFFc2ttaHF4THRSMzBacGpKNThrOXUxYnlxZzV2WHhQMkxRMzNOR1VyX2I5eGJ5M3cyN1dYNDY1NWYzZ2RqRmN5NXUxS1RHUjN2ZXJLcWtJeUVLZXZDTnRvOTlpYzJVTFJYMnJuZGhiTlNjZW9qYzhTTW5YMi1XU2J1Qm9UT1JnWEI1bEI5dkdwc2JabWV2VVp3eFhaNkh2eXVCaEpub3lYOXVKSGh6RXNQU3dteVVmVUNTNWdtRUtXckE1c0k?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-08T22:17:00+00:00",
-      "age_hours": 1.7,
-      "relevance_score": 30,
+      "age_hours": 24.0,
+      "relevance_score": 23,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -199,10 +121,21 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
       "source": "StoneX",
       "published_at_utc": "2026-11-08T03:28:43+00:00",
-      "age_hours": 20.5,
-      "relevance_score": 24,
+      "age_hours": 42.8,
+      "relevance_score": 16,
       "tags": [],
       "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Lone Gainer Amid a Market Rout: Parking ETFs Draw 2.2 Trillion Won in a Month [This Week’s ETF to Watch] - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UbFpQZFppbjZhSTE0azQzTkprTVVWVmJqeWVVdFNOY3MxUnVUS1R4X2E1b2xoYjhUX3hFaGh0N0JYRnFRZFo3S3NOLXB6YVBFaWlz?oc=5",
+      "source": "매일경제",
+      "published_at_utc": "2026-11-08T08:20:00+00:00",
+      "age_hours": 37.9,
+      "relevance_score": 8,
+      "tags": [],
+      "category": "korea",
       "needs_verification": true
     }
   ],

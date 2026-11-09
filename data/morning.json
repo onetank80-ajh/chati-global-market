@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-09T08:58:23.628870+09:00",
+  "generated_at_kst": "2026-11-10T07:14:47.644025+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-09T08:16:41.191081+09:00",
+  "market_snapshot_at": "2026-11-10T07:14:47.396759+09:00",
   "news_snapshot_at": "2026-11-09T07:37:01.922519+09:00",
-  "market_snapshot_age_hours": 0.7,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-09T06:30:00+09:00",
-  "briefing_delay_minutes": 148.4,
-  "briefing_deadline_delay_minutes": 88.4,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-09T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-10T06:30:00+09:00",
+  "briefing_delay_minutes": 44.8,
+  "briefing_deadline_delay_minutes": -15.2,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-10T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": 0.315,
-      "market_date": "2026-11-06",
+      "change_percent": 2.346,
+      "market_date": "2026-11-09",
       "meaning": "상승"
     },
     {
       "name": "반도체",
-      "change_percent": 4.207,
-      "market_date": "2026-11-06",
+      "change_percent": 6.855,
+      "market_date": "2026-11-09",
       "meaning": "상승"
     },
     {
       "name": "원/달러",
-      "change_percent": 0.523,
-      "market_date": "2026-11-08",
-      "meaning": "원화 약세 방향"
+      "change_percent": -1.155,
+      "market_date": "2026-11-09",
+      "meaning": "원화 강세 방향"
     }
   ],
   "sectors": [
@@ -51,7 +51,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -69,45 +69,38 @@
       "published_at_utc": "2026-11-08T03:28:43+00:00"
     },
     {
-      "title": "S&P 500 Index(.SPX) Stock Price Today | Quotes & News - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZHI1Z0dnMGRCMzM2V3lfUVZpTjE5dWNLQTl6ZWpCRnZVemRUcWtxNHR0TS1qY1Q3LVhnZXpkc0pXbS11Vmd1ZGdFU196aWRYQnpTdzRYXzBIcThIdmhyaDd0ck1iT1RMRl9zODN5bXpVVWZleXlnZDJOYm83Q3VTUzFNa1RUeDVqNXBwWnpfOE1URS1YV29FSG5wQWJLU0F6cWZKQkpLeGh6QzVRWDFQZXpLdEowbE1HeE95MWt6SU1BYzJPY0ttb09rRG43RkxzOGJQYXhid0M3Y3RrRXB0alhEeHZoZHp3aWtBTk12ZkNXTGJSemFTbXJlTWR2a0ZpUTRVTW1rWVc4N3NLZVZoMFdsS0lPaUVrTlFlOTRtbkVsT2hXbkRlR2VUX21ra1FMZGhBX21B?oc=5",
-      "source": "Moomoo",
-      "published_at_utc": "2026-11-07T06:06:08+00:00"
-    },
-    {
-      "title": "How Are Dow, S&P 500, Nasdaq Futures Reacting Ahead Of Key Federal Reserve Rate Decision? - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNY2lIZGFzQ1Z4di01ZENub2hKSmNsSjg0aE1oTmhnYmJnbTd1SUhPN0R6ekEtNXZ0U3N2TzdXMWptSG5wTXQ1V3hKTVRuYVhXRzdCcXptbUN5emN3UlFVS1AxQVhYdGF2cW5JZFFCeVUtR0Y5VWFjVXE0aFR0Y3l1QmFmQmNmSURCVVFCZDBKSmlyVDVVenR3R2NvNUlGMmxvanFfVnh1WHc2MVFqaDRrSDBWQ0l5eWxNNDZpUVFBd2RrSVp6cFlaSVdrU3k5NmgzY0pjV01RZXU0eXVWSzh3cm52R1M0V1pRZ1E5YWtPQ0VmWTlmY2FHZEVOeFpOZ0VmcXNaemVDbXM0YlpEMThOVFhtRXhMLUxTdzhBOHd0QQ?oc=5",
-      "source": "Stocktwits",
-      "published_at_utc": "2026-11-07T12:19:28+00:00"
-    },
-    {
       "title": "This Semiconductor ETF Just Had Its Worst Day Since March 2020 - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd1hXb0FmdjhtWnRWMHhWdW1fNWRwZ05mbjlRR3JUMHZ0S2ZISTVCN0x4ZjRHbDBobGxNRVk4akZtUzVkNkJ4ZGtqT0JNbzRuWlp2SllKU1VTcFVTVUJodTE2UVBxNDlWRGdCMGtaNE4wUDZNVEdnRGVLLTRGdzlzbVYzclF4NFJHWFAyTWhkRXQ1QXBVbXFwVGRvUG5ZUGxtNXdESW9PQmwtQlBqdnVZcWdENFo0Sm1OTkJNSVhiMjV6SnB6VUY3dkFkNWVLeTFYek52WDdydXN1dHFMaVE?oc=5",
       "source": "The Globe and Mail",
       "published_at_utc": "2026-11-08T22:26:36+00:00"
     },
     {
-      "title": "Not Nvidia. Not Micron. After the Chip Sell-Off, I'd Buy This AI Stock and Hold It Forever. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkFIQnRzcUlHQ3RmeDdrb05BdzM5UnU0Z3ZmN29DQ2pDSHJ0NlNlTU5XamE0bUdKaEkxOExkTTdKRjdpX1FSUjk3a0ZDRFJPMTA0cVVUVTFJaDNjdXpva0FhMXViM1FHVHJkbUNRQ2hjOWhYdVV4Y3dzS21yZGJHbllITTBNWElSYVFQUks3UXpKcG9sVnVUTA?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-07T14:16:00+00:00"
+      "title": "Foreigners Sell ₩8.7 Trillion in Korean Stocks, Yet Won Holds Steady With 1% Move — Semiconductor Dollars Are the Anchor - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IUE41dWVOS0lPUk5iOWJEbUFkWEJFckhmbi1nS2tUSllyOTJTOEVjYWY2Z2FzQnpQMURfUklxLVVmUWVBYUNsRkZlRzl3OFBDempCNFhneDk4MUlpMHVGYjR6aHZCXy1paEpIVEhLelI1dUdZeXc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-08T20:35:00+00:00"
     },
     {
-      "title": "Nvidia Shares Rebound After Historic Semiconductor Selloff - Demokratis.co.id",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBscWtRTVdiVmRtNmZ6VDBfRjFSQzhiTXNnd29nd1ZBeVo4QUpuV21nd3dDOVVINWJsQVNFNW42Y2J4bGVrajlxNWlVZVcwYXdjVHpkNWl0N1hhZ1FiOTh3UlNQY0w1dGpfenZmMnY5UW5vQQ?oc=5",
-      "source": "Demokratis.co.id",
-      "published_at_utc": "2026-11-07T19:01:00+00:00"
+      "title": "KOSPI Decline Drives Annual Lows for One-Third of Listed Companies - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQkczT0RMWEVaSEo3d1NtV19RbzBEUDhKay1VeFNtcGFJV3g0bDVFZG9hamdodmlpb1V1LXBJZlppeWxWT1BHZFZSYmN1UDUzcWl1U3JXWGZhVGRDSHVhWVBrdS1NYklfU2dVdmZKX000S28wTWd0QXFQV3VvQUNsRDJIVjQyRnpPRWNFcDRB?oc=5",
+      "source": "조선일보",
+      "published_at_utc": "2026-11-08T15:34:46+00:00"
     },
     {
-      "title": "S&P 500 posts worst week since April 2025, led by sharp tech and chip stock declines. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVozVTNOWDVvN3puUW41NmRobWRDaUIwZzR6U0xIU0hMVC1TaHZvYnBGOURWbTJ3QkRndGhUNWoyS3hEMEtkTzMzT3owTUg5cUkzcDV5bEFJY1JtMFd2cGg3U1FEZkRjLU9XaVJqbDB0Z281RzQ4aVpGeHhfZFFpOUh0Zw?oc=5",
-      "source": "Pluang",
-      "published_at_utc": "2026-11-07T17:44:54+00:00"
+      "title": "South Korea’s US$1.7 tril rout burns day traders, challenges Lee - The Edge Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aS1Q2YlZHUEZuclZqcGJmS09vV0NLaWprR1VjX3IxNExWUmpKRHFIaUdPUmlOS094ZF8xcUp1ZHhrUVpSQUhmak1YVDNUYkpW?oc=5",
+      "source": "The Edge Malaysia",
+      "published_at_utc": "2026-11-08T10:20:05+00:00"
+    },
+    {
+      "title": "Lone Gainer Amid a Market Rout: Parking ETFs Draw 2.2 Trillion Won in a Month [This Week’s ETF to Watch] - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UbFpQZFppbjZhSTE0azQzTkprTVVWVmJqeWVVdFNOY3MxUnVUS1R4X2E1b2xoYjhUX3hFaGh0N0JYRnFRZFo3S3NOLXB6YVBFaWlz?oc=5",
+      "source": "매일경제",
+      "published_at_utc": "2026-11-08T08:20:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
