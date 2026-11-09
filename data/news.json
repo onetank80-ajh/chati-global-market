@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-09T22:41:26.842257+00:00",
-  "generated_at_kst": "2026-11-10T07:41:26.842257+09:00",
+  "generated_at_utc": "2026-11-09T22:43:25.052608+00:00",
+  "generated_at_kst": "2026-11-10T07:43:25.052608+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -63,17 +63,17 @@
     },
     {
       "category": "semiconductor",
+      "title": "AMD, Broadcom, Micron Rally Up To 8% As Chip Stocks Defy Nvidia Rout - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZmN4WURKSEJvSU5WR2ZJU0phRUYyMlBwby1YNUlrZjB6bmhManVheHVhaTU4N24tUURKTXZEemZWY3hkVjk3UDMwNEFWbGxJMmw4ZjYxekl2Wnk0ZVllYnVvbWFWNkQ4UE5CaWdWbVUxY1NaN3NobzlLdnBKMDcwVFR5V29HRUxuVVdudlJCVUxGV1cxT0U5anFVMi1YTHJaeWJDUHJvcVozUDloQ3fSAbYBQVVfeXFMTjlTdW1ScjFyREVPTXlaTU5mQ0FuU0J6aG1FODNpdHNNcW4ySHJaQ2xmRzAzNzVKM0JvX0pIRzZtdFNhN1pDc2JZWElUWFlxa0JxQVVKS045bm8taVN6b2NiQmZxUXExYnA4SHJDYU5halBxcHFrMzVWLWlwTUlPZEwwVDZjSy1JbVJ1UnpVNFM0VUItdjlTcUQtYk5iUm9QRWpXWExMYUIweUF4aUJzUlNsZ216OFE?oc=5",
+      "source": "NDTV Profit",
+      "published_at_utc": "2026-11-09T15:19:31+00:00"
+    },
+    {
+      "category": "semiconductor",
       "title": "US stock market stages massive rally today, adds $1.5 trillion: 5 reasons why Dow Jones, S&P 500 and Nasda - The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOTDMtaWxTbVM3SEVicWxob0hzZXdZTVdkTGhoRnJrc2JDTmJ6WFFSN0V2Q1VaSkJZckViTFBlc3oyM2RNcmk0VTdJbExodnNuY3hzNXJaRjBTOXlmT1JmSVlQeGxfTU5SYmczUHZiZTV2YnpSMDNxMTI3Z2p6eW1ZN0RCUW03S1R4a2NuTkxWQXBkbGhsWXdrcmtvREpDV1RCMWx0aWZwTnlTRWkwZUtybkFQMnlCVmkxTzhxV0Q1WEhSLUNlVWJYUWtjQmVfRGR3VjRGTGZhZW5qd001Uk9aTFNGYmo2NzZ6LWQtUzM0ZWxWR0tXQVhZZGlFaWtNbHV0empXbFctN1FNTUs4VWNsaUxleEo4RjdjRHJ2dzJXQ3FXdS1mbzZyN3R4LVc1QkNOdnQ5TEl2REpNQV93QS05SWZuS0gzVXhH0gHOAkFVX3lxTE5McGhaUVZXZXNpYUhqYzN0eWlQY3hCSTc2a1NhcXJ2UzRhOW53SU8wSm1qOVBTVmxpcVl0VTE4LXNURXI2Q2d1ZHRlaGk4ekNIMmV6UGNXU0Z4QW1oV3hLbU1kQXJUdHNMN3dxZ2FrMGxWZmVTMTd3UWVJTHpsWmhIWjdWZEdtbzVuZktmOWlxQll4SWwyc3pEM2czbGJNVEVzSmo0SjhNSUh3OUY1Z0l6bjA2TXZyY2ZhQl9hSWZDVDl5OEV4azVGRkxuM29QTUFyTmFpcFM2enR6ZDBHTktXendaVW5BS2lxS1NtZ05mUkxqX2xXZDRlaUloUFRNWkwyWmtPSHNFUmlTUmFwckswUkdvVjdzaFhUbVpuY1NOS0NoZ0dwOWd3eGNDLU41M1lOSk8wUWJFZ0lUWG1XeElRNDdPTDVDSUpqVXgtN2c?oc=5",
       "source": "The Economic Times",
       "published_at_utc": "2026-11-09T17:21:25+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Nvidia Probe Puts China Exposed US Chip Stocks In Focus - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOWlSbE9XZzlfaVhTazBCdWxkTERCSXBXQk5PRW9HNFpuQk9rRlBpVGlMQ0Y0enIwY3FLWkVxRmtwd1lrYm8wdGR5SVBBdnhPcDItS1dZSVlNeVkzYjVnd1N4ajQzejhxNkdfOW1WejB4TUx0bk4tTkpSTFRpMWdncHlodHNjSUo2NURjeWFVaFNEWnQzcXFYWUxlbw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-09T05:12:00+00:00"
     },
     {
       "category": "korea",
