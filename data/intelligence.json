@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-09T22:14:47.540165+00:00",
+  "generated_at_utc": "2026-11-09T22:29:18.789258+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 7,
+  "headline_count_after": 14,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-10T07:14:47.396759+09:00",
+  "market_snapshot_at": "2026-11-10T07:29:18.683270+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": 2.346,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -1.155,
+      "change_percent": -1.174,
       "market_date": "2026-11-09",
       "status": "ok"
     },
@@ -53,26 +53,52 @@
   ],
   "top_headlines": [
     {
-      "title": "Foreigners Sell ₩8.7 Trillion in Korean Stocks, Yet Won Holds Steady With 1% Move — Semiconductor Dollars Are the Anchor - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IUE41dWVOS0lPUk5iOWJEbUFkWEJFckhmbi1nS2tUSllyOTJTOEVjYWY2Z2FzQnpQMURfUklxLVVmUWVBYUNsRkZlRzl3OFBDempCNFhneDk4MUlpMHVGYjR6aHZCXy1paEpIVEhLelI1dUdZeXc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-08T20:35:00+00:00",
-      "age_hours": 25.7,
-      "relevance_score": 72,
+      "title": "US Stock Market This Week: Nasdaq, Nvidia and AI Stocks Face Critical Inflation Test After Selloff - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NekJHbWxMa045T2NzR09RSkpkMnZkek5McG9YTlp0c0FNVllJU1djd1pVMm1NdHFQamNJU2h0T2JwZE9SMnNpMzNZU1NrMXFzd0Y1ZlJjTTBndklBaGtxM1pQUC0tYWFWUnpNYkVQcmV2T19OdS1pS0k1RQ?oc=5",
+      "source": "Stocks Down Under",
+      "published_at_utc": "2026-11-09T00:00:15+00:00",
+      "age_hours": 22.5,
+      "relevance_score": 68,
       "tags": [
-        "한국시장 직접언급",
+        "반도체/AI",
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "South Korea Halts Forced Sales via Collateral Easing - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3ZfZEUwVWlyd25pTzVXVUp4aTF3cGZybS1qLThnblJrVDRycFRnOG1CZE85d2xTZGFNejh1S01DaFRVV056RGpkXzRnTzFJbFpOa1lZcmJqTlgtUlFUcVBqQlJvdjR0NjNBWW5aUU9pSkpGSUhoX0dSY25uTGVMY0NaRnVmemJxT1BFVVN3?oc=5",
+      "source": "조선일보",
+      "published_at_utc": "2026-11-09T15:37:58+00:00",
+      "age_hours": 6.9,
+      "relevance_score": 53,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "Stock Market Today: Dow, S&P 500 Futures Rise Despite Nvidia Sell-Off Over Jensen Huang Controversy — NVDA, OXY, CEG In Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSHVTUlFPYXpaazdkcWxBZVVRM0dJVUl2TTRLbXNVMk80YnF1czRBTXpUSzM1RlpVUUR6VWNjWGt4ejc2aXFIeFMzcGdUMldlanBtNUxvVTRCM3FzYmdubzd1bVN3U2NROGV5OHdiMEdZVnkydHdibHFIZFB0UUtuMFU0Q3B2Vk91bHZ0MzMtdFBHV2hFWWhOVmZMb3JuWVkwNmxscDZMM0hPZlhIWkxBZ25kcUNSQTJQQjZsY2NtWno3bURrTFNDWnlmeE8yQ3BWanJZTUh0c0cwSDllSTlxUTlqUHQ5MkxaZy1WM3ZtTWlhbDNyY190c1RkU1VxVVVDSUo1V0J6YTF4Zw?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-09T10:36:58+00:00",
+      "age_hours": 11.9,
+      "relevance_score": 52,
+      "tags": [
         "반도체/AI"
       ],
-      "category": "korea",
+      "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "KOSPI Decline Drives Annual Lows for One-Third of Listed Companies - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQkczT0RMWEVaSEo3d1NtV19RbzBEUDhKay1VeFNtcGFJV3g0bDVFZG9hamdodmlpb1V1LXBJZlppeWxWT1BHZFZSYmN1UDUzcWl1U3JXWGZhVGRDSHVhWVBrdS1NYklfU2dVdmZKX000S28wTWd0QXFQV3VvQUNsRDJIVjQyRnpPRWNFcDRB?oc=5",
-      "source": "조선일보",
-      "published_at_utc": "2026-11-08T15:34:46+00:00",
-      "age_hours": 30.7,
-      "relevance_score": 45,
+      "title": "Foreign Investors Net Sell Over $8.1 Billion in Six Sessions; South Korea's KOSPI Barely Holds 5,000 - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTQi0xeWl6VTV5NUdKM01zeXZ4OEJaUnlGdFhDLWlROVlVbFMxaU9vUXlUZDRKM1ZsR3FoMnJYS3UxLW5rNGhTOGdFVHlNTlAtWVRlOUh6Q3ZBdThpemxyckIyQjNuMEs5WWJacTM4dE53d25JLXc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-09T09:56:00+00:00",
+      "age_hours": 12.6,
+      "relevance_score": 51,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -80,25 +106,51 @@
       "needs_verification": true
     },
     {
-      "title": "South Korea’s US$1.7 tril rout burns day traders, challenges Lee - The Edge Malaysia",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aS1Q2YlZHUEZuclZqcGJmS09vV0NLaWprR1VjX3IxNExWUmpKRHFIaUdPUmlOS094ZF8xcUp1ZHhrUVpSQUhmak1YVDNUYkpW?oc=5",
-      "source": "The Edge Malaysia",
-      "published_at_utc": "2026-11-08T10:20:05+00:00",
-      "age_hours": 35.9,
+      "title": "[Closing Market] KOSPI Barely Holds 5,018 Amid Heavy Foreign Selling - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuX3RHb3ZxSnh4XzhNUW1rOUx0ZU9Za3NVMFlfUm5fT2lTWWtVVXgyaDg1VWRneVJ0M0VxZ3V3STNmVkctSjEyRDU2LXJKUHR1ak1fZmY5bmF5RTFsMV9tY0xZZmROVTJsYURjY2d1Q2IxWlht?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-09T08:39:12+00:00",
+      "age_hours": 13.8,
+      "relevance_score": 51,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "US Stock Futures Rise, Dow Futures Lead Gains As Wall Street Eyes Inflation Data, AI Earnings — NVDA, TSLA, CRWV In Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOW8xelU3Umt5VV9iaGh6NG4zNFBJQkhUSEdmSElvYUFWZk4yYnhYNmE3RGhHRnBmQktxQjZkUGotX3dyUHlRWk5mSzByRnRfeWFJMmpONjBZRHJ2eGE0c1p1R19Pb0otZDNvbjVoNUF4RnpUYVdIaEJoNmJTd2dOdlZWZjJyRXd4MWJnOWFza3RvdDdreDMzaHpQTTRJNXhSLUd5WmFYYmFocGJSLXYycjVPZFZUY1VZWGlWZ3phWTEzQi02cVU1UWJIb2FOeUNqZlhMdFYyeEFRV1V5RjViWHZuWHFtNjh0eWRoOHhZR1kyMXRCYnpZRTBFaU91SFVaVDBxUzZn?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-09T11:40:52+00:00",
+      "age_hours": 10.8,
+      "relevance_score": 47,
+      "tags": [
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
+      "source": "Yahoo Finance UK",
+      "published_at_utc": "2026-11-08T21:01:26+00:00",
+      "age_hours": 25.5,
+      "relevance_score": 47,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
+      "source": "Investor's Business Daily",
+      "published_at_utc": "2026-11-09T18:04:00+00:00",
+      "age_hours": 4.4,
       "relevance_score": 44,
-      "tags": [
-        "한국시장 직접언급"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "This Semiconductor ETF Just Had Its Worst Day Since March 2020 - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd1hXb0FmdjhtWnRWMHhWdW1fNWRwZ05mbjlRR3JUMHZ0S2ZISTVCN0x4ZjRHbDBobGxNRVk4akZtUzVkNkJ4ZGtqT0JNbzRuWlp2SllKU1VTcFVTVUJodTE2UVBxNDlWRGdCMGtaNE4wUDZNVEdnRGVLLTRGdzlzbVYzclF4NFJHWFAyTWhkRXQ1QXBVbXFwVGRvUG5ZUGxtNXdESW9PQmwtQlBqdnVZcWdENFo0Sm1OTkJNSVhiMjV6SnB6VUY3dkFkNWVLeTFYek52WDdydXN1dHFMaVE?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-08T22:26:36+00:00",
-      "age_hours": 23.8,
-      "relevance_score": 38,
       "tags": [
         "반도체/AI"
       ],
@@ -106,36 +158,51 @@
       "needs_verification": true
     },
     {
-      "title": "Bitcoin's Correlation With the S&P 500 Just Hit 0.80. Is Bitcoin Trading Like a Tech Stock Again? - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeWVpWGc5TFlmLThNWEFPTWJhLTM3d1BhQTBiLVBUcVFsNXFFc2ttaHF4THRSMzBacGpKNThrOXUxYnlxZzV2WHhQMkxRMzNOR1VyX2I5eGJ5M3cyN1dYNDY1NWYzZ2RqRmN5NXUxS1RHUjN2ZXJLcWtJeUVLZXZDTnRvOTlpYzJVTFJYMnJuZGhiTlNjZW9qYzhTTW5YMi1XU2J1Qm9UT1JnWEI1bEI5dkdwc2JabWV2VVp3eFhaNkh2eXVCaEpub3lYOXVKSGh6RXNQU3dteVVmVUNTNWdtRUtXckE1c0k?oc=5",
-      "source": "24/7 Wall St.",
-      "published_at_utc": "2026-11-08T22:17:00+00:00",
-      "age_hours": 24.0,
-      "relevance_score": 23,
+      "title": "AMD, Broadcom, Micron Rally Up To 8% As Chip Stocks Defy Nvidia Rout - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZmN4WURKSEJvSU5WR2ZJU0phRUYyMlBwby1YNUlrZjB6bmhManVheHVhaTU4N24tUURKTXZEemZWY3hkVjk3UDMwNEFWbGxJMmw4ZjYxekl2Wnk0ZVllYnVvbWFWNkQ4UE5CaWdWbVUxY1NaN3NobzlLdnBKMDcwVFR5V29HRUxuVVdudlJCVUxGV1cxT0U5anFVMi1YTHJaeWJDUHJvcVozUDloQ3fSAbYBQVVfeXFMTjlTdW1ScjFyREVPTXlaTU5mQ0FuU0J6aG1FODNpdHNNcW4ySHJaQ2xmRzAzNzVKM0JvX0pIRzZtdFNhN1pDc2JZWElUWFlxa0JxQVVKS045bm8taVN6b2NiQmZxUXExYnA4SHJDYU5halBxcHFrMzVWLWlwTUlPZEwwVDZjSy1JbVJ1UnpVNFM0VUItdjlTcUQtYk5iUm9QRWpXWExMYUIweUF4aUJzUlNsZ216OFE?oc=5",
+      "source": "NDTV Profit",
+      "published_at_utc": "2026-11-09T15:19:31+00:00",
+      "age_hours": 7.2,
+      "relevance_score": 43,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdHRpc3ZUQVNjOV9KTEhiNDFYMEFkNEVBUnZ2RG04X0k5T3FYRTB5dEg1ajF0cUp0bEFheTZkTENqODUwcExNT1d5TURFdXhVY1NZRmxIN1NTd2xDbkY4NjJhcnlIX21EQTZIYmpSQ0tRelN1MVY0cFBVM0VNQXlCdVlWN1E3VUhFN010aGs0LWEwc01jYkp1NQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-09T06:20:00+00:00",
+      "age_hours": 16.2,
+      "relevance_score": 40,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "US stock market today: Dow, S&P 500, Nasdaq rise as investors return to AI shares; oil slides - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQenVHa2VGSXRXTFkySkJ1bnR1a1R5SUhqVHllNXV4OEZvMGdUbEI4bllXdFN1bmF3VVVzRERiSVFEYmc5YlRuOEZFc245MWhFanRHMkNieFloaDllUG1Jb29pX2g2SzlEQ3FXTG5FdFJqdVNkOFJhUVhkQ0p0UVFJRFJfbnYxSGJTNXdhRDFrNkxJUWtCM2NzSjJ3eVc2bmhFbWduTVY5Qk5PMnR60gGyAUFVX3lxTE12V2UwWmx4X3R1NG1vT0RkSEhHLTNWNG9HWEdTNnVnU1BkSXB2NENIdFFVMExEeF9rdTVmeVBFeXlKeUJraTJlU0lHeS1pcDNFODYwOG9ndGlEM1FkT3pqTVFUUjdDZjZaNU5Ybk5ZaWJFc0xMZnk2Y3FyY1FFbmx5Sl9xRkxFOHNLQ21WdUNiQkFWQjBwVm1tb2JzQmxXZUhYbnd3bFF4c1VYdzltTV94MEE?oc=5",
+      "source": "CNBC TV18",
+      "published_at_utc": "2026-11-09T15:05:15+00:00",
+      "age_hours": 7.4,
+      "relevance_score": 28,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
-      "source": "StoneX",
-      "published_at_utc": "2026-11-08T03:28:43+00:00",
-      "age_hours": 42.8,
-      "relevance_score": 16,
+      "title": "Stock Market S&P 500: Futures Edge Up After 165,000 October Jobs - JournalArta",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcV9sSGVGbThZeEFWYVFUclktSlFPRGR4d2pyRzNUVHU1eHlXc3h1c0NUWW9VU1F4TXZOZHA4ZDFteENXcnk3aE0xMDAyUGcycnB2dEV3VGY0eXZmLVA1ZXgxcURmV294Um9HNzlqa0xqVkQ1d1psNWNNZTlBUG5sQkMyRzNYQms4ZldiTm1yV084a3dadmpmdEUtWktMcTl5?oc=5",
+      "source": "JournalArta",
+      "published_at_utc": "2026-11-09T14:33:14+00:00",
+      "age_hours": 7.9,
+      "relevance_score": 28,
       "tags": [],
       "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Lone Gainer Amid a Market Rout: Parking ETFs Draw 2.2 Trillion Won in a Month [This Week’s ETF to Watch] - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UbFpQZFppbjZhSTE0azQzTkprTVVWVmJqeWVVdFNOY3MxUnVUS1R4X2E1b2xoYjhUX3hFaGh0N0JYRnFRZFo3S3NOLXB6YVBFaWlz?oc=5",
-      "source": "매일경제",
-      "published_at_utc": "2026-11-08T08:20:00+00:00",
-      "age_hours": 37.9,
-      "relevance_score": 8,
-      "tags": [],
-      "category": "korea",
       "needs_verification": true
     }
   ],
