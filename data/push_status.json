@@ -1,6 +1,6 @@
 {
-  "last_sent_date_kst": "2026-11-10",
-  "last_sent_at_kst": "2026-11-10T07:30:00.502527+09:00",
-  "status_recorded_at_kst": "2026-11-10T07:30:00.566113+09:00",
+  "last_sent_date_kst": "2026-11-11",
+  "last_sent_at_kst": "2026-11-11T07:30:00.739300+09:00",
+  "status_recorded_at_kst": "2026-11-11T07:30:00.820831+09:00",
   "note": "ntfy HTTP success; device receipt not independently verified"
 }
