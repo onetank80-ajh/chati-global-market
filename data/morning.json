@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-11T07:39:45.942401+09:00",
+  "generated_at_kst": "2026-11-11T08:57:48.649500+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-11T07:39:45.804295+09:00",
-  "news_snapshot_at": "2026-11-11T07:38:04.495529+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-11-11T08:18:03.547879+09:00",
+  "news_snapshot_at": "2026-11-11T07:39:48.893401+09:00",
+  "market_snapshot_age_hours": 0.66,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-11T06:30:00+09:00",
-  "briefing_delay_minutes": 69.8,
-  "briefing_deadline_delay_minutes": 9.8,
-  "briefing_late_over_10min": false,
+  "briefing_delay_minutes": 147.8,
+  "briefing_deadline_delay_minutes": 87.8,
+  "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-11T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -1.48,
+      "change_percent": -1.413,
       "market_date": "2026-11-10",
       "meaning": "원화 강세 방향"
     }
@@ -63,16 +63,16 @@
       "published_at_utc": "2026-11-10T21:01:07+00:00"
     },
     {
-      "title": "Dow Drops 158, Nasdaq Sinks 187, S&P 500 Falls 29 - TV News Check",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEx6T0JZZHJaWTk2VllCNlNXUzlKbmJwME5mckI3WHFLTENQZVdTYVVUdlo3S1ZHNmZEN3NsdDI2bzRrSUE1Tk1DTS1QS3pHazhPZTZFRTZLaE5JWEhXOHBRazJBSjhKVE1QbG9fdW5pWDZhblE5VVNKOHVBVmtfZFZ6TzFGeGlOMXRCdnBJbHFoZw?oc=5",
-      "source": "TV News Check",
-      "published_at_utc": "2026-11-10T21:29:56+00:00"
-    },
-    {
       "title": "Stock market today: Dow, S&P 500 slip after CPI data raises Fed rate-hike bets - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3g4SF9zazNmOHU3U1IzeWVXQUJoY3VIWmVZZGRXc3B0alp1SU1Bdk1EQnJJMWJXdTNpQmowcDYyaUhHNHFRQm9xSHhLNnJVb0dtY1NWZFdqVDRyaVBKVDZuejBlWXRIQ3BhSU5sd0tXUUVuVl9CWHdLMy1ma3RFdEx0NEZjdVhoWXhGMFVyWTZzWDhKajBfRmxNMldzR1N1NVBJc2k5cFhkUTFZdTJqNF9ia3ZnQmpQZWppcWFOUmtINmhvVVFIWVAtdVc?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-10T15:12:26+00:00"
+    },
+    {
+      "title": "Dow Drops 158, Nasdaq Sinks 187, S&P 500 Falls 29 - TV News Check",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEx6T0JZZHJaWTk2VllCNlNXUzlKbmJwME5mckI3WHFLTENQZVdTYVVUdlo3S1ZHNmZEN3NsdDI2bzRrSUE1Tk1DTS1QS3pHazhPZTZFRTZLaE5JWEhXOHBRazJBSjhKVE1QbG9fdW5pWDZhblE5VVNKOHVBVmtfZFZ6TzFGeGlOMXRCdnBJbHFoZw?oc=5",
+      "source": "TV News Check",
+      "published_at_utc": "2026-11-10T21:29:56+00:00"
     },
     {
       "title": "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure",
