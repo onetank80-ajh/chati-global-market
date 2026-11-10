@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-09T23:59:44.895643+00:00",
+  "generated_at_utc": "2026-11-10T22:10:58.925645+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 14,
+  "headline_count_after": 13,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-10T08:23:02.331180+09:00",
+  "market_snapshot_at": "2026-11-11T07:10:58.821146+09:00",
   "market_signals": {
     "sp500": {
-      "change_percent": 2.346,
-      "market_date": "2026-11-09",
+      "change_percent": -0.384,
+      "market_date": "2026-11-10",
       "status": "ok"
     },
     "sox": {
-      "change_percent": 6.855,
-      "market_date": "2026-11-09",
+      "change_percent": -0.355,
+      "market_date": "2026-11-10",
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -1.063,
-      "market_date": "2026-11-09",
+      "change_percent": -1.475,
+      "market_date": "2026-11-10",
       "status": "ok"
     },
     "nasdaq": {
-      "change_percent": 2.741,
-      "market_date": "2026-11-09",
+      "change_percent": -0.742,
+      "market_date": "2026-11-10",
       "status": "ok"
     }
   },
@@ -35,13 +35,13 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "방향 확인 필요",
+      "view": "변동성 주의",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "우호적 참고",
+      "view": "방향 확인 필요",
       "basis": "S&P500 종가 방향"
     },
     {
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NekJHbWxMa045T2NzR09RSkpkMnZkek5McG9YTlp0c0FNVllJU1djd1pVMm1NdHFQamNJU2h0T2JwZE9SMnNpMzNZU1NrMXFzd0Y1ZlJjTTBndklBaGtxM1pQUC0tYWFWUnpNYkVQcmV2T19OdS1pS0k1RQ?oc=5",
       "source": "Stocks Down Under",
       "published_at_utc": "2026-11-09T00:00:15+00:00",
-      "age_hours": 24.0,
-      "relevance_score": 68,
+      "age_hours": 46.2,
+      "relevance_score": 60,
       "tags": [
         "반도체/AI",
         "거시경제"
@@ -71,8 +71,8 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3ZfZEUwVWlyd25pTzVXVUp4aTF3cGZybS1qLThnblJrVDRycFRnOG1CZE85d2xTZGFNejh1S01DaFRVV056RGpkXzRnTzFJbFpOa1lZcmJqTlgtUlFUcVBqQlJvdjR0NjNBWW5aUU9pSkpGSUhoX0dSY25uTGVMY0NaRnVmemJxT1BFVVN3?oc=5",
       "source": "조선일보",
       "published_at_utc": "2026-11-09T15:37:58+00:00",
-      "age_hours": 8.4,
-      "relevance_score": 53,
+      "age_hours": 30.6,
+      "relevance_score": 45,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -84,8 +84,8 @@
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSHVTUlFPYXpaazdkcWxBZVVRM0dJVUl2TTRLbXNVMk80YnF1czRBTXpUSzM1RlpVUUR6VWNjWGt4ejc2aXFIeFMzcGdUMldlanBtNUxvVTRCM3FzYmdubzd1bVN3U2NROGV5OHdiMEdZVnkydHdibHFIZFB0UUtuMFU0Q3B2Vk91bHZ0MzMtdFBHV2hFWWhOVmZMb3JuWVkwNmxscDZMM0hPZlhIWkxBZ25kcUNSQTJQQjZsY2NtWno3bURrTFNDWnlmeE8yQ3BWanJZTUh0c0cwSDllSTlxUTlqUHQ5MkxaZy1WM3ZtTWlhbDNyY190c1RkU1VxVVVDSUo1V0J6YTF4Zw?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-09T10:36:58+00:00",
-      "age_hours": 13.4,
-      "relevance_score": 51,
+      "age_hours": 35.6,
+      "relevance_score": 44,
       "tags": [
         "반도체/AI"
       ],
@@ -97,8 +97,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTQi0xeWl6VTV5NUdKM01zeXZ4OEJaUnlGdFhDLWlROVlVbFMxaU9vUXlUZDRKM1ZsR3FoMnJYS3UxLW5rNGhTOGdFVHlNTlAtWVRlOUh6Q3ZBdThpemxyckIyQjNuMEs5WWJacTM4dE53d25JLXc?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-09T09:56:00+00:00",
-      "age_hours": 14.1,
-      "relevance_score": 51,
+      "age_hours": 36.2,
+      "relevance_score": 43,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -110,21 +110,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuX3RHb3ZxSnh4XzhNUW1rOUx0ZU9Za3NVMFlfUm5fT2lTWWtVVXgyaDg1VWRneVJ0M0VxZ3V3STNmVkctSjEyRDU2LXJKUHR1ak1fZmY5bmF5RTFsMV9tY0xZZmROVTJsYURjY2d1Q2IxWlht?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-09T08:39:12+00:00",
-      "age_hours": 15.3,
-      "relevance_score": 50,
-      "tags": [
-        "한국시장 직접언급"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
-      "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
-      "source": "Yahoo Finance UK",
-      "published_at_utc": "2026-11-08T21:01:26+00:00",
-      "age_hours": 27.0,
-      "relevance_score": 47,
+      "age_hours": 37.5,
+      "relevance_score": 43,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -136,8 +123,8 @@
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOW8xelU3Umt5VV9iaGh6NG4zNFBJQkhUSEdmSElvYUFWZk4yYnhYNmE3RGhHRnBmQktxQjZkUGotX3dyUHlRWk5mSzByRnRfeWFJMmpONjBZRHJ2eGE0c1p1R19Pb0otZDNvbjVoNUF4RnpUYVdIaEJoNmJTd2dOdlZWZjJyRXd4MWJnOWFza3RvdDdreDMzaHpQTTRJNXhSLUd5WmFYYmFocGJSLXYycjVPZFZUY1VZWGlWZ3phWTEzQi02cVU1UWJIb2FOeUNqZlhMdFYyeEFRV1V5RjViWHZuWHFtNjh0eWRoOHhZR1kyMXRCYnpZRTBFaU91SFVaVDBxUzZn?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-09T11:40:52+00:00",
-      "age_hours": 12.3,
-      "relevance_score": 46,
+      "age_hours": 34.5,
+      "relevance_score": 39,
       "tags": [
         "거시경제"
       ],
@@ -149,8 +136,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
       "source": "Investor's Business Daily",
       "published_at_utc": "2026-11-09T18:04:00+00:00",
-      "age_hours": 5.9,
-      "relevance_score": 44,
+      "age_hours": 28.1,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -162,8 +149,8 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZmN4WURKSEJvSU5WR2ZJU0phRUYyMlBwby1YNUlrZjB6bmhManVheHVhaTU4N24tUURKTXZEemZWY3hkVjk3UDMwNEFWbGxJMmw4ZjYxekl2Wnk0ZVllYnVvbWFWNkQ4UE5CaWdWbVUxY1NaN3NobzlLdnBKMDcwVFR5V29HRUxuVVdudlJCVUxGV1cxT0U5anFVMi1YTHJaeWJDUHJvcVozUDloQ3fSAbYBQVVfeXFMTjlTdW1ScjFyREVPTXlaTU5mQ0FuU0J6aG1FODNpdHNNcW4ySHJaQ2xmRzAzNzVKM0JvX0pIRzZtdFNhN1pDc2JZWElUWFlxa0JxQVVKS045bm8taVN6b2NiQmZxUXExYnA4SHJDYU5halBxcHFrMzVWLWlwTUlPZEwwVDZjSy1JbVJ1UnpVNFM0VUItdjlTcUQtYk5iUm9QRWpXWExMYUIweUF4aUJzUlNsZ216OFE?oc=5",
       "source": "NDTV Profit",
       "published_at_utc": "2026-11-09T15:19:31+00:00",
-      "age_hours": 8.7,
-      "relevance_score": 43,
+      "age_hours": 30.9,
+      "relevance_score": 35,
       "tags": [
         "반도체/AI"
       ],
@@ -175,8 +162,8 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdHRpc3ZUQVNjOV9KTEhiNDFYMEFkNEVBUnZ2RG04X0k5T3FYRTB5dEg1ajF0cUp0bEFheTZkTENqODUwcExNT1d5TURFdXhVY1NZRmxIN1NTd2xDbkY4NjJhcnlIX21EQTZIYmpSQ0tRelN1MVY0cFBVM0VNQXlCdVlWN1E3VUhFN010aGs0LWEwc01jYkp1NQ?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-09T06:20:00+00:00",
-      "age_hours": 17.7,
-      "relevance_score": 40,
+      "age_hours": 39.8,
+      "relevance_score": 32,
       "tags": [
         "반도체/AI"
       ],
@@ -188,8 +175,8 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQenVHa2VGSXRXTFkySkJ1bnR1a1R5SUhqVHllNXV4OEZvMGdUbEI4bllXdFN1bmF3VVVzRERiSVFEYmc5YlRuOEZFc245MWhFanRHMkNieFloaDllUG1Jb29pX2g2SzlEQ3FXTG5FdFJqdVNkOFJhUVhkQ0p0UVFJRFJfbnYxSGJTNXdhRDFrNkxJUWtCM2NzSjJ3eVc2bmhFbWduTVY5Qk5PMnR60gGyAUFVX3lxTE12V2UwWmx4X3R1NG1vT0RkSEhHLTNWNG9HWEdTNnVnU1BkSXB2NENIdFFVMExEeF9rdTVmeVBFeXlKeUJraTJlU0lHeS1pcDNFODYwOG9ndGlEM1FkT3pqTVFUUjdDZjZaNU5Ybk5ZaWJFc0xMZnk2Y3FyY1FFbmx5Sl9xRkxFOHNLQ21WdUNiQkFWQjBwVm1tb2JzQmxXZUhYbnd3bFF4c1VYdzltTV94MEE?oc=5",
       "source": "CNBC TV18",
       "published_at_utc": "2026-11-09T15:05:15+00:00",
-      "age_hours": 8.9,
-      "relevance_score": 28,
+      "age_hours": 31.1,
+      "relevance_score": 20,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -199,10 +186,21 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcV9sSGVGbThZeEFWYVFUclktSlFPRGR4d2pyRzNUVHU1eHlXc3h1c0NUWW9VU1F4TXZOZHA4ZDFteENXcnk3aE0xMDAyUGcycnB2dEV3VGY0eXZmLVA1ZXgxcURmV294Um9HNzlqa0xqVkQ1d1psNWNNZTlBUG5sQkMyRzNYQms4ZldiTm1yV084a3dadmpmdEUtWktMcTl5?oc=5",
       "source": "JournalArta",
       "published_at_utc": "2026-11-09T14:33:14+00:00",
-      "age_hours": 9.4,
-      "relevance_score": 27,
+      "age_hours": 31.6,
+      "relevance_score": 20,
       "tags": [],
       "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "US stock market stages massive rally today, adds $1.5 trillion: 5 reasons why Dow Jones, S&P 500 and Nasda - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOTDMtaWxTbVM3SEVicWxob0hzZXdZTVdkTGhoRnJrc2JDTmJ6WFFSN0V2Q1VaSkJZckViTFBlc3oyM2RNcmk0VTdJbExodnNuY3hzNXJaRjBTOXlmT1JmSVlQeGxfTU5SYmczUHZiZTV2YnpSMDNxMTI3Z2p6eW1ZN0RCUW03S1R4a2NuTkxWQXBkbGhsWXdrcmtvREpDV1RCMWx0aWZwTnlTRWkwZUtybkFQMnlCVmkxTzhxV0Q1WEhSLUNlVWJYUWtjQmVfRGR3VjRGTGZhZW5qd001Uk9aTFNGYmo2NzZ6LWQtUzM0ZWxWR0tXQVhZZGlFaWtNbHV0empXbFctN1FNTUs4VWNsaUxleEo4RjdjRHJ2dzJXQ3FXdS1mbzZyN3R4LVc1QkNOdnQ5TEl2REpNQV93QS05SWZuS0gzVXhH0gHOAkFVX3lxTE5McGhaUVZXZXNpYUhqYzN0eWlQY3hCSTc2a1NhcXJ2UzRhOW53SU8wSm1qOVBTVmxpcVl0VTE4LXNURXI2Q2d1ZHRlaGk4ekNIMmV6UGNXU0Z4QW1oV3hLbU1kQXJUdHNMN3dxZ2FrMGxWZmVTMTd3UWVJTHpsWmhIWjdWZEdtbzVuZktmOWlxQll4SWwyc3pEM2czbGJNVEVzSmo0SjhNSUh3OUY1Z0l6bjA2TXZyY2ZhQl9hSWZDVDl5OEV4azVGRkxuM29QTUFyTmFpcFM2enR6ZDBHTktXendaVW5BS2lxS1NtZ05mUkxqX2xXZDRlaUloUFRNWkwyWmtPSHNFUmlTUmFwckswUkdvVjdzaFhUbVpuY1NOS0NoZ0dwOWd3eGNDLU41M1lOSk8wUWJFZ0lUWG1XeElRNDdPTDVDSUpqVXgtN2c?oc=5",
+      "source": "The Economic Times",
+      "published_at_utc": "2026-11-09T17:21:25+00:00",
+      "age_hours": 28.8,
+      "relevance_score": 11,
+      "tags": [],
+      "category": "semiconductor",
       "needs_verification": true
     }
   ],
