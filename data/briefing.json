@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-10T22:11:03.680081+00:00",
-  "generated_at_kst": "2026-11-11T07:11:03.680081+09:00",
+  "generated_at_utc": "2026-11-10T22:24:58.201455+00:00",
+  "generated_at_kst": "2026-11-11T07:24:58.201455+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -1.475,
+      "change_percent": -1.469,
       "reference_direction": "우호적"
     }
   ],
@@ -33,20 +33,9 @@
       "source": "TV News Check",
       "published_at_utc": "2026-11-10T21:29:56+00:00",
       "category": "us_market",
-      "age_hours": 0.7,
-      "freshness_score": 99,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "US stocks slip following a discouraging update on inflation - Rocky Mount Telegram",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUWNfamVRZk9feU1veUFnZ3FUUmxsczNXUDRBSmx1bE5QeWNKXzN5dUFGd2JBNU9zalY1RUE4WVowNW5Ba3daMW9KaW83RGNhczBxMWs4a2sxOHQ0Z0hNV1NpeXc0LXZrckpWOFpNYVdPTlhrblZXMVdDNDhDYXhiemVHX2wzUU1haVNMY3hkTF8yZmJtZEdaSGRURTdOQ285RkJOb1NNQndaOE9Va04tZlc2N0ZlMjN3aG5ZME9DTTVLeFNSZ2lyeFpCc2hRRWpES0ptcWNSVVdJQjZtQTZFWXJxdEFSRnR0MlE?oc=5",
-      "source": "Rocky Mount Telegram",
-      "published_at_utc": "2026-11-10T21:16:02+00:00",
-      "category": "korea",
       "age_hours": 0.9,
       "freshness_score": 98,
-      "headline_tone": "부정 표현",
+      "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
@@ -55,8 +44,8 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-10T21:01:07+00:00",
       "category": "us_market",
-      "age_hours": 1.2,
-      "freshness_score": 98,
+      "age_hours": 1.4,
+      "freshness_score": 97,
       "headline_tone": "부정 표현",
       "sectors": []
     },
@@ -66,8 +55,8 @@
       "source": "Investor's Business Daily",
       "published_at_utc": "2026-11-10T17:08:00+00:00",
       "category": "semiconductor",
-      "age_hours": 5.1,
-      "freshness_score": 90,
+      "age_hours": 5.3,
+      "freshness_score": 89,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -79,7 +68,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-10T16:53:14+00:00",
       "category": "semiconductor",
-      "age_hours": 5.3,
+      "age_hours": 5.5,
       "freshness_score": 89,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -92,7 +81,7 @@
       "source": "TradingView",
       "published_at_utc": "2026-11-10T16:12:24+00:00",
       "category": "semiconductor",
-      "age_hours": 6.0,
+      "age_hours": 6.2,
       "freshness_score": 88,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -105,20 +94,20 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-10T15:12:26+00:00",
       "category": "us_market",
-      "age_hours": 7.0,
+      "age_hours": 7.2,
       "freshness_score": 86,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
-      "source": "Beinsure",
-      "published_at_utc": "2026-11-10T13:36:43+00:00",
-      "category": "us_market",
-      "age_hours": 8.6,
-      "freshness_score": 83,
-      "headline_tone": "혼재/불명",
+      "title": "US stocks stumble after a discouraging update on inflation - 巴士的報",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ0FZX0VJN19sZER5N2NMZmpGYXRTLXl6anpBQ1U1VUdqTnkyRWppZkdhc2FYRmU5UUFKSGU4UFZpbFZKaG9EcXM4VUlIQW95dEZ0cHNHcHB5cWFLRHlWTXlkWi1KMmJhSTJVbGV1WE03UlJxaXV2WC1DMFBtdXVMRDZuVk1EM1J5azUwbDE4UUFRLWlPaVEzdWJ6Ukdtb2RBNUFWYzBSbjNCUWYzZUxF?oc=5",
+      "source": "巴士的報",
+      "published_at_utc": "2026-11-10T14:51:33+00:00",
+      "category": "korea",
+      "age_hours": 7.6,
+      "freshness_score": 85,
+      "headline_tone": "부정 표현",
       "sectors": []
     },
     {
@@ -127,7 +116,7 @@
       "source": "CNBC",
       "published_at_utc": "2026-11-10T13:19:13+00:00",
       "category": "semiconductor",
-      "age_hours": 8.9,
+      "age_hours": 9.1,
       "freshness_score": 82,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -140,9 +129,20 @@
       "source": "KED Global",
       "published_at_utc": "2026-11-10T13:24:05+00:00",
       "category": "korea",
-      "age_hours": 8.8,
+      "age_hours": 9.0,
       "freshness_score": 82,
       "headline_tone": "부정 표현",
+      "sectors": []
+    },
+    {
+      "title": "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-10T13:36:43+00:00",
+      "category": "us_market",
+      "age_hours": 8.8,
+      "freshness_score": 82,
+      "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
@@ -151,7 +151,7 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-10T10:47:30+00:00",
       "category": "korea",
-      "age_hours": 11.4,
+      "age_hours": 11.6,
       "freshness_score": 77,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -162,8 +162,8 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-10T09:56:54+00:00",
       "category": "us_market",
-      "age_hours": 12.2,
-      "freshness_score": 76,
+      "age_hours": 12.5,
+      "freshness_score": 75,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -173,7 +173,7 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-10T06:55:00+00:00",
       "category": "semiconductor",
-      "age_hours": 15.3,
+      "age_hours": 15.5,
       "freshness_score": 69,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -186,7 +186,7 @@
       "source": "morning-times.com",
       "published_at_utc": "2026-11-10T03:44:21+00:00",
       "category": "korea",
-      "age_hours": 18.4,
+      "age_hours": 18.7,
       "freshness_score": 63,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -197,8 +197,8 @@
       "source": "Yahoo Finance UK",
       "published_at_utc": "2026-11-09T16:02:14+00:00",
       "category": "korea",
-      "age_hours": 30.1,
-      "freshness_score": 40,
+      "age_hours": 30.4,
+      "freshness_score": 39,
       "headline_tone": "혼재/불명",
       "sectors": []
     }
