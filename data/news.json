@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-10T22:38:04.495529+00:00",
-  "generated_at_kst": "2026-11-11T07:38:04.495529+09:00",
+  "generated_at_utc": "2026-11-10T22:39:48.893401+00:00",
+  "generated_at_kst": "2026-11-11T07:39:48.893401+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -14,17 +14,17 @@
     },
     {
       "category": "us_market",
-      "title": "Dow Drops 158, Nasdaq Sinks 187, S&P 500 Falls 29 - TV News Check",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEx6T0JZZHJaWTk2VllCNlNXUzlKbmJwME5mckI3WHFLTENQZVdTYVVUdlo3S1ZHNmZEN3NsdDI2bzRrSUE1Tk1DTS1QS3pHazhPZTZFRTZLaE5JWEhXOHBRazJBSjhKVE1QbG9fdW5pWDZhblE5VVNKOHVBVmtfZFZ6TzFGeGlOMXRCdnBJbHFoZw?oc=5",
-      "source": "TV News Check",
-      "published_at_utc": "2026-11-10T21:29:56+00:00"
-    },
-    {
-      "category": "us_market",
       "title": "Stock market today: Dow, S&P 500 slip after CPI data raises Fed rate-hike bets - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3g4SF9zazNmOHU3U1IzeWVXQUJoY3VIWmVZZGRXc3B0alp1SU1Bdk1EQnJJMWJXdTNpQmowcDYyaUhHNHFRQm9xSHhLNnJVb0dtY1NWZFdqVDRyaVBKVDZuejBlWXRIQ3BhSU5sd0tXUUVuVl9CWHdLMy1ma3RFdEx0NEZjdVhoWXhGMFVyWTZzWDhKajBfRmxNMldzR1N1NVBJc2k5cFhkUTFZdTJqNF9ia3ZnQmpQZWppcWFOUmtINmhvVVFIWVAtdVc?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-10T15:12:26+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Dow Drops 158, Nasdaq Sinks 187, S&P 500 Falls 29 - TV News Check",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEx6T0JZZHJaWTk2VllCNlNXUzlKbmJwME5mckI3WHFLTENQZVdTYVVUdlo3S1ZHNmZEN3NsdDI2bzRrSUE1Tk1DTS1QS3pHazhPZTZFRTZLaE5JWEhXOHBRazJBSjhKVE1QbG9fdW5pWDZhblE5VVNKOHVBVmtfZFZ6TzFGeGlOMXRCdnBJbHFoZw?oc=5",
+      "source": "TV News Check",
+      "published_at_utc": "2026-11-10T21:29:56+00:00"
     },
     {
       "category": "us_market",
@@ -64,9 +64,9 @@
     {
       "category": "semiconductor",
       "title": "Semiconductor Stocks Will Split Into ‘Haves And Have-Nots,’ Raymond James Strategist Says - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmRuZmdnUzdKWEt3NGtZWFJob2lkWlVxNnBlXy10eVdtalI1bkpLSmM4bkRPeHNoa2NOcXNwVExWaEhMaGZ4ZFJxeFZ1Y1h5WkVTNVRkZzJmTjVHMTg4VkdwOWZyVTVCZl9icm9oYTFXb0pJbUtoNVk3dTUyeEd3aGcxbjQzdUJUWFhnVE42WlBkWHMtQ3V4NGxaeENoeHRRVVRxRjQyQ2F0N0pLaGJSakNsLVdqRE9XVF84RUhQbE11d09RcmhST1hjVlhDbmVBSVdEZlJlUnpQSDVQcHRnRw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb050MndBbWVqcy04ektqckEzYjVTa1RVSmdVRXlCNS1MNVBjWnZXcWYwTG92cEt3Uk5WQXZseG4tSlJ0M2M1LWZUcDZqX0JTWUFrM09DSUduRFNZR1h5T09DaUw0cUJNMkJEQ2JrZmpyUFN2RmtiRHBCeW1OYkwxUk9rSkZ3VjlST0w0T19WeVR1SXBtM2w1bW9HNzBtTGdXSlR4eS1vdC1XbktEdlN4MEFsbE9XWkF6enUtalhjOFBsaUF3OTFaVVdHWmhlRHNrVjlOZlN3cjI3elVRWkRv?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-11-10T16:12:24+00:00"
+      "published_at_utc": "2026-11-10T15:59:01+00:00"
     },
     {
       "category": "semiconductor",
@@ -81,13 +81,6 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Nbl9zdXlHVVRqTENjNkIydTl5T091emFxaXlRUjdxODVLYWJOc3N4WloycVBjRVpqeUpiY1kwd2pqX3dZOWJVcXpxeXJwcWVtNGRxcXUwLUF1WlE0bjZBeDZKdVFwdXJ3?oc=5",
       "source": "KED Global",
       "published_at_utc": "2026-11-10T13:24:05+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "US stocks slip following a discouraging update on inflation - Rocky Mount Telegram",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUWNfamVRZk9feU1veUFnZ3FUUmxsczNXUDRBSmx1bE5QeWNKXzN5dUFGd2JBNU9zalY1RUE4WVowNW5Ba3daMW9KaW83RGNhczBxMWs4a2sxOHQ0Z0hNV1NpeXc0LXZrckpWOFpNYVdPTlhrblZXMVdDNDhDYXhiemVHX2wzUU1haVNMY3hkTF8yZmJtZEdaSGRURTdOQ285RkJOb1NNQndaOE9Va04tZlc2N0ZlMjN3aG5ZME9DTTVLeFNSZ2lyeFpCc2hRRWpES0ptcWNSVVdJQjZtQTZFWXJxdEFSRnR0MlE?oc=5",
-      "source": "Rocky Mount Telegram",
-      "published_at_utc": "2026-11-10T21:16:02+00:00"
     },
     {
       "category": "korea",
@@ -109,6 +102,13 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLdXByZ2luV08xMUtCYWd0RG5fMWJRVUtJOFhRbWF0cWU2eDJDRTA4QUVVQ3dXMnpIUVBwdzFCNjJxLTRNS0xpT2FCZUU4STd6emw3NEc1b3pfNVdtZHBpZW1tWjkxYU5zVDl3VlBXNUFnNGFN?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-10T10:47:30+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "US stocks hover near their latest record in mixed trading - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JbWY4akNDY1JoN3JGbGlWSUhaR2JhZHhXcWZNVW92TTRyLWR1eEZHdXhxaXBDdmZDbENPSDloQzZGeHY2Q1lUVjROTjJhZUFXX0hHWUV5NHlTbHExc1E?oc=5",
+      "source": "朝日新聞",
+      "published_at_utc": "2026-11-10T08:51:36+00:00"
     }
   ],
   "warnings": []
