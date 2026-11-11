@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-11T22:26:25.669963+00:00",
+  "generated_at_utc": "2026-11-11T22:37:28.486878+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 14,
+  "headline_count_after": 15,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-12T07:26:25.557061+09:00",
+  "market_snapshot_at": "2026-11-12T07:37:28.379233+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": 1.309,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.537,
+      "change_percent": -0.551,
       "market_date": "2026-11-11",
       "status": "ok"
     },
@@ -53,12 +53,40 @@
   ],
   "top_headlines": [
     {
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPMm5VakpsOW9kRVZPYXkyS1laQVB5ZzdpZFpfLTA5dzhhYWNRT1doRTQyLVA1bUtDRWoxOHNsakRSVkFZSnFoVkpoMHc1NjU2czZ6TVh2VVp4djdIWndwY2VJTVE3amQ4cEdlV2ZIdEEzLVA4d1ZWOTJlWmtiYU9ZbU1xUWZQTE1UdmQxZ2dYZERvUWppTTljTkoxMld0NEpaM0VtVFRjeFlacnA4TzY0dFNGa1lLYnFJVWVZQjhlcENXTEFuLXBqSS04VHc3U0dYS0RJS01FV0JWUnNPRFJRbHJzS0hQUkVRdzRjOEVMTVhfVkVBREc4dEpmaUlxV2ptazJSUA?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-11T03:51:00+00:00",
+      "age_hours": 18.8,
+      "relevance_score": 69,
+      "tags": [
+        "반도체/AI",
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data - WSLS",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUVsQXlhWHZaUTBIUGhaOXpZaWk3cTFST0FNYmNmZjV3azNobVpPN2xCcjh0TUtJaWhXTnQxZmFkVkRsbVBjNDNJcmxXc1YyUkNMVXp0eVVxX0RGaWZqcHB1T1VqZm9abWFZTnRWNW9zRDZneHI4S2VPSjd6cmlxM3hnX0puaHBMdnNzUy1keGNVMmFzTTlQRkMxa0lXVmRkMkRvWDlpOGtDcTdIMDlHS2JTdFFVR0tuYmRvYW9VVXVKZnRZTUtkdXhuUQ?oc=5",
+      "source": "WSLS",
+      "published_at_utc": "2026-11-11T04:46:20+00:00",
+      "age_hours": 17.9,
+      "relevance_score": 60,
+      "tags": [
+        "반도체/AI",
+        "거시경제"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
       "title": "Louis Vuitton hit by stock slump, stronger won in South Korea - KED Global",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Nbl9zdXlHVVRqTENjNkIydTl5T091emFxaXlRUjdxODVLYWJOc3N4WloycVBjRVpqeUpiY1kwd2pqX3dZOWJVcXpxeXJwcWVtNGRxcXUwLUF1WlE0bjZBeDZKdVFwdXJ3?oc=5",
       "source": "KED Global",
-      "published_at_utc": "2026-11-10T13:24:05+00:00",
-      "age_hours": 33.0,
-      "relevance_score": 44,
+      "published_at_utc": "2026-11-10T18:22:32+00:00",
+      "age_hours": 28.2,
+      "relevance_score": 46,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -66,55 +94,55 @@
       "needs_verification": true
     },
     {
-      "title": "[Closing Market] KOSPI Rebounds 4% as Tech Stocks Surge - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLdXByZ2luV08xMUtCYWd0RG5fMWJRVUtJOFhRbWF0cWU2eDJDRTA4QUVVQ3dXMnpIUVBwdzFCNjJxLTRNS0xpT2FCZUU4STd6emw3NEc1b3pfNVdtZHBpZW1tWjkxYU5zVDl3VlBXNUFnNGFN?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-10T10:47:30+00:00",
-      "age_hours": 35.6,
-      "relevance_score": 44,
+      "title": "Philadelphia Semiconductor Index Plunges 21% Over One Month; Goldman Sachs Calls It Oversold, Names Nvidia and Two Other AI Chip Stocks - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUblRTZkwxa2RiYkFVb3kxbXppWGFoRTRfdHFCWXBrTjF1MF9Zbk1wRzhZYnBZYklvd3pScU5Ual9kRWl2TU5CQkttSXQ5Rmt4UHpHN1pBOWg5MVFOUnNGWEZGWEt6alpXbHNvVXEzSXR1d1hIUGc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-11T16:26:00+00:00",
+      "age_hours": 6.2,
+      "relevance_score": 43,
       "tags": [
-        "한국시장 직접언급"
+        "반도체/AI"
       ],
-      "category": "korea",
+      "category": "semiconductor",
       "needs_verification": true
     },
     {
-      "title": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-10T21:01:07+00:00",
-      "age_hours": 25.4,
+      "title": "Chip Stocks Have Lost Nearly $5 Trillion. Nvidia Hasn't Been This Oversold Since 2019. - The Wealth Advisor",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWXZxSkhzM0pFS1lYbzFPX2RnTThMTEJtcnFvV2xXaGNvaFpfVzJtamlYX2JiWl80b1p0ZndkUURlZ1IyMVczc3R6M2VVeHlOc2ppMHJNNU83Tm9YNDVNeWpKN0VLcjBhMWVjaUczcE1iMUZPMjlRbldUMjhLQ281WHlnYnYxZkNQV0FfdEltZzF6LXRESE91U1VhNk11OVljLWlwaHhaam5JcG01X19ZajB3?oc=5",
+      "source": "The Wealth Advisor",
+      "published_at_utc": "2026-11-11T14:20:45+00:00",
+      "age_hours": 8.3,
+      "relevance_score": 43,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "US futures climb and Nvidia shares stabilize in a brutal week for the chipmaker - 巴士的報",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUlc2NDVXS2VnYWU5X2VXVzhNV3FuLVA0cUlqZjg3aEx3cl9pU2xCVUEtTWFiMmo4N3NkNmIzd2dOalAzc0VreERaX1hNMGpUeWU5NVVkMXRtdVdleEJiMTZJeUpIbXNrcWY3OWl0bXg4cnJscHU4ekF4N0VTdHFFSmRDZWg2WG50RFE4ZWR3SzZWT3RXczhKbnd5V3h0US1CN2ZaS2hMYzhiMDlKSnBuSGNIeTh1R00zaE9ORkJESkdHeV9RMW54Sy04VQ?oc=5",
+      "source": "巴士的報",
+      "published_at_utc": "2026-11-11T13:14:37+00:00",
+      "age_hours": 9.4,
       "relevance_score": 42,
       "tags": [
-        "거시경제"
+        "반도체/AI"
       ],
-      "category": "us_market",
+      "category": "korea",
       "needs_verification": true
     },
     {
-      "title": "Stock market today: Dow, S&P 500 slip after CPI data raises Fed rate-hike bets - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3g4SF9zazNmOHU3U1IzeWVXQUJoY3VIWmVZZGRXc3B0alp1SU1Bdk1EQnJJMWJXdTNpQmowcDYyaUhHNHFRQm9xSHhLNnJVb0dtY1NWZFdqVDRyaVBKVDZuejBlWXRIQ3BhSU5sd0tXUUVuVl9CWHdLMy1ma3RFdEx0NEZjdVhoWXhGMFVyWTZzWDhKajBfRmxNMldzR1N1NVBJc2k5cFhkUTFZdTJqNF9ia3ZnQmpQZWppcWFOUmtINmhvVVFIWVAtdVc?oc=5",
+      "title": "Goldman Sachs calls chip stocks 'oversold.' Here are the names it says to buy. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT0pnN29CUTRORHVwTUNRSFY1dndZcjM1cGRqOWRVbVEwYm1UelIxUXE3VHNDbjhoU25kMmNKdHBXWVdjOVc0YXVubnNSV2lKUWdRdXNaM1JrbkdZaVVaLVUxd3gyeXI2WkhSR2FEU1BBV0FydDh5dm1ic2dOYUkzRmtiNl9xYnFlbm00RzdTbjZoaTZCM0RpcDY5a2lXRGhTR1FIWnZNLU5WTGx1dkRaaUNRVmQwUk5Ga3dabVVWTE1fNHBLaVFDcmx4dw?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-10T15:12:26+00:00",
-      "age_hours": 31.2,
+      "published_at_utc": "2026-11-11T06:00:00+00:00",
+      "age_hours": 16.6,
       "relevance_score": 40,
       "tags": [
-        "거시경제"
+        "반도체/AI"
       ],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
-      "source": "Beinsure",
-      "published_at_utc": "2026-11-10T13:36:43+00:00",
-      "age_hours": 32.8,
-      "relevance_score": 40,
-      "tags": [
-        "거시경제"
-      ],
-      "category": "us_market",
+      "category": "semiconductor",
       "needs_verification": true
     },
     {
@@ -122,34 +150,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
       "source": "Investor's Business Daily",
       "published_at_utc": "2026-11-10T17:08:00+00:00",
-      "age_hours": 29.3,
+      "age_hours": 29.5,
       "relevance_score": 36,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Goldman Sachs calls chip stocks 'oversold.' Here are the names it says to buy. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT0pnN29CUTRORHVwTUNRSFY1dndZcjM1cGRqOWRVbVEwYm1UelIxUXE3VHNDbjhoU25kMmNKdHBXWVdjOVc0YXVubnNSV2lKUWdRdXNaM1JrbkdZaVVaLVUxd3gyeXI2WkhSR2FEU1BBV0FydDh5dm1ic2dOYUkzRmtiNl9xYnFlbm00RzdTbjZoaTZCM0RpcDY5a2lXRGhTR1FIWnZNLU5WTGx1dkRaaUNRVmQwUk5Ga3dabVVWTE1fNHBLaVFDcmx4dw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-10T16:53:14+00:00",
-      "age_hours": 29.6,
-      "relevance_score": 36,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Semiconductor Stocks Will Split Into ‘Haves And Have-Nots,’ Raymond James Strategist Says - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb050MndBbWVqcy04ektqckEzYjVTa1RVSmdVRXlCNS1MNVBjWnZXcWYwTG92cEt3Uk5WQXZseG4tSlJ0M2M1LWZUcDZqX0JTWUFrM09DSUduRFNZR1h5T09DaUw0cUJNMkJEQ2JrZmpyUFN2RmtiRHBCeW1OYkwxUk9rSkZ3VjlST0w0T19WeVR1SXBtM2w1bW9HNzBtTGdXSlR4eS1vdC1XbktEdlN4MEFsbE9XWkF6enUtalhjOFBsaUF3OTFaVVdHWmhlRHNrVjlOZlN3cjI3elVRWkRv?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-10T15:59:01+00:00",
-      "age_hours": 30.5,
-      "relevance_score": 35,
       "tags": [
         "반도체/AI"
       ],
@@ -161,7 +163,7 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
       "source": "CNBC",
       "published_at_utc": "2026-11-10T13:19:13+00:00",
-      "age_hours": 33.1,
+      "age_hours": 33.3,
       "relevance_score": 34,
       "tags": [
         "반도체/AI"
@@ -170,36 +172,34 @@
       "needs_verification": true
     },
     {
-      "title": "Morgan Stanley Goes Against the Grain, Urges Buying Semiconductor Stocks; Sees Nvidia, Broadcom at Just 9x 2028 P/E - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fT2d3cmd5c0NPNWEyY2ZOQk9NNWdXMWVkOWhGay1EcEFDTzVMSEhfUUdJRXN4NUdQeGkzMllXcjBoeEtTUXg4Y1QzN0V6NWlPZ3Jqb2dQbTB6ajhnQWhaeDRhY29OVDZwMUxNYm53a3B4M2ZFaUE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-10T06:55:00+00:00",
-      "age_hours": 39.5,
-      "relevance_score": 32,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Dow Drops 158, Nasdaq Sinks 187, S&P 500 Falls 29 - TV News Check",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEx6T0JZZHJaWTk2VllCNlNXUzlKbmJwME5mckI3WHFLTENQZVdTYVVUdlo3S1ZHNmZEN3NsdDI2bzRrSUE1Tk1DTS1QS3pHazhPZTZFRTZLaE5JWEhXOHBRazJBSjhKVE1QbG9fdW5pWDZhblE5VVNKOHVBVmtfZFZ6TzFGeGlOMXRCdnBJbHFoZw?oc=5",
-      "source": "TV News Check",
-      "published_at_utc": "2026-11-10T21:29:56+00:00",
-      "age_hours": 24.9,
-      "relevance_score": 22,
+      "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-11T21:05:09+00:00",
+      "age_hours": 1.5,
+      "relevance_score": 30,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "Stock Market Today: Dow Futures Rise, S&P 500 and Nasdaq 100 Futures Fall as Trump Signals Iran War to En - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSy1DRXE2WVBBMEMxaFBlXzRJRkVybmFXSVQwZEhpWC1hWm1DbWVDVkI0N3JBZTdiNmprTmowOXBCWEpSeVZNRi1fOV83dFloSTRRTWlxS1F4X01UMm5uYkVaTGtoSHNxNDdHS1FuejE3NFJieDZxOXExQ1I2OG15aTA3STB5QXFHVHhJbm1RX0hXNFNEX1RfNndSbEVmai00enl5QjQwV3lDWXF6RGxTQnpLMGRrSGluN1VpMTRhazNPUk5RZ1p1UzJGQnRQcHpiSTdRd0lRbEd2S3EyTnIxSmF6aVlNVVN2Z1BzMWtwS0pFTTFEdzB4NlJfeldTOER2TktYbS1EMVUxLUpzUjZqT0s3Q08tQi1JV3c?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-10T09:56:54+00:00",
-      "age_hours": 36.5,
-      "relevance_score": 18,
+      "title": "Stock Market Today: Dow Jones, Nasdaq, S&P 500 Rally on November 11, 2026; Oil Rises, Gold Slips - Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFBDd1BMekwxVkZzbWVvMGpCRE5oZUFmTnRVZU1hOTRVdDVyT3p4VnZuc1BEUHhnVHpOMUNBWEN3RUEwN2xPRjUtZ1J4SzBzYkIzdUI4MEpJTlRUMmczS2x6bzNZOUhYZnlDU0RtMXJCU3c1RnBrU1V1eEU3VnhEM3Q2Mk9uZzhNUk05RFpZT1pyNXMyb3hxbVFfYWpGaUhuY2g3Q2FxbU10Sm9jdFY4dEtTbzlvajczb05aVm40N0hwZ3ZoYkM3a2xSS21FZw?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-11-11T20:15:07+00:00",
+      "age_hours": 2.4,
+      "relevance_score": 30,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Nasdaq Futures forecast: AI stocks rebound as Goldman Sachs, JPMorgan and Morgan Stanley assess market outlook - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lZE81MFFHcEttT3RIV0hrblUwUHhpYnJWb192V01IT0lidlFzSVNwVmg0NTB0NUhRVXpyN2tVUUNXT1U4ZEpUMDUtN2RZemtjR1RqLWxyYjVnNmhmQWlDTkRpV0ExX3hqOVUwZkxzTFluSWg3TXdJ?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-11T11:31:53+00:00",
+      "age_hours": 11.1,
+      "relevance_score": 27,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
