@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-11T22:46:45.289134+00:00",
-  "generated_at_kst": "2026-11-12T07:46:45.289134+09:00",
+  "generated_at_utc": "2026-11-11T22:49:51.670016+00:00",
+  "generated_at_kst": "2026-11-12T07:49:51.670016+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -77,6 +77,13 @@
     },
     {
       "category": "korea",
+      "title": "US futures climb and Nvidia shares stabilize in a brutal week for the chipmaker - KSN-TV",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaDE5RXNJR2JoNEpRbV8xUkRpYVUteG5BZ2RGcjQtaWtfYzlFY1FHOWMxS0FrQUt4QW95Vl9faUxueXdsQzdNbTl3NzcyUFJ0WF9jWHlNSEYzdmhvNjdPaWlUdTQ1ZHhFakRtbUd1Vl80T29faTVRN2xmZzNiS21EWERhdzVwbnFFWUY4RVotYXg1ZlM5VUN0c2xnVlotNFRPV3BEZEg0Mkg0bldnZmQ4b2JaU2JDeTRNQzhHRmozRkpmMVA0MmfSAcsBQVVfeXFMTnc5VzFKdW0wZWc4U29IWnlqb2xhTmxFTTB2VGZfZk5DX3ZHSEhlY1E0MWwwQk5pazRXRnE3MDZfZ0QtRFVPOC1vUm5zSXk3TU5UeGhOcG1FVUxhV0FQSU1Ua29rRHVOaktNNmtieHpFTk11bzFNSDV2X1RodWpHWERySWRwWF85UHotcjZHbWFSVTdzSElGWnNBdkxHeGdxUWpFWVhjLXRUcVNRRmxrZmlqTHczdHRYclkzQlVVLWh6alZFZXUxQ3ZkNE0?oc=5",
+      "source": "KSN-TV",
+      "published_at_utc": "2026-11-11T09:25:13+00:00"
+    },
+    {
+      "category": "korea",
       "title": "AI stocks rebound, and Wall Street nearly returns to where it was before last week's sell-off - Eagle-Tribune",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd3k2R0dUTjdyVTNaWlBDZG51S3c0MWp0UGczV0ViQmJ5VzRlQ210cTQtXy0wT29DRldqdFFJemRrLTlZdXlGdDhWY3JDU2ViUXJQdFR5YXllNlVxZS0wN1Q1a0hRVktVZC1Na3pOUmNjQ3Qwc0RSS0N4QmlPdVlLUVZqZ3lLME9RVVl0NGVTdFQwS1BCaHdLTGkxTl9odmUyRjhDM0lRZ0sxUzI0QlEya3pSMjRzbGU4MHpfbmt3OG9lRlNzX2xYVFR6UTZzRkp1aWltOW1MRUo3SUJfR09xbWZfVVhRNnBzeDFlOXJDeWpjU2EzNndsWmd4R2Y?oc=5",
       "source": "Eagle-Tribune",
@@ -95,13 +102,6 @@
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYTJlc2VfVGtsSEh1d2dGZEdMMFFIbzRnMXNhZ0xEZlVwNGQ5SkJKa0plUjNiR2VtYy1mVV9YT2N3QVdGUnN1NUtXa016N1F6QnFncEtRcGw0bUl4cFVaY1NveEx1ZHJkUC1LVUFkV2gwcTR2amttNFZRX2FtUUNrSi0zeFhielhSaGVJcDktTXAycFZJaWJOZFp2QzJCNHZKNHIyLUpZMDdoa1cyLTNOZWpacTNYc3lLNzU2SHFFSUhZbmpzcXNrQzM0WFltRUd2ZGwyc0sxQ3FvdUZLMnhLLTZhODRQSEdKM3Z3WEMzeGg4aDl3S3Z3c044UWtPSEVvdFAtQW9uTnBHeGptNVJNWEVuU3R4YUE?oc=5",
       "source": "Goshen News",
       "published_at_utc": "2026-11-11T09:43:12+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Global markets broadly rise on AI chip demand despite Wall Street’s retreat on inflation data - KFOR",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcU5ZYkRBbWk4YlFpdzVVQlMtM1dKTExsMWtGUTh3c0V2NDNZS055MW5ISjJlUmtPNXNLRG5FeC1OVkpmUElrNFhuVjRyYThSTWJQNTZmelJYc1NkOFBHNVR4WlZSeE5ROGcyV1VuSGQySEluOExTMUEtS2JPZVVNLU5Na21aRHBaOE5PMGM1RlFhSlZFLUtQWFZ3MkxJOW9rYWJlc2RNejFKbEtyaFk1X3dIRnhFd2w3SVdERS1maVV4dlV2NlJadURYZktHM1E20gHQAUFVX3lxTE1xTlliREFtaThiUWl3NVVCUy0zV0pMTGwxa0ZROHdzRXY0M1lLTnkxbkhKMmVSa081c0tEbkV4LU5WSmZQSWs0WG5WNHJhOFJNYlA1NmZ6UlhzU2Q4UEc1VHhaVlJ4TlE4ZzJXVW5IZDJISW44TFMxQS1LYk9lVU0tTk1rbVpEcFo4Tk8wYzVGUWFKVkUtS1BYVncyTEk5b2thYmVzZE16MUpsS3JoWTVfd0hGeEV3bDdJV0RFLWZpVXh2VXY2Ulp1RFhmS0czUTY?oc=5",
-      "source": "KFOR",
-      "published_at_utc": "2026-11-11T03:25:13+00:00"
     },
     {
       "category": "korea",

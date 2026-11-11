@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-11T22:37:32.988523+00:00",
-  "generated_at_kst": "2026-11-12T07:37:32.988523+09:00",
+  "generated_at_utc": "2026-11-11T22:49:52.863926+00:00",
+  "generated_at_kst": "2026-11-12T07:49:52.863926+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.551,
+      "change_percent": -0.538,
       "reference_direction": "우호적"
     }
   ],
@@ -33,7 +33,7 @@
       "source": "Eagle-Tribune",
       "published_at_utc": "2026-11-11T21:16:21+00:00",
       "category": "korea",
-      "age_hours": 1.4,
+      "age_hours": 1.6,
       "freshness_score": 97,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -46,7 +46,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-11T21:05:09+00:00",
       "category": "us_market",
-      "age_hours": 1.5,
+      "age_hours": 1.7,
       "freshness_score": 97,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -59,7 +59,7 @@
       "source": "Eurasia Business News",
       "published_at_utc": "2026-11-11T20:15:07+00:00",
       "category": "us_market",
-      "age_hours": 2.4,
+      "age_hours": 2.6,
       "freshness_score": 95,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -70,8 +70,8 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-11T16:26:00+00:00",
       "category": "semiconductor",
-      "age_hours": 6.2,
-      "freshness_score": 88,
+      "age_hours": 6.4,
+      "freshness_score": 87,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -83,7 +83,7 @@
       "source": "The Wealth Advisor",
       "published_at_utc": "2026-11-11T14:20:45+00:00",
       "category": "semiconductor",
-      "age_hours": 8.3,
+      "age_hours": 8.5,
       "freshness_score": 83,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -96,7 +96,7 @@
       "source": "巴士的報",
       "published_at_utc": "2026-11-11T13:14:37+00:00",
       "category": "korea",
-      "age_hours": 9.4,
+      "age_hours": 9.6,
       "freshness_score": 81,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -109,8 +109,8 @@
       "source": "Beinsure",
       "published_at_utc": "2026-11-11T11:31:53+00:00",
       "category": "us_market",
-      "age_hours": 11.1,
-      "freshness_score": 78,
+      "age_hours": 11.3,
+      "freshness_score": 77,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
@@ -122,7 +122,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-11T10:16:37+00:00",
       "category": "us_market",
-      "age_hours": 12.3,
+      "age_hours": 12.6,
       "freshness_score": 75,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -133,8 +133,21 @@
       "source": "Goshen News",
       "published_at_utc": "2026-11-11T09:43:12+00:00",
       "category": "korea",
-      "age_hours": 12.9,
+      "age_hours": 13.1,
       "freshness_score": 74,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "US futures climb and Nvidia shares stabilize in a brutal week for the chipmaker - KSN-TV",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaDE5RXNJR2JoNEpRbV8xUkRpYVUteG5BZ2RGcjQtaWtfYzlFY1FHOWMxS0FrQUt4QW95Vl9faUxueXdsQzdNbTl3NzcyUFJ0WF9jWHlNSEYzdmhvNjdPaWlUdTQ1ZHhFakRtbUd1Vl80T29faTVRN2xmZzNiS21EWERhdzVwbnFFWUY4RVotYXg1ZlM5VUN0c2xnVlotNFRPV3BEZEg0Mkg0bldnZmQ4b2JaU2JDeTRNQzhHRmozRkpmMVA0MmfSAcsBQVVfeXFMTnc5VzFKdW0wZWc4U29IWnlqb2xhTmxFTTB2VGZfZk5DX3ZHSEhlY1E0MWwwQk5pazRXRnE3MDZfZ0QtRFVPOC1vUm5zSXk3TU5UeGhOcG1FVUxhV0FQSU1Ua29rRHVOaktNNmtieHpFTk11bzFNSDV2X1RodWpHWERySWRwWF85UHotcjZHbWFSVTdzSElGWnNBdkxHeGdxUWpFWVhjLXRUcVNRRmxrZmlqTHczdHRYclkzQlVVLWh6alZFZXUxQ3ZkNE0?oc=5",
+      "source": "KSN-TV",
+      "published_at_utc": "2026-11-11T09:25:13+00:00",
+      "category": "korea",
+      "age_hours": 13.4,
+      "freshness_score": 73,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -146,21 +159,8 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-11T06:00:00+00:00",
       "category": "semiconductor",
-      "age_hours": 16.6,
-      "freshness_score": 67,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data - WSLS",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUVsQXlhWHZaUTBIUGhaOXpZaWk3cTFST0FNYmNmZjV3azNobVpPN2xCcjh0TUtJaWhXTnQxZmFkVkRsbVBjNDNJcmxXc1YyUkNMVXp0eVVxX0RGaWZqcHB1T1VqZm9abWFZTnRWNW9zRDZneHI4S2VPSjd6cmlxM3hnX0puaHBMdnNzUy1keGNVMmFzTTlQRkMxa0lXVmRkMkRvWDlpOGtDcTdIMDlHS2JTdFFVR0tuYmRvYW9VVXVKZnRZTUtkdXhuUQ?oc=5",
-      "source": "WSLS",
-      "published_at_utc": "2026-11-11T04:46:20+00:00",
-      "category": "korea",
-      "age_hours": 17.9,
-      "freshness_score": 64,
+      "age_hours": 16.8,
+      "freshness_score": 66,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -172,7 +172,7 @@
       "source": "TradingView",
       "published_at_utc": "2026-11-11T03:51:00+00:00",
       "category": "us_market",
-      "age_hours": 18.8,
+      "age_hours": 19.0,
       "freshness_score": 62,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -185,7 +185,7 @@
       "source": "KED Global",
       "published_at_utc": "2026-11-10T18:22:32+00:00",
       "category": "korea",
-      "age_hours": 28.3,
+      "age_hours": 28.5,
       "freshness_score": 43,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -196,7 +196,7 @@
       "source": "Investor's Business Daily",
       "published_at_utc": "2026-11-10T17:08:00+00:00",
       "category": "semiconductor",
-      "age_hours": 29.5,
+      "age_hours": 29.7,
       "freshness_score": 41,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -209,7 +209,7 @@
       "source": "CNBC",
       "published_at_utc": "2026-11-10T13:19:13+00:00",
       "category": "semiconductor",
-      "age_hours": 33.3,
+      "age_hours": 33.5,
       "freshness_score": 33,
       "headline_tone": "긍정 표현",
       "sectors": [
