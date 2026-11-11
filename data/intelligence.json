@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-10T23:57:48.602371+00:00",
+  "generated_at_utc": "2026-11-11T22:26:25.669963+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 15,
+  "headline_count_after": 14,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-11T08:18:03.547879+09:00",
+  "market_snapshot_at": "2026-11-12T07:26:25.557061+09:00",
   "market_signals": {
     "sp500": {
-      "change_percent": -0.384,
-      "market_date": "2026-11-10",
+      "change_percent": 1.309,
+      "market_date": "2026-11-11",
       "status": "ok"
     },
     "sox": {
-      "change_percent": -0.355,
-      "market_date": "2026-11-10",
+      "change_percent": 5.659,
+      "market_date": "2026-11-11",
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -1.413,
-      "market_date": "2026-11-10",
+      "change_percent": -0.537,
+      "market_date": "2026-11-11",
       "status": "ok"
     },
     "nasdaq": {
-      "change_percent": -0.742,
-      "market_date": "2026-11-10",
+      "change_percent": 1.597,
+      "market_date": "2026-11-11",
       "status": "ok"
     }
   },
@@ -35,13 +35,13 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "변동성 주의",
+      "view": "방향 확인 필요",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "방향 확인 필요",
+      "view": "우호적 참고",
       "basis": "S&P500 종가 방향"
     },
     {
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Nbl9zdXlHVVRqTENjNkIydTl5T091emFxaXlRUjdxODVLYWJOc3N4WloycVBjRVpqeUpiY1kwd2pqX3dZOWJVcXpxeXJwcWVtNGRxcXUwLUF1WlE0bjZBeDZKdVFwdXJ3?oc=5",
       "source": "KED Global",
       "published_at_utc": "2026-11-10T13:24:05+00:00",
-      "age_hours": 10.6,
-      "relevance_score": 52,
+      "age_hours": 33.0,
+      "relevance_score": 44,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -70,8 +70,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLdXByZ2luV08xMUtCYWd0RG5fMWJRVUtJOFhRbWF0cWU2eDJDRTA4QUVVQ3dXMnpIUVBwdzFCNjJxLTRNS0xpT2FCZUU4STd6emw3NEc1b3pfNVdtZHBpZW1tWjkxYU5zVDl3VlBXNUFnNGFN?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-10T10:47:30+00:00",
-      "age_hours": 13.2,
-      "relevance_score": 51,
+      "age_hours": 35.6,
+      "relevance_score": 44,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -83,8 +83,8 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-11-10T21:01:07+00:00",
-      "age_hours": 2.9,
-      "relevance_score": 50,
+      "age_hours": 25.4,
+      "relevance_score": 42,
       "tags": [
         "거시경제"
       ],
@@ -96,8 +96,8 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3g4SF9zazNmOHU3U1IzeWVXQUJoY3VIWmVZZGRXc3B0alp1SU1Bdk1EQnJJMWJXdTNpQmowcDYyaUhHNHFRQm9xSHhLNnJVb0dtY1NWZFdqVDRyaVBKVDZuejBlWXRIQ3BhSU5sd0tXUUVuVl9CWHdLMy1ma3RFdEx0NEZjdVhoWXhGMFVyWTZzWDhKajBfRmxNMldzR1N1NVBJc2k5cFhkUTFZdTJqNF9ia3ZnQmpQZWppcWFOUmtINmhvVVFIWVAtdVc?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-10T15:12:26+00:00",
-      "age_hours": 8.8,
-      "relevance_score": 48,
+      "age_hours": 31.2,
+      "relevance_score": 40,
       "tags": [
         "거시경제"
       ],
@@ -109,8 +109,8 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
       "source": "Beinsure",
       "published_at_utc": "2026-11-10T13:36:43+00:00",
-      "age_hours": 10.4,
-      "relevance_score": 47,
+      "age_hours": 32.8,
+      "relevance_score": 40,
       "tags": [
         "거시경제"
       ],
@@ -118,25 +118,12 @@
       "needs_verification": true
     },
     {
-      "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
-      "source": "Yahoo Finance UK",
-      "published_at_utc": "2026-11-09T16:02:14+00:00",
-      "age_hours": 31.9,
-      "relevance_score": 45,
-      "tags": [
-        "한국시장 직접언급"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
       "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
       "source": "Investor's Business Daily",
       "published_at_utc": "2026-11-10T17:08:00+00:00",
-      "age_hours": 6.8,
-      "relevance_score": 43,
+      "age_hours": 29.3,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -148,8 +135,8 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT0pnN29CUTRORHVwTUNRSFY1dndZcjM1cGRqOWRVbVEwYm1UelIxUXE3VHNDbjhoU25kMmNKdHBXWVdjOVc0YXVubnNSV2lKUWdRdXNaM1JrbkdZaVVaLVUxd3gyeXI2WkhSR2FEU1BBV0FydDh5dm1ic2dOYUkzRmtiNl9xYnFlbm00RzdTbjZoaTZCM0RpcDY5a2lXRGhTR1FIWnZNLU5WTGx1dkRaaUNRVmQwUk5Ga3dabVVWTE1fNHBLaVFDcmx4dw?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-10T16:53:14+00:00",
-      "age_hours": 7.1,
-      "relevance_score": 43,
+      "age_hours": 29.6,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -161,8 +148,8 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb050MndBbWVqcy04ektqckEzYjVTa1RVSmdVRXlCNS1MNVBjWnZXcWYwTG92cEt3Uk5WQXZseG4tSlJ0M2M1LWZUcDZqX0JTWUFrM09DSUduRFNZR1h5T09DaUw0cUJNMkJEQ2JrZmpyUFN2RmtiRHBCeW1OYkwxUk9rSkZ3VjlST0w0T19WeVR1SXBtM2w1bW9HNzBtTGdXSlR4eS1vdC1XbktEdlN4MEFsbE9XWkF6enUtalhjOFBsaUF3OTFaVVdHWmhlRHNrVjlOZlN3cjI3elVRWkRv?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-10T15:59:01+00:00",
-      "age_hours": 8.0,
-      "relevance_score": 43,
+      "age_hours": 30.5,
+      "relevance_score": 35,
       "tags": [
         "반도체/AI"
       ],
@@ -174,8 +161,8 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
       "source": "CNBC",
       "published_at_utc": "2026-11-10T13:19:13+00:00",
-      "age_hours": 10.6,
-      "relevance_score": 42,
+      "age_hours": 33.1,
+      "relevance_score": 34,
       "tags": [
         "반도체/AI"
       ],
@@ -187,8 +174,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fT2d3cmd5c0NPNWEyY2ZOQk9NNWdXMWVkOWhGay1EcEFDTzVMSEhfUUdJRXN4NUdQeGkzMllXcjBoeEtTUXg4Y1QzN0V6NWlPZ3Jqb2dQbTB6ajhnQWhaeDRhY29OVDZwMUxNYm53a3B4M2ZFaUE?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-10T06:55:00+00:00",
-      "age_hours": 17.0,
-      "relevance_score": 40,
+      "age_hours": 39.5,
+      "relevance_score": 32,
       "tags": [
         "반도체/AI"
       ],
@@ -200,8 +187,19 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEx6T0JZZHJaWTk2VllCNlNXUzlKbmJwME5mckI3WHFLTENQZVdTYVVUdlo3S1ZHNmZEN3NsdDI2bzRrSUE1Tk1DTS1QS3pHazhPZTZFRTZLaE5JWEhXOHBRazJBSjhKVE1QbG9fdW5pWDZhblE5VVNKOHVBVmtfZFZ6TzFGeGlOMXRCdnBJbHFoZw?oc=5",
       "source": "TV News Check",
       "published_at_utc": "2026-11-10T21:29:56+00:00",
-      "age_hours": 2.5,
-      "relevance_score": 30,
+      "age_hours": 24.9,
+      "relevance_score": 22,
+      "tags": [],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Stock Market Today: Dow Futures Rise, S&P 500 and Nasdaq 100 Futures Fall as Trump Signals Iran War to En - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSy1DRXE2WVBBMEMxaFBlXzRJRkVybmFXSVQwZEhpWC1hWm1DbWVDVkI0N3JBZTdiNmprTmowOXBCWEpSeVZNRi1fOV83dFloSTRRTWlxS1F4X01UMm5uYkVaTGtoSHNxNDdHS1FuejE3NFJieDZxOXExQ1I2OG15aTA3STB5QXFHVHhJbm1RX0hXNFNEX1RfNndSbEVmai00enl5QjQwV3lDWXF6RGxTQnpLMGRrSGluN1VpMTRhazNPUk5RZ1p1UzJGQnRQcHpiSTdRd0lRbEd2S3EyTnIxSmF6aVlNVVN2Z1BzMWtwS0pFTTFEdzB4NlJfeldTOER2TktYbS1EMVUxLUpzUjZqT0s3Q08tQi1JV3c?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-10T09:56:54+00:00",
+      "age_hours": 36.5,
+      "relevance_score": 18,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
