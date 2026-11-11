@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-11T22:37:31.825367+00:00",
-  "generated_at_kst": "2026-11-12T07:37:31.825367+09:00",
+  "generated_at_utc": "2026-11-11T22:46:45.289134+00:00",
+  "generated_at_kst": "2026-11-12T07:46:45.289134+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -84,13 +84,6 @@
     },
     {
       "category": "korea",
-      "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data - WSLS",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUVsQXlhWHZaUTBIUGhaOXpZaWk3cTFST0FNYmNmZjV3azNobVpPN2xCcjh0TUtJaWhXTnQxZmFkVkRsbVBjNDNJcmxXc1YyUkNMVXp0eVVxX0RGaWZqcHB1T1VqZm9abWFZTnRWNW9zRDZneHI4S2VPSjd6cmlxM3hnX0puaHBMdnNzUy1keGNVMmFzTTlQRkMxa0lXVmRkMkRvWDlpOGtDcTdIMDlHS2JTdFFVR0tuYmRvYW9VVXVKZnRZTUtkdXhuUQ?oc=5",
-      "source": "WSLS",
-      "published_at_utc": "2026-11-11T04:46:20+00:00"
-    },
-    {
-      "category": "korea",
       "title": "US futures climb and Nvidia shares stabilize in a brutal week for the chipmaker - 巴士的報",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUlc2NDVXS2VnYWU5X2VXVzhNV3FuLVA0cUlqZjg3aEx3cl9pU2xCVUEtTWFiMmo4N3NkNmIzd2dOalAzc0VreERaX1hNMGpUeWU5NVVkMXRtdVdleEJiMTZJeUpIbXNrcWY3OWl0bXg4cnJscHU4ekF4N0VTdHFFSmRDZWg2WG50RFE4ZWR3SzZWT3RXczhKbnd5V3h0US1CN2ZaS2hMYzhiMDlKSnBuSGNIeTh1R00zaE9ORkJESkdHeV9RMW54Sy04VQ?oc=5",
       "source": "巴士的報",
@@ -102,6 +95,13 @@
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYTJlc2VfVGtsSEh1d2dGZEdMMFFIbzRnMXNhZ0xEZlVwNGQ5SkJKa0plUjNiR2VtYy1mVV9YT2N3QVdGUnN1NUtXa016N1F6QnFncEtRcGw0bUl4cFVaY1NveEx1ZHJkUC1LVUFkV2gwcTR2amttNFZRX2FtUUNrSi0zeFhielhSaGVJcDktTXAycFZJaWJOZFp2QzJCNHZKNHIyLUpZMDdoa1cyLTNOZWpacTNYc3lLNzU2SHFFSUhZbmpzcXNrQzM0WFltRUd2ZGwyc0sxQ3FvdUZLMnhLLTZhODRQSEdKM3Z3WEMzeGg4aDl3S3Z3c044UWtPSEVvdFAtQW9uTnBHeGptNVJNWEVuU3R4YUE?oc=5",
       "source": "Goshen News",
       "published_at_utc": "2026-11-11T09:43:12+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Global markets broadly rise on AI chip demand despite Wall Street’s retreat on inflation data - KFOR",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcU5ZYkRBbWk4YlFpdzVVQlMtM1dKTExsMWtGUTh3c0V2NDNZS055MW5ISjJlUmtPNXNLRG5FeC1OVkpmUElrNFhuVjRyYThSTWJQNTZmelJYc1NkOFBHNVR4WlZSeE5ROGcyV1VuSGQySEluOExTMUEtS2JPZVVNLU5Na21aRHBaOE5PMGM1RlFhSlZFLUtQWFZ3MkxJOW9rYWJlc2RNejFKbEtyaFk1X3dIRnhFd2w3SVdERS1maVV4dlV2NlJadURYZktHM1E20gHQAUFVX3lxTE1xTlliREFtaThiUWl3NVVCUy0zV0pMTGwxa0ZROHdzRXY0M1lLTnkxbkhKMmVSa081c0tEbkV4LU5WSmZQSWs0WG5WNHJhOFJNYlA1NmZ6UlhzU2Q4UEc1VHhaVlJ4TlE4ZzJXVW5IZDJISW44TFMxQS1LYk9lVU0tTk1rbVpEcFo4Tk8wYzVGUWFKVkUtS1BYVncyTEk5b2thYmVzZE16MUpsS3JoWTVfd0hGeEV3bDdJV0RFLWZpVXh2VXY2Ulp1RFhmS0czUTY?oc=5",
+      "source": "KFOR",
+      "published_at_utc": "2026-11-11T03:25:13+00:00"
     },
     {
       "category": "korea",
