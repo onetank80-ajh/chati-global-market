@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "version": "3.6-preview",
-  "generated_at_kst": "2026-11-12T07:46:46.375936+09:00",
-  "data_cutoff_utc": "2026-11-11T22:46:46.375936+00:00",
+  "generated_at_kst": "2026-11-13T07:42:39.131653+09:00",
+  "data_cutoff_utc": "2026-11-12T22:42:39.131653+00:00",
   "kind": "sourced_headline_theme_watchlist_not_ai",
   "market_snapshot_age_hours": 0.2,
   "market_stale": false,
@@ -11,43 +11,43 @@
       "key": "sp500",
       "label": "S&P 500",
       "status": "ok",
-      "change_percent": 1.309,
-      "market_date": "2026-11-11"
+      "change_percent": -0.354,
+      "market_date": "2026-11-12"
     },
     {
       "key": "nasdaq",
       "label": "나스닥",
       "status": "ok",
-      "change_percent": 1.597,
-      "market_date": "2026-11-11"
+      "change_percent": -0.393,
+      "market_date": "2026-11-12"
     },
     {
       "key": "sox",
       "label": "필라델피아 반도체",
       "status": "ok",
-      "change_percent": 5.659,
-      "market_date": "2026-11-11"
+      "change_percent": -0.544,
+      "market_date": "2026-11-12"
     },
     {
       "key": "usdkrw",
       "label": "달러/원",
       "status": "ok",
-      "change_percent": -0.551,
-      "market_date": "2026-11-11"
+      "change_percent": -0.539,
+      "market_date": "2026-11-12"
     }
   ],
   "v33_scenarios": [
     {
       "market": "kospi",
-      "bias": "중립/혼조",
+      "bias": "상승 우세",
       "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함",
-      "score": -2
+      "score": 6
     },
     {
       "market": "kosdaq",
-      "bias": "중립/혼조",
+      "bias": "상승 우세",
       "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함",
-      "score": -2
+      "score": 6
     }
   ],
   "v33_mode": "retrospective_or_unverified",
@@ -62,40 +62,40 @@
       "verification": "SOX와 국내 외국인 수급 확인",
       "headlines": [
         {
-          "title": "AI stocks rebound, and Wall Street nearly returns to where it was before last week's sell-off - Eagle-Tribune",
-          "source": "Eagle-Tribune",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd3k2R0dUTjdyVTNaWlBDZG51S3c0MWp0UGczV0ViQmJ5VzRlQ210cTQtXy0wT29DRldqdFFJemRrLTlZdXlGdDhWY3JDU2ViUXJQdFR5YXllNlVxZS0wN1Q1a0hRVktVZC1Na3pOUmNjQ3Qwc0RSS0N4QmlPdVlLUVZqZ3lLME9RVVl0NGVTdFQwS1BCaHdLTGkxTl9odmUyRjhDM0lRZ0sxUzI0QlEya3pSMjRzbGU4MHpfbmt3OG9lRlNzX2xYVFR6UTZzRkp1aWltOW1MRUo3SUJfR09xbWZfVVhRNnBzeDFlOXJDeWpjU2EzNndsWmd4R2Y?oc=5",
-          "published_at_utc": "2026-11-11T21:16:21+00:00",
-          "themes": [
-            "반도체/AI"
-          ],
-          "kind": "headline_only_not_verified_article"
-        },
-        {
-          "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
+          "title": "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
           "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
-          "published_at_utc": "2026-11-11T21:05:09+00:00",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
+          "published_at_utc": "2026-11-12T21:27:08+00:00",
           "themes": [
             "반도체/AI"
           ],
           "kind": "headline_only_not_verified_article"
         },
         {
-          "title": "Philadelphia Semiconductor Index Plunges 21% Over One Month; Goldman Sachs Calls It Oversold, Names Nvidia and Two Other AI Chip Stocks - BigGo Finance",
-          "source": "BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUblRTZkwxa2RiYkFVb3kxbXppWGFoRTRfdHFCWXBrTjF1MF9Zbk1wRzhZYnBZYklvd3pScU5Ual9kRWl2TU5CQkttSXQ5Rmt4UHpHN1pBOWg5MVFOUnNGWEZGWEt6alpXbHNvVXEzSXR1d1hIUGc?oc=5",
-          "published_at_utc": "2026-11-11T16:26:00+00:00",
+          "title": "European stocks close higher as Burberry and Munich Re outweigh a chip selloff after Nvidia's CEO exit - MLQ.ai",
+          "source": "MLQ.ai",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5JekZHWkpNS2F2MW1OMTFsMVFGM2xTdHZveHRkWTl2SDMydzlocDJZakpSaGVsYUlkdDhrS3BaNEFtcVFnVGdOSHNYU3l5eXBRYWxNU0Y1STl3TVAxWTJDeHhNaDBPUWtxT0F5MlpQR1BIc192X29kZzJfWWNtWWNEM1ZUTWR2bXdHYktrY2dqU0kzb0xiMTg3d0lwN2JTdWhCNy1Ib0I0TVEtdF92ZERsSnMxNFpDYWE4Z3pNOA?oc=5",
+          "published_at_utc": "2026-11-12T17:11:48+00:00",
           "themes": [
             "반도체/AI"
           ],
           "kind": "headline_only_not_verified_article"
         },
         {
-          "title": "Chip Stocks Have Lost Nearly $5 Trillion. Nvidia Hasn't Been This Oversold Since 2019. - The Wealth Advisor",
-          "source": "The Wealth Advisor",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWXZxSkhzM0pFS1lYbzFPX2RnTThMTEJtcnFvV2xXaGNvaFpfVzJtamlYX2JiWl80b1p0ZndkUURlZ1IyMVczc3R6M2VVeHlOc2ppMHJNNU83Tm9YNDVNeWpKN0VLcjBhMWVjaUczcE1iMUZPMjlRbldUMjhLQ281WHlnYnYxZkNQV0FfdEltZzF6LXRESE91U1VhNk11OVljLWlwaHhaam5JcG01X19ZajB3?oc=5",
-          "published_at_utc": "2026-11-11T14:20:45+00:00",
+          "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVtdWp0SlNrQVlnN1ppSEdZUkZnRFNTckV1V1l6cHBEdWhVMkdFVll1QVdGclAzLVZTRFUzd2hub2lNY1VzSm1ZVjFxaWNyT2piRG5SdlAxbWtyYWpRY2VEaDRuRnlqcW5CTjAweHh1QnBlQ01vVVBybDdxM0pFNGJXUnNvTXkxa0dwTDYtQnI0RC1ZVFYyTG4ySQ?oc=5",
+          "published_at_utc": "2026-11-12T14:29:02+00:00",
+          "themes": [
+            "반도체/AI"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - The Motley Fool",
+          "source": "The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeUFRelQ3SHo1eld4ZGloSnNYNkdmcGpVdHg2WFczR1Jib3BJMG80a0xYRlU4amE5UFZqeXJNa0lscVVOdkhsek9TNHdrZFQyU0huYjZQUEtYTW9pYTA3NXhSZkloV28wSWNZbjVMTW9vRnNoSjZDdE9VWTc5ODZJNS1kdUlEVU5kdDlnXzF3c2xWV1d2bGZXNHJ4eko2cC1HNFNSSENoV0xHLW9BTFJMcjgzM3BvQUxvT3JMd244NHBVNktvYm5HR25DZmdZVDNXQmJtOE12UGJ3UQ?oc=5",
+          "published_at_utc": "2026-11-12T14:09:00+00:00",
           "themes": [
             "반도체/AI"
           ],
@@ -106,12 +106,23 @@
     },
     {
       "theme": "기술주",
-      "headline_count": 3,
+      "headline_count": 2,
       "stocks_to_watch": [
         "국내 기술주"
       ],
       "verification": "나스닥·국내 장초반 거래대금 확인",
       "headlines": [
+        {
+          "title": "Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW - Benzinga",
+          "source": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNS2FFZnFYcENSODdfUzJ3UDBuS3pPTV9hUzBzRmhvVGZ4TEdMRXVsMnZsQ3JNdmVPTGYwdDctSXRKaXFIWll6aXZkby1DQXI2QmFQYTBobTllbWdVckh4blBtSVNFMDRuanZJZG5WVDRUNW5NWVFucjJydEY5NnhQVVpCYXdrRjE5SVd4Yi1ySmFMQjlGMGJxRkpWMVcwZGYweFNET1FEbFlldzB2M3FGb0ZxTjkyZldreGxxZTV5U0REUnI2U1BwVGJhejBVN3RxYzB6cU1JYVVaMlZ1NlQxNUVwd05QQmhpZ0FXUmZ3a1M4TEE3bTFXcWVUVTdrSU13STFvRVlKMnVMM1NabEJqcTkzM0Q?oc=5",
+          "published_at_utc": "2026-11-12T10:26:55+00:00",
+          "themes": [
+            "반도체/AI",
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
         {
           "title": "Stock Market Today: Dow Jones, Nasdaq, S&P 500 Rally on November 11, 2026; Oil Rises, Gold Slips - Eurasia Business News",
           "source": "Eurasia Business News",
@@ -121,45 +132,44 @@
             "기술주"
           ],
           "kind": "headline_only_not_verified_article"
-        },
-        {
-          "title": "Nasdaq Futures forecast: AI stocks rebound as Goldman Sachs, JPMorgan and Morgan Stanley assess market outlook - Beinsure",
-          "source": "Beinsure",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lZE81MFFHcEttT3RIV0hrblUwUHhpYnJWb192V01IT0lidlFzSVNwVmg0NTB0NUhRVXpyN2tVUUNXT1U4ZEpUMDUtN2RZemtjR1RqLWxyYjVnNmhmQWlDTkRpV0ExX3hqOVUwZkxzTFluSWg3TXdJ?oc=5",
-          "published_at_utc": "2026-11-11T11:31:53+00:00",
-          "themes": [
-            "반도체/AI",
-            "기술주"
-          ],
-          "kind": "headline_only_not_verified_article"
-        },
-        {
-          "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus - TradingView",
-          "source": "TradingView",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPMm5VakpsOW9kRVZPYXkyS1laQVB5ZzdpZFpfLTA5dzhhYWNRT1doRTQyLVA1bUtDRWoxOHNsakRSVkFZSnFoVkpoMHc1NjU2czZ6TVh2VVp4djdIWndwY2VJTVE3amQ4cEdlV2ZIdEEzLVA4d1ZWOTJlWmtiYU9ZbU1xUWZQTE1UdmQxZ2dYZERvUWppTTljTkoxMld0NEpaM0VtVFRjeFlacnA4TzY0dFNGa1lLYnFJVWVZQjhlcENXTEFuLXBqSS04VHc3U0dYS0RJS01FV0JWUnNPRFJRbHJzS0hQUkVRdzRjOEVMTVhfVkVBREc4dEpmaUlxV2ptazJSUA?oc=5",
-          "published_at_utc": "2026-11-11T03:51:00+00:00",
-          "themes": [
-            "반도체/AI",
-            "기술주"
-          ],
-          "kind": "headline_only_not_verified_article"
         }
       ],
       "interpretation": "기사 제목에 주제어가 언급됨. 본문과 전문가 발언을 확인하지 않았으며 방향 예측이 아님"
     },
     {
       "theme": "환율/한국",
-      "headline_count": 1,
+      "headline_count": 3,
       "stocks_to_watch": [
         "국내 수출주"
       ],
       "verification": "원/달러 방향과 외국인 현물 수급 확인",
       "headlines": [
         {
-          "title": "Louis Vuitton hit by stock slump, stronger won in South Korea - KED Global",
+          "title": "South Korea's KOSPI Sees $19.3 Billion in Foreign Net Selling in October on AI Concerns; Bonds Draw $5.6 Billion - BigGo Finance",
+          "source": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sa2FRc0NXVWFVVW96VGZOYlRwWkZKbkNMbTcxNmpEYVExZ0ZiMFA5dEZUZ2RSWHdvY3BKclhqUnc4ZTlIblJvZlFSSWNMSXZnbEw0OU1odmVMZFI4SXVZT1BtMGVRY1R0dC1mbTRHYXZldnlOMXc?oc=5",
+          "published_at_utc": "2026-11-12T13:35:00+00:00",
+          "themes": [
+            "반도체/AI",
+            "환율/한국"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "[Opening Market] KOSPI and KOSDAQ in a Tug-of-War over 5,400 and 700 Marks - Businesskorea",
+          "source": "Businesskorea",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TRUZxMzdwc3FRd3lEUUhHTEZSU3lfRWYwZWpLb1BtMnJXZGFvaDhFckxNTG9VRWk5RHBGUWZPem5NXzhwTnJsS3JXLWtZZHZ5Mm44VDZxbURVUlc4X0VWa1NpRzYtTW9zSWxTSk1LdEEzd1lj?oc=5",
+          "published_at_utc": "2026-11-12T02:01:10+00:00",
+          "themes": [
+            "환율/한국"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "Korean investors flock to US stocks, betting big on risky leveraged ETFs - KED Global",
           "source": "KED Global",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Nbl9zdXlHVVRqTENjNkIydTl5T091emFxaXlRUjdxODVLYWJOc3N4WloycVBjRVpqeUpiY1kwd2pqX3dZOWJVcXpxeXJwcWVtNGRxcXUwLUF1WlE0bjZBeDZKdVFwdXJ3?oc=5",
-          "published_at_utc": "2026-11-10T18:22:32+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HTDg3d0x2WDBfOHlZdVJoODdHQmlNQnRVeWNYYU0zZzgzRXBGZUNpTDBXdEhkYmt3WmpPV2xHemY2YldSVWFZUEEyTE4zOXBiWEVQTElaNjBhcUVKOV9TcS0xNGdkV2hUWlZId1JDMjJGTUhueWZBWWp3?oc=5",
+          "published_at_utc": "2026-11-11T17:44:17+00:00",
           "themes": [
             "환율/한국"
           ],
@@ -171,20 +181,112 @@
   ],
   "headlines": [
     {
-      "title": "AI stocks rebound, and Wall Street nearly returns to where it was before last week's sell-off - Eagle-Tribune",
-      "source": "Eagle-Tribune",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd3k2R0dUTjdyVTNaWlBDZG51S3c0MWp0UGczV0ViQmJ5VzRlQ210cTQtXy0wT29DRldqdFFJemRrLTlZdXlGdDhWY3JDU2ViUXJQdFR5YXllNlVxZS0wN1Q1a0hRVktVZC1Na3pOUmNjQ3Qwc0RSS0N4QmlPdVlLUVZqZ3lLME9RVVl0NGVTdFQwS1BCaHdLTGkxTl9odmUyRjhDM0lRZ0sxUzI0QlEya3pSMjRzbGU4MHpfbmt3OG9lRlNzX2xYVFR6UTZzRkp1aWltOW1MRUo3SUJfR09xbWZfVVhRNnBzeDFlOXJDeWpjU2EzNndsWmd4R2Y?oc=5",
-      "published_at_utc": "2026-11-11T21:16:21+00:00",
+      "title": "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
+      "published_at_utc": "2026-11-12T21:27:08+00:00",
       "themes": [
         "반도체/AI"
       ],
       "kind": "headline_only_not_verified_article"
     },
     {
-      "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
-      "published_at_utc": "2026-11-11T21:05:09+00:00",
+      "title": "European stocks close higher as Burberry and Munich Re outweigh a chip selloff after Nvidia's CEO exit - MLQ.ai",
+      "source": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5JekZHWkpNS2F2MW1OMTFsMVFGM2xTdHZveHRkWTl2SDMydzlocDJZakpSaGVsYUlkdDhrS3BaNEFtcVFnVGdOSHNYU3l5eXBRYWxNU0Y1STl3TVAxWTJDeHhNaDBPUWtxT0F5MlpQR1BIc192X29kZzJfWWNtWWNEM1ZUTWR2bXdHYktrY2dqU0kzb0xiMTg3d0lwN2JTdWhCNy1Ib0I0TVEtdF92ZERsSnMxNFpDYWE4Z3pNOA?oc=5",
+      "published_at_utc": "2026-11-12T17:11:48+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVtdWp0SlNrQVlnN1ppSEdZUkZnRFNTckV1V1l6cHBEdWhVMkdFVll1QVdGclAzLVZTRFUzd2hub2lNY1VzSm1ZVjFxaWNyT2piRG5SdlAxbWtyYWpRY2VEaDRuRnlqcW5CTjAweHh1QnBlQ01vVVBybDdxM0pFNGJXUnNvTXkxa0dwTDYtQnI0RC1ZVFYyTG4ySQ?oc=5",
+      "published_at_utc": "2026-11-12T14:29:02+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - The Motley Fool",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeUFRelQ3SHo1eld4ZGloSnNYNkdmcGpVdHg2WFczR1Jib3BJMG80a0xYRlU4amE5UFZqeXJNa0lscVVOdkhsek9TNHdrZFQyU0huYjZQUEtYTW9pYTA3NXhSZkloV28wSWNZbjVMTW9vRnNoSjZDdE9VWTc5ODZJNS1kdUlEVU5kdDlnXzF3c2xWV1d2bGZXNHJ4eko2cC1HNFNSSENoV0xHLW9BTFJMcjgzM3BvQUxvT3JMd244NHBVNktvYm5HR25DZmdZVDNXQmJtOE12UGJ3UQ?oc=5",
+      "published_at_utc": "2026-11-12T14:09:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "South Korea's KOSPI Sees $19.3 Billion in Foreign Net Selling in October on AI Concerns; Bonds Draw $5.6 Billion - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sa2FRc0NXVWFVVW96VGZOYlRwWkZKbkNMbTcxNmpEYVExZ0ZiMFA5dEZUZ2RSWHdvY3BKclhqUnc4ZTlIblJvZlFSSWNMSXZnbEw0OU1odmVMZFI4SXVZT1BtMGVRY1R0dC1mbTRHYXZldnlOMXc?oc=5",
+      "published_at_utc": "2026-11-12T13:35:00+00:00",
+      "themes": [
+        "반도체/AI",
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "U.S., Europe chip stocks dip as Nvidia board reportedly weighs ousting Huang - Investing.com",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2FEN3NyYVFNRC1YaXJHcWc4cGthbWlzel9Kal9fY3Uwc09YenJRWS10aU4zUlVVaEVoNXVlUi1aa1BVM0hRVDFnQ3FpaUN4YUQxb3JxY3huYzRNYlZQVUFMbTFXeWowQXRsb1YyYkdhNHVUY0dDVmwtVGJ0TGRmczRkbGI0dnFCdHdVb0pHZFpPT3RXaW5jYXdwNmhKcWh0cUphUTBjOWN0eU1YZm1MNDhHTEpaN3MwQWhr?oc=5",
+      "published_at_utc": "2026-11-12T12:03:44+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW - Benzinga",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNS2FFZnFYcENSODdfUzJ3UDBuS3pPTV9hUzBzRmhvVGZ4TEdMRXVsMnZsQ3JNdmVPTGYwdDctSXRKaXFIWll6aXZkby1DQXI2QmFQYTBobTllbWdVckh4blBtSVNFMDRuanZJZG5WVDRUNW5NWVFucjJydEY5NnhQVVpCYXdrRjE5SVd4Yi1ySmFMQjlGMGJxRkpWMVcwZGYweFNET1FEbFlldzB2M3FGb0ZxTjkyZldreGxxZTV5U0REUnI2U1BwVGJhejBVN3RxYzB6cU1JYVVaMlZ1NlQxNUVwd05QQmhpZ0FXUmZ3a1M4TEE3bTFXcWVUVTdrSU13STFvRVlKMnVMM1NabEJqcTkzM0Q?oc=5",
+      "published_at_utc": "2026-11-12T10:26:55+00:00",
+      "themes": [
+        "반도체/AI",
+        "기술주"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Nvidia stock plunges 8.6%, but AMD and Broadcom rally. Which chip stocks are worth buying? - investingLive",
+      "source": "investingLive",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOS1UWi1RY2JKQmNTZTFoSDJhUHBYNE8zZWtFaWIyQ3hMZVFNNnVWZmtBWm16eDN4MnVZSHJhbjhQYXNMOTEzeU1VTWxUU1RWOXlaLUY3N0lMRFdySGR3NllGdkFCWEpXaVgxLWZtZ2RWYThtX3VHeFFVckphQThEVENocm96QWtGbjRJeWI0Qk9zak9zTVJvVTB3YUU1Zkc3OTJLWjRjeldZNWh1LUdIbDQzWm10MExrSThLRg?oc=5",
+      "published_at_utc": "2026-11-12T05:18:33+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "[Opening Market] KOSPI and KOSDAQ in a Tug-of-War over 5,400 and 700 Marks - Businesskorea",
+      "source": "Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TRUZxMzdwc3FRd3lEUUhHTEZSU3lfRWYwZWpLb1BtMnJXZGFvaDhFckxNTG9VRWk5RHBGUWZPem5NXzhwTnJsS3JXLWtZZHZ5Mm44VDZxbURVUlc4X0VWa1NpRzYtTW9zSWxTSk1LdEEzd1lj?oc=5",
+      "published_at_utc": "2026-11-12T02:01:10+00:00",
+      "themes": [
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Stocks end higher as CoreWeave results ease AI spending worries - The Detroit News",
+      "source": "The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0JEODZ4T1lPYXpaX3I1UG5UTERtMm1LbzBEbG83QVAtZl9CUEhOYUwyQ0pvNGNjdTdBY1cxZXFRZk1hRkNQVVVIZFFQczhsMU9RWV9fMG5KUG1TUWpUOWE1X3REYWJzMDk1Y1NZQ3NYRlgwYTNjSWJtUVdKY0UxdDN3TW5xbHduZEludXpETFJfQUNtYTRncnRiOHBDclJjUEpvbWJIaEVrUXFYWHdpMEY1LV9rLUFhREJ4eUNhVEVPVjVJQnN3cFhWdw?oc=5",
+      "published_at_utc": "2026-11-11T21:31:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "AI stocks rebound, and Wall Street nearly returns to where it was before last week's sell-off - LancasterOnline",
+      "source": "LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd29DTkVXX043aVh2aTBvYmNMYU5VQTJDR0N2OGJxaXo4UUx5ekl1UEVHLXNWOHN5M3dqam9QVnc5Ujg3bFZZbHhwUEgxbE1RQUh3Z21Ub2ZFUm9od1pNcGtCUkdmNGpFZkRkeG9kMDMzbEljejN2Y0VVX1RPSElFLVd6WldxX09zRnFBc2NTaDE2T09mQmxIYXJWbDVqWjdzN2VhcVpSNE8wMEZWeTQ4QVp2Vlk2VVMwU2NyYk5kcHMzcEFpZHlMRkdhczR3VDhuVkZz?oc=5",
+      "published_at_utc": "2026-11-11T20:44:56+00:00",
       "themes": [
         "반도체/AI"
       ],
@@ -201,120 +303,30 @@
       "kind": "headline_only_not_verified_article"
     },
     {
-      "title": "Philadelphia Semiconductor Index Plunges 21% Over One Month; Goldman Sachs Calls It Oversold, Names Nvidia and Two Other AI Chip Stocks - BigGo Finance",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUblRTZkwxa2RiYkFVb3kxbXppWGFoRTRfdHFCWXBrTjF1MF9Zbk1wRzhZYnBZYklvd3pScU5Ual9kRWl2TU5CQkttSXQ5Rmt4UHpHN1pBOWg5MVFOUnNGWEZGWEt6alpXbHNvVXEzSXR1d1hIUGc?oc=5",
-      "published_at_utc": "2026-11-11T16:26:00+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Chip Stocks Have Lost Nearly $5 Trillion. Nvidia Hasn't Been This Oversold Since 2019. - The Wealth Advisor",
-      "source": "The Wealth Advisor",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWXZxSkhzM0pFS1lYbzFPX2RnTThMTEJtcnFvV2xXaGNvaFpfVzJtamlYX2JiWl80b1p0ZndkUURlZ1IyMVczc3R6M2VVeHlOc2ppMHJNNU83Tm9YNDVNeWpKN0VLcjBhMWVjaUczcE1iMUZPMjlRbldUMjhLQ281WHlnYnYxZkNQV0FfdEltZzF6LXRESE91U1VhNk11OVljLWlwaHhaam5JcG01X19ZajB3?oc=5",
-      "published_at_utc": "2026-11-11T14:20:45+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "US futures climb and Nvidia shares stabilize in a brutal week for the chipmaker - 巴士的報",
-      "source": "巴士的報",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUlc2NDVXS2VnYWU5X2VXVzhNV3FuLVA0cUlqZjg3aEx3cl9pU2xCVUEtTWFiMmo4N3NkNmIzd2dOalAzc0VreERaX1hNMGpUeWU5NVVkMXRtdVdleEJiMTZJeUpIbXNrcWY3OWl0bXg4cnJscHU4ekF4N0VTdHFFSmRDZWg2WG50RFE4ZWR3SzZWT3RXczhKbnd5V3h0US1CN2ZaS2hMYzhiMDlKSnBuSGNIeTh1R00zaE9ORkJESkdHeV9RMW54Sy04VQ?oc=5",
-      "published_at_utc": "2026-11-11T13:14:37+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Nasdaq Futures forecast: AI stocks rebound as Goldman Sachs, JPMorgan and Morgan Stanley assess market outlook - Beinsure",
-      "source": "Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lZE81MFFHcEttT3RIV0hrblUwUHhpYnJWb192V01IT0lidlFzSVNwVmg0NTB0NUhRVXpyN2tVUUNXT1U4ZEpUMDUtN2RZemtjR1RqLWxyYjVnNmhmQWlDTkRpV0ExX3hqOVUwZkxzTFluSWg3TXdJ?oc=5",
-      "published_at_utc": "2026-11-11T11:31:53+00:00",
-      "themes": [
-        "반도체/AI",
-        "기술주"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Bessent Urges US-China to 'De-Risk' — CRWV, RGTI - Benzinga",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYkJFcDVVbFNSUlBST0JSNHFlcmNkOUJoM3U4aDNmRmw1R2l6OVlJV2lBZW5SRy1WSDZ3bWFrVENSYkdIRFZRUndsVnMtS1dqVDlFV3VIRmpVTnNfUS0yaEtqc1Jxd2oyalR0Nm5ybUpIT0VWNE1GSENMM0NkbG9uMkdtQ0t4REVvWndQRDBpQWhIQmNIbEJBSUxDVThrbHpXc1Q5ZDhaQWR6SDNnVkxFWFRYYVhqVWR4VS1ubWZwYTdGd2pXbEpmV1FhaExuNjdueXJSUjJSSnJjQ0pibnZzQmhVSThfWWktdVFGYkFFRmdFQUh3TUtrRQ?oc=5",
-      "published_at_utc": "2026-11-11T10:16:37+00:00",
-      "themes": [],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Rebounding AI stocks lift Wall Street - Goshen News",
-      "source": "Goshen News",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYTJlc2VfVGtsSEh1d2dGZEdMMFFIbzRnMXNhZ0xEZlVwNGQ5SkJKa0plUjNiR2VtYy1mVV9YT2N3QVdGUnN1NUtXa016N1F6QnFncEtRcGw0bUl4cFVaY1NveEx1ZHJkUC1LVUFkV2gwcTR2amttNFZRX2FtUUNrSi0zeFhielhSaGVJcDktTXAycFZJaWJOZFp2QzJCNHZKNHIyLUpZMDdoa1cyLTNOZWpacTNYc3lLNzU2SHFFSUhZbmpzcXNrQzM0WFltRUd2ZGwyc0sxQ3FvdUZLMnhLLTZhODRQSEdKM3Z3WEMzeGg4aDl3S3Z3c044UWtPSEVvdFAtQW9uTnBHeGptNVJNWEVuU3R4YUE?oc=5",
-      "published_at_utc": "2026-11-11T09:43:12+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Goldman Sachs calls chip stocks 'oversold.' Here are the names it says to buy. - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT0pnN29CUTRORHVwTUNRSFY1dndZcjM1cGRqOWRVbVEwYm1UelIxUXE3VHNDbjhoU25kMmNKdHBXWVdjOVc0YXVubnNSV2lKUWdRdXNaM1JrbkdZaVVaLVUxd3gyeXI2WkhSR2FEU1BBV0FydDh5dm1ic2dOYUkzRmtiNl9xYnFlbm00RzdTbjZoaTZCM0RpcDY5a2lXRGhTR1FIWnZNLU5WTGx1dkRaaUNRVmQwUk5Ga3dabVVWTE1fNHBLaVFDcmx4dw?oc=5",
-      "published_at_utc": "2026-11-11T06:00:00+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus - TradingView",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPMm5VakpsOW9kRVZPYXkyS1laQVB5ZzdpZFpfLTA5dzhhYWNRT1doRTQyLVA1bUtDRWoxOHNsakRSVkFZSnFoVkpoMHc1NjU2czZ6TVh2VVp4djdIWndwY2VJTVE3amQ4cEdlV2ZIdEEzLVA4d1ZWOTJlWmtiYU9ZbU1xUWZQTE1UdmQxZ2dYZERvUWppTTljTkoxMld0NEpaM0VtVFRjeFlacnA4TzY0dFNGa1lLYnFJVWVZQjhlcENXTEFuLXBqSS04VHc3U0dYS0RJS01FV0JWUnNPRFJRbHJzS0hQUkVRdzRjOEVMTVhfVkVBREc4dEpmaUlxV2ptazJSUA?oc=5",
-      "published_at_utc": "2026-11-11T03:51:00+00:00",
-      "themes": [
-        "반도체/AI",
-        "기술주"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Global markets broadly rise on AI chip demand despite Wall Street’s retreat on inflation data - KFOR",
-      "source": "KFOR",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcU5ZYkRBbWk4YlFpdzVVQlMtM1dKTExsMWtGUTh3c0V2NDNZS055MW5ISjJlUmtPNXNLRG5FeC1OVkpmUElrNFhuVjRyYThSTWJQNTZmelJYc1NkOFBHNVR4WlZSeE5ROGcyV1VuSGQySEluOExTMUEtS2JPZVVNLU5Na21aRHBaOE5PMGM1RlFhSlZFLUtQWFZ3MkxJOW9rYWJlc2RNejFKbEtyaFk1X3dIRnhFd2w3SVdERS1maVV4dlV2NlJadURYZktHM1E20gHQAUFVX3lxTE1xTlliREFtaThiUWl3NVVCUy0zV0pMTGwxa0ZROHdzRXY0M1lLTnkxbkhKMmVSa081c0tEbkV4LU5WSmZQSWs0WG5WNHJhOFJNYlA1NmZ6UlhzU2Q4UEc1VHhaVlJ4TlE4ZzJXVW5IZDJISW44TFMxQS1LYk9lVU0tTk1rbVpEcFo4Tk8wYzVGUWFKVkUtS1BYVncyTEk5b2thYmVzZE16MUpsS3JoWTVfd0hGeEV3bDdJV0RFLWZpVXh2VXY2Ulp1RFhmS0czUTY?oc=5",
-      "published_at_utc": "2026-11-11T03:25:13+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Louis Vuitton hit by stock slump, stronger won in South Korea - KED Global",
+      "title": "Korean investors flock to US stocks, betting big on risky leveraged ETFs - KED Global",
       "source": "KED Global",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Nbl9zdXlHVVRqTENjNkIydTl5T091emFxaXlRUjdxODVLYWJOc3N4WloycVBjRVpqeUpiY1kwd2pqX3dZOWJVcXpxeXJwcWVtNGRxcXUwLUF1WlE0bjZBeDZKdVFwdXJ3?oc=5",
-      "published_at_utc": "2026-11-10T18:22:32+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HTDg3d0x2WDBfOHlZdVJoODdHQmlNQnRVeWNYYU0zZzgzRXBGZUNpTDBXdEhkYmt3WmpPV2xHemY2YldSVWFZUEEyTE4zOXBiWEVQTElaNjBhcUVKOV9TcS0xNGdkV2hUWlZId1JDMjJGTUhueWZBWWp3?oc=5",
+      "published_at_utc": "2026-11-11T17:44:17+00:00",
       "themes": [
         "환율/한국"
       ],
       "kind": "headline_only_not_verified_article"
     },
     {
-      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
-      "published_at_utc": "2026-11-10T17:08:00+00:00",
+      "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
+      "published_at_utc": "2026-11-11T10:43:00+00:00",
       "themes": [
         "반도체/AI"
       ],
       "kind": "headline_only_not_verified_article"
     },
     {
-      "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal - CNBC",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
-      "published_at_utc": "2026-11-10T13:19:13+00:00",
+      "title": "Asian markets mostly gain on AI chip demand despite Wall Street's retreat on inflation data - Japan Today",
+      "source": "Japan Today",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb0xVVllEdjdfNkdxcEh0Ujk0VURRV2ZLWkl3blRQRVI4VXpMTnM1SHhWbVZLSHk2b3RWQkVhSzJQZmszRUNGMUF5aWxHYlFJWDJsQng5TUVKUm14cVEyY0RMakt6V0NwbGt6SUhCZnJSTUFfZmZxZmdpb2lWZjhJSzNJUUdwUWdlcHVqanRZZU1yWFVqYWh4U1ZSN25VMzQyUkRmMTQzaUh0YVQyZThsaFFoaGlfLUFyVFExUmVIb1o0SEJyT3gweWRFYw?oc=5",
+      "published_at_utc": "2026-11-11T07:00:00+00:00",
       "themes": [
         "반도체/AI"
       ],
