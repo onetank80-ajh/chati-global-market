@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-11T22:49:48.861313+00:00",
+  "generated_at_utc": "2026-11-12T00:10:42.697324+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
   "headline_count_after": 15,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-12T07:49:48.744493+09:00",
+  "market_snapshot_at": "2026-11-12T08:32:29.088831+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": 1.309,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.538,
+      "change_percent": -0.539,
       "market_date": "2026-11-11",
       "status": "ok"
     },
@@ -57,7 +57,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPMm5VakpsOW9kRVZPYXkyS1laQVB5ZzdpZFpfLTA5dzhhYWNRT1doRTQyLVA1bUtDRWoxOHNsakRSVkFZSnFoVkpoMHc1NjU2czZ6TVh2VVp4djdIWndwY2VJTVE3amQ4cEdlV2ZIdEEzLVA4d1ZWOTJlWmtiYU9ZbU1xUWZQTE1UdmQxZ2dYZERvUWppTTljTkoxMld0NEpaM0VtVFRjeFlacnA4TzY0dFNGa1lLYnFJVWVZQjhlcENXTEFuLXBqSS04VHc3U0dYS0RJS01FV0JWUnNPRFJRbHJzS0hQUkVRdzRjOEVMTVhfVkVBREc4dEpmaUlxV2ptazJSUA?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-11T03:51:00+00:00",
-      "age_hours": 19.0,
+      "age_hours": 20.3,
       "relevance_score": 69,
       "tags": [
         "반도체/AI",
@@ -67,25 +67,11 @@
       "needs_verification": true
     },
     {
-      "title": "Global markets broadly rise on AI chip demand despite Wall Street’s retreat on inflation data - KFOR",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcU5ZYkRBbWk4YlFpdzVVQlMtM1dKTExsMWtGUTh3c0V2NDNZS055MW5ISjJlUmtPNXNLRG5FeC1OVkpmUElrNFhuVjRyYThSTWJQNTZmelJYc1NkOFBHNVR4WlZSeE5ROGcyV1VuSGQySEluOExTMUEtS2JPZVVNLU5Na21aRHBaOE5PMGM1RlFhSlZFLUtQWFZ3MkxJOW9rYWJlc2RNejFKbEtyaFk1X3dIRnhFd2w3SVdERS1maVV4dlV2NlJadURYZktHM1E20gHQAUFVX3lxTE1xTlliREFtaThiUWl3NVVCUy0zV0pMTGwxa0ZROHdzRXY0M1lLTnkxbkhKMmVSa081c0tEbkV4LU5WSmZQSWs0WG5WNHJhOFJNYlA1NmZ6UlhzU2Q4UEc1VHhaVlJ4TlE4ZzJXVW5IZDJISW44TFMxQS1LYk9lVU0tTk1rbVpEcFo4Tk8wYzVGUWFKVkUtS1BYVncyTEk5b2thYmVzZE16MUpsS3JoWTVfd0hGeEV3bDdJV0RFLWZpVXh2VXY2Ulp1RFhmS0czUTY?oc=5",
-      "source": "KFOR",
-      "published_at_utc": "2026-11-11T03:25:13+00:00",
-      "age_hours": 19.4,
-      "relevance_score": 59,
-      "tags": [
-        "반도체/AI",
-        "거시경제"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
       "title": "Louis Vuitton hit by stock slump, stronger won in South Korea - KED Global",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Nbl9zdXlHVVRqTENjNkIydTl5T091emFxaXlRUjdxODVLYWJOc3N4WloycVBjRVpqeUpiY1kwd2pqX3dZOWJVcXpxeXJwcWVtNGRxcXUwLUF1WlE0bjZBeDZKdVFwdXJ3?oc=5",
       "source": "KED Global",
       "published_at_utc": "2026-11-10T18:22:32+00:00",
-      "age_hours": 28.5,
+      "age_hours": 29.8,
       "relevance_score": 46,
       "tags": [
         "한국시장 직접언급"
@@ -98,7 +84,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUblRTZkwxa2RiYkFVb3kxbXppWGFoRTRfdHFCWXBrTjF1MF9Zbk1wRzhZYnBZYklvd3pScU5Ual9kRWl2TU5CQkttSXQ5Rmt4UHpHN1pBOWg5MVFOUnNGWEZGWEt6alpXbHNvVXEzSXR1d1hIUGc?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-11T16:26:00+00:00",
-      "age_hours": 6.4,
+      "age_hours": 7.7,
       "relevance_score": 43,
       "tags": [
         "반도체/AI"
@@ -111,8 +97,8 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWXZxSkhzM0pFS1lYbzFPX2RnTThMTEJtcnFvV2xXaGNvaFpfVzJtamlYX2JiWl80b1p0ZndkUURlZ1IyMVczc3R6M2VVeHlOc2ppMHJNNU83Tm9YNDVNeWpKN0VLcjBhMWVjaUczcE1iMUZPMjlRbldUMjhLQ281WHlnYnYxZkNQV0FfdEltZzF6LXRESE91U1VhNk11OVljLWlwaHhaam5JcG01X19ZajB3?oc=5",
       "source": "The Wealth Advisor",
       "published_at_utc": "2026-11-11T14:20:45+00:00",
-      "age_hours": 8.5,
-      "relevance_score": 43,
+      "age_hours": 9.8,
+      "relevance_score": 42,
       "tags": [
         "반도체/AI"
       ],
@@ -124,8 +110,21 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUlc2NDVXS2VnYWU5X2VXVzhNV3FuLVA0cUlqZjg3aEx3cl9pU2xCVUEtTWFiMmo4N3NkNmIzd2dOalAzc0VreERaX1hNMGpUeWU5NVVkMXRtdVdleEJiMTZJeUpIbXNrcWY3OWl0bXg4cnJscHU4ekF4N0VTdHFFSmRDZWg2WG50RFE4ZWR3SzZWT3RXczhKbnd5V3h0US1CN2ZaS2hMYzhiMDlKSnBuSGNIeTh1R00zaE9ORkJESkdHeV9RMW54Sy04VQ?oc=5",
       "source": "巴士的報",
       "published_at_utc": "2026-11-11T13:14:37+00:00",
-      "age_hours": 9.6,
+      "age_hours": 10.9,
       "relevance_score": 42,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "US futures climb and Nvidia shares stabilize in a brutal week for the chipmaker - KSN-TV",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaDE5RXNJR2JoNEpRbV8xUkRpYVUteG5BZ2RGcjQtaWtfYzlFY1FHOWMxS0FrQUt4QW95Vl9faUxueXdsQzdNbTl3NzcyUFJ0WF9jWHlNSEYzdmhvNjdPaWlUdTQ1ZHhFakRtbUd1Vl80T29faTVRN2xmZzNiS21EWERhdzVwbnFFWUY4RVotYXg1ZlM5VUN0c2xnVlotNFRPV3BEZEg0Mkg0bldnZmQ4b2JaU2JDeTRNQzhHRmozRkpmMVA0MmfSAcsBQVVfeXFMTnc5VzFKdW0wZWc4U29IWnlqb2xhTmxFTTB2VGZfZk5DX3ZHSEhlY1E0MWwwQk5pazRXRnE3MDZfZ0QtRFVPOC1vUm5zSXk3TU5UeGhOcG1FVUxhV0FQSU1Ua29rRHVOaktNNmtieHpFTk11bzFNSDV2X1RodWpHWERySWRwWF85UHotcjZHbWFSVTdzSElGWnNBdkxHeGdxUWpFWVhjLXRUcVNRRmxrZmlqTHczdHRYclkzQlVVLWh6alZFZXUxQ3ZkNE0?oc=5",
+      "source": "KSN-TV",
+      "published_at_utc": "2026-11-11T09:25:13+00:00",
+      "age_hours": 14.8,
+      "relevance_score": 41,
       "tags": [
         "반도체/AI"
       ],
@@ -137,8 +136,8 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT0pnN29CUTRORHVwTUNRSFY1dndZcjM1cGRqOWRVbVEwYm1UelIxUXE3VHNDbjhoU25kMmNKdHBXWVdjOVc0YXVubnNSV2lKUWdRdXNaM1JrbkdZaVVaLVUxd3gyeXI2WkhSR2FEU1BBV0FydDh5dm1ic2dOYUkzRmtiNl9xYnFlbm00RzdTbjZoaTZCM0RpcDY5a2lXRGhTR1FIWnZNLU5WTGx1dkRaaUNRVmQwUk5Ga3dabVVWTE1fNHBLaVFDcmx4dw?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-11T06:00:00+00:00",
-      "age_hours": 16.8,
-      "relevance_score": 40,
+      "age_hours": 18.2,
+      "relevance_score": 39,
       "tags": [
         "반도체/AI"
       ],
@@ -150,8 +149,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
       "source": "Investor's Business Daily",
       "published_at_utc": "2026-11-10T17:08:00+00:00",
-      "age_hours": 29.7,
-      "relevance_score": 36,
+      "age_hours": 31.0,
+      "relevance_score": 35,
       "tags": [
         "반도체/AI"
       ],
@@ -163,7 +162,7 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
       "source": "CNBC",
       "published_at_utc": "2026-11-10T13:19:13+00:00",
-      "age_hours": 33.5,
+      "age_hours": 34.9,
       "relevance_score": 34,
       "tags": [
         "반도체/AI"
@@ -176,8 +175,8 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-11-11T21:05:09+00:00",
-      "age_hours": 1.7,
-      "relevance_score": 30,
+      "age_hours": 3.1,
+      "relevance_score": 29,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -187,8 +186,8 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFBDd1BMekwxVkZzbWVvMGpCRE5oZUFmTnRVZU1hOTRVdDVyT3p4VnZuc1BEUHhnVHpOMUNBWEN3RUEwN2xPRjUtZ1J4SzBzYkIzdUI4MEpJTlRUMmczS2x6bzNZOUhYZnlDU0RtMXJCU3c1RnBrU1V1eEU3VnhEM3Q2Mk9uZzhNUk05RFpZT1pyNXMyb3hxbVFfYWpGaUhuY2g3Q2FxbU10Sm9jdFY4dEtTbzlvajczb05aVm40N0hwZ3ZoYkM3a2xSS21FZw?oc=5",
       "source": "Eurasia Business News",
       "published_at_utc": "2026-11-11T20:15:07+00:00",
-      "age_hours": 2.6,
-      "relevance_score": 30,
+      "age_hours": 3.9,
+      "relevance_score": 29,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -198,8 +197,8 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lZE81MFFHcEttT3RIV0hrblUwUHhpYnJWb192V01IT0lidlFzSVNwVmg0NTB0NUhRVXpyN2tVUUNXT1U4ZEpUMDUtN2RZemtjR1RqLWxyYjVnNmhmQWlDTkRpV0ExX3hqOVUwZkxzTFluSWg3TXdJ?oc=5",
       "source": "Beinsure",
       "published_at_utc": "2026-11-11T11:31:53+00:00",
-      "age_hours": 11.3,
-      "relevance_score": 27,
+      "age_hours": 12.6,
+      "relevance_score": 26,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
