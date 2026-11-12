@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-12T22:14:59.882569+00:00",
-  "generated_at_kst": "2026-11-13T07:14:59.882569+09:00",
+  "generated_at_utc": "2026-11-12T22:28:06.894118+00:00",
+  "generated_at_kst": "2026-11-13T07:28:06.894118+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -91,17 +91,17 @@
     },
     {
       "category": "korea",
-      "title": "[Opening Market] KOSPI and KOSDAQ in a Tug-of-War over 5,400 and 700 Marks - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TRUZxMzdwc3FRd3lEUUhHTEZSU3lfRWYwZWpLb1BtMnJXZGFvaDhFckxNTG9VRWk5RHBGUWZPem5NXzhwTnJsS3JXLWtZZHZ5Mm44VDZxbURVUlc4X0VWa1NpRzYtTW9zSWxTSk1LdEEzd1lj?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-12T02:01:10+00:00"
-    },
-    {
-      "category": "korea",
       "title": "AI stocks rebound, and Wall Street nearly returns to where it was before last week's sell-off - LancasterOnline",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd29DTkVXX043aVh2aTBvYmNMYU5VQTJDR0N2OGJxaXo4UUx5ekl1UEVHLXNWOHN5M3dqam9QVnc5Ujg3bFZZbHhwUEgxbE1RQUh3Z21Ub2ZFUm9od1pNcGtCUkdmNGpFZkRkeG9kMDMzbEljejN2Y0VVX1RPSElFLVd6WldxX09zRnFBc2NTaDE2T09mQmxIYXJWbDVqWjdzN2VhcVpSNE8wMEZWeTQ4QVp2Vlk2VVMwU2NyYk5kcHMzcEFpZHlMRkdhczR3VDhuVkZz?oc=5",
       "source": "LancasterOnline",
       "published_at_utc": "2026-11-11T20:44:56+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "[Opening Market] KOSPI and KOSDAQ in a Tug-of-War over 5,400 and 700 Marks - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TRUZxMzdwc3FRd3lEUUhHTEZSU3lfRWYwZWpLb1BtMnJXZGFvaDhFckxNTG9VRWk5RHBGUWZPem5NXzhwTnJsS3JXLWtZZHZ5Mm44VDZxbURVUlc4X0VWa1NpRzYtTW9zSWxTSk1LdEEzd1lj?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-12T02:01:10+00:00"
     },
     {
       "category": "korea",
