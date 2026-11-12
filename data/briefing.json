@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-12T22:28:07.884192+00:00",
-  "generated_at_kst": "2026-11-13T07:28:07.884192+09:00",
+  "generated_at_utc": "2026-11-12T22:44:21.110328+00:00",
+  "generated_at_kst": "2026-11-13T07:44:21.110328+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.539,
+      "change_percent": -0.54,
       "reference_direction": "우호적"
     }
   ],
@@ -33,8 +33,8 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-12T21:27:08+00:00",
       "category": "us_market",
-      "age_hours": 1.0,
-      "freshness_score": 98,
+      "age_hours": 1.3,
+      "freshness_score": 97,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -46,22 +46,9 @@
       "source": "MLQ.ai",
       "published_at_utc": "2026-11-12T17:11:48+00:00",
       "category": "semiconductor",
-      "age_hours": 5.3,
+      "age_hours": 5.5,
       "freshness_score": 89,
       "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVtdWp0SlNrQVlnN1ppSEdZUkZnRFNTckV1V1l6cHBEdWhVMkdFVll1QVdGclAzLVZTRFUzd2hub2lNY1VzSm1ZVjFxaWNyT2piRG5SdlAxbWtyYWpRY2VEaDRuRnlqcW5CTjAweHh1QnBlQ01vVVBybDdxM0pFNGJXUnNvTXkxa0dwTDYtQnI0RC1ZVFYyTG4ySQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-12T14:29:02+00:00",
-      "category": "semiconductor",
-      "age_hours": 8.0,
-      "freshness_score": 84,
-      "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -71,6 +58,19 @@
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeUFRelQ3SHo1eld4ZGloSnNYNkdmcGpVdHg2WFczR1Jib3BJMG80a0xYRlU4amE5UFZqeXJNa0lscVVOdkhsek9TNHdrZFQyU0huYjZQUEtYTW9pYTA3NXhSZkloV28wSWNZbjVMTW9vRnNoSjZDdE9VWTc5ODZJNS1kdUlEVU5kdDlnXzF3c2xWV1d2bGZXNHJ4eko2cC1HNFNSSENoV0xHLW9BTFJMcjgzM3BvQUxvT3JMd244NHBVNktvYm5HR25DZmdZVDNXQmJtOE12UGJ3UQ?oc=5",
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-12T14:09:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 8.6,
+      "freshness_score": 83,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVtdWp0SlNrQVlnN1ppSEdZUkZnRFNTckV1V1l6cHBEdWhVMkdFVll1QVdGclAzLVZTRFUzd2hub2lNY1VzSm1ZVjFxaWNyT2piRG5SdlAxbWtyYWpRY2VEaDRuRnlqcW5CTjAweHh1QnBlQ01vVVBybDdxM0pFNGJXUnNvTXkxa0dwTDYtQnI0RC1ZVFYyTG4ySQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-12T14:29:02+00:00",
       "category": "semiconductor",
       "age_hours": 8.3,
       "freshness_score": 83,
@@ -85,7 +85,7 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-12T13:35:00+00:00",
       "category": "korea",
-      "age_hours": 8.9,
+      "age_hours": 9.2,
       "freshness_score": 82,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -98,7 +98,7 @@
       "source": "Investing.com",
       "published_at_utc": "2026-11-12T12:03:44+00:00",
       "category": "semiconductor",
-      "age_hours": 10.4,
+      "age_hours": 10.7,
       "freshness_score": 79,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -111,8 +111,8 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-12T10:26:55+00:00",
       "category": "us_market",
-      "age_hours": 12.0,
-      "freshness_score": 76,
+      "age_hours": 12.3,
+      "freshness_score": 75,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -124,8 +124,8 @@
       "source": "investingLive",
       "published_at_utc": "2026-11-12T05:18:33+00:00",
       "category": "semiconductor",
-      "age_hours": 17.2,
-      "freshness_score": 66,
+      "age_hours": 17.4,
+      "freshness_score": 65,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
@@ -137,7 +137,7 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-12T02:01:10+00:00",
       "category": "korea",
-      "age_hours": 20.4,
+      "age_hours": 20.7,
       "freshness_score": 59,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -148,7 +148,7 @@
       "source": "The Detroit News",
       "published_at_utc": "2026-11-11T21:31:00+00:00",
       "category": "us_market",
-      "age_hours": 25.0,
+      "age_hours": 25.2,
       "freshness_score": 50,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -161,8 +161,8 @@
       "source": "LancasterOnline",
       "published_at_utc": "2026-11-11T20:44:56+00:00",
       "category": "korea",
-      "age_hours": 25.7,
-      "freshness_score": 49,
+      "age_hours": 26.0,
+      "freshness_score": 48,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -174,8 +174,8 @@
       "source": "Eurasia Business News",
       "published_at_utc": "2026-11-11T20:15:07+00:00",
       "category": "us_market",
-      "age_hours": 26.2,
-      "freshness_score": 48,
+      "age_hours": 26.5,
+      "freshness_score": 47,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -185,8 +185,8 @@
       "source": "KED Global",
       "published_at_utc": "2026-11-11T17:44:17+00:00",
       "category": "korea",
-      "age_hours": 28.7,
-      "freshness_score": 43,
+      "age_hours": 29.0,
+      "freshness_score": 42,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -196,7 +196,7 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-11T10:43:00+00:00",
       "category": "us_market",
-      "age_hours": 35.8,
+      "age_hours": 36.0,
       "freshness_score": 28,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -209,7 +209,7 @@
       "source": "Japan Today",
       "published_at_utc": "2026-11-11T07:00:00+00:00",
       "category": "korea",
-      "age_hours": 39.5,
+      "age_hours": 39.7,
       "freshness_score": 21,
       "headline_tone": "혼재/불명",
       "sectors": [
