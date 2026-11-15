@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-13T09:06:16.876626+09:00",
+  "generated_at_kst": "2026-11-16T07:05:45.839519+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-13T08:24:16.542633+09:00",
+  "market_snapshot_at": "2026-11-16T07:05:45.700243+09:00",
   "news_snapshot_at": "2026-11-13T07:44:20.138922+09:00",
-  "market_snapshot_age_hours": 0.7,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-13T06:30:00+09:00",
-  "briefing_delay_minutes": 156.3,
-  "briefing_deadline_delay_minutes": 96.3,
-  "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-13T07:30:00+09:00",
-  "briefing_missed_0730_deadline": true,
+  "scheduled_briefing_at_kst": "2026-11-16T06:30:00+09:00",
+  "briefing_delay_minutes": 35.8,
+  "briefing_deadline_delay_minutes": -24.2,
+  "briefing_late_over_10min": false,
+  "briefing_deadline_at_kst": "2026-11-16T07:30:00+09:00",
+  "briefing_missed_0730_deadline": false,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -0.354,
-      "market_date": "2026-11-12",
+      "change_percent": -0.405,
+      "market_date": "2026-11-13",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": -0.544,
-      "market_date": "2026-11-12",
+      "change_percent": -3.43,
+      "market_date": "2026-11-13",
       "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.534,
-      "market_date": "2026-11-12",
-      "meaning": "원화 강세 방향"
+      "change_percent": 0.112,
+      "market_date": "2026-11-15",
+      "meaning": "원화 약세 방향"
     }
   ],
   "sectors": [
@@ -40,7 +40,7 @@
         "SK하이닉스"
       ],
       "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
+      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
     },
     {
       "name": "미국 대형주 연동",
@@ -51,63 +51,14 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "원화 강세 참고",
+      "view": "환율 변동 확인",
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [
-    {
-      "title": "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-12T21:27:08+00:00"
-    },
-    {
-      "title": "Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNS2FFZnFYcENSODdfUzJ3UDBuS3pPTV9hUzBzRmhvVGZ4TEdMRXVsMnZsQ3JNdmVPTGYwdDctSXRKaXFIWll6aXZkby1DQXI2QmFQYTBobTllbWdVckh4blBtSVNFMDRuanZJZG5WVDRUNW5NWVFucjJydEY5NnhQVVpCYXdrRjE5SVd4Yi1ySmFMQjlGMGJxRkpWMVcwZGYweFNET1FEbFlldzB2M3FGb0ZxTjkyZldreGxxZTV5U0REUnI2U1BwVGJhejBVN3RxYzB6cU1JYVVaMlZ1NlQxNUVwd05QQmhpZ0FXUmZ3a1M4TEE3bTFXcWVUVTdrSU13STFvRVlKMnVMM1NabEJqcTkzM0Q?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-12T10:26:55+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, Nasdaq, S&P 500 Rally on November 11, 2026; Oil Rises, Gold Slips - Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFBDd1BMekwxVkZzbWVvMGpCRE5oZUFmTnRVZU1hOTRVdDVyT3p4VnZuc1BEUHhnVHpOMUNBWEN3RUEwN2xPRjUtZ1J4SzBzYkIzdUI4MEpJTlRUMmczS2x6bzNZOUhYZnlDU0RtMXJCU3c1RnBrU1V1eEU3VnhEM3Q2Mk9uZzhNUk05RFpZT1pyNXMyb3hxbVFfYWpGaUhuY2g3Q2FxbU10Sm9jdFY4dEtTbzlvajczb05aVm40N0hwZ3ZoYkM3a2xSS21FZw?oc=5",
-      "source": "Eurasia Business News",
-      "published_at_utc": "2026-11-11T20:15:07+00:00"
-    },
-    {
-      "title": "Stocks end higher as CoreWeave results ease AI spending worries - The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0JEODZ4T1lPYXpaX3I1UG5UTERtMm1LbzBEbG83QVAtZl9CUEhOYUwyQ0pvNGNjdTdBY1cxZXFRZk1hRkNQVVVIZFFQczhsMU9RWV9fMG5KUG1TUWpUOWE1X3REYWJzMDk1Y1NZQ3NYRlgwYTNjSWJtUVdKY0UxdDN3TW5xbHduZEludXpETFJfQUNtYTRncnRiOHBDclJjUEpvbWJIaEVrUXFYWHdpMEY1LV9rLUFhREJ4eUNhVEVPVjVJQnN3cFhWdw?oc=5",
-      "source": "The Detroit News",
-      "published_at_utc": "2026-11-11T21:31:00+00:00"
-    },
-    {
-      "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-11T10:43:00+00:00"
-    },
-    {
-      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVtdWp0SlNrQVlnN1ppSEdZUkZnRFNTckV1V1l6cHBEdWhVMkdFVll1QVdGclAzLVZTRFUzd2hub2lNY1VzSm1ZVjFxaWNyT2piRG5SdlAxbWtyYWpRY2VEaDRuRnlqcW5CTjAweHh1QnBlQ01vVVBybDdxM0pFNGJXUnNvTXkxa0dwTDYtQnI0RC1ZVFYyTG4ySQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-12T14:29:02+00:00"
-    },
-    {
-      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeUFRelQ3SHo1eld4ZGloSnNYNkdmcGpVdHg2WFczR1Jib3BJMG80a0xYRlU4amE5UFZqeXJNa0lscVVOdkhsek9TNHdrZFQyU0huYjZQUEtYTW9pYTA3NXhSZkloV28wSWNZbjVMTW9vRnNoSjZDdE9VWTc5ODZJNS1kdUlEVU5kdDlnXzF3c2xWV1d2bGZXNHJ4eko2cC1HNFNSSENoV0xHLW9BTFJMcjgzM3BvQUxvT3JMd244NHBVNktvYm5HR25DZmdZVDNXQmJtOE12UGJ3UQ?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-12T14:09:00+00:00"
-    },
-    {
-      "title": "U.S., Europe chip stocks dip as Nvidia board reportedly weighs ousting Huang - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2FEN3NyYVFNRC1YaXJHcWc4cGthbWlzel9Kal9fY3Uwc09YenJRWS10aU4zUlVVaEVoNXVlUi1aa1BVM0hRVDFnQ3FpaUN4YUQxb3JxY3huYzRNYlZQVUFMbTFXeWowQXRsb1YyYkdhNHVUY0dDVmwtVGJ0TGRmczRkbGI0dnFCdHdVb0pHZFpPT3RXaW5jYXdwNmhKcWh0cUphUTBjOWN0eU1YZm1MNDhHTEpaN3MwQWhr?oc=5",
-      "source": "Investing.com",
-      "published_at_utc": "2026-11-12T12:03:44+00:00"
-    }
-  ],
-  "news_snapshot_fresh": true,
+  "headlines": [],
+  "news_snapshot_fresh": false,
   "warnings": [
-    "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
+    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
