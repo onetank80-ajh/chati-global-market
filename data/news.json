@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-15T22:36:22.800753+00:00",
-  "generated_at_kst": "2026-11-16T07:36:22.800753+09:00",
+  "generated_at_utc": "2026-11-15T22:38:08.417716+00:00",
+  "generated_at_kst": "2026-11-16T07:38:08.417716+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -21,6 +21,13 @@
     },
     {
       "category": "us_market",
+      "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0cyVmdPTTRkWGt3UlMtUFRyOGhvdDNlM1FYVy1MSVN0elpQZHgtWXctVEE1M2RjQm9IcmwzUGU4cEhEQnhsQWlOX2RhUFk1NzBXeFkwM3lMek16ajB1ZmozdGpLR0cwQ2JTcGVlTTJwMEc2ZFZ3bklxeTk4eElFaHZLaw?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-14T04:59:36+00:00"
+    },
+    {
+      "category": "us_market",
       "title": "Federal Reserve issues sudden warning! Major short sellers increase short positions. - 富途牛牛",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXNuYTNXWnZJd0w1Si1SWFktZWpmSWhtVVpWbHhJd3FSd3Z3dU51SGFaWS1UeS10Q3FMa08wWlY2Q182WTVIWnpyWmx2cVpRMFBMYnlRazdKV2t4QURNZnFJSk5MZ1JrbG4za2hiR1pQc1VLcHhsZkRMcHItZEdadGFPeW5XT2hGV19CcWV3aGk0RExMV0htX2tfWHFNQTBRbmlVaTZPM29pNEFiZEExWGFEa19rQQ?oc=5",
       "source": "富途牛牛",
@@ -28,17 +35,10 @@
     },
     {
       "category": "us_market",
-      "title": "Jensen Huang Steps Down as Nvidia CEO, AI Sector Enters a Period of Uncertainty, Three Major Risk Events to Test US Stocks Next Week - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRFlfX2ZwMHYtUWF1M296aHVva3Y2S0ViMHdZYXVYRk5VR0FJZWpsZEFXRlA2TFdOd1dRTFBpLVh2SUpmZlVZV0t3bG81QnplRnlqTVFhS1djZEJzeXpPRFN2QVVzTk5jbGp4SmhMYXNjUFB6Znc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-15T02:25:00+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares By Reuters - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXNGd0JzV3JVR243T0FXSWtGT3NUREdfTERGZGtRT3BsS1l2ZURxVHlfbVhtWmVpVWNZSGtCRVNKMGdpYlpERzNscF95Tm5JMzE1WWRRbzRjd183X094ZzRvcFBOQVRPd3FrUHNzZW82UElYQXEzX1RUSi1zN3lseTlxbE1VRXZndzJENkxLRm5hZXBUZDN0MDE5bGsyWUhDY1J2VkdKeG1sZjl0VlVENTNCTDNfU00?oc=5",
-      "source": "Investing.com",
-      "published_at_utc": "2026-11-13T22:36:35+00:00"
+      "title": "US stocks: Nasdaq end lower as Nvidia uncertainty weighs on tech shares - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUHlCN1N0eTh6WXQydFBCVnVzX0xfT2lYdVhjaDd5R3lLc29RTGQwV29fNXJ0TUZ3Zzh0TDAxS0ZxVmZmdkVOaml6Q3JiNEI4TF9TV1FNLXJzMTVndGpqbjd6YmlrQ2o5WnE5WE5USjIwRWhGQUppM19FQVBHSjZkUm12eXZwbmVNWkxpSlozb1kteXJsa0k0TnFxdHRHczg2Z3d5ZUpTZWRRTFlJUUdhYTRRLVB1VDhmN082U255N1lTUXBkWWJ6YUNDVzEtUEx1QkpyQ3RBRmZDQQ?oc=5",
+      "source": "The Business Times",
+      "published_at_utc": "2026-11-13T23:37:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -73,7 +73,7 @@
       "title": "PHLX Semiconductor (^SOX) charts, data and news - Yahoo Finance Australia",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95ZzEtbzhxY0tmcUlISHppUzFaQkMwZlJsTExGNmJNbGVSWUdmLWt6eEVna1FWTXp6WnFXRVZMYmFJT2RoMHg0Z1FCTjRjcWVNLVR4Yg?oc=5",
       "source": "Yahoo Finance Australia",
-      "published_at_utc": "2026-11-14T17:18:36+00:00"
+      "published_at_utc": "2026-11-14T20:26:20+00:00"
     },
     {
       "category": "korea",
@@ -81,6 +81,13 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSWw2bENpRmhnYTFtV2NsYW0tWFhxS21HOVZVQjh1QXpBOUZoRHZDUTNzYmhESmVIa1BvQkU4MFVUVDdPX3NCdXpmSjdGNGpBZFBuV09qOUtMSXpDXzVSN1lReGdVM052WGRqU0VpNGsxM05hcXc2RkswUGxiX0U4c3RlMGdmVUxWSXM0Y05rTW9lUXVEWGNUY05DSjhidTFMLVRTaEMwYXNSTFQ0QTlhdHotODFncEZBNWhMOHhFYnFBbE9aREpCMUV5ME9NNVBNQ3hj?oc=5",
       "source": "Korea JoongAng Daily",
       "published_at_utc": "2026-11-15T06:29:15+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Asian stocks steady as Nikkei gains 1.4%, Hang Seng slips on Nvidia leadership fallout - investingLive",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0tIcWlLM1hfYTdQTmxhWFNaZEozV2lnRkxXTVFwY2c0Q3FwV3AwUS03cy1tMEZpN2FCWG5BYWZkVGU2VU9ZeFcyYU1Hd2lDWXdrRHI3Zm5MQXhybmRHR09adW9zaDJxQWtvNFVyT0V0XzBSdmlDMWlHRDh3dFoybFdVdFFLdjBhZ0g1aTI2TzVRN3JzakU3cHZaMUR4ZURYUEtrMktBWWY5aFlYTTJXbFR1Yk9DY2NZWU40dHFrTlY2a1ZfR09SLVpPYw?oc=5",
+      "source": "investingLive",
+      "published_at_utc": "2026-11-15T21:31:39+00:00"
     },
     {
       "category": "korea",
@@ -102,13 +109,6 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JbWY4akNDY1JoN3JGbGlWSUhaR2JhZHhXcWZNVW92TTRyLWR1eEZHdXhxaXBDdmZDbENPSDloQzZGeHY2Q1lUVjROTjJhZUFXX0hHWUV5NHlTbHExc1E?oc=5",
       "source": "朝日新聞",
       "published_at_utc": "2026-11-14T10:51:29+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "AJP weekly market wrap | Nov. 9–13, 2026 - Aju Press",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oOWpTcGhNRTY5UXJjSWwwQ2dyTTF3QkV2Q1dtRlhKWU5FdURzbVNVOVFtekJ1bW81T1pkWWxvZ0RBLTVpT18xcVE3Qm4xbFBJZkJFRGxLSnBNc28?oc=5",
-      "source": "Aju Press",
-      "published_at_utc": "2026-11-14T07:26:22+00:00"
     }
   ],
   "warnings": []

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-15T22:23:36.092636+00:00",
-  "generated_at_kst": "2026-11-16T07:23:36.092636+09:00",
+  "generated_at_utc": "2026-11-15T22:38:09.607873+00:00",
+  "generated_at_kst": "2026-11-16T07:38:09.607873+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,7 +22,7 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.112,
+      "change_percent": 0.136,
       "reference_direction": "주의"
     }
   ],
@@ -33,7 +33,7 @@
       "source": "investingLive",
       "published_at_utc": "2026-11-15T21:31:39+00:00",
       "category": "korea",
-      "age_hours": 0.9,
+      "age_hours": 1.1,
       "freshness_score": 98,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -46,7 +46,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-15T20:30:08+00:00",
       "category": "us_market",
-      "age_hours": 1.9,
+      "age_hours": 2.1,
       "freshness_score": 96,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -57,9 +57,22 @@
       "source": "Stocks Down Under",
       "published_at_utc": "2026-11-15T19:12:42+00:00",
       "category": "us_market",
-      "age_hours": 3.2,
-      "freshness_score": 94,
+      "age_hours": 3.4,
+      "freshness_score": 93,
       "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+      "source": "Britannica",
+      "published_at_utc": "2026-11-15T13:23:00+00:00",
+      "category": "semiconductor",
+      "age_hours": 9.3,
+      "freshness_score": 81,
+      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
@@ -70,8 +83,8 @@
       "source": "조선일보",
       "published_at_utc": "2026-11-15T07:12:49+00:00",
       "category": "korea",
-      "age_hours": 15.2,
-      "freshness_score": 70,
+      "age_hours": 15.4,
+      "freshness_score": 69,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -81,7 +94,7 @@
       "source": "Korea JoongAng Daily",
       "published_at_utc": "2026-11-15T06:29:15+00:00",
       "category": "korea",
-      "age_hours": 15.9,
+      "age_hours": 16.1,
       "freshness_score": 68,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -94,23 +107,10 @@
       "source": "富途牛牛",
       "published_at_utc": "2026-11-15T03:23:36+00:00",
       "category": "us_market",
-      "age_hours": 19.0,
+      "age_hours": 19.2,
       "freshness_score": 62,
       "headline_tone": "혼재/불명",
       "sectors": []
-    },
-    {
-      "title": "Jensen Huang Steps Down as Nvidia CEO, AI Sector Enters a Period of Uncertainty, Three Major Risk Events to Test US Stocks Next Week - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRFlfX2ZwMHYtUWF1M296aHVva3Y2S0ViMHdZYXVYRk5VR0FJZWpsZEFXRlA2TFdOd1dRTFBpLVh2SUpmZlVZV0t3bG81QnplRnlqTVFhS1djZEJzeXpPRFN2QVVzTk5jbGp4SmhMYXNjUFB6Znc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-15T02:25:00+00:00",
-      "category": "us_market",
-      "age_hours": 20.0,
-      "freshness_score": 60,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
     },
     {
       "title": "South Korea's Samsung Electronics, SK Hynix Draw 7 Trillion Won in Margin Debt; KOSPI Credit Loans 36.5% Concentrated - BigGo Finance",
@@ -118,21 +118,8 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-15T00:35:00+00:00",
       "category": "korea",
-      "age_hours": 21.8,
+      "age_hours": 22.1,
       "freshness_score": 56,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "3 Semiconductor Stocks Investors May Prefer Over Nvidia Right Now - Simply Wall St",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPeWZtNHpoRFhOS0Y0dVduTkdyajdlSDZ6TjJZNTNiZG1XNk5aLXB4YXUwaU1fc3lwUk1kSU5GLXhMUmJ4dmp3RHZWalI5MG9OUmhILWc0TkRMTE5jOXRCczNxc25GVGg3U2tzYkFCbHJWenFnWXV0XzZWdWpLNllzN3FUNjlrR2E1VHZLV1ViUFVRVC1lMGpwSloxMjZIX2hpYUpkcWRZbzRWVVJyVzh4WWNVLUdwNWVId0dMbXdXTDZQdklna05rRTc2WWdhdDU0SVAweHR5bmk4YnRMTmg1aWNHUnY0WktTWjdDNDZTcEtUdlFsNmRNaHRoY9IBgAJBVV95cUxNd3lVbnFwUmpvTjAtNjhZd1l1dk5hNkxnZW5mYzBGOF90WXJsa1UzbVVoVl80WFdiazI2NENCeklCRzNiZXg2YTBvaFlqcVZRdWRmMENPYnVUX1QwZUZ0TkdDU1B6UGk3QWxza19qNWJxVjlnWTFOeGFRTzdWOUZMcXVlRjk3dWx0MEU2b3RXZ0RSWW1nWWlYOVRSdUQzSHNIb2JBS2EyX3ZQdVZibTUxUjN1bldFSExIZW9ZSFlxX21wV0dSMDBfQmdxOVVLOUNUcDVJOGZsV2Rhcm1lT1ZDcFNJUTE2aGhPWlU4eDJhV01ldFJwcGdCc25wbVFoYmdR?oc=5",
-      "source": "Simply Wall St",
-      "published_at_utc": "2026-11-14T23:20:34+00:00",
-      "category": "semiconductor",
-      "age_hours": 23.1,
-      "freshness_score": 54,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -144,8 +131,8 @@
       "source": "The Globe and Mail",
       "published_at_utc": "2026-11-14T22:18:51+00:00",
       "category": "semiconductor",
-      "age_hours": 24.1,
-      "freshness_score": 52,
+      "age_hours": 24.3,
+      "freshness_score": 51,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -157,7 +144,7 @@
       "source": "Chosunbiz",
       "published_at_utc": "2026-11-14T21:00:00+00:00",
       "category": "semiconductor",
-      "age_hours": 25.4,
+      "age_hours": 25.6,
       "freshness_score": 49,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -170,7 +157,7 @@
       "source": "Yahoo Finance Australia",
       "published_at_utc": "2026-11-14T20:26:20+00:00",
       "category": "semiconductor",
-      "age_hours": 26.0,
+      "age_hours": 26.2,
       "freshness_score": 48,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -183,8 +170,8 @@
       "source": "朝日新聞",
       "published_at_utc": "2026-11-14T10:51:29+00:00",
       "category": "korea",
-      "age_hours": 35.5,
-      "freshness_score": 29,
+      "age_hours": 35.8,
+      "freshness_score": 28,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -194,7 +181,7 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-14T06:08:32+00:00",
       "category": "semiconductor",
-      "age_hours": 40.3,
+      "age_hours": 40.5,
       "freshness_score": 19,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -202,15 +189,30 @@
       ]
     },
     {
-      "title": "US stocks close mixed as tech losses weigh on Nasdaq, Europe mostly up - Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd2VvSUl4MVRPMU0zUk9VUjdxRHBuLXBoMW5tQ0lKV193d0p3ZlhMNWR5bXRVcFVPUDM2M0ZwTjgzVXc3RVhZd09zUGs4eHhFb0Rpdmh4SmQxeHNWTVprbS11czFQNUlxbWVDaUwyakpkWWhZNXQ4ZzNtVkpUWUhFLVNtdV9lSG1OdFZmdm1lRmxYOTdVcnlVMFJiZXRfNy03a3dEVTY1SEtka191MFZYbQ?oc=5",
-      "source": "Anadolu Ajansı",
-      "published_at_utc": "2026-11-13T22:35:01+00:00",
+      "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0cyVmdPTTRkWGt3UlMtUFRyOGhvdDNlM1FYVy1MSVN0elpQZHgtWXctVEE1M2RjQm9IcmwzUGU4cEhEQnhsQWlOX2RhUFk1NzBXeFkwM3lMek16ajB1ZmozdGpLR0cwQ2JTcGVlTTJwMEc2ZFZ3bklxeTk4eElFaHZLaw?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-14T04:59:36+00:00",
       "category": "us_market",
-      "age_hours": 47.8,
-      "freshness_score": 4,
-      "headline_tone": "혼재/불명",
-      "sectors": []
+      "age_hours": 41.6,
+      "freshness_score": 17,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "US stocks: Nasdaq end lower as Nvidia uncertainty weighs on tech shares - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUHlCN1N0eTh6WXQydFBCVnVzX0xfT2lYdVhjaDd5R3lLc29RTGQwV29fNXJ0TUZ3Zzh0TDAxS0ZxVmZmdkVOaml6Q3JiNEI4TF9TV1FNLXJzMTVndGpqbjd6YmlrQ2o5WnE5WE5USjIwRWhGQUppM19FQVBHSjZkUm12eXZwbmVNWkxpSlozb1kteXJsa0k0TnFxdHRHczg2Z3d5ZUpTZWRRTFlJUUdhYTRRLVB1VDhmN082U255N1lTUXBkWWJ6YUNDVzEtUEx1QkpyQ3RBRmZDQQ?oc=5",
+      "source": "The Business Times",
+      "published_at_utc": "2026-11-13T23:37:00+00:00",
+      "category": "us_market",
+      "age_hours": 47.0,
+      "freshness_score": 6,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
     }
   ]
 }
