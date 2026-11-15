@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-16T07:05:45.839519+09:00",
+  "generated_at_kst": "2026-11-16T07:23:18.549298+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-16T07:05:45.700243+09:00",
-  "news_snapshot_at": "2026-11-13T07:44:20.138922+09:00",
+  "market_snapshot_at": "2026-11-16T07:23:18.421733+09:00",
+  "news_snapshot_at": "2026-11-16T07:05:48.771918+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-16T06:30:00+09:00",
-  "briefing_delay_minutes": 35.8,
-  "briefing_deadline_delay_minutes": -24.2,
+  "briefing_delay_minutes": 53.3,
+  "briefing_deadline_delay_minutes": -6.7,
   "briefing_late_over_10min": false,
   "briefing_deadline_at_kst": "2026-11-16T07:30:00+09:00",
   "briefing_missed_0730_deadline": false,
@@ -40,7 +40,7 @@
         "SK하이닉스"
       ],
       "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
+      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
@@ -55,10 +55,58 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [],
-  "news_snapshot_fresh": false,
+  "headlines": [
+    {
+      "title": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHcxUGNoYnF1dFlaNkd4cEdtYWxxbEhDbE9EcmJyUTg3NFJsREZTY0JxZS1CUmJRZEhteS03UHBEU1pQZEY2bUZXLTZyaXFseDlBdU40MmtiMC1tX2h3Yjl3Q3VfWi1maEU0TWpUM1luS0p1c0puUmRqaXc2OEpPOUg1bmhTNmZUQkhaNGRwMk1GNmJ4MDVJNE1mc3JLenJ6TWg0eEpIUGZPdW1tSmYybXdzNDdncV9mQ1lNb2Ewd0tVRmRwc0hTeA?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-15T20:30:08+00:00"
+    },
+    {
+      "title": "US Stock Market Week Ahead: Can Nvidia Earnings and Fed Minutes Spark a Nasdaq Rally? - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZDNOM285d3hOT0VJV0N4R2cxTWhFcFlzb2VLbVY0U2xiU21xX01hUnN1VDRrZ1lIOUkwRlFkcHdndnpUQ0hXZWZydlVMMmo5N2w5eWZZWjNmeVJ6dHJFZHROSk5jNFBKTFpzeWZqS2UyQkdRR1kwNmRHcFI1Nk0?oc=5",
+      "source": "Stocks Down Under",
+      "published_at_utc": "2026-11-15T19:12:42+00:00"
+    },
+    {
+      "title": "Federal Reserve issues sudden warning! Major short sellers increase short positions. - 富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXNuYTNXWnZJd0w1Si1SWFktZWpmSWhtVVpWbHhJd3FSd3Z3dU51SGFaWS1UeS10Q3FMa08wWlY2Q182WTVIWnpyWmx2cVpRMFBMYnlRazdKV2t4QURNZnFJSk5MZ1JrbG4za2hiR1pQc1VLcHhsZkRMcHItZEdadGFPeW5XT2hGV19CcWV3aGk0RExMV0htX2tfWHFNQTBRbmlVaTZPM29pNEFiZEExWGFEa19rQQ?oc=5",
+      "source": "富途牛牛",
+      "published_at_utc": "2026-11-15T03:23:36+00:00"
+    },
+    {
+      "title": "Jensen Huang Steps Down as Nvidia CEO, AI Sector Enters a Period of Uncertainty, Three Major Risk Events to Test US Stocks Next Week - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRFlfX2ZwMHYtUWF1M296aHVva3Y2S0ViMHdZYXVYRk5VR0FJZWpsZEFXRlA2TFdOd1dRTFBpLVh2SUpmZlVZV0t3bG81QnplRnlqTVFhS1djZEJzeXpPRFN2QVVzTk5jbGp4SmhMYXNjUFB6Znc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-15T02:25:00+00:00"
+    },
+    {
+      "title": "US stocks close mixed as tech losses weigh on Nasdaq, Europe mostly up - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd2VvSUl4MVRPMU0zUk9VUjdxRHBuLXBoMW5tQ0lKV193d0p3ZlhMNWR5bXRVcFVPUDM2M0ZwTjgzVXc3RVhZd09zUGs4eHhFb0Rpdmh4SmQxeHNWTVprbS11czFQNUlxbWVDaUwyakpkWWhZNXQ4ZzNtVkpUWUhFLVNtdV9lSG1OdFZmdm1lRmxYOTdVcnlVMFJiZXRfNy03a3dEVTY1SEtka191MFZYbQ?oc=5",
+      "source": "Anadolu Ajansı",
+      "published_at_utc": "2026-11-13T22:35:01+00:00"
+    },
+    {
+      "title": "ASML vs. NVIDIA: Which Technology Stock Is a Better Buy for 2027? - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNclRLXzBUcWwtdjlFR2d1bU5QYkxWM1lmbDN3eVRIODVXT2NYRWNOXy0zbF9PZXNMOVlMUGFsZzczelM3NmVxYXA4MjZLRS1na0VCWDNDUUt2cnB3cXBPQ1Q5dWJtLVpWN0x1R3FtQURxcG80anFEcFAyUU9xaHhKUW9GN3JLVE8tdWVwSDVLSTFfUGh0cU8ySWpXQ1ZVUkJJLTltZTZTZl9qdVhqMzB0dkV1U0loSnZhWF9CLTg1YXJ4c1FTVjFUY05EaHRfRGZWWHdaTENhSTZDZkM2V2t4eFRHOA?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-14T22:18:51+00:00"
+    },
+    {
+      "title": "Fallout From Nvidia Leadership Shakeup: Chinese 'Rare Earth Retaliation' Warning Rattles Semiconductor Stocks - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGZDBhZEFkVVRYUWhRRDR3YWVRNERUbndYaUlHR1hrSG1jM0JXTXFzbE1DbzcyeFZMMDlnMG10bXBBc1RvbGNrUHpYTGk5ZHFxZDZnT2wtQ3ZORXhIZ1hqZmxmVXl0TkpyWGRYWDFuNm5xdlhpbHc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-14T06:08:32+00:00"
+    },
+    {
+      "title": "Nvidia earnings, Anthropic IPO and US-China summit to test rebound hopes - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd3FVNlhqNzJPOHdnUXQxc2RENjMxd2xwOHJpQnZiU1RmSFFkOU5zTV9sa1F0UEEyTFZSTlFyeG9ZQ1JhaFM3cWt4enFIZ0RjaF9TaGNRNEY3WWNyczAzNUNsT3o3X3kxQnBZUEJUMW9XLXRocEhvTGt5OGRESTJPQtIBlAFBVV95cUxQUVlicW9ncnhVQUNlTUgzc2Ruby1yWl9NTEpPLTJwSFNoanl4Q1ZsS2YxU3VyN2NVeWl5VDY3SmNxTFVvZmprYUZScGZPZ2VJLXVPd05YWHRpanZSNEpmZGdrenVSRXRWdHNoZFVCVlRyR0pidU9IY3lZVXJybHhTS01tQ3hQOTZXLTYyNHdtbk9jSURn?oc=5",
+      "source": "Chosunbiz",
+      "published_at_utc": "2026-11-14T21:00:00+00:00"
+    }
+  ],
+  "news_snapshot_fresh": true,
   "warnings": [
-    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
     "한국 증시 주가 예측 또는 매매 신호 아님"
