@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-15T22:05:48.771918+00:00",
-  "generated_at_kst": "2026-11-16T07:05:48.771918+09:00",
+  "generated_at_utc": "2026-11-15T22:36:22.800753+00:00",
+  "generated_at_kst": "2026-11-16T07:36:22.800753+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -35,10 +35,17 @@
     },
     {
       "category": "us_market",
-      "title": "US stocks close mixed as tech losses weigh on Nasdaq, Europe mostly up - Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd2VvSUl4MVRPMU0zUk9VUjdxRHBuLXBoMW5tQ0lKV193d0p3ZlhMNWR5bXRVcFVPUDM2M0ZwTjgzVXc3RVhZd09zUGs4eHhFb0Rpdmh4SmQxeHNWTVprbS11czFQNUlxbWVDaUwyakpkWWhZNXQ4ZzNtVkpUWUhFLVNtdV9lSG1OdFZmdm1lRmxYOTdVcnlVMFJiZXRfNy03a3dEVTY1SEtka191MFZYbQ?oc=5",
-      "source": "Anadolu Ajansı",
-      "published_at_utc": "2026-11-13T22:35:01+00:00"
+      "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares By Reuters - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXNGd0JzV3JVR243T0FXSWtGT3NUREdfTERGZGtRT3BsS1l2ZURxVHlfbVhtWmVpVWNZSGtCRVNKMGdpYlpERzNscF95Tm5JMzE1WWRRbzRjd183X094ZzRvcFBOQVRPd3FrUHNzZW82UElYQXEzX1RUSi1zN3lseTlxbE1VRXZndzJENkxLRm5hZXBUZDN0MDE5bGsyWUhDY1J2VkdKeG1sZjl0VlVENTNCTDNfU00?oc=5",
+      "source": "Investing.com",
+      "published_at_utc": "2026-11-13T22:36:35+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+      "source": "Britannica",
+      "published_at_utc": "2026-11-15T13:23:00+00:00"
     },
     {
       "category": "semiconductor",
@@ -66,14 +73,7 @@
       "title": "PHLX Semiconductor (^SOX) charts, data and news - Yahoo Finance Australia",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95ZzEtbzhxY0tmcUlISHppUzFaQkMwZlJsTExGNmJNbGVSWUdmLWt6eEVna1FWTXp6WnFXRVZMYmFJT2RoMHg0Z1FCTjRjcWVNLVR4Yg?oc=5",
       "source": "Yahoo Finance Australia",
-      "published_at_utc": "2026-11-14T20:26:20+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "3 Semiconductor Stocks Investors May Prefer Over Nvidia Right Now - Simply Wall St",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPeWZtNHpoRFhOS0Y0dVduTkdyajdlSDZ6TjJZNTNiZG1XNk5aLXB4YXUwaU1fc3lwUk1kSU5GLXhMUmJ4dmp3RHZWalI5MG9OUmhILWc0TkRMTE5jOXRCczNxc25GVGg3U2tzYkFCbHJWenFnWXV0XzZWdWpLNllzN3FUNjlrR2E1VHZLV1ViUFVRVC1lMGpwSloxMjZIX2hpYUpkcWRZbzRWVVJyVzh4WWNVLUdwNWVId0dMbXdXTDZQdklna05rRTc2WWdhdDU0SVAweHR5bmk4YnRMTmg1aWNHUnY0WktTWjdDNDZTcEtUdlFsNmRNaHRoY9IBgAJBVV95cUxNd3lVbnFwUmpvTjAtNjhZd1l1dk5hNkxnZW5mYzBGOF90WXJsa1UzbVVoVl80WFdiazI2NENCeklCRzNiZXg2YTBvaFlqcVZRdWRmMENPYnVUX1QwZUZ0TkdDU1B6UGk3QWxza19qNWJxVjlnWTFOeGFRTzdWOUZMcXVlRjk3dWx0MEU2b3RXZ0RSWW1nWWlYOVRSdUQzSHNIb2JBS2EyX3ZQdVZibTUxUjN1bldFSExIZW9ZSFlxX21wV0dSMDBfQmdxOVVLOUNUcDVJOGZsV2Rhcm1lT1ZDcFNJUTE2aGhPWlU4eDJhV01ldFJwcGdCc25wbVFoYmdR?oc=5",
-      "source": "Simply Wall St",
-      "published_at_utc": "2026-11-14T23:20:34+00:00"
+      "published_at_utc": "2026-11-14T17:18:36+00:00"
     },
     {
       "category": "korea",
@@ -81,13 +81,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSWw2bENpRmhnYTFtV2NsYW0tWFhxS21HOVZVQjh1QXpBOUZoRHZDUTNzYmhESmVIa1BvQkU4MFVUVDdPX3NCdXpmSjdGNGpBZFBuV09qOUtMSXpDXzVSN1lReGdVM052WGRqU0VpNGsxM05hcXc2RkswUGxiX0U4c3RlMGdmVUxWSXM0Y05rTW9lUXVEWGNUY05DSjhidTFMLVRTaEMwYXNSTFQ0QTlhdHotODFncEZBNWhMOHhFYnFBbE9aREpCMUV5ME9NNVBNQ3hj?oc=5",
       "source": "Korea JoongAng Daily",
       "published_at_utc": "2026-11-15T06:29:15+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Asian stocks steady as Nikkei gains 1.4%, Hang Seng slips on Nvidia leadership fallout - investingLive",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0tIcWlLM1hfYTdQTmxhWFNaZEozV2lnRkxXTVFwY2c0Q3FwV3AwUS03cy1tMEZpN2FCWG5BYWZkVGU2VU9ZeFcyYU1Hd2lDWXdrRHI3Zm5MQXhybmRHR09adW9zaDJxQWtvNFVyT0V0XzBSdmlDMWlHRDh3dFoybFdVdFFLdjBhZ0g1aTI2TzVRN3JzakU3cHZaMUR4ZURYUEtrMktBWWY5aFlYTTJXbFR1Yk9DY2NZWU40dHFrTlY2a1ZfR09SLVpPYw?oc=5",
-      "source": "investingLive",
-      "published_at_utc": "2026-11-15T21:31:39+00:00"
     },
     {
       "category": "korea",
@@ -109,6 +102,13 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JbWY4akNDY1JoN3JGbGlWSUhaR2JhZHhXcWZNVW92TTRyLWR1eEZHdXhxaXBDdmZDbENPSDloQzZGeHY2Q1lUVjROTjJhZUFXX0hHWUV5NHlTbHExc1E?oc=5",
       "source": "朝日新聞",
       "published_at_utc": "2026-11-14T10:51:29+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "AJP weekly market wrap | Nov. 9–13, 2026 - Aju Press",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oOWpTcGhNRTY5UXJjSWwwQ2dyTTF3QkV2Q1dtRlhKWU5FdURzbVNVOVFtekJ1bW81T1pkWWxvZ0RBLTVpT18xcVE3Qm4xbFBJZkJFRGxLSnBNc28?oc=5",
+      "source": "Aju Press",
+      "published_at_utc": "2026-11-14T07:26:22+00:00"
     }
   ],
   "warnings": []

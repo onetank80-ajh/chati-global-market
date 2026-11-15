@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "version": "3.6-preview",
-  "generated_at_kst": "2026-11-13T07:42:39.131653+09:00",
-  "data_cutoff_utc": "2026-11-12T22:42:39.131653+00:00",
+  "generated_at_kst": "2026-11-16T07:36:23.931437+09:00",
+  "data_cutoff_utc": "2026-11-15T22:36:23.931437+00:00",
   "kind": "sourced_headline_theme_watchlist_not_ai",
   "market_snapshot_age_hours": 0.2,
   "market_stale": false,
@@ -11,50 +11,50 @@
       "key": "sp500",
       "label": "S&P 500",
       "status": "ok",
-      "change_percent": -0.354,
-      "market_date": "2026-11-12"
+      "change_percent": -0.405,
+      "market_date": "2026-11-13"
     },
     {
       "key": "nasdaq",
       "label": "나스닥",
       "status": "ok",
-      "change_percent": -0.393,
-      "market_date": "2026-11-12"
+      "change_percent": -0.906,
+      "market_date": "2026-11-13"
     },
     {
       "key": "sox",
       "label": "필라델피아 반도체",
       "status": "ok",
-      "change_percent": -0.544,
-      "market_date": "2026-11-12"
+      "change_percent": -3.43,
+      "market_date": "2026-11-13"
     },
     {
       "key": "usdkrw",
       "label": "달러/원",
       "status": "ok",
-      "change_percent": -0.539,
-      "market_date": "2026-11-12"
+      "change_percent": 0.112,
+      "market_date": "2026-11-15"
     }
   ],
   "v33_scenarios": [
     {
       "market": "kospi",
-      "bias": "상승 우세",
+      "bias": "하락 우세",
       "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함",
-      "score": 6
+      "score": -3
     },
     {
       "market": "kosdaq",
-      "bias": "상승 우세",
+      "bias": "중립/혼조",
       "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함",
-      "score": 6
+      "score": -3
     }
   ],
   "v33_mode": "retrospective_or_unverified",
   "themes": [
     {
       "theme": "반도체/AI",
-      "headline_count": 12,
+      "headline_count": 10,
       "stocks_to_watch": [
         "삼성전자",
         "SK하이닉스"
@@ -62,40 +62,43 @@
       "verification": "SOX와 국내 외국인 수급 확인",
       "headlines": [
         {
-          "title": "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
-          "published_at_utc": "2026-11-12T21:27:08+00:00",
+          "title": "US Stock Market Week Ahead: Can Nvidia Earnings and Fed Minutes Spark a Nasdaq Rally? - Stocks Down Under",
+          "source": "Stocks Down Under",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZDNOM285d3hOT0VJV0N4R2cxTWhFcFlzb2VLbVY0U2xiU21xX01hUnN1VDRrZ1lIOUkwRlFkcHdndnpUQ0hXZWZydlVMMmo5N2w5eWZZWjNmeVJ6dHJFZHROSk5jNFBKTFpzeWZqS2UyQkdRR1kwNmRHcFI1Nk0?oc=5",
+          "published_at_utc": "2026-11-15T19:12:42+00:00",
+          "themes": [
+            "반도체/AI",
+            "금리/연준",
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+          "source": "Britannica",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+          "published_at_utc": "2026-11-15T13:23:00+00:00",
           "themes": [
             "반도체/AI"
           ],
           "kind": "headline_only_not_verified_article"
         },
         {
-          "title": "European stocks close higher as Burberry and Munich Re outweigh a chip selloff after Nvidia's CEO exit - MLQ.ai",
-          "source": "MLQ.ai",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5JekZHWkpNS2F2MW1OMTFsMVFGM2xTdHZveHRkWTl2SDMydzlocDJZakpSaGVsYUlkdDhrS3BaNEFtcVFnVGdOSHNYU3l5eXBRYWxNU0Y1STl3TVAxWTJDeHhNaDBPUWtxT0F5MlpQR1BIc192X29kZzJfWWNtWWNEM1ZUTWR2bXdHYktrY2dqU0kzb0xiMTg3d0lwN2JTdWhCNy1Ib0I0TVEtdF92ZERsSnMxNFpDYWE4Z3pNOA?oc=5",
-          "published_at_utc": "2026-11-12T17:11:48+00:00",
+          "title": "Samsung, SK hynix account for more than one-fourth of Korea's stock market credit loans - Korea JoongAng Daily",
+          "source": "Korea JoongAng Daily",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSWw2bENpRmhnYTFtV2NsYW0tWFhxS21HOVZVQjh1QXpBOUZoRHZDUTNzYmhESmVIa1BvQkU4MFVUVDdPX3NCdXpmSjdGNGpBZFBuV09qOUtMSXpDXzVSN1lReGdVM052WGRqU0VpNGsxM05hcXc2RkswUGxiX0U4c3RlMGdmVUxWSXM0Y05rTW9lUXVEWGNUY05DSjhidTFMLVRTaEMwYXNSTFQ0QTlhdHotODFncEZBNWhMOHhFYnFBbE9aREpCMUV5ME9NNVBNQ3hj?oc=5",
+          "published_at_utc": "2026-11-15T06:29:15+00:00",
           "themes": [
-            "반도체/AI"
+            "반도체/AI",
+            "환율/한국"
           ],
           "kind": "headline_only_not_verified_article"
         },
         {
-          "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVtdWp0SlNrQVlnN1ppSEdZUkZnRFNTckV1V1l6cHBEdWhVMkdFVll1QVdGclAzLVZTRFUzd2hub2lNY1VzSm1ZVjFxaWNyT2piRG5SdlAxbWtyYWpRY2VEaDRuRnlqcW5CTjAweHh1QnBlQ01vVVBybDdxM0pFNGJXUnNvTXkxa0dwTDYtQnI0RC1ZVFYyTG4ySQ?oc=5",
-          "published_at_utc": "2026-11-12T14:29:02+00:00",
-          "themes": [
-            "반도체/AI"
-          ],
-          "kind": "headline_only_not_verified_article"
-        },
-        {
-          "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - The Motley Fool",
-          "source": "The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeUFRelQ3SHo1eld4ZGloSnNYNkdmcGpVdHg2WFczR1Jib3BJMG80a0xYRlU4amE5UFZqeXJNa0lscVVOdkhsek9TNHdrZFQyU0huYjZQUEtYTW9pYTA3NXhSZkloV28wSWNZbjVMTW9vRnNoSjZDdE9VWTc5ODZJNS1kdUlEVU5kdDlnXzF3c2xWV1d2bGZXNHJ4eko2cC1HNFNSSENoV0xHLW9BTFJMcjgzM3BvQUxvT3JMd244NHBVNktvYm5HR25DZmdZVDNXQmJtOE12UGJ3UQ?oc=5",
-          "published_at_utc": "2026-11-12T14:09:00+00:00",
+          "title": "Jensen Huang Steps Down as Nvidia CEO, AI Sector Enters a Period of Uncertainty, Three Major Risk Events to Test US Stocks Next Week - BigGo Finance",
+          "source": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRFlfX2ZwMHYtUWF1M296aHVva3Y2S0ViMHdZYXVYRk5VR0FJZWpsZEFXRlA2TFdOd1dRTFBpLVh2SUpmZlVZV0t3bG81QnplRnlqTVFhS1djZEJzeXpPRFN2QVVzTk5jbGp4SmhMYXNjUFB6Znc?oc=5",
+          "published_at_utc": "2026-11-15T02:25:00+00:00",
           "themes": [
             "반도체/AI"
           ],
@@ -105,30 +108,76 @@
       "interpretation": "기사 제목에 주제어가 언급됨. 본문과 전문가 발언을 확인하지 않았으며 방향 예측이 아님"
     },
     {
-      "theme": "기술주",
+      "theme": "금리/연준",
       "headline_count": 2,
+      "stocks_to_watch": [
+        "코스피 성장주",
+        "코스닥 성장주"
+      ],
+      "verification": "미국 10년물 국채금리와 원/달러 확인",
+      "headlines": [
+        {
+          "title": "US Stock Market Week Ahead: Can Nvidia Earnings and Fed Minutes Spark a Nasdaq Rally? - Stocks Down Under",
+          "source": "Stocks Down Under",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZDNOM285d3hOT0VJV0N4R2cxTWhFcFlzb2VLbVY0U2xiU21xX01hUnN1VDRrZ1lIOUkwRlFkcHdndnpUQ0hXZWZydlVMMmo5N2w5eWZZWjNmeVJ6dHJFZHROSk5jNFBKTFpzeWZqS2UyQkdRR1kwNmRHcFI1Nk0?oc=5",
+          "published_at_utc": "2026-11-15T19:12:42+00:00",
+          "themes": [
+            "반도체/AI",
+            "금리/연준",
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "Federal Reserve issues sudden warning! Major short sellers increase short positions. - 富途牛牛",
+          "source": "富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXNuYTNXWnZJd0w1Si1SWFktZWpmSWhtVVpWbHhJd3FSd3Z3dU51SGFaWS1UeS10Q3FMa08wWlY2Q182WTVIWnpyWmx2cVpRMFBMYnlRazdKV2t4QURNZnFJSk5MZ1JrbG4za2hiR1pQc1VLcHhsZkRMcHItZEdadGFPeW5XT2hGV19CcWV3aGk0RExMV0htX2tfWHFNQTBRbmlVaTZPM29pNEFiZEExWGFEa19rQQ?oc=5",
+          "published_at_utc": "2026-11-15T03:23:36+00:00",
+          "themes": [
+            "금리/연준"
+          ],
+          "kind": "headline_only_not_verified_article"
+        }
+      ],
+      "interpretation": "기사 제목에 주제어가 언급됨. 본문과 전문가 발언을 확인하지 않았으며 방향 예측이 아님"
+    },
+    {
+      "theme": "기술주",
+      "headline_count": 3,
       "stocks_to_watch": [
         "국내 기술주"
       ],
       "verification": "나스닥·국내 장초반 거래대금 확인",
       "headlines": [
         {
-          "title": "Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW - Benzinga",
+          "title": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week - Benzinga",
           "source": "Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNS2FFZnFYcENSODdfUzJ3UDBuS3pPTV9hUzBzRmhvVGZ4TEdMRXVsMnZsQ3JNdmVPTGYwdDctSXRKaXFIWll6aXZkby1DQXI2QmFQYTBobTllbWdVckh4blBtSVNFMDRuanZJZG5WVDRUNW5NWVFucjJydEY5NnhQVVpCYXdrRjE5SVd4Yi1ySmFMQjlGMGJxRkpWMVcwZGYweFNET1FEbFlldzB2M3FGb0ZxTjkyZldreGxxZTV5U0REUnI2U1BwVGJhejBVN3RxYzB6cU1JYVVaMlZ1NlQxNUVwd05QQmhpZ0FXUmZ3a1M4TEE3bTFXcWVUVTdrSU13STFvRVlKMnVMM1NabEJqcTkzM0Q?oc=5",
-          "published_at_utc": "2026-11-12T10:26:55+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHcxUGNoYnF1dFlaNkd4cEdtYWxxbEhDbE9EcmJyUTg3NFJsREZTY0JxZS1CUmJRZEhteS03UHBEU1pQZEY2bUZXLTZyaXFseDlBdU40MmtiMC1tX2h3Yjl3Q3VfWi1maEU0TWpUM1luS0p1c0puUmRqaXc2OEpPOUg1bmhTNmZUQkhaNGRwMk1GNmJ4MDVJNE1mc3JLenJ6TWg0eEpIUGZPdW1tSmYybXdzNDdncV9mQ1lNb2Ewd0tVRmRwc0hTeA?oc=5",
+          "published_at_utc": "2026-11-15T20:30:08+00:00",
           "themes": [
-            "반도체/AI",
             "기술주"
           ],
           "kind": "headline_only_not_verified_article"
         },
         {
-          "title": "Stock Market Today: Dow Jones, Nasdaq, S&P 500 Rally on November 11, 2026; Oil Rises, Gold Slips - Eurasia Business News",
-          "source": "Eurasia Business News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFBDd1BMekwxVkZzbWVvMGpCRE5oZUFmTnRVZU1hOTRVdDVyT3p4VnZuc1BEUHhnVHpOMUNBWEN3RUEwN2xPRjUtZ1J4SzBzYkIzdUI4MEpJTlRUMmczS2x6bzNZOUhYZnlDU0RtMXJCU3c1RnBrU1V1eEU3VnhEM3Q2Mk9uZzhNUk05RFpZT1pyNXMyb3hxbVFfYWpGaUhuY2g3Q2FxbU10Sm9jdFY4dEtTbzlvajczb05aVm40N0hwZ3ZoYkM3a2xSS21FZw?oc=5",
-          "published_at_utc": "2026-11-11T20:15:07+00:00",
+          "title": "US Stock Market Week Ahead: Can Nvidia Earnings and Fed Minutes Spark a Nasdaq Rally? - Stocks Down Under",
+          "source": "Stocks Down Under",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZDNOM285d3hOT0VJV0N4R2cxTWhFcFlzb2VLbVY0U2xiU21xX01hUnN1VDRrZ1lIOUkwRlFkcHdndnpUQ0hXZWZydlVMMmo5N2w5eWZZWjNmeVJ6dHJFZHROSk5jNFBKTFpzeWZqS2UyQkdRR1kwNmRHcFI1Nk0?oc=5",
+          "published_at_utc": "2026-11-15T19:12:42+00:00",
           "themes": [
+            "반도체/AI",
+            "금리/연준",
+            "기술주"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares By Reuters - Investing.com",
+          "source": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXNGd0JzV3JVR243T0FXSWtGT3NUREdfTERGZGtRT3BsS1l2ZURxVHlfbVhtWmVpVWNZSGtCRVNKMGdpYlpERzNscF95Tm5JMzE1WWRRbzRjd183X094ZzRvcFBOQVRPd3FrUHNzZW82UElYQXEzX1RUSi1zN3lseTlxbE1VRXZndzJENkxLRm5hZXBUZDN0MDE5bGsyWUhDY1J2VkdKeG1sZjl0VlVENTNCTDNfU00?oc=5",
+          "published_at_utc": "2026-11-13T22:36:35+00:00",
+          "themes": [
+            "반도체/AI",
             "기술주"
           ],
           "kind": "headline_only_not_verified_article"
@@ -145,10 +194,20 @@
       "verification": "원/달러 방향과 외국인 현물 수급 확인",
       "headlines": [
         {
-          "title": "South Korea's KOSPI Sees $19.3 Billion in Foreign Net Selling in October on AI Concerns; Bonds Draw $5.6 Billion - BigGo Finance",
-          "source": "BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sa2FRc0NXVWFVVW96VGZOYlRwWkZKbkNMbTcxNmpEYVExZ0ZiMFA5dEZUZ2RSWHdvY3BKclhqUnc4ZTlIblJvZlFSSWNMSXZnbEw0OU1odmVMZFI4SXVZT1BtMGVRY1R0dC1mbTRHYXZldnlOMXc?oc=5",
-          "published_at_utc": "2026-11-12T13:35:00+00:00",
+          "title": "Margin Loans Surge as KOSPI Drops - 조선일보",
+          "source": "조선일보",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZktjZ0puRzZNLWs4WjhHZDFuUm5ZWEFodVF2TzhieUd4UWNNVmlUYjd2REltSE94LXVyci1PUTJCVy1hZ2M1dVpWdVlfYWpibTEtMTZST1BURkhEeTZSVl9HOUFkU0MydkJzZlI4bFJ4VWg0b0dFT0NDRk9RWktrdTNnYXhhbFhOTFVnX0VB?oc=5",
+          "published_at_utc": "2026-11-15T07:12:49+00:00",
+          "themes": [
+            "환율/한국"
+          ],
+          "kind": "headline_only_not_verified_article"
+        },
+        {
+          "title": "Samsung, SK hynix account for more than one-fourth of Korea's stock market credit loans - Korea JoongAng Daily",
+          "source": "Korea JoongAng Daily",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSWw2bENpRmhnYTFtV2NsYW0tWFhxS21HOVZVQjh1QXpBOUZoRHZDUTNzYmhESmVIa1BvQkU4MFVUVDdPX3NCdXpmSjdGNGpBZFBuV09qOUtMSXpDXzVSN1lReGdVM052WGRqU0VpNGsxM05hcXc2RkswUGxiX0U4c3RlMGdmVUxWSXM0Y05rTW9lUXVEWGNUY05DSjhidTFMLVRTaEMwYXNSTFQ0QTlhdHotODFncEZBNWhMOHhFYnFBbE9aREpCMUV5ME9NNVBNQ3hj?oc=5",
+          "published_at_utc": "2026-11-15T06:29:15+00:00",
           "themes": [
             "반도체/AI",
             "환율/한국"
@@ -156,21 +215,12 @@
           "kind": "headline_only_not_verified_article"
         },
         {
-          "title": "[Opening Market] KOSPI and KOSDAQ in a Tug-of-War over 5,400 and 700 Marks - Businesskorea",
-          "source": "Businesskorea",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TRUZxMzdwc3FRd3lEUUhHTEZSU3lfRWYwZWpLb1BtMnJXZGFvaDhFckxNTG9VRWk5RHBGUWZPem5NXzhwTnJsS3JXLWtZZHZ5Mm44VDZxbURVUlc4X0VWa1NpRzYtTW9zSWxTSk1LdEEzd1lj?oc=5",
-          "published_at_utc": "2026-11-12T02:01:10+00:00",
+          "title": "South Korea's Samsung Electronics, SK Hynix Draw 7 Trillion Won in Margin Debt; KOSPI Credit Loans 36.5% Concentrated - BigGo Finance",
+          "source": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RGJhRjBVNDdWczRNQzJlUzZ6aW9Fbks5UTN0a2U3WGs1MHJMZzJRWFl5dzFwaF9FTTRVOUdmcXpxdnBtSDB1U1ozcFZRMmVseDNKVzI3bTQzdzFKYWd3ZldROGFEWFh2ZHNzYVYxN2RvQ0VoSUE?oc=5",
+          "published_at_utc": "2026-11-15T00:35:00+00:00",
           "themes": [
-            "환율/한국"
-          ],
-          "kind": "headline_only_not_verified_article"
-        },
-        {
-          "title": "Korean investors flock to US stocks, betting big on risky leveraged ETFs - KED Global",
-          "source": "KED Global",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HTDg3d0x2WDBfOHlZdVJoODdHQmlNQnRVeWNYYU0zZzgzRXBGZUNpTDBXdEhkYmt3WmpPV2xHemY2YldSVWFZUEEyTE4zOXBiWEVQTElaNjBhcUVKOV9TcS0xNGdkV2hUWlZId1JDMjJGTUhueWZBWWp3?oc=5",
-          "published_at_utc": "2026-11-11T17:44:17+00:00",
-          "themes": [
+            "반도체/AI",
             "환율/한국"
           ],
           "kind": "headline_only_not_verified_article"
@@ -181,154 +231,153 @@
   ],
   "headlines": [
     {
-      "title": "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
-      "published_at_utc": "2026-11-12T21:27:08+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "European stocks close higher as Burberry and Munich Re outweigh a chip selloff after Nvidia's CEO exit - MLQ.ai",
-      "source": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5JekZHWkpNS2F2MW1OMTFsMVFGM2xTdHZveHRkWTl2SDMydzlocDJZakpSaGVsYUlkdDhrS3BaNEFtcVFnVGdOSHNYU3l5eXBRYWxNU0Y1STl3TVAxWTJDeHhNaDBPUWtxT0F5MlpQR1BIc192X29kZzJfWWNtWWNEM1ZUTWR2bXdHYktrY2dqU0kzb0xiMTg3d0lwN2JTdWhCNy1Ib0I0TVEtdF92ZERsSnMxNFpDYWE4Z3pNOA?oc=5",
-      "published_at_utc": "2026-11-12T17:11:48+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVtdWp0SlNrQVlnN1ppSEdZUkZnRFNTckV1V1l6cHBEdWhVMkdFVll1QVdGclAzLVZTRFUzd2hub2lNY1VzSm1ZVjFxaWNyT2piRG5SdlAxbWtyYWpRY2VEaDRuRnlqcW5CTjAweHh1QnBlQ01vVVBybDdxM0pFNGJXUnNvTXkxa0dwTDYtQnI0RC1ZVFYyTG4ySQ?oc=5",
-      "published_at_utc": "2026-11-12T14:29:02+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? - The Motley Fool",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeUFRelQ3SHo1eld4ZGloSnNYNkdmcGpVdHg2WFczR1Jib3BJMG80a0xYRlU4amE5UFZqeXJNa0lscVVOdkhsek9TNHdrZFQyU0huYjZQUEtYTW9pYTA3NXhSZkloV28wSWNZbjVMTW9vRnNoSjZDdE9VWTc5ODZJNS1kdUlEVU5kdDlnXzF3c2xWV1d2bGZXNHJ4eko2cC1HNFNSSENoV0xHLW9BTFJMcjgzM3BvQUxvT3JMd244NHBVNktvYm5HR25DZmdZVDNXQmJtOE12UGJ3UQ?oc=5",
-      "published_at_utc": "2026-11-12T14:09:00+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "South Korea's KOSPI Sees $19.3 Billion in Foreign Net Selling in October on AI Concerns; Bonds Draw $5.6 Billion - BigGo Finance",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sa2FRc0NXVWFVVW96VGZOYlRwWkZKbkNMbTcxNmpEYVExZ0ZiMFA5dEZUZ2RSWHdvY3BKclhqUnc4ZTlIblJvZlFSSWNMSXZnbEw0OU1odmVMZFI4SXVZT1BtMGVRY1R0dC1mbTRHYXZldnlOMXc?oc=5",
-      "published_at_utc": "2026-11-12T13:35:00+00:00",
-      "themes": [
-        "반도체/AI",
-        "환율/한국"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "U.S., Europe chip stocks dip as Nvidia board reportedly weighs ousting Huang - Investing.com",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2FEN3NyYVFNRC1YaXJHcWc4cGthbWlzel9Kal9fY3Uwc09YenJRWS10aU4zUlVVaEVoNXVlUi1aa1BVM0hRVDFnQ3FpaUN4YUQxb3JxY3huYzRNYlZQVUFMbTFXeWowQXRsb1YyYkdhNHVUY0dDVmwtVGJ0TGRmczRkbGI0dnFCdHdVb0pHZFpPT3RXaW5jYXdwNmhKcWh0cUphUTBjOWN0eU1YZm1MNDhHTEpaN3MwQWhr?oc=5",
-      "published_at_utc": "2026-11-12T12:03:44+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW - Benzinga",
+      "title": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week - Benzinga",
       "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNS2FFZnFYcENSODdfUzJ3UDBuS3pPTV9hUzBzRmhvVGZ4TEdMRXVsMnZsQ3JNdmVPTGYwdDctSXRKaXFIWll6aXZkby1DQXI2QmFQYTBobTllbWdVckh4blBtSVNFMDRuanZJZG5WVDRUNW5NWVFucjJydEY5NnhQVVpCYXdrRjE5SVd4Yi1ySmFMQjlGMGJxRkpWMVcwZGYweFNET1FEbFlldzB2M3FGb0ZxTjkyZldreGxxZTV5U0REUnI2U1BwVGJhejBVN3RxYzB6cU1JYVVaMlZ1NlQxNUVwd05QQmhpZ0FXUmZ3a1M4TEE3bTFXcWVUVTdrSU13STFvRVlKMnVMM1NabEJqcTkzM0Q?oc=5",
-      "published_at_utc": "2026-11-12T10:26:55+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHcxUGNoYnF1dFlaNkd4cEdtYWxxbEhDbE9EcmJyUTg3NFJsREZTY0JxZS1CUmJRZEhteS03UHBEU1pQZEY2bUZXLTZyaXFseDlBdU40MmtiMC1tX2h3Yjl3Q3VfWi1maEU0TWpUM1luS0p1c0puUmRqaXc2OEpPOUg1bmhTNmZUQkhaNGRwMk1GNmJ4MDVJNE1mc3JLenJ6TWg0eEpIUGZPdW1tSmYybXdzNDdncV9mQ1lNb2Ewd0tVRmRwc0hTeA?oc=5",
+      "published_at_utc": "2026-11-15T20:30:08+00:00",
+      "themes": [
+        "기술주"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "US Stock Market Week Ahead: Can Nvidia Earnings and Fed Minutes Spark a Nasdaq Rally? - Stocks Down Under",
+      "source": "Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZDNOM285d3hOT0VJV0N4R2cxTWhFcFlzb2VLbVY0U2xiU21xX01hUnN1VDRrZ1lIOUkwRlFkcHdndnpUQ0hXZWZydlVMMmo5N2w5eWZZWjNmeVJ6dHJFZHROSk5jNFBKTFpzeWZqS2UyQkdRR1kwNmRHcFI1Nk0?oc=5",
+      "published_at_utc": "2026-11-15T19:12:42+00:00",
+      "themes": [
+        "반도체/AI",
+        "금리/연준",
+        "기술주"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+      "published_at_utc": "2026-11-15T13:23:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Margin Loans Surge as KOSPI Drops - 조선일보",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZktjZ0puRzZNLWs4WjhHZDFuUm5ZWEFodVF2TzhieUd4UWNNVmlUYjd2REltSE94LXVyci1PUTJCVy1hZ2M1dVpWdVlfYWpibTEtMTZST1BURkhEeTZSVl9HOUFkU0MydkJzZlI4bFJ4VWg0b0dFT0NDRk9RWktrdTNnYXhhbFhOTFVnX0VB?oc=5",
+      "published_at_utc": "2026-11-15T07:12:49+00:00",
+      "themes": [
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Samsung, SK hynix account for more than one-fourth of Korea's stock market credit loans - Korea JoongAng Daily",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSWw2bENpRmhnYTFtV2NsYW0tWFhxS21HOVZVQjh1QXpBOUZoRHZDUTNzYmhESmVIa1BvQkU4MFVUVDdPX3NCdXpmSjdGNGpBZFBuV09qOUtMSXpDXzVSN1lReGdVM052WGRqU0VpNGsxM05hcXc2RkswUGxiX0U4c3RlMGdmVUxWSXM0Y05rTW9lUXVEWGNUY05DSjhidTFMLVRTaEMwYXNSTFQ0QTlhdHotODFncEZBNWhMOHhFYnFBbE9aREpCMUV5ME9NNVBNQ3hj?oc=5",
+      "published_at_utc": "2026-11-15T06:29:15+00:00",
+      "themes": [
+        "반도체/AI",
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Federal Reserve issues sudden warning! Major short sellers increase short positions. - 富途牛牛",
+      "source": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXNuYTNXWnZJd0w1Si1SWFktZWpmSWhtVVpWbHhJd3FSd3Z3dU51SGFaWS1UeS10Q3FMa08wWlY2Q182WTVIWnpyWmx2cVpRMFBMYnlRazdKV2t4QURNZnFJSk5MZ1JrbG4za2hiR1pQc1VLcHhsZkRMcHItZEdadGFPeW5XT2hGV19CcWV3aGk0RExMV0htX2tfWHFNQTBRbmlVaTZPM29pNEFiZEExWGFEa19rQQ?oc=5",
+      "published_at_utc": "2026-11-15T03:23:36+00:00",
+      "themes": [
+        "금리/연준"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Jensen Huang Steps Down as Nvidia CEO, AI Sector Enters a Period of Uncertainty, Three Major Risk Events to Test US Stocks Next Week - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRFlfX2ZwMHYtUWF1M296aHVva3Y2S0ViMHdZYXVYRk5VR0FJZWpsZEFXRlA2TFdOd1dRTFBpLVh2SUpmZlVZV0t3bG81QnplRnlqTVFhS1djZEJzeXpPRFN2QVVzTk5jbGp4SmhMYXNjUFB6Znc?oc=5",
+      "published_at_utc": "2026-11-15T02:25:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "South Korea's Samsung Electronics, SK Hynix Draw 7 Trillion Won in Margin Debt; KOSPI Credit Loans 36.5% Concentrated - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RGJhRjBVNDdWczRNQzJlUzZ6aW9Fbks5UTN0a2U3WGs1MHJMZzJRWFl5dzFwaF9FTTRVOUdmcXpxdnBtSDB1U1ozcFZRMmVseDNKVzI3bTQzdzFKYWd3ZldROGFEWFh2ZHNzYVYxN2RvQ0VoSUE?oc=5",
+      "published_at_utc": "2026-11-15T00:35:00+00:00",
+      "themes": [
+        "반도체/AI",
+        "환율/한국"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "ASML vs. NVIDIA: Which Technology Stock Is a Better Buy for 2027? - The Globe and Mail",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNclRLXzBUcWwtdjlFR2d1bU5QYkxWM1lmbDN3eVRIODVXT2NYRWNOXy0zbF9PZXNMOVlMUGFsZzczelM3NmVxYXA4MjZLRS1na0VCWDNDUUt2cnB3cXBPQ1Q5dWJtLVpWN0x1R3FtQURxcG80anFEcFAyUU9xaHhKUW9GN3JLVE8tdWVwSDVLSTFfUGh0cU8ySWpXQ1ZVUkJJLTltZTZTZl9qdVhqMzB0dkV1U0loSnZhWF9CLTg1YXJ4c1FTVjFUY05EaHRfRGZWWHdaTENhSTZDZkM2V2t4eFRHOA?oc=5",
+      "published_at_utc": "2026-11-14T22:18:51+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Nvidia earnings, Anthropic IPO and US-China summit to test rebound hopes - Chosunbiz",
+      "source": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd3FVNlhqNzJPOHdnUXQxc2RENjMxd2xwOHJpQnZiU1RmSFFkOU5zTV9sa1F0UEEyTFZSTlFyeG9ZQ1JhaFM3cWt4enFIZ0RjaF9TaGNRNEY3WWNyczAzNUNsT3o3X3kxQnBZUEJUMW9XLXRocEhvTGt5OGRESTJPQtIBlAFBVV95cUxQUVlicW9ncnhVQUNlTUgzc2Ruby1yWl9NTEpPLTJwSFNoanl4Q1ZsS2YxU3VyN2NVeWl5VDY3SmNxTFVvZmprYUZScGZPZ2VJLXVPd05YWHRpanZSNEpmZGdrenVSRXRWdHNoZFVCVlRyR0pidU9IY3lZVXJybHhTS01tQ3hQOTZXLTYyNHdtbk9jSURn?oc=5",
+      "published_at_utc": "2026-11-14T21:00:00+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "PHLX Semiconductor (^SOX) charts, data and news - Yahoo Finance Australia",
+      "source": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95ZzEtbzhxY0tmcUlISHppUzFaQkMwZlJsTExGNmJNbGVSWUdmLWt6eEVna1FWTXp6WnFXRVZMYmFJT2RoMHg0Z1FCTjRjcWVNLVR4Yg?oc=5",
+      "published_at_utc": "2026-11-14T17:18:36+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "US stocks hover near their latest record in mixed trading - 朝日新聞",
+      "source": "朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JbWY4akNDY1JoN3JGbGlWSUhaR2JhZHhXcWZNVW92TTRyLWR1eEZHdXhxaXBDdmZDbENPSDloQzZGeHY2Q1lUVjROTjJhZUFXX0hHWUV5NHlTbHExc1E?oc=5",
+      "published_at_utc": "2026-11-14T10:51:29+00:00",
+      "themes": [],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "AJP weekly market wrap | Nov. 9–13, 2026 - Aju Press",
+      "source": "Aju Press",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oOWpTcGhNRTY5UXJjSWwwQ2dyTTF3QkV2Q1dtRlhKWU5FdURzbVNVOVFtekJ1bW81T1pkWWxvZ0RBLTVpT18xcVE3Qm4xbFBJZkJFRGxLSnBNc28?oc=5",
+      "published_at_utc": "2026-11-14T07:26:22+00:00",
+      "themes": [],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "Fallout From Nvidia Leadership Shakeup: Chinese 'Rare Earth Retaliation' Warning Rattles Semiconductor Stocks - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGZDBhZEFkVVRYUWhRRDR3YWVRNERUbndYaUlHR1hrSG1jM0JXTXFzbE1DbzcyeFZMMDlnMG10bXBBc1RvbGNrUHpYTGk5ZHFxZDZnT2wtQ3ZORXhIZ1hqZmxmVXl0TkpyWGRYWDFuNm5xdlhpbHc?oc=5",
+      "published_at_utc": "2026-11-14T06:08:32+00:00",
+      "themes": [
+        "반도체/AI"
+      ],
+      "kind": "headline_only_not_verified_article"
+    },
+    {
+      "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares By Reuters - Investing.com",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXNGd0JzV3JVR243T0FXSWtGT3NUREdfTERGZGtRT3BsS1l2ZURxVHlfbVhtWmVpVWNZSGtCRVNKMGdpYlpERzNscF95Tm5JMzE1WWRRbzRjd183X094ZzRvcFBOQVRPd3FrUHNzZW82UElYQXEzX1RUSi1zN3lseTlxbE1VRXZndzJENkxLRm5hZXBUZDN0MDE5bGsyWUhDY1J2VkdKeG1sZjl0VlVENTNCTDNfU00?oc=5",
+      "published_at_utc": "2026-11-13T22:36:35+00:00",
       "themes": [
         "반도체/AI",
         "기술주"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Nvidia stock plunges 8.6%, but AMD and Broadcom rally. Which chip stocks are worth buying? - investingLive",
-      "source": "investingLive",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOS1UWi1RY2JKQmNTZTFoSDJhUHBYNE8zZWtFaWIyQ3hMZVFNNnVWZmtBWm16eDN4MnVZSHJhbjhQYXNMOTEzeU1VTWxUU1RWOXlaLUY3N0lMRFdySGR3NllGdkFCWEpXaVgxLWZtZ2RWYThtX3VHeFFVckphQThEVENocm96QWtGbjRJeWI0Qk9zak9zTVJvVTB3YUU1Zkc3OTJLWjRjeldZNWh1LUdIbDQzWm10MExrSThLRg?oc=5",
-      "published_at_utc": "2026-11-12T05:18:33+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "[Opening Market] KOSPI and KOSDAQ in a Tug-of-War over 5,400 and 700 Marks - Businesskorea",
-      "source": "Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TRUZxMzdwc3FRd3lEUUhHTEZSU3lfRWYwZWpLb1BtMnJXZGFvaDhFckxNTG9VRWk5RHBGUWZPem5NXzhwTnJsS3JXLWtZZHZ5Mm44VDZxbURVUlc4X0VWa1NpRzYtTW9zSWxTSk1LdEEzd1lj?oc=5",
-      "published_at_utc": "2026-11-12T02:01:10+00:00",
-      "themes": [
-        "환율/한국"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Stocks end higher as CoreWeave results ease AI spending worries - The Detroit News",
-      "source": "The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0JEODZ4T1lPYXpaX3I1UG5UTERtMm1LbzBEbG83QVAtZl9CUEhOYUwyQ0pvNGNjdTdBY1cxZXFRZk1hRkNQVVVIZFFQczhsMU9RWV9fMG5KUG1TUWpUOWE1X3REYWJzMDk1Y1NZQ3NYRlgwYTNjSWJtUVdKY0UxdDN3TW5xbHduZEludXpETFJfQUNtYTRncnRiOHBDclJjUEpvbWJIaEVrUXFYWHdpMEY1LV9rLUFhREJ4eUNhVEVPVjVJQnN3cFhWdw?oc=5",
-      "published_at_utc": "2026-11-11T21:31:00+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "AI stocks rebound, and Wall Street nearly returns to where it was before last week's sell-off - LancasterOnline",
-      "source": "LancasterOnline",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd29DTkVXX043aVh2aTBvYmNMYU5VQTJDR0N2OGJxaXo4UUx5ekl1UEVHLXNWOHN5M3dqam9QVnc5Ujg3bFZZbHhwUEgxbE1RQUh3Z21Ub2ZFUm9od1pNcGtCUkdmNGpFZkRkeG9kMDMzbEljejN2Y0VVX1RPSElFLVd6WldxX09zRnFBc2NTaDE2T09mQmxIYXJWbDVqWjdzN2VhcVpSNE8wMEZWeTQ4QVp2Vlk2VVMwU2NyYk5kcHMzcEFpZHlMRkdhczR3VDhuVkZz?oc=5",
-      "published_at_utc": "2026-11-11T20:44:56+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, Nasdaq, S&P 500 Rally on November 11, 2026; Oil Rises, Gold Slips - Eurasia Business News",
-      "source": "Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFBDd1BMekwxVkZzbWVvMGpCRE5oZUFmTnRVZU1hOTRVdDVyT3p4VnZuc1BEUHhnVHpOMUNBWEN3RUEwN2xPRjUtZ1J4SzBzYkIzdUI4MEpJTlRUMmczS2x6bzNZOUhYZnlDU0RtMXJCU3c1RnBrU1V1eEU3VnhEM3Q2Mk9uZzhNUk05RFpZT1pyNXMyb3hxbVFfYWpGaUhuY2g3Q2FxbU10Sm9jdFY4dEtTbzlvajczb05aVm40N0hwZ3ZoYkM3a2xSS21FZw?oc=5",
-      "published_at_utc": "2026-11-11T20:15:07+00:00",
-      "themes": [
-        "기술주"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Korean investors flock to US stocks, betting big on risky leveraged ETFs - KED Global",
-      "source": "KED Global",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HTDg3d0x2WDBfOHlZdVJoODdHQmlNQnRVeWNYYU0zZzgzRXBGZUNpTDBXdEhkYmt3WmpPV2xHemY2YldSVWFZUEEyTE4zOXBiWEVQTElaNjBhcUVKOV9TcS0xNGdkV2hUWlZId1JDMjJGTUhueWZBWWp3?oc=5",
-      "published_at_utc": "2026-11-11T17:44:17+00:00",
-      "themes": [
-        "환율/한국"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
-      "published_at_utc": "2026-11-11T10:43:00+00:00",
-      "themes": [
-        "반도체/AI"
-      ],
-      "kind": "headline_only_not_verified_article"
-    },
-    {
-      "title": "Asian markets mostly gain on AI chip demand despite Wall Street's retreat on inflation data - Japan Today",
-      "source": "Japan Today",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb0xVVllEdjdfNkdxcEh0Ujk0VURRV2ZLWkl3blRQRVI4VXpMTnM1SHhWbVZLSHk2b3RWQkVhSzJQZmszRUNGMUF5aWxHYlFJWDJsQng5TUVKUm14cVEyY0RMakt6V0NwbGt6SUhCZnJSTUFfZmZxZmdpb2lWZjhJSzNJUUdwUWdlcHVqanRZZU1yWFVqYWh4U1ZSN25VMzQyUkRmMTQzaUh0YVQyZThsaFFoaGlfLUFyVFExUmVIb1o0SEJyT3gweWRFYw?oc=5",
-      "published_at_utc": "2026-11-11T07:00:00+00:00",
-      "themes": [
-        "반도체/AI"
       ],
       "kind": "headline_only_not_verified_article"
     }
