@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "result": "critical_snapshot_pushed",
-  "run_id": "43767294637",
+  "run_id": "43768979643",
   "run_attempt": "1",
-  "run_url": "https://github.com/onetank80-ajh/chati-global-market/actions/runs/43767294637",
+  "run_url": "https://github.com/onetank80-ajh/chati-global-market/actions/runs/43768979643",
   "trigger": "schedule",
-  "trigger_cron": "30 21 * * 0-4",
-  "scheduled_at_utc": "2026-11-15T21:30:00+00:00",
-  "started_at_utc": "2026-11-15T22:05:31+00:00",
-  "schedule_delay_seconds": 2131,
-  "published_at_utc": "2026-11-15T22:05:47Z",
-  "published_at_kst": "2026-11-16T07:05:47+09:00",
+  "trigger_cron": "50 21 * * 0-4",
+  "scheduled_at_utc": "2026-11-15T21:50:00+00:00",
+  "started_at_utc": "2026-11-15T22:23:05+00:00",
+  "schedule_delay_seconds": 1985,
+  "published_at_utc": "2026-11-15T22:23:19Z",
+  "published_at_kst": "2026-11-16T07:23:19+09:00",
   "published_by_0730_kst": true,
   "verified_noop_at_utc": null,
-  "observed_at_utc": "2026-11-15T22:05:47.586346+00:00",
-  "source_commit": "5a26d5ce3aee3330f24d05c6442e5d5c87f6f845"
+  "observed_at_utc": "2026-11-15T22:23:19.958445+00:00",
+  "source_commit": "a9514da03454fa070a4ab21356078ec04293f2a0"
 }
