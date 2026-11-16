@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-15T22:38:05.606642+00:00",
+  "generated_at_utc": "2026-11-16T00:08:05.629357+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
   "headline_count_after": 14,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-16T07:38:05.490983+09:00",
+  "market_snapshot_at": "2026-11-16T08:26:32.428571+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": -0.405,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.136,
+      "change_percent": 0.147,
       "market_date": "2026-11-15",
       "status": "ok"
     },
@@ -57,7 +57,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSWw2bENpRmhnYTFtV2NsYW0tWFhxS21HOVZVQjh1QXpBOUZoRHZDUTNzYmhESmVIa1BvQkU4MFVUVDdPX3NCdXpmSjdGNGpBZFBuV09qOUtMSXpDXzVSN1lReGdVM052WGRqU0VpNGsxM05hcXc2RkswUGxiX0U4c3RlMGdmVUxWSXM0Y05rTW9lUXVEWGNUY05DSjhidTFMLVRTaEMwYXNSTFQ0QTlhdHotODFncEZBNWhMOHhFYnFBbE9aREpCMUV5ME9NNVBNQ3hj?oc=5",
       "source": "Korea JoongAng Daily",
       "published_at_utc": "2026-11-15T06:29:15+00:00",
-      "age_hours": 16.1,
+      "age_hours": 17.6,
       "relevance_score": 75,
       "tags": [
         "한국시장 직접언급",
@@ -71,7 +71,7 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZDNOM285d3hOT0VJV0N4R2cxTWhFcFlzb2VLbVY0U2xiU21xX01hUnN1VDRrZ1lIOUkwRlFkcHdndnpUQ0hXZWZydlVMMmo5N2w5eWZZWjNmeVJ6dHJFZHROSk5jNFBKTFpzeWZqS2UyQkdRR1kwNmRHcFI1Nk0?oc=5",
       "source": "Stocks Down Under",
       "published_at_utc": "2026-11-15T19:12:42+00:00",
-      "age_hours": 3.4,
+      "age_hours": 4.9,
       "relevance_score": 74,
       "tags": [
         "반도체/AI",
@@ -85,7 +85,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RGJhRjBVNDdWczRNQzJlUzZ6aW9Fbks5UTN0a2U3WGs1MHJMZzJRWFl5dzFwaF9FTTRVOUdmcXpxdnBtSDB1U1ozcFZRMmVseDNKVzI3bTQzdzFKYWd3ZldROGFEWFh2ZHNzYVYxN2RvQ0VoSUE?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-15T00:35:00+00:00",
-      "age_hours": 22.1,
+      "age_hours": 23.6,
       "relevance_score": 73,
       "tags": [
         "한국시장 직접언급",
@@ -99,7 +99,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZktjZ0puRzZNLWs4WjhHZDFuUm5ZWEFodVF2TzhieUd4UWNNVmlUYjd2REltSE94LXVyci1PUTJCVy1hZ2M1dVpWdVlfYWpibTEtMTZST1BURkhEeTZSVl9HOUFkU0MydkJzZlI4bFJ4VWg0b0dFT0NDRk9RWktrdTNnYXhhbFhOTFVnX0VB?oc=5",
       "source": "조선일보",
       "published_at_utc": "2026-11-15T07:12:49+00:00",
-      "age_hours": 15.4,
+      "age_hours": 16.9,
       "relevance_score": 50,
       "tags": [
         "한국시장 직접언급"
@@ -108,16 +108,16 @@
       "needs_verification": true
     },
     {
-      "title": "Jensen Huang Steps Down as Nvidia CEO, AI Sector Enters a Period of Uncertainty, Three Major Risk Events to Test US Stocks Next Week - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRFlfX2ZwMHYtUWF1M296aHVva3Y2S0ViMHdZYXVYRk5VR0FJZWpsZEFXRlA2TFdOd1dRTFBpLVh2SUpmZlVZV0t3bG81QnplRnlqTVFhS1djZEJzeXpPRFN2QVVzTk5jbGp4SmhMYXNjUFB6Znc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-15T02:25:00+00:00",
-      "age_hours": 20.2,
-      "relevance_score": 49,
+      "title": "Asian stocks steady as Nikkei gains 1.4%, Hang Seng slips on Nvidia leadership fallout - investingLive",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0tIcWlLM1hfYTdQTmxhWFNaZEozV2lnRkxXTVFwY2c0Q3FwV3AwUS03cy1tMEZpN2FCWG5BYWZkVGU2VU9ZeFcyYU1Hd2lDWXdrRHI3Zm5MQXhybmRHR09adW9zaDJxQWtvNFVyT0V0XzBSdmlDMWlHRDh3dFoybFdVdFFLdjBhZ0g1aTI2TzVRN3JzakU3cHZaMUR4ZURYUEtrMktBWWY5aFlYTTJXbFR1Yk9DY2NZWU40dHFrTlY2a1ZfR09SLVpPYw?oc=5",
+      "source": "investingLive",
+      "published_at_utc": "2026-11-15T21:31:39+00:00",
+      "age_hours": 2.6,
+      "relevance_score": 45,
       "tags": [
         "반도체/AI"
       ],
-      "category": "us_market",
+      "category": "korea",
       "needs_verification": true
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXNuYTNXWnZJd0w1Si1SWFktZWpmSWhtVVpWbHhJd3FSd3Z3dU51SGFaWS1UeS10Q3FMa08wWlY2Q182WTVIWnpyWmx2cVpRMFBMYnlRazdKV2t4QURNZnFJSk5MZ1JrbG4za2hiR1pQc1VLcHhsZkRMcHItZEdadGFPeW5XT2hGV19CcWV3aGk0RExMV0htX2tfWHFNQTBRbmlVaTZPM29pNEFiZEExWGFEa19rQQ?oc=5",
       "source": "富途牛牛",
       "published_at_utc": "2026-11-15T03:23:36+00:00",
-      "age_hours": 19.2,
+      "age_hours": 20.7,
       "relevance_score": 44,
       "tags": [
         "거시경제"
@@ -138,7 +138,7 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
       "source": "Britannica",
       "published_at_utc": "2026-11-15T13:23:00+00:00",
-      "age_hours": 9.3,
+      "age_hours": 10.8,
       "relevance_score": 42,
       "tags": [
         "반도체/AI"
@@ -147,11 +147,24 @@
       "needs_verification": true
     },
     {
+      "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0cyVmdPTTRkWGt3UlMtUFRyOGhvdDNlM1FYVy1MSVN0elpQZHgtWXctVEE1M2RjQm9IcmwzUGU4cEhEQnhsQWlOX2RhUFk1NzBXeFkwM3lMek16ajB1ZmozdGpLR0cwQ2JTcGVlTTJwMEc2ZFZ3bklxeTk4eElFaHZLaw?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-14T04:59:36+00:00",
+      "age_hours": 43.1,
+      "relevance_score": 41,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
       "title": "ASML vs. NVIDIA: Which Technology Stock Is a Better Buy for 2027? - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNclRLXzBUcWwtdjlFR2d1bU5QYkxWM1lmbDN3eVRIODVXT2NYRWNOXy0zbF9PZXNMOVlMUGFsZzczelM3NmVxYXA4MjZLRS1na0VCWDNDUUt2cnB3cXBPQ1Q5dWJtLVpWN0x1R3FtQURxcG80anFEcFAyUU9xaHhKUW9GN3JLVE8tdWVwSDVLSTFfUGh0cU8ySWpXQ1ZVUkJJLTltZTZTZl9qdVhqMzB0dkV1U0loSnZhWF9CLTg1YXJ4c1FTVjFUY05EaHRfRGZWWHdaTENhSTZDZkM2V2t4eFRHOA?oc=5",
       "source": "The Globe and Mail",
       "published_at_utc": "2026-11-14T22:18:51+00:00",
-      "age_hours": 24.3,
+      "age_hours": 25.8,
       "relevance_score": 37,
       "tags": [
         "반도체/AI"
@@ -164,8 +177,8 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd3FVNlhqNzJPOHdnUXQxc2RENjMxd2xwOHJpQnZiU1RmSFFkOU5zTV9sa1F0UEEyTFZSTlFyeG9ZQ1JhaFM3cWt4enFIZ0RjaF9TaGNRNEY3WWNyczAzNUNsT3o3X3kxQnBZUEJUMW9XLXRocEhvTGt5OGRESTJPQtIBlAFBVV95cUxQUVlicW9ncnhVQUNlTUgzc2Ruby1yWl9NTEpPLTJwSFNoanl4Q1ZsS2YxU3VyN2NVeWl5VDY3SmNxTFVvZmprYUZScGZPZ2VJLXVPd05YWHRpanZSNEpmZGdrenVSRXRWdHNoZFVCVlRyR0pidU9IY3lZVXJybHhTS01tQ3hQOTZXLTYyNHdtbk9jSURn?oc=5",
       "source": "Chosunbiz",
       "published_at_utc": "2026-11-14T21:00:00+00:00",
-      "age_hours": 25.6,
-      "relevance_score": 37,
+      "age_hours": 27.1,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -176,8 +189,8 @@
       "title": "PHLX Semiconductor (^SOX) charts, data and news - Yahoo Finance Australia",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95ZzEtbzhxY0tmcUlISHppUzFaQkMwZlJsTExGNmJNbGVSWUdmLWt6eEVna1FWTXp6WnFXRVZMYmFJT2RoMHg0Z1FCTjRjcWVNLVR4Yg?oc=5",
       "source": "Yahoo Finance Australia",
-      "published_at_utc": "2026-11-14T17:18:36+00:00",
-      "age_hours": 29.3,
+      "published_at_utc": "2026-11-14T20:26:20+00:00",
+      "age_hours": 27.7,
       "relevance_score": 36,
       "tags": [
         "반도체/AI"
@@ -190,23 +203,12 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGZDBhZEFkVVRYUWhRRDR3YWVRNERUbndYaUlHR1hrSG1jM0JXTXFzbE1DbzcyeFZMMDlnMG10bXBBc1RvbGNrUHpYTGk5ZHFxZDZnT2wtQ3ZORXhIZ1hqZmxmVXl0TkpyWGRYWDFuNm5xdlhpbHc?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-14T06:08:32+00:00",
-      "age_hours": 40.5,
+      "age_hours": 42.0,
       "relevance_score": 32,
       "tags": [
         "반도체/AI"
       ],
       "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHcxUGNoYnF1dFlaNkd4cEdtYWxxbEhDbE9EcmJyUTg3NFJsREZTY0JxZS1CUmJRZEhteS03UHBEU1pQZEY2bUZXLTZyaXFseDlBdU40MmtiMC1tX2h3Yjl3Q3VfWi1maEU0TWpUM1luS0p1c0puUmRqaXc2OEpPOUg1bmhTNmZUQkhaNGRwMk1GNmJ4MDVJNE1mc3JLenJ6TWg0eEpIUGZPdW1tSmYybXdzNDdncV9mQ1lNb2Ewd0tVRmRwc0hTeA?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-15T20:30:08+00:00",
-      "age_hours": 2.1,
-      "relevance_score": 30,
-      "tags": [],
-      "category": "us_market",
       "needs_verification": true
     }
   ],

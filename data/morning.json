@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-16T07:38:05.647691+09:00",
+  "generated_at_kst": "2026-11-16T09:08:05.661872+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-16T07:38:05.490983+09:00",
-  "news_snapshot_at": "2026-11-16T07:36:22.800753+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-11-16T08:26:32.428571+09:00",
+  "news_snapshot_at": "2026-11-16T07:38:08.417716+09:00",
+  "market_snapshot_age_hours": 0.69,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-16T06:30:00+09:00",
-  "briefing_delay_minutes": 68.1,
-  "briefing_deadline_delay_minutes": 8.1,
-  "briefing_late_over_10min": false,
+  "briefing_delay_minutes": 158.1,
+  "briefing_deadline_delay_minutes": 98.1,
+  "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-16T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.136,
+      "change_percent": 0.147,
       "market_date": "2026-11-15",
       "meaning": "원화 약세 방향"
     }
@@ -69,16 +69,16 @@
       "published_at_utc": "2026-11-15T19:12:42+00:00"
     },
     {
+      "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0cyVmdPTTRkWGt3UlMtUFRyOGhvdDNlM1FYVy1MSVN0elpQZHgtWXctVEE1M2RjQm9IcmwzUGU4cEhEQnhsQWlOX2RhUFk1NzBXeFkwM3lMek16ajB1ZmozdGpLR0cwQ2JTcGVlTTJwMEc2ZFZ3bklxeTk4eElFaHZLaw?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-14T04:59:36+00:00"
+    },
+    {
       "title": "Federal Reserve issues sudden warning! Major short sellers increase short positions. - 富途牛牛",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXNuYTNXWnZJd0w1Si1SWFktZWpmSWhtVVpWbHhJd3FSd3Z3dU51SGFaWS1UeS10Q3FMa08wWlY2Q182WTVIWnpyWmx2cVpRMFBMYnlRazdKV2t4QURNZnFJSk5MZ1JrbG4za2hiR1pQc1VLcHhsZkRMcHItZEdadGFPeW5XT2hGV19CcWV3aGk0RExMV0htX2tfWHFNQTBRbmlVaTZPM29pNEFiZEExWGFEa19rQQ?oc=5",
       "source": "富途牛牛",
       "published_at_utc": "2026-11-15T03:23:36+00:00"
-    },
-    {
-      "title": "Jensen Huang Steps Down as Nvidia CEO, AI Sector Enters a Period of Uncertainty, Three Major Risk Events to Test US Stocks Next Week - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRFlfX2ZwMHYtUWF1M296aHVva3Y2S0ViMHdZYXVYRk5VR0FJZWpsZEFXRlA2TFdOd1dRTFBpLVh2SUpmZlVZV0t3bG81QnplRnlqTVFhS1djZEJzeXpPRFN2QVVzTk5jbGp4SmhMYXNjUFB6Znc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-15T02:25:00+00:00"
     },
     {
       "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
