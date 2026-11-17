@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-17T13:12:37.163858+09:00",
+  "generated_at_kst": "2026-11-17T13:25:44.869677+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-17T13:12:37.005151+09:00",
-  "news_snapshot_at": "2026-11-17T13:05:48.391684+09:00",
+  "market_snapshot_at": "2026-11-17T13:25:44.721449+09:00",
+  "news_snapshot_at": "2026-11-17T13:24:03.754934+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-17T06:30:00+09:00",
-  "briefing_delay_minutes": 402.6,
-  "briefing_deadline_delay_minutes": 342.6,
+  "briefing_delay_minutes": 415.7,
+  "briefing_deadline_delay_minutes": 355.7,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-17T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.273,
+      "change_percent": 0.293,
       "market_date": "2026-11-17",
       "meaning": "원화 약세 방향"
     }
@@ -87,22 +87,22 @@
       "published_at_utc": "2026-11-16T02:04:00+00:00"
     },
     {
-      "title": "Korea’s KOSPI Slid Again As AI Nerves Hit Chipmakers - Finimize",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOWZQczF4MXNDQzVkb0htQjgzb29ueGZBX1pkTnZSYy00TkdBN1VPR012NGliY19KVXljSy1VRkl3QVczN0dUOXdGaEZxMkYzZWJtbkpWV2lSV3MzTnJzYlVkVXNQOUFLbEVBVU10VlFSaFNVOVIzTGVkM0VDY2xTWkFIRkc1NGM?oc=5",
-      "source": "Finimize",
-      "published_at_utc": "2026-11-17T00:16:40+00:00"
+      "title": "Broadcom vs. Nvidia: Which Semiconductor Stock Is the Better AI Buy over the Next 3 Years? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM21RZnFIZlRKZ283MTNwZGhGWXZtR2pKcTBIMHFjdnJaczA0TFg2aVJzVTNhYU9HR3lQOTF2b0lEZTE5Wl9ndzB1NW9rU2dycElmeXQ5Y1RId3drTkxMWmpmZTlyWFRTMFY1cEt3ck9neFhZQzlfQUVwVlpSSTRTNTNuSFpjdDAyRV9WXzdLaU5FbmdnZjl0RThqeXhLaEFkVENaVkNhZ3R5anY0NjkwOWdzRENyY0tBM0NISGxEVjlOTmJjR2V4UDRR?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-17T00:02:00+00:00"
     },
     {
-      "title": "[Opening Market] KOSPI Battles To Defend 5,000 Line Amid Foreign Selling - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJczY3aEg4RFNaeURRdE13MUQ1WnhWZmNjQjFyc3gxbE1ENWRmd1VWLU1KVzkyMllUSHhCb20xeFZxTDNrLWpVV2F1ZmFpZXdDakRzb29UOVdtVDVwYllZeTQxY0VmM3ZlN1V3LUdCa2Z5Z2RG?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-17T02:07:55+00:00"
+      "title": "Nvidia Export Curbs Could Lift These Semiconductor Stocks With US Fab Exposure - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOXRUZ3Z6OWpQYWtkd2hMRjdxcnF5THRfVEV1THFoMWxSR2gxT184NWdWN2NJeEFFMG1BNmVpa2owSzVNVExUU2p4UEItWlV0WE45ektGWV9hZzRlUW9Td3pOM1ZITWRIY3c2c3Z3ZWo5OHVyM2ZCVUhBVHdKVTJUTTJKQlJDZnpaSDZCLWxtZkU1OFNpOGc?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-16T21:13:22+00:00"
     },
     {
-      "title": "Morgan Stanley Says South Korea's KOSPI Could Settle at 10,000 Within 3-5 Years in \"Korean Renaissance\" Thesis - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KQ0dabHdxUzh1bjYzRk1QOFJES2hINVJ4Z2pUV2JjNFRZSkFXQ0YwTzI4SmtPaEV6M2Nvazl1b3lWaS1fTE94cTl2em53djNNdjYxeHpIWVpIMmN1R1JEUVpGTnBTRkpPRTg3alV1V1pxb2J4N2c?oc=5",
+      "title": "New York Stocks Plunge on AI Chip Restrictions, Nvidia Leadership Vacuum… Nasdaq Falls 2.5% - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpU2Rja21NaHBwd3dlOXEwVXRKOEFWVENmb2htVmo1dWxWdURUU1ZVeko4aEc2SGg4cmlTQnBibDI4V0lwQXBPeUN3SnVhOXA2ZnVpLUZrT1pQUzNiLU5EaXRzQ1IybTlUYUxlUzVzNS1nUVVzc1E?oc=5",
       "source": "BigGo Finance",
-      "published_at_utc": "2026-11-16T07:35:00+00:00"
+      "published_at_utc": "2026-11-16T23:05:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
