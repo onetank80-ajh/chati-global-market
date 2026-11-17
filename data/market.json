@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-17T04:05:44.936289+00:00",
-  "generated_at_kst": "2026-11-17T13:05:44.936289+09:00",
+  "generated_at_utc": "2026-11-17T04:12:37.005151+00:00",
+  "generated_at_kst": "2026-11-17T13:12:37.005151+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
@@ -31,10 +31,10 @@
       "symbol": "KRW=X",
       "name": "USD/KRW",
       "unit": "KRW per USD",
-      "close": 1337.98,
+      "close": 1336.89,
       "previous_close": 1333.25,
-      "change": 4.73,
-      "change_percent": 0.355,
+      "change": 3.64,
+      "change_percent": 0.273,
       "market_date": "2026-11-17",
       "status": "ok"
     },
@@ -53,9 +53,9 @@
       "symbol": "^DJI",
       "name": "Dow Jones",
       "unit": "points",
-      "close": 51608.1719,
+      "close": 51608.1992,
       "previous_close": 52347.5508,
-      "change": -739.3789,
+      "change": -739.3516,
       "change_percent": -1.412,
       "market_date": "2026-11-16",
       "status": "ok"

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-17T13:05:45.070041+09:00",
+  "generated_at_kst": "2026-11-17T13:12:37.163858+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-17T13:05:44.936289+09:00",
-  "news_snapshot_at": "2026-11-16T07:38:08.417716+09:00",
+  "market_snapshot_at": "2026-11-17T13:12:37.005151+09:00",
+  "news_snapshot_at": "2026-11-17T13:05:48.391684+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-17T06:30:00+09:00",
-  "briefing_delay_minutes": 395.8,
-  "briefing_deadline_delay_minutes": 335.8,
+  "briefing_delay_minutes": 402.6,
+  "briefing_deadline_delay_minutes": 342.6,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-17T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.355,
+      "change_percent": 0.273,
       "market_date": "2026-11-17",
       "meaning": "원화 약세 방향"
     }
@@ -40,7 +40,7 @@
         "SK하이닉스"
       ],
       "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
+      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
@@ -55,10 +55,58 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [],
-  "news_snapshot_fresh": false,
+  "headlines": [
+    {
+      "title": "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-16T09:56:42+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Ove - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQUduWDlyekRBMXp1d2NuYUluay1xRkd2N2VFU3VXaElDdmdMaTc5TkhDcmpMdFlkSmVNekVub3lMdVBMLURfTjBhS19zNUtMNlFvbkhuTF9CTnpZaGhyUzhEck45cm5GZm5EOVVjSDFoWG9vSVAwNk83S1JQR2FDQkdfc3FlcFplaXc5VDJseUdDSlc5MEF3STRIMVoxeU9CSTM5eVJ3WnUtT1dIb3FhNnFEc1R3c1FKQUh6M0d6NktsSjJlR3lqUVZ1RWNfN1BjMHhQUEtvYVlLaFR1SEJnMUF6bHNzMzBTSUpoY1JqaU43WEt0LTljMTZnc2NRYWFKX2wyUW41THpRYjdrU1prSWJBQQ?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-16T13:25:00+00:00"
+    },
+    {
+      "title": "Fed Gov. Michelle Bowman: Risk of \"Large Correction\" in Stocks if AI Doesn't Pan Out - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQVlpSktzNWlnSWJnMkhOY1phZ0FLQlpmUDJ1bEVXLU5BZ0hIclJZdFZPUk1YT1hhMHkxRXFCMGJrdDZUbkxCNmxnS1VlcGc4eFZ1cTdpdzRERTQ1SmRwZzhobTUtczV4eDZ5cW5BSzEzNHIwUEFHc3R6UHBPdXUxbDdLal85RnZmYzI2d25CdXd0aldiamxucGpyMlIwLW9LSGlrSFNBUWhvazd2MkNHNGNTTUhadUJKbWJQVENhMVlaUjQ3b05j?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-16T08:10:00+00:00"
+    },
+    {
+      "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Nvidia Selloff Deepens - Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd2cycDZUd0dQakNxZmVhc0xKTElMeEZYWFJCeVRQYUJpakZhLUw4U1lYcXRfVEs0Q3UzbEkzaFpjLVRpT2c3Y0FwVGdvNmlvVkZ4NWItNVI1OVR4eGUwcmRmVzJ0ZzFObDBEVGhlSVM4b1pSNDlIWWdkblFrNjlLX0NkQmVSR1NLRHVPVndJTlh4aEpwLVRwa0ZaN3oyODh0RHc?oc=5",
+      "source": "Coinpaper",
+      "published_at_utc": "2026-11-16T15:03:57+00:00"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-16T02:04:00+00:00"
+    },
+    {
+      "title": "Korea’s KOSPI Slid Again As AI Nerves Hit Chipmakers - Finimize",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOWZQczF4MXNDQzVkb0htQjgzb29ueGZBX1pkTnZSYy00TkdBN1VPR012NGliY19KVXljSy1VRkl3QVczN0dUOXdGaEZxMkYzZWJtbkpWV2lSV3MzTnJzYlVkVXNQOUFLbEVBVU10VlFSaFNVOVIzTGVkM0VDY2xTWkFIRkc1NGM?oc=5",
+      "source": "Finimize",
+      "published_at_utc": "2026-11-17T00:16:40+00:00"
+    },
+    {
+      "title": "[Opening Market] KOSPI Battles To Defend 5,000 Line Amid Foreign Selling - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJczY3aEg4RFNaeURRdE13MUQ1WnhWZmNjQjFyc3gxbE1ENWRmd1VWLU1KVzkyMllUSHhCb20xeFZxTDNrLWpVV2F1ZmFpZXdDakRzb29UOVdtVDVwYllZeTQxY0VmM3ZlN1V3LUdCa2Z5Z2RG?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-17T02:07:55+00:00"
+    },
+    {
+      "title": "Morgan Stanley Says South Korea's KOSPI Could Settle at 10,000 Within 3-5 Years in \"Korean Renaissance\" Thesis - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KQ0dabHdxUzh1bjYzRk1QOFJES2hINVJ4Z2pUV2JjNFRZSkFXQ0YwTzI4SmtPaEV6M2Nvazl1b3lWaS1fTE94cTl2em53djNNdjYxeHpIWVpIMmN1R1JEUVpGTnBTRkpPRTg3alV1V1pxb2J4N2c?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-16T07:35:00+00:00"
+    }
+  ],
+  "news_snapshot_fresh": true,
   "warnings": [
-    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
