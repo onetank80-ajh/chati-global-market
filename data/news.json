@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-17T04:12:40.279113+00:00",
-  "generated_at_kst": "2026-11-17T13:12:40.279113+09:00",
+  "generated_at_utc": "2026-11-17T04:24:03.754934+00:00",
+  "generated_at_kst": "2026-11-17T13:24:03.754934+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -74,42 +74,9 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd0VaNXdEN3JiNHZrTzNmSHU2QWpVbkJlYVFfNGZyNndWMEI4S0JjSXliemhiLVpCRDNTSURkdFltLUdCWE5qYVVoSzFRWDFPT2Zva2hmMkgxZnMycmVnWmVMc2Y3SjBGRjRKZlRTYVJMUVhYcWk2ZnM4cXdqVTdzVk93WXNLNmF6ellVNFg5cWtZZi1kZDU3ZmFkTmtmYk5mN2JjY0FCc25fYWI0cThNMTREbjhRUm51OERVREVGTTVKVTk1dHFVc2FibkZPZzlKbEFmNndhTHJCSmdyQVNfT1dCMkliWDNtSmd3?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-16T14:24:53+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Asian shares decline following stocks tumbled on Wall Street - WSLS",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNzVueEZiZklST3NxeUd4OTNzUjlWTjN1U3pCcmVIVzdOVkFnc0NQXzg3NE05dmRtSkFBakJtRXZhaHFDaXpXRnlWZzRwOVhxVnNpUXhoZXczeDdwZXhHd2hfT3c5YS1JQlNsdG5ZX3piRDE2MXZPczl3Zk5yZloxT1JISk5mNmRQZ1RMa2Y4eFJtcWZuSVdpZ0k0VTZTR2ptTGVHQw?oc=5",
-      "source": "WSLS",
-      "published_at_utc": "2026-11-17T04:07:46+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "[Opening Market] KOSPI Battles To Defend 5,000 Line Amid Foreign Selling - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJczY3aEg4RFNaeURRdE13MUQ1WnhWZmNjQjFyc3gxbE1ENWRmd1VWLU1KVzkyMllUSHhCb20xeFZxTDNrLWpVV2F1ZmFpZXdDakRzb29UOVdtVDVwYllZeTQxY0VmM3ZlN1V3LUdCa2Z5Z2RG?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-17T02:07:55+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Morgan Stanley Says South Korea's KOSPI Could Settle at 10,000 Within 3-5 Years in \"Korean Renaissance\" Thesis - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KQ0dabHdxUzh1bjYzRk1QOFJES2hINVJ4Z2pUV2JjNFRZSkFXQ0YwTzI4SmtPaEV6M2Nvazl1b3lWaS1fTE94cTl2em53djNNdjYxeHpIWVpIMmN1R1JEUVpGTnBTRkpPRTg3alV1V1pxb2J4N2c?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-16T07:35:00+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "KOSPI and KOSDAQ Plunge Over 3% Amid Semiconductor Stock Weakness - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObnRVeV9RYUN5VE13LU1KWEpyUGo3SGF5MlBUSUlPSFMxSzFGSlFlZlpHN0RmMjlhR1R4cnVwMWV0MlA1YjdHUlBzQm9MX1o3NGpEaHFuQ1ZlVjRZampjMXAtV1h1MnZveGN0ZGlWemE2RjZ0YUFVLVltSUJ6SkxnZkdkaU0ybTF4M1RvVnBn?oc=5",
-      "source": "조선일보",
-      "published_at_utc": "2026-11-16T03:50:41+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "South Korean stock index falls 3.59% — Korea Herald - UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZVV4YlUzaFlCUTNOeU1ZZkdQNGRUN2hiaHBOWi12M1ZfWDJmSEVoTUUzT1BBamdtTVJjUWlrR04tdlJtekRpNE9XNllOb19TdTNnTGZyU19KaFdfeVMzNzFUZm5jeHhET3h1OC1mTjRBZlNsTEFxZXFUaFpvZzk4enhuSUxPZ3lvVEdwWG8zcEZyUWM1VVZ3?oc=5",
-      "source": "UA.NEWS",
-      "published_at_utc": "2026-11-16T09:49:22+00:00"
     }
   ],
-  "warnings": []
+  "warnings": [
+    "korea: HTTPError: HTTP Error 429: Too Many Requests"
+  ]
 }
