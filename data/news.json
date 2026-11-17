@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-17T04:05:48.391684+00:00",
-  "generated_at_kst": "2026-11-17T13:05:48.391684+09:00",
+  "generated_at_utc": "2026-11-17T04:12:40.279113+00:00",
+  "generated_at_kst": "2026-11-17T13:12:40.279113+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -41,11 +41,46 @@
       "published_at_utc": "2026-11-16T02:04:00+00:00"
     },
     {
+      "category": "semiconductor",
+      "title": "Broadcom vs. Nvidia: Which Semiconductor Stock Is the Better AI Buy over the Next 3 Years? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM21RZnFIZlRKZ283MTNwZGhGWXZtR2pKcTBIMHFjdnJaczA0TFg2aVJzVTNhYU9HR3lQOTF2b0lEZTE5Wl9ndzB1NW9rU2dycElmeXQ5Y1RId3drTkxMWmpmZTlyWFRTMFY1cEt3ck9neFhZQzlfQUVwVlpSSTRTNTNuSFpjdDAyRV9WXzdLaU5FbmdnZjl0RThqeXhLaEFkVENaVkNhZ3R5anY0NjkwOWdzRENyY0tBM0NISGxEVjlOTmJjR2V4UDRR?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-17T00:02:00+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Nvidia Export Curbs Could Lift These Semiconductor Stocks With US Fab Exposure - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOXRUZ3Z6OWpQYWtkd2hMRjdxcnF5THRfVEV1THFoMWxSR2gxT184NWdWN2NJeEFFMG1BNmVpa2owSzVNVExUU2p4UEItWlV0WE45ektGWV9hZzRlUW9Td3pOM1ZITWRIY3c2c3Z3ZWo5OHVyM2ZCVUhBVHdKVTJUTTJKQlJDZnpaSDZCLWxtZkU1OFNpOGc?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-16T21:13:22+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "New York Stocks Plunge on AI Chip Restrictions, Nvidia Leadership Vacuum… Nasdaq Falls 2.5% - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpU2Rja21NaHBwd3dlOXEwVXRKOEFWVENmb2htVmo1dWxWdURUU1ZVeko4aEc2SGg4cmlTQnBibDI4V0lwQXBPeUN3SnVhOXA2ZnVpLUZrT1pQUzNiLU5EaXRzQ1IybTlUYUxlUzVzNS1nUVVzc1E?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-16T23:05:00+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Wall Street falls as Nvidia results loom over the week, chip stocks slide - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVdTOThzdklXZXdsRms5V0NnZk16MDBhQWlCVUhfN3RQUkI3VGpiQTNLSzlzdklZVUg3QkZCVDNKeXdkd2dlOEg2T1pyRXlLakNnRXBHUm5iQlVMOUFCRkZ3eWNwck5iQjBqemlKNWxPVEt0bzh3aDBxYS1BU2lSRk1BMlJtYllKZmY3SUN1S3Jsd1BFVkRJTjBoOFlITUpXXzNuTzFwUy1ZaldmekxhVEpmbWZqRXUyaHhGQUZyMjZiczMxT2h1eXFZOFNJYUx3?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-16T14:40:14+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "AMD, Broadcom stocks sink on tighter US chips rules, CoreWeave drops - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd0VaNXdEN3JiNHZrTzNmSHU2QWpVbkJlYVFfNGZyNndWMEI4S0JjSXliemhiLVpCRDNTSURkdFltLUdCWE5qYVVoSzFRWDFPT2Zva2hmMkgxZnMycmVnWmVMc2Y3SjBGRjRKZlRTYVJMUVhYcWk2ZnM4cXdqVTdzVk93WXNLNmF6ellVNFg5cWtZZi1kZDU3ZmFkTmtmYk5mN2JjY0FCc25fYWI0cThNMTREbjhRUm51OERVREVGTTVKVTk1dHFVc2FibkZPZzlKbEFmNndhTHJCSmdyQVNfT1dCMkliWDNtSmd3?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-16T14:24:53+00:00"
+    },
+    {
       "category": "korea",
-      "title": "Korea’s KOSPI Slid Again As AI Nerves Hit Chipmakers - Finimize",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOWZQczF4MXNDQzVkb0htQjgzb29ueGZBX1pkTnZSYy00TkdBN1VPR012NGliY19KVXljSy1VRkl3QVczN0dUOXdGaEZxMkYzZWJtbkpWV2lSV3MzTnJzYlVkVXNQOUFLbEVBVU10VlFSaFNVOVIzTGVkM0VDY2xTWkFIRkc1NGM?oc=5",
-      "source": "Finimize",
-      "published_at_utc": "2026-11-17T00:16:40+00:00"
+      "title": "Asian shares decline following stocks tumbled on Wall Street - WSLS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNzVueEZiZklST3NxeUd4OTNzUjlWTjN1U3pCcmVIVzdOVkFnc0NQXzg3NE05dmRtSkFBakJtRXZhaHFDaXpXRnlWZzRwOVhxVnNpUXhoZXczeDdwZXhHd2hfT3c5YS1JQlNsdG5ZX3piRDE2MXZPczl3Zk5yZloxT1JISk5mNmRQZ1RMa2Y4eFJtcWZuSVdpZ0k0VTZTR2ptTGVHQw?oc=5",
+      "source": "WSLS",
+      "published_at_utc": "2026-11-17T04:07:46+00:00"
     },
     {
       "category": "korea",
@@ -63,20 +98,18 @@
     },
     {
       "category": "korea",
-      "title": "COMMENTARY: US blue wave reshapes Asia's winners and losers - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaC1aRUpzSldvNXpxeFJBbHVqYlNreDFNSEFJRWx3Y1dsQmpfQzh1c2tNckNKQVF4VWlnVlhlMG9fOUVVZEpfck80ZFdYd21Pd2JYeGFfb1c3dXNoN1V3T2laTDBqM1pkWDA5Zkpsb2ljZ0RraDF2dERCbDBMalRSLVpIWHhFOFk5THI5MHZXazkzcVdwWlVrNGpOYWNlZWNqSFdJZzFWMU83andJMmQzWTZpY2VpZ3dETnpfTTNlYXIyWk5QMkVFSVZhRDI?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-15T23:02:47+00:00"
-    },
-    {
-      "category": "korea",
       "title": "KOSPI and KOSDAQ Plunge Over 3% Amid Semiconductor Stock Weakness - 조선일보",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObnRVeV9RYUN5VE13LU1KWEpyUGo3SGF5MlBUSUlPSFMxSzFGSlFlZlpHN0RmMjlhR1R4cnVwMWV0MlA1YjdHUlBzQm9MX1o3NGpEaHFuQ1ZlVjRZampjMXAtV1h1MnZveGN0ZGlWemE2RjZ0YUFVLVltSUJ6SkxnZkdkaU0ybTF4M1RvVnBn?oc=5",
       "source": "조선일보",
       "published_at_utc": "2026-11-16T03:50:41+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "South Korean stock index falls 3.59% — Korea Herald - UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZVV4YlUzaFlCUTNOeU1ZZkdQNGRUN2hiaHBOWi12M1ZfWDJmSEVoTUUzT1BBamdtTVJjUWlrR04tdlJtekRpNE9XNllOb19TdTNnTGZyU19KaFdfeVMzNzFUZm5jeHhET3h1OC1mTjRBZlNsTEFxZXFUaFpvZzk4enhuSUxPZ3lvVEdwWG8zcEZyUWM1VVZ3?oc=5",
+      "source": "UA.NEWS",
+      "published_at_utc": "2026-11-16T09:49:22+00:00"
     }
   ],
-  "warnings": [
-    "semiconductor: HTTPError: HTTP Error 429: Too Many Requests"
-  ]
+  "warnings": []
 }
