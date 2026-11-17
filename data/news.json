@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-17T04:24:03.754934+00:00",
-  "generated_at_kst": "2026-11-17T13:24:03.754934+09:00",
+  "generated_at_utc": "2026-11-17T04:25:47.499434+00:00",
+  "generated_at_kst": "2026-11-17T13:25:47.499434+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -74,9 +74,42 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd0VaNXdEN3JiNHZrTzNmSHU2QWpVbkJlYVFfNGZyNndWMEI4S0JjSXliemhiLVpCRDNTSURkdFltLUdCWE5qYVVoSzFRWDFPT2Zva2hmMkgxZnMycmVnWmVMc2Y3SjBGRjRKZlRTYVJMUVhYcWk2ZnM4cXdqVTdzVk93WXNLNmF6ellVNFg5cWtZZi1kZDU3ZmFkTmtmYk5mN2JjY0FCc25fYWI0cThNMTREbjhRUm51OERVREVGTTVKVTk1dHFVc2FibkZPZzlKbEFmNndhTHJCSmdyQVNfT1dCMkliWDNtSmd3?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-16T14:24:53+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Asian shares decline following stocks tumbled on Wall Street - WSLS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNzVueEZiZklST3NxeUd4OTNzUjlWTjN1U3pCcmVIVzdOVkFnc0NQXzg3NE05dmRtSkFBakJtRXZhaHFDaXpXRnlWZzRwOVhxVnNpUXhoZXczeDdwZXhHd2hfT3c5YS1JQlNsdG5ZX3piRDE2MXZPczl3Zk5yZloxT1JISk5mNmRQZ1RMa2Y4eFJtcWZuSVdpZ0k0VTZTR2ptTGVHQw?oc=5",
+      "source": "WSLS",
+      "published_at_utc": "2026-11-17T04:07:46+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Asian shares decline following stocks tumbled on Wall Street - News-Press NOW",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdVE1TWdubmpRNWxyRGJEREhmNEc1a20yOGdIbEtXRE5aQUVJQ0FZVUwtbGJPNkhrSThZZEhydUQ0U1VZLTE2RU13MDdjbVFNektsbU5aMHZGenMyTDFRRDgzYXpZZkdvdzA2RWUxbExYbG5LTWdtZlA3dnRvYk5CRlZMd3RsZUFuNUM1d0VKSE5lRGlXaEZWbXlIWFNfWjJsbm0yVGhqMENuSkMtdXpiaVZkMzhJOW81MFFWTlFVRHAzYWNoWUpqbmdhbnlKRFZqVE9YN20wVE1iSFc2ZE1XUFhLZUdHOHB1WDBR?oc=5",
+      "source": "News-Press NOW",
+      "published_at_utc": "2026-11-17T04:01:48+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "[Opening Market] KOSPI Battles To Defend 5,000 Line Amid Foreign Selling - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJczY3aEg4RFNaeURRdE13MUQ1WnhWZmNjQjFyc3gxbE1ENWRmd1VWLU1KVzkyMllUSHhCb20xeFZxTDNrLWpVV2F1ZmFpZXdDakRzb29UOVdtVDVwYllZeTQxY0VmM3ZlN1V3LUdCa2Z5Z2RG?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-17T02:07:55+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "KOSPI Fails to Reclaim 5,300 Level as AI Funding Worries Weigh on Chip Stocks - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4MS1mMzB2MnROZjUwcEo0eW9tbzhIVzJnOTNySHNHNUo4VU5IUFRJbDRib0xGNk9fb0w1c1FFYnBMLXlfTmNLRHZPbktfU3RCWDZ1UWRsTGtReDAxWTVIQjd4UFc2RnNDTnVMZWNFQ0FQcU9wanc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-16T01:25:00+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "[Closing Market] KOSPI Plunges 3.6%, Barely Holding 5,100 Range - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpOTEydlRZLXlRMXhKNHlhY0w0cWE1bEpkdGNURFBDX0NaWDRjUWIxNHZXUFcyaWFfeVdwUHBiU2xCZlBxRHBxV09TX0pVdTBFSm1yeXE5THBHVTRIV2U2Vk1OWmxvNWJvcmY1MmY1X2dndGhD?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-16T08:26:57+00:00"
     }
   ],
-  "warnings": [
-    "korea: HTTPError: HTTP Error 429: Too Many Requests"
-  ]
+  "warnings": []
 }
