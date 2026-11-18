@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-18T12:36:25.981798+09:00",
+  "generated_at_kst": "2026-11-18T13:37:33.708896+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-18T12:36:25.844828+09:00",
-  "news_snapshot_at": "2026-11-18T12:30:58.170695+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-11-18T12:53:11.860748+09:00",
+  "news_snapshot_at": "2026-11-18T12:36:28.495040+09:00",
+  "market_snapshot_age_hours": 0.74,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-18T06:30:00+09:00",
-  "briefing_delay_minutes": 366.4,
-  "briefing_deadline_delay_minutes": 306.4,
+  "briefing_delay_minutes": 427.6,
+  "briefing_deadline_delay_minutes": 367.6,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-18T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -0.396,
+      "change_percent": -0.487,
       "market_date": "2026-11-18",
       "meaning": "원화 강세 방향"
     }
@@ -87,16 +87,16 @@
       "published_at_utc": "2026-11-16T08:10:00+00:00"
     },
     {
-      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
-      "source": "Investor's Business Daily",
-      "published_at_utc": "2026-11-17T16:39:00+00:00"
-    },
-    {
       "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-17T22:01:59+00:00"
+    },
+    {
+      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
+      "source": "Investor's Business Daily",
+      "published_at_utc": "2026-11-17T16:39:00+00:00"
     },
     {
       "title": "Not Nvidia. Not Broadcom. This Is the AI Chip Stock I’d Buy Before the Year Ends. - The Motley Fool",
