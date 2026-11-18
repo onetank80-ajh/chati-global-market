@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-18T12:03:40.836366+09:00",
+  "generated_at_kst": "2026-11-18T12:10:10.315580+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-18T12:03:40.540547+09:00",
-  "news_snapshot_at": "2026-11-17T13:25:47.499434+09:00",
+  "market_snapshot_at": "2026-11-18T12:10:10.184687+09:00",
+  "news_snapshot_at": "2026-11-18T12:03:44.005514+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-18T06:30:00+09:00",
-  "briefing_delay_minutes": 333.7,
-  "briefing_deadline_delay_minutes": 273.7,
+  "briefing_delay_minutes": 340.2,
+  "briefing_deadline_delay_minutes": 280.2,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-18T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -0.448,
+      "change_percent": -0.463,
       "market_date": "2026-11-18",
       "meaning": "원화 강세 방향"
     }
@@ -57,16 +57,28 @@
   ],
   "headlines": [
     {
+      "title": "S&P 500, Dow, Nasdaq Futures Power Ahead On Nvidia Outlook Beat — NVDA, TSLA, ANT In Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWXpCN2lvNjlwT016M0hzOWJ4OThDZkQ5YlJBMGtIamlXR0U5dGcwMUJGZzkyejZpS0xDTktDdlNIUWRrdFB3Z19VT1lJcjlDbDR3SjZWNFVpUUVIM19iN0FnQ1B0TTZOckE5RVhEMWphQ1hmNVVzZGN1a0JGdklDSzN6YzRDWFNlTTB3SVJlLW5pMjZBMzIzLU5HMmRUcGZ2eFJBbXpaYUJJeHNiNEpmWHZ6QkRWbW9tSlF0RThyaGFlWlZtalNFR2w4MFNGM0JwUGFsNXdxdEs0OC1VYlE?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-18T00:09:00+00:00"
+    },
+    {
+      "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-16T23:45:50+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Fall Ahead of Nvidia's Q3 Earnings— CBRS, AMZN, RCAT in Focus - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXRFNFFpU3YxcXBXWDlqSTdsUjNIQ3NtTGRMN053Q0M4VmZYbkhlekg5R0dVUUNSRXg4TVo4TDN2NGgtbVdfT2d0UzlJWFJ2NUNlT2tnQXY4eTNtTEVyZjdUNjJmVzFvaEs4WG5wWUJMcEppVDNIaXNjVHFUeGF1VTlIU3UtNDdkb21CWExIVW0tZFZjU1VRTWE0RlY3QzVxMklxY1ljR2l2ZU9manMyd0pqYlpBWFRqVmMyeHlwc29jSlJhZ1FwelNJbGlDNXo5TnY3bzVDLWJRenljcGxIS2FPVzQ0SzVFdEwzbjZZZw?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-17T09:48:41+00:00"
+    },
+    {
       "title": "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-16T09:56:42+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Ove - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQUduWDlyekRBMXp1d2NuYUluay1xRkd2N2VFU3VXaElDdmdMaTc5TkhDcmpMdFlkSmVNekVub3lMdVBMLURfTjBhS19zNUtMNlFvbkhuTF9CTnpZaGhyUzhEck45cm5GZm5EOVVjSDFoWG9vSVAwNk83S1JQR2FDQkdfc3FlcFplaXc5VDJseUdDSlc5MEF3STRIMVoxeU9CSTM5eVJ3WnUtT1dIb3FhNnFEc1R3c1FKQUh6M0d6NktsSjJlR3lqUVZ1RWNfN1BjMHhQUEtvYVlLaFR1SEJnMUF6bHNzMzBTSUpoY1JqaU43WEt0LTljMTZnc2NRYWFKX2wyUW41THpRYjdrU1prSWJBQQ?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-16T13:25:00+00:00"
     },
     {
       "title": "Fed Gov. Michelle Bowman: Risk of \"Large Correction\" in Stocks if AI Doesn't Pan Out - The Motley Fool",
@@ -75,34 +87,22 @@
       "published_at_utc": "2026-11-16T08:10:00+00:00"
     },
     {
-      "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Nvidia Selloff Deepens - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd2cycDZUd0dQakNxZmVhc0xKTElMeEZYWFJCeVRQYUJpakZhLUw4U1lYcXRfVEs0Q3UzbEkzaFpjLVRpT2c3Y0FwVGdvNmlvVkZ4NWItNVI1OVR4eGUwcmRmVzJ0ZzFObDBEVGhlSVM4b1pSNDlIWWdkblFrNjlLX0NkQmVSR1NLRHVPVndJTlh4aEpwLVRwa0ZaN3oyODh0RHc?oc=5",
-      "source": "Coinpaper",
-      "published_at_utc": "2026-11-16T15:03:57+00:00"
+      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
+      "source": "Investor's Business Daily",
+      "published_at_utc": "2026-11-17T16:39:00+00:00"
     },
     {
-      "title": "Broadcom vs. Nvidia: Which Semiconductor Stock Is the Better AI Buy over the Next 3 Years? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM21RZnFIZlRKZ283MTNwZGhGWXZtR2pKcTBIMHFjdnJaczA0TFg2aVJzVTNhYU9HR3lQOTF2b0lEZTE5Wl9ndzB1NW9rU2dycElmeXQ5Y1RId3drTkxMWmpmZTlyWFRTMFY1cEt3ck9neFhZQzlfQUVwVlpSSTRTNTNuSFpjdDAyRV9WXzdLaU5FbmdnZjl0RThqeXhLaEFkVENaVkNhZ3R5anY0NjkwOWdzRENyY0tBM0NISGxEVjlOTmJjR2V4UDRR?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-17T00:02:00+00:00"
-    },
-    {
-      "title": "Nvidia Export Curbs Could Lift These Semiconductor Stocks With US Fab Exposure - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOXRUZ3Z6OWpQYWtkd2hMRjdxcnF5THRfVEV1THFoMWxSR2gxT184NWdWN2NJeEFFMG1BNmVpa2owSzVNVExUU2p4UEItWlV0WE45ektGWV9hZzRlUW9Td3pOM1ZITWRIY3c2c3Z3ZWo5OHVyM2ZCVUhBVHdKVTJUTTJKQlJDZnpaSDZCLWxtZkU1OFNpOGc?oc=5",
+      "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-16T21:13:22+00:00"
+      "published_at_utc": "2026-11-17T22:01:59+00:00"
     },
     {
-      "title": "New York Stocks Plunge on AI Chip Restrictions, Nvidia Leadership Vacuum… Nasdaq Falls 2.5% - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpU2Rja21NaHBwd3dlOXEwVXRKOEFWVENmb2htVmo1dWxWdURUU1ZVeko4aEc2SGg4cmlTQnBibDI4V0lwQXBPeUN3SnVhOXA2ZnVpLUZrT1pQUzNiLU5EaXRzQ1IybTlUYUxlUzVzNS1nUVVzc1E?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-16T23:05:00+00:00"
-    },
-    {
-      "title": "Wall Street falls as Nvidia results loom over the week, chip stocks slide - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVdTOThzdklXZXdsRms5V0NnZk16MDBhQWlCVUhfN3RQUkI3VGpiQTNLSzlzdklZVUg3QkZCVDNKeXdkd2dlOEg2T1pyRXlLakNnRXBHUm5iQlVMOUFCRkZ3eWNwck5iQjBqemlKNWxPVEt0bzh3aDBxYS1BU2lSRk1BMlJtYllKZmY3SUN1S3Jsd1BFVkRJTjBoOFlITUpXXzNuTzFwUy1ZaldmekxhVEpmbWZqRXUyaHhGQUZyMjZiczMxT2h1eXFZOFNJYUx3?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-16T14:40:14+00:00"
+      "title": "Not Nvidia. Not Broadcom. This Is the AI Chip Stock I’d Buy Before the Year Ends. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONUczN1VUSEo2bmJhVC1IRS1mLU9ZSlhvWWp4dW5pRi1yZHRtUC1vaVlCUXdOYlAwbHM2bC1lMkFoelR5ckFJbm91cVFPVWpCLVRIdzRoSEMweDRpUDBMV3dMVHpPWEFJLVY5SFYtYVNVV0Rpa21TaHRpQnpCcXZtM1R1Zkk3MDROMlNNRFZ2VXBUU29JMk5GTU1hUDVlcVphTjFRWkNnRVRfVFFzaVRJMHczSThmZTBEN3NLRg?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-17T17:00:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
