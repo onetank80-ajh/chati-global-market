@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-18T03:10:13.381528+00:00",
-  "generated_at_kst": "2026-11-18T12:10:13.381528+09:00",
+  "generated_at_utc": "2026-11-18T03:30:58.170695+00:00",
+  "generated_at_kst": "2026-11-18T12:30:58.170695+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -105,10 +105,10 @@
     },
     {
       "category": "korea",
-      "title": "[Closing Market] KOSPI Breaks Below 5,000 on Foreign Selloff - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxRnAxYi1jQlNXY0gxaXRNZ2kxWWI3STUtRXJEcVNrbjItNHdVU1RlcllUOC1xTzlicUdrdWNXSnBvek9SVjNDbmxhQW5scmdwMXJoNjlXZ0FzdmtJbkN0R0NHdDlOX3V0dzBIS2NOX0E5Smh4?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-17T08:50:24+00:00"
+      "title": "More manic swings for Nvidia and other jittery AI stocks drag the US market lower - Messenger-Inquirer",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbTVmSmRQMXVMNWJRZGFkRG5PUE8tdmw4b1ZCQktha2tqQ09xNHA2N3RmZXZsVWZGc2lXRFlaR1BzSVd5U1paOGtLRXVIeUtUQUV5Z2tPVXMtV1g1ZUI1NURrQllTN1VBMTFBLUtTUmNGRnhQV1FtS3ptaFdYbWxReFBUbGNZSEcwU2JtNDBDX0taYThIS0s5Y2NKNTN0MEZISHkyS0V5SGlncDB2d3BLcVdwM05QSXpZZTdLTDVYZGpCN2xLSk1SU0hYU2VfLWcxLWZIcV9DRGt0enItZ2tCOW9uSmN3RDNQaTlxcFBzazcwQ2pxZXNPSldwTTNMUFZWR3V5N0o2SDJaM2M?oc=5",
+      "source": "Messenger-Inquirer",
+      "published_at_utc": "2026-11-17T17:02:59+00:00"
     }
   ],
   "warnings": []
