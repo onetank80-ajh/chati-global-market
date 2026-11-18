@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-17T14:09:43.765173+09:00",
+  "generated_at_kst": "2026-11-18T12:03:40.836366+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-17T13:48:14.164135+09:00",
+  "market_snapshot_at": "2026-11-18T12:03:40.540547+09:00",
   "news_snapshot_at": "2026-11-17T13:25:47.499434+09:00",
-  "market_snapshot_age_hours": 0.36,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-17T06:30:00+09:00",
-  "briefing_delay_minutes": 459.7,
-  "briefing_deadline_delay_minutes": 399.7,
+  "scheduled_briefing_at_kst": "2026-11-18T06:30:00+09:00",
+  "briefing_delay_minutes": 333.7,
+  "briefing_deadline_delay_minutes": 273.7,
   "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-17T07:30:00+09:00",
+  "briefing_deadline_at_kst": "2026-11-18T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -1.919,
-      "market_date": "2026-11-16",
+      "change_percent": -1.026,
+      "market_date": "2026-11-17",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": -5.279,
-      "market_date": "2026-11-16",
-      "meaning": "하락"
+      "change_percent": 0.335,
+      "market_date": "2026-11-17",
+      "meaning": "상승"
     },
     {
       "name": "원/달러",
-      "change_percent": 0.31,
-      "market_date": "2026-11-17",
-      "meaning": "원화 약세 방향"
+      "change_percent": -0.448,
+      "market_date": "2026-11-18",
+      "meaning": "원화 강세 방향"
     }
   ],
   "sectors": [
@@ -39,7 +39,7 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "변동성 주의",
+      "view": "방향 확인 필요",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
@@ -51,7 +51,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -81,12 +81,6 @@
       "published_at_utc": "2026-11-16T15:03:57+00:00"
     },
     {
-      "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-16T02:04:00+00:00"
-    },
-    {
       "title": "Broadcom vs. Nvidia: Which Semiconductor Stock Is the Better AI Buy over the Next 3 Years? - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM21RZnFIZlRKZ283MTNwZGhGWXZtR2pKcTBIMHFjdnJaczA0TFg2aVJzVTNhYU9HR3lQOTF2b0lEZTE5Wl9ndzB1NW9rU2dycElmeXQ5Y1RId3drTkxMWmpmZTlyWFRTMFY1cEt3ck9neFhZQzlfQUVwVlpSSTRTNTNuSFpjdDAyRV9WXzdLaU5FbmdnZjl0RThqeXhLaEFkVENaVkNhZ3R5anY0NjkwOWdzRENyY0tBM0NISGxEVjlOTmJjR2V4UDRR?oc=5",
       "source": "The Motley Fool",
@@ -103,6 +97,12 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpU2Rja21NaHBwd3dlOXEwVXRKOEFWVENmb2htVmo1dWxWdURUU1ZVeko4aEc2SGg4cmlTQnBibDI4V0lwQXBPeUN3SnVhOXA2ZnVpLUZrT1pQUzNiLU5EaXRzQ1IybTlUYUxlUzVzNS1nUVVzc1E?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-16T23:05:00+00:00"
+    },
+    {
+      "title": "Wall Street falls as Nvidia results loom over the week, chip stocks slide - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVdTOThzdklXZXdsRms5V0NnZk16MDBhQWlCVUhfN3RQUkI3VGpiQTNLSzlzdklZVUg3QkZCVDNKeXdkd2dlOEg2T1pyRXlLakNnRXBHUm5iQlVMOUFCRkZ3eWNwck5iQjBqemlKNWxPVEt0bzh3aDBxYS1BU2lSRk1BMlJtYllKZmY3SUN1S3Jsd1BFVkRJTjBoOFlITUpXXzNuTzFwUy1ZaldmekxhVEpmbWZqRXUyaHhGQUZyMjZiczMxT2h1eXFZOFNJYUx3?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-16T14:40:14+00:00"
     }
   ],
   "news_snapshot_fresh": true,

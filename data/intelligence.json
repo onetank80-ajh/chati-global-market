@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-17T05:09:43.722920+00:00",
+  "generated_at_utc": "2026-11-18T03:03:40.762112+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 15,
+  "headline_count_after": 13,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-17T13:48:14.164135+09:00",
+  "market_snapshot_at": "2026-11-18T12:03:40.540547+09:00",
   "market_signals": {
     "sp500": {
-      "change_percent": -1.919,
-      "market_date": "2026-11-16",
-      "status": "ok"
-    },
-    "sox": {
-      "change_percent": -5.279,
-      "market_date": "2026-11-16",
-      "status": "ok"
-    },
-    "usdkrw": {
-      "change_percent": 0.31,
+      "change_percent": -1.026,
       "market_date": "2026-11-17",
       "status": "ok"
     },
+    "sox": {
+      "change_percent": 0.335,
+      "market_date": "2026-11-17",
+      "status": "ok"
+    },
+    "usdkrw": {
+      "change_percent": -0.448,
+      "market_date": "2026-11-18",
+      "status": "ok"
+    },
     "nasdaq": {
-      "change_percent": -2.492,
-      "market_date": "2026-11-16",
+      "change_percent": -0.74,
+      "market_date": "2026-11-17",
       "status": "ok"
     }
   },
@@ -35,7 +35,7 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "변동성 주의",
+      "view": "방향 확인 필요",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
@@ -47,46 +47,18 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
   "top_headlines": [
     {
-      "title": "KOSPI Fails to Reclaim 5,300 Level as AI Funding Worries Weigh on Chip Stocks - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4MS1mMzB2MnROZjUwcEo0eW9tbzhIVzJnOTNySHNHNUo4VU5IUFRJbDRib0xGNk9fb0w1c1FFYnBMLXlfTmNLRHZPbktfU3RCWDZ1UWRsTGtReDAxWTVIQjd4UFc2RnNDTnVMZWNFQ0FQcU9wanc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-16T01:25:00+00:00",
-      "age_hours": 27.7,
-      "relevance_score": 71,
-      "tags": [
-        "한국시장 직접언급",
-        "반도체/AI"
-      ],
-      "category": "korea",
-      "needs_verification": true
-    },
-    {
       "title": "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-16T09:56:42+00:00",
-      "age_hours": 19.2,
-      "relevance_score": 69,
-      "tags": [
-        "반도체/AI",
-        "거시경제"
-      ],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
-      "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-16T02:04:00+00:00",
-      "age_hours": 27.1,
-      "relevance_score": 66,
+      "age_hours": 41.1,
+      "relevance_score": 62,
       "tags": [
         "반도체/AI",
         "거시경제"
@@ -99,8 +71,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJczY3aEg4RFNaeURRdE13MUQ1WnhWZmNjQjFyc3gxbE1ENWRmd1VWLU1KVzkyMllUSHhCb20xeFZxTDNrLWpVV2F1ZmFpZXdDakRzb29UOVdtVDVwYllZeTQxY0VmM3ZlN1V3LUdCa2Z5Z2RG?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-17T02:07:55+00:00",
-      "age_hours": 3.0,
-      "relevance_score": 54,
+      "age_hours": 24.9,
+      "relevance_score": 47,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -112,8 +84,8 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd2cycDZUd0dQakNxZmVhc0xKTElMeEZYWFJCeVRQYUJpakZhLUw4U1lYcXRfVEs0Q3UzbEkzaFpjLVRpT2c3Y0FwVGdvNmlvVkZ4NWItNVI1OVR4eGUwcmRmVzJ0ZzFObDBEVGhlSVM4b1pSNDlIWWdkblFrNjlLX0NkQmVSR1NLRHVPVndJTlh4aEpwLVRwa0ZaN3oyODh0RHc?oc=5",
       "source": "Coinpaper",
       "published_at_utc": "2026-11-16T15:03:57+00:00",
-      "age_hours": 14.1,
-      "relevance_score": 51,
+      "age_hours": 36.0,
+      "relevance_score": 44,
       "tags": [
         "반도체/AI"
       ],
@@ -125,8 +97,8 @@
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQUduWDlyekRBMXp1d2NuYUluay1xRkd2N2VFU3VXaElDdmdMaTc5TkhDcmpMdFlkSmVNekVub3lMdVBMLURfTjBhS19zNUtMNlFvbkhuTF9CTnpZaGhyUzhEck45cm5GZm5EOVVjSDFoWG9vSVAwNk83S1JQR2FDQkdfc3FlcFplaXc5VDJseUdDSlc5MEF3STRIMVoxeU9CSTM5eVJ3WnUtT1dIb3FhNnFEc1R3c1FKQUh6M0d6NktsSjJlR3lqUVZ1RWNfN1BjMHhQUEtvYVlLaFR1SEJnMUF6bHNzMzBTSUpoY1JqaU43WEt0LTljMTZnc2NRYWFKX2wyUW41THpRYjdrU1prSWJBQQ?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-16T13:25:00+00:00",
-      "age_hours": 15.7,
-      "relevance_score": 50,
+      "age_hours": 37.6,
+      "relevance_score": 43,
       "tags": [
         "반도체/AI"
       ],
@@ -138,8 +110,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpOTEydlRZLXlRMXhKNHlhY0w0cWE1bEpkdGNURFBDX0NaWDRjUWIxNHZXUFcyaWFfeVdwUHBiU2xCZlBxRHBxV09TX0pVdTBFSm1yeXE5THBHVTRIV2U2Vk1OWmxvNWJvcmY1MmY1X2dndGhD?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-16T08:26:57+00:00",
-      "age_hours": 20.7,
-      "relevance_score": 49,
+      "age_hours": 42.6,
+      "relevance_score": 41,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -151,8 +123,8 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM21RZnFIZlRKZ283MTNwZGhGWXZtR2pKcTBIMHFjdnJaczA0TFg2aVJzVTNhYU9HR3lQOTF2b0lEZTE5Wl9ndzB1NW9rU2dycElmeXQ5Y1RId3drTkxMWmpmZTlyWFRTMFY1cEt3ck9neFhZQzlfQUVwVlpSSTRTNTNuSFpjdDAyRV9WXzdLaU5FbmdnZjl0RThqeXhLaEFkVENaVkNhZ3R5anY0NjkwOWdzRENyY0tBM0NISGxEVjlOTmJjR2V4UDRR?oc=5",
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-17T00:02:00+00:00",
-      "age_hours": 5.1,
-      "relevance_score": 44,
+      "age_hours": 27.0,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -160,25 +132,12 @@
       "needs_verification": true
     },
     {
-      "title": "Fed Gov. Michelle Bowman: Risk of \"Large Correction\" in Stocks if AI Doesn't Pan Out - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQVlpSktzNWlnSWJnMkhOY1phZ0FLQlpmUDJ1bEVXLU5BZ0hIclJZdFZPUk1YT1hhMHkxRXFCMGJrdDZUbkxCNmxnS1VlcGc4eFZ1cTdpdzRERTQ1SmRwZzhobTUtczV4eDZ5cW5BSzEzNHIwUEFHc3R6UHBPdXUxbDdLal85RnZmYzI2d25CdXd0aldiamxucGpyMlIwLW9LSGlrSFNBUWhvazd2MkNHNGNTTUhadUJKbWJQVENhMVlaUjQ3b05j?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-16T08:10:00+00:00",
-      "age_hours": 21.0,
-      "relevance_score": 44,
-      "tags": [
-        "거시경제"
-      ],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
       "title": "New York Stocks Plunge on AI Chip Restrictions, Nvidia Leadership Vacuum… Nasdaq Falls 2.5% - BigGo Finance",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpU2Rja21NaHBwd3dlOXEwVXRKOEFWVENmb2htVmo1dWxWdURUU1ZVeko4aEc2SGg4cmlTQnBibDI4V0lwQXBPeUN3SnVhOXA2ZnVpLUZrT1pQUzNiLU5EaXRzQ1IybTlUYUxlUzVzNS1nUVVzc1E?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-16T23:05:00+00:00",
-      "age_hours": 6.1,
-      "relevance_score": 43,
+      "age_hours": 28.0,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -190,8 +149,8 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOXRUZ3Z6OWpQYWtkd2hMRjdxcnF5THRfVEV1THFoMWxSR2gxT184NWdWN2NJeEFFMG1BNmVpa2owSzVNVExUU2p4UEItWlV0WE45ektGWV9hZzRlUW9Td3pOM1ZITWRIY3c2c3Z3ZWo5OHVyM2ZCVUhBVHdKVTJUTTJKQlJDZnpaSDZCLWxtZkU1OFNpOGc?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-16T21:13:22+00:00",
-      "age_hours": 7.9,
-      "relevance_score": 43,
+      "age_hours": 29.8,
+      "relevance_score": 36,
       "tags": [
         "반도체/AI"
       ],
@@ -199,16 +158,53 @@
       "needs_verification": true
     },
     {
+      "title": "Fed Gov. Michelle Bowman: Risk of \"Large Correction\" in Stocks if AI Doesn't Pan Out - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQVlpSktzNWlnSWJnMkhOY1phZ0FLQlpmUDJ1bEVXLU5BZ0hIclJZdFZPUk1YT1hhMHkxRXFCMGJrdDZUbkxCNmxnS1VlcGc4eFZ1cTdpdzRERTQ1SmRwZzhobTUtczV4eDZ5cW5BSzEzNHIwUEFHc3R6UHBPdXUxbDdLal85RnZmYzI2d25CdXd0aldiamxucGpyMlIwLW9LSGlrSFNBUWhvazd2MkNHNGNTTUhadUJKbWJQVENhMVlaUjQ3b05j?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-16T08:10:00+00:00",
+      "age_hours": 42.9,
+      "relevance_score": 36,
+      "tags": [
+        "거시경제"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
       "title": "Wall Street falls as Nvidia results loom over the week, chip stocks slide - TradingView",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVdTOThzdklXZXdsRms5V0NnZk16MDBhQWlCVUhfN3RQUkI3VGpiQTNLSzlzdklZVUg3QkZCVDNKeXdkd2dlOEg2T1pyRXlLakNnRXBHUm5iQlVMOUFCRkZ3eWNwck5iQjBqemlKNWxPVEt0bzh3aDBxYS1BU2lSRk1BMlJtYllKZmY3SUN1S3Jsd1BFVkRJTjBoOFlITUpXXzNuTzFwUy1ZaldmekxhVEpmbWZqRXUyaHhGQUZyMjZiczMxT2h1eXFZOFNJYUx3?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-16T14:40:14+00:00",
-      "age_hours": 14.5,
-      "relevance_score": 41,
+      "age_hours": 36.4,
+      "relevance_score": 33,
       "tags": [
         "반도체/AI"
       ],
       "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "AMD, Broadcom stocks sink on tighter US chips rules, CoreWeave drops - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd0VaNXdEN3JiNHZrTzNmSHU2QWpVbkJlYVFfNGZyNndWMEI4S0JjSXliemhiLVpCRDNTSURkdFltLUdCWE5qYVVoSzFRWDFPT2Zva2hmMkgxZnMycmVnWmVMc2Y3SjBGRjRKZlRTYVJMUVhYcWk2ZnM4cXdqVTdzVk93WXNLNmF6ellVNFg5cWtZZi1kZDU3ZmFkTmtmYk5mN2JjY0FCc25fYWI0cThNMTREbjhRUm51OERVREVGTTVKVTk1dHFVc2FibkZPZzlKbEFmNndhTHJCSmdyQVNfT1dCMkliWDNtSmd3?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-16T14:24:53+00:00",
+      "age_hours": 36.6,
+      "relevance_score": 33,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Asian shares decline following stocks tumbled on Wall Street - WSLS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNzVueEZiZklST3NxeUd4OTNzUjlWTjN1U3pCcmVIVzdOVkFnc0NQXzg3NE05dmRtSkFBakJtRXZhaHFDaXpXRnlWZzRwOVhxVnNpUXhoZXczeDdwZXhHd2hfT3c5YS1JQlNsdG5ZX3piRDE2MXZPczl3Zk5yZloxT1JISk5mNmRQZ1RMa2Y4eFJtcWZuSVdpZ0k0VTZTR2ptTGVHQw?oc=5",
+      "source": "WSLS",
+      "published_at_utc": "2026-11-17T04:07:46+00:00",
+      "age_hours": 22.9,
+      "relevance_score": 13,
+      "tags": [],
+      "category": "korea",
       "needs_verification": true
     }
   ],
