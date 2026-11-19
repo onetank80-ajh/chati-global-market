@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-18T13:37:33.708896+09:00",
+  "generated_at_kst": "2026-11-19T11:43:31.546459+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-18T12:53:11.860748+09:00",
+  "market_snapshot_at": "2026-11-19T11:43:31.406438+09:00",
   "news_snapshot_at": "2026-11-18T12:36:28.495040+09:00",
-  "market_snapshot_age_hours": 0.74,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-18T06:30:00+09:00",
-  "briefing_delay_minutes": 427.6,
-  "briefing_deadline_delay_minutes": 367.6,
+  "scheduled_briefing_at_kst": "2026-11-19T06:30:00+09:00",
+  "briefing_delay_minutes": 313.5,
+  "briefing_deadline_delay_minutes": 253.5,
   "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-18T07:30:00+09:00",
+  "briefing_deadline_at_kst": "2026-11-19T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -1.026,
-      "market_date": "2026-11-17",
+      "change_percent": -0.23,
+      "market_date": "2026-11-18",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": 0.335,
-      "market_date": "2026-11-17",
+      "change_percent": 0.103,
+      "market_date": "2026-11-18",
       "meaning": "상승"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.487,
-      "market_date": "2026-11-18",
+      "change_percent": -0.249,
+      "market_date": "2026-11-19",
       "meaning": "원화 강세 방향"
     }
   ],
@@ -63,28 +63,10 @@
       "published_at_utc": "2026-11-18T00:09:00+00:00"
     },
     {
-      "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-16T23:45:50+00:00"
-    },
-    {
       "title": "Stock Market Today: Dow Jones, S&P 500 Futures Fall Ahead of Nvidia's Q3 Earnings— CBRS, AMZN, RCAT in Focus - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXRFNFFpU3YxcXBXWDlqSTdsUjNIQ3NtTGRMN053Q0M4VmZYbkhlekg5R0dVUUNSRXg4TVo4TDN2NGgtbVdfT2d0UzlJWFJ2NUNlT2tnQXY4eTNtTEVyZjdUNjJmVzFvaEs4WG5wWUJMcEppVDNIaXNjVHFUeGF1VTlIU3UtNDdkb21CWExIVW0tZFZjU1VRTWE0RlY3QzVxMklxY1ljR2l2ZU9manMyd0pqYlpBWFRqVmMyeHlwc29jSlJhZ1FwelNJbGlDNXo5TnY3bzVDLWJRenljcGxIS2FPVzQ0SzVFdEwzbjZZZw?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-17T09:48:41+00:00"
-    },
-    {
-      "title": "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-16T09:56:42+00:00"
-    },
-    {
-      "title": "Fed Gov. Michelle Bowman: Risk of \"Large Correction\" in Stocks if AI Doesn't Pan Out - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQVlpSktzNWlnSWJnMkhOY1phZ0FLQlpmUDJ1bEVXLU5BZ0hIclJZdFZPUk1YT1hhMHkxRXFCMGJrdDZUbkxCNmxnS1VlcGc4eFZ1cTdpdzRERTQ1SmRwZzhobTUtczV4eDZ5cW5BSzEzNHIwUEFHc3R6UHBPdXUxbDdLal85RnZmYzI2d25CdXd0aldiamxucGpyMlIwLW9LSGlrSFNBUWhvazd2MkNHNGNTTUhadUJKbWJQVENhMVlaUjQ3b05j?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-16T08:10:00+00:00"
     },
     {
       "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat - Yahoo Finance",
@@ -103,6 +85,24 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONUczN1VUSEo2bmJhVC1IRS1mLU9ZSlhvWWp4dW5pRi1yZHRtUC1vaVlCUXdOYlAwbHM2bC1lMkFoelR5ckFJbm91cVFPVWpCLVRIdzRoSEMweDRpUDBMV3dMVHpPWEFJLVY5SFYtYVNVV0Rpa21TaHRpQnpCcXZtM1R1Zkk3MDROMlNNRFZ2VXBUU29JMk5GTU1hUDVlcVphTjFRWkNnRVRfVFFzaVRJMHczSThmZTBEN3NLRg?oc=5",
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-17T17:00:00+00:00"
+    },
+    {
+      "title": "TradingKey Daily Market Brief: Three Major US Indexes Tumble, Broadcom and Arm Buck Trend, Nvidia Earnings Beat Expectations - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVFJGMTd1cldOUHFrVWVmX2I1bXd4aVdua0t4UmRhNTdZcDRqclgtSl93dVM1X18xakFMYnVhNm9UTWpISm10RGFtbHlCb0F6eGN0ZUxrWXRjNnVXUUlmbU9iMWFrZWdpQS1uUXBCV2dWaDBSVmFSZW5zeV9xZHJjWjZ5Qm00bXl5N3FFWmdaOWhrYl9HNTN4a1ZLeXhnTmdaQVRZbloySlJFdXdnT05aSnpkUk84eGJKMFlTUF8wU0VGenR0c0JYTGlRYXpPRFVsQk9FaXNRWkpwV0N0andR?oc=5",
+      "source": "TradingKey",
+      "published_at_utc": "2026-11-18T01:22:32+00:00"
+    },
+    {
+      "title": "U.S. semiconductor stocks face key test as Nvidia earnings, Anthropic IPO loom - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdTdUekpGbEs3ckV1dDVVdy1kckQ5RkctUlAxb0tjRTc3TzR4RVN4elBwRFIwemRKdURJRGMwejFsTUhZakJzaE9vRFpZZ0Q2UWFzRVpUM1hSeGFZLXpYOExSODB5YzRxQUVCb094V2lJNVJHT2k3Qmc5YWZkVkhzUlEyRkhxNExjWC1WbUZNQmdWU0Y4Y1Axcm9fc0dZUQ?oc=5",
+      "source": "Traders Union",
+      "published_at_utc": "2026-11-17T11:25:31+00:00"
+    },
+    {
+      "title": "[Opening Market] KOSPI Reclaims 5,000 on Semiconductor Rally - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tT210X3lSMXNRZkh1SUw3UGE1MGhHTkFONmRUTm01emZ2VVVhOXhtVVZaOGRxb19jSEwwY2RQLTA5dFVjczlyR0hqeGoyNExObUloYVlBVktia3gydGlHc3VaZFBRM0dlRkt2R0ttSmtYVkRM?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-18T01:51:30+00:00"
     }
   ],
   "news_snapshot_fresh": true,
