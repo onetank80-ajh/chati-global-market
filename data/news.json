@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-19T02:43:34.785311+00:00",
-  "generated_at_kst": "2026-11-19T11:43:34.785311+09:00",
+  "generated_at_utc": "2026-11-19T02:50:44.519017+00:00",
+  "generated_at_kst": "2026-11-19T11:50:44.519017+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -49,6 +49,13 @@
     },
     {
       "category": "semiconductor",
+      "title": "Korean chip stocks slump despite Nvidia's strong earnings results - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TX2hudXdqUEFCMllEQy1ZeDE0TEFXd3NhRmZjMmlPX053UlNPZzdnUDh5ckgwaUNQN3R4d2VwODh0dFZtM3poWVFkcWk1NlZtRndDX2t4Yjc2eFluZGllRGEtSzBwN2JsTGNZbw?oc=5",
+      "source": "머니투데이",
+      "published_at_utc": "2026-11-19T02:39:26+00:00"
+    },
+    {
+      "category": "semiconductor",
       "title": "Nvidia faces pressure over restrictions on AI chips - Inspenet",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81TVk0TVFZeTJDZXU0bDRiUGtEMk5rSmhlMkF4MXk4cjVoR05JaWI4ei13YTdxa3czTkUyWXctZzVYcUQwWGZGUGV6bi1Uay1FOGNlWVlQZ2NOX3dyRVF5cmI2dFlwV0JxNWFfQnZpMEJmM2ZOUno3Qlln?oc=5",
       "source": "Inspenet",
@@ -69,11 +76,25 @@
       "published_at_utc": "2026-11-17T17:00:02+00:00"
     },
     {
-      "category": "semiconductor",
-      "title": "U.S. semiconductor stocks face key test as Nvidia earnings, Anthropic IPO loom - Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdTdUekpGbEs3ckV1dDVVdy1kckQ5RkctUlAxb0tjRTc3TzR4RVN4elBwRFIwemRKdURJRGMwejFsTUhZakJzaE9vRFpZZ0Q2UWFzRVpUM1hSeGFZLXpYOExSODB5YzRxQUVCb094V2lJNVJHT2k3Qmc5YWZkVkhzUlEyRkhxNExjWC1WbUZNQmdWU0Y4Y1Axcm9fc0dZUQ?oc=5",
-      "source": "Traders Union",
-      "published_at_utc": "2026-11-17T11:25:31+00:00"
+      "category": "korea",
+      "title": "[Opening Market] Korean Stocks Turn Lower on Foreign, Institutional Selling - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01RlZtSHFZSlFoZnZfS1plVkI0STVWaHM2Ukk1cjFpa09RdDZ1OTAxNFJxLVVnT2lLOHF5RU1PY2RVSXlIczVvQ1N1eXhFa3NUZGNlNVFuRThfN21sNEpJd3lRMFZxTzNKRWJ3Z2ZMem45M1oy?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-19T02:41:50+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Asian markets mostly drop as AI stocks remain under pressure - LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSDZFVExUeUFqOEVxWjRjNmhjT3JJRVRGRUZYWkpPbDA3SEZsLXVULWNWdVNpR1dSTE5kWVRacW9UZjBhczhOWlNVeURPODM3TUVTTlJGSGdUbmRvalUteTBPM3RTczlVbHpRZ04wUXVORHVETlpkcks0V1hvMFpPQ1ZIVV8yTlZzWnZCMDJ2RjZNTnJJcEdEa2s5Sy13UzFLU2cteHlpX1Z1TUlYVlFoZXpvSnE0SnhCN0QzcF9DeHNwVVJyamNkUlE4SDkza09LYUlCalg4VUJyalNNdTVqLURiY2QwNlhyN1B1RVI3X3RWUQ?oc=5",
+      "source": "LancasterOnline",
+      "published_at_utc": "2026-11-17T08:04:15+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "South Korea's KOSPI Posts 638 Trillion Won in 9-Month Operating Profit; Samsung Electronics, SK Hynix Drive 83% of Gain - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-18T03:36:00+00:00"
     },
     {
       "category": "korea",
@@ -88,27 +109,6 @@
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNUtvZ1MtallkbVR5SVctcE04aHZUdlJtMG1nLWJsanFsM1JOYThSMFhtcHphcmVCRk5rTThCX1A4NlZDSVMwYngtcktWTHJOSkgwbFdCT3ZXZWV5ZExndmUyR3ZDNENKSFphbW5Lc29SVG4zX1BRTm9VSHUyaHgzbXZtZVhSS1AtcVBGYnU0NXFSLW5FcDFfMUl1QVRlMmxqOFRzdlptUnU4N29RM0RvcTNoSFlwa3ZfNmdZTWQ3RllmeVgtdjV5US13MWJuRmNMVTMwQ1RQSFFiVnlTRzlXOEMzbWcyMlhCeDZwTDloMV9IQQ?oc=5",
       "source": "LancasterOnline",
       "published_at_utc": "2026-11-17T16:54:45+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "South Korea's KOSPI Posts 638 Trillion Won in 9-Month Operating Profit; Samsung Electronics, SK Hynix Drive 83% of Gain - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-18T03:36:00+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "US stocks fall again as AI companies keep swinging - Dayton Daily News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNU2dXeHd1OFlzNFBWYzduR25QUEl1RExmYmo1OEo2aU12aXpFN2xHMk9MREo1NTAxNzZybFJkUTZOaDNkbExyRHAxS0NFc1RYU1UxV3dWQWFFMVlrWmRpaHZ0LUNqSk1xNUJzVkFOVUw2bkNYTzRJLUhKTFRGQzVtdEtQM3ZoTjNtYnB5N1pVVmtkdFFiSHB5cEFaalBjbktQdGI2OHcxTjYyYXFaT0tBZ0hDQzU0Q1ZkNVg5Ym1XdFJka3NrY3ZSdElxd25CZkFRNlExTERqRnIwT3NpMkE?oc=5",
-      "source": "Dayton Daily News",
-      "published_at_utc": "2026-11-17T15:48:33+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "KOSPI-Listed Firms Top 250 Trillion Won in Q3 Operating Profit - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRmw1RXJrNUZCT0tWeG0zVXk3dGZrWEd4T1Q4MDNfSzVhV2QxT0FlWGVnVG9kLTJUYnd3N2hyd05fZEZtOWVDUG1hRl9DU1Z0RFZOWlJzMjNwNkVmN3JNMjBEdGkwc1pHOElvTzVlMWRMT0Nn?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-18T04:05:11+00:00"
     }
   ],
   "warnings": []
