@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-19T11:50:41.955027+09:00",
+  "generated_at_kst": "2026-11-19T12:09:58.669427+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-19T11:50:41.805472+09:00",
-  "news_snapshot_at": "2026-11-19T11:43:34.785311+09:00",
+  "market_snapshot_at": "2026-11-19T12:09:58.520069+09:00",
+  "news_snapshot_at": "2026-11-19T12:03:53.619094+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-19T06:30:00+09:00",
-  "briefing_delay_minutes": 320.7,
-  "briefing_deadline_delay_minutes": 260.7,
+  "briefing_delay_minutes": 340.0,
+  "briefing_deadline_delay_minutes": 280.0,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-19T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -0.235,
+      "change_percent": -0.16,
       "market_date": "2026-11-19",
       "meaning": "원화 강세 방향"
     }
@@ -93,16 +93,16 @@
       "published_at_utc": "2026-11-18T15:12:33+00:00"
     },
     {
+      "title": "Korean chip stocks slump despite Nvidia's strong earnings results - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TX2hudXdqUEFCMllEQy1ZeDE0TEFXd3NhRmZjMmlPX053UlNPZzdnUDh5ckgwaUNQN3R4d2VwODh0dFZtM3poWVFkcWk1NlZtRndDX2t4Yjc2eFluZGllRGEtSzBwN2JsTGNZbw?oc=5",
+      "source": "머니투데이",
+      "published_at_utc": "2026-11-19T02:39:26+00:00"
+    },
+    {
       "title": "Nvidia faces pressure over restrictions on AI chips - Inspenet",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81TVk0TVFZeTJDZXU0bDRiUGtEMk5rSmhlMkF4MXk4cjVoR05JaWI4ei13YTdxa3czTkUyWXctZzVYcUQwWGZGUGV6bi1Uay1FOGNlWVlQZ2NOX3dyRVF5cmI2dFlwV0JxNWFfQnZpMEJmM2ZOUno3Qlln?oc=5",
       "source": "Inspenet",
       "published_at_utc": "2026-11-17T20:34:28+00:00"
-    },
-    {
-      "title": "Semiconductor Stocks Rebound on Nvidia Earnings Surprise; Eyes Turn to Anthropic IPO - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91REFuaXZiX3JwMXcyVnVRMk5ybXlWXzR3VFRCVUZoTDFtZkpvVkVKdnFoNW1FMmg2QTR1b0RONTRsMWR1RXNIN0JGN2pOWTRJVmhtNy1NYUE5TnJXMlFwQ0M4dExkMlh1bkxYNnpVOGRnNFN6eFE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-18T01:25:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
