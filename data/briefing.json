@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-18T03:36:29.711508+00:00",
-  "generated_at_kst": "2026-11-18T12:36:29.711508+09:00",
+  "generated_at_utc": "2026-11-19T02:43:35.952256+00:00",
+  "generated_at_kst": "2026-11-19T11:43:35.952256+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -12,43 +12,119 @@
   "market_signals": [
     {
       "indicator": "미국 대형주",
-      "change_percent": -1.026,
+      "change_percent": -0.23,
       "reference_direction": "주의"
     },
     {
       "indicator": "반도체",
-      "change_percent": 0.335,
+      "change_percent": 0.103,
       "reference_direction": "우호적"
     },
     {
       "indicator": "원/달러",
-      "change_percent": -0.396,
+      "change_percent": -0.249,
       "reference_direction": "우호적"
     }
   ],
   "headlines": [
     {
-      "title": "[Opening Market] KOSPI Reclaims 5,000 on Semiconductor Rally - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tT210X3lSMXNRZkh1SUw3UGE1MGhHTkFONmRUTm01emZ2VVVhOXhtVVZaOGRxb19jSEwwY2RQLTA5dFVjczlyR0hqeGoyNExObUloYVlBVktia3gydGlHc3VaZFBRM0dlRkt2R0ttSmtYVkRM?oc=5",
+      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd1hJVEJaZS1neDVWZk40eFYyV3dvaUU3ZTVJT3dlWk0tWi1LWHUxZGtfYUQ2b21iNTJ6ajVYeWd2OVpfcGk2RzJzZ3I4N3F2Rl9mNmJjY20xT3lXcUxKN1k3dHY2MmM1RlhvZm1xZGlUcVFiR2xjWWJZMFVHM2ZCc3hOYjZXZw?oc=5",
+      "source": "AOL.com",
+      "published_at_utc": "2026-11-18T21:35:52+00:00",
+      "category": "us_market",
+      "age_hours": 5.1,
+      "freshness_score": 90,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-18T15:12:33+00:00",
+      "category": "semiconductor",
+      "age_hours": 11.5,
+      "freshness_score": 77,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of FOMC Minutes— NVDA, AAOI, PANW in Focus (UPDATED) - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTDNIOUp4aWtOQ05CLW13U3Qxb3BBVng4R1VkQ1pQZnZFN3BRSVNxYmlwTVVtbWlJSkJQNE4tSXFIWGxNRTA2cFdEbEt4RzNhVVEtbWZhWXdDMnJnUnB4MGx5V0w5Q0hCZ1dMVFNYcHpyTGVtcHNiUEFXcnYxUWhtMjFKeGFtSU50ZWRSWjZteEZJczRKNXdheFBod1BzbXlkeHRxVC1ZX3ZDTmpGX0FSN3hqYXk5WWo3eExKa2ZIWmVibkVlcnZWdVZnVmxvaHp1VlJSUDEwODFndXRWbnZSLUNmd0F6a1pyb0plaUo4QVdKTVoxZ25WRGloeDJpYkgyd25ObXQtN092aFlW?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-18T13:41:07+00:00",
+      "category": "us_market",
+      "age_hours": 13.0,
+      "freshness_score": 74,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-18T10:28:00+00:00",
+      "category": "us_market",
+      "age_hours": 16.3,
+      "freshness_score": 67,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "[Closing Market] KOSPI Reclaims 5,000 Level After Nvidia Beats Estimates - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81QVpDc0RLQUxVei1xZGRBb0E1a0U3djBWN3F1M2pnT1BKY2J4SHhSY3R2VGZjNXVXSHhaTGI5ZkE1SlV0NjhUblNvSWl4c3Y1c3hlbEl6VGVPNUE2dVd6LVZReVMtQUw5TUNld2xCUklCdmcy?oc=5",
       "source": "Businesskorea",
-      "published_at_utc": "2026-11-18T01:51:30+00:00",
+      "published_at_utc": "2026-11-18T08:18:17+00:00",
       "category": "korea",
-      "age_hours": 1.7,
-      "freshness_score": 97,
+      "age_hours": 18.4,
+      "freshness_score": 63,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "KOSPI-Listed Firms Top 250 Trillion Won in Q3 Operating Profit - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRmw1RXJrNUZCT0tWeG0zVXk3dGZrWEd4T1Q4MDNfSzVhV2QxT0FlWGVnVG9kLTJUYnd3N2hyd05fZEZtOWVDUG1hRl9DU1Z0RFZOWlJzMjNwNkVmN3JNMjBEdGkwc1pHOElvTzVlMWRMT0Nn?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-18T04:05:11+00:00",
+      "category": "korea",
+      "age_hours": 22.6,
+      "freshness_score": 55,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "South Korea's KOSPI Posts 638 Trillion Won in 9-Month Operating Profit; Samsung Electronics, SK Hynix Drive 83% of Gain - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-18T03:36:00+00:00",
+      "category": "korea",
+      "age_hours": 23.1,
+      "freshness_score": 54,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "TradingKey Daily Market Brief: Three Major US Indexes Tumble, Broadcom and Arm Buck Trend, Nvidia Earnings Beat Expectations - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVFJGMTd1cldOUHFrVWVmX2I1bXd4aVdua0t4UmRhNTdZcDRqclgtSl93dVM1X18xakFMYnVhNm9UTWpISm10RGFtbHlCb0F6eGN0ZUxrWXRjNnVXUUlmbU9iMWFrZWdpQS1uUXBCV2dWaDBSVmFSZW5zeV9xZHJjWjZ5Qm00bXl5N3FFWmdaOWhrYl9HNTN4a1ZLeXhnTmdaQVRZbloySlJFdXdnT05aSnpkUk84eGJKMFlTUF8wU0VGenR0c0JYTGlRYXpPRFVsQk9FaXNRWkpwV0N0andR?oc=5",
-      "source": "TradingKey",
-      "published_at_utc": "2026-11-18T01:22:32+00:00",
+      "title": "Semiconductor Stocks Rebound on Nvidia Earnings Surprise; Eyes Turn to Anthropic IPO - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91REFuaXZiX3JwMXcyVnVRMk5ybXlWXzR3VFRCVUZoTDFtZkpvVkVKdnFoNW1FMmg2QTR1b0RONTRsMWR1RXNIN0JGN2pOWTRJVmhtNy1NYUE5TnJXMlFwQ0M4dExkMlh1bkxYNnpVOGRnNFN6eFE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-18T01:25:00+00:00",
       "category": "semiconductor",
-      "age_hours": 2.2,
-      "freshness_score": 96,
-      "headline_tone": "혼재/불명",
+      "age_hours": 25.3,
+      "freshness_score": 49,
+      "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -59,48 +135,22 @@
       "source": "TradingView",
       "published_at_utc": "2026-11-18T00:09:00+00:00",
       "category": "us_market",
-      "age_hours": 3.5,
-      "freshness_score": 93,
+      "age_hours": 26.6,
+      "freshness_score": 47,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-17T22:01:59+00:00",
+      "title": "Nvidia faces pressure over restrictions on AI chips - Inspenet",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81TVk0TVFZeTJDZXU0bDRiUGtEMk5rSmhlMkF4MXk4cjVoR05JaWI4ei13YTdxa3czTkUyWXctZzVYcUQwWGZGUGV6bi1Uay1FOGNlWVlQZ2NOX3dyRVF5cmI2dFlwV0JxNWFfQnZpMEJmM2ZOUno3Qlln?oc=5",
+      "source": "Inspenet",
+      "published_at_utc": "2026-11-17T20:34:28+00:00",
       "category": "semiconductor",
-      "age_hours": 5.6,
-      "freshness_score": 89,
-      "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "S.Korean investors park $13.8 bn in money market funds as chip rout deepens - KED Global",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vek1jTnJjblp2b0pqZnVFbUxvQjBGbEdqRWxxeVFYN1VJd3VOdzlGWi1QV1ExYWR2bUF5VTIybnVORWhQN0ZfeGJiWnBSN1V5SndPM1dBRVNFSjRIcWRJQm5XRDQwTUk2cUZhVEtUcHItYXIzNUE?oc=5",
-      "source": "KED Global",
-      "published_at_utc": "2026-11-17T18:05:11+00:00",
-      "category": "korea",
-      "age_hours": 9.5,
-      "freshness_score": 81,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "More manic swings for Nvidia and other jittery AI stocks drag the US market lower - Messenger-Inquirer",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbTVmSmRQMXVMNWJRZGFkRG5PUE8tdmw4b1ZCQktha2tqQ09xNHA2N3RmZXZsVWZGc2lXRFlaR1BzSVd5U1paOGtLRXVIeUtUQUV5Z2tPVXMtV1g1ZUI1NURrQllTN1VBMTFBLUtTUmNGRnhQV1FtS3ptaFdYbWxReFBUbGNZSEcwU2JtNDBDX0taYThIS0s5Y2NKNTN0MEZISHkyS0V5SGlncDB2d3BLcVdwM05QSXpZZTdLTDVYZGpCN2xLSk1SU0hYU2VfLWcxLWZIcV9DRGt0enItZ2tCOW9uSmN3RDNQaTlxcFBzazcwQ2pxZXNPSldwTTNMUFZWR3V5N0o2SDJaM2M?oc=5",
-      "source": "Messenger-Inquirer",
-      "published_at_utc": "2026-11-17T17:02:59+00:00",
-      "category": "korea",
-      "age_hours": 10.6,
-      "freshness_score": 79,
-      "headline_tone": "부정 표현",
+      "age_hours": 30.2,
+      "freshness_score": 40,
+      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
@@ -109,10 +159,10 @@
       "title": "Not Nvidia. Not Broadcom. This Is the AI Chip Stock I’d Buy Before the Year Ends. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONUczN1VUSEo2bmJhVC1IRS1mLU9ZSlhvWWp4dW5pRi1yZHRtUC1vaVlCUXdOYlAwbHM2bC1lMkFoelR5ckFJbm91cVFPVWpCLVRIdzRoSEMweDRpUDBMV3dMVHpPWEFJLVY5SFYtYVNVV0Rpa21TaHRpQnpCcXZtM1R1Zkk3MDROMlNNRFZ2VXBUU29JMk5GTU1hUDVlcVphTjFRWkNnRVRfVFFzaVRJMHczSThmZTBEN3NLRg?oc=5",
       "source": "The Motley Fool",
-      "published_at_utc": "2026-11-17T17:00:00+00:00",
+      "published_at_utc": "2026-11-17T17:00:02+00:00",
       "category": "semiconductor",
-      "age_hours": 10.6,
-      "freshness_score": 79,
+      "age_hours": 33.7,
+      "freshness_score": 33,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -124,21 +174,34 @@
       "source": "LancasterOnline",
       "published_at_utc": "2026-11-17T16:54:45+00:00",
       "category": "korea",
-      "age_hours": 10.7,
-      "freshness_score": 79,
+      "age_hours": 33.8,
+      "freshness_score": 32,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "Chip Stocks To Watch And Semiconductor Industry News - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE90WGMyV2RoaVE5dU0tX2NTMFNLejVhRWoxZEZpS3lBVllNSGlZMkNpVkZoRTd2YmI2dXBDM1NEUVlEZU1tcTU5aDZmZXhZUzJ0cHJ5YUVNZkt1aHdPZFFyYUo0X0poc1VQb0hpMlpGbFhodlpmcUZyMHBNcWFfSFloLUVTaXRGcUM5NngxcXJvMUpxUlBfckl2RWpFX2J4a25McE5iWEZERkE?oc=5",
-      "source": "Investor's Business Daily",
-      "published_at_utc": "2026-11-17T16:39:00+00:00",
-      "category": "semiconductor",
-      "age_hours": 11.0,
-      "freshness_score": 78,
+      "title": "US stocks fall again as AI companies keep swinging - Dayton Daily News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNU2dXeHd1OFlzNFBWYzduR25QUEl1RExmYmo1OEo2aU12aXpFN2xHMk9MREo1NTAxNzZybFJkUTZOaDNkbExyRHAxS0NFc1RYU1UxV3dWQWFFMVlrWmRpaHZ0LUNqSk1xNUJzVkFOVUw2bkNYTzRJLUhKTFRGQzVtdEtQM3ZoTjNtYnB5N1pVVmtkdFFiSHB5cEFaalBjbktQdGI2OHcxTjYyYXFaT0tBZ0hDQzU0Q1ZkNVg5Ym1XdFJka3NrY3ZSdElxd25CZkFRNlExTERqRnIwT3NpMkE?oc=5",
+      "source": "Dayton Daily News",
+      "published_at_utc": "2026-11-17T15:48:33+00:00",
+      "category": "korea",
+      "age_hours": 34.9,
+      "freshness_score": 30,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of Nvidia’s Q3 Earnings— CBR - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXRFNFFpU3YxcXBXWDlqSTdsUjNIQ3NtTGRMN053Q0M4VmZYbkhlekg5R0dVUUNSRXg4TVo4TDN2NGgtbVdfT2d0UzlJWFJ2NUNlT2tnQXY4eTNtTEVyZjdUNjJmVzFvaEs4WG5wWUJMcEppVDNIaXNjVHFUeGF1VTlIU3UtNDdkb21CWExIVW0tZFZjU1VRTWE0RlY3QzVxMklxY1ljR2l2ZU9manMyd0pqYlpBWFRqVmMyeHlwc29jSlJhZ1FwelNJbGlDNXo5TnY3bzVDLWJRenljcGxIS2FPVzQ0SzVFdEwzbjZZZw?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-17T13:40:00+00:00",
+      "category": "us_market",
+      "age_hours": 37.1,
+      "freshness_score": 26,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -150,71 +213,8 @@
       "source": "Traders Union",
       "published_at_utc": "2026-11-17T11:25:31+00:00",
       "category": "semiconductor",
-      "age_hours": 16.2,
-      "freshness_score": 68,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Dow Jones, S&P 500 Futures Fall Ahead of Nvidia's Q3 Earnings— CBRS, AMZN, RCAT in Focus - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXRFNFFpU3YxcXBXWDlqSTdsUjNIQ3NtTGRMN053Q0M4VmZYbkhlekg5R0dVUUNSRXg4TVo4TDN2NGgtbVdfT2d0UzlJWFJ2NUNlT2tnQXY4eTNtTEVyZjdUNjJmVzFvaEs4WG5wWUJMcEppVDNIaXNjVHFUeGF1VTlIU3UtNDdkb21CWExIVW0tZFZjU1VRTWE0RlY3QzVxMklxY1ljR2l2ZU9manMyd0pqYlpBWFRqVmMyeHlwc29jSlJhZ1FwelNJbGlDNXo5TnY3bzVDLWJRenljcGxIS2FPVzQ0SzVFdEwzbjZZZw?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-17T09:48:41+00:00",
-      "category": "us_market",
-      "age_hours": 17.8,
-      "freshness_score": 64,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Asian shares decline following stocks tumbled on Wall Street - WOWK 13 News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc3Q2dF9aV2Qzek42ZEdrMnNaM1N0ZTFFZ0N5NXFOWVZzY3o4MjBQN0lwclNjbm00d3ZtX0xuVTF1NDFCSk9UWVBfYjM0bFZxX29mLVR4UWFjLWlaX0xVcFJ3c2NMOUJhMTRFUGRlcG52S19jc3EtQWRrQnFmMndrNkxLV2xPYjhPNVktQXB4SjMxR2NrenV4NWFoVnFmNlhlZ0xINdIBqgFBVV95cUxPTTZ1c1l0TFl4VUFGNGE1U185amNXdTRDeU84OU94NEtHZHdKTURrLWgtZzVDY1pVdkFjenJrcVpWRWRUaHJucTNEVWZQWEYxSDVmbFFEMWtPMm82YUh6Q1hJN3k5Mko4U24zLW1DNFdmS0hOYmk2NlZxVW5aRjRpc2haUTJmSjZOY2hzNGVOejN6TnJGeDVaUjhnZDF2dnJpQkdjM0sxWkJpdw?oc=5",
-      "source": "WOWK 13 News",
-      "published_at_utc": "2026-11-17T09:07:03+00:00",
-      "category": "korea",
-      "age_hours": 18.5,
-      "freshness_score": 63,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-16T23:45:50+00:00",
-      "category": "us_market",
-      "age_hours": 27.8,
-      "freshness_score": 44,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-16T09:56:42+00:00",
-      "category": "us_market",
-      "age_hours": 41.7,
-      "freshness_score": 17,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Fed Gov. Michelle Bowman: Risk of \"Large Correction\" in Stocks if AI Doesn't Pan Out - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQVlpSktzNWlnSWJnMkhOY1phZ0FLQlpmUDJ1bEVXLU5BZ0hIclJZdFZPUk1YT1hhMHkxRXFCMGJrdDZUbkxCNmxnS1VlcGc4eFZ1cTdpdzRERTQ1SmRwZzhobTUtczV4eDZ5cW5BSzEzNHIwUEFHc3R6UHBPdXUxbDdLal85RnZmYzI2d25CdXd0aldiamxucGpyMlIwLW9LSGlrSFNBUWhvazd2MkNHNGNTTUhadUJKbWJQVENhMVlaUjQ3b05j?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-16T08:10:00+00:00",
-      "category": "us_market",
-      "age_hours": 43.4,
-      "freshness_score": 13,
+      "age_hours": 39.3,
+      "freshness_score": 21,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
