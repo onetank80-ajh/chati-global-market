@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-19T03:03:53.619094+00:00",
-  "generated_at_kst": "2026-11-19T12:03:53.619094+09:00",
+  "generated_at_utc": "2026-11-19T03:10:01.829937+00:00",
+  "generated_at_kst": "2026-11-19T12:10:01.829937+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -84,10 +84,10 @@
     },
     {
       "category": "korea",
-      "title": "Asian markets mostly drop as AI stocks remain under pressure - LancasterOnline",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSDZFVExUeUFqOEVxWjRjNmhjT3JJRVRGRUZYWkpPbDA3SEZsLXVULWNWdVNpR1dSTE5kWVRacW9UZjBhczhOWlNVeURPODM3TUVTTlJGSGdUbmRvalUteTBPM3RTczlVbHpRZ04wUXVORHVETlpkcks0V1hvMFpPQ1ZIVV8yTlZzWnZCMDJ2RjZNTnJJcEdEa2s5Sy13UzFLU2cteHlpX1Z1TUlYVlFoZXpvSnE0SnhCN0QzcF9DeHNwVVJyamNkUlE4SDkza09LYUlCalg4VUJyalNNdTVqLURiY2QwNlhyN1B1RVI3X3RWUQ?oc=5",
-      "source": "LancasterOnline",
-      "published_at_utc": "2026-11-17T08:04:15+00:00"
+      "title": "Asian shares decline following stocks tumbled on Wall Street - WOWK 13 News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc3Q2dF9aV2Qzek42ZEdrMnNaM1N0ZTFFZ0N5NXFOWVZzY3o4MjBQN0lwclNjbm00d3ZtX0xuVTF1NDFCSk9UWVBfYjM0bFZxX29mLVR4UWFjLWlaX0xVcFJ3c2NMOUJhMTRFUGRlcG52S19jc3EtQWRrQnFmMndrNkxLV2xPYjhPNVktQXB4SjMxR2NrenV4NWFoVnFmNlhlZ0xINdIBqgFBVV95cUxPTTZ1c1l0TFl4VUFGNGE1U185amNXdTRDeU84OU94NEtHZHdKTURrLWgtZzVDY1pVdkFjenJrcVpWRWRUaHJucTNEVWZQWEYxSDVmbFFEMWtPMm82YUh6Q1hJN3k5Mko4U24zLW1DNFdmS0hOYmk2NlZxVW5aRjRpc2haUTJmSjZOY2hzNGVOejN6TnJGeDVaUjhnZDF2dnJpQkdjM0sxWkJpdw?oc=5",
+      "source": "WOWK 13 News",
+      "published_at_utc": "2026-11-17T09:07:03+00:00"
     },
     {
       "category": "korea",
