@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-19T12:09:58.669427+09:00",
+  "generated_at_kst": "2026-11-19T13:20:15.003034+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-19T12:09:58.520069+09:00",
-  "news_snapshot_at": "2026-11-19T12:03:53.619094+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-11-19T12:52:04.473937+09:00",
+  "news_snapshot_at": "2026-11-19T12:10:01.829937+09:00",
+  "market_snapshot_age_hours": 0.47,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-19T06:30:00+09:00",
-  "briefing_delay_minutes": 340.0,
-  "briefing_deadline_delay_minutes": 280.0,
+  "briefing_delay_minutes": 410.3,
+  "briefing_deadline_delay_minutes": 350.3,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-19T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -0.16,
+      "change_percent": -0.197,
       "market_date": "2026-11-19",
       "meaning": "원화 강세 방향"
     }
