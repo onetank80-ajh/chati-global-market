@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-19T03:09:58.520069+00:00",
-  "generated_at_kst": "2026-11-19T12:09:58.520069+09:00",
+  "generated_at_utc": "2026-11-19T03:52:04.473937+00:00",
+  "generated_at_kst": "2026-11-19T12:52:04.473937+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
@@ -31,10 +31,10 @@
       "symbol": "KRW=X",
       "name": "USD/KRW",
       "unit": "KRW per USD",
-      "close": 1330.88,
+      "close": 1330.38,
       "previous_close": 1333.01,
-      "change": -2.13,
-      "change_percent": -0.16,
+      "change": -2.63,
+      "change_percent": -0.197,
       "market_date": "2026-11-19",
       "status": "ok"
     },
