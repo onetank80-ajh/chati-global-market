@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-19T13:20:15.003034+09:00",
+  "generated_at_kst": "2026-11-20T11:29:16.894592+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-19T12:52:04.473937+09:00",
+  "market_snapshot_at": "2026-11-20T11:29:16.736670+09:00",
   "news_snapshot_at": "2026-11-19T12:10:01.829937+09:00",
-  "market_snapshot_age_hours": 0.47,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-19T06:30:00+09:00",
-  "briefing_delay_minutes": 410.3,
-  "briefing_deadline_delay_minutes": 350.3,
+  "scheduled_briefing_at_kst": "2026-11-20T06:30:00+09:00",
+  "briefing_delay_minutes": 299.3,
+  "briefing_deadline_delay_minutes": 239.3,
   "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-19T07:30:00+09:00",
+  "briefing_deadline_at_kst": "2026-11-20T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -0.23,
-      "market_date": "2026-11-18",
+      "change_percent": -2.018,
+      "market_date": "2026-11-19",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": 0.103,
-      "market_date": "2026-11-18",
-      "meaning": "상승"
+      "change_percent": -2.415,
+      "market_date": "2026-11-19",
+      "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.197,
-      "market_date": "2026-11-19",
-      "meaning": "원화 강세 방향"
+      "change_percent": 0.656,
+      "market_date": "2026-11-20",
+      "meaning": "원화 약세 방향"
     }
   ],
   "sectors": [
@@ -39,7 +39,7 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "방향 확인 필요",
+      "view": "변동성 주의",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
@@ -51,7 +51,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "원화 강세 참고",
+      "view": "환율 변동 확인",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -75,18 +75,6 @@
       "published_at_utc": "2026-11-18T21:35:52+00:00"
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of Nvidia’s Q3 Earnings— CBR - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXRFNFFpU3YxcXBXWDlqSTdsUjNIQ3NtTGRMN053Q0M4VmZYbkhlekg5R0dVUUNSRXg4TVo4TDN2NGgtbVdfT2d0UzlJWFJ2NUNlT2tnQXY4eTNtTEVyZjdUNjJmVzFvaEs4WG5wWUJMcEppVDNIaXNjVHFUeGF1VTlIU3UtNDdkb21CWExIVW0tZFZjU1VRTWE0RlY3QzVxMklxY1ljR2l2ZU9manMyd0pqYlpBWFRqVmMyeHlwc29jSlJhZ1FwelNJbGlDNXo5TnY3bzVDLWJRenljcGxIS2FPVzQ0SzVFdEwzbjZZZw?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-17T13:40:00+00:00"
-    },
-    {
-      "title": "S&P 500, Dow, Nasdaq Futures Power Ahead On Nvidia Outlook Beat — NVDA, TSLA, ANT In Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWXpCN2lvNjlwT016M0hzOWJ4OThDZkQ5YlJBMGtIamlXR0U5dGcwMUJGZzkyejZpS0xDTktDdlNIUWRrdFB3Z19VT1lJcjlDbDR3SjZWNFVpUUVIM19iN0FnQ1B0TTZOckE5RVhEMWphQ1hmNVVzZGN1a0JGdklDSzN6YzRDWFNlTTB3SVJlLW5pMjZBMzIzLU5HMmRUcGZ2eFJBbXpaYUJJeHNiNEpmWHZ6QkRWbW9tSlF0RThyaGFlWlZtalNFR2w4MFNGM0JwUGFsNXdxdEs0OC1VYlE?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-18T00:09:00+00:00"
-    },
-    {
       "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
       "source": "Yahoo Finance",
@@ -99,10 +87,22 @@
       "published_at_utc": "2026-11-19T02:39:26+00:00"
     },
     {
-      "title": "Nvidia faces pressure over restrictions on AI chips - Inspenet",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81TVk0TVFZeTJDZXU0bDRiUGtEMk5rSmhlMkF4MXk4cjVoR05JaWI4ei13YTdxa3czTkUyWXctZzVYcUQwWGZGUGV6bi1Uay1FOGNlWVlQZ2NOX3dyRVF5cmI2dFlwV0JxNWFfQnZpMEJmM2ZOUno3Qlln?oc=5",
-      "source": "Inspenet",
-      "published_at_utc": "2026-11-17T20:34:28+00:00"
+      "title": "[Opening Market] Korean Stocks Turn Lower on Foreign, Institutional Selling - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01RlZtSHFZSlFoZnZfS1plVkI0STVWaHM2Ukk1cjFpa09RdDZ1OTAxNFJxLVVnT2lLOHF5RU1PY2RVSXlIczVvQ1N1eXhFa3NUZGNlNVFuRThfN21sNEpJd3lRMFZxTzNKRWJ3Z2ZMem45M1oy?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-19T02:41:50+00:00"
+    },
+    {
+      "title": "South Korea's KOSPI Posts 638 Trillion Won in 9-Month Operating Profit; Samsung Electronics, SK Hynix Drive 83% of Gain - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-18T03:36:00+00:00"
+    },
+    {
+      "title": "[Closing Market] KOSPI Reclaims 5,000 Level After Nvidia Beats Estimates - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81QVpDc0RLQUxVei1xZGRBb0E1a0U3djBWN3F1M2pnT1BKY2J4SHhSY3R2VGZjNXVXSHhaTGI5ZkE1SlV0NjhUblNvSWl4c3Y1c3hlbEl6VGVPNUE2dVd6LVZReVMtQUw5TUNld2xCUklCdmcy?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-18T08:18:17+00:00"
     }
   ],
   "news_snapshot_fresh": true,
