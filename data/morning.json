@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-20T11:29:16.894592+09:00",
+  "generated_at_kst": "2026-11-20T11:39:45.200858+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-20T11:29:16.736670+09:00",
-  "news_snapshot_at": "2026-11-19T12:10:01.829937+09:00",
+  "market_snapshot_at": "2026-11-20T11:39:45.094683+09:00",
+  "news_snapshot_at": "2026-11-20T11:29:20.308387+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-20T06:30:00+09:00",
-  "briefing_delay_minutes": 299.3,
-  "briefing_deadline_delay_minutes": 239.3,
+  "briefing_delay_minutes": 309.8,
+  "briefing_deadline_delay_minutes": 249.8,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-20T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.656,
+      "change_percent": 0.622,
       "market_date": "2026-11-20",
       "meaning": "원화 약세 방향"
     }
@@ -57,52 +57,52 @@
   ],
   "headlines": [
     {
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
+      "title": "Is the stock market in a correction? The Nasdaq is, the Dow is a step away and the S&P 500 is 8% off - Nacionale",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2Z4amk3SnY0SnJWSXN3R0luLXlXY1lQbld6SWlLcHVLM0pUVGVHWHNRUGtUS3VKZFgzYk1OLVFIdEp0NDk1c2V4STY0Mk9CbjV3ZF9lQzFfVmNySzR3XzZiZk9pVHJYdDNWQTY3ck8xenNGOENXSF95OHUzWVpHZ0U5MHNodHZHekJnZjdzOWV6X3N0emVJbWxmNmNvdExmRkRjWHRpN2lyMkNmYW10clNzS2x3LVZu?oc=5",
+      "source": "Nacionale",
+      "published_at_utc": "2026-11-20T00:31:38+00:00"
+    },
+    {
+      "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-19T10:51:38+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Wall Street Awaits Anthropic’s Listing— PANW - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHl1UG5odS1iUllYWUlvM0NvMGM4c0dsZUhJdTNuN2dUdUE0Q01KLURSOE1Sd1N2akNuZ19VX3lqdWZvZjRsM183SW13aTBoYlhGZWZmV1RjcEhiQ09CdEhTS0EteVpLVThzVnlKRHVDSzM5Sl8tazl5Nmd6bHVqZkIzSjFBdFliMGFIY0pYS0ZVNlV6aDlqZVJqck5jRHJPZDk4Nm5xQXZnNTJOajJhaXhVcTdGdUdibk8tUEZCcWZZTnNXb2gzZF9yQWtJMVdWckhsa2poLWlydEFvV2V0WmFSLVNhRldqbzdOZHpIX1gwQ0tLTnc?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-19T13:42:00+00:00"
+    },
+    {
+      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-11-18T10:28:00+00:00"
+      "published_at_utc": "2026-11-19T09:03:00+00:00"
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of FOMC Minutes— NVDA, AAOI, PANW in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTDNIOUp4aWtOQ05CLW13U3Qxb3BBVng4R1VkQ1pQZnZFN3BRSVNxYmlwTVVtbWlJSkJQNE4tSXFIWGxNRTA2cFdEbEt4RzNhVVEtbWZhWXdDMnJnUnB4MGx5V0w5Q0hCZ1dMVFNYcHpyTGVtcHNiUEFXcnYxUWhtMjFKeGFtSU50ZWRSWjZteEZJczRKNXdheFBod1BzbXlkeHRxVC1ZX3ZDTmpGX0FSN3hqYXk5WWo3eExKa2ZIWmVibkVlcnZWdVZnVmxvaHp1VlJSUDEwODFndXRWbnZSLUNmd0F6a1pyb0plaUo4QVdKTVoxZ25WRGloeDJpYkgyd25ObXQtN092aFlW?oc=5",
+      "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's Listing— PANW, NTES, SLS in Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMk5KdE1ua0hoRUdTeFlkeV9yZHRVcU1aU2Jkckp3NFBoT01CQno1VmllNjh4MlZWVVJHWXFtaVFpMHVFaGVuZjBpVVVKcWhJY0t0dnV5UTAyZHZjaVlNYmgwLW1oSGwtVi1Zc1ZlaGdOM1QybGFKakx1Ulo4cndWMzB3RFBtOTdIamZuOS1iZlppWllndXAwcHhjRm0wVXRyN3dHVlZUWWlRZjQ4cXNUM29pOXJwcXIyNnZoVlp6aFF3ZU9lcm9KLWF3Ni16RGlFSG1NbThoaW83cVA5aEVvMmVSUUlzWjJhdXdpRjlQR0Mzb05UNFp3Si1CYw?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-11-18T13:41:07+00:00"
+      "published_at_utc": "2026-11-19T10:08:55+00:00"
     },
     {
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd1hJVEJaZS1neDVWZk40eFYyV3dvaUU3ZTVJT3dlWk0tWi1LWHUxZGtfYUQ2b21iNTJ6ajVYeWd2OVpfcGk2RzJzZ3I4N3F2Rl9mNmJjY20xT3lXcUxKN1k3dHY2MmM1RlhvZm1xZGlUcVFiR2xjWWJZMFVHM2ZCc3hOYjZXZw?oc=5",
-      "source": "AOL.com",
-      "published_at_utc": "2026-11-18T21:35:52+00:00"
+      "title": "This Beaten-Down Semiconductor Stock Could Soar in 2027 - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDNVRk9GbVhZQ25weFNxY01oc3ptQlY4S2R5SkdfTlRwM3I4QVdpaGJJaGZ4VHdUckpKaklUeWlvUm5JLVgycnlaTEVvQlRxT0Jxb2JZTnh0bVA1eDRQNjFnemk5Tl83dFI3UEk3bS1jSzQwU2I4aWt4UVZ1WU8zbWRETWpLdHItOEZGXzl0ejZiaG45U0YxMnN0bDRPS3FOUTB0MHA3bzhpMlczeFhYSFN4U2k0YmViZ3dFRkE3UGl3VW0yaHFhcC1MSGo1QnpSZzJEVVRkYw?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-19T22:54:41+00:00"
+    },
+    {
+      "title": "Not Nvidia. Not Broadcom. If I Could Buy and Hold Only 1 AI Chip Stock Through 2030, It Would Be This One - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnMzMkNkNWMwU01yLVU3UFlQanJVVDc4VGJGRUU3WVBybE1zTEpyRlhQRmZ6czhxU2VGdC1ZX2tBaE0ySU1vWmZHdWtUNkV6M3lzcS1GVWNWQkdpM3RBbzg3UkVhSDh2UDBhb1Z2QzBNMGNvdkNVSFpiMHdBa0w4c0tmNHkxejhreUtlTUhid0pXX2JWb3hWQ0l2SnJ5VkpWSmJTOWVaRXlYazlH?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-19T12:02:01+00:00"
     },
     {
       "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-18T15:12:33+00:00"
-    },
-    {
-      "title": "Korean chip stocks slump despite Nvidia's strong earnings results - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TX2hudXdqUEFCMllEQy1ZeDE0TEFXd3NhRmZjMmlPX053UlNPZzdnUDh5ckgwaUNQN3R4d2VwODh0dFZtM3poWVFkcWk1NlZtRndDX2t4Yjc2eFluZGllRGEtSzBwN2JsTGNZbw?oc=5",
-      "source": "머니투데이",
-      "published_at_utc": "2026-11-19T02:39:26+00:00"
-    },
-    {
-      "title": "[Opening Market] Korean Stocks Turn Lower on Foreign, Institutional Selling - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01RlZtSHFZSlFoZnZfS1plVkI0STVWaHM2Ukk1cjFpa09RdDZ1OTAxNFJxLVVnT2lLOHF5RU1PY2RVSXlIczVvQ1N1eXhFa3NUZGNlNVFuRThfN21sNEpJd3lRMFZxTzNKRWJ3Z2ZMem45M1oy?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-19T02:41:50+00:00"
-    },
-    {
-      "title": "South Korea's KOSPI Posts 638 Trillion Won in 9-Month Operating Profit; Samsung Electronics, SK Hynix Drive 83% of Gain - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-18T03:36:00+00:00"
-    },
-    {
-      "title": "[Closing Market] KOSPI Reclaims 5,000 Level After Nvidia Beats Estimates - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81QVpDc0RLQUxVei1xZGRBb0E1a0U3djBWN3F1M2pnT1BKY2J4SHhSY3R2VGZjNXVXSHhaTGI5ZkE1SlV0NjhUblNvSWl4c3Y1c3hlbEl6VGVPNUE2dVd6LVZReVMtQUw5TUNld2xCUklCdmcy?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-18T08:18:17+00:00"
     }
   ],
   "news_snapshot_fresh": true,

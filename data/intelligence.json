@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-20T02:29:16.850844+00:00",
+  "generated_at_utc": "2026-11-20T02:39:45.174191+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 7,
+  "headline_count_after": 15,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-20T11:29:16.736670+09:00",
+  "market_snapshot_at": "2026-11-20T11:39:45.094683+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": -2.018,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.656,
+      "change_percent": 0.622,
       "market_date": "2026-11-20",
       "status": "ok"
     },
@@ -53,12 +53,12 @@
   ],
   "top_headlines": [
     {
-      "title": "Korean chip stocks slump despite Nvidia's strong earnings results - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TX2hudXdqUEFCMllEQy1ZeDE0TEFXd3NhRmZjMmlPX053UlNPZzdnUDh5ckgwaUNQN3R4d2VwODh0dFZtM3poWVFkcWk1NlZtRndDX2t4Yjc2eFluZGllRGEtSzBwN2JsTGNZbw?oc=5",
-      "source": "머니투데이",
-      "published_at_utc": "2026-11-19T02:39:26+00:00",
-      "age_hours": 23.8,
-      "relevance_score": 73,
+      "title": "Nvidia, TSMC and Samsung Face China Chip Crackdown as Trump's New Restrictions Hit AI Industry - Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYnJwQjNKYXlHY3ROTEdJdExGSlRHcDNGSkRLbEtCYzlNZWhXOVBCd010NXh4anJtSmphcW94MzE4MXlCUVgxOU43alFwQjdPLXYtWksxQmpHSHU1SkROVHhwQVZrOUFxZDNTZzFJeWVOSTR4NWUwRGNPUEItRkgxNUZSYTFoYnhvbHBmckFwbno4aF8wajdybmRzSDFfMTh3MjRpeGNqRXcxVW55eDQ1Tm9XUTZJNFduN0p4SFNn?oc=5",
+      "source": "Coinpaper",
+      "published_at_utc": "2026-11-19T13:48:16+00:00",
+      "age_hours": 12.9,
+      "relevance_score": 76,
       "tags": [
         "한국시장 직접언급",
         "반도체/AI"
@@ -71,7 +71,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81QVpDc0RLQUxVei1xZGRBb0E1a0U3djBWN3F1M2pnT1BKY2J4SHhSY3R2VGZjNXVXSHhaTGI5ZkE1SlV0NjhUblNvSWl4c3Y1c3hlbEl6VGVPNUE2dVd6LVZReVMtQUw5TUNld2xCUklCdmcy?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-18T08:18:17+00:00",
-      "age_hours": 42.2,
+      "age_hours": 42.4,
       "relevance_score": 66,
       "tags": [
         "한국시장 직접언급",
@@ -85,7 +85,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
       "source": "BigGo Finance",
       "published_at_utc": "2026-11-18T03:36:00+00:00",
-      "age_hours": 46.9,
+      "age_hours": 47.1,
       "relevance_score": 65,
       "tags": [
         "한국시장 직접언급",
@@ -95,26 +95,77 @@
       "needs_verification": true
     },
     {
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-18T10:28:00+00:00",
-      "age_hours": 40.0,
-      "relevance_score": 62,
+      "title": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUnlzVFZ6NzFQeTVIUWxobmt3VVRJa3MwQ21UdFRlTDFzbGY4VjZxYloxMktVbDB2MWdUaUdSS2ZiTHpDSDI4NzRFaE9UZk5NZXFCaTQ1c2c5Q3pLc0RvN0JRZ1dKN054SGdaUk5jazktOFY3aTR6ZDBRMldJWFdXdHduQnBNSWJ5dDdpTFhBYi13WDhjbHl6SFRGbTNfLXM3c3E1emJnZUt0bmN5V19DVjFsemRxSVEtVkc2UWJxcF9kSHc0Zm0wdDhBU0RfbmdXUnZkMEt0VVNCU254Wjlhc3Rzaw?oc=5",
+      "source": "MSN",
+      "published_at_utc": "2026-11-19T23:21:21+00:00",
+      "age_hours": 3.3,
+      "relevance_score": 54,
       "tags": [
-        "반도체/AI",
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "[Closing Market] KOSPI Rebounds Above 5,100 on Bargain Buying - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZ1QwaHV6VWdqNmtReHVXS0dtdmEtbjVvdzRqMzY2MC1ka3d6Qkh0aDlSY2VGUnZPMmd2bTRPM2pKR2hYZTdQcl9BOExsaTB1UHFON19HVnprT0E3MXdhUzRCcDFGWkhIbXdUUkttWUdjR0M4?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-19T08:47:57+00:00",
+      "age_hours": 17.9,
+      "relevance_score": 50,
+      "tags": [
+        "한국시장 직접언급"
+      ],
+      "category": "korea",
+      "needs_verification": true
+    },
+    {
+      "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-19T10:51:38+00:00",
+      "age_hours": 15.8,
+      "relevance_score": 45,
+      "tags": [
         "거시경제"
       ],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "[Opening Market] Korean Stocks Turn Lower on Foreign, Institutional Selling - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01RlZtSHFZSlFoZnZfS1plVkI0STVWaHM2Ukk1cjFpa09RdDZ1OTAxNFJxLVVnT2lLOHF5RU1PY2RVSXlIczVvQ1N1eXhFa3NUZGNlNVFuRThfN21sNEpJd3lRMFZxTzNKRWJ3Z2ZMem45M1oy?oc=5",
+      "title": "This Beaten-Down Semiconductor Stock Could Soar in 2027 - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDNVRk9GbVhZQ25weFNxY01oc3ptQlY4S2R5SkdfTlRwM3I4QVdpaGJJaGZ4VHdUckpKaklUeWlvUm5JLVgycnlaTEVvQlRxT0Jxb2JZTnh0bVA1eDRQNjFnemk5Tl83dFI3UEk3bS1jSzQwU2I4aWt4UVZ1WU8zbWRETWpLdHItOEZGXzl0ejZiaG45U0YxMnN0bDRPS3FOUTB0MHA3bzhpMlczeFhYSFN4U2k0YmViZ3dFRkE3UGl3VW0yaHFhcC1MSGo1QnpSZzJEVVRkYw?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-19T22:54:41+00:00",
+      "age_hours": 3.8,
+      "relevance_score": 44,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Not Nvidia. Not Broadcom. If I Could Buy and Hold Only 1 AI Chip Stock Through 2030, It Would Be This One - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnMzMkNkNWMwU01yLVU3UFlQanJVVDc4VGJGRUU3WVBybE1zTEpyRlhQRmZ6czhxU2VGdC1ZX2tBaE0ySU1vWmZHdWtUNkV6M3lzcS1GVWNWQkdpM3RBbzg3UkVhSDh2UDBhb1Z2QzBNMGNvdkNVSFpiMHdBa0w4c0tmNHkxejhreUtlTUhid0pXX2JWb3hWQ0l2SnJ5VkpWSmJTOWVaRXlYazlH?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-19T12:02:01+00:00",
+      "age_hours": 14.6,
+      "relevance_score": 41,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "KOSPI-Listed Firms Top 250 Trillion Won in Q3 Operating Profit - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRmw1RXJrNUZCT0tWeG0zVXk3dGZrWEd4T1Q4MDNfSzVhV2QxT0FlWGVnVG9kLTJUYnd3N2hyd05fZEZtOWVDUG1hRl9DU1Z0RFZOWlJzMjNwNkVmN3JNMjBEdGkwc1pHOElvTzVlMWRMT0Nn?oc=5",
       "source": "Businesskorea",
-      "published_at_utc": "2026-11-19T02:41:50+00:00",
-      "age_hours": 23.8,
-      "relevance_score": 48,
+      "published_at_utc": "2026-11-18T04:05:11+00:00",
+      "age_hours": 46.6,
+      "relevance_score": 40,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -126,7 +177,7 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-18T15:12:33+00:00",
-      "age_hours": 35.3,
+      "age_hours": 35.5,
       "relevance_score": 34,
       "tags": [
         "반도체/AI"
@@ -135,12 +186,25 @@
       "needs_verification": true
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of FOMC Minutes— NVDA, AAOI, PANW in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTDNIOUp4aWtOQ05CLW13U3Qxb3BBVng4R1VkQ1pQZnZFN3BRSVNxYmlwTVVtbWlJSkJQNE4tSXFIWGxNRTA2cFdEbEt4RzNhVVEtbWZhWXdDMnJnUnB4MGx5V0w5Q0hCZ1dMVFNYcHpyTGVtcHNiUEFXcnYxUWhtMjFKeGFtSU50ZWRSWjZteEZJczRKNXdheFBod1BzbXlkeHRxVC1ZX3ZDTmpGX0FSN3hqYXk5WWo3eExKa2ZIWmVibkVlcnZWdVZnVmxvaHp1VlJSUDEwODFndXRWbnZSLUNmd0F6a1pyb0plaUo4QVdKTVoxZ25WRGloeDJpYkgyd25ObXQtN092aFlW?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-18T13:41:07+00:00",
-      "age_hours": 36.8,
-      "relevance_score": 18,
+      "title": "Asian chip stocks rebound after Nvidia earnings beat expectations - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ0owS25hU04td1o0dzU4X0ZKZk1xa3VtVWhjT2xBMjZ5aUlVbzJYbklXSXhPTzlZTkp0eURpdVd0Wkd3OUpmbEdCNExUTXNTb1VHbkEydVNkTkNMZlNuNDhJTF92UHY0R19VVXpILWFISTZkdW9QSTNiZ01NS0pNQzc0MzZpdm42U1BNUWV4VU9nVHFaTVBmSVhubFB2cE9UWVFkME5lcmdjZw?oc=5",
+      "source": "Anadolu Ajansı",
+      "published_at_utc": "2026-11-18T13:13:46+00:00",
+      "age_hours": 37.4,
+      "relevance_score": 33,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "semiconductor",
+      "needs_verification": true
+    },
+    {
+      "title": "Is the stock market in a correction? The Nasdaq is, the Dow is a step away and the S&P 500 is 8% off - Nacionale",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2Z4amk3SnY0SnJWSXN3R0luLXlXY1lQbld6SWlLcHVLM0pUVGVHWHNRUGtUS3VKZFgzYk1OLVFIdEp0NDk1c2V4STY0Mk9CbjV3ZF9lQzFfVmNySzR3XzZiZk9pVHJYdDNWQTY3ck8xenNGOENXSF95OHUzWVpHZ0U5MHNodHZHekJnZjdzOWV6X3N0emVJbWxmNmNvdExmRkRjWHRpN2lyMkNmYW10clNzS2x3LVZu?oc=5",
+      "source": "Nacionale",
+      "published_at_utc": "2026-11-20T00:31:38+00:00",
+      "age_hours": 2.1,
+      "relevance_score": 30,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
