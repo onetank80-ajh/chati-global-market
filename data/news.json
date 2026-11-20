@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-20T02:55:06.228555+00:00",
-  "generated_at_kst": "2026-11-20T11:55:06.228555+09:00",
+  "generated_at_utc": "2026-11-20T02:58:23.008798+00:00",
+  "generated_at_kst": "2026-11-20T11:58:23.008798+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -14,17 +14,17 @@
     },
     {
       "category": "us_market",
-      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-19T09:03:00+00:00"
-    },
-    {
-      "category": "us_market",
       "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-19T10:51:38+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-19T09:03:00+00:00"
     },
     {
       "category": "us_market",
@@ -84,31 +84,31 @@
     },
     {
       "category": "korea",
+      "title": "[Opening Market] KOSPI Tumbles Past 5,000 Amid AI Stock Rout - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxbUNYcGRHZjV4WUQ1N01HcS02cW1KRW5WYTU4cHJsVWJ5WlRWU3FianRSUWlxclV2UmFKVFNjQUt5b0pTUVBESElzLVJSV1BOV0I1OWM1S2U1c1Z2S0k5c3F2UkhLT3hVX0x2bG1aVFFHS1Nw?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-20T01:46:26+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "Domestic Investor Deposits Hit Yearly Low - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNTNtVHlhOVNwVFJTaXNiNzlyejRxak5FS0JneVd1YkdHYS03OE1EZ2xtYjZicFBEd2hFNTFQTVlXeHNVXzhkTEZIR20tWW8xTjk5T05PcnFCNUNNMUJIVnZLQ2pITDZ2TWpSLXhOdU81S1ZNcV95TVBhdEdWTEdvQnliV0NUYzlBVVFSMEt3?oc=5",
+      "source": "조선일보",
+      "published_at_utc": "2026-11-20T00:28:35+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "South Korea's KOSPI Breaks Below 5,000 Intraday, Rebounds to 5,130 as Institutions Turn Buyers - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZRnhDOGw4dGtGUUdNNGsyUElEcWtnWEdYWDBFa3RBcXg5TjZCdjhnTFVUb2J2S1Y2RWhob2ZnNGxwZW5WMDhxSzl1Y0hmcURyb3NzRmZHUTJjQUIzRTBlZ182eEJkS0Z1TXBZVExreHNvbDFaSmc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-19T08:26:00+00:00"
+    },
+    {
+      "category": "korea",
       "title": "[Closing Market] KOSPI Rebounds Above 5,100 on Bargain Buying - Businesskorea",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZ1QwaHV6VWdqNmtReHVXS0dtdmEtbjVvdzRqMzY2MC1ka3d6Qkh0aDlSY2VGUnZPMmd2bTRPM2pKR2hYZTdQcl9BOExsaTB1UHFON19HVnprT0E3MXdhUzRCcDFGWkhIbXdUUkttWUdjR0M4?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-19T08:47:57+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "South Korea's KOSPI Posts 638 Trillion Won in 9-Month Operating Profit; Samsung Electronics, SK Hynix Drive 83% of Gain - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-18T03:36:00+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "[Closing Market] KOSPI Reclaims 5,000 Level After Nvidia Beats Estimates - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81QVpDc0RLQUxVei1xZGRBb0E1a0U3djBWN3F1M2pnT1BKY2J4SHhSY3R2VGZjNXVXSHhaTGI5ZkE1SlV0NjhUblNvSWl4c3Y1c3hlbEl6VGVPNUE2dVd6LVZReVMtQUw5TUNld2xCUklCdmcy?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-18T08:18:17+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "KOSPI-Listed Firms Top 250 Trillion Won in Q3 Operating Profit - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRmw1RXJrNUZCT0tWeG0zVXk3dGZrWEd4T1Q4MDNfSzVhV2QxT0FlWGVnVG9kLTJUYnd3N2hyd05fZEZtOWVDUG1hRl9DU1Z0RFZOWlJzMjNwNkVmN3JNMjBEdGkwc1pHOElvTzVlMWRMT0Nn?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-18T04:05:11+00:00"
     }
   ],
   "warnings": []

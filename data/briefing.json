@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-20T02:39:49.381965+00:00",
-  "generated_at_kst": "2026-11-20T11:39:49.381965+09:00",
+  "generated_at_utc": "2026-11-20T02:58:24.285582+00:00",
+  "generated_at_kst": "2026-11-20T11:58:24.285582+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,19 +22,43 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.622,
+      "change_percent": 0.637,
       "reference_direction": "주의"
     }
   ],
   "headlines": [
+    {
+      "title": "[Opening Market] KOSPI Tumbles Past 5,000 Amid AI Stock Rout - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxbUNYcGRHZjV4WUQ1N01HcS02cW1KRW5WYTU4cHJsVWJ5WlRWU3FianRSUWlxclV2UmFKVFNjQUt5b0pTUVBESElzLVJSV1BOV0I1OWM1S2U1c1Z2S0k5c3F2UkhLT3hVX0x2bG1aVFFHS1Nw?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-20T01:46:26+00:00",
+      "category": "korea",
+      "age_hours": 1.2,
+      "freshness_score": 98,
+      "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Domestic Investor Deposits Hit Yearly Low - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNTNtVHlhOVNwVFJTaXNiNzlyejRxak5FS0JneVd1YkdHYS03OE1EZ2xtYjZicFBEd2hFNTFQTVlXeHNVXzhkTEZIR20tWW8xTjk5T05PcnFCNUNNMUJIVnZLQ2pITDZ2TWpSLXhOdU81S1ZNcV95TVBhdEdWTEdvQnliV0NUYzlBVVFSMEt3?oc=5",
+      "source": "조선일보",
+      "published_at_utc": "2026-11-20T00:28:35+00:00",
+      "category": "korea",
+      "age_hours": 2.5,
+      "freshness_score": 95,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
     {
       "title": "Is the stock market in a correction? The Nasdaq is, the Dow is a step away and the S&P 500 is 8% off - Nacionale",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2Z4amk3SnY0SnJWSXN3R0luLXlXY1lQbld6SWlLcHVLM0pUVGVHWHNRUGtUS3VKZFgzYk1OLVFIdEp0NDk1c2V4STY0Mk9CbjV3ZF9lQzFfVmNySzR3XzZiZk9pVHJYdDNWQTY3ck8xenNGOENXSF95OHUzWVpHZ0U5MHNodHZHekJnZjdzOWV6X3N0emVJbWxmNmNvdExmRkRjWHRpN2lyMkNmYW10clNzS2x3LVZu?oc=5",
       "source": "Nacionale",
       "published_at_utc": "2026-11-20T00:31:38+00:00",
       "category": "us_market",
-      "age_hours": 2.1,
-      "freshness_score": 96,
+      "age_hours": 2.4,
+      "freshness_score": 95,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -44,7 +68,7 @@
       "source": "MSN",
       "published_at_utc": "2026-11-19T23:21:21+00:00",
       "category": "korea",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "freshness_score": 93,
       "headline_tone": "혼재/불명",
       "sectors": []
@@ -55,7 +79,7 @@
       "source": "The Globe and Mail",
       "published_at_utc": "2026-11-19T22:54:41+00:00",
       "category": "semiconductor",
-      "age_hours": 3.8,
+      "age_hours": 4.1,
       "freshness_score": 92,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -68,7 +92,7 @@
       "source": "Coinpaper",
       "published_at_utc": "2026-11-19T13:48:16+00:00",
       "category": "semiconductor",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "freshness_score": 74,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -81,8 +105,8 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-19T13:42:00+00:00",
       "category": "us_market",
-      "age_hours": 13.0,
-      "freshness_score": 74,
+      "age_hours": 13.3,
+      "freshness_score": 73,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -92,8 +116,8 @@
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-19T12:02:01+00:00",
       "category": "semiconductor",
-      "age_hours": 14.6,
-      "freshness_score": 71,
+      "age_hours": 14.9,
+      "freshness_score": 70,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -105,7 +129,7 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-19T10:51:38+00:00",
       "category": "us_market",
-      "age_hours": 15.8,
+      "age_hours": 16.1,
       "freshness_score": 68,
       "headline_tone": "긍정 표현",
       "sectors": []
@@ -116,8 +140,8 @@
       "source": "TradingView",
       "published_at_utc": "2026-11-19T10:08:55+00:00",
       "category": "us_market",
-      "age_hours": 16.5,
-      "freshness_score": 67,
+      "age_hours": 16.8,
+      "freshness_score": 66,
       "headline_tone": "긍정 표현",
       "sectors": []
     },
@@ -127,8 +151,8 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-19T09:03:00+00:00",
       "category": "us_market",
-      "age_hours": 17.6,
-      "freshness_score": 65,
+      "age_hours": 17.9,
+      "freshness_score": 64,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -140,8 +164,19 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-19T08:47:57+00:00",
       "category": "korea",
-      "age_hours": 17.9,
+      "age_hours": 18.2,
       "freshness_score": 64,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "South Korea's KOSPI Breaks Below 5,000 Intraday, Rebounds to 5,130 as Institutions Turn Buyers - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZRnhDOGw4dGtGUUdNNGsyUElEcWtnWEdYWDBFa3RBcXg5TjZCdjhnTFVUb2J2S1Y2RWhob2ZnNGxwZW5WMDhxSzl1Y0hmcURyb3NzRmZHUTJjQUIzRTBlZ182eEJkS0Z1TXBZVExreHNvbDFaSmc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-19T08:26:00+00:00",
+      "category": "korea",
+      "age_hours": 18.5,
+      "freshness_score": 63,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
@@ -151,8 +186,8 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-18T15:12:33+00:00",
       "category": "semiconductor",
-      "age_hours": 35.5,
-      "freshness_score": 29,
+      "age_hours": 35.8,
+      "freshness_score": 28,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -164,45 +199,8 @@
       "source": "Anadolu Ajansı",
       "published_at_utc": "2026-11-18T13:13:46+00:00",
       "category": "semiconductor",
-      "age_hours": 37.4,
+      "age_hours": 37.7,
       "freshness_score": 25,
-      "headline_tone": "긍정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "[Closing Market] KOSPI Reclaims 5,000 Level After Nvidia Beats Estimates - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81QVpDc0RLQUxVei1xZGRBb0E1a0U3djBWN3F1M2pnT1BKY2J4SHhSY3R2VGZjNXVXSHhaTGI5ZkE1SlV0NjhUblNvSWl4c3Y1c3hlbEl6VGVPNUE2dVd6LVZReVMtQUw5TUNld2xCUklCdmcy?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-18T08:18:17+00:00",
-      "category": "korea",
-      "age_hours": 42.4,
-      "freshness_score": 15,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "KOSPI-Listed Firms Top 250 Trillion Won in Q3 Operating Profit - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRmw1RXJrNUZCT0tWeG0zVXk3dGZrWEd4T1Q4MDNfSzVhV2QxT0FlWGVnVG9kLTJUYnd3N2hyd05fZEZtOWVDUG1hRl9DU1Z0RFZOWlJzMjNwNkVmN3JNMjBEdGkwc1pHOElvTzVlMWRMT0Nn?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-18T04:05:11+00:00",
-      "category": "korea",
-      "age_hours": 46.6,
-      "freshness_score": 7,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "South Korea's KOSPI Posts 638 Trillion Won in 9-Month Operating Profit; Samsung Electronics, SK Hynix Drive 83% of Gain - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cGpnSWdJSHNRbFBOQnd3UXkwSndSMHF3SkxDT0lRd1R4UUdhNnhfb09ydGpzYWFFeEhVdXo2c2dWZTlxMzVTeUE5LXc4QkM2T0daRHNSc052OGRuZlJCYkRBbUdKbGQ5RFpyWGMydWQ4VlFCUEE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-18T03:36:00+00:00",
-      "category": "korea",
-      "age_hours": 47.1,
-      "freshness_score": 6,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
