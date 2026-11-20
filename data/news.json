@@ -1,44 +1,58 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-19T03:10:01.829937+00:00",
-  "generated_at_kst": "2026-11-19T12:10:01.829937+09:00",
+  "generated_at_utc": "2026-11-20T02:29:20.308387+00:00",
+  "generated_at_kst": "2026-11-20T11:29:20.308387+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
     {
       "category": "us_market",
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-18T10:28:00+00:00"
+      "title": "Is the stock market in a correction? The Nasdaq is, the Dow is a step away and the S&P 500 is 8% off - Nacionale",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2Z4amk3SnY0SnJWSXN3R0luLXlXY1lQbld6SWlLcHVLM0pUVGVHWHNRUGtUS3VKZFgzYk1OLVFIdEp0NDk1c2V4STY0Mk9CbjV3ZF9lQzFfVmNySzR3XzZiZk9pVHJYdDNWQTY3ck8xenNGOENXSF95OHUzWVpHZ0U5MHNodHZHekJnZjdzOWV6X3N0emVJbWxmNmNvdExmRkRjWHRpN2lyMkNmYW10clNzS2x3LVZu?oc=5",
+      "source": "Nacionale",
+      "published_at_utc": "2026-11-20T00:31:38+00:00"
     },
     {
       "category": "us_market",
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of FOMC Minutes— NVDA, AAOI, PANW in Focus (UPDATED) - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTDNIOUp4aWtOQ05CLW13U3Qxb3BBVng4R1VkQ1pQZnZFN3BRSVNxYmlwTVVtbWlJSkJQNE4tSXFIWGxNRTA2cFdEbEt4RzNhVVEtbWZhWXdDMnJnUnB4MGx5V0w5Q0hCZ1dMVFNYcHpyTGVtcHNiUEFXcnYxUWhtMjFKeGFtSU50ZWRSWjZteEZJczRKNXdheFBod1BzbXlkeHRxVC1ZX3ZDTmpGX0FSN3hqYXk5WWo3eExKa2ZIWmVibkVlcnZWdVZnVmxvaHp1VlJSUDEwODFndXRWbnZSLUNmd0F6a1pyb0plaUo4QVdKTVoxZ25WRGloeDJpYkgyd25ObXQtN092aFlW?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-18T13:41:07+00:00"
+      "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-19T10:51:38+00:00"
     },
     {
       "category": "us_market",
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd1hJVEJaZS1neDVWZk40eFYyV3dvaUU3ZTVJT3dlWk0tWi1LWHUxZGtfYUQ2b21iNTJ6ajVYeWd2OVpfcGk2RzJzZ3I4N3F2Rl9mNmJjY20xT3lXcUxKN1k3dHY2MmM1RlhvZm1xZGlUcVFiR2xjWWJZMFVHM2ZCc3hOYjZXZw?oc=5",
-      "source": "AOL.com",
-      "published_at_utc": "2026-11-18T21:35:52+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of Nvidia’s Q3 Earnings— CBR - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXRFNFFpU3YxcXBXWDlqSTdsUjNIQ3NtTGRMN053Q0M4VmZYbkhlekg5R0dVUUNSRXg4TVo4TDN2NGgtbVdfT2d0UzlJWFJ2NUNlT2tnQXY4eTNtTEVyZjdUNjJmVzFvaEs4WG5wWUJMcEppVDNIaXNjVHFUeGF1VTlIU3UtNDdkb21CWExIVW0tZFZjU1VRTWE0RlY3QzVxMklxY1ljR2l2ZU9manMyd0pqYlpBWFRqVmMyeHlwc29jSlJhZ1FwelNJbGlDNXo5TnY3bzVDLWJRenljcGxIS2FPVzQ0SzVFdEwzbjZZZw?oc=5",
+      "title": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Wall Street Awaits Anthropic’s Listing— PANW - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHl1UG5odS1iUllYWUlvM0NvMGM4c0dsZUhJdTNuN2dUdUE0Q01KLURSOE1Sd1N2akNuZ19VX3lqdWZvZjRsM183SW13aTBoYlhGZWZmV1RjcEhiQ09CdEhTS0EteVpLVThzVnlKRHVDSzM5Sl8tazl5Nmd6bHVqZkIzSjFBdFliMGFIY0pYS0ZVNlV6aDlqZVJqck5jRHJPZDk4Nm5xQXZnNTJOajJhaXhVcTdGdUdibk8tUEZCcWZZTnNXb2gzZF9yQWtJMVdWckhsa2poLWlydEFvV2V0WmFSLVNhRldqbzdOZHpIX1gwQ0tLTnc?oc=5",
       "source": "Benzinga",
-      "published_at_utc": "2026-11-17T13:40:00+00:00"
+      "published_at_utc": "2026-11-19T13:42:00+00:00"
     },
     {
       "category": "us_market",
-      "title": "S&P 500, Dow, Nasdaq Futures Power Ahead On Nvidia Outlook Beat — NVDA, TSLA, ANT In Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWXpCN2lvNjlwT016M0hzOWJ4OThDZkQ5YlJBMGtIamlXR0U5dGcwMUJGZzkyejZpS0xDTktDdlNIUWRrdFB3Z19VT1lJcjlDbDR3SjZWNFVpUUVIM19iN0FnQ1B0TTZOckE5RVhEMWphQ1hmNVVzZGN1a0JGdklDSzN6YzRDWFNlTTB3SVJlLW5pMjZBMzIzLU5HMmRUcGZ2eFJBbXpaYUJJeHNiNEpmWHZ6QkRWbW9tSlF0RThyaGFlWlZtalNFR2w4MFNGM0JwUGFsNXdxdEs0OC1VYlE?oc=5",
+      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-19T09:03:00+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's Listing— PANW, NTES, SLS in Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMk5KdE1ua0hoRUdTeFlkeV9yZHRVcU1aU2Jkckp3NFBoT01CQno1VmllNjh4MlZWVVJHWXFtaVFpMHVFaGVuZjBpVVVKcWhJY0t0dnV5UTAyZHZjaVlNYmgwLW1oSGwtVi1Zc1ZlaGdOM1QybGFKakx1Ulo4cndWMzB3RFBtOTdIamZuOS1iZlppWllndXAwcHhjRm0wVXRyN3dHVlZUWWlRZjQ4cXNUM29pOXJwcXIyNnZoVlp6aFF3ZU9lcm9KLWF3Ni16RGlFSG1NbThoaW83cVA5aEVvMmVSUUlzWjJhdXdpRjlQR0Mzb05UNFp3Si1CYw?oc=5",
       "source": "TradingView",
-      "published_at_utc": "2026-11-18T00:09:00+00:00"
+      "published_at_utc": "2026-11-19T10:08:55+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "This Beaten-Down Semiconductor Stock Could Soar in 2027 - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDNVRk9GbVhZQ25weFNxY01oc3ptQlY4S2R5SkdfTlRwM3I4QVdpaGJJaGZ4VHdUckpKaklUeWlvUm5JLVgycnlaTEVvQlRxT0Jxb2JZTnh0bVA1eDRQNjFnemk5Tl83dFI3UEk3bS1jSzQwU2I4aWt4UVZ1WU8zbWRETWpLdHItOEZGXzl0ejZiaG45U0YxMnN0bDRPS3FOUTB0MHA3bzhpMlczeFhYSFN4U2k0YmViZ3dFRkE3UGl3VW0yaHFhcC1MSGo1QnpSZzJEVVRkYw?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-19T22:54:41+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Not Nvidia. Not Broadcom. If I Could Buy and Hold Only 1 AI Chip Stock Through 2030, It Would Be This One - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnMzMkNkNWMwU01yLVU3UFlQanJVVDc4VGJGRUU3WVBybE1zTEpyRlhQRmZ6czhxU2VGdC1ZX2tBaE0ySU1vWmZHdWtUNkV6M3lzcS1GVWNWQkdpM3RBbzg3UkVhSDh2UDBhb1Z2QzBNMGNvdkNVSFpiMHdBa0w4c0tmNHkxejhreUtlTUhid0pXX2JWb3hWQ0l2SnJ5VkpWSmJTOWVaRXlYazlH?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-19T12:02:01+00:00"
     },
     {
       "category": "semiconductor",
@@ -49,45 +63,31 @@
     },
     {
       "category": "semiconductor",
-      "title": "Korean chip stocks slump despite Nvidia's strong earnings results - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TX2hudXdqUEFCMllEQy1ZeDE0TEFXd3NhRmZjMmlPX053UlNPZzdnUDh5ckgwaUNQN3R4d2VwODh0dFZtM3poWVFkcWk1NlZtRndDX2t4Yjc2eFluZGllRGEtSzBwN2JsTGNZbw?oc=5",
-      "source": "머니투데이",
-      "published_at_utc": "2026-11-19T02:39:26+00:00"
+      "title": "Nvidia, TSMC and Samsung Face China Chip Crackdown as Trump's New Restrictions Hit AI Industry - Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYnJwQjNKYXlHY3ROTEdJdExGSlRHcDNGSkRLbEtCYzlNZWhXOVBCd010NXh4anJtSmphcW94MzE4MXlCUVgxOU43alFwQjdPLXYtWksxQmpHSHU1SkROVHhwQVZrOUFxZDNTZzFJeWVOSTR4NWUwRGNPUEItRkgxNUZSYTFoYnhvbHBmckFwbno4aF8wajdybmRzSDFfMTh3MjRpeGNqRXcxVW55eDQ1Tm9XUTZJNFduN0p4SFNn?oc=5",
+      "source": "Coinpaper",
+      "published_at_utc": "2026-11-19T13:48:16+00:00"
     },
     {
       "category": "semiconductor",
-      "title": "Nvidia faces pressure over restrictions on AI chips - Inspenet",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81TVk0TVFZeTJDZXU0bDRiUGtEMk5rSmhlMkF4MXk4cjVoR05JaWI4ei13YTdxa3czTkUyWXctZzVYcUQwWGZGUGV6bi1Uay1FOGNlWVlQZ2NOX3dyRVF5cmI2dFlwV0JxNWFfQnZpMEJmM2ZOUno3Qlln?oc=5",
-      "source": "Inspenet",
-      "published_at_utc": "2026-11-17T20:34:28+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Semiconductor Stocks Rebound on Nvidia Earnings Surprise; Eyes Turn to Anthropic IPO - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91REFuaXZiX3JwMXcyVnVRMk5ybXlWXzR3VFRCVUZoTDFtZkpvVkVKdnFoNW1FMmg2QTR1b0RONTRsMWR1RXNIN0JGN2pOWTRJVmhtNy1NYUE5TnJXMlFwQ0M4dExkMlh1bkxYNnpVOGRnNFN6eFE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-18T01:25:00+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Not Nvidia. Not Broadcom. This Is the AI Chip Stock I’d Buy Before the Year Ends. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONUczN1VUSEo2bmJhVC1IRS1mLU9ZSlhvWWp4dW5pRi1yZHRtUC1vaVlCUXdOYlAwbHM2bC1lMkFoelR5ckFJbm91cVFPVWpCLVRIdzRoSEMweDRpUDBMV3dMVHpPWEFJLVY5SFYtYVNVV0Rpa21TaHRpQnpCcXZtM1R1Zkk3MDROMlNNRFZ2VXBUU29JMk5GTU1hUDVlcVphTjFRWkNnRVRfVFFzaVRJMHczSThmZTBEN3NLRg?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-17T17:00:02+00:00"
+      "title": "Asian chip stocks rebound after Nvidia earnings beat expectations - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ0owS25hU04td1o0dzU4X0ZKZk1xa3VtVWhjT2xBMjZ5aUlVbzJYbklXSXhPTzlZTkp0eURpdVd0Wkd3OUpmbEdCNExUTXNTb1VHbkEydVNkTkNMZlNuNDhJTF92UHY0R19VVXpILWFISTZkdW9QSTNiZ01NS0pNQzc0MzZpdm42U1BNUWV4VU9nVHFaTVBmSVhubFB2cE9UWVFkME5lcmdjZw?oc=5",
+      "source": "Anadolu Ajansı",
+      "published_at_utc": "2026-11-18T13:13:46+00:00"
     },
     {
       "category": "korea",
-      "title": "[Opening Market] Korean Stocks Turn Lower on Foreign, Institutional Selling - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01RlZtSHFZSlFoZnZfS1plVkI0STVWaHM2Ukk1cjFpa09RdDZ1OTAxNFJxLVVnT2lLOHF5RU1PY2RVSXlIczVvQ1N1eXhFa3NUZGNlNVFuRThfN21sNEpJd3lRMFZxTzNKRWJ3Z2ZMem45M1oy?oc=5",
+      "title": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUnlzVFZ6NzFQeTVIUWxobmt3VVRJa3MwQ21UdFRlTDFzbGY4VjZxYloxMktVbDB2MWdUaUdSS2ZiTHpDSDI4NzRFaE9UZk5NZXFCaTQ1c2c5Q3pLc0RvN0JRZ1dKN054SGdaUk5jazktOFY3aTR6ZDBRMldJWFdXdHduQnBNSWJ5dDdpTFhBYi13WDhjbHl6SFRGbTNfLXM3c3E1emJnZUt0bmN5V19DVjFsemRxSVEtVkc2UWJxcF9kSHc0Zm0wdDhBU0RfbmdXUnZkMEt0VVNCU254Wjlhc3Rzaw?oc=5",
+      "source": "MSN",
+      "published_at_utc": "2026-11-19T23:21:21+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "[Closing Market] KOSPI Rebounds Above 5,100 on Bargain Buying - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZ1QwaHV6VWdqNmtReHVXS0dtdmEtbjVvdzRqMzY2MC1ka3d6Qkh0aDlSY2VGUnZPMmd2bTRPM2pKR2hYZTdQcl9BOExsaTB1UHFON19HVnprT0E3MXdhUzRCcDFGWkhIbXdUUkttWUdjR0M4?oc=5",
       "source": "Businesskorea",
-      "published_at_utc": "2026-11-19T02:41:50+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Asian shares decline following stocks tumbled on Wall Street - WOWK 13 News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc3Q2dF9aV2Qzek42ZEdrMnNaM1N0ZTFFZ0N5NXFOWVZzY3o4MjBQN0lwclNjbm00d3ZtX0xuVTF1NDFCSk9UWVBfYjM0bFZxX29mLVR4UWFjLWlaX0xVcFJ3c2NMOUJhMTRFUGRlcG52S19jc3EtQWRrQnFmMndrNkxLV2xPYjhPNVktQXB4SjMxR2NrenV4NWFoVnFmNlhlZ0xINdIBqgFBVV95cUxPTTZ1c1l0TFl4VUFGNGE1U185amNXdTRDeU84OU94NEtHZHdKTURrLWgtZzVDY1pVdkFjenJrcVpWRWRUaHJucTNEVWZQWEYxSDVmbFFEMWtPMm82YUh6Q1hJN3k5Mko4U24zLW1DNFdmS0hOYmk2NlZxVW5aRjRpc2haUTJmSjZOY2hzNGVOejN6TnJGeDVaUjhnZDF2dnJpQkdjM0sxWkJpdw?oc=5",
-      "source": "WOWK 13 News",
-      "published_at_utc": "2026-11-17T09:07:03+00:00"
+      "published_at_utc": "2026-11-19T08:47:57+00:00"
     },
     {
       "category": "korea",
@@ -105,10 +105,10 @@
     },
     {
       "category": "korea",
-      "title": "Wall Street shakes again as Nvidia and other jittery AI stocks swing lower - LancasterOnline",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNUtvZ1MtallkbVR5SVctcE04aHZUdlJtMG1nLWJsanFsM1JOYThSMFhtcHphcmVCRk5rTThCX1A4NlZDSVMwYngtcktWTHJOSkgwbFdCT3ZXZWV5ZExndmUyR3ZDNENKSFphbW5Lc29SVG4zX1BRTm9VSHUyaHgzbXZtZVhSS1AtcVBGYnU0NXFSLW5FcDFfMUl1QVRlMmxqOFRzdlptUnU4N29RM0RvcTNoSFlwa3ZfNmdZTWQ3RllmeVgtdjV5US13MWJuRmNMVTMwQ1RQSFFiVnlTRzlXOEMzbWcyMlhCeDZwTDloMV9IQQ?oc=5",
-      "source": "LancasterOnline",
-      "published_at_utc": "2026-11-17T16:54:45+00:00"
+      "title": "KOSPI-Listed Firms Top 250 Trillion Won in Q3 Operating Profit - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRmw1RXJrNUZCT0tWeG0zVXk3dGZrWEd4T1Q4MDNfSzVhV2QxT0FlWGVnVG9kLTJUYnd3N2hyd05fZEZtOWVDUG1hRl9DU1Z0RFZOWlJzMjNwNkVmN3JNMjBEdGkwc1pHOElvTzVlMWRMT0Nn?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-18T04:05:11+00:00"
     }
   ],
   "warnings": []
