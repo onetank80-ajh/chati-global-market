@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-20T02:29:20.308387+00:00",
-  "generated_at_kst": "2026-11-20T11:29:20.308387+09:00",
+  "generated_at_utc": "2026-11-20T02:39:48.475603+00:00",
+  "generated_at_kst": "2026-11-20T11:39:48.475603+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -11,6 +11,13 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2Z4amk3SnY0SnJWSXN3R0luLXlXY1lQbld6SWlLcHVLM0pUVGVHWHNRUGtUS3VKZFgzYk1OLVFIdEp0NDk1c2V4STY0Mk9CbjV3ZF9lQzFfVmNySzR3XzZiZk9pVHJYdDNWQTY3ck8xenNGOENXSF95OHUzWVpHZ0U5MHNodHZHekJnZjdzOWV6X3N0emVJbWxmNmNvdExmRkRjWHRpN2lyMkNmYW10clNzS2x3LVZu?oc=5",
       "source": "Nacionale",
       "published_at_utc": "2026-11-20T00:31:38+00:00"
+    },
+    {
+      "category": "us_market",
+      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-19T09:03:00+00:00"
     },
     {
       "category": "us_market",
@@ -25,13 +32,6 @@
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHl1UG5odS1iUllYWUlvM0NvMGM4c0dsZUhJdTNuN2dUdUE0Q01KLURSOE1Sd1N2akNuZ19VX3lqdWZvZjRsM183SW13aTBoYlhGZWZmV1RjcEhiQ09CdEhTS0EteVpLVThzVnlKRHVDSzM5Sl8tazl5Nmd6bHVqZkIzSjFBdFliMGFIY0pYS0ZVNlV6aDlqZVJqck5jRHJPZDk4Nm5xQXZnNTJOajJhaXhVcTdGdUdibk8tUEZCcWZZTnNXb2gzZF9yQWtJMVdWckhsa2poLWlydEFvV2V0WmFSLVNhRldqbzdOZHpIX1gwQ0tLTnc?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-19T13:42:00+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-19T09:03:00+00:00"
     },
     {
       "category": "us_market",
