@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-20T11:39:45.200858+09:00",
+  "generated_at_kst": "2026-11-20T11:58:20.165433+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-20T11:39:45.094683+09:00",
-  "news_snapshot_at": "2026-11-20T11:29:20.308387+09:00",
+  "market_snapshot_at": "2026-11-20T11:58:20.041207+09:00",
+  "news_snapshot_at": "2026-11-20T11:55:06.228555+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-20T06:30:00+09:00",
-  "briefing_delay_minutes": 309.8,
-  "briefing_deadline_delay_minutes": 249.8,
+  "briefing_delay_minutes": 328.3,
+  "briefing_deadline_delay_minutes": 268.3,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-20T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.622,
+      "change_percent": 0.637,
       "market_date": "2026-11-20",
       "meaning": "원화 약세 방향"
     }
@@ -63,6 +63,12 @@
       "published_at_utc": "2026-11-20T00:31:38+00:00"
     },
     {
+      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-19T09:03:00+00:00"
+    },
+    {
       "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
       "source": "Yahoo Finance",
@@ -73,12 +79,6 @@
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHl1UG5odS1iUllYWUlvM0NvMGM4c0dsZUhJdTNuN2dUdUE0Q01KLURSOE1Sd1N2akNuZ19VX3lqdWZvZjRsM183SW13aTBoYlhGZWZmV1RjcEhiQ09CdEhTS0EteVpLVThzVnlKRHVDSzM5Sl8tazl5Nmd6bHVqZkIzSjFBdFliMGFIY0pYS0ZVNlV6aDlqZVJqck5jRHJPZDk4Nm5xQXZnNTJOajJhaXhVcTdGdUdibk8tUEZCcWZZTnNXb2gzZF9yQWtJMVdWckhsa2poLWlydEFvV2V0WmFSLVNhRldqbzdOZHpIX1gwQ0tLTnc?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-19T13:42:00+00:00"
-    },
-    {
-      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-19T09:03:00+00:00"
     },
     {
       "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's Listing— PANW, NTES, SLS in Focus - TradingView",
