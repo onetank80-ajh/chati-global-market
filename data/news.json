@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-23T02:00:09.082512+00:00",
-  "generated_at_kst": "2026-11-23T11:00:09.082512+09:00",
+  "generated_at_utc": "2026-11-23T02:25:56.637842+00:00",
+  "generated_at_kst": "2026-11-23T11:25:56.637842+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -21,10 +21,10 @@
     },
     {
       "category": "us_market",
-      "title": "S&P 500 forecast for 2027: Wall Street expects a rebound after an 11.6% drop fueled by AI fears - Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVUd5RzZ5ZVE5cnYtV3BVUEV5MkEtZExtelRVUUU2MFZBbHBSbmFieVlIM1NQRGh1N0dKWnJKSU9sUHI5VmxtbDVrQWhlZUlJY3ZoYTBzQ091TTk2U01yYnNWb05QaFpxaEdsLUV0bkVwa2F1OUNOQzdJN194ZE1CcUcybUFHbTFBNUJfVA?oc=5",
-      "source": "Beinsure",
-      "published_at_utc": "2026-11-21T09:58:33+00:00"
+      "title": "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbWMydm9FbVFNbEVhQVl6RHhuZnVYbzZ3UGE5clZSWWtHd0VnOWZvamxqbGMzVllwaXlqb09Za3FDaFhFMWFGYTN4ZktCSXF4TnNWN0J5VnJ1VFEtUmtIbVBYVVJtWkdxbGRUZ0tmREJtRkhlaVJ0dHlHcU16eEYwdTNvMUpkTEpHVjlqdzNoYk5TMHVtUHFwcjRVc3hGNEJx?oc=5",
+      "source": "Fortune",
+      "published_at_utc": "2026-11-22T00:02:00+00:00"
     },
     {
       "category": "us_market",
@@ -35,10 +35,10 @@
     },
     {
       "category": "us_market",
-      "title": "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbWMydm9FbVFNbEVhQVl6RHhuZnVYbzZ3UGE5clZSWWtHd0VnOWZvamxqbGMzVllwaXlqb09Za3FDaFhFMWFGYTN4ZktCSXF4TnNWN0J5VnJ1VFEtUmtIbVBYVVJtWkdxbGRUZ0tmREJtRkhlaVJ0dHlHcU16eEYwdTNvMUpkTEpHVjlqdzNoYk5TMHVtUHFwcjRVc3hGNEJx?oc=5",
-      "source": "Fortune",
-      "published_at_utc": "2026-11-22T00:02:00+00:00"
+      "title": "S&P 500 forecast for 2027: Wall Street expects a rebound after an 11.6% drop fueled by AI fears - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVUd5RzZ5ZVE5cnYtV3BVUEV5MkEtZExtelRVUUU2MFZBbHBSbmFieVlIM1NQRGh1N0dKWnJKSU9sUHI5VmxtbDVrQWhlZUlJY3ZoYTBzQ091TTk2U01yYnNWb05QaFpxaEdsLUV0bkVwa2F1OUNOQzdJN194ZE1CcUcybUFHbTFBNUJfVA?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-21T09:58:33+00:00"
     },
     {
       "category": "semiconductor",
@@ -46,6 +46,13 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOUZUTmFNWGdrZXVXZkhPTzJhR3g1YXFmN3ZIbGxsWTd6WVZlZTdvOUx1ZVB2OFJiTXRmdFpwN1NET29tMWhCOWxxY29WeGJoSlNXXzVUaXRPOFFiOFlUcnpHTUxPd2VwTGYwU1hQMGZ1YkZvbko2V0RFU1hEVHpDbnVIMmg3Y1FSX2U3enNUNlB6ZHM1bmJxUTg4X1RIeGZK?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-22T16:04:02+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Nvidia Just Delivered Incredible Results. Buy This Artificial Intelligence (AI) Stock Instead If You’re Still Worried About the Semiconductor Giant’s Future - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxONGVSVDRPNWxUVmRJWXFlZ19aSnVWQzloQjQ0T0NkcnpXV3dyOWgzcUdSdS05QXR4SWF2NzlUbUU3b0ZQQ1JGOTQ2dFA5MlhJSUxXLWd1NTVoaThYMWI5UGJMWWR1OThXQVRncXhGRjc0cHJfOGY0aWN2azZGUVdFbk4tN3VZdjhwNF9YQ2tVdVRVQURqTGlzQ1pXd0x6ZXRyQ1ZkU1dBbGY3ZGsySkJCVjBJSkdtSk5nYmRRRGI2TXNyVlNUZUtOYUM4QlhiVHlLVm5KSlVWYnBsVkRnYW9qN1Bkdlc5TnE3UmxrbmN0ZHJ0aVUyS0NHdlFmb1lmdDU5OG1CNUNaeTVUNzZiNVJYeHFoTEdzeHJTd0stMFBRbXh0Zw?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-22T09:14:02+00:00"
     },
     {
       "category": "semiconductor",
@@ -64,30 +71,30 @@
     {
       "category": "semiconductor",
       "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy for 2027? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMFlWdHVSRG5PeUp0OXRQUVVGWEFqTWNwWS1VY2pkenZkYnB5ZDNOa1pFTGRuVVNheHBhYkdfQkVQMHA1WnJyQ3JCYlRqMUZPakl3bk9GVnZ5M2RjZGFZMFphUG1TbmV2Ny15bnFhU3VRbkJYRGo2X2NCTVFVN0hGQkgxNWF2SUhFbllPeGNJTnlxSjF3amlmOW1pZVp0bmRxMU04RXlTVUFKY3JhUV9XWkhRcEZoQUhQc2s3LWFSM0tZTVMyckdrMWtqTDVvZ2U2X2dYeUk1T1VndWJ0YUw4bWQwbzVrR0RNVkE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVTVhQzV1am9RVFdBNWk3RGY5ZmVhMmp6X2padmQ4OF9EaHZnYnBzMEhMaDB6cG1fbXFjWlZDVkpxV1NTSEZNWHhBaW9JeEpudTBkc2pCaE8xdF85OEFSc0ZFdDgzTEtwU3VTWEs0VU13OWNXTllNWDVTd0t0V0I5c3UxR2x2WWU2NDBLSThjVTZsenRSX0x6Vkd6RkwwejY5c2hvb05NdHBOZEtmeVI0Q3V0SlUxd2RlaXM3bnhsQzRPODJ4ZGhSRDFHcE1Qd0FodGo5TmgtLUU3MWl6M3RJRmNGdFlnUy1mRnppbA?oc=5",
       "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-21T15:15:52+00:00"
-    },
-    {
-      "category": "semiconductor",
-      "title": "Is Micron the Next Nvidia? Why the 2026 \"Memory Crunch\" Makes MU Stock a Top AI Buy - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNUJ2aFRHTHd6WVZXaUZrUVlJODF1ZkotSmNFSllEYmtCa3VwN3dLRG41WTQ4VE4wZ1Y4NDMtMFkya1drdU1IVVU3WkpxLWtDUEtkRU50N29MUUEtckhVRXV0MFF0aVZIQ25OcjBXbHQ4a3VXOWtnSzhKa3Q1Z000dmI2d1Y1MEdZVlNSWkdRQkpYaER0YWNCcHdNVXhwYVpHUmZQMEJZejZrMlJ4WnJGVk1GT296TkpMaFVvUTlEWW1PS1ZWSFdfSFJVTkxsb3dNUkpYNw?oc=5",
-      "source": "TradingKey",
-      "published_at_utc": "2026-11-21T13:17:50+00:00"
+      "published_at_utc": "2026-11-21T15:19:07+00:00"
     },
     {
       "category": "korea",
-      "title": "South Korea’s stock market tumbles as AI bubble fears mount - Al Jazeera",
+      "title": "Asian stock markets tumble as AI bubble fears mount - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5",
       "source": "Al Jazeera",
-      "published_at_utc": "2026-11-23T00:21:10+00:00"
+      "published_at_utc": "2026-11-23T01:49:11+00:00"
     },
     {
       "category": "korea",
-      "title": "Stock Market Stabilization Fund: Market Bottom Signal? - 조선일보",
+      "title": "Stock Stabilization Fund Readied as Market Bottom Signal - 조선일보",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObmw1T2ltQWdibG4zQWZmSHpQZmQ3S2ZaN2FZQXFYRTg0cjUwbDJGcVJVM3Z2UklSV1BpVFVsbW1jZjFWNUZKbDlQRndWMzJpSVhWcEw3VDZadzA2bkhXSHlHbGNNLUtxV003Y205Ym52Q0wyVTRJMkJqM2Vmd3hPcDFSMEs0N2RJY0p4dmZR?oc=5",
       "source": "조선일보",
-      "published_at_utc": "2026-11-23T00:10:54+00:00"
+      "published_at_utc": "2026-11-23T01:48:01+00:00"
+    },
+    {
+      "category": "korea",
+      "title": "[Opening Market] KOSPI Sinks Back to 4,700 Level on AI-Led Rout - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RN2taNVg0bGVfY1FpNDFKc2MtUEs1bExIMEsyOGtYUFhQdEtkLUdQdzFEcTZxQ1BZT1BVZnNBT05DUllKSzktNFBkMWFnNW5hSEY5Y2pMc3k4RjQ1N0c1Sm1NNjZ4TWQ3RUpWODNjb2RKaGFt?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-23T02:14:32+00:00"
     },
     {
       "category": "korea",
@@ -102,13 +109,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VUHI3YkNUTHRJOTBhclN1WkIxbzhKZ0lGeHhFOFBId3pJdGNwUkc2R2xOS285bWwxRkkzdFFHUWc5YTZzNDl1TGY2MHRVYVdubGszMXFPUFRKRXJhQkp4LQ?oc=5",
       "source": "cwibc.co.id",
       "published_at_utc": "2026-11-23T01:29:40+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "South Korea's KOSPI Plunges 5%, Wiping Out approximately $2.4 Trillion in Market Cap; Opposition Blames Lee Jae-myung Government, Demands Special Counsel - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xd0RNVldoWHhNVFN5NnRFQW5KY1dYT2xhQ1ZCNmNkVllmQmJ2NXJ0S3F0a0VhWW9USnVzbExaVkxsVU9uQi1xT3g1OHhqRTBNQVBkdVFlVUwzTzZWUWd2cDZSeGdPZmRpTVpqUkI5SXBnTF82OUE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-21T10:25:00+00:00"
     }
   ],
   "warnings": []
