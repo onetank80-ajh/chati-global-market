@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-20T13:08:02.137901+09:00",
+  "generated_at_kst": "2026-11-23T10:54:08.764888+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-20T12:44:53.833281+09:00",
+  "market_snapshot_at": "2026-11-23T10:54:08.638142+09:00",
   "news_snapshot_at": "2026-11-20T11:58:23.008798+09:00",
-  "market_snapshot_age_hours": 0.39,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-20T06:30:00+09:00",
-  "briefing_delay_minutes": 398.0,
-  "briefing_deadline_delay_minutes": 338.0,
+  "scheduled_briefing_at_kst": "2026-11-23T06:30:00+09:00",
+  "briefing_delay_minutes": 264.1,
+  "briefing_deadline_delay_minutes": 204.1,
   "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-20T07:30:00+09:00",
+  "briefing_deadline_at_kst": "2026-11-23T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": -2.018,
-      "market_date": "2026-11-19",
+      "change_percent": -3.699,
+      "market_date": "2026-11-20",
       "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": -2.415,
-      "market_date": "2026-11-19",
+      "change_percent": -10.734,
+      "market_date": "2026-11-20",
       "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": 0.557,
-      "market_date": "2026-11-20",
+      "change_percent": 0.853,
+      "market_date": "2026-11-23",
       "meaning": "원화 약세 방향"
     }
   ],
@@ -40,7 +40,7 @@
         "SK하이닉스"
       ],
       "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
+      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
     },
     {
       "name": "미국 대형주 연동",
@@ -55,58 +55,10 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [
-    {
-      "title": "Is the stock market in a correction? The Nasdaq is, the Dow is a step away and the S&P 500 is 8% off - Nacionale",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2Z4amk3SnY0SnJWSXN3R0luLXlXY1lQbld6SWlLcHVLM0pUVGVHWHNRUGtUS3VKZFgzYk1OLVFIdEp0NDk1c2V4STY0Mk9CbjV3ZF9lQzFfVmNySzR3XzZiZk9pVHJYdDNWQTY3ck8xenNGOENXSF95OHUzWVpHZ0U5MHNodHZHekJnZjdzOWV6X3N0emVJbWxmNmNvdExmRkRjWHRpN2lyMkNmYW10clNzS2x3LVZu?oc=5",
-      "source": "Nacionale",
-      "published_at_utc": "2026-11-20T00:31:38+00:00"
-    },
-    {
-      "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-19T10:51:38+00:00"
-    },
-    {
-      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-19T09:03:00+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Wall Street Awaits Anthropic’s Listing— PANW - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHl1UG5odS1iUllYWUlvM0NvMGM4c0dsZUhJdTNuN2dUdUE0Q01KLURSOE1Sd1N2akNuZ19VX3lqdWZvZjRsM183SW13aTBoYlhGZWZmV1RjcEhiQ09CdEhTS0EteVpLVThzVnlKRHVDSzM5Sl8tazl5Nmd6bHVqZkIzSjFBdFliMGFIY0pYS0ZVNlV6aDlqZVJqck5jRHJPZDk4Nm5xQXZnNTJOajJhaXhVcTdGdUdibk8tUEZCcWZZTnNXb2gzZF9yQWtJMVdWckhsa2poLWlydEFvV2V0WmFSLVNhRldqbzdOZHpIX1gwQ0tLTnc?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-19T13:42:00+00:00"
-    },
-    {
-      "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's Listing— PANW, NTES, SLS in Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMk5KdE1ua0hoRUdTeFlkeV9yZHRVcU1aU2Jkckp3NFBoT01CQno1VmllNjh4MlZWVVJHWXFtaVFpMHVFaGVuZjBpVVVKcWhJY0t0dnV5UTAyZHZjaVlNYmgwLW1oSGwtVi1Zc1ZlaGdOM1QybGFKakx1Ulo4cndWMzB3RFBtOTdIamZuOS1iZlppWllndXAwcHhjRm0wVXRyN3dHVlZUWWlRZjQ4cXNUM29pOXJwcXIyNnZoVlp6aFF3ZU9lcm9KLWF3Ni16RGlFSG1NbThoaW83cVA5aEVvMmVSUUlzWjJhdXdpRjlQR0Mzb05UNFp3Si1CYw?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-19T10:08:55+00:00"
-    },
-    {
-      "title": "This Beaten-Down Semiconductor Stock Could Soar in 2027 - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDNVRk9GbVhZQ25weFNxY01oc3ptQlY4S2R5SkdfTlRwM3I4QVdpaGJJaGZ4VHdUckpKaklUeWlvUm5JLVgycnlaTEVvQlRxT0Jxb2JZTnh0bVA1eDRQNjFnemk5Tl83dFI3UEk3bS1jSzQwU2I4aWt4UVZ1WU8zbWRETWpLdHItOEZGXzl0ejZiaG45U0YxMnN0bDRPS3FOUTB0MHA3bzhpMlczeFhYSFN4U2k0YmViZ3dFRkE3UGl3VW0yaHFhcC1MSGo1QnpSZzJEVVRkYw?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-19T22:54:41+00:00"
-    },
-    {
-      "title": "Not Nvidia. Not Broadcom. If I Could Buy and Hold Only 1 AI Chip Stock Through 2030, It Would Be This One - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnMzMkNkNWMwU01yLVU3UFlQanJVVDc4VGJGRUU3WVBybE1zTEpyRlhQRmZ6czhxU2VGdC1ZX2tBaE0ySU1vWmZHdWtUNkV6M3lzcS1GVWNWQkdpM3RBbzg3UkVhSDh2UDBhb1Z2QzBNMGNvdkNVSFpiMHdBa0w4c0tmNHkxejhreUtlTUhid0pXX2JWb3hWQ0l2SnJ5VkpWSmJTOWVaRXlYazlH?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-19T12:02:01+00:00"
-    },
-    {
-      "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-18T15:12:33+00:00"
-    }
-  ],
-  "news_snapshot_fresh": true,
+  "headlines": [],
+  "news_snapshot_fresh": false,
   "warnings": [
+    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
