@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-20T02:58:24.285582+00:00",
-  "generated_at_kst": "2026-11-20T11:58:24.285582+09:00",
+  "generated_at_utc": "2026-11-23T01:54:12.940038+00:00",
+  "generated_at_kst": "2026-11-23T10:54:12.940038+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -12,196 +12,196 @@
   "market_signals": [
     {
       "indicator": "미국 대형주",
-      "change_percent": -2.018,
+      "change_percent": -3.699,
       "reference_direction": "주의"
     },
     {
       "indicator": "반도체",
-      "change_percent": -2.415,
+      "change_percent": -10.734,
       "reference_direction": "주의"
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.637,
+      "change_percent": 0.853,
       "reference_direction": "주의"
     }
   ],
   "headlines": [
     {
-      "title": "[Opening Market] KOSPI Tumbles Past 5,000 Amid AI Stock Rout - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxbUNYcGRHZjV4WUQ1N01HcS02cW1KRW5WYTU4cHJsVWJ5WlRWU3FianRSUWlxclV2UmFKVFNjQUt5b0pTUVBESElzLVJSV1BOV0I1OWM1S2U1c1Z2S0k5c3F2UkhLT3hVX0x2bG1aVFFHS1Nw?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-20T01:46:26+00:00",
+      "title": "South Korea Stocks Slide as AI Bubble Fears Deepen - cwibc.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VUHI3YkNUTHRJOTBhclN1WkIxbzhKZ0lGeHhFOFBId3pJdGNwUkc2R2xOS285bWwxRkkzdFFHUWc5YTZzNDl1TGY2MHRVYVdubGszMXFPUFRKRXJhQkp4LQ?oc=5",
+      "source": "cwibc.co.id",
+      "published_at_utc": "2026-11-23T01:29:40+00:00",
       "category": "korea",
-      "age_hours": 1.2,
-      "freshness_score": 98,
-      "headline_tone": "부정 표현",
+      "age_hours": 0.4,
+      "freshness_score": 99,
+      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "Domestic Investor Deposits Hit Yearly Low - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNTNtVHlhOVNwVFJTaXNiNzlyejRxak5FS0JneVd1YkdHYS03OE1EZ2xtYjZicFBEd2hFNTFQTVlXeHNVXzhkTEZIR20tWW8xTjk5T05PcnFCNUNNMUJIVnZLQ2pITDZ2TWpSLXhOdU81S1ZNcV95TVBhdEdWTEdvQnliV0NUYzlBVVFSMEt3?oc=5",
+      "title": "South Korea’s stock market tumbles as AI bubble fears mount - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5",
+      "source": "Al Jazeera",
+      "published_at_utc": "2026-11-23T00:21:10+00:00",
+      "category": "korea",
+      "age_hours": 1.6,
+      "freshness_score": 97,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Stock Market Stabilization Fund: Market Bottom Signal? - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObmw1T2ltQWdibG4zQWZmSHpQZmQ3S2ZaN2FZQXFYRTg0cjUwbDJGcVJVM3Z2UklSV1BpVFVsbW1jZjFWNUZKbDlQRndWMzJpSVhWcEw3VDZadzA2bkhXSHlHbGNNLUtxV003Y205Ym52Q0wyVTRJMkJqM2Vmd3hPcDFSMEs0N2RJY0p4dmZR?oc=5",
       "source": "조선일보",
-      "published_at_utc": "2026-11-20T00:28:35+00:00",
+      "published_at_utc": "2026-11-23T00:10:54+00:00",
       "category": "korea",
-      "age_hours": 2.5,
-      "freshness_score": 95,
+      "age_hours": 1.7,
+      "freshness_score": 97,
       "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "Is the stock market in a correction? The Nasdaq is, the Dow is a step away and the S&P 500 is 8% off - Nacionale",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2Z4amk3SnY0SnJWSXN3R0luLXlXY1lQbld6SWlLcHVLM0pUVGVHWHNRUGtUS3VKZFgzYk1OLVFIdEp0NDk1c2V4STY0Mk9CbjV3ZF9lQzFfVmNySzR3XzZiZk9pVHJYdDNWQTY3ck8xenNGOENXSF95OHUzWVpHZ0U5MHNodHZHekJnZjdzOWV6X3N0emVJbWxmNmNvdExmRkRjWHRpN2lyMkNmYW10clNzS2x3LVZu?oc=5",
-      "source": "Nacionale",
-      "published_at_utc": "2026-11-20T00:31:38+00:00",
+      "title": "US Inflation Report: Could PCE Data Trigger Another Stock Market Selloff? - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YQl8wMTMzX1QzRzJCOG5LSzB0UDJRWUJ1YXRHdVZhSVVETEVoaXItZ1kxRGJTc0ZQLXZJMFoySm92TnI4WVl3QmRFUWRYMkZSeTNlRlF3STlDRkV0N3Z4THJoSFhubEMzQWhJaGc4QjNOSldjeGlYRTQwbmViUQ?oc=5",
+      "source": "Stocks Down Under",
+      "published_at_utc": "2026-11-22T18:25:58+00:00",
       "category": "us_market",
-      "age_hours": 2.4,
-      "freshness_score": 95,
-      "headline_tone": "혼재/불명",
+      "age_hours": 7.5,
+      "freshness_score": 85,
+      "headline_tone": "부정 표현",
       "sectors": []
     },
     {
-      "title": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUnlzVFZ6NzFQeTVIUWxobmt3VVRJa3MwQ21UdFRlTDFzbGY4VjZxYloxMktVbDB2MWdUaUdSS2ZiTHpDSDI4NzRFaE9UZk5NZXFCaTQ1c2c5Q3pLc0RvN0JRZ1dKN054SGdaUk5jazktOFY3aTR6ZDBRMldJWFdXdHduQnBNSWJ5dDdpTFhBYi13WDhjbHl6SFRGbTNfLXM3c3E1emJnZUt0bmN5V19DVjFsemRxSVEtVkc2UWJxcF9kSHc0Zm0wdDhBU0RfbmdXUnZkMEt0VVNCU254Wjlhc3Rzaw?oc=5",
-      "source": "MSN",
-      "published_at_utc": "2026-11-19T23:21:21+00:00",
-      "category": "korea",
-      "age_hours": 3.6,
-      "freshness_score": 93,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "This Beaten-Down Semiconductor Stock Could Soar in 2027 - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDNVRk9GbVhZQ25weFNxY01oc3ptQlY4S2R5SkdfTlRwM3I4QVdpaGJJaGZ4VHdUckpKaklUeWlvUm5JLVgycnlaTEVvQlRxT0Jxb2JZTnh0bVA1eDRQNjFnemk5Tl83dFI3UEk3bS1jSzQwU2I4aWt4UVZ1WU8zbWRETWpLdHItOEZGXzl0ejZiaG45U0YxMnN0bDRPS3FOUTB0MHA3bzhpMlczeFhYSFN4U2k0YmViZ3dFRkE3UGl3VW0yaHFhcC1MSGo1QnpSZzJEVVRkYw?oc=5",
-      "source": "The Globe and Mail",
-      "published_at_utc": "2026-11-19T22:54:41+00:00",
-      "category": "semiconductor",
-      "age_hours": 4.1,
-      "freshness_score": 92,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Nvidia, TSMC and Samsung Face China Chip Crackdown as Trump's New Restrictions Hit AI Industry - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYnJwQjNKYXlHY3ROTEdJdExGSlRHcDNGSkRLbEtCYzlNZWhXOVBCd010NXh4anJtSmphcW94MzE4MXlCUVgxOU43alFwQjdPLXYtWksxQmpHSHU1SkROVHhwQVZrOUFxZDNTZzFJeWVOSTR4NWUwRGNPUEItRkgxNUZSYTFoYnhvbHBmckFwbno4aF8wajdybmRzSDFfMTh3MjRpeGNqRXcxVW55eDQ1Tm9XUTZJNFduN0p4SFNn?oc=5",
-      "source": "Coinpaper",
-      "published_at_utc": "2026-11-19T13:48:16+00:00",
-      "category": "semiconductor",
-      "age_hours": 13.2,
-      "freshness_score": 74,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Wall Street Awaits Anthropic’s Listing— PANW - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHl1UG5odS1iUllYWUlvM0NvMGM4c0dsZUhJdTNuN2dUdUE0Q01KLURSOE1Sd1N2akNuZ19VX3lqdWZvZjRsM183SW13aTBoYlhGZWZmV1RjcEhiQ09CdEhTS0EteVpLVThzVnlKRHVDSzM5Sl8tazl5Nmd6bHVqZkIzSjFBdFliMGFIY0pYS0ZVNlV6aDlqZVJqck5jRHJPZDk4Nm5xQXZnNTJOajJhaXhVcTdGdUdibk8tUEZCcWZZTnNXb2gzZF9yQWtJMVdWckhsa2poLWlydEFvV2V0WmFSLVNhRldqbzdOZHpIX1gwQ0tLTnc?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-19T13:42:00+00:00",
-      "category": "us_market",
-      "age_hours": 13.3,
-      "freshness_score": 73,
-      "headline_tone": "긍정 표현",
-      "sectors": []
-    },
-    {
-      "title": "Not Nvidia. Not Broadcom. If I Could Buy and Hold Only 1 AI Chip Stock Through 2030, It Would Be This One - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnMzMkNkNWMwU01yLVU3UFlQanJVVDc4VGJGRUU3WVBybE1zTEpyRlhQRmZ6czhxU2VGdC1ZX2tBaE0ySU1vWmZHdWtUNkV6M3lzcS1GVWNWQkdpM3RBbzg3UkVhSDh2UDBhb1Z2QzBNMGNvdkNVSFpiMHdBa0w4c0tmNHkxejhreUtlTUhid0pXX2JWb3hWQ0l2SnJ5VkpWSmJTOWVaRXlYazlH?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-19T12:02:01+00:00",
-      "category": "semiconductor",
-      "age_hours": 14.9,
-      "freshness_score": 70,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
+      "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028 - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOUZUTmFNWGdrZXVXZkhPTzJhR3g1YXFmN3ZIbGxsWTd6WVZlZTdvOUx1ZVB2OFJiTXRmdFpwN1NET29tMWhCOWxxY29WeGJoSlNXXzVUaXRPOFFiOFlUcnpHTUxPd2VwTGYwU1hQMGZ1YkZvbko2V0RFU1hEVHpDbnVIMmg3Y1FSX2U3enNUNlB6ZHM1bmJxUTg4X1RIeGZK?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-19T10:51:38+00:00",
-      "category": "us_market",
-      "age_hours": 16.1,
-      "freshness_score": 68,
-      "headline_tone": "긍정 표현",
+      "published_at_utc": "2026-11-22T16:04:02+00:00",
+      "category": "semiconductor",
+      "age_hours": 9.8,
+      "freshness_score": 80,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here’s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction. - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOS1ZpN2cxeFdkVmNPMGFYQjZhWFBYdXE4TkFiX1h5ZGlTS21fZUwtRHlSUkk2b3lsZEF2M3llVy1mLW9vbEo0OWo1QWhpQ1R6OXB5R01hMnZIcE1PUTQ3MnRyZV9FeV9RM1gzZVZUZlprQ1UtQ2FlQl9KSC1jdlRYWVkyRkVJc3Q3ZVUxU1dhNXhHMjJfbkJPZjBFcVNxbGI4WEtYenR2QnZITjBiV210R0NiOVFRenZMdWQ4al9PdFVVVksxTU15Nms3SXlKbTJDSFpUUkQzZXU5NzA3bVE5Z3gxWE1aRWZmYUUyVGc1aHZkZVZGT2hld2JsakxNeTI4anBPa3hDbUh0LVNwQTdKTjFKc3hMWElhQ1N1cnMwbFAtLV95bk5VMDNuSF9OeXRGZ0U5Z2dCZkRCcERG?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-22T14:03:02+00:00",
+      "category": "semiconductor",
+      "age_hours": 11.9,
+      "freshness_score": 76,
+      "headline_tone": "혼재/불명",
       "sectors": []
     },
     {
-      "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's Listing— PANW, NTES, SLS in Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMk5KdE1ua0hoRUdTeFlkeV9yZHRVcU1aU2Jkckp3NFBoT01CQno1VmllNjh4MlZWVVJHWXFtaVFpMHVFaGVuZjBpVVVKcWhJY0t0dnV5UTAyZHZjaVlNYmgwLW1oSGwtVi1Zc1ZlaGdOM1QybGFKakx1Ulo4cndWMzB3RFBtOTdIamZuOS1iZlppWllndXAwcHhjRm0wVXRyN3dHVlZUWWlRZjQ4cXNUM29pOXJwcXIyNnZoVlp6aFF3ZU9lcm9KLWF3Ni16RGlFSG1NbThoaW83cVA5aEVvMmVSUUlzWjJhdXdpRjlQR0Mzb05UNFp3Si1CYw?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-19T10:08:55+00:00",
-      "category": "us_market",
-      "age_hours": 16.8,
-      "freshness_score": 66,
-      "headline_tone": "긍정 표현",
-      "sectors": []
-    },
-    {
-      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-11-19T09:03:00+00:00",
+      "published_at_utc": "2026-11-22T12:22:12+00:00",
       "category": "us_market",
-      "age_hours": 17.9,
-      "freshness_score": 64,
+      "age_hours": 13.5,
+      "freshness_score": 73,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "South Korea prepares market stabilization funds after KOSPI hits 10-month low - The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbUQxNUw1c21yTFY3LUxTT2dBWEthQzJpRkwwQS10YUxabTVBb1RiWmQ2dXlSNU9fVUNSUTZoWDl4el8tWHUxN1ZWUkFBa0o3OV9laVQwQWlUZ3VHSzhXbGtjOG01MFZ2Q2szSVhHMzd0UkJyM2d1bGZzU2dJM2pRdXpBUVhTTC1jWmFTdDZha3k1M2hReGJtbnJ2U3FPd05kLS0zOTdSM25nUW12QWRsUzhzRktFbDZSd1loa014QmdKcExlQWFmUk1IUQ?oc=5",
+      "source": "The Standard (HK)",
+      "published_at_utc": "2026-11-22T11:55:14+00:00",
+      "category": "korea",
+      "age_hours": 14.0,
+      "freshness_score": 72,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Nvidia's Fall Shakes the AI Chip Industry - varindia",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DLVZTaU83Z1UtMHcxNVVqT3JWdnlWaTJ5ODItbC1WdlE2dFo1TVZTVTVhS2tod1hRdXFnTnljRWt1bFVOMVRHdG5GVUpfRjhUZm9odzRxTFZqUi1XZ3JaQmNRaUxuTF9fUDZURml0cmh3dXd0M0dDenFFcw?oc=5",
+      "source": "varindia",
+      "published_at_utc": "2026-11-22T10:51:51+00:00",
+      "category": "semiconductor",
+      "age_hours": 15.0,
+      "freshness_score": 70,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "[Closing Market] KOSPI Rebounds Above 5,100 on Bargain Buying - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZ1QwaHV6VWdqNmtReHVXS0dtdmEtbjVvdzRqMzY2MC1ka3d6Qkh0aDlSY2VGUnZPMmd2bTRPM2pKR2hYZTdQcl9BOExsaTB1UHFON19HVnprT0E3MXdhUzRCcDFGWkhIbXdUUkttWUdjR0M4?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-19T08:47:57+00:00",
-      "category": "korea",
-      "age_hours": 18.2,
-      "freshness_score": 64,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "South Korea's KOSPI Breaks Below 5,000 Intraday, Rebounds to 5,130 as Institutions Turn Buyers - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZRnhDOGw4dGtGUUdNNGsyUElEcWtnWEdYWDBFa3RBcXg5TjZCdjhnTFVUb2J2S1Y2RWhob2ZnNGxwZW5WMDhxSzl1Y0hmcURyb3NzRmZHUTJjQUIzRTBlZ182eEJkS0Z1TXBZVExreHNvbDFaSmc?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-19T08:26:00+00:00",
-      "category": "korea",
-      "age_hours": 18.5,
-      "freshness_score": 63,
-      "headline_tone": "혼재/불명",
-      "sectors": []
-    },
-    {
-      "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-18T15:12:33+00:00",
+      "title": "Nvidia Just Delivered Incredible Results. Buy This Artificial Intelligence (AI) Stock Instead If You’re Still Worried About the Semiconductor Giant’s Future - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxONGVSVDRPNWxUVmRJWXFlZ19aSnVWQzloQjQ0T0NkcnpXV3dyOWgzcUdSdS05QXR4SWF2NzlUbUU3b0ZQQ1JGOTQ2dFA5MlhJSUxXLWd1NTVoaThYMWI5UGJMWWR1OThXQVRncXhGRjc0cHJfOGY0aWN2azZGUVdFbk4tN3VZdjhwNF9YQ2tVdVRVQURqTGlzQ1pXd0x6ZXRyQ1ZkU1dBbGY3ZGsySkJCVjBJSkdtSk5nYmRRRGI2TXNyVlNUZUtOYUM4QlhiVHlLVm5KSlVWYnBsVkRnYW9qN1Bkdlc5TnE3UmxrbmN0ZHJ0aVUyS0NHdlFmb1lmdDU5OG1CNUNaeTVUNzZiNVJYeHFoTEdzeHJTd0stMFBRbXh0Zw?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-22T09:14:02+00:00",
       "category": "semiconductor",
-      "age_hours": 35.8,
-      "freshness_score": 28,
+      "age_hours": 16.7,
+      "freshness_score": 67,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
     },
     {
-      "title": "Asian chip stocks rebound after Nvidia earnings beat expectations - Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ0owS25hU04td1o0dzU4X0ZKZk1xa3VtVWhjT2xBMjZ5aUlVbzJYbklXSXhPTzlZTkp0eURpdVd0Wkd3OUpmbEdCNExUTXNTb1VHbkEydVNkTkNMZlNuNDhJTF92UHY0R19VVXpILWFISTZkdW9QSTNiZ01NS0pNQzc0MzZpdm42U1BNUWV4VU9nVHFaTVBmSVhubFB2cE9UWVFkME5lcmdjZw?oc=5",
-      "source": "Anadolu Ajansı",
-      "published_at_utc": "2026-11-18T13:13:46+00:00",
+      "title": "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbWMydm9FbVFNbEVhQVl6RHhuZnVYbzZ3UGE5clZSWWtHd0VnOWZvamxqbGMzVllwaXlqb09Za3FDaFhFMWFGYTN4ZktCSXF4TnNWN0J5VnJ1VFEtUmtIbVBYVVJtWkdxbGRUZ0tmREJtRkhlaVJ0dHlHcU16eEYwdTNvMUpkTEpHVjlqdzNoYk5TMHVtUHFwcjRVc3hGNEJx?oc=5",
+      "source": "Fortune",
+      "published_at_utc": "2026-11-22T00:02:00+00:00",
+      "category": "us_market",
+      "age_hours": 25.9,
+      "freshness_score": 48,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy for 2027? - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMFlWdHVSRG5PeUp0OXRQUVVGWEFqTWNwWS1VY2pkenZkYnB5ZDNOa1pFTGRuVVNheHBhYkdfQkVQMHA1WnJyQ3JCYlRqMUZPakl3bk9GVnZ5M2RjZGFZMFphUG1TbmV2Ny15bnFhU3VRbkJYRGo2X2NCTVFVN0hGQkgxNWF2SUhFbllPeGNJTnlxSjF3amlmOW1pZVp0bmRxMU04RXlTVUFKY3JhUV9XWkhRcEZoQUhQc2s3LWFSM0tZTVMyckdrMWtqTDVvZ2U2X2dYeUk1T1VndWJ0YUw4bWQwbzVrR0RNVkE?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-21T15:15:52+00:00",
       "category": "semiconductor",
-      "age_hours": 37.7,
-      "freshness_score": 25,
-      "headline_tone": "긍정 표현",
+      "age_hours": 34.6,
+      "freshness_score": 31,
+      "headline_tone": "혼재/불명",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "A 10% drop for the stock market is unnerving, but it's not that unusual - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1pNzhXYU5zdjVDa2s4WEtmcU9UV2gxdlF5RnJmYVAxdTh2dnJLSEZOWlN1ZGFTc1VCS0VncGJEcjF1R0tsbHhaOWhrZ25IZFVneGVIelpnNWpKX1UwbldId1docGIyNjU4QUdqcVp1a2lhUUVWRFpDalZLZ1psY3ZGR2dmQ0FaY1h3aFJDTHlDX2J5TjRzS2pqOA?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-21T14:01:56+00:00",
+      "category": "us_market",
+      "age_hours": 35.9,
+      "freshness_score": 28,
+      "headline_tone": "부정 표현",
+      "sectors": []
+    },
+    {
+      "title": "South Korea's KOSPI Plunges 5%, Wiping Out approximately $2.4 Trillion in Market Cap; Opposition Blames Lee Jae-myung Government, Demands Special Counsel - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xd0RNVldoWHhNVFN5NnRFQW5KY1dYT2xhQ1ZCNmNkVllmQmJ2NXJ0S3F0a0VhWW9USnVzbExaVkxsVU9uQi1xT3g1OHhqRTBNQVBkdVFlVUwzTzZWUWd2cDZSeGdPZmRpTVpqUkI5SXBnTF82OUE?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-21T10:25:00+00:00",
+      "category": "korea",
+      "age_hours": 39.5,
+      "freshness_score": 21,
+      "headline_tone": "혼재/불명",
+      "sectors": []
+    },
+    {
+      "title": "S&P 500 forecast for 2027: Wall Street expects a rebound after an 11.6% drop fueled by AI fears - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVUd5RzZ5ZVE5cnYtV3BVUEV5MkEtZExtelRVUUU2MFZBbHBSbmFieVlIM1NQRGh1N0dKWnJKSU9sUHI5VmxtbDVrQWhlZUlJY3ZoYTBzQ091TTk2U01yYnNWb05QaFpxaEdsLUV0bkVwa2F1OUNOQzdJN194ZE1CcUcybUFHbTFBNUJfVA?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-21T09:58:33+00:00",
+      "category": "us_market",
+      "age_hours": 39.9,
+      "freshness_score": 20,
+      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
