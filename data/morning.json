@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-23T10:54:08.764888+09:00",
+  "generated_at_kst": "2026-11-23T11:00:05.437299+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-23T10:54:08.638142+09:00",
-  "news_snapshot_at": "2026-11-20T11:58:23.008798+09:00",
+  "market_snapshot_at": "2026-11-23T11:00:05.313394+09:00",
+  "news_snapshot_at": "2026-11-23T10:54:11.738972+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-23T06:30:00+09:00",
-  "briefing_delay_minutes": 264.1,
-  "briefing_deadline_delay_minutes": 204.1,
+  "briefing_delay_minutes": 270.1,
+  "briefing_deadline_delay_minutes": 210.1,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-23T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.853,
+      "change_percent": 0.892,
       "market_date": "2026-11-23",
       "meaning": "원화 약세 방향"
     }
@@ -40,7 +40,7 @@
         "SK하이닉스"
       ],
       "view": "변동성 주의",
-      "basis": "필라델피아 반도체지수(최근 뉴스 근거 없음)"
+      "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
@@ -55,10 +55,58 @@
       "basis": "원/달러 환율 변화"
     }
   ],
-  "headlines": [],
-  "news_snapshot_fresh": false,
+  "headlines": [
+    {
+      "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-22T12:22:12+00:00"
+    },
+    {
+      "title": "US Inflation Report: Could PCE Data Trigger Another Stock Market Selloff? - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YQl8wMTMzX1QzRzJCOG5LSzB0UDJRWUJ1YXRHdVZhSVVETEVoaXItZ1kxRGJTc0ZQLXZJMFoySm92TnI4WVl3QmRFUWRYMkZSeTNlRlF3STlDRkV0N3Z4THJoSFhubEMzQWhJaGc4QjNOSldjeGlYRTQwbmViUQ?oc=5",
+      "source": "Stocks Down Under",
+      "published_at_utc": "2026-11-22T18:25:58+00:00"
+    },
+    {
+      "title": "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbWMydm9FbVFNbEVhQVl6RHhuZnVYbzZ3UGE5clZSWWtHd0VnOWZvamxqbGMzVllwaXlqb09Za3FDaFhFMWFGYTN4ZktCSXF4TnNWN0J5VnJ1VFEtUmtIbVBYVVJtWkdxbGRUZ0tmREJtRkhlaVJ0dHlHcU16eEYwdTNvMUpkTEpHVjlqdzNoYk5TMHVtUHFwcjRVc3hGNEJx?oc=5",
+      "source": "Fortune",
+      "published_at_utc": "2026-11-22T00:02:00+00:00"
+    },
+    {
+      "title": "A 10% drop for the stock market is unnerving, but it's not that unusual - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1pNzhXYU5zdjVDa2s4WEtmcU9UV2gxdlF5RnJmYVAxdTh2dnJLSEZOWlN1ZGFTc1VCS0VncGJEcjF1R0tsbHhaOWhrZ25IZFVneGVIelpnNWpKX1UwbldId1docGIyNjU4QUdqcVp1a2lhUUVWRFpDalZLZ1psY3ZGR2dmQ0FaY1h3aFJDTHlDX2J5TjRzS2pqOA?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-21T14:01:56+00:00"
+    },
+    {
+      "title": "S&P 500 forecast for 2027: Wall Street expects a rebound after an 11.6% drop fueled by AI fears - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVUd5RzZ5ZVE5cnYtV3BVUEV5MkEtZExtelRVUUU2MFZBbHBSbmFieVlIM1NQRGh1N0dKWnJKSU9sUHI5VmxtbDVrQWhlZUlJY3ZoYTBzQ091TTk2U01yYnNWb05QaFpxaEdsLUV0bkVwa2F1OUNOQzdJN194ZE1CcUcybUFHbTFBNUJfVA?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-21T09:58:33+00:00"
+    },
+    {
+      "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028 - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOUZUTmFNWGdrZXVXZkhPTzJhR3g1YXFmN3ZIbGxsWTd6WVZlZTdvOUx1ZVB2OFJiTXRmdFpwN1NET29tMWhCOWxxY29WeGJoSlNXXzVUaXRPOFFiOFlUcnpHTUxPd2VwTGYwU1hQMGZ1YkZvbko2V0RFU1hEVHpDbnVIMmg3Y1FSX2U3enNUNlB6ZHM1bmJxUTg4X1RIeGZK?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-22T16:04:02+00:00"
+    },
+    {
+      "title": "Nvidia Just Delivered Incredible Results. Buy This Artificial Intelligence (AI) Stock Instead If You’re Still Worried About the Semiconductor Giant’s Future - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxONGVSVDRPNWxUVmRJWXFlZ19aSnVWQzloQjQ0T0NkcnpXV3dyOWgzcUdSdS05QXR4SWF2NzlUbUU3b0ZQQ1JGOTQ2dFA5MlhJSUxXLWd1NTVoaThYMWI5UGJMWWR1OThXQVRncXhGRjc0cHJfOGY0aWN2azZGUVdFbk4tN3VZdjhwNF9YQ2tVdVRVQURqTGlzQ1pXd0x6ZXRyQ1ZkU1dBbGY3ZGsySkJCVjBJSkdtSk5nYmRRRGI2TXNyVlNUZUtOYUM4QlhiVHlLVm5KSlVWYnBsVkRnYW9qN1Bkdlc5TnE3UmxrbmN0ZHJ0aVUyS0NHdlFmb1lmdDU5OG1CNUNaeTVUNzZiNVJYeHFoTEdzeHJTd0stMFBRbXh0Zw?oc=5",
+      "source": "The Motley Fool",
+      "published_at_utc": "2026-11-22T09:14:02+00:00"
+    },
+    {
+      "title": "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here’s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction. - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOS1ZpN2cxeFdkVmNPMGFYQjZhWFBYdXE4TkFiX1h5ZGlTS21fZUwtRHlSUkk2b3lsZEF2M3llVy1mLW9vbEo0OWo1QWhpQ1R6OXB5R01hMnZIcE1PUTQ3MnRyZV9FeV9RM1gzZVZUZlprQ1UtQ2FlQl9KSC1jdlRYWVkyRkVJc3Q3ZVUxU1dhNXhHMjJfbkJPZjBFcVNxbGI4WEtYenR2QnZITjBiV210R0NiOVFRenZMdWQ4al9PdFVVVksxTU15Nms3SXlKbTJDSFpUUkQzZXU5NzA3bVE5Z3gxWE1aRWZmYUUyVGc1aHZkZVZGT2hld2JsakxNeTI4anBPa3hDbUh0LVNwQTdKTjFKc3hMWElhQ1N1cnMwbFAtLV95bk5VMDNuSF9OeXRGZ0U5Z2dCZkRCcERG?oc=5",
+      "source": "The Globe and Mail",
+      "published_at_utc": "2026-11-22T14:03:02+00:00"
+    }
+  ],
+  "news_snapshot_fresh": true,
   "warnings": [
-    "뉴스 수집 시각이 오래되었거나 확인되지 않아 이전 헤드라인을 숨겼습니다.",
     "오전 7시 30분 브리핑 게시 목표 시각을 넘겼습니다.",
     "기존 market.json/news.json 스냅샷을 바탕으로 생성",
     "기사 본문 미검증, AI 번역·요약 아님",
