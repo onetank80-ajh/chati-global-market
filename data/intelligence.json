@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-24T05:53:08.494338+00:00",
+  "generated_at_utc": "2026-11-24T07:00:09.176171+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
   "headline_count_after": 15,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-24T14:53:08.388288+09:00",
+  "market_snapshot_at": "2026-11-24T15:26:35.744101+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": 4.729,
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": -0.141,
+      "change_percent": -0.106,
       "market_date": "2026-11-24",
       "status": "ok"
     },
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZjRHSlJwRFI0SU1sd2RWZHlidUJoR1FyTUFLSlc0M2RVZVRxN003M21hNk1ySlNfSU5IQ05hdU45cUtKaVlTUlhKX3p3RjM5RkNPd2JBUTJmNS05NXIwZ2todkpjUWtoR0hCLWxmbUVPdHBLRlFhRVdUODVqaG4yX2hsTkFLZWFkSi15aGF2NFNWT053dnZRMzJ3OGlOS2U1eVhTaWpVME9tZk0?oc=5",
       "source": "MLQ.ai",
       "published_at_utc": "2026-11-24T03:19:00+00:00",
-      "age_hours": 2.6,
-      "relevance_score": 80,
+      "age_hours": 3.7,
+      "relevance_score": 79,
       "tags": [
         "한국시장 직접언급",
         "반도체/AI"
@@ -71,7 +71,7 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM1dwVUNoRlNiQ01EXzI1S0xrTC1DckdPeUEtQl9iNm1YT0RUS0p2dXBsbXdZdGRpV2c1VlVZdUpZR1JsbWhFMFFpQW1ndlZHU2hKdmhOeHZQaVNuQl9QRmIyRi04Rk9TSHRFMy02U2JfRUI1VnBFcFBjUGllMkJZctIBlAFBVV95cUxOQ1ZfeFRZcjRfdmhfdzc4eDJaWlpnQXhVZVMwV0sxU29Tb2NJbnBnM1N6ZVVlOEg5cFdjV2haWS1kV3QwVDBFcVRMbVF6Y3BZNmhjN1RuTGxITEU0Ti1KOU85UmpWR0tObXRDRGV4UVl0WWdBYjg3czQ2SThqSTJ2SmhWVng4aVpUQXZjT1ZBM2tsQ3Vt?oc=5",
       "source": "Chosunbiz",
       "published_at_utc": "2026-11-23T23:32:00+00:00",
-      "age_hours": 6.4,
+      "age_hours": 7.5,
       "relevance_score": 78,
       "tags": [
         "한국시장 직접언급",
@@ -85,8 +85,8 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXgtZnR2c0tsWE1NaG9QM2ZBbUJjeFFIN0MtRUpta2s5U2l4bnpsLVZ3ejd5cG84cUttRFJsM21NbTk5UXJJbVNsd0ROTjZmcERHMnV4a3gwV19OdFk2NUQzZEhUaGF5Mk9HMXlRWjl3ZGdGMmlQQzFqS2hPck1RN1JBbXB6N0JOUmdUWmxBenJ0UnpNbEZr?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-23T09:41:19+00:00",
-      "age_hours": 20.2,
-      "relevance_score": 69,
+      "age_hours": 21.3,
+      "relevance_score": 68,
       "tags": [
         "반도체/AI",
         "거시경제"
@@ -99,7 +99,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkhhLWZsSzRjYjY0NlU1ZDM3ckpSS19QcFFhMVNGYnB6LUpvbVFqYU03ZS16ZHdMa19oT3RMZmlITFFzcEpNc1lEd1VHT3RkVU5wSEU1ekVUcEkwZ19ldDY0emQ3ZTdGZ1l2ZE5wamZOWlBaUGwxZFRhQ0dxOEJ3ZmJsTkRtVFFtcDVCckxXYkN6UQ?oc=5",
       "source": "Beinsure",
       "published_at_utc": "2026-11-23T19:24:42+00:00",
-      "age_hours": 10.5,
+      "age_hours": 11.6,
       "relevance_score": 52,
       "tags": [
         "반도체/AI"
@@ -112,8 +112,8 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeUtlWXlLM0JxZ3RGOS1iVnBPakMtc0NmaDV3M0pDaThUVlprTzFaOFBwQW5vOHFiemxlbFBTdkhoZlJmUXM4aWtjdFE1SUtzNVlGTzE3TlV2R24wVFpXLTcwTnMxYW1PQlJJZGpPNnRyNW1RUHBjMnktZmEzQWI4WVJKUkdLVmFyZmp4aUV2LUItMEt5WlVIU0lUSWFKdDFCZThZLWFJY9IBpwFBVV95cUxQeUtlWXlLM0JxZ3RGOS1iVnBPakMtc0NmaDV3M0pDaThUVlprTzFaOFBwQW5vOHFiemxlbFBTdkhoZlJmUXM4aWtjdFE1SUtzNVlGTzE3TlV2R24wVFpXLTcwTnMxYW1PQlJJZGpPNnRyNW1RUHBjMnktZmEzQWI4WVJKUkdLVmFyZmp4aUV2LUItMEt5WlVIU0lUSWFKdDFCZThZLWFJYw?oc=5",
       "source": "Al Jazeera",
       "published_at_utc": "2026-11-23T00:18:29+00:00",
-      "age_hours": 29.6,
-      "relevance_score": 46,
+      "age_hours": 30.7,
+      "relevance_score": 45,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -125,8 +125,8 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZlhLZ29WWnE2WjZaN3Y1NE1WMEJ4Uk14X2k3M0tybVR2TFBIMktTbUVNemlubWNhU3BiX040czFzSFJMb1ZxZ0hlR3hkNW1ub00taUF3SW84UzRrQkhNWEtsak5RQVdTOTI1eUJ1MWtGQ2JkYjNIbTJjQXZCTndIOGlLUkJhdzNRTWQzQmc3cUd1ajJzZ3gzaE5xV1RSZ054ZGtDVEFvVUVMM3VEU1ptUUN6ZE0wdw?oc=5",
       "source": "Bloomberg.com",
       "published_at_utc": "2026-11-24T03:00:00+00:00",
-      "age_hours": 2.9,
-      "relevance_score": 45,
+      "age_hours": 4.0,
+      "relevance_score": 44,
       "tags": [
         "반도체/AI"
       ],
@@ -138,8 +138,8 @@
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMXVxc0VLV0ZaMlpMaV9FeV9NdlpaS3RvY3djYjNDTktRZXBhM3ROd2hZWjE2OTJTMmR1REdGRUhpY2dqTXhRdXhGeDRIb21LNG11Ni1wSnZxY1NwbzBOQldieFprbWppUVpvemItb2ktOU5fZEdRVGk0dldSb2JVSkJQX19YM1hjUXVZNXBmcms5R2FOU09Eb0Z1T25EdXB1QzFESllWYVFjNE82Q1NmWGtyQTR4R0VtQmFodzRTWWVPQkRqdFNEU3FDdFFrcW04dXF5Q09HSENzbUE1bzB3LS1n?oc=5",
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-23T22:00:02+00:00",
-      "age_hours": 7.9,
-      "relevance_score": 43,
+      "age_hours": 9.0,
+      "relevance_score": 42,
       "tags": [
         "반도체/AI"
       ],
@@ -151,8 +151,8 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPY3NBa1ZIRXJyUHFCWERaWWxiTGFoRW53aGY2Q1pqUzZQNmpiVGpQdG00T2hzVWpQNEN4Q0JBYlRja3FvdWhKaHpxVjVxQjRfQnlwRmc1Tm0tMFVVQjVNTzUzM29rbTlwWE5DZDNRYWM3aHQ0NkNzbGhIUExDa1F3MnhibXEwWEc3RzhUUzNIUkYtV1haWGtfYWdzNnlpaHFLU3dQS1R1dDZKVUx1SC1GczJ5UnMyTVF6alEyblVtdmIwdldnQjhIc01OaDgycmpQQ0pNQlBGaVRmWHJMS1ExemxsdFFVNkpLVEZn?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-23T15:55:00+00:00",
-      "age_hours": 14.0,
-      "relevance_score": 41,
+      "age_hours": 15.1,
+      "relevance_score": 40,
       "tags": [
         "반도체/AI"
       ],
@@ -164,8 +164,8 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMWZYQ2dIYUJxUWlyV21qaXFiUGpzT3Qwa0g1Mm9tLW1yVEhFcDBleU9DMm5BV20tR0lhVXIyWG5pRUhGdlhPUXFEU2xKcFlIY3F4X2VqT3NjblJMWTdOVzY1THlfVlpvYmdOVDVvUFFCSGtVZUx1NVh6NzZ6TjlYVDJuVzlSUE1rRmZDZ1hTeUQ1WlJrUTdhZXVVSnV1bDFoUlA0VE1qYmJZbnhPWUdTb0s0YklJVXVjUnNj?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-23T21:06:57+00:00",
-      "age_hours": 8.8,
-      "relevance_score": 28,
+      "age_hours": 9.9,
+      "relevance_score": 27,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -175,7 +175,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQkdKYWdvMkZIcGM5V3dMbjEwem4yRmhpVVZ6S2dPRnBLUzh3SFdUMmNEdW84NDZVZDJfV0NJU0Z3WmFLNWh5eC1Ba0dxb0tBcXhxN0ZkdTZwU19hNjdGX0t5Q3h6LVFIOTdEQnZHaGVnM19HMDRpQ3p6TDl1LXR0QWxpRHBxMmZJZjl0OHRwM09FNEJMS1J5aGhYdTZ1M2pXNzF4WE1ZZjZfZjZhbmd6ZWppdUQ2ZGtVYXlLNnVIdGNZZURIYWxwdUUwT1ltTHZPT21CZ1l2ZGtRcFlTeHJSc2tqOHhaUjAwMkhvMGRmOA?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-23T13:21:00+00:00",
-      "age_hours": 16.5,
+      "age_hours": 17.7,
       "relevance_score": 25,
       "tags": [],
       "category": "us_market",
@@ -186,18 +186,18 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-11-22T12:04:00+00:00",
-      "age_hours": 41.8,
-      "relevance_score": 17,
+      "age_hours": 42.9,
+      "relevance_score": 16,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
     },
     {
-      "title": "US futures climb and Asian shares mostly decline as some tech stocks fall - WATE 6 On Your Side",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTJob3ZTWWZHWGh5aWo0TlNBUUdXOWdlcVUxLXJpTTZTejJEaGxJcksxR1Z3Z2FJWC13b2V0M2V0TlctNk5XWlpTUG04V0xuQVRGVjhiUkRNUVdQTzlQS2o3SDZ5QjhIenFqd0Jla3Q0d3hGZ0dPNHVtaTY0ZkJrN2ljOFA3T3UtRXZCeDR3akxKNTQ5V3J3Y1FSOUlSelhaTDJfaXZ1eUwzeWRTOXpDQjRMR1BKLVXSAbwBQVVfeXFMT0ZZR21aLVk3c0t0ZWoyWk1kWnlOUFREZnRpTXdDMUx1WlU1VFVuVGoyd0ZybkRPejctMF9lZF9rLVQ0MklvWVZ2ZHAzYUgzQzI1UDd1WlhPellIZldOWk5ia1dMUlg4UGdsZXFJMUJqTE1RckNSWU10SU5VY0VzYkJ2V2paTExTdU1wSkNubldieUcyYlE2b0tKZU9kMHJMZnJHWUswZGtEdGR4ZUJ1UUpZT0VjY0R3b0dUMUk?oc=5",
-      "source": "WATE 6 On Your Side",
-      "published_at_utc": "2026-11-23T10:02:47+00:00",
-      "age_hours": 19.8,
+      "title": "US futures climb as technology recovers from brutal sell-off last week - KSN-TV",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzRKN24zRkVwMEdGM0x2QmdQM1VlSm5PMUI1dV9RVmptT3JYWGloeW5aYkN0a1NXMlhza2k4ai1HM3VmUTYyQkJ2a21iRTBuR0h5X2VZOUhOcVN1VXdyek96UUF0b0gwbF9QSmxRUFRaZ1k5Y3l4SmhOMTYtSXZGT1BfSkhUQ19BQzFfYk1yNGp3bkNHYjZHcU44RGZxWkZkMWxmVTJB0gGrAUFVX3lxTE9EZzJRYWF6Q2ZHdkc0dkl4NDRsRFJXdGZaOXhpS25Xc0dBYWRxbURNbVdjYUtaS1hBd3VJay1PWTFGUnhHblR2MFY3S21fTHJtWFluYTNJQmtUOWdhWWFfTkRYWF9ETTVOYnZLX2tqQUV1c2RQYlpaakhlT2NOdGdpVThzVGd0QXExeUJqeUlXUXNRcTNOUmJLeU5aaXM4MmNYdDhTaWxoRnUtQQ?oc=5",
+      "source": "KSN-TV",
+      "published_at_utc": "2026-11-23T12:43:42+00:00",
+      "age_hours": 18.3,
       "relevance_score": 14,
       "tags": [],
       "category": "korea",
