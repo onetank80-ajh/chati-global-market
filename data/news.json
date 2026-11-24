@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-24T05:49:48.208251+00:00",
-  "generated_at_kst": "2026-11-24T14:49:48.208251+09:00",
+  "generated_at_utc": "2026-11-24T05:53:12.637758+00:00",
+  "generated_at_kst": "2026-11-24T14:53:12.637758+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -84,6 +84,13 @@
     },
     {
       "category": "korea",
+      "title": "US futures climb as technology recovers from brutal sell-off last week - KSN-TV",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzRKN24zRkVwMEdGM0x2QmdQM1VlSm5PMUI1dV9RVmptT3JYWGloeW5aYkN0a1NXMlhza2k4ai1HM3VmUTYyQkJ2a21iRTBuR0h5X2VZOUhOcVN1VXdyek96UUF0b0gwbF9QSmxRUFRaZ1k5Y3l4SmhOMTYtSXZGT1BfSkhUQ19BQzFfYk1yNGp3bkNHYjZHcU44RGZxWkZkMWxmVTJB0gGrAUFVX3lxTE9EZzJRYWF6Q2ZHdkc0dkl4NDRsRFJXdGZaOXhpS25Xc0dBYWRxbURNbVdjYUtaS1hBd3VJay1PWTFGUnhHblR2MFY3S21fTHJtWFluYTNJQmtUOWdhWWFfTkRYWF9ETTVOYnZLX2tqQUV1c2RQYlpaakhlT2NOdGdpVThzVGd0QXExeUJqeUlXUXNRcTNOUmJLeU5aaXM4MmNYdDhTaWxoRnUtQQ?oc=5",
+      "source": "KSN-TV",
+      "published_at_utc": "2026-11-23T12:43:42+00:00"
+    },
+    {
+      "category": "korea",
       "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks - CNBC",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRkNKM2F0WE1tek84bDA0TW1Ib2VyOGEyc19BNnpfeFZZeWJFNmVGQ0tlT1VxeWVnMXNqb0F5U2x4amEtOS1wdFFhQXVlcC1qOEtpV3BfcGNRbG1ydlQwelViR1NYRmw0MmJtblFYRXNRWnJIc2xzcjdHZm85NkZfT9IBhgFBVV95cUxNTkV5S2ZZMTU0X2NYeFBIaUNjWTdJRVRjYU40RXRucGwtY0paT3d5c1RmUjJKa1ozb1YwT2ZjbkxGMHJ2dFpsWld4eGJmcEJlQkJjMGkzdEtqWkJjaWxmX0lmdHRndnY2Mms5d3lIRUh2ME1CRzd4QWc3OWtPYmNDaFd1NWRuQQ?oc=5",
       "source": "CNBC",
@@ -102,13 +109,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYkY3b3VIS2J6Ym0xQUdzQ1BtZk91NHFkLWEzUW45eTZOQ0M0c0xYRkJVSnlIaDdPMzZpLVRFZjFGaGhoWWlTV0lHcE5zdTdFenpIOXhpb01OT3ROc0FCNXQtYl9yLTZ5RFBDSnNYVThpdkNkODZTaktJZU13a3dwTFVYUDZPbmRSV2RadWpqckZPNFdRMEhuWGp3MW5rVDBxLXF3OHpzdFk1Y2lRMFZHdThkZ0tnTnVKeTlPRXFYU2pwYjRuTDRyUVBzT3BoUDFZcDl1cW93?oc=5",
       "source": "MSN",
       "published_at_utc": "2026-11-23T09:42:02+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "Asian shares mostly fall after S&P 500 drops 3.7% into a correction - MySA",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbjVzZzBaMG9GVExabnU3elYxNDc0QV9ZdjlfUURCNndXLW1fdlQwSHBqNmlCQV9KVGM2N2QzUWtuTk5tc08wZnZ0NjItRHNHcGhCUjROY2dYUTYxaTJ1MTNmekNFZlY5Y2lZS0U3aXMzcDAxRmJtMmtFWjFGR1hTWlZWa1dIMlhydWRoS25SMEY3V2JyZFJwWW5jY3J4VzU4N0VqZVZPVDdSeVE?oc=5",
-      "source": "MySA",
-      "published_at_utc": "2026-11-23T04:52:48+00:00"
     }
   ],
   "warnings": []
