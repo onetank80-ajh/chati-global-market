@@ -1,47 +1,47 @@
 {
   "schema_version": 1,
   "version": "3.3-experimental",
-  "generated_at_kst": "2026-11-24T07:51:27.036418+09:00",
+  "generated_at_kst": "2026-11-24T15:26:35.852337+09:00",
   "analysis_kind": "explainable_rules_not_ai_not_backtested",
   "analysis_mode": "retrospective_or_unverified",
   "eligible_for_prediction_record": false,
-  "snapshot_age_hours": 19.7,
-  "market_snapshot_at": "2026-11-23T03:09:29.012224+00:00",
+  "snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-11-24T06:26:35.744101+00:00",
   "coverage": 1.0,
   "factors": [
     {
       "key": "sp500",
       "name": "S&P500",
-      "market_date": "2026-11-20",
-      "change_percent": -3.699,
-      "signal": -1,
+      "market_date": "2026-11-23",
+      "change_percent": 4.729,
+      "signal": 1,
       "weight": 2,
       "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
     },
     {
       "key": "nasdaq",
       "name": "나스닥",
-      "market_date": "2026-11-20",
-      "change_percent": -5.283,
-      "signal": -1,
+      "market_date": "2026-11-23",
+      "change_percent": 6.507,
+      "signal": 1,
       "weight": 1,
       "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
     },
     {
       "key": "sox",
       "name": "반도체 SOX",
-      "market_date": "2026-11-20",
-      "change_percent": -10.734,
-      "signal": -1,
+      "market_date": "2026-11-23",
+      "change_percent": 14.027,
+      "signal": 1,
       "weight": 2,
       "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
     },
     {
       "key": "usdkrw",
       "name": "달러/원",
-      "market_date": "2026-11-23",
-      "change_percent": 0.928,
-      "signal": -1,
+      "market_date": "2026-11-24",
+      "change_percent": -0.106,
+      "signal": 0,
       "weight": 1,
       "source": "Yahoo Finance via yfinance (unofficial, may be delayed)"
     }
@@ -49,15 +49,15 @@
   "scenarios": [
     {
       "market": "kospi",
-      "bias": "하락 우세",
-      "score": -6,
+      "bias": "상승 우세",
+      "score": 5,
       "max_abs_score": 6,
       "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함"
     },
     {
       "market": "kosdaq",
-      "bias": "하락 우세",
-      "score": -6,
+      "bias": "상승 우세",
+      "score": 5,
       "max_abs_score": 6,
       "reason": "미국 지수·반도체·환율의 사전 정의된 가중합. 국내 실시간 수급 미포함"
     }
