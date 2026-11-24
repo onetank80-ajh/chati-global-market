@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-23T19:13:22.586906+00:00",
-  "generated_at_kst": "2026-11-24T04:13:22.586906+09:00",
+  "generated_at_utc": "2026-11-24T18:52:14.234990+00:00",
+  "generated_at_kst": "2026-11-25T03:52:14.234990+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
@@ -9,41 +9,41 @@
       "symbol": "^KS11",
       "name": "코스피",
       "status": "ok",
-      "market_date": "2026-11-20",
-      "close": 4869.96,
-      "previous_close": 5137.89,
-      "change_percent": -5.215,
-      "volume": 206700
+      "market_date": "2026-11-23",
+      "close": 4708.54,
+      "previous_close": 4869.96,
+      "change_percent": -3.315,
+      "volume": 218600
     },
     "kosdaq": {
       "symbol": "^KQ11",
       "name": "코스닥",
       "status": "ok",
-      "market_date": "2026-11-20",
-      "close": 645.68,
-      "previous_close": 684.81,
-      "change_percent": -5.714,
-      "volume": 421800
+      "market_date": "2026-11-23",
+      "close": 635.45,
+      "previous_close": 645.68,
+      "change_percent": -1.584,
+      "volume": 405900
     },
     "samsung": {
       "symbol": "005930.KS",
       "name": "삼성전자",
       "status": "ok",
-      "market_date": "2026-11-20",
-      "close": 183100.0,
-      "previous_close": 196900.0,
-      "change_percent": -7.009,
-      "volume": 17713847
+      "market_date": "2026-11-23",
+      "close": 177500.0,
+      "previous_close": 183100.0,
+      "change_percent": -3.058,
+      "volume": 19587800
     },
     "skhynix": {
       "symbol": "000660.KS",
       "name": "SK하이닉스",
       "status": "ok",
-      "market_date": "2026-11-20",
-      "close": 1113000.0,
-      "previous_close": 1183000.0,
-      "change_percent": -5.917,
-      "volume": 3310840
+      "market_date": "2026-11-23",
+      "close": 1085000.0,
+      "previous_close": 1113000.0,
+      "change_percent": -2.516,
+      "volume": 3955250
     }
   }
 }
