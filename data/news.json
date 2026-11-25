@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T04:50:33.014655+00:00",
-  "generated_at_kst": "2026-11-25T13:50:33.014655+09:00",
+  "generated_at_utc": "2026-11-25T04:50:59.759207+00:00",
+  "generated_at_kst": "2026-11-25T13:50:59.759207+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -98,17 +98,17 @@
     },
     {
       "category": "korea",
+      "title": "US futures climb as technology recovers from brutal sell-off last week - KSN-TV",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzRKN24zRkVwMEdGM0x2QmdQM1VlSm5PMUI1dV9RVmptT3JYWGloeW5aYkN0a1NXMlhza2k4ai1HM3VmUTYyQkJ2a21iRTBuR0h5X2VZOUhOcVN1VXdyek96UUF0b0gwbF9QSmxRUFRaZ1k5Y3l4SmhOMTYtSXZGT1BfSkhUQ19BQzFfYk1yNGp3bkNHYjZHcU44RGZxWkZkMWxmVTJB0gGrAUFVX3lxTE9EZzJRYWF6Q2ZHdkc0dkl4NDRsRFJXdGZaOXhpS25Xc0dBYWRxbURNbVdjYUtaS1hBd3VJay1PWTFGUnhHblR2MFY3S21fTHJtWFluYTNJQmtUOWdhWWFfTkRYWF9ETTVOYnZLX2tqQUV1c2RQYlpaakhlT2NOdGdpVThzVGd0QXExeUJqeUlXUXNRcTNOUmJLeU5aaXM4MmNYdDhTaWxoRnUtQQ?oc=5",
+      "source": "KSN-TV",
+      "published_at_utc": "2026-11-23T12:43:42+00:00"
+    },
+    {
+      "category": "korea",
       "title": "Asian shares mostly fall after S&P 500 drops 3.7% into a correction - MySA",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbjVzZzBaMG9GVExabnU3elYxNDc0QV9ZdjlfUURCNndXLW1fdlQwSHBqNmlCQV9KVGM2N2QzUWtuTk5tc08wZnZ0NjItRHNHcGhCUjROY2dYUTYxaTJ1MTNmekNFZlY5Y2lZS0U3aXMzcDAxRmJtMmtFWjFGR1hTWlZWa1dIMlhydWRoS25SMEY3V2JyZFJwWW5jY3J4VzU4N0VqZVZPVDdSeVE?oc=5",
       "source": "MySA",
       "published_at_utc": "2026-11-23T04:52:48+00:00"
-    },
-    {
-      "category": "korea",
-      "title": "KOSPI Plunge Drives 32 Trillion Won of Retail Money Into Bonds; Net Purchases of US Treasuries Also Surge 8.4 Trillion Won - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94N0Rsa204c183bEs4ZXBWTlA2T1JXRXI0VVBRQ1ROTXZESkR2ZnpsdW1rLUlfMU81Tl84VlpUUFQyQ0pYRncyN0V4QWVXWXhIWm9sNEFtM0tRZVZ4QlF6cXVuZHcwWEpzNGs3TEFXdmZ6RTFLdVE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-24T08:05:00+00:00"
     }
   ],
   "warnings": []

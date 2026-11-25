@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T04:38:06.787314+00:00",
-  "generated_at_kst": "2026-11-25T13:38:06.787314+09:00",
+  "generated_at_utc": "2026-11-25T04:51:01.203804+00:00",
+  "generated_at_kst": "2026-11-25T13:51:01.203804+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -33,23 +33,12 @@
       "source": "Kotak Neo",
       "published_at_utc": "2026-11-25T04:25:03+00:00",
       "category": "us_market",
-      "age_hours": 0.2,
-      "freshness_score": 100,
+      "age_hours": 0.4,
+      "freshness_score": 99,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
-    },
-    {
-      "title": "[Opening Market] KOSPI Plunges Below 5,000 Again After Tech Rout - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SZWVrcjNjVDRHNmxrRS1BZXdESE1fMnhEbjF2eHpmWHZjVUxTbDZ6YUJVbExYZWN0ZUpFb1ZqQlJIb1dMcFNxemRPOHlhdTJqU1RiempaNmZrSGFhYXU4Y0Vnb2FLU0VUMTlabkFXMlJINDJt?oc=5",
-      "source": "Businesskorea",
-      "published_at_utc": "2026-11-25T01:58:51+00:00",
-      "category": "korea",
-      "age_hours": 2.7,
-      "freshness_score": 95,
-      "headline_tone": "부정 표현",
-      "sectors": []
     },
     {
       "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
@@ -57,7 +46,7 @@
       "source": "Startup Fortune",
       "published_at_utc": "2026-11-25T01:45:15+00:00",
       "category": "semiconductor",
-      "age_hours": 2.9,
+      "age_hours": 3.1,
       "freshness_score": 94,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -70,6 +59,17 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-25T01:42:00+00:00",
       "category": "us_market",
+      "age_hours": 3.2,
+      "freshness_score": 94,
+      "headline_tone": "부정 표현",
+      "sectors": []
+    },
+    {
+      "title": "[Opening Market] KOSPI Plunges Below 5,000 Again After Tech Rout - Businesskorea",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SZWVrcjNjVDRHNmxrRS1BZXdESE1fMnhEbjF2eHpmWHZjVUxTbDZ6YUJVbExYZWN0ZUpFb1ZqQlJIb1dMcFNxemRPOHlhdTJqU1RiempaNmZrSGFhYXU4Y0Vnb2FLU0VUMTlabkFXMlJINDJt?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-11-25T01:58:51+00:00",
+      "category": "korea",
       "age_hours": 2.9,
       "freshness_score": 94,
       "headline_tone": "부정 표현",
@@ -81,7 +81,7 @@
       "source": "Investing.com",
       "published_at_utc": "2026-11-25T01:18:36+00:00",
       "category": "us_market",
-      "age_hours": 3.3,
+      "age_hours": 3.5,
       "freshness_score": 93,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -92,9 +92,22 @@
       "source": "Beinsure",
       "published_at_utc": "2026-11-24T20:08:26+00:00",
       "category": "us_market",
-      "age_hours": 8.5,
+      "age_hours": 8.7,
       "freshness_score": 83,
       "headline_tone": "부정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "US STOCKS-Nasdaq, S&P 500 fall as Nvidia-driven AI rally unwinds - Devdiscourse",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3JxT0VMbVo1ZEhkSHFsUDJYTi1yOVVZV0ZVM0N1N0hVNFhsLWRMcEdxYkh2b3ptaS1iQ181MDFiWE5nQTJLTnU3OHpZZ21DTzlvZm9Gd2ZidXFKdGVTT04tVWZFbHZjQUh6WTNPQ3l1eDY4NHZBdG1LSXN3RFpFU0Z3M2Vod2tKby1ZdHRRQ1hnaGEtTG1rN2tJUXpSX0puLVFQaWpPNjA4RnU1LWU0Nmc4RFpqY1VLZlVmeWl30gHDAUFVX3lxTE81OWlaeEFzZWtjY0lDamh2Z2gxNmRabkpSRVd2Y0JkYkZjbGxaZnNNcnV6cmdldGlXMjk5VDhiOUdrOVcyVGVEY1hFYVEwRVJCNmdGblBISE5vejNIb3daQ1M4N3ZCbmtSdHdOSjdxY0lfUm05a29FSGEzU2JtR1BUN3pXLVRFUklsRVNiazRCYmFSUG5PQUFZWVc5MVc3UkN5c3V5NUF3eDc2eDhYWTVaUFZvX25jS2c4b1dNRFl3dWhoTQ?oc=5",
+      "source": "Devdiscourse",
+      "published_at_utc": "2026-11-24T17:14:44+00:00",
+      "category": "us_market",
+      "age_hours": 11.6,
+      "freshness_score": 77,
+      "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
       ]
@@ -105,7 +118,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:40:25+00:00",
       "category": "semiconductor",
-      "age_hours": 15.0,
+      "age_hours": 15.2,
       "freshness_score": 70,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -113,24 +126,13 @@
       ]
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Fall After Scott Bessent Unveils Fresh Iran Sa - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-24T13:22:00+00:00",
-      "category": "us_market",
-      "age_hours": 15.3,
-      "freshness_score": 69,
-      "headline_tone": "부정 표현",
-      "sectors": []
-    },
-    {
       "title": "Why Diodes (DIOD) Stock Is Up Today: Chip Rally After Nvidia's CEO Return - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMlRLN3BmS09SQnU2c09ESjBWV1h3UXVVeEdTM1J6QlFzOXBST3h6cGNfRHFaZDRMTXJELTdqSXVPZWR6cGtGLUN3emU5RzhWZWRRems5OVdjZnVaXzQxMWRuamNvYi1fNWFYTm5PTENDdjRVc2VxNkVlYTlYa1ZRaFpIbmpGd2RWd241LVV3UjB5ZDB1WnVr?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-23T18:00:47+00:00",
       "category": "semiconductor",
-      "age_hours": 34.6,
-      "freshness_score": 31,
+      "age_hours": 34.8,
+      "freshness_score": 30,
       "headline_tone": "긍정 표현",
       "sectors": [
         "반도체/AI"
@@ -142,8 +144,8 @@
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-23T15:55:00+00:00",
       "category": "semiconductor",
-      "age_hours": 36.7,
-      "freshness_score": 27,
+      "age_hours": 36.9,
+      "freshness_score": 26,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -155,7 +157,7 @@
       "source": "KSN-TV",
       "published_at_utc": "2026-11-23T12:43:42+00:00",
       "category": "korea",
-      "age_hours": 39.9,
+      "age_hours": 40.1,
       "freshness_score": 20,
       "headline_tone": "부정 표현",
       "sectors": []
@@ -166,7 +168,7 @@
       "source": "Al Jazeera",
       "published_at_utc": "2026-11-23T09:21:03+00:00",
       "category": "korea",
-      "age_hours": 43.3,
+      "age_hours": 43.5,
       "freshness_score": 13,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -179,8 +181,8 @@
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-23T06:30:02+00:00",
       "category": "semiconductor",
-      "age_hours": 46.1,
-      "freshness_score": 8,
+      "age_hours": 46.3,
+      "freshness_score": 7,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -192,8 +194,8 @@
       "source": "CNBC",
       "published_at_utc": "2026-11-23T05:58:40+00:00",
       "category": "korea",
-      "age_hours": 46.7,
-      "freshness_score": 7,
+      "age_hours": 46.9,
+      "freshness_score": 6,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -205,7 +207,7 @@
       "source": "MySA",
       "published_at_utc": "2026-11-23T04:52:48+00:00",
       "category": "korea",
-      "age_hours": 47.8,
+      "age_hours": 48.0,
       "freshness_score": 4,
       "headline_tone": "부정 표현",
       "sectors": []
