@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T04:50:55.098937+00:00",
+  "generated_at_utc": "2026-11-25T05:33:57.179026+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 14,
+  "headline_count_after": 13,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-25T13:50:54.996720+09:00",
+  "market_snapshot_at": "2026-11-25T14:03:00.928557+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": -0.499,
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SZWVrcjNjVDRHNmxrRS1BZXdESE1fMnhEbjF2eHpmWHZjVUxTbDZ6YUJVbExYZWN0ZUpFb1ZqQlJIb1dMcFNxemRPOHlhdTJqU1RiempaNmZrSGFhYXU4Y0Vnb2FLU0VUMTlabkFXMlJINDJt?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-25T01:58:51+00:00",
-      "age_hours": 2.9,
-      "relevance_score": 55,
+      "age_hours": 3.6,
+      "relevance_score": 54,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -70,8 +70,21 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXhISFVWZllNX2ItSVRiWFVqSDFNQzloY29ZNGJjR04wa2lyRWx5Q1Nibjk1SGEzOHNMN0FrU2RiLV9JNW8yQjdHa25EZWRYLXliQzc2RDh5YWRUUHlWX1FRcHpNZmJySFJXM0t1d0lRd1RsSGNpSWF5NTJjNjV4UHR3?oc=5",
       "source": "Beinsure",
       "published_at_utc": "2026-11-24T20:08:26+00:00",
-      "age_hours": 8.7,
-      "relevance_score": 53,
+      "age_hours": 9.4,
+      "relevance_score": 52,
+      "tags": [
+        "반도체/AI"
+      ],
+      "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "US STOCKS-Nasdaq, S&P 500 fall as Nvidia-driven AI rally unwinds - Devdiscourse",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3JxT0VMbVo1ZEhkSHFsUDJYTi1yOVVZV0ZVM0N1N0hVNFhsLWRMcEdxYkh2b3ptaS1iQ181MDFiWE5nQTJLTnU3OHpZZ21DTzlvZm9Gd2ZidXFKdGVTT04tVWZFbHZjQUh6WTNPQ3l1eDY4NHZBdG1LSXN3RFpFU0Z3M2Vod2tKby1ZdHRRQ1hnaGEtTG1rN2tJUXpSX0puLVFQaWpPNjA4RnU1LWU0Nmc4RFpqY1VLZlVmeWl30gHDAUFVX3lxTE81OWlaeEFzZWtjY0lDamh2Z2gxNmRabkpSRVd2Y0JkYkZjbGxaZnNNcnV6cmdldGlXMjk5VDhiOUdrOVcyVGVEY1hFYVEwRVJCNmdGblBISE5vejNIb3daQ1M4N3ZCbmtSdHdOSjdxY0lfUm05a29FSGEzU2JtR1BUN3pXLVRFUklsRVNiazRCYmFSUG5PQUFZWVc5MVc3UkN5c3V5NUF3eDc2eDhYWTVaUFZvX25jS2c4b1dNRFl3dWhoTQ?oc=5",
+      "source": "Devdiscourse",
+      "published_at_utc": "2026-11-24T17:14:44+00:00",
+      "age_hours": 12.3,
+      "relevance_score": 51,
       "tags": [
         "반도체/AI"
       ],
@@ -83,7 +96,7 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDZ0bDdjN0JUTWU4T0c1eU5YZGdUckxKMTh3ZHVnd2VkVjQwTWRHWGcxMFA1cTlwMlJrYW9rNXhjV2NheHVzeXZrdHl6alZaNk5ZNzZUdTFNZXNUaXFYQzRWVk02dmtMdVFWTU9ZclBwc1ZOOHhiTmZ4Ym0xRHBmZzU3bFJDdEg0R3BITXkyOXQ?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-25T01:42:00+00:00",
-      "age_hours": 3.1,
+      "age_hours": 3.9,
       "relevance_score": 49,
       "tags": [
         "거시경제"
@@ -96,7 +109,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVc1S3Ata0c3V045ekF3dENHMml5Y1llMmppOEU2UHFSWVRUS1RmalNmMDFPNi0yUHlPaXN1R08tMWlReHItbk02bFRpeWxNYlFpWThWYklXS21JQWZLNXlkYy05bXl3NXhkSmRnR256cVYxalEwZUh6ekdMclBrSmtEWmtWZWRRamM0dVhtY3l4M2xEd00wOXF1bXVBbnN6czQ4YnRfYnhaTXhB?oc=5",
       "source": "Startup Fortune",
       "published_at_utc": "2026-11-25T01:45:15+00:00",
-      "age_hours": 3.1,
+      "age_hours": 3.8,
       "relevance_score": 44,
       "tags": [
         "반도체/AI"
@@ -109,7 +122,7 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRHBRR3ozWWtCTmVrLTdaNHBiUy0zTlk3WVFYNHZpWDBUWkhBYmg3a0haclJwNXRLWW96RklNUVJncnNCTl9EaDBlanYzMEV1QkZvTlA5X0dpeVJaaWlwRGJFazVoLUJfTXhwQTFJV2VUeFRqcHBVV3dmUDQ2bmg3M2RDTHpWZXRjWHBNZ0lma2lqRHhQOFI1bm9jSHI3QjlXODh6eThxRE5uS05EN3JvSWpfSnJHUzFRMFJZYzh3TVVBTUFP?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:40:25+00:00",
-      "age_hours": 15.2,
+      "age_hours": 15.9,
       "relevance_score": 40,
       "tags": [
         "반도체/AI"
@@ -122,7 +135,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMlRLN3BmS09SQnU2c09ESjBWV1h3UXVVeEdTM1J6QlFzOXBST3h6cGNfRHFaZDRMTXJELTdqSXVPZWR6cGtGLUN3emU5RzhWZWRRems5OVdjZnVaXzQxMWRuamNvYi1fNWFYTm5PTENDdjRVc2VxNkVlYTlYa1ZRaFpIbmpGd2RWd241LVV3UjB5ZDB1WnVr?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-23T18:00:47+00:00",
-      "age_hours": 34.8,
+      "age_hours": 35.6,
       "relevance_score": 34,
       "tags": [
         "반도체/AI"
@@ -135,7 +148,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPY3NBa1ZIRXJyUHFCWERaWWxiTGFoRW53aGY2Q1pqUzZQNmpiVGpQdG00T2hzVWpQNEN4Q0JBYlRja3FvdWhKaHpxVjVxQjRfQnlwRmc1Tm0tMFVVQjVNTzUzM29rbTlwWE5DZDNRYWM3aHQ0NkNzbGhIUExDa1F3MnhibXEwWEc3RzhUUzNIUkYtV1haWGtfYWdzNnlpaHFLU3dQS1R1dDZKVUx1SC1GczJ5UnMyTVF6alEyblVtdmIwdldnQjhIc01OaDgycmpQQ0pNQlBGaVRmWHJMS1ExemxsdFFVNkpLVEZn?oc=5",
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-23T15:55:00+00:00",
-      "age_hours": 36.9,
+      "age_hours": 37.6,
       "relevance_score": 33,
       "tags": [
         "반도체/AI"
@@ -148,7 +161,7 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd2cwbHRfcDZoTzRFZGVScFY2MDh6TXdNVHhvYmpaU2ZGSnhUZEk5eG5wTDVGMU9QSU5rdTNzTngzdVpOdDk2bkJ1RTFXdTBrM0xuaDVSbWdIYU9OQTZRaXlOU0hjcUhaTXBEX25yRVF3OEcxV3d3UjgxWUVWZTlJUV8xa0RuaS00S0p5c1hWVUdWVFVQejBpNU1OTGUwQmxQSjdreTc2ZDZjeHF5V1NObXAyVnpTTGhrS1VkRUdYUHdOTnFCM1h3NnhyRkJpdw?oc=5",
       "source": "Kotak Neo",
       "published_at_utc": "2026-11-25T04:25:03+00:00",
-      "age_hours": 0.4,
+      "age_hours": 1.1,
       "relevance_score": 30,
       "tags": [],
       "category": "us_market",
@@ -159,7 +172,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWks0dTJsY3pKb1lVU2t5UFc3b0VaUDdDdUYwaVlrNC1fZGFHWUJhOGowSl8tYUxEZURqN0w5Sncxd1BrSTRDd0t1RE40T3ZTMTZwZ1Z0RWNoZXFMVkJIeHBCT1hOaUhVWU9zSThmSkI5TTU5T1V6MkUtcHk4aTF5VFdfaTRyV1RwbGFObG92b1kxUUNvZncydkk2UFp3azgwLTZqNkZMYmQ4VW9B?oc=5",
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-23T06:30:02+00:00",
-      "age_hours": 46.3,
+      "age_hours": 47.1,
       "relevance_score": 30,
       "tags": [
         "반도체/AI"
@@ -168,22 +181,11 @@
       "needs_verification": true
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Fall After Scott Bessent Unveils Fresh Iran Sa - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5",
-      "source": "Benzinga",
-      "published_at_utc": "2026-11-24T13:22:00+00:00",
-      "age_hours": 15.5,
-      "relevance_score": 25,
-      "tags": [],
-      "category": "us_market",
-      "needs_verification": true
-    },
-    {
       "title": "US futures climb as technology recovers from brutal sell-off last week - KSN-TV",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzRKN24zRkVwMEdGM0x2QmdQM1VlSm5PMUI1dV9RVmptT3JYWGloeW5aYkN0a1NXMlhza2k4ai1HM3VmUTYyQkJ2a21iRTBuR0h5X2VZOUhOcVN1VXdyek96UUF0b0gwbF9QSmxRUFRaZ1k5Y3l4SmhOMTYtSXZGT1BfSkhUQ19BQzFfYk1yNGp3bkNHYjZHcU44RGZxWkZkMWxmVTJB0gGrAUFVX3lxTE9EZzJRYWF6Q2ZHdkc0dkl4NDRsRFJXdGZaOXhpS25Xc0dBYWRxbURNbVdjYUtaS1hBd3VJay1PWTFGUnhHblR2MFY3S21fTHJtWFluYTNJQmtUOWdhWWFfTkRYWF9ETTVOYnZLX2tqQUV1c2RQYlpaakhlT2NOdGdpVThzVGd0QXExeUJqeUlXUXNRcTNOUmJLeU5aaXM4MmNYdDhTaWxoRnUtQQ?oc=5",
       "source": "KSN-TV",
       "published_at_utc": "2026-11-23T12:43:42+00:00",
-      "age_hours": 40.1,
+      "age_hours": 40.8,
       "relevance_score": 7,
       "tags": [],
       "category": "korea",
@@ -194,7 +196,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5",
       "source": "Al Jazeera",
       "published_at_utc": "2026-11-23T09:21:03+00:00",
-      "age_hours": 43.5,
+      "age_hours": 44.2,
       "relevance_score": 6,
       "tags": [],
       "category": "korea",
