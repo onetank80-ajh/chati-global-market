@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T04:28:36.333182+00:00",
-  "generated_at_kst": "2026-11-25T13:28:36.333182+09:00",
+  "generated_at_utc": "2026-11-25T04:38:05.394167+00:00",
+  "generated_at_kst": "2026-11-25T13:38:05.394167+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -28,17 +28,17 @@
     },
     {
       "category": "us_market",
+      "title": "Wall Street Ends Mixed as Nasdaq and S&P 500 Fall Amid Renewed AI Sell-Off; Dow Jones Gains 423 Points - Kotak Neo",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd2cwbHRfcDZoTzRFZGVScFY2MDh6TXdNVHhvYmpaU2ZGSnhUZEk5eG5wTDVGMU9QSU5rdTNzTngzdVpOdDk2bkJ1RTFXdTBrM0xuaDVSbWdIYU9OQTZRaXlOU0hjcUhaTXBEX25yRVF3OEcxV3d3UjgxWUVWZTlJUV8xa0RuaS00S0p5c1hWVUdWVFVQejBpNU1OTGUwQmxQSjdreTc2ZDZjeHF5V1NObXAyVnpTTGhrS1VkRUdYUHdOTnFCM1h3NnhyRkJpdw?oc=5",
+      "source": "Kotak Neo",
+      "published_at_utc": "2026-11-25T04:25:03+00:00"
+    },
+    {
+      "category": "us_market",
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Fall After Scott Bessent Unveils Fresh Iran Sa - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:22:00+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Nvidia Drops 5.5% - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczRlU2MySEY5bkZvWG4xTDJBVXpsQnlhcGZ1MTZvTWZRV3dtNWM3X0dhYzN4ZGk0a2lVMzJZbk5GMk1DUzdnaG1xVmJ4TWl2RklOYklWZE5Uc01NakdkczNRam9sVVFYcVh5aU8xTWlOUm1sVVFyLTFuX01MLXVmZGtWcmd3bGxfaGlaU1IzN1VWdFphaEJoNmt3?oc=5",
-      "source": "Coinpaper",
-      "published_at_utc": "2026-11-24T15:04:14+00:00"
     },
     {
       "category": "semiconductor",
@@ -49,17 +49,17 @@
     },
     {
       "category": "semiconductor",
-      "title": "Nvidia soars 25% as board reinstates Jensen Huang as CEO - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUFrVFV3UmgxTVhmTUZmRVJ2VnZUOXF5cWN0MEdzSklTZUVYSUd1bXVQZGJSVUJSWHlPNzBlNGkwQjVRSThRV01hSld0N2F2dnU4SmxYY1MxNlVRYk5EWUg0SktCWVhJSElxbjlMTzB1V2xUeUlGc0ZGYUpuV1MxWE1qdzU0RkIxaE5Tb283WHRBTnlFMC1SQy1pWGhnRTZRTmdaTko2YUt5djRJbTBBUTdINEwtZHhiWWVqcElMTXJfaFJpd3E5QnRxazFRQ2xrQmc?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-23T14:11:51+00:00"
-    },
-    {
-      "category": "semiconductor",
       "title": "Micron Stock Drops After Monday’s Surge as Nvidia Scrutiny Hits Chipmakers - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRHBRR3ozWWtCTmVrLTdaNHBiUy0zTlk3WVFYNHZpWDBUWkhBYmg3a0haclJwNXRLWW96RklNUVJncnNCTl9EaDBlanYzMEV1QkZvTlA5X0dpeVJaaWlwRGJFazVoLUJfTXhwQTFJV2VUeFRqcHBVV3dmUDQ2bmg3M2RDTHpWZXRjWHBNZ0lma2lqRHhQOFI1bm9jSHI3QjlXODh6eThxRE5uS05EN3JvSWpfSnJHUzFRMFJZYzh3TVVBTUFP?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:40:25+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Why Diodes (DIOD) Stock Is Up Today: Chip Rally After Nvidia's CEO Return - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMlRLN3BmS09SQnU2c09ESjBWV1h3UXVVeEdTM1J6QlFzOXBST3h6cGNfRHFaZDRMTXJELTdqSXVPZWR6cGtGLUN3emU5RzhWZWRRems5OVdjZnVaXzQxMWRuamNvYi1fNWFYTm5PTENDdjRVc2VxNkVlYTlYa1ZRaFpIbmpGd2RWd241LVV3UjB5ZDB1WnVr?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-23T18:00:47+00:00"
     },
     {
       "category": "semiconductor",
@@ -98,9 +98,9 @@
     },
     {
       "category": "korea",
-      "title": "US futures climb as technology recovers from brutal sell-off last week - KSN.com",
+      "title": "US futures climb as technology recovers from brutal sell-off last week - KSN-TV",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzRKN24zRkVwMEdGM0x2QmdQM1VlSm5PMUI1dV9RVmptT3JYWGloeW5aYkN0a1NXMlhza2k4ai1HM3VmUTYyQkJ2a21iRTBuR0h5X2VZOUhOcVN1VXdyek96UUF0b0gwbF9QSmxRUFRaZ1k5Y3l4SmhOMTYtSXZGT1BfSkhUQ19BQzFfYk1yNGp3bkNHYjZHcU44RGZxWkZkMWxmVTJB0gGrAUFVX3lxTE9EZzJRYWF6Q2ZHdkc0dkl4NDRsRFJXdGZaOXhpS25Xc0dBYWRxbURNbVdjYUtaS1hBd3VJay1PWTFGUnhHblR2MFY3S21fTHJtWFluYTNJQmtUOWdhWWFfTkRYWF9ETTVOYnZLX2tqQUV1c2RQYlpaakhlT2NOdGdpVThzVGd0QXExeUJqeUlXUXNRcTNOUmJLeU5aaXM4MmNYdDhTaWxoRnUtQQ?oc=5",
-      "source": "KSN.com",
+      "source": "KSN-TV",
       "published_at_utc": "2026-11-23T12:43:42+00:00"
     },
     {

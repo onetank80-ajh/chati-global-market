@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T04:28:37.752821+00:00",
-  "generated_at_kst": "2026-11-25T13:28:37.752821+09:00",
+  "generated_at_utc": "2026-11-25T04:38:06.787314+00:00",
+  "generated_at_kst": "2026-11-25T13:38:06.787314+09:00",
   "analysis_kind": "rule_based_headline_only_not_ai_not_forecast",
   "method": "48시간 이내 뉴스 제목만 키워드 매칭; 신선도=100-시간*2; 지수 방향 별도 표시",
   "cautions": [
@@ -22,20 +22,20 @@
     },
     {
       "indicator": "원/달러",
-      "change_percent": 0.174,
+      "change_percent": 0.146,
       "reference_direction": "주의"
     }
   ],
   "headlines": [
     {
-      "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVc1S3Ata0c3V045ekF3dENHMml5Y1llMmppOEU2UHFSWVRUS1RmalNmMDFPNi0yUHlPaXN1R08tMWlReHItbk02bFRpeWxNYlFpWThWYklXS21JQWZLNXlkYy05bXl3NXhkSmRnR256cVYxalEwZUh6ekdMclBrSmtEWmtWZWRRamM0dVhtY3l4M2xEd00wOXF1bXVBbnN6czQ4YnRfYnhaTXhB?oc=5",
-      "source": "Startup Fortune",
-      "published_at_utc": "2026-11-25T01:45:15+00:00",
-      "category": "semiconductor",
-      "age_hours": 2.7,
-      "freshness_score": 95,
-      "headline_tone": "긍정 표현",
+      "title": "Wall Street Ends Mixed as Nasdaq and S&P 500 Fall Amid Renewed AI Sell-Off; Dow Jones Gains 423 Points - Kotak Neo",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd2cwbHRfcDZoTzRFZGVScFY2MDh6TXdNVHhvYmpaU2ZGSnhUZEk5eG5wTDVGMU9QSU5rdTNzTngzdVpOdDk2bkJ1RTFXdTBrM0xuaDVSbWdIYU9OQTZRaXlOU0hjcUhaTXBEX25yRVF3OEcxV3d3UjgxWUVWZTlJUV8xa0RuaS00S0p5c1hWVUdWVFVQejBpNU1OTGUwQmxQSjdreTc2ZDZjeHF5V1NObXAyVnpTTGhrS1VkRUdYUHdOTnFCM1h3NnhyRkJpdw?oc=5",
+      "source": "Kotak Neo",
+      "published_at_utc": "2026-11-25T04:25:03+00:00",
+      "category": "us_market",
+      "age_hours": 0.2,
+      "freshness_score": 100,
+      "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
       ]
@@ -46,8 +46,32 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-11-25T01:58:51+00:00",
       "category": "korea",
-      "age_hours": 2.5,
+      "age_hours": 2.7,
       "freshness_score": 95,
+      "headline_tone": "부정 표현",
+      "sectors": []
+    },
+    {
+      "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVc1S3Ata0c3V045ekF3dENHMml5Y1llMmppOEU2UHFSWVRUS1RmalNmMDFPNi0yUHlPaXN1R08tMWlReHItbk02bFRpeWxNYlFpWThWYklXS21JQWZLNXlkYy05bXl3NXhkSmRnR256cVYxalEwZUh6ekdMclBrSmtEWmtWZWRRamM0dVhtY3l4M2xEd00wOXF1bXVBbnN6czQ4YnRfYnhaTXhB?oc=5",
+      "source": "Startup Fortune",
+      "published_at_utc": "2026-11-25T01:45:15+00:00",
+      "category": "semiconductor",
+      "age_hours": 2.9,
+      "freshness_score": 94,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
+    },
+    {
+      "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDZ0bDdjN0JUTWU4T0c1eU5YZGdUckxKMTh3ZHVnd2VkVjQwTWRHWGcxMFA1cTlwMlJrYW9rNXhjV2NheHVzeXZrdHl6alZaNk5ZNzZUdTFNZXNUaXFYQzRWVk02dmtMdVFWTU9ZclBwc1ZOOHhiTmZ4Ym0xRHBmZzU3bFJDdEg0R3BITXkyOXQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-25T01:42:00+00:00",
+      "category": "us_market",
+      "age_hours": 2.9,
+      "freshness_score": 94,
       "headline_tone": "부정 표현",
       "sectors": []
     },
@@ -57,19 +81,8 @@
       "source": "Investing.com",
       "published_at_utc": "2026-11-25T01:18:36+00:00",
       "category": "us_market",
-      "age_hours": 3.2,
-      "freshness_score": 94,
-      "headline_tone": "부정 표현",
-      "sectors": []
-    },
-    {
-      "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDZ0bDdjN0JUTWU4T0c1eU5YZGdUckxKMTh3ZHVnd2VkVjQwTWRHWGcxMFA1cTlwMlJrYW9rNXhjV2NheHVzeXZrdHl6alZaNk5ZNzZUdTFNZXNUaXFYQzRWVk02dmtMdVFWTU9ZclBwc1ZOOHhiTmZ4Ym0xRHBmZzU3bFJDdEg0R3BITXkyOXQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-25T01:42:00+00:00",
-      "category": "us_market",
-      "age_hours": 2.8,
-      "freshness_score": 94,
+      "age_hours": 3.3,
+      "freshness_score": 93,
       "headline_tone": "부정 표현",
       "sectors": []
     },
@@ -79,21 +92,8 @@
       "source": "Beinsure",
       "published_at_utc": "2026-11-24T20:08:26+00:00",
       "category": "us_market",
-      "age_hours": 8.3,
+      "age_hours": 8.5,
       "freshness_score": 83,
-      "headline_tone": "부정 표현",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Nvidia Drops 5.5% - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczRlU2MySEY5bkZvWG4xTDJBVXpsQnlhcGZ1MTZvTWZRV3dtNWM3X0dhYzN4ZGk0a2lVMzJZbk5GMk1DUzdnaG1xVmJ4TWl2RklOYklWZE5Uc01NakdkczNRam9sVVFYcVh5aU8xTWlOUm1sVVFyLTFuX01MLXVmZGtWcmd3bGxfaGlaU1IzN1VWdFphaEJoNmt3?oc=5",
-      "source": "Coinpaper",
-      "published_at_utc": "2026-11-24T15:04:14+00:00",
-      "category": "us_market",
-      "age_hours": 13.4,
-      "freshness_score": 73,
       "headline_tone": "부정 표현",
       "sectors": [
         "반도체/AI"
@@ -105,7 +105,7 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:40:25+00:00",
       "category": "semiconductor",
-      "age_hours": 14.8,
+      "age_hours": 15.0,
       "freshness_score": 70,
       "headline_tone": "긍정 표현",
       "sectors": [
@@ -118,10 +118,23 @@
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:22:00+00:00",
       "category": "us_market",
-      "age_hours": 15.1,
-      "freshness_score": 70,
+      "age_hours": 15.3,
+      "freshness_score": 69,
       "headline_tone": "부정 표현",
       "sectors": []
+    },
+    {
+      "title": "Why Diodes (DIOD) Stock Is Up Today: Chip Rally After Nvidia's CEO Return - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMlRLN3BmS09SQnU2c09ESjBWV1h3UXVVeEdTM1J6QlFzOXBST3h6cGNfRHFaZDRMTXJELTdqSXVPZWR6cGtGLUN3emU5RzhWZWRRems5OVdjZnVaXzQxMWRuamNvYi1fNWFYTm5PTENDdjRVc2VxNkVlYTlYa1ZRaFpIbmpGd2RWd241LVV3UjB5ZDB1WnVr?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-23T18:00:47+00:00",
+      "category": "semiconductor",
+      "age_hours": 34.6,
+      "freshness_score": 31,
+      "headline_tone": "긍정 표현",
+      "sectors": [
+        "반도체/AI"
+      ]
     },
     {
       "title": "Taiwan Semiconductor Rallies 17% as Jensen Huang's Return to NVIDIA Lifts Chip Stocks; Intel Surges 15%, AMD Jumps 8% - 24/7 Wall St.",
@@ -129,7 +142,7 @@
       "source": "24/7 Wall St.",
       "published_at_utc": "2026-11-23T15:55:00+00:00",
       "category": "semiconductor",
-      "age_hours": 36.6,
+      "age_hours": 36.7,
       "freshness_score": 27,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -137,26 +150,13 @@
       ]
     },
     {
-      "title": "Nvidia soars 25% as board reinstates Jensen Huang as CEO - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUFrVFV3UmgxTVhmTUZmRVJ2VnZUOXF5cWN0MEdzSklTZUVYSUd1bXVQZGJSVUJSWHlPNzBlNGkwQjVRSThRV01hSld0N2F2dnU4SmxYY1MxNlVRYk5EWUg0SktCWVhJSElxbjlMTzB1V2xUeUlGc0ZGYUpuV1MxWE1qdzU0RkIxaE5Tb283WHRBTnlFMC1SQy1pWGhnRTZRTmdaTko2YUt5djRJbTBBUTdINEwtZHhiWWVqcElMTXJfaFJpd3E5QnRxazFRQ2xrQmc?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-23T14:11:51+00:00",
-      "category": "semiconductor",
-      "age_hours": 38.3,
-      "freshness_score": 23,
-      "headline_tone": "혼재/불명",
-      "sectors": [
-        "반도체/AI"
-      ]
-    },
-    {
-      "title": "US futures climb as technology recovers from brutal sell-off last week - KSN.com",
+      "title": "US futures climb as technology recovers from brutal sell-off last week - KSN-TV",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzRKN24zRkVwMEdGM0x2QmdQM1VlSm5PMUI1dV9RVmptT3JYWGloeW5aYkN0a1NXMlhza2k4ai1HM3VmUTYyQkJ2a21iRTBuR0h5X2VZOUhOcVN1VXdyek96UUF0b0gwbF9QSmxRUFRaZ1k5Y3l4SmhOMTYtSXZGT1BfSkhUQ19BQzFfYk1yNGp3bkNHYjZHcU44RGZxWkZkMWxmVTJB0gGrAUFVX3lxTE9EZzJRYWF6Q2ZHdkc0dkl4NDRsRFJXdGZaOXhpS25Xc0dBYWRxbURNbVdjYUtaS1hBd3VJay1PWTFGUnhHblR2MFY3S21fTHJtWFluYTNJQmtUOWdhWWFfTkRYWF9ETTVOYnZLX2tqQUV1c2RQYlpaakhlT2NOdGdpVThzVGd0QXExeUJqeUlXUXNRcTNOUmJLeU5aaXM4MmNYdDhTaWxoRnUtQQ?oc=5",
-      "source": "KSN.com",
+      "source": "KSN-TV",
       "published_at_utc": "2026-11-23T12:43:42+00:00",
       "category": "korea",
-      "age_hours": 39.7,
-      "freshness_score": 21,
+      "age_hours": 39.9,
+      "freshness_score": 20,
       "headline_tone": "부정 표현",
       "sectors": []
     },
@@ -166,8 +166,8 @@
       "source": "Al Jazeera",
       "published_at_utc": "2026-11-23T09:21:03+00:00",
       "category": "korea",
-      "age_hours": 43.1,
-      "freshness_score": 14,
+      "age_hours": 43.3,
+      "freshness_score": 13,
       "headline_tone": "혼재/불명",
       "sectors": [
         "반도체/AI"
@@ -179,7 +179,7 @@
       "source": "The Motley Fool",
       "published_at_utc": "2026-11-23T06:30:02+00:00",
       "category": "semiconductor",
-      "age_hours": 46.0,
+      "age_hours": 46.1,
       "freshness_score": 8,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -192,7 +192,7 @@
       "source": "CNBC",
       "published_at_utc": "2026-11-23T05:58:40+00:00",
       "category": "korea",
-      "age_hours": 46.5,
+      "age_hours": 46.7,
       "freshness_score": 7,
       "headline_tone": "혼재/불명",
       "sectors": [
@@ -205,8 +205,8 @@
       "source": "MySA",
       "published_at_utc": "2026-11-23T04:52:48+00:00",
       "category": "korea",
-      "age_hours": 47.6,
-      "freshness_score": 5,
+      "age_hours": 47.8,
+      "freshness_score": 4,
       "headline_tone": "부정 표현",
       "sectors": []
     }
