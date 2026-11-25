@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-24T16:00:09.227250+09:00",
+  "generated_at_kst": "2026-11-25T13:28:32.205316+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-24T15:26:35.744101+09:00",
+  "market_snapshot_at": "2026-11-25T13:28:31.958451+09:00",
   "news_snapshot_at": "2026-11-24T14:53:12.637758+09:00",
-  "market_snapshot_age_hours": 0.56,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-24T06:30:00+09:00",
-  "briefing_delay_minutes": 570.2,
-  "briefing_deadline_delay_minutes": 510.2,
+  "scheduled_briefing_at_kst": "2026-11-25T06:30:00+09:00",
+  "briefing_delay_minutes": 418.5,
+  "briefing_deadline_delay_minutes": 358.5,
   "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-24T07:30:00+09:00",
+  "briefing_deadline_at_kst": "2026-11-25T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
     {
       "name": "미국 대형주",
-      "change_percent": 4.729,
-      "market_date": "2026-11-23",
-      "meaning": "상승"
+      "change_percent": -0.499,
+      "market_date": "2026-11-24",
+      "meaning": "하락"
     },
     {
       "name": "반도체",
-      "change_percent": 14.027,
-      "market_date": "2026-11-23",
-      "meaning": "상승"
+      "change_percent": -7.88,
+      "market_date": "2026-11-24",
+      "meaning": "하락"
     },
     {
       "name": "원/달러",
-      "change_percent": -0.106,
-      "market_date": "2026-11-24",
-      "meaning": "원화 강세 방향"
+      "change_percent": 0.174,
+      "market_date": "2026-11-25",
+      "meaning": "원화 약세 방향"
     }
   ],
   "sectors": [
@@ -39,19 +39,19 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "view": "방향 확인 필요",
+      "view": "변동성 주의",
       "basis": "필라델피아 반도체지수와 최근 뉴스 제목"
     },
     {
       "name": "미국 대형주 연동",
       "related_stocks": [],
-      "view": "우호적 참고",
+      "view": "방향 확인 필요",
       "basis": "S&P500 종가 방향"
     },
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "원화 강세 참고",
+      "view": "환율 변동 확인",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -81,12 +81,6 @@
       "published_at_utc": "2026-11-23T13:21:00+00:00"
     },
     {
-      "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-22T12:04:00+00:00"
-    },
-    {
       "title": "Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMXVxc0VLV0ZaMlpMaV9FeV9NdlpaS3RvY3djYjNDTktRZXBhM3ROd2hZWjE2OTJTMmR1REdGRUhpY2dqTXhRdXhGeDRIb21LNG11Ni1wSnZxY1NwbzBOQldieFprbWppUVpvemItb2ktOU5fZEdRVGk0dldSb2JVSkJQX19YM1hjUXVZNXBmcms5R2FOU09Eb0Z1T25EdXB1QzFESllWYVFjNE82Q1NmWGtyQTR4R0VtQmFodzRTWWVPQkRqdFNEU3FDdFFrcW04dXF5Q09HSENzbUE1bzB3LS1n?oc=5",
       "source": "The Motley Fool",
@@ -103,6 +97,12 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZlhLZ29WWnE2WjZaN3Y1NE1WMEJ4Uk14X2k3M0tybVR2TFBIMktTbUVNemlubWNhU3BiX040czFzSFJMb1ZxZ0hlR3hkNW1ub00taUF3SW84UzRrQkhNWEtsak5RQVdTOTI1eUJ1MWtGQ2JkYjNIbTJjQXZCTndIOGlLUkJhdzNRTWQzQmc3cUd1ajJzZ3gzaE5xV1RSZ054ZGtDVEFvVUVMM3VEU1ptUUN6ZE0wdw?oc=5",
       "source": "Bloomberg.com",
       "published_at_utc": "2026-11-24T03:00:00+00:00"
+    },
+    {
+      "title": "Huang's return could lift Korean chip stocks, Daishin Securities says - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM1dwVUNoRlNiQ01EXzI1S0xrTC1DckdPeUEtQl9iNm1YT0RUS0p2dXBsbXdZdGRpV2c1VlVZdUpZR1JsbWhFMFFpQW1ndlZHU2hKdmhOeHZQaVNuQl9QRmIyRi04Rk9TSHRFMy02U2JfRUI1VnBFcFBjUGllMkJZctIBlAFBVV95cUxOQ1ZfeFRZcjRfdmhfdzc4eDJaWlpnQXhVZVMwV0sxU29Tb2NJbnBnM1N6ZVVlOEg5cFdjV2haWS1kV3QwVDBFcVRMbVF6Y3BZNmhjN1RuTGxITEU0Ti1KOU85UmpWR0tObXRDRGV4UVl0WWdBYjg3czQ2SThqSTJ2SmhWVng4aVpUQXZjT1ZBM2tsQ3Vt?oc=5",
+      "source": "Chosunbiz",
+      "published_at_utc": "2026-11-23T23:32:00+00:00"
     }
   ],
   "news_snapshot_fresh": true,
