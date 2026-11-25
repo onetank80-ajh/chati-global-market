@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-25T13:38:02.214593+09:00",
+  "generated_at_kst": "2026-11-25T13:50:55.134383+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-25T13:38:02.075576+09:00",
-  "news_snapshot_at": "2026-11-25T13:28:36.333182+09:00",
+  "market_snapshot_at": "2026-11-25T13:50:54.996720+09:00",
+  "news_snapshot_at": "2026-11-25T13:38:05.394167+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-25T06:30:00+09:00",
-  "briefing_delay_minutes": 428.0,
-  "briefing_deadline_delay_minutes": 368.0,
+  "briefing_delay_minutes": 440.9,
+  "briefing_deadline_delay_minutes": 380.9,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-25T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -75,16 +75,16 @@
       "published_at_utc": "2026-11-25T01:18:36+00:00"
     },
     {
+      "title": "Wall Street Ends Mixed as Nasdaq and S&P 500 Fall Amid Renewed AI Sell-Off; Dow Jones Gains 423 Points - Kotak Neo",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd2cwbHRfcDZoTzRFZGVScFY2MDh6TXdNVHhvYmpaU2ZGSnhUZEk5eG5wTDVGMU9QSU5rdTNzTngzdVpOdDk2bkJ1RTFXdTBrM0xuaDVSbWdIYU9OQTZRaXlOU0hjcUhaTXBEX25yRVF3OEcxV3d3UjgxWUVWZTlJUV8xa0RuaS00S0p5c1hWVUdWVFVQejBpNU1OTGUwQmxQSjdreTc2ZDZjeHF5V1NObXAyVnpTTGhrS1VkRUdYUHdOTnFCM1h3NnhyRkJpdw?oc=5",
+      "source": "Kotak Neo",
+      "published_at_utc": "2026-11-25T04:25:03+00:00"
+    },
+    {
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Fall After Scott Bessent Unveils Fresh Iran Sa - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:22:00+00:00"
-    },
-    {
-      "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Nvidia Drops 5.5% - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczRlU2MySEY5bkZvWG4xTDJBVXpsQnlhcGZ1MTZvTWZRV3dtNWM3X0dhYzN4ZGk0a2lVMzJZbk5GMk1DUzdnaG1xVmJ4TWl2RklOYklWZE5Uc01NakdkczNRam9sVVFYcVh5aU8xTWlOUm1sVVFyLTFuX01MLXVmZGtWcmd3bGxfaGlaU1IzN1VWdFphaEJoNmt3?oc=5",
-      "source": "Coinpaper",
-      "published_at_utc": "2026-11-24T15:04:14+00:00"
     },
     {
       "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
@@ -93,16 +93,16 @@
       "published_at_utc": "2026-11-25T01:45:15+00:00"
     },
     {
-      "title": "Nvidia soars 25% as board reinstates Jensen Huang as CEO - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUFrVFV3UmgxTVhmTUZmRVJ2VnZUOXF5cWN0MEdzSklTZUVYSUd1bXVQZGJSVUJSWHlPNzBlNGkwQjVRSThRV01hSld0N2F2dnU4SmxYY1MxNlVRYk5EWUg0SktCWVhJSElxbjlMTzB1V2xUeUlGc0ZGYUpuV1MxWE1qdzU0RkIxaE5Tb283WHRBTnlFMC1SQy1pWGhnRTZRTmdaTko2YUt5djRJbTBBUTdINEwtZHhiWWVqcElMTXJfaFJpd3E5QnRxazFRQ2xrQmc?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-23T14:11:51+00:00"
-    },
-    {
       "title": "Micron Stock Drops After Monday’s Surge as Nvidia Scrutiny Hits Chipmakers - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRHBRR3ozWWtCTmVrLTdaNHBiUy0zTlk3WVFYNHZpWDBUWkhBYmg3a0haclJwNXRLWW96RklNUVJncnNCTl9EaDBlanYzMEV1QkZvTlA5X0dpeVJaaWlwRGJFazVoLUJfTXhwQTFJV2VUeFRqcHBVV3dmUDQ2bmg3M2RDTHpWZXRjWHBNZ0lma2lqRHhQOFI1bm9jSHI3QjlXODh6eThxRE5uS05EN3JvSWpfSnJHUzFRMFJZYzh3TVVBTUFP?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-24T13:40:25+00:00"
+    },
+    {
+      "title": "Why Diodes (DIOD) Stock Is Up Today: Chip Rally After Nvidia's CEO Return - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMlRLN3BmS09SQnU2c09ESjBWV1h3UXVVeEdTM1J6QlFzOXBST3h6cGNfRHFaZDRMTXJELTdqSXVPZWR6cGtGLUN3emU5RzhWZWRRems5OVdjZnVaXzQxMWRuamNvYi1fNWFYTm5PTENDdjRVc2VxNkVlYTlYa1ZRaFpIbmpGd2RWd241LVV3UjB5ZDB1WnVr?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-23T18:00:47+00:00"
     }
   ],
   "news_snapshot_fresh": true,

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T04:38:02.075576+00:00",
-  "generated_at_kst": "2026-11-25T13:38:02.075576+09:00",
+  "generated_at_utc": "2026-11-25T04:50:54.996720+00:00",
+  "generated_at_kst": "2026-11-25T13:50:54.996720+09:00",
   "data_kind": "daily_close_snapshot_not_live",
   "source": "Yahoo Finance via yfinance (unofficial, may be delayed)",
   "markets": {
