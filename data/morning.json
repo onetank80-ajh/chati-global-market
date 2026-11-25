@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-25T13:28:32.205316+09:00",
+  "generated_at_kst": "2026-11-25T13:38:02.214593+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-25T13:28:31.958451+09:00",
-  "news_snapshot_at": "2026-11-24T14:53:12.637758+09:00",
+  "market_snapshot_at": "2026-11-25T13:38:02.075576+09:00",
+  "news_snapshot_at": "2026-11-25T13:28:36.333182+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-25T06:30:00+09:00",
-  "briefing_delay_minutes": 418.5,
-  "briefing_deadline_delay_minutes": 358.5,
+  "briefing_delay_minutes": 428.0,
+  "briefing_deadline_delay_minutes": 368.0,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-25T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.174,
+      "change_percent": 0.146,
       "market_date": "2026-11-25",
       "meaning": "원화 약세 방향"
     }
@@ -57,52 +57,52 @@
   ],
   "headlines": [
     {
-      "title": "U.S. stocks see best day since April 2025; Nasdaq ends +6.5% - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMWZYQ2dIYUJxUWlyV21qaXFiUGpzT3Qwa0g1Mm9tLW1yVEhFcDBleU9DMm5BV20tR0lhVXIyWG5pRUhGdlhPUXFEU2xKcFlIY3F4X2VqT3NjblJMWTdOVzY1THlfVlpvYmdOVDVvUFFCSGtVZUx1NVh6NzZ6TjlYVDJuVzlSUE1rRmZDZ1hTeUQ1WlJrUTdhZXVVSnV1bDFoUlA0VE1qYmJZbnhPWUdTb0s0YklJVXVjUnNj?oc=5",
-      "source": "TradingView",
-      "published_at_utc": "2026-11-23T21:06:57+00:00"
-    },
-    {
-      "title": "US stock market today: Nasdaq Composite surges 6.5% as Nvidia stock jumps 30% - Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkhhLWZsSzRjYjY0NlU1ZDM3ckpSS19QcFFhMVNGYnB6LUpvbVFqYU03ZS16ZHdMa19oT3RMZmlITFFzcEpNc1lEd1VHT3RkVU5wSEU1ekVUcEkwZ19ldDY0emQ3ZTdGZ1l2ZE5wamZOWlBaUGwxZFRhQ0dxOEJ3ZmJsTkRtVFFtcDVCckxXYkN6UQ?oc=5",
-      "source": "Beinsure",
-      "published_at_utc": "2026-11-23T19:24:42+00:00"
-    },
-    {
-      "title": "US Stock Futures Rebound After AI Sell-Off as Nvidia Investigation and Fed Outlook Remain in Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXgtZnR2c0tsWE1NaG9QM2ZBbUJjeFFIN0MtRUpta2s5U2l4bnpsLVZ3ejd5cG84cUttRFJsM21NbTk5UXJJbVNsd0ROTjZmcERHMnV4a3gwV19OdFk2NUQzZEhUaGF5Mk9HMXlRWjl3ZGdGMmlQQzFqS2hPck1RN1JBbXB6N0JOUmdUWmxBenJ0UnpNbEZr?oc=5",
+      "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDZ0bDdjN0JUTWU4T0c1eU5YZGdUckxKMTh3ZHVnd2VkVjQwTWRHWGcxMFA1cTlwMlJrYW9rNXhjV2NheHVzeXZrdHl6alZaNk5ZNzZUdTFNZXNUaXFYQzRWVk02dmtMdVFWTU9ZclBwc1ZOOHhiTmZ4Ym0xRHBmZzU3bFJDdEg0R3BITXkyOXQ?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-23T09:41:19+00:00"
+      "published_at_utc": "2026-11-25T01:42:00+00:00"
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After ANT IPO and Friday’s AI Rout— ORCL - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQkdKYWdvMkZIcGM5V3dMbjEwem4yRmhpVVZ6S2dPRnBLUzh3SFdUMmNEdW84NDZVZDJfV0NJU0Z3WmFLNWh5eC1Ba0dxb0tBcXhxN0ZkdTZwU19hNjdGX0t5Q3h6LVFIOTdEQnZHaGVnM19HMDRpQ3p6TDl1LXR0QWxpRHBxMmZJZjl0OHRwM09FNEJMS1J5aGhYdTZ1M2pXNzF4WE1ZZjZfZjZhbmd6ZWppdUQ2ZGtVYXlLNnVIdGNZZURIYWxwdUUwT1ltTHZPT21CZ1l2ZGtRcFlTeHJSc2tqOHhaUjAwMkhvMGRmOA?oc=5",
+      "title": "US stock market today: Nasdaq and S&P 500 fall as Nvidia and AI stocks slide, Dow gains - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXhISFVWZllNX2ItSVRiWFVqSDFNQzloY29ZNGJjR04wa2lyRWx5Q1Nibjk1SGEzOHNMN0FrU2RiLV9JNW8yQjdHa25EZWRYLXliQzc2RDh5YWRUUHlWX1FRcHpNZmJySFJXM0t1d0lRd1RsSGNpSWF5NTJjNjV4UHR3?oc=5",
+      "source": "Beinsure",
+      "published_at_utc": "2026-11-24T20:08:26+00:00"
+    },
+    {
+      "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNmhWS1NJSjlFMzk5WF9ZWmFQMWtzNkhvY2Qyd3pFZUJpN3dsZFlEVEVTa0R2MHg5emEzV0lzdHAtU0hBRmVTNjVaSU9wQXZrWGFtRGp4UndJZG40Z3dLTEE5dlM0S1BrWXNzS3EtTzg0dV9IUV9PckZLbU51aTNBSFBHcHZfTjRZbG9XS2hhMEZUTU4xbm12WnVnS2hLVXNLbm5JOUhNZk1lMGZ6a0tBd0JLRVhCenRPM095MGpNSmlzSWcwUVE?oc=5",
+      "source": "Investing.com",
+      "published_at_utc": "2026-11-25T01:18:36+00:00"
+    },
+    {
+      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Fall After Scott Bessent Unveils Fresh Iran Sa - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5",
       "source": "Benzinga",
-      "published_at_utc": "2026-11-23T13:21:00+00:00"
+      "published_at_utc": "2026-11-24T13:22:00+00:00"
     },
     {
-      "title": "Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMXVxc0VLV0ZaMlpMaV9FeV9NdlpaS3RvY3djYjNDTktRZXBhM3ROd2hZWjE2OTJTMmR1REdGRUhpY2dqTXhRdXhGeDRIb21LNG11Ni1wSnZxY1NwbzBOQldieFprbWppUVpvemItb2ktOU5fZEdRVGk0dldSb2JVSkJQX19YM1hjUXVZNXBmcms5R2FOU09Eb0Z1T25EdXB1QzFESllWYVFjNE82Q1NmWGtyQTR4R0VtQmFodzRTWWVPQkRqdFNEU3FDdFFrcW04dXF5Q09HSENzbUE1bzB3LS1n?oc=5",
-      "source": "The Motley Fool",
-      "published_at_utc": "2026-11-23T22:00:02+00:00"
+      "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Nvidia Drops 5.5% - Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczRlU2MySEY5bkZvWG4xTDJBVXpsQnlhcGZ1MTZvTWZRV3dtNWM3X0dhYzN4ZGk0a2lVMzJZbk5GMk1DUzdnaG1xVmJ4TWl2RklOYklWZE5Uc01NakdkczNRam9sVVFYcVh5aU8xTWlOUm1sVVFyLTFuX01MLXVmZGtWcmd3bGxfaGlaU1IzN1VWdFphaEJoNmt3?oc=5",
+      "source": "Coinpaper",
+      "published_at_utc": "2026-11-24T15:04:14+00:00"
     },
     {
-      "title": "Taiwan Semiconductor Rallies 17% as Jensen Huang's Return to NVIDIA Lifts Chip Stocks; Intel Surges 15%, AMD Jumps 8% - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPY3NBa1ZIRXJyUHFCWERaWWxiTGFoRW53aGY2Q1pqUzZQNmpiVGpQdG00T2hzVWpQNEN4Q0JBYlRja3FvdWhKaHpxVjVxQjRfQnlwRmc1Tm0tMFVVQjVNTzUzM29rbTlwWE5DZDNRYWM3aHQ0NkNzbGhIUExDa1F3MnhibXEwWEc3RzhUUzNIUkYtV1haWGtfYWdzNnlpaHFLU3dQS1R1dDZKVUx1SC1GczJ5UnMyTVF6alEyblVtdmIwdldnQjhIc01OaDgycmpQQ0pNQlBGaVRmWHJMS1ExemxsdFFVNkpLVEZn?oc=5",
-      "source": "24/7 Wall St.",
-      "published_at_utc": "2026-11-23T15:55:00+00:00"
+      "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVc1S3Ata0c3V045ekF3dENHMml5Y1llMmppOEU2UHFSWVRUS1RmalNmMDFPNi0yUHlPaXN1R08tMWlReHItbk02bFRpeWxNYlFpWThWYklXS21JQWZLNXlkYy05bXl3NXhkSmRnR256cVYxalEwZUh6ekdMclBrSmtEWmtWZWRRamM0dVhtY3l4M2xEd00wOXF1bXVBbnN6czQ4YnRfYnhaTXhB?oc=5",
+      "source": "Startup Fortune",
+      "published_at_utc": "2026-11-25T01:45:15+00:00"
     },
     {
-      "title": "Asian Chip Stocks Set to Jump as Huang Comeback Refires AI Trade - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZlhLZ29WWnE2WjZaN3Y1NE1WMEJ4Uk14X2k3M0tybVR2TFBIMktTbUVNemlubWNhU3BiX040czFzSFJMb1ZxZ0hlR3hkNW1ub00taUF3SW84UzRrQkhNWEtsak5RQVdTOTI1eUJ1MWtGQ2JkYjNIbTJjQXZCTndIOGlLUkJhdzNRTWQzQmc3cUd1ajJzZ3gzaE5xV1RSZ054ZGtDVEFvVUVMM3VEU1ptUUN6ZE0wdw?oc=5",
-      "source": "Bloomberg.com",
-      "published_at_utc": "2026-11-24T03:00:00+00:00"
+      "title": "Nvidia soars 25% as board reinstates Jensen Huang as CEO - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUFrVFV3UmgxTVhmTUZmRVJ2VnZUOXF5cWN0MEdzSklTZUVYSUd1bXVQZGJSVUJSWHlPNzBlNGkwQjVRSThRV01hSld0N2F2dnU4SmxYY1MxNlVRYk5EWUg0SktCWVhJSElxbjlMTzB1V2xUeUlGc0ZGYUpuV1MxWE1qdzU0RkIxaE5Tb283WHRBTnlFMC1SQy1pWGhnRTZRTmdaTko2YUt5djRJbTBBUTdINEwtZHhiWWVqcElMTXJfaFJpd3E5QnRxazFRQ2xrQmc?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-23T14:11:51+00:00"
     },
     {
-      "title": "Huang's return could lift Korean chip stocks, Daishin Securities says - Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM1dwVUNoRlNiQ01EXzI1S0xrTC1DckdPeUEtQl9iNm1YT0RUS0p2dXBsbXdZdGRpV2c1VlVZdUpZR1JsbWhFMFFpQW1ndlZHU2hKdmhOeHZQaVNuQl9QRmIyRi04Rk9TSHRFMy02U2JfRUI1VnBFcFBjUGllMkJZctIBlAFBVV95cUxOQ1ZfeFRZcjRfdmhfdzc4eDJaWlpnQXhVZVMwV0sxU29Tb2NJbnBnM1N6ZVVlOEg5cFdjV2haWS1kV3QwVDBFcVRMbVF6Y3BZNmhjN1RuTGxITEU0Ti1KOU85UmpWR0tObXRDRGV4UVl0WWdBYjg3czQ2SThqSTJ2SmhWVng4aVpUQXZjT1ZBM2tsQ3Vt?oc=5",
-      "source": "Chosunbiz",
-      "published_at_utc": "2026-11-23T23:32:00+00:00"
+      "title": "Micron Stock Drops After Monday’s Surge as Nvidia Scrutiny Hits Chipmakers - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRHBRR3ozWWtCTmVrLTdaNHBiUy0zTlk3WVFYNHZpWDBUWkhBYmg3a0haclJwNXRLWW96RklNUVJncnNCTl9EaDBlanYzMEV1QkZvTlA5X0dpeVJaaWlwRGJFazVoLUJfTXhwQTFJV2VUeFRqcHBVV3dmUDQ2bmg3M2RDTHpWZXRjWHBNZ0lma2lqRHhQOFI1bm9jSHI3QjlXODh6eThxRE5uS05EN3JvSWpfSnJHUzFRMFJZYzh3TVVBTUFP?oc=5",
+      "source": "Benzinga",
+      "published_at_utc": "2026-11-24T13:40:25+00:00"
     }
   ],
   "news_snapshot_fresh": true,
