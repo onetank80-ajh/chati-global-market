@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-26T03:47:58.137324+00:00",
-  "generated_at_kst": "2026-11-26T12:47:58.137324+09:00",
+  "generated_at_utc": "2026-11-26T04:02:18.677771+00:00",
+  "generated_at_kst": "2026-11-26T13:02:18.677771+09:00",
   "source": "Google News public RSS (headlines/links; not verified article contents)",
   "news_kind": "headline_links_not_ai_analysis",
   "items": [
@@ -21,6 +21,13 @@
     },
     {
       "category": "us_market",
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Tech Rebounds After Selloff: DIS, VRTX, DE, CHTR In Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSVNyM2hLaWRkcy1pZFRBMTBIQzd4MjlZbE10Q3dTREVhcU5JRjk3ZnFmMjdYMHo1dENuT1FlVmNxWVdnc1FoWWp3UXo3ME1qcXRyeGlIZjJ5aVg3NS1ZUjZ3akZJRUFVSEFZS0VLMTlLaDI0M3lpR2xBbWRtQ1pVMTZvSGtWSmx4N0dOc1lSc191eDFhcDM2SV9yeENsOW9tNHdKUkZSajlTTzNWMThXQVVNN3R3Yml2MHRFVVFSUG9qeFMxVy1Oekx0ODl4cHlfZTM1WnV6ajd5aVBhYzQ4TEtwR0pvRXF3am5TdQ?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-26T03:14:00+00:00"
+    },
+    {
+      "category": "us_market",
       "title": "S&P 500 Pares Losses on Beige Book: 10 Tech Stocks Rebound - State Street SPDR S&P 500 ETF Trust (ARCA:SP - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVHJDVjhhVjFUYXB1U2xsamF2akNBT00yNjBHRmhERDRfRUpHS1Nlc0dHay1YRDhLa19hYWF3cTZKc2VneWl6Y1lRZUFqc0RLTGhnR0duUlVFLXNoWGN6R2NMdlBqUVdNMnhYRC1NRjNwalpTR2JINjB2UW5mRGFDMTRJY0FMZW4wV0RpQ3d3eEZjQ3JkY3FFZlpKQkdkaEdiTTR0U3VmbG1SZi1tSGxsd3gyU1FOV2N0WFhCa3ZGU3lwZw?oc=5",
       "source": "Benzinga",
@@ -32,13 +39,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGpQbmpTQ21uWW1aNi1HbjVmNC12MGl1bDNuYVhnTm81aWVYeUllVmhTeGxTdVMycWJRckJhQTY5dzlTSWF5YXB0enhwRjQ3eFc2Umhfb2RYMjRQaEdnRVBFa1JmVE0yUXhFUzdXWWViMko5QmFTSU52M21XX0trLVNRSmotdl93dWV6OU11ajhtbmwxTm8yTy16QWtud1RVQnZ5azY4ZDRnMjY4OGZIZUtra1YxWEJ5cFRhTkFuOXduUQ?oc=5",
       "source": "TradingKey",
       "published_at_utc": "2026-11-26T01:38:25+00:00"
-    },
-    {
-      "category": "us_market",
-      "title": "S&P 500 & Nasdaq: Can US Stocks Recover From Their Worst November Since 2008? - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPby1LWVQxMEo1UXBFUm1SSnFiWF9VcmxXOGlJbThHeVVmQ1pOX2FkN05FbzBwY1RvNVhYVkh1d3h4SWxUTTFMOFpIZjlmeFRlcFRmcllKaUl5aDNSMnhSTTVFc3oyOEt1N3V0Y3FIaEpLSkJnR19jLUZwTG94bnE4b205UTNadW95OEh0aDBPSEg4SU1ldjRDa0I0QlEtM3BtU1NPbVpnYno3ci1XT3c?oc=5",
-      "source": "Coinpaper",
-      "published_at_utc": "2026-11-25T19:34:59+00:00"
     },
     {
       "category": "semiconductor",
@@ -56,13 +56,6 @@
     },
     {
       "category": "semiconductor",
-      "title": "How the Anthropic IPO could affect Amazon, Google, Nvidia and AI stocks - www.equiti.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3VEREZZcnNIU0FLaDhXR1ZZRUI3SnZ0V1NBbUR6dXpPWXlYaWtZeTZJY01tQVh3TjUzYWhWeUwzQkFwckEwMmFnR2JmbHVqSWdmT2JoN1d2cmxyMVNOa1NjUVd0VDROVnlfNW5TVDNSWnA5SThIYzlQR2ltU0hyRTZiblZtTjdtbmw1c3NRVUNVcTdsRlNZMW16TjJxYWx2Y3c?oc=5",
-      "source": "www.equiti.com",
-      "published_at_utc": "2026-11-25T16:06:47+00:00"
-    },
-    {
-      "category": "semiconductor",
       "title": "Chip Stock Sell-Off Deepens as Nvidia Falls 7% and Nasdaq 100 Nears Bear Market - Dawan Africa",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV2JobWxlVENidXhhU3NXWWhnSXlZMXBibkk1dnRYcHNlb1VkUjdyaENJemhWYUt2b0FpUHFWSmVzcVVDQXRpQldiblc4cXl5UW1USEhhazZocmFaYXdUcHJLaC1VUUJnTFMybEhjamJrVkIzeVNTSElsZlRXOXdTRXRlVXFzajdWcVJoaUVGUEVCZVNhS1RlcnlJVEE0Z1VmQl9vMW9BRjVobDR4bWtkZi1HR0hOZw?oc=5",
       "source": "Dawan Africa",
@@ -74,6 +67,13 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcnBrSnhaQ1QxUUdqN3lZSlNnVkRUUklZeXhMbHBtMEZsZE10bmxwYmNOOTl1UFJUR1gxSVFjaVJ0ODZ2TXRleFlGVzRVMFI5Q2V6cHdScmRmZWxmajNHaHVVeEFYZGhZREpkVFNUdXV3M0kwRzFJaFE1YktHdEU2SHlYY1ZtV1JRNXZqQlloZFlsREN0NUNSZQ?oc=5",
       "source": "The Defiant",
       "published_at_utc": "2026-11-25T16:15:41+00:00"
+    },
+    {
+      "category": "semiconductor",
+      "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVc1S3Ata0c3V045ekF3dENHMml5Y1llMmppOEU2UHFSWVRUS1RmalNmMDFPNi0yUHlPaXN1R08tMWlReHItbk02bFRpeWxNYlFpWThWYklXS21JQWZLNXlkYy05bXl3NXhkSmRnR256cVYxalEwZUh6ekdMclBrSmtEWmtWZWRRamM0dVhtY3l4M2xEd00wOXF1bXVBbnN6czQ4YnRfYnhaTXhB?oc=5",
+      "source": "Startup Fortune",
+      "published_at_utc": "2026-11-25T01:45:15+00:00"
     },
     {
       "category": "korea",
