@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-26T12:47:54.794594+09:00",
+  "generated_at_kst": "2026-11-26T13:04:16.955805+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-26T12:47:54.649445+09:00",
-  "news_snapshot_at": "2026-11-26T12:42:16.327267+09:00",
+  "market_snapshot_at": "2026-11-26T13:04:16.845989+09:00",
+  "news_snapshot_at": "2026-11-26T13:02:18.677771+09:00",
   "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-26T06:30:00+09:00",
-  "briefing_delay_minutes": 377.9,
-  "briefing_deadline_delay_minutes": 317.9,
+  "briefing_delay_minutes": 394.3,
+  "briefing_deadline_delay_minutes": 334.3,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-26T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.062,
+      "change_percent": 0.036,
       "market_date": "2026-11-26",
       "meaning": "원화 약세 방향"
     }
@@ -69,6 +69,12 @@
       "published_at_utc": "2026-11-25T20:43:55+00:00"
     },
     {
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Tech Rebounds After Selloff: DIS, VRTX, DE, CHTR In Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSVNyM2hLaWRkcy1pZFRBMTBIQzd4MjlZbE10Q3dTREVhcU5JRjk3ZnFmMjdYMHo1dENuT1FlVmNxWVdnc1FoWWp3UXo3ME1qcXRyeGlIZjJ5aVg3NS1ZUjZ3akZJRUFVSEFZS0VLMTlLaDI0M3lpR2xBbWRtQ1pVMTZvSGtWSmx4N0dOc1lSc191eDFhcDM2SV9yeENsOW9tNHdKUkZSajlTTzNWMThXQVVNN3R3Yml2MHRFVVFSUG9qeFMxVy1Oekx0ODl4cHlfZTM1WnV6ajd5aVBhYzQ4TEtwR0pvRXF3am5TdQ?oc=5",
+      "source": "TradingView",
+      "published_at_utc": "2026-11-26T03:14:00+00:00"
+    },
+    {
       "title": "S&P 500 Pares Losses on Beige Book: 10 Tech Stocks Rebound - State Street SPDR S&P 500 ETF Trust (ARCA:SP - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVHJDVjhhVjFUYXB1U2xsamF2akNBT00yNjBHRmhERDRfRUpHS1Nlc0dHay1YRDhLa19hYWF3cTZKc2VneWl6Y1lRZUFqc0RLTGhnR0duUlVFLXNoWGN6R2NMdlBqUVdNMnhYRC1NRjNwalpTR2JINjB2UW5mRGFDMTRJY0FMZW4wV0RpQ3d3eEZjQ3JkY3FFZlpKQkdkaEdiTTR0U3VmbG1SZi1tSGxsd3gyU1FOV2N0WFhCa3ZGU3lwZw?oc=5",
       "source": "Benzinga",
@@ -79,12 +85,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGpQbmpTQ21uWW1aNi1HbjVmNC12MGl1bDNuYVhnTm81aWVYeUllVmhTeGxTdVMycWJRckJhQTY5dzlTSWF5YXB0enhwRjQ3eFc2Umhfb2RYMjRQaEdnRVBFa1JmVE0yUXhFUzdXWWViMko5QmFTSU52M21XX0trLVNRSmotdl93dWV6OU11ajhtbmwxTm8yTy16QWtud1RVQnZ5azY4ZDRnMjY4OGZIZUtra1YxWEJ5cFRhTkFuOXduUQ?oc=5",
       "source": "TradingKey",
       "published_at_utc": "2026-11-26T01:38:25+00:00"
-    },
-    {
-      "title": "S&P 500 & Nasdaq: Can US Stocks Recover From Their Worst November Since 2008? - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPby1LWVQxMEo1UXBFUm1SSnFiWF9VcmxXOGlJbThHeVVmQ1pOX2FkN05FbzBwY1RvNVhYVkh1d3h4SWxUTTFMOFpIZjlmeFRlcFRmcllKaUl5aDNSMnhSTTVFc3oyOEt1N3V0Y3FIaEpLSkJnR19jLUZwTG94bnE4b205UTNadW95OEh0aDBPSEg4SU1ldjRDa0I0QlEtM3BtU1NPbVpnYno3ci1XT3c?oc=5",
-      "source": "Coinpaper",
-      "published_at_utc": "2026-11-25T19:34:59+00:00"
     },
     {
       "title": "US Semiconductor Stocks Extend Losses as AI Investment Concerns, Tariff Risks and Rate Expectations Weigh on Markets - Yahoo Finance",
