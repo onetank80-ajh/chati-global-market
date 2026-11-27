@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-26T05:15:42.068797+00:00",
+  "generated_at_utc": "2026-11-27T03:43:51.946028+00:00",
   "analysis_kind": "rule_based_headlines_only_no_translation_no_ai_no_prediction",
   "headline_count_before": 15,
-  "headline_count_after": 15,
+  "headline_count_after": 14,
   "news_snapshot_fresh": true,
-  "market_snapshot_at": "2026-11-26T13:25:45.009686+09:00",
+  "market_snapshot_at": "2026-11-27T12:43:51.838395+09:00",
   "market_signals": {
     "sp500": {
       "change_percent": -0.254,
@@ -18,8 +18,8 @@
       "status": "ok"
     },
     "usdkrw": {
-      "change_percent": 0.019,
-      "market_date": "2026-11-26",
+      "change_percent": -0.224,
+      "market_date": "2026-11-27",
       "status": "ok"
     },
     "nasdaq": {
@@ -47,7 +47,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
@@ -57,8 +57,8 @@
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00TkN5MENSVmRWV1VjNlhXbHI3cndwV0txaDFSTVpJdUpZbmRrQ214dU5fS0JaVVZMTWNVMFJpbHltMDhKN3pCZFN4R3ZMeGd4QlVpQnBNM0lTeGotMW5ONFBUTQ?oc=5",
       "source": "BeInCrypto",
       "published_at_utc": "2026-11-26T01:55:00+00:00",
-      "age_hours": 3.3,
-      "relevance_score": 99,
+      "age_hours": 25.8,
+      "relevance_score": 92,
       "tags": [
         "한국시장 직접언급",
         "반도체/AI",
@@ -72,8 +72,8 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcUZtR2dabmhGSHhheEpmSk5Ea044V09pUzl2cVo2YkhZVUJHdGl3Wlp5dXFWOXRNd2FYT19kZVlYTUxNalE1RFYwaTRfMkJNSXp1bUxBWEZ3NnljU0J5SFRQYXprVkFDbC11Y1d2TnRzcW10VjZPSTZVMjRWYVBDSmhUWQ?oc=5",
       "source": "Beinsure",
       "published_at_utc": "2026-11-25T20:43:55+00:00",
-      "age_hours": 8.5,
-      "relevance_score": 73,
+      "age_hours": 31.0,
+      "relevance_score": 65,
       "tags": [
         "반도체/AI",
         "거시경제"
@@ -86,8 +86,8 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdHZMOTU3Q0l3aXlRSi1WdW1kVkVxZWo3WW1uRGZSRTlTOEFfTjliZzB5ck1fdEhXdXNrVk94ZGVhOXBmVW9KcU5zQ2l4V0l6N3Q4T0xwNVJhY2R6TFNNNzdWYXN5NVI0RHYwQnY3NUxkbFUxQlJpdGdwTkFjU3pIUGVXc24zT1lvTkQzaVVtWWhycVJ0eWRwQldKakU3bFE?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-25T11:34:27+00:00",
-      "age_hours": 17.7,
-      "relevance_score": 60,
+      "age_hours": 40.2,
+      "relevance_score": 52,
       "tags": [
         "반도체/AI",
         "거시경제"
@@ -100,8 +100,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CT3hTLVpnckRzcmpuZ3ZNdTB3dHJPMU1oQkE3QjBpdXJ2YkpBNVdVZEtCT0FJakJXWG5lWUp2dGJkd3JxSDViMG9LZGVXdC1iRnppRV9HYWU1Y0FZcnVRdVE0V2FieDJMdFdFVVhrTmNEX2R2?oc=5",
       "source": "Businesskorea",
       "published_at_utc": "2026-11-26T02:19:01+00:00",
-      "age_hours": 2.9,
-      "relevance_score": 55,
+      "age_hours": 25.4,
+      "relevance_score": 47,
       "tags": [
         "한국시장 직접언급"
       ],
@@ -113,8 +113,8 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGpQbmpTQ21uWW1aNi1HbjVmNC12MGl1bDNuYVhnTm81aWVYeUllVmhTeGxTdVMycWJRckJhQTY5dzlTSWF5YXB0enhwRjQ3eFc2Umhfb2RYMjRQaEdnRVBFa1JmVE0yUXhFUzdXWWViMko5QmFTSU52M21XX0trLVNRSmotdl93dWV6OU11ajhtbmwxTm8yTy16QWtud1RVQnZ5azY4ZDRnMjY4OGZIZUtra1YxWEJ5cFRhTkFuOXduUQ?oc=5",
       "source": "TradingKey",
       "published_at_utc": "2026-11-26T01:38:25+00:00",
-      "age_hours": 3.6,
-      "relevance_score": 54,
+      "age_hours": 26.1,
+      "relevance_score": 47,
       "tags": [
         "반도체/AI"
       ],
@@ -126,8 +126,8 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV2JobWxlVENidXhhU3NXWWhnSXlZMXBibkk1dnRYcHNlb1VkUjdyaENJemhWYUt2b0FpUHFWSmVzcVVDQXRpQldiblc4cXl5UW1USEhhazZocmFaYXdUcHJLaC1VUUJnTFMybEhjamJrVkIzeVNTSElsZlRXOXdTRXRlVXFzajdWcVJoaUVGUEVCZVNhS1RlcnlJVEE0Z1VmQl9vMW9BRjVobDR4bWtkZi1HR0hOZw?oc=5",
       "source": "Dawan Africa",
       "published_at_utc": "2026-11-25T17:31:45+00:00",
-      "age_hours": 11.7,
-      "relevance_score": 42,
+      "age_hours": 34.2,
+      "relevance_score": 34,
       "tags": [
         "반도체/AI"
       ],
@@ -139,8 +139,8 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcnBrSnhaQ1QxUUdqN3lZSlNnVkRUUklZeXhMbHBtMEZsZE10bmxwYmNOOTl1UFJUR1gxSVFjaVJ0ODZ2TXRleFlGVzRVMFI5Q2V6cHdScmRmZWxmajNHaHVVeEFYZGhZREpkVFNUdXV3M0kwRzFJaFE1YktHdEU2SHlYY1ZtV1JRNXZqQlloZFlsREN0NUNSZQ?oc=5",
       "source": "The Defiant",
       "published_at_utc": "2026-11-25T16:15:41+00:00",
-      "age_hours": 13.0,
-      "relevance_score": 41,
+      "age_hours": 35.5,
+      "relevance_score": 34,
       "tags": [
         "반도체/AI"
       ],
@@ -152,21 +152,8 @@
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQS2tQd3ZMTjdjOVlKQ3htRTdZTzhJRzNEZnJwNTItTl9GS1o2cWFDQ0hUZ1lzRks5X2RCeEVWMGdOSVpPWkh3OGRhdF9ZNHN4bHo1cmYwWTBIUVJHcWEyQ04zem80dnNUQ0xhZ3ZvaEJKeWdPeUFhTWJSckxYVjhoYWJIdGFQaEFVVVFNekZRc0dfVVNHY0tjYmtfb0FVR1JxUHUxbU02a1pQdjZxMFJnWUYtVTFWOElzaEd0TVNsbHBRcF9JTEZ0OXd5bHMybGtjT0lHcHZEa2MtT01tc1NUa1lhay1RS20wWFByalk3dHdvWmNJRU5SYlNFejlXZnBWbVdCSg?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-25T14:20:42+00:00",
-      "age_hours": 14.9,
-      "relevance_score": 41,
-      "tags": [
-        "반도체/AI"
-      ],
-      "category": "semiconductor",
-      "needs_verification": true
-    },
-    {
-      "title": "Chip stocks give back the Jensen Huang rally as the semiconductor index drops 7.9% - Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVc1S3Ata0c3V045ekF3dENHMml5Y1llMmppOEU2UHFSWVRUS1RmalNmMDFPNi0yUHlPaXN1R08tMWlReHItbk02bFRpeWxNYlFpWThWYklXS21JQWZLNXlkYy05bXl3NXhkSmRnR256cVYxalEwZUh6ekdMclBrSmtEWmtWZWRRamM0dVhtY3l4M2xEd00wOXF1bXVBbnN6czQ4YnRfYnhaTXhB?oc=5",
-      "source": "Startup Fortune",
-      "published_at_utc": "2026-11-25T01:45:15+00:00",
-      "age_hours": 27.5,
-      "relevance_score": 36,
+      "age_hours": 37.4,
+      "relevance_score": 33,
       "tags": [
         "반도체/AI"
       ],
@@ -178,8 +165,8 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSVNyM2hLaWRkcy1pZFRBMTBIQzd4MjlZbE10Q3dTREVhcU5JRjk3ZnFmMjdYMHo1dENuT1FlVmNxWVdnc1FoWWp3UXo3ME1qcXRyeGlIZjJ5aVg3NS1ZUjZ3akZJRUFVSEFZS0VLMTlLaDI0M3lpR2xBbWRtQ1pVMTZvSGtWSmx4N0dOc1lSc191eDFhcDM2SV9yeENsOW9tNHdKUkZSajlTTzNWMThXQVVNN3R3Yml2MHRFVVFSUG9qeFMxVy1Oekx0ODl4cHlfZTM1WnV6ajd5aVBhYzQ4TEtwR0pvRXF3am5TdQ?oc=5",
       "source": "TradingView",
       "published_at_utc": "2026-11-26T03:14:00+00:00",
-      "age_hours": 2.0,
-      "relevance_score": 30,
+      "age_hours": 24.5,
+      "relevance_score": 22,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -189,8 +176,8 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVHJDVjhhVjFUYXB1U2xsamF2akNBT00yNjBHRmhERDRfRUpHS1Nlc0dHay1YRDhLa19hYWF3cTZKc2VneWl6Y1lRZUFqc0RLTGhnR0duUlVFLXNoWGN6R2NMdlBqUVdNMnhYRC1NRjNwalpTR2JINjB2UW5mRGFDMTRJY0FMZW4wV0RpQ3d3eEZjQ3JkY3FFZlpKQkdkaEdiTTR0U3VmbG1SZi1tSGxsd3gyU1FOV2N0WFhCa3ZGU3lwZw?oc=5",
       "source": "Benzinga",
       "published_at_utc": "2026-11-25T20:15:08+00:00",
-      "age_hours": 9.0,
-      "relevance_score": 27,
+      "age_hours": 31.5,
+      "relevance_score": 20,
       "tags": [],
       "category": "us_market",
       "needs_verification": true
@@ -200,10 +187,21 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-11-25T10:08:00+00:00",
-      "age_hours": 19.1,
-      "relevance_score": 24,
+      "age_hours": 41.6,
+      "relevance_score": 17,
       "tags": [],
       "category": "us_market",
+      "needs_verification": true
+    },
+    {
+      "title": "Stocks, Gold and Bitcoin All Plunge — As Even Safe Havens Wobble, Money Flees to Cash - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IV19zcEFmN3Jzb2NqR2ROOTFCOVFWTG9IeERLbF9aVmVjODhSX1Q1LUF3enJydUUtSzFvNDNfSVpNUC1aS09VS0VkLUNzRmVuMHpVLUtIOEpKREhzd0Jhc0RCRU5aeUZJaXYxNEY5NTVFNzU1Vnc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-11-25T22:55:00+00:00",
+      "age_hours": 28.8,
+      "relevance_score": 11,
+      "tags": [],
+      "category": "korea",
       "needs_verification": true
     }
   ],

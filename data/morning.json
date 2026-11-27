@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-26T14:15:42.109688+09:00",
+  "generated_at_kst": "2026-11-27T12:43:51.976425+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-26T13:25:45.009686+09:00",
+  "market_snapshot_at": "2026-11-27T12:43:51.838395+09:00",
   "news_snapshot_at": "2026-11-26T13:04:20.286947+09:00",
-  "market_snapshot_age_hours": 0.83,
+  "market_snapshot_age_hours": 0.0,
   "market_snapshot_fresh": true,
-  "scheduled_briefing_at_kst": "2026-11-26T06:30:00+09:00",
-  "briefing_delay_minutes": 465.7,
-  "briefing_deadline_delay_minutes": 405.7,
+  "scheduled_briefing_at_kst": "2026-11-27T06:30:00+09:00",
+  "briefing_delay_minutes": 373.9,
+  "briefing_deadline_delay_minutes": 313.9,
   "briefing_late_over_10min": true,
-  "briefing_deadline_at_kst": "2026-11-26T07:30:00+09:00",
+  "briefing_deadline_at_kst": "2026-11-27T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
   "indicators": [
     {
@@ -27,9 +27,9 @@
     },
     {
       "name": "원/달러",
-      "change_percent": 0.019,
-      "market_date": "2026-11-26",
-      "meaning": "원화 약세 방향"
+      "change_percent": -0.224,
+      "market_date": "2026-11-27",
+      "meaning": "원화 강세 방향"
     }
   ],
   "sectors": [
@@ -51,7 +51,7 @@
     {
       "name": "환율 민감 업종",
       "related_stocks": [],
-      "view": "환율 변동 확인",
+      "view": "원화 강세 참고",
       "basis": "원/달러 환율 변화"
     }
   ],
