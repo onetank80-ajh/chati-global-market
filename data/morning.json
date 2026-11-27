@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_kst": "2026-11-27T13:04:00.420548+09:00",
+  "generated_at_kst": "2026-11-27T14:13:29.009826+09:00",
   "analysis_kind": "rule_based_not_ai",
-  "market_snapshot_at": "2026-11-27T13:04:00.264100+09:00",
-  "news_snapshot_at": "2026-11-27T13:00:26.160721+09:00",
-  "market_snapshot_age_hours": 0.0,
+  "market_snapshot_at": "2026-11-27T13:34:32.712944+09:00",
+  "news_snapshot_at": "2026-11-27T13:04:03.336694+09:00",
+  "market_snapshot_age_hours": 0.65,
   "market_snapshot_fresh": true,
   "scheduled_briefing_at_kst": "2026-11-27T06:30:00+09:00",
-  "briefing_delay_minutes": 394.0,
-  "briefing_deadline_delay_minutes": 334.0,
+  "briefing_delay_minutes": 463.5,
+  "briefing_deadline_delay_minutes": 403.5,
   "briefing_late_over_10min": true,
   "briefing_deadline_at_kst": "2026-11-27T07:30:00+09:00",
   "briefing_missed_0730_deadline": true,
@@ -27,7 +27,7 @@
     },
     {
       "name": "원/달러",
-      "change_percent": -0.126,
+      "change_percent": -0.202,
       "market_date": "2026-11-27",
       "meaning": "원화 강세 방향"
     }
@@ -99,10 +99,10 @@
       "published_at_utc": "2026-11-26T06:28:00+00:00"
     },
     {
-      "title": "Tiger Global Heavily Boosts Stakes in 3 AI Chip Stocks; Nvidia Becomes Its Largest Holding - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Dc09zcXhDQTJWMWw3Zjl3RW9PZlVmS0J3LUQyWFJ4djFVRW10aVVGMVZtMGE4NXZZMDJLX2xuQ19yYUVnOVlrMFdNX3NHT2g3ZEZuUXF2OXhKdUlRaHlfdDgxVUNiZl9EcDJkQ0xaWWF3RDJpSUE?oc=5",
-      "source": "BigGo Finance",
-      "published_at_utc": "2026-11-26T07:45:00+00:00"
+      "title": "Kioxia jumps 14% after Nvidia collaboration as chip stocks rebound - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVWZlSnlUMmJwNS1vUnpfYTBTVldQRVA5Q0M2VlMtUDhVekJySGdCbXdpNFRPbjN0RjlheTdyUTBEU01EeVdrdFpzMUppNld1Y1pnUExRNEJSV3k3bDBuZ0hfczZuQ0NjVWFhQmRuOFA0bzJ0dGlvdENvZXZIOGxLUUp0aTNpVlF4ajhJZVA0dTQyRVg5anBwd1lzRHF3U1BHXzVoN2VYNDl4MkdjRmQySzVDODlyZlF2QWo3Yl82UQ?oc=5",
+      "source": "Investing.com",
+      "published_at_utc": "2026-11-26T06:02:30+00:00"
     }
   ],
   "news_snapshot_fresh": true,
